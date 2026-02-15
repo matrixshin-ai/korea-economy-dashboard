@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "거시경제·재정": {
+      "quota": 12,
+      "keywords": [
+        { "keyword": "GDP", "weight": 5 },
+        { "keyword": "성장률", "weight": 5 }
+      ]
+    },
+    "금융시장": {
+      "quota": 5,
+      "keywords": [
+        { "keyword": "금리", "weight": 5 },
+        { "keyword": "환율", "weight": 4 }
+      ]
+    },
+    "산업·과학": {
+      "quota": 4,
+      "keywords": [
+        { "keyword": "반도체", "weight": 5 }
+      ]
+    },
+    "부동산": {
+      "quota": 4,
+      "keywords": [
+        { "keyword": "집값", "weight": 5 }
+      ]
+    },
+    "국제경제": {
+      "quota": 4,
+      "keywords": [
+        { "keyword": "연준", "weight": 5 }
+      ]
+    }
+  }
+}
