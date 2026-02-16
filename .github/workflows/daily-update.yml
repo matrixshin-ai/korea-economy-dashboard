@@ -1,0 +1,50 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # 22:00 UTC = 07:00 KST
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch indicators
+        run: python jobs/fetch_indicators.py
+        continue-on-error: true
+
+      - name: Fetch economic calendar
+        run: python jobs/fetch_economic_calendar.py
+        continue-on-error: true
+
+      - name: Fetch Korea stats
+        run: python jobs/fetch_korea_stats.py
+        continue-on-error: true
+
+      - name: Poll RSS and Naver news
+        run: python jobs/poll.py
+        continue-on-error: true
+
+      - name: Render briefing
+        run: python render.py
+        continue-on-error: true
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add latest_*.json cached_summary_*.json cache_candidates.json kr_bond_history.json || true
+          git diff --staged --quiet || git commit -m "Daily data update $(date +'%Y-%m-%d')"
+          git push
