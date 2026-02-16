@@ -3,14 +3,11 @@ import { join } from "path";
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 const SECTION_MAP: { [key: string]: string } = {
-  "거시경제·정책": "Macro",
-  "거시경제": "Macro",
-  "정책": "Macro",
+  "거시경제·재정": "Macro",
   "금융시장": "Finance",
+  "산업·과학": "Industry",
   "부동산": "RealEstate",
   "국제경제": "International",
-  "기업·과학": "Industry",
-  "기업": "Industry",
   "기타": "Others"
 };
 
