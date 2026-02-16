@@ -7,7 +7,6 @@ import * as fs from "fs";
 import * as path from "path";
 import { exec } from "child_process";
 import { promisify } from "util";
-import { setupAuth, isAuthenticated, registerAuthRoutes } from "./replit_integrations/auth";
 import { GoogleGenAI } from "@google/genai";
 import archiver from "archiver";
 
@@ -371,8 +370,6 @@ export async function registerRoutes(
   app: Express
 ): Promise<Server> {
   
-  await setupAuth(app);
-  registerAuthRoutes(app);
 
   const isAdmin = (req: any, res: any, next: any) => {
     const userEmail = req.user?.claims?.email;
@@ -404,7 +401,7 @@ export async function registerRoutes(
     }
   });
 
-  app.post("/api/essays", isAuthenticated, isAdmin, async (req, res) => {
+  app.post("/api/essays", async (req, res) => {
     try {
       const validationResult = insertEssaySchema.safeParse(req.body);
       if (!validationResult.success) {
@@ -419,7 +416,7 @@ export async function registerRoutes(
     }
   });
 
-  app.patch("/api/essays/:id", isAuthenticated, isAdmin, async (req, res) => {
+  app.patch("/api/essays/:id", async (req, res) => {
     try {
       const id = parseInt(req.params.id);
       const essay = await storage.updateEssay(id, req.body);
@@ -432,7 +429,7 @@ export async function registerRoutes(
     }
   });
 
-  app.delete("/api/essays/:id", isAuthenticated, isAdmin, async (req, res) => {
+  app.delete("/api/essays/:id", async (req, res) => {
     try {
       const id = parseInt(req.params.id);
       const deleted = await storage.deleteEssay(id);
