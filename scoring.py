@@ -23,10 +23,26 @@ NEGATIVE_PENALTY = 15  # Penalty per negative keyword match
 # NEGATIVE KEYWORDS (Apply to ALL categories)
 # =============================================================================
 
-NEGATIVE_KEYWORDS = [
+_DEFAULT_NEGATIVE_KEYWORDS = [
     "연예", "스포츠", "날씨", "사건사고", "교통", "지역행사", "주말나들이", "맛집", "여행", "축제", "공연",
     "영화", "드라마", "아이돌", "결혼", "이혼", "폭행", "살인", "화재", "사고", "실종"
 ]
+
+_NEGATIVE_CACHE: Optional[List[str]] = None
+
+
+def _load_negative_keywords() -> List[str]:
+    """Load negative keywords: DB first, fallback to defaults."""
+    global _NEGATIVE_CACHE
+    if _NEGATIVE_CACHE is not None:
+        return _NEGATIVE_CACHE
+    from src.keyword_rules import load_negative_keywords
+    db_negatives = load_negative_keywords()
+    _NEGATIVE_CACHE = db_negatives if db_negatives else _DEFAULT_NEGATIVE_KEYWORDS
+    return _NEGATIVE_CACHE
+
+
+NEGATIVE_KEYWORDS = _DEFAULT_NEGATIVE_KEYWORDS  # kept for backward compat
 
 # =============================================================================
 # CATEGORY
@@ -192,7 +208,7 @@ def count_negative_matches(title: str, summary: str) -> int:
     text = f"{t} {s}"
 
     count = 0
-    for neg in NEGATIVE_KEYWORDS:
+    for neg in _load_negative_keywords():
         if neg in text:
             count += 1
     return count
