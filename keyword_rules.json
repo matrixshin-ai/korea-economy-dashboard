@@ -4,32 +4,103 @@
       "quota": 12,
       "keywords": [
         { "keyword": "GDP", "weight": 5 },
-        { "keyword": "성장률", "weight": 5 }
+        { "keyword": "성장률", "weight": 5 },
+        { "keyword": "경기침체", "weight": 5 },
+        { "keyword": "경기회복", "weight": 5 },
+        { "keyword": "경기둔화", "weight": 5 },
+        { "keyword": "한국은행", "weight": 5 },
+        { "keyword": "금통위", "weight": 5 },
+        { "keyword": "기준금리", "weight": 5 },
+        { "keyword": "통화정책", "weight": 5 },
+        { "keyword": "기획재정부", "weight": 4 },
+        { "keyword": "소비자물가", "weight": 5 },
+        { "keyword": "생산자물가", "weight": 4 },
+        { "keyword": "인플레이션", "weight": 5 },
+        { "keyword": "물가", "weight": 4 },
+        { "keyword": "경기", "weight": 3 },
+        { "keyword": "재정", "weight": 3 },
+        { "keyword": "세금", "weight": 3 },
+        { "keyword": "세수", "weight": 4 },
+        { "keyword": "예산", "weight": 3 },
+        { "keyword": "국가채무", "weight": 5 },
+        { "keyword": "재정적자", "weight": 5 },
+        { "keyword": "고용", "weight": 3 },
+        { "keyword": "실업률", "weight": 4 },
+        { "keyword": "경상수지", "weight": 4 },
+        { "keyword": "무역수지", "weight": 4 },
+        { "keyword": "수출", "weight": 3 },
+        { "keyword": "수입", "weight": 3 }
       ]
     },
     "금융시장": {
       "quota": 5,
       "keywords": [
         { "keyword": "금리", "weight": 5 },
-        { "keyword": "환율", "weight": 4 }
+        { "keyword": "환율", "weight": 4 },
+        { "keyword": "코스피", "weight": 5 },
+        { "keyword": "코스닥", "weight": 4 },
+        { "keyword": "주가", "weight": 4 },
+        { "keyword": "증시", "weight": 4 },
+        { "keyword": "채권", "weight": 4 },
+        { "keyword": "국채", "weight": 4 },
+        { "keyword": "주식", "weight": 3 },
+        { "keyword": "펀드", "weight": 3 },
+        { "keyword": "ETF", "weight": 3 }
       ]
     },
     "산업·과학": {
       "quota": 4,
       "keywords": [
-        { "keyword": "반도체", "weight": 5 }
+        { "keyword": "반도체", "weight": 5 },
+        { "keyword": "배터리", "weight": 5 },
+        { "keyword": "전기차", "weight": 4 },
+        { "keyword": "자동차", "weight": 3 },
+        { "keyword": "조선", "weight": 4 },
+        { "keyword": "철강", "weight": 4 },
+        { "keyword": "인공지능", "weight": 4 },
+        { "keyword": "로봇", "weight": 3 },
+        { "keyword": "바이오", "weight": 3 },
+        { "keyword": "제약", "weight": 3 },
+        { "keyword": "에너지", "weight": 3 },
+        { "keyword": "원전", "weight": 4 },
+        { "keyword": "석유화학", "weight": 4 },
+        { "keyword": "디스플레이", "weight": 4 }
       ]
     },
     "부동산": {
       "quota": 4,
       "keywords": [
-        { "keyword": "집값", "weight": 5 }
+        { "keyword": "집값", "weight": 5 },
+        { "keyword": "부동산", "weight": 5 },
+        { "keyword": "전세", "weight": 5 },
+        { "keyword": "아파트", "weight": 4 },
+        { "keyword": "주택", "weight": 4 },
+        { "keyword": "분양", "weight": 4 },
+        { "keyword": "월세", "weight": 4 },
+        { "keyword": "재건축", "weight": 4 },
+        { "keyword": "재개발", "weight": 4 },
+        { "keyword": "청약", "weight": 4 },
+        { "keyword": "주담대", "weight": 4 }
       ]
     },
     "국제경제": {
-      "quota": 4,
+      "quota": 5,
       "keywords": [
-        { "keyword": "연준", "weight": 5 }
+        { "keyword": "연준", "weight": 5 },
+        { "keyword": "FOMC", "weight": 5 },
+        { "keyword": "파월", "weight": 5 },
+        { "keyword": "무역전쟁", "weight": 5 },
+        { "keyword": "트럼프", "weight": 4 },
+        { "keyword": "관세", "weight": 4 },
+        { "keyword": "세계경제", "weight": 4 },
+        { "keyword": "IMF", "weight": 4 },
+        { "keyword": "나스닥", "weight": 4 },
+        { "keyword": "다우", "weight": 3 },
+        { "keyword": "글로벌", "weight": 3 },
+        { "keyword": "유럽", "weight": 3 },
+        { "keyword": "중국", "weight": 2 },
+        { "keyword": "미국", "weight": 2 },
+        { "keyword": "일본", "weight": 2 }
       ]
     }
   }
