@@ -81,6 +81,13 @@ jobs:
               sys.exit(1)
           "
 
+      - name: Generate AI briefing summary
+        if: steps.render.outcome == 'success'
+        run: python jobs/generate_summary.py
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: Commit and push updated data
         if: always()
         run: |
