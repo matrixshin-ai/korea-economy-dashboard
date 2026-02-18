@@ -72,10 +72,10 @@ function LoginForm({ onLogin }: { onLogin: () => void }) {
     setError("");
 
     try {
-      const res = await fetch("/api/admin/login", {
+      const res = await fetch("/api/admin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ action: "login", password }),
       });
 
       if (!res.ok) {
@@ -354,7 +354,7 @@ export default function AdminKeywordsPage() {
   const fetchData = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await adminFetch("/api/admin/keywords");
+      const res = await adminFetch("/api/admin");
       if (res.status === 401) {
         clearToken();
         setAuthenticated(false);
@@ -377,9 +377,9 @@ export default function AdminKeywordsPage() {
   const handleSave = async () => {
     setSaving(true);
     try {
-      const res = await adminFetch("/api/admin/keywords", {
+      const res = await adminFetch("/api/admin", {
         method: "PUT",
-        body: JSON.stringify({ categories }),
+        body: JSON.stringify({ action: "update-keywords", categories }),
       });
       if (res.status === 401) {
         clearToken();
@@ -404,9 +404,9 @@ export default function AdminKeywordsPage() {
     if (!name) return;
 
     try {
-      const res = await adminFetch("/api/admin/keywords/category", {
+      const res = await adminFetch("/api/admin", {
         method: "POST",
-        body: JSON.stringify({ name, quota: 5, priority: 0 }),
+        body: JSON.stringify({ action: "add-category", name, quota: 5, priority: 0 }),
       });
       if (res.status === 401) {
         clearToken();
@@ -429,15 +429,16 @@ export default function AdminKeywordsPage() {
     if (!confirm("Are you sure you want to delete this category and all its keywords?")) return;
 
     try {
-      const res = await adminFetch(`/api/admin/keywords/category?id=${catId}`, {
+      const res = await adminFetch("/api/admin", {
         method: "DELETE",
+        body: JSON.stringify({ action: "delete-category", id: catId }),
       });
       if (res.status === 401) {
         clearToken();
         setAuthenticated(false);
         return;
       }
-      if (!res.ok && res.status !== 204) {
+      if (!res.ok) {
         throw new Error("Failed to delete");
       }
       fetchData();
