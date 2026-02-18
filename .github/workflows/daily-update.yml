@@ -34,14 +34,55 @@ jobs:
         continue-on-error: true
 
       - name: Poll RSS and Naver news
+        id: poll
         run: python jobs/poll.py
-        continue-on-error: true
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+
+      - name: Verify poll output
+        if: steps.poll.outcome == 'success'
+        run: |
+          if [ ! -f cache_candidates.json ]; then
+            echo "::error::cache_candidates.json was not created by poll.py"
+            exit 1
+          fi
+          ITEMS=$(python -c "import json; print(len(json.load(open('cache_candidates.json'))))")
+          echo "cache_candidates.json contains $ITEMS items"
+          if [ "$ITEMS" -eq 0 ]; then
+            echo "::warning::cache_candidates.json is empty (0 items)"
+          fi
 
       - name: Render briefing
+        id: render
+        if: steps.poll.outcome == 'success'
         run: python render.py
-        continue-on-error: true
+
+      - name: Verify render output
+        if: steps.render.outcome == 'success'
+        run: |
+          if [ ! -f latest_briefing.json ]; then
+            echo "::error::latest_briefing.json was not created"
+            exit 1
+          fi
+          python -c "
+          import json, sys
+          data = json.load(open('latest_briefing.json'))
+          date = data.get('date', '')
+          top5 = len(data.get('top5', []))
+          sections = len(data.get('sections', {}))
+          print(f'Date: {date}')
+          print(f'Top5 count: {top5}')
+          print(f'Sections count: {sections}')
+          if top5 == 0:
+              print('::warning::top5 is empty')
+          if sections == 0:
+              print('::error::No sections in briefing')
+              sys.exit(1)
+          "
 
       - name: Commit and push updated data
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
