@@ -1,8 +1,6 @@
-import type { Express } from "express";
+import type { Express, Request, Response, NextFunction } from "express";
 import { createServer, type Server } from "http";
-import { storage } from "./storage";
-import { insertEssaySchema } from "@shared/schema";
-import { fromZodError } from "zod-validation-error";
+import * as crypto from "crypto";
 import * as fs from "fs";
 import * as path from "path";
 import { exec } from "child_process";
@@ -12,7 +10,55 @@ import archiver from "archiver";
 
 const execAsync = promisify(exec);
 
-const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "";
+const ESSAYS_PATH = path.join(process.cwd(), "jobs", "data", "essays.json");
+
+// --- Auth helpers ---
+function signToken(): string {
+  const payload = JSON.stringify({ role: "admin", exp: Date.now() + 24 * 60 * 60 * 1000 });
+  const encoded = Buffer.from(payload).toString("base64url");
+  const sig = crypto.createHmac("sha256", ADMIN_PASSWORD).update(encoded).digest("base64url");
+  return `${encoded}.${sig}`;
+}
+
+function verifyToken(token: string): boolean {
+  const parts = token.split(".");
+  if (parts.length !== 2) return false;
+  const [encoded, sig] = parts;
+  const expectedSig = crypto.createHmac("sha256", ADMIN_PASSWORD).update(encoded).digest("base64url");
+  if (sig !== expectedSig) return false;
+  try {
+    const payload = JSON.parse(Buffer.from(encoded, "base64url").toString());
+    return payload.role === "admin" && payload.exp > Date.now();
+  } catch { return false; }
+}
+
+function requireAdmin(req: Request, res: Response, next: NextFunction) {
+  const auth = req.headers.authorization;
+  if (!auth?.startsWith("Bearer ") || !verifyToken(auth.slice(7))) {
+    return res.status(401).json({ message: "Unauthorized" });
+  }
+  next();
+}
+
+// --- Essays JSON helpers ---
+interface EssayItem {
+  id: number;
+  author: string;
+  title: string;
+  content: string;
+  createdAt: string;
+}
+
+function readEssays(): EssayItem[] {
+  try {
+    return JSON.parse(fs.readFileSync(ESSAYS_PATH, "utf-8"));
+  } catch { return []; }
+}
+
+function writeEssays(essays: EssayItem[]) {
+  fs.writeFileSync(ESSAYS_PATH, JSON.stringify(essays, null, 2), "utf-8");
+}
 
 interface RssNewsItem {
   title: string;
@@ -50,28 +96,29 @@ let updateError: string | null = null;
 const UPDATE_CHECK_INTERVAL = 30000;
 const MIN_UPDATE_INTERVAL = 5 * 60 * 1000;
 
-function getMostRecentKST7AM(): Date {
+function getMostRecentKST330PM(): Date {
   const now = new Date();
   const nowUtcMs = now.getTime();
-  
+
   const todayUtcMidnight = Date.UTC(
     now.getUTCFullYear(),
     now.getUTCMonth(),
     now.getUTCDate(),
     0, 0, 0, 0
   );
-  
-  const todayKst7amInUtc = todayUtcMidnight - 2 * 60 * 60 * 1000;
-  
-  if (nowUtcMs >= todayKst7amInUtc) {
-    return new Date(todayKst7amInUtc);
+
+  // KST 15:30 = UTC 06:30
+  const todayKst330pmInUtc = todayUtcMidnight + 6 * 60 * 60 * 1000 + 30 * 60 * 1000;
+
+  if (nowUtcMs >= todayKst330pmInUtc) {
+    return new Date(todayKst330pmInUtc);
   } else {
-    return new Date(todayKst7amInUtc - 24 * 60 * 60 * 1000);
+    return new Date(todayKst330pmInUtc - 24 * 60 * 60 * 1000);
   }
 }
 
 function isDataStale(): { stale: boolean; reason: string; ageHours: number } {
-  const kst7AM = getMostRecentKST7AM();
+  const kst330PM = getMostRecentKST330PM();
   const briefingPath = path.join(process.cwd(), "latest_briefing.json");
   const now = new Date();
 
@@ -93,8 +140,8 @@ function isDataStale(): { stale: boolean; reason: string; ageHours: number } {
       return { stale: true, reason: "older_than_24h", ageHours };
     }
 
-    if (genTime < kst7AM) {
-      return { stale: true, reason: "before_today_7am", ageHours };
+    if (genTime < kst330PM) {
+      return { stale: true, reason: "before_today_330pm", ageHours };
     }
 
     return { stale: false, reason: "fresh", ageHours };
@@ -193,11 +240,11 @@ async function generateSummaries(): Promise<void> {
   
   const newsContent: string[] = [];
   newsContent.push(`Date: ${briefing.date}`);
-  newsContent.push("\n=== Top 5 Stories ===");
-  for (const item of briefing.top5 || []) {
+  newsContent.push("\n=== 오늘의 핵심이슈 (Key Headlines) ===");
+  for (const item of (briefing.headlines || []).slice(0, 5)) {
     newsContent.push(`- ${item.title}: ${item.summary || ''}`);
   }
-  
+
   for (const [section, items] of Object.entries(briefing.sections || {})) {
     newsContent.push(`\n=== ${section} ===`);
     for (const item of (items as any[]).slice(0, 5)) {
@@ -371,75 +418,57 @@ export async function registerRoutes(
 ): Promise<Server> {
   
 
-  const isAdmin = (req: any, res: any, next: any) => {
-    const userEmail = req.user?.claims?.email;
-    if (!userEmail || userEmail !== ADMIN_EMAIL) {
-      return res.status(403).json({ message: "Forbidden: Admin access required" });
+  // --- Auth routes ---
+  app.post("/api/auth/login", (req, res) => {
+    const { password } = req.body || {};
+    if (!ADMIN_PASSWORD || password !== ADMIN_PASSWORD) {
+      return res.status(401).json({ message: "Invalid password" });
     }
-    next();
-  };
-
-  app.get("/api/essays", async (_req, res) => {
-    try {
-      const essays = await storage.getEssays();
-      res.json(essays);
-    } catch (error: any) {
-      res.status(500).json({ message: error.message });
-    }
+    res.json({ token: signToken() });
   });
 
-  app.get("/api/essays/:id", async (req, res) => {
-    try {
-      const id = parseInt(req.params.id);
-      const essay = await storage.getEssay(id);
-      if (!essay) {
-        return res.status(404).json({ message: "Essay not found" });
-      }
-      res.json(essay);
-    } catch (error: any) {
-      res.status(500).json({ message: error.message });
+  app.get("/api/auth/user", (req, res) => {
+    const auth = req.headers.authorization;
+    if (!auth?.startsWith("Bearer ") || !verifyToken(auth.slice(7))) {
+      return res.status(401).json({ message: "Unauthorized" });
     }
+    res.json({ role: "admin" });
   });
 
-  app.post("/api/essays", async (req, res) => {
-    try {
-      const validationResult = insertEssaySchema.safeParse(req.body);
-      if (!validationResult.success) {
-        return res.status(400).json({ 
-          message: fromZodError(validationResult.error).message 
-        });
-      }
-      const essay = await storage.createEssay(validationResult.data);
-      res.status(201).json(essay);
-    } catch (error: any) {
-      res.status(500).json({ message: error.message });
-    }
+  // --- Essay routes (JSON file-based) ---
+  app.get("/api/essays", (_req, res) => {
+    res.json(readEssays());
   });
 
-  app.patch("/api/essays/:id", async (req, res) => {
-    try {
-      const id = parseInt(req.params.id);
-      const essay = await storage.updateEssay(id, req.body);
-      if (!essay) {
-        return res.status(404).json({ message: "Essay not found" });
-      }
-      res.json(essay);
-    } catch (error: any) {
-      res.status(500).json({ message: error.message });
+  app.post("/api/essays", (req, res) => {
+    const { author, title, content } = req.body || {};
+    if (!author || !title || !content) {
+      return res.status(400).json({ message: "author, title, content are required" });
     }
+    const essays = readEssays();
+    const maxId = essays.reduce((m, e) => Math.max(m, e.id), 0);
+    const essay: EssayItem = {
+      id: maxId + 1,
+      author,
+      title,
+      content,
+      createdAt: new Date().toISOString(),
+    };
+    essays.unshift(essay);
+    writeEssays(essays);
+    res.status(201).json(essay);
   });
 
-  app.delete("/api/essays/:id", async (req, res) => {
-    try {
-      const id = parseInt(req.params.id);
-      const deleted = await storage.deleteEssay(id);
-      if (!deleted) {
-        return res.status(404).json({ message: "Essay not found" });
-      }
-      res.status(204).send();
-    } catch (error: any) {
-      res.status(500).json({ message: error.message });
+  app.delete("/api/essays/:id", requireAdmin, (req, res) => {
+    const id = parseInt(req.params.id);
+    const essays = readEssays();
+    const idx = essays.findIndex((e) => e.id === id);
+    if (idx === -1) {
+      return res.status(404).json({ message: "Essay not found" });
     }
+    essays.splice(idx, 1);
+    writeEssays(essays);
+    res.status(204).send();
   });
 
   app.get("/api/indicators", async (_req, res) => {
@@ -628,7 +657,7 @@ export async function registerRoutes(
       } else {
         res.status(404).json({ 
           error: "Briefing not available",
-          message: "Daily briefing has not been generated yet. It will be available after the scheduled 07:00 KST update."
+          message: "Daily briefing has not been generated yet. It will be available after the scheduled 15:30 KST update."
         });
       }
     } catch (error) {
@@ -678,11 +707,11 @@ export async function registerRoutes(
       
       const newsContent = [];
       newsContent.push(`Date: ${briefing.date}`);
-      newsContent.push("\n=== Top 5 Stories ===");
-      for (const item of briefing.top5 || []) {
+      newsContent.push("\n=== 오늘의 핵심이슈 (Key Headlines) ===");
+      for (const item of (briefing.headlines || []).slice(0, 5)) {
         newsContent.push(`- ${item.title}: ${item.summary || ''}`);
       }
-      
+
       for (const [section, items] of Object.entries(briefing.sections || {})) {
         newsContent.push(`\n=== ${section} ===`);
         for (const item of (items as any[]).slice(0, 3)) {

@@ -65,10 +65,10 @@ export function NewsFeed({ news, compact = false }: NewsFeedProps) {
               )}
             </div>
           </ScrollArea>
-          {selectedArticle?.url && (
+          {(selectedArticle?.url || (selectedArticle as any)?.link) && (
             <div className="pt-4 border-t mt-4">
               <Button variant="outline" size="sm" asChild>
-                <a href={selectedArticle.url} target="_blank" rel="noopener noreferrer">
+                <a href={selectedArticle?.url || (selectedArticle as any)?.link} target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="w-4 h-4 mr-2" />
                   원문 보기
                 </a>
@@ -82,16 +82,18 @@ export function NewsFeed({ news, compact = false }: NewsFeedProps) {
 }
 
 function NewsCard({ item, compact, onClick }: { item: NewsItem; compact: boolean; onClick: () => void }) {
+  const articleUrl = item.url || (item as any).link;
+
   const handleClick = () => {
-    if (item.url) {
-      window.open(item.url, '_blank', 'noopener,noreferrer');
+    if (articleUrl) {
+      window.open(articleUrl, '_blank', 'noopener,noreferrer');
     } else {
       onClick();
     }
   };
 
   return (
-    <div 
+    <div
       onClick={handleClick}
       className={cn(
         "group relative bg-card rounded-lg border border-border/50 p-4 transition-all hover:shadow-md hover:border-primary/20 block cursor-pointer",

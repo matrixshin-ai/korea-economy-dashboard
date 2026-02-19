@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { 
   LayoutDashboard, 
   TrendingUp, 
@@ -9,13 +9,12 @@ import {
   ChevronDown,
   ChevronRight,
   BarChart3,
-  Globe,
-  Download
+  Globe
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NEWS_SUB_SECTIONS = [
-  { label: '오늘의 핵심이슈 Top5', href: '/news/top5' },
+  { label: '오늘의 핵심이슈', href: '/news/headlines' },
   { label: '거시경제/재정', href: '/news/macro' },
   { label: '금융시장', href: '/news/finance' },
   { label: '산업/과학기술', href: '/news/industry' },
@@ -35,6 +34,16 @@ export function Sidebar() {
   const [newsExpanded, setNewsExpanded] = useState(true);
   const [reportExpanded, setReportExpanded] = useState(true);
   const [indicatorsExpanded, setIndicatorsExpanded] = useState(false);
+  const indicatorsSubRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (indicatorsExpanded) {
+      const timer = setTimeout(() => {
+        indicatorsSubRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [indicatorsExpanded]);
 
   const isNewsActive = location === '/news' || location.startsWith('/news/');
   const isReportActive = location === '/report' || location.startsWith('/report/');
@@ -48,7 +57,7 @@ export function Sidebar() {
         </h1>
         <p className="text-xs text-muted-foreground mt-1 font-medium">Economic News & Analysis</p>
         <div className="mt-2 text-[10px] text-muted-foreground bg-muted/50 px-2 py-1 rounded inline-block">
-          Updates Daily at 07:00 KST
+          Updates Daily at 15:30 KST
         </div>
       </div>
 
@@ -194,8 +203,8 @@ export function Sidebar() {
           </button>
           
           {indicatorsExpanded && (
-            <div className="ml-4 mt-1 space-y-0.5 border-l border-border/50 pl-3">
-              <a 
+            <div ref={indicatorsSubRef} className="ml-4 mt-1 space-y-0.5 border-l border-border/50 pl-3">
+              <a
                 href="http://eiec.kdi.re.kr/bigdata/indicators.do?cat=%EA%B5%AD%EB%AF%BC%EA%B3%84%EC%A0%95"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -219,24 +228,6 @@ export function Sidebar() {
       </nav>
 
       <div className="p-4 border-t border-border space-y-3">
-        <a 
-          href="/api/download-project" 
-          download="korea-economy-project.zip"
-          className="flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 bg-primary/10 hover:bg-primary/20 text-primary hover:text-primary"
-          data-testid="button-download-project"
-        >
-          <Download className="w-4 h-4" />
-          전체 프로젝트 다운로드
-        </a>
-        <a 
-          href="/api/download-scoring-logic" 
-          download="scoring_logic.zip"
-          className="flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 bg-muted/50 hover:bg-muted text-muted-foreground hover:text-foreground"
-          data-testid="button-download-scoring"
-        >
-          <Download className="w-4 h-4" />
-          뉴스 선정 로직 다운로드
-        </a>
         <div className="bg-muted/50 rounded-lg p-3">
           <p className="text-xs text-muted-foreground font-medium">Logged in as</p>
           <div className="flex items-center gap-2 mt-1.5">

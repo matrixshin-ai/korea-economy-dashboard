@@ -1,66 +1,129 @@
 {
-  "generated_at": "2026-02-19T08:05:15.950271+09:00",
+  "generated_at": "2026-02-19T21:56:07.966064+09:00",
   "date": "2026-02-19",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 1785,
-    "total_used": 1658,
-    "dropped_quality": 110,
+    "total_input": 1680,
+    "total_used": 1555,
+    "dropped_quality": 108,
     "dropped_negative": 17,
     "per_category": {
-      "기타": 735,
-      "산업·과학": 170,
-      "거시경제·재정": 249,
-      "부동산": 102,
-      "금융시장": 240,
-      "국제경제": 162
+      "기타": 693,
+      "산업·과학": 166,
+      "거시경제·재정": 223,
+      "부동산": 100,
+      "금융시장": 222,
+      "국제경제": 151
     }
   },
-  "top5": [
+  "headlines": [
     {
-      "title": "증시 '머니무브'에 채권 펀드 13조원 이탈…당국 구두개입에 금리 하락...",
-      "summary": "구윤철 부총리 겸 기획재정부 장관 역시 채권시장 전반 모니터링 강화를 지시하며 안정화 의지를 내비쳤다. 당국의 메시지가 전달되자 지난 9일 3.267%까지 치솟았던 국고채 3년물 금리는 내림세로 전환해 3.2%선 아래로...",
-      "link": "https://www.etnews.com/20260216000028",
-      "source": "네이버뉴스",
-      "category": "금융시장",
-      "cluster_size": 1,
-      "score": 162
+      "title": "‘ 햄버거 너마저 …’ 잇달아 가격 인상",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/021/0002771782?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:52:00 +0900",
+      "score": 90,
+      "match_status": "OK"
     },
     {
-      "title": "‘전세는 없고 월세는 비싸고’… 세입자 주거난 ‘비명’",
-      "summary": "정부가 다주택자 주택 처분을 유도하는 가운데 서울 아파트 임대차 시장이 심상치 않은 분위기를 보이고 있다. 전세 매물은 줄어들고 월세는 오르면서 봄 이사철 세입자의 주거난 대책이 필요하다는 지적이 나온다.<br /><br /><center><img src=\"https://image.kmib.co.kr/online_image/2026/0219/2026021906261288590_1771449972_0029412522.jpg\" /></center><br />18일 부동산 빅데이터플랫폼 아실에 따르면, 이날 기준 서울 아파트 전월세 매물은 3만7689건으로 1년 전(4만7698건)과 비교해 21.0% 줄었다. 특히 월세(-3.4%)보다 전세(-32.4%) 물건이 많이 줄었다.<br /><br />자치구별로 보면 임대차 수요가 많은 비강남권 외곽 지역의 전세 물건 감소가 두드려졌다. 성북구는 지난해 1322건이던 전세 물건이 이날 기준 120건으로 91.0% 급감했다.<br /><br />...",
-      "link": "https://www.kmib.co.kr/article/view.asp?arcid=0029412522",
-      "source": "국민일보 | 경제",
-      "category": "부동산",
-      "cluster_size": 1,
-      "score": 144
+      "title": "'반도체·자동차' 호조 … 1월 수출 658억 달러 '역대 최대 '",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/079/0004116684?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 10:35:00 +0900",
+      "score": 100,
+      "match_status": "OK"
     },
     {
-      "title": "미국 뉴욕증시, FOMC 의사록 대기하며 다우존스·S&P500·나스닥지수 상...",
-      "summary": "이뿐 아니라 고용시장 위험이 완화되고 인플레이션 둔화 움직임은 약해지는 상황에서 추가 금리 인하를 정당화하기 위해 어떤 재료가 필요할지에 대한 세부 내용이 공개될 것으로 기대된다. 기술주에 대한...",
-      "link": "https://www.lecturernews.com/news/articleView.html?idxno=197064",
-      "source": "네이버뉴스",
-      "category": "국제경제",
-      "cluster_size": 1,
-      "score": 142
+      "title": "1월 美서부 수출 운임 두 달째 하락 … 동부는 석 달 연속 오름세",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/001/0015911159?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 09:22:00 +0900",
+      "score": 100,
+      "match_status": "OK"
     },
     {
-      "title": "[채권/외환] 美 견조한 지표에 국채금리 상승…미 달러 강세·유로 약세",
-      "summary": "미국 달러와 일본 엔화 지폐 [사진=블룸버그] ◆ 20년물 입찰 부진…장기물 금리 반등 이날 미 재무부가... 2·10년물 금리차는 62bp로 큰 변동이 없었다. 미슐러 파이낸셜그룹의 톰 디 갈로마 매니징 디렉터는 \"10년물이...",
-      "link": "https://www.newspim.com/news/view/20260219000034",
-      "source": "네이버뉴스",
-      "category": "금융시장",
-      "cluster_size": 1,
-      "score": 132
+      "title": "美 '마스가 행동계획' 발표 …국내 조선업계 기대 속 긴장",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/277/0005723073?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:21:00 +0900",
+      "score": 98,
+      "match_status": "OK"
     },
     {
-      "title": "[성공예감] 설 이후 주가 전망, 美 장기국채 금리를 왜 살펴봐야 할까?...",
-      "summary": "올해 성장률이 우리 전체 GDP 성장률입니다. 작년에 1% 성장했고 올해 한 2% 전후 성장할 거라는 게 시장의... ◇이대호> 특히 우리나라 GDP 산정할 때도 건설 투자 압도적이죠. ◆김학균> 건설투자가 설비 투자보다 더 비중이...",
-      "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8487856&ref=A",
-      "source": "KBS",
-      "category": "금융시장",
-      "cluster_size": 1,
-      "score": 132
+      "title": "소상공인 70% “ 자금사정 나빠졌다 ”",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/016/0002602153?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:24:00 +0900",
+      "score": 100,
+      "match_status": "OK"
+    },
+    {
+      "title": "다주택자 압박에 서울 매수자 우위 전환",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/016/0002602124?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:17:00 +0900",
+      "score": 99,
+      "match_status": "OK"
+    },
+    {
+      "title": "작년 ‘ 서울 생애 첫집 마련 ’ 절반이 30대 … 역대 최대",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/021/0002771797?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:58:00 +0900",
+      "score": 89,
+      "match_status": "OK"
+    },
+    {
+      "title": "월세 500만원 넘는 서울 아파트 103% 증가",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/016/0002602131?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:19:00 +0900",
+      "score": 92,
+      "match_status": "OK"
+    },
+    {
+      "title": "\" 팔지도 못하고 세금만 \"… 갱신권 청구에 발묶인 임대사업자 [부동산AtoZ]",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/277/0005722098?sid=101",
+      "source": "석간",
+      "published": "Sat, 14 Feb 2026 07:00:00 +0900",
+      "score": 76,
+      "match_status": "REVIEW"
+    },
+    {
+      "title": "설 연휴 쉬어간 외환시장, 레벨 낮추기 시도 이어가나",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/277/0005722731?sid=101",
+      "source": "석간",
+      "published": "Wed, 18 Feb 2026 13:00:00 +0900",
+      "score": 92,
+      "match_status": "OK"
+    },
+    {
+      "title": "ECB 라가르드 조기 퇴임설에도 … 유럽 국채금리 안정적",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/277/0005723056?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:06:00 +0900",
+      "score": 100,
+      "match_status": "OK"
+    },
+    {
+      "title": "[데스크칼럼] 청년 일자리, 단순 숫자 확대 ‘ 답 ’ 아니다",
+      "summary": "",
+      "link": "https://n.news.naver.com/mnews/article/016/0002602115?sid=101",
+      "source": "석간",
+      "published": "Thu, 19 Feb 2026 11:13:00 +0900",
+      "score": 86,
+      "match_status": "OK"
     }
   ],
   "sections": {
@@ -290,14 +353,6 @@
         "score": 120
       },
       {
-        "title": "美연준, 트럼프가 압박하는 금리인하 경로에 '의견분열'",
-        "summary": "1월 FOMC 의사록 \"인플레이션 목표치 상회하면 금리 상향 적절할 수도\" 이재림 특파원 = 미국 중앙은행인... 위원들은 인플레이션이 하락할 경우 금리 목표 범위를 추가로 하향 조정하는 게 적절할 것이라고 언급했다\"고...",
-        "link": "https://www.yna.co.kr/view/AKR20260219005400087?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-02-19T05:30:00+09:00",
-        "score": 118
-      },
-      {
         "title": "美연준 금리 인하 두고 이견 지속…트럼프 압박 속 인상 의견도",
         "summary": "18일(현지시간) 미국 연준 홈페이지에 공개된 연방공개시장위원회(FOMC) 의사록에 따르면 연준 위원들은... 시사하는 결정을 내린 게 확인됐다\"고 보도했다. 올해 8번의 FOMC 회의 중 다음 회의는 오는 3월 17∼18일 열린다.",
         "link": "https://www.mt.co.kr/industry/2026/02/19/2026021906221175101",
@@ -306,39 +361,23 @@
         "score": 118
       },
       {
-        "title": "뉴욕증시, 연준 금리인상 시나리오에도 상승...나스닥 0.78%↑ [상보]",
-        "summary": "이투데이=고대영 기자 | 1월 FOMC 회의록서 일부 인상 가능성 거론 뉴욕증시는 미국 연방준비제도(Fed... 주요 지수는 연준이 지난달 미 연방공개시장위원회(FOMC) 정례회의에서 금리인상 시나리오를 검토했다는...",
-        "link": "https://www.etoday.co.kr/news/view/2557250",
-        "source": "네이버뉴스",
+        "title": "미 연준, 트럼프가 압박하는 금리인하 경로에 '의견분열'",
+        "summary": "현지시간 18일 미 연준 홈페이지를 통해 공개된 연방공개시장위원회(FOMC) 1월 27∼28일 회의 의사록(표지 포함... 앞서 연준은 지난달 27∼28일 열린 올해 첫 FOMC 정례회의에서 도널드 트럼프 대통령의 계속되는 금리 인하...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005767877",
+        "source": "MBN",
         "published": "2026-02-19T06:54:00+09:00",
-        "score": 118
+        "score": 110
+      },
+      {
+        "title": "미 연준, 트럼프가 압박하는 금리 인하 경로에 ‘의견 분열’",
+        "summary": "이날 미 연준 홈페이지를 통해 공개된 연방공개시장위원회(FOMC) 1월 27∼28일 회의 의사록을 보면 연준... 앞서 연준은 지난달 27∼28일 열린 올해 첫 FOMC 정례회의에서 도널드 트럼프 대통령의 계속되는 금리 인하 압박에도...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8488081&ref=A",
+        "source": "KBS",
+        "published": "2026-02-19T05:53:00+09:00",
+        "score": 110
       }
     ],
     "기타": [
-      {
-        "title": "[우분투칼럼] 아프리카의 기후위기, 연대인가 경쟁인가",
-        "summary": "이는 단기적인 재난 복구의 문제가 아니라, 수출과 투자, 나아가 국가 재정의 지속 가능성 자체를 위협하는 구조적 위기다. 기후 충격은 아프리카 국가들의 성장 모멘텀을 잠식하고 있다. 이 모든 문제의 중심에는 책임과...",
-        "link": "https://www.yna.co.kr/view/AKR20260205152900898?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-02-19T07:00:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "[뉴욕유가] 밴스 \"이란, 핵심 요구 받아들이지 않아\"…WTI 4.6%↑",
-        "summary": "밴스는 외교로 이란의 핵 프로그램을 중단시키는 데 성공하지 못할 경우 도널드 트럼프 미국 대통령이 무역 사용 권한을 보유하고 있다고 강조했다. 그는 \"우리는 매우 강력한 군대를 보유하고 있다\"며 \"대통령은 이를...",
-        "link": "https://www.yna.co.kr/view/AKR20260219005800009?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-02-19T05:23:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "\"아틀라스 예상가격은 1억8천만원\"",
-        "summary": "현대자동차그룹 로보틱스 계열사 보스턴다이내믹스가 개발 중인 휴머노이드 로봇 '아틀라스'(사진)의  1대당 가격이 13만달러(약 1억8000만원)로 예상되면서 현대차그룹이 이 시장에..",
-        "link": "https://www.mk.co.kr/news/economy/11965024",
-        "source": "매일경제 : 경제",
-        "published": "2026-02-18T17:08:25+09:00",
-        "score": 24
-      },
       {
         "title": "“연봉 9천만원씩 2년만 주면 평생 공짜”…아틀라스 공장 도입 손익계...",
         "summary": "18일 한국수출입은행 해외경제연구소는 이러한 내용을 담은 ‘자동차 업계의 AI 로보틱스 산업 진출 현황과 위험 요인’ 보고서를 발표했다. 보고서는 시장조사 업체 스태티팩트 전망치를 인용해 글로벌 AI 로봇 시장이...",
@@ -393,6 +432,30 @@
         "link": "https://www.khan.co.kr/article/202602181537001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-02-18T15:37:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "[뉴욕유가] 밴스 \"이란, 핵심 요구 받아들이지 않아\"…WTI 4.6%↑",
+        "summary": "밴스는 외교로 이란의 핵 프로그램을 중단시키는 데 성공하지 못할 경우 도널드 트럼프 미국 대통령이 무역 사용 권한을 보유하고 있다고 강조했다. 그는 \"우리는 매우 강력한 군대를 보유하고 있다\"며 \"대통령은 이를...",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4399297",
+        "source": "네이버뉴스",
+        "published": "2026-02-19T07:26:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "\"금융 시스템 붕괴 임박\"…국가 간 비트코인 확보 전쟁 시작되나",
+        "summary": "2026년 전망치는 GDP 대비 5.8%, 2036년 전망치는 6.7%에 해당하는 수치로, 지난 50년간 평균 적자 비율인 3.8%를... 국제통화기금(IMF)에 따르면 중국의 일반 정부 부채는 GDP 대비 124%까지 불어난 상태다. 전문가들은...",
+        "link": "https://www.tokenpost.kr/news/insights/332103",
+        "source": "네이버뉴스",
+        "published": "2026-02-18T13:22:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "페로타임즈 손바닥뉴스 2월 19일(목)",
+        "summary": "고급재 수출 전환…'관세장벽' 피해 아프리카 30% 급증 [철강PICK] 강관업계 '인도 말련 싱가폴' 수출 폭증 [초점] 철스크랩 2월 강세로 무게 \"美日 중량 53만 원\"…韓 대기수요도 '강세' [핫토픽] 1월 철근 수출 \"미국만...",
+        "link": "http://www.ferrotimes.com/news/articleView.html?idxno=46411",
+        "source": "네이버뉴스",
+        "published": "2026-02-19T07:40:00+09:00",
         "score": 24
       }
     ]

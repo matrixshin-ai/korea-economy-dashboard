@@ -4,7 +4,7 @@ Daily Briefing Renderer
 - Classifies news into categories (rules loaded from keyword_rules.json)
 - Applies negative keyword filtering (scoring.classify_item)
 - Applies quality filtering (empty/short, summary too short, summary==title)
-- Generates Top 5 clusters
+- Loads OCR-matched headlines from jobs/data/ocr_headlines.json
 - Outputs daily briefing JSON (latest_briefing.json)
 """
 import json
@@ -97,6 +97,18 @@ def should_drop_quality(title: str, summary: str) -> bool:
 # ---------------------------------------------------------------------------
 # Loading
 # ---------------------------------------------------------------------------
+def load_ocr_headlines() -> list:
+    """Load OCR-matched headlines from jobs/data/ocr_headlines.json."""
+    headlines_path = os.path.join(BASE_DIR, "jobs", "data", "ocr_headlines.json")
+    try:
+        with open(headlines_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get("articles", [])
+    except FileNotFoundError:
+        print("OCR headlines file not found, headlines will be empty")
+        return []
+
+
 def load_all_items() -> list:
     """
     Load items from combined candidates.
@@ -297,7 +309,7 @@ def select_by_quota_filtered(items: list, quota: int) -> list:
 # ---------------------------------------------------------------------------
 # Output builder
 # ---------------------------------------------------------------------------
-def build_daily_output(classified_items: dict, top5_clusters: list, stats: dict) -> dict:
+def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict) -> dict:
     now_kst = datetime.now(KST)
 
     # Load rules ONCE (important)
@@ -318,26 +330,25 @@ def build_daily_output(classified_items: dict, top5_clusters: list, stats: dict)
             "dropped_negative": stats.get("dropped_negative", 0),
             "per_category": dict(stats.get("classified", {})),
         },
-        "top5": [],
+        "headlines": [],
         "sections": {},
     }
 
-    # Top 5 clusters
-    for cluster in top5_clusters:
-        rep = cluster["representative"]
-        output["top5"].append(
+    # OCR-matched headlines
+    for item in ocr_headlines:
+        output["headlines"].append(
             {
-                "title": _safe_strip(rep.get("title")),
-                "summary": get_effective_summary(rep),
-                "link": rep.get("link", ""),
-                "source": _safe_strip(rep.get("source")) or _safe_strip(rep.get("source_name")),
-                "category": cluster["category"],
-                "cluster_size": cluster["size"],
-                "score": cluster["score"],
+                "title": item.get("title", ""),
+                "summary": item.get("summary", ""),
+                "link": item.get("url", ""),
+                "source": "석간",
+                "published": item.get("published", ""),
+                "score": item.get("score", 0),
+                "match_status": item.get("status", ""),
             }
         )
 
-    # Sections (built once; NOT inside top5 loop)
+    # Sections
     for category in CATEGORY_NAMES:
         items = classified_items.get(category, [])
 
@@ -396,17 +407,14 @@ def main():
     for cat, count in sorted(stats["classified"].items()):
         print(f"    {cat}: {count}")
 
-    top5 = get_top5_clusters(classified)
-    print(f"\nTop 5 Clusters:")
-    for i, cluster in enumerate(top5, 1):
-        rep = cluster["representative"]
-        title = _safe_strip(rep.get("title"))
-        print(
-            f"  {i}. [{cluster['category']}] {title[:50]}... "
-            f"(score={cluster['score']:.0f}, size={cluster['size']})"
-        )
+    ocr_headlines = load_ocr_headlines()
+    print(f"\nOCR Headlines: {len(ocr_headlines)} articles")
+    for i, item in enumerate(ocr_headlines, 1):
+        title = item.get("title", "")
+        status = item.get("status", "")
+        print(f"  {i}. [{status}] {title[:60]}")
 
-    output = build_daily_output(classified, top5, stats)
+    output = build_daily_output(classified, ocr_headlines, stats)
 
     briefing_path = os.path.join(BASE_DIR, "latest_briefing.json")
     with open(briefing_path, "w", encoding="utf-8") as f:

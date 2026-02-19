@@ -7,7 +7,7 @@ import { useQuery } from "@tanstack/react-query";
 
 const CATEGORIES = [
   { id: 'all', label: '전체' },
-  { id: 'top5', label: '핵심이슈 Top5' },
+  { id: 'headlines', label: '오늘의 핵심이슈' },
   { id: 'macro', label: '거시경제/재정' },
   { id: 'finance', label: '금융시장' },
   { id: 'industry', label: '산업/과학' },
@@ -17,7 +17,7 @@ const CATEGORIES = [
 ];
 
 interface BriefingData {
-  top5: NewsItem[];
+  headlines: NewsItem[];
   sections: Record<string, NewsItem[]>;
 }
 
@@ -46,12 +46,12 @@ export default function NewsPage() {
   const getFilteredNews = (): NewsItem[] => {
     if (!briefingData) return [];
     
-    if (category === 'top5') {
-      return briefingData.top5 || [];
+    if (category === 'headlines') {
+      return briefingData.headlines || [];
     }
-    
+
     if (category === 'all') {
-      const allNews: NewsItem[] = [...(briefingData.top5 || [])];
+      const allNews: NewsItem[] = [...(briefingData.headlines || [])];
       Object.values(briefingData.sections || {}).forEach(items => {
         allNews.push(...items);
       });

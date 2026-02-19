@@ -49,8 +49,8 @@ def build_news_content(briefing: dict) -> str:
     lines = []
     lines.append(f"Date: {briefing.get('date', '')}")
 
-    lines.append("\n=== Top 5 Stories ===")
-    for item in briefing.get("top5", []):
+    lines.append("\n=== 오늘의 핵심이슈 (Key Headlines) ===")
+    for item in briefing.get("headlines", [])[:5]:
         title = item.get("title", "")
         summary = item.get("summary", "")
         lines.append(f"- {title}: {summary}")

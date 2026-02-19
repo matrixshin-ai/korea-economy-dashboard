@@ -1,47 +1,57 @@
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import type { User } from "@shared/models/auth";
+import { useState, useCallback, useEffect } from "react";
 
-async function fetchUser(): Promise<User | null> {
-  const response = await fetch("/api/auth/user", {
-    credentials: "include",
-  });
+const TOKEN_KEY = "admin_token";
 
-  if (response.status === 401) {
-    return null;
-  }
-
-  if (!response.ok) {
-    throw new Error(`${response.status}: ${response.statusText}`);
-  }
-
-  return response.json();
-}
-
-async function logout(): Promise<void> {
-  window.location.href = "/api/logout";
+function getToken(): string | null {
+  return localStorage.getItem(TOKEN_KEY);
 }
 
 export function useAuth() {
-  const queryClient = useQueryClient();
-  const { data: user, isLoading } = useQuery<User | null>({
-    queryKey: ["/api/auth/user"],
-    queryFn: fetchUser,
-    retry: false,
-    staleTime: 1000 * 60 * 5, // 5 minutes
-  });
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const logoutMutation = useMutation({
-    mutationFn: logout,
-    onSuccess: () => {
-      queryClient.setQueryData(["/api/auth/user"], null);
-    },
-  });
+  const verify = useCallback(async () => {
+    const token = getToken();
+    if (!token) {
+      setIsAdmin(false);
+      setIsLoading(false);
+      return;
+    }
+    try {
+      const res = await fetch("/api/auth/user", {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      setIsAdmin(res.ok);
+    } catch {
+      setIsAdmin(false);
+    }
+    setIsLoading(false);
+  }, []);
 
-  return {
-    user,
-    isLoading,
-    isAuthenticated: !!user,
-    logout: logoutMutation.mutate,
-    isLoggingOut: logoutMutation.isPending,
+  useEffect(() => { verify(); }, [verify]);
+
+  const login = async (password: string): Promise<boolean> => {
+    const res = await fetch("/api/auth/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password }),
+    });
+    if (!res.ok) return false;
+    const { token } = await res.json();
+    localStorage.setItem(TOKEN_KEY, token);
+    setIsAdmin(true);
+    return true;
   };
+
+  const logout = () => {
+    localStorage.removeItem(TOKEN_KEY);
+    setIsAdmin(false);
+  };
+
+  const authHeader = (): Record<string, string> => {
+    const token = getToken();
+    return token ? { Authorization: `Bearer ${token}` } : {};
+  };
+
+  return { isAdmin, isLoading, login, logout, authHeader };
 }

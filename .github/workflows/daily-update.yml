@@ -2,7 +2,7 @@ name: Daily Data Update
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 22:00 UTC = 07:00 KST
+    - cron: '30 6 * * 1-6'  # 06:30 UTC = 15:30 KST (Mon-Sat)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -32,6 +32,15 @@ jobs:
       - name: Fetch Korea stats
         run: python jobs/fetch_korea_stats.py
         continue-on-error: true
+
+      - name: Check OCR headlines data
+        run: |
+          if [ -f jobs/data/ocr_headlines.json ]; then
+            ITEMS=$(python -c "import json; d=json.load(open('jobs/data/ocr_headlines.json')); print(len(d.get('articles', [])))")
+            echo "OCR headlines: $ITEMS articles"
+          else
+            echo "::warning::jobs/data/ocr_headlines.json not found"
+          fi
 
       - name: Poll RSS and Naver news
         id: poll
@@ -69,13 +78,13 @@ jobs:
           import json, sys
           data = json.load(open('latest_briefing.json'))
           date = data.get('date', '')
-          top5 = len(data.get('top5', []))
+          headlines = len(data.get('headlines', []))
           sections = len(data.get('sections', {}))
           print(f'Date: {date}')
-          print(f'Top5 count: {top5}')
+          print(f'Headlines count: {headlines}')
           print(f'Sections count: {sections}')
-          if top5 == 0:
-              print('::warning::top5 is empty')
+          if headlines == 0:
+              print('::warning::headlines is empty')
           if sections == 0:
               print('::error::No sections in briefing')
               sys.exit(1)
@@ -93,6 +102,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add latest_*.json cached_summary_*.json cache_candidates.json kr_bond_history.json || true
+          git add latest_*.json cached_summary_*.json cache_candidates.json kr_bond_history.json jobs/data/ || true
           git diff --staged --quiet || git commit -m "Daily data update $(date +'%Y-%m-%d')"
           git push

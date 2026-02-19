@@ -92,7 +92,7 @@ export default function Home() {
     },
   });
 
-  const recentEssays = (essays || []).slice(0, 3);
+  const recentEssays = (Array.isArray(essays) ? essays : []).slice(0, 3);
 
   const newsCategories = ['Macro', 'Finance', 'Industry', 'RealEstate', 'International', 'Others'];
   
@@ -114,12 +114,14 @@ export default function Home() {
     'Others': '/news/others',
   };
 
-  // Get top 5 news by importance/score across all categories
-  const allNews = Object.values(newsData || {}).flat();
-  const top5News = allNews
-    .filter((news: NewsItem) => news.important || news.score)
-    .sort((a: NewsItem, b: NewsItem) => (b.score || 0) - (a.score || 0))
-    .slice(0, 5);
+  const { data: briefingData, isLoading: isBriefingLoading } = useQuery<any>({
+    queryKey: ["/api/briefing"],
+    queryFn: async () => {
+      const res = await fetch("/api/briefing");
+      return res.json();
+    },
+  });
+  const headlineNews = (briefingData?.headlines || []).slice(0, 5);
 
   return (
     <div className="flex min-h-screen bg-background text-foreground font-sans">
@@ -167,23 +169,23 @@ export default function Home() {
               <div className="flex items-center justify-between border-b border-border pb-2">
                 <h2 className="text-lg font-bold font-serif flex items-center gap-2 text-primary">
                   <span className="w-1.5 h-1.5 rounded-full bg-red-500" />
-                  오늘의 핵심이슈 Top5
+                  오늘의 핵심이슈
                 </h2>
-                <Link href="/news/top5">
+                <Link href="/news/headlines">
                   <Button variant="ghost" size="sm" className="text-xs text-muted-foreground h-7">
                     더보기 <ChevronRight className="w-3 h-3 ml-1" />
                   </Button>
                 </Link>
               </div>
               <div className="grid gap-3">
-                {top5News.length > 0 ? top5News.map((news, idx) => (
-                  <a 
-                    key={news.id} 
-                    href={news.url} 
-                    target="_blank" 
+                {headlineNews.length > 0 ? headlineNews.map((news: any, idx: number) => (
+                  <a
+                    key={idx}
+                    href={news.link}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="group flex items-start justify-between py-2 hover:bg-muted/30 px-2 rounded-md transition-colors cursor-pointer border-b border-border/40 last:border-0"
-                    data-testid={`top5-news-${idx}`}
+                    data-testid={`headline-news-${idx}`}
                   >
                     <div className="flex items-start gap-3 flex-1">
                       <span className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500 text-white text-xs font-bold flex items-center justify-center">{idx + 1}</span>
@@ -191,15 +193,16 @@ export default function Home() {
                         <h3 className="text-base font-medium group-hover:text-primary transition-colors line-clamp-1">
                           {news.title}
                         </h3>
-                        <p className="text-sm text-muted-foreground line-clamp-1 mt-1">{news.summary}</p>
                       </div>
                     </div>
                     <div className="ml-4 text-xs text-muted-foreground whitespace-nowrap pt-1">
-                      {news.source} • {news.date?.slice(5)}
+                      {news.source} • {news.published?.slice(5, 10)}
                     </div>
                   </a>
                 )) : (
-                  <div className="text-center py-4 text-muted-foreground text-sm">핵심이슈 데이터 로딩 중...</div>
+                  <div className="text-center py-4 text-muted-foreground text-sm">
+                    {isBriefingLoading ? "핵심이슈 로딩 중..." : "오늘의 핵심이슈가 아직 등록되지 않았습니다. (오후 3:30 업데이트)"}
+                  </div>
                 )}
               </div>
             </div>
@@ -349,7 +352,7 @@ export default function Home() {
                       <Link key={essay.id} href="/essay">
                         <div className="flex items-center gap-3 p-3 rounded-lg hover:bg-emerald-100/50 transition-colors cursor-pointer border-b border-emerald-100 last:border-0">
                           <span className="text-xs text-muted-foreground whitespace-nowrap">
-                            {essay.publishedAt ? new Date(essay.publishedAt).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' }) : ''}
+                            {essay.createdAt ? new Date(essay.createdAt).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' }) : ''}
                           </span>
                           <span className="flex-1 text-sm font-medium text-foreground line-clamp-1">{essay.title}</span>
                         </div>
