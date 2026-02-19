@@ -2,7 +2,8 @@ name: Daily Data Update
 
 on:
   schedule:
-    - cron: '30 6 * * 1-6'  # 06:30 UTC = 15:30 KST (Mon-Sat)
+    - cron: '0 22 * * 0-5'   # 22:00 UTC = 07:00 KST next day (Mon-Sat morning)
+    - cron: '30 6 * * 1-6'   # 06:30 UTC = 15:30 KST (Mon-Sat afternoon)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -12,6 +13,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Determine run type
+        id: runtype
+        run: |
+          HOUR_UTC=$(date -u +%H)
+          if [ "$HOUR_UTC" = "22" ]; then
+            echo "type=morning" >> $GITHUB_OUTPUT
+            echo "Running morning (07:00 KST) update — RSS only"
+          else
+            echo "type=afternoon" >> $GITHUB_OUTPUT
+            echo "Running afternoon (15:30 KST) update — full with OCR"
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,6 +47,7 @@ jobs:
         continue-on-error: true
 
       - name: Check OCR headlines data
+        if: steps.runtype.outputs.type == 'afternoon'
         run: |
           if [ -f jobs/data/ocr_headlines.json ]; then
             ITEMS=$(python -c "import json; d=json.load(open('jobs/data/ocr_headlines.json')); print(len(d.get('articles', [])))")
@@ -74,6 +88,7 @@ jobs:
             echo "::error::latest_briefing.json was not created"
             exit 1
           fi
+          RUN_TYPE="${{ steps.runtype.outputs.type }}"
           python -c "
           import json, sys
           data = json.load(open('latest_briefing.json'))
@@ -83,8 +98,9 @@ jobs:
           print(f'Date: {date}')
           print(f'Headlines count: {headlines}')
           print(f'Sections count: {sections}')
-          if headlines == 0:
-              print('::warning::headlines is empty')
+          run_type = '$RUN_TYPE'
+          if headlines == 0 and run_type == 'afternoon':
+              print('::warning::headlines is empty (afternoon run)')
           if sections == 0:
               print('::error::No sections in briefing')
               sys.exit(1)
