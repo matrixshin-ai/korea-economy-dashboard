@@ -43,6 +43,43 @@ Requirements:
 News content:
 {news_content}"""
 
+STRUCTURED_EN_PROMPT_TEMPLATE = """You are an expert economic analyst. Read the following Korean economic news and produce a structured English summary as a JSON object.
+
+CRITICAL: Return ONLY valid JSON. No markdown code fences, no extra text.
+
+The JSON must have this exact structure:
+{{
+  "key_headlines": [
+    {{ "title": "English title of headline", "summary": "1-2 sentence summary in English" }}
+  ],
+  "sections": {{
+    "Hot Economy News": "3-5 sentence paragraph summarizing the hottest economic news",
+    "Macro & Fiscal Policy": "3-5 sentence paragraph",
+    "Financial Markets": "3-5 sentence paragraph",
+    "Industry & Technology": "3-5 sentence paragraph",
+    "Real Estate": "3-5 sentence paragraph",
+    "International Economy": "3-5 sentence paragraph",
+    "Others": "3-5 sentence paragraph"
+  }}
+}}
+
+Rules:
+- key_headlines: Pick the top 5 most important headlines and translate/summarize them into English
+- sections: For each section, write a 3-5 sentence English paragraph summarizing the key news
+- If a section has no news, write "No significant updates in this category today."
+- Write ONLY in English. Do NOT include any Korean characters.
+- The section names in Korean map to English as follows:
+  오늘의 핵심이슈 → Hot Economy News
+  거시경제·재정 → Macro & Fiscal Policy
+  금융시장 → Financial Markets
+  산업·과학 → Industry & Technology
+  부동산 → Real Estate
+  국제경제 → International Economy
+  기타 → Others
+
+News content:
+{news_content}"""
+
 
 def build_news_content(briefing: dict) -> str:
     """Build news content text from briefing data."""
@@ -126,6 +163,30 @@ def generate_summary(api_key: str, news_content: str, lang: str) -> str:
     return best_summary
 
 
+def generate_structured_en_summary(api_key: str, news_content: str) -> dict:
+    """Call Gemini API to generate structured English summary as JSON."""
+    from google import genai
+
+    client = genai.Client(api_key=api_key)
+    prompt = STRUCTURED_EN_PROMPT_TEMPLATE.format(news_content=news_content)
+
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+    )
+    text = (response.text or "").strip()
+
+    # Strip markdown code fence if present
+    if text.startswith("```"):
+        # Remove opening fence (```json or ```)
+        text = re.sub(r'^```\w*\n?', '', text)
+        # Remove closing fence
+        text = re.sub(r'\n?```$', '', text)
+        text = text.strip()
+
+    return json.loads(text)
+
+
 def main():
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
@@ -181,6 +242,32 @@ def main():
         except Exception as e:
             print(f"  ERROR generating {lang} summary: {e}")
             continue
+
+    # Generate structured English summary and inject into latest_briefing.json
+    print("\nGenerating structured English summary...")
+    existing_summary_en = briefing.get("summary_en")
+    if (
+        existing_summary_en
+        and isinstance(existing_summary_en, dict)
+        and existing_summary_en.get("date") == briefing_date
+    ):
+        print("  Structured EN summary already up to date - skipping")
+    else:
+        try:
+            structured = generate_structured_en_summary(api_key, news_content)
+            briefing["summary_en"] = {
+                "date": briefing_date,
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "key_headlines": structured.get("key_headlines", []),
+                "sections": structured.get("sections", {}),
+            }
+
+            with open(BRIEFING_PATH, "w", encoding="utf-8") as f:
+                json.dump(briefing, f, ensure_ascii=False, indent=2)
+
+            print(f"  Structured EN summary saved to latest_briefing.json")
+        except Exception as e:
+            print(f"  ERROR generating structured EN summary: {e}")
 
     print("\nSummary generation complete.")
 

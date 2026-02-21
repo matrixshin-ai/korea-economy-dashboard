@@ -129,9 +129,17 @@ export default function Home() {
       <main className="flex-1 ml-64 p-8 max-w-[1600px] mx-auto">
         
         {/* Header Section */}
-        <div className="mb-8">
-          <h1 className="text-2xl font-bold font-serif text-foreground mb-2">경제 종합 대시보드</h1>
-          <p className="text-muted-foreground">Korea Economic News Dashboard</p>
+        <div className="mb-8 flex items-start justify-between">
+          <div>
+            <h1 className="text-2xl font-bold font-serif text-foreground mb-2">경제 종합 대시보드</h1>
+            <p className="text-muted-foreground">Korea Economic News Dashboard</p>
+          </div>
+          <Link href="/english">
+            <Button variant="outline" size="sm" className="text-sm font-medium">
+              <Globe className="w-4 h-4 mr-1.5" />
+              English
+            </Button>
+          </Link>
         </div>
 
         {isCurrentlyUpdating && (

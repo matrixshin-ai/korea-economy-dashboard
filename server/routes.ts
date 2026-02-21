@@ -653,9 +653,21 @@ export async function registerRoutes(
       if (fs.existsSync(briefingPath)) {
         const data = fs.readFileSync(briefingPath, "utf-8");
         const briefing = JSON.parse(data);
+
+        // Include youtube_url from jobs/data/youtube_url.json
+        let youtubeUrl = "";
+        try {
+          const ytPath = path.join(process.cwd(), "jobs", "data", "youtube_url.json");
+          if (fs.existsSync(ytPath)) {
+            const ytData = JSON.parse(fs.readFileSync(ytPath, "utf-8"));
+            youtubeUrl = ytData.url || "";
+          }
+        } catch { /* ignore */ }
+        briefing.youtube_url = youtubeUrl;
+
         res.json(briefing);
       } else {
-        res.status(404).json({ 
+        res.status(404).json({
           error: "Briefing not available",
           message: "Daily briefing has not been generated yet. It will be available after the scheduled 15:30 KST update."
         });

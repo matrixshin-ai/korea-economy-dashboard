@@ -14,6 +14,7 @@ import InstitutionalReportsPage from "@/pages/InstitutionalReports";
 import PrivateInstitutesPage from "@/pages/PrivateInstitutes";
 import Docs from "@/pages/Docs";
 import AdminKeywordsPage from "@/pages/AdminKeywords";
+import EnglishPage from "@/pages/English";
 
 function Router() {
   return (
@@ -27,6 +28,7 @@ function Router() {
       <Route path="/report/institutional" component={InstitutionalReportsPage} />
       <Route path="/report/private-institutes" component={PrivateInstitutesPage} />
       <Route path="/essay" component={EssayPage} />
+      <Route path="/english" component={EnglishPage} />
       <Route path="/docs" component={Docs} />
       <Route path="/admin/keywords" component={AdminKeywordsPage} />
       <Route component={NotFound} />

@@ -335,18 +335,31 @@ def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict)
     }
 
     # OCR-matched headlines
-    for item in ocr_headlines:
-        output["headlines"].append(
-            {
-                "title": item.get("title", ""),
-                "summary": item.get("summary", ""),
-                "link": item.get("url", ""),
-                "source": "석간",
-                "published": item.get("published", ""),
-                "score": item.get("score", 0),
-                "match_status": item.get("status", ""),
-            }
-        )
+    if ocr_headlines:
+        # New OCR data available → use it
+        for item in ocr_headlines:
+            output["headlines"].append(
+                {
+                    "title": item.get("title", ""),
+                    "summary": item.get("summary", ""),
+                    "link": item.get("url", ""),
+                    "source": "석간",
+                    "published": item.get("published", ""),
+                    "score": item.get("score", 0),
+                    "match_status": item.get("status", ""),
+                }
+            )
+    else:
+        # No OCR data (e.g. morning run before 15:30) → preserve previous headlines
+        briefing_path = os.path.join(BASE_DIR, "latest_briefing.json")
+        try:
+            with open(briefing_path, "r", encoding="utf-8") as f:
+                prev = json.load(f)
+                output["headlines"] = prev.get("headlines", [])
+                print("OCR headlines empty → preserved previous headlines "
+                      f"({len(output['headlines'])} items)")
+        except (FileNotFoundError, json.JSONDecodeError):
+            print("OCR headlines empty & no previous briefing → headlines will be empty")
 
     # Sections
     for category in CATEGORY_NAMES:
