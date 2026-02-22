@@ -1,15 +1,16 @@
 import { Link, useLocation } from "wouter";
 import { useState, useRef, useEffect } from "react";
-import { 
-  LayoutDashboard, 
-  TrendingUp, 
-  Newspaper, 
-  BookOpen, 
+import {
+  LayoutDashboard,
+  TrendingUp,
+  Newspaper,
+  BookOpen,
   FileText,
   ChevronDown,
   ChevronRight,
   BarChart3,
-  Globe
+  Globe,
+  Settings
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -226,6 +227,16 @@ export function Sidebar() {
             </div>
           )}
         </div>
+
+        <Link href="/admin/keywords" className={cn(
+          "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group",
+          location === '/admin/keywords'
+            ? "bg-primary/10 text-primary shadow-sm"
+            : "text-muted-foreground hover:bg-muted hover:text-foreground"
+        )}>
+          <Settings className={cn("w-4 h-4", location === '/admin/keywords' ? "text-primary" : "text-muted-foreground group-hover:text-foreground")} />
+          Keyword 관리
+        </Link>
       </nav>
 
       <div className="p-4 border-t border-border space-y-3">
