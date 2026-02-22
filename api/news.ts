@@ -8,6 +8,7 @@ const SECTION_MAP: { [key: string]: string } = {
   "산업·과학": "Industry",
   "부동산": "RealEstate",
   "국제경제": "International",
+  "AI와 경제": "AI & Economy",
   "기타": "Others"
 };
 

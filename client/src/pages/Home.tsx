@@ -94,7 +94,7 @@ export default function Home() {
 
   const recentEssays = (Array.isArray(essays) ? essays : []).slice(0, 3);
 
-  const newsCategories = ['Macro', 'Finance', 'Industry', 'RealEstate', 'International', 'Others'];
+  const newsCategories = ['Macro', 'Finance', 'Industry', 'RealEstate', 'International', 'AI & Economy', 'Others'];
   
   const categoryTitles: Record<string, string> = {
     'Macro': '거시경제/재정',
@@ -102,6 +102,7 @@ export default function Home() {
     'Industry': '산업/과학기술',
     'RealEstate': '부동산',
     'International': '국제경제',
+    'AI & Economy': 'AI와 경제',
     'Others': '기타',
   };
 
@@ -111,6 +112,7 @@ export default function Home() {
     'Industry': '/news/industry',
     'RealEstate': '/news/real-estate',
     'International': '/news/global',
+    'AI & Economy': '/news/ai-economy',
     'Others': '/news/others',
   };
 

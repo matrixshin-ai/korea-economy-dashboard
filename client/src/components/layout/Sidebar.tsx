@@ -20,6 +20,7 @@ const NEWS_SUB_SECTIONS = [
   { label: '산업/과학기술', href: '/news/industry' },
   { label: '부동산', href: '/news/real-estate' },
   { label: '국제경제', href: '/news/global' },
+  { label: 'AI와 경제', href: '/news/ai-economy' },
   { label: '기타', href: '/news/others' },
 ];
 
