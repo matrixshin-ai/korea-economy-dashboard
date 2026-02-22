@@ -18,7 +18,7 @@ export function useAuth() {
       return;
     }
     try {
-      const res = await fetch("/api/auth/user", {
+      const res = await fetch("/api/admin", {
         headers: { Authorization: `Bearer ${token}` },
       });
       setIsAdmin(res.ok);
@@ -31,10 +31,10 @@ export function useAuth() {
   useEffect(() => { verify(); }, [verify]);
 
   const login = async (password: string): Promise<boolean> => {
-    const res = await fetch("/api/auth/login", {
+    const res = await fetch("/api/admin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ password }),
+      body: JSON.stringify({ action: "login", password }),
     });
     if (!res.ok) return false;
     const { token } = await res.json();
