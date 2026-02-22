@@ -176,10 +176,18 @@ function CategoryCard({
   category,
   onChange,
   onDelete,
+  onAddKeyword,
+  onDeleteKeyword,
+  onUpdateKeyword,
+  onUpdateCategory,
 }: {
   category: CategoryItem;
   onChange: (cat: CategoryItem) => void;
   onDelete: () => void;
+  onAddKeyword: (categoryId: number, keyword: string, weight: number, isNegative: boolean, keywordGroup: string | null) => void;
+  onDeleteKeyword: (keywordId: number) => void;
+  onUpdateKeyword: (keywordId: number, fields: { weight?: number; isNegative?: boolean }) => void;
+  onUpdateCategory: (categoryId: number, fields: { quota?: number; priority?: number; andLogic?: boolean }) => void;
 }) {
   const [newKeyword, setNewKeyword] = useState("");
   const [newIsNegative, setNewIsNegative] = useState(false);
@@ -188,39 +196,46 @@ function CategoryCard({
   const addKeyword = () => {
     const kw = newKeyword.trim();
     if (!kw) return;
-    onChange({
-      ...category,
-      keywords: [
-        ...category.keywords,
-        {
-          keyword: kw,
-          weight: 1,
-          isNegative: newIsNegative,
-          keywordGroup: category.andLogic ? newGroup : null,
-        },
-      ],
-    });
+    onAddKeyword(
+      category.id,
+      kw,
+      1,
+      newIsNegative,
+      category.andLogic ? newGroup : null,
+    );
     setNewKeyword("");
     setNewIsNegative(false);
   };
 
   const removeKeyword = (idx: number) => {
+    const kw = category.keywords[idx];
     onChange({
       ...category,
       keywords: category.keywords.filter((_, i) => i !== idx),
     });
+    if (kw.id) {
+      onDeleteKeyword(kw.id);
+    }
   };
 
   const updateKeywordWeight = (idx: number, weight: number) => {
+    const kw = category.keywords[idx];
     const kws = [...category.keywords];
     kws[idx] = { ...kws[idx], weight };
     onChange({ ...category, keywords: kws });
+    if (kw.id) {
+      onUpdateKeyword(kw.id, { weight });
+    }
   };
 
   const toggleKeywordNegative = (idx: number) => {
+    const kw = category.keywords[idx];
     const kws = [...category.keywords];
     kws[idx] = { ...kws[idx], isNegative: !kws[idx].isNegative };
     onChange({ ...category, keywords: kws });
+    if (kw.id) {
+      onUpdateKeyword(kw.id, { isNegative: !kw.isNegative });
+    }
   };
 
   const positiveKeywords = category.keywords
@@ -273,6 +288,9 @@ function CategoryCard({
               onChange={(e) =>
                 onChange({ ...category, quota: Number(e.target.value) || 5 })
               }
+              onBlur={() =>
+                onUpdateCategory(category.id, { quota: category.quota })
+              }
             />
             <label className="text-xs text-muted-foreground">Priority:</label>
             <Input
@@ -284,14 +302,18 @@ function CategoryCard({
               onChange={(e) =>
                 onChange({ ...category, priority: Number(e.target.value) || 0 })
               }
+              onBlur={() =>
+                onUpdateCategory(category.id, { priority: category.priority })
+              }
             />
             <label className="flex items-center gap-1 text-xs text-muted-foreground whitespace-nowrap" title="AND logic: both keyword groups must match">
               <input
                 type="checkbox"
                 checked={category.andLogic}
-                onChange={(e) =>
-                  onChange({ ...category, andLogic: e.target.checked })
-                }
+                onChange={(e) => {
+                  onChange({ ...category, andLogic: e.target.checked });
+                  onUpdateCategory(category.id, { andLogic: e.target.checked });
+                }}
                 className="h-3 w-3"
               />
               AND
@@ -467,6 +489,103 @@ export default function AdminKeywordsPage() {
     }
   };
 
+  const handleDeleteKeyword = async (keywordId: number) => {
+    try {
+      const res = await adminFetch("/api/admin", {
+        method: "POST",
+        body: JSON.stringify({ action: "delete-keyword", keywordId }),
+      });
+      if (res.status === 401) {
+        clearToken();
+        setAuthenticated(false);
+        return;
+      }
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.message || "Failed to delete keyword");
+      }
+      fetchData();
+    } catch (err: any) {
+      toast({ title: "Error", description: err.message, variant: "destructive" });
+    }
+  };
+
+  const handleUpdateKeyword = async (keywordId: number, fields: { weight?: number; isNegative?: boolean }) => {
+    try {
+      const res = await adminFetch("/api/admin", {
+        method: "POST",
+        body: JSON.stringify({ action: "update-keyword", keywordId, ...fields }),
+      });
+      if (res.status === 401) {
+        clearToken();
+        setAuthenticated(false);
+        return;
+      }
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.message || "Failed to update keyword");
+      }
+      fetchData();
+    } catch (err: any) {
+      toast({ title: "Error", description: err.message, variant: "destructive" });
+    }
+  };
+
+  const handleUpdateCategory = async (categoryId: number, fields: { quota?: number; priority?: number; andLogic?: boolean }) => {
+    try {
+      const res = await adminFetch("/api/admin", {
+        method: "POST",
+        body: JSON.stringify({ action: "update-category", categoryId, ...fields }),
+      });
+      if (res.status === 401) {
+        clearToken();
+        setAuthenticated(false);
+        return;
+      }
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.message || "Failed to update category");
+      }
+      fetchData();
+    } catch (err: any) {
+      toast({ title: "Error", description: err.message, variant: "destructive" });
+    }
+  };
+
+  const handleAddKeyword = async (
+    categoryId: number,
+    keyword: string,
+    weight: number,
+    isNegative: boolean,
+    keywordGroup: string | null,
+  ) => {
+    try {
+      const res = await adminFetch("/api/admin", {
+        method: "POST",
+        body: JSON.stringify({
+          action: "add-keyword",
+          categoryId,
+          keyword,
+          weight,
+          isNegative,
+          keywordGroup,
+        }),
+      });
+      if (res.status === 401) {
+        clearToken();
+        setAuthenticated(false);
+        return;
+      }
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.message || "Failed to add keyword");
+      }
+      fetchData();
+    } catch (err: any) {
+      toast({ title: "Error", description: err.message, variant: "destructive" });
+    }
+  };
+
   const handleAddCategory = async (andLogic = false) => {
     const name = newCatName.trim();
     if (!name) return;
@@ -573,6 +692,10 @@ export default function AdminKeywordsPage() {
                 category={cat}
                 onChange={(updated) => updateCategory(idx, updated)}
                 onDelete={() => handleDeleteCategory(cat.id)}
+                onAddKeyword={handleAddKeyword}
+                onDeleteKeyword={handleDeleteKeyword}
+                onUpdateKeyword={handleUpdateKeyword}
+                onUpdateCategory={handleUpdateCategory}
               />
             ))}
           </div>

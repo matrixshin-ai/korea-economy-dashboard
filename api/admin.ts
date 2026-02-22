@@ -199,6 +199,89 @@ async function handleUpdateKeywords(req: VercelRequest, res: VercelResponse) {
   }
 }
 
+async function handleDeleteKeyword(req: VercelRequest, res: VercelResponse) {
+  const { keywordId } = req.body || {};
+  if (!keywordId) {
+    return res.status(400).json({ message: "keywordId required" });
+  }
+
+  const db = getDb();
+  const result = await db
+    .delete(keywords)
+    .where(eq(keywords.id, Number(keywordId)))
+    .returning();
+
+  if (!result.length) {
+    return res.status(404).json({ message: "Keyword not found" });
+  }
+
+  return res.json({ message: "Deleted" });
+}
+
+async function handleUpdateKeyword(req: VercelRequest, res: VercelResponse) {
+  const { keywordId, weight, isNegative } = req.body || {};
+  if (!keywordId) {
+    return res.status(400).json({ message: "keywordId required" });
+  }
+
+  const fields: Record<string, any> = {};
+  if (weight !== undefined) fields.weight = weight;
+  if (isNegative !== undefined) fields.isNegative = isNegative;
+
+  if (Object.keys(fields).length === 0) {
+    return res.status(400).json({ message: "No fields to update" });
+  }
+
+  const db = getDb();
+  await db
+    .update(keywords)
+    .set(fields)
+    .where(eq(keywords.id, Number(keywordId)));
+
+  return res.json({ message: "Updated" });
+}
+
+async function handleUpdateCategoryMeta(req: VercelRequest, res: VercelResponse) {
+  const { categoryId, quota, priority, andLogic } = req.body || {};
+  if (!categoryId) {
+    return res.status(400).json({ message: "categoryId required" });
+  }
+
+  const fields: Record<string, any> = { updatedAt: new Date() };
+  if (quota !== undefined) fields.quota = quota;
+  if (priority !== undefined) fields.priority = priority;
+  if (andLogic !== undefined) fields.andLogic = andLogic;
+
+  const db = getDb();
+  await db
+    .update(keywordCategories)
+    .set(fields)
+    .where(eq(keywordCategories.id, Number(categoryId)));
+
+  return res.json({ message: "Updated" });
+}
+
+async function handleAddKeyword(req: VercelRequest, res: VercelResponse) {
+  const { categoryId, keyword: kw, weight, isNegative, keywordGroup } = req.body || {};
+  if (!categoryId || !kw) {
+    return res.status(400).json({ message: "categoryId and keyword required" });
+  }
+
+  const db = getDb();
+  const result = await db
+    .insert(keywords)
+    .values({
+      categoryId,
+      keyword: kw,
+      weight: weight ?? 1,
+      isNegative: isNegative ?? false,
+      keywordGroup: keywordGroup || null,
+    })
+    .returning();
+
+  return res.status(201).json(result[0]);
+}
+
 async function handleAddCategory(req: VercelRequest, res: VercelResponse) {
   const { name, quota, priority, andLogic } = req.body || {};
   if (!name) {
@@ -254,6 +337,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       if (!auth.valid) return res.status(401).json({ message: auth.error });
       if (action === "add-category") {
         return handleAddCategory(req, res);
+      }
+      if (action === "add-keyword") {
+        return handleAddKeyword(req, res);
+      }
+      if (action === "delete-keyword") {
+        return handleDeleteKeyword(req, res);
+      }
+      if (action === "update-keyword") {
+        return handleUpdateKeyword(req, res);
+      }
+      if (action === "update-category") {
+        return handleUpdateCategoryMeta(req, res);
       }
       return res.status(400).json({ message: "Unknown action" });
     }
