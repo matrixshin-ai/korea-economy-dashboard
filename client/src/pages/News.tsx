@@ -13,6 +13,7 @@ const CATEGORIES = [
   { id: 'industry', label: '산업/과학' },
   { id: 'real-estate', label: '부동산' },
   { id: 'global', label: '국제경제' },
+  { id: 'ai-economy', label: 'AI와 경제' },
   { id: 'others', label: '기타' },
 ];
 
@@ -40,6 +41,7 @@ export default function NewsPage() {
     'industry': '산업·과학',
     'real-estate': '부동산',
     'global': '국제경제',
+    'ai-economy': 'AI와 경제',
     'others': '기타'
   };
 

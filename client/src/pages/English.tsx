@@ -37,6 +37,7 @@ const SECTION_ORDER = [
   "Industry & Technology",
   "Real Estate",
   "International Economy",
+  "AI & Economy",
   "Others",
 ];
 

@@ -59,6 +59,7 @@ The JSON must have this exact structure:
     "Industry & Technology": "3-5 sentence paragraph",
     "Real Estate": "3-5 sentence paragraph",
     "International Economy": "3-5 sentence paragraph",
+    "AI & Economy": "3-5 sentence paragraph",
     "Others": "3-5 sentence paragraph"
   }}
 }}
@@ -75,6 +76,7 @@ Rules:
   산업·과학 → Industry & Technology
   부동산 → Real Estate
   국제경제 → International Economy
+  AI와 경제 → AI & Economy
   기타 → Others
 
 News content:

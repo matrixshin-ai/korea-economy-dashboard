@@ -130,9 +130,39 @@ def _normalize_rules(raw: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
         # remove empty / zero-weight keywords (optional: keep zero-weight if you want)
         kw_pairs = [(k, w) for (k, w) in kw_pairs if k and w > 0]
 
+        # AND logic support: two keyword groups that must both match
+        and_logic = bool(rule.get("and_logic", False))
+        kw_pairs_a: List[Tuple[str, int]] = []
+        kw_pairs_b: List[Tuple[str, int]] = []
+
+        if and_logic:
+            for group_key, target_list in [("keywords_a", kw_pairs_a), ("keywords_b", kw_pairs_b)]:
+                for item in rule.get(group_key, []):
+                    if isinstance(item, str):
+                        kw = item.strip()
+                        if kw:
+                            target_list.append((kw, 1))
+                    elif isinstance(item, dict):
+                        kw = (item.get("keyword") or item.get("kw")
+                              or item.get("text") or "").strip()
+                        w = item.get("weight")
+                        if w is None:
+                            w = item.get("w", 1)
+                        try:
+                            w_int = int(w) if w is not None else 1
+                        except Exception:
+                            w_int = 1
+                        if kw:
+                            target_list.append((kw, max(0, w_int)))
+            kw_pairs_a = [(k, w) for (k, w) in kw_pairs_a if k and w > 0]
+            kw_pairs_b = [(k, w) for (k, w) in kw_pairs_b if k and w > 0]
+
         normalized[section] = {
             "quota": quota,
             "keywords": kw_pairs,  # list of (keyword, weight)
+            "and_logic": and_logic,
+            "keywords_a": kw_pairs_a,
+            "keywords_b": kw_pairs_b,
         }
 
     if not normalized:
@@ -175,6 +205,7 @@ def score_item(title: str,
     Score an item for a specific section using manual weights from JSON.
     - If keyword appears in title: TITLE_BASE * weight
     - Else if appears in (title+summary): BODY_BASE * weight
+    - AND-logic sections: both keyword groups must have >= 1 match
     """
     rules = _load_rules_cached()
     rule = rules.get(section)
@@ -184,6 +215,10 @@ def score_item(title: str,
     t = (title or "").strip()
     s = (summary or "").strip()
     text = f"{t} {s}"
+
+    # AND-logic section: require matches from both groups
+    if rule.get("and_logic"):
+        return _score_and_logic(t, text, rule)
 
     score = 0
     matched = set()
@@ -199,6 +234,40 @@ def score_item(title: str,
             matched.add(kw)
 
     return score
+
+
+def _score_and_logic(title: str, text: str, rule: Dict[str, Any]) -> int:
+    """
+    AND-logic scoring: both keywords_a and keywords_b must have >= 1 match.
+    If either group has zero matches, return 0.
+    """
+    score_a = 0
+    matched_a = 0
+    for kw, weight in rule.get("keywords_a", []):
+        if kw in title:
+            score_a += TITLE_BASE * weight
+            matched_a += 1
+        elif kw in text:
+            score_a += BODY_BASE * weight
+            matched_a += 1
+
+    if matched_a == 0:
+        return 0
+
+    score_b = 0
+    matched_b = 0
+    for kw, weight in rule.get("keywords_b", []):
+        if kw in title:
+            score_b += TITLE_BASE * weight
+            matched_b += 1
+        elif kw in text:
+            score_b += BODY_BASE * weight
+            matched_b += 1
+
+    if matched_b == 0:
+        return 0
+
+    return score_a + score_b
 
 
 def count_negative_matches(title: str, summary: str) -> int:
@@ -222,9 +291,15 @@ def has_any_positive_match(title: str, summary: str) -> bool:
     text = f"{t} {s}"
 
     for _section, rule in rules.items():
-        for kw, _w in rule["keywords"]:
-            if kw in text:
+        if rule.get("and_logic"):
+            has_a = any(kw in text for kw, _w in rule.get("keywords_a", []))
+            has_b = any(kw in text for kw, _w in rule.get("keywords_b", []))
+            if has_a and has_b:
                 return True
+        else:
+            for kw, _w in rule["keywords"]:
+                if kw in text:
+                    return True
     return False
 
 
@@ -344,6 +419,7 @@ LEGACY_SECTION_MAP = {
     "부동산": "부동산",
     "국제경제": "국제경제",
     "산업": "산업·과학",
+    "AI와 경제": "AI와 경제",
 }
 
 

@@ -57,7 +57,6 @@
         { "keyword": "자동차", "weight": 3 },
         { "keyword": "조선", "weight": 4 },
         { "keyword": "철강", "weight": 4 },
-        { "keyword": "인공지능", "weight": 4 },
         { "keyword": "로봇", "weight": 3 },
         { "keyword": "바이오", "weight": 3 },
         { "keyword": "제약", "weight": 3 },
@@ -101,6 +100,40 @@
         { "keyword": "중국", "weight": 2 },
         { "keyword": "미국", "weight": 2 },
         { "keyword": "일본", "weight": 2 }
+      ]
+    },
+    "AI와 경제": {
+      "quota": 5,
+      "and_logic": true,
+      "keywords_a": [
+        { "keyword": "AI", "weight": 1 },
+        { "keyword": "인공지능", "weight": 1 },
+        { "keyword": "생성형 AI", "weight": 1 },
+        { "keyword": "LLM", "weight": 1 },
+        { "keyword": "대규모언어모델", "weight": 1 },
+        { "keyword": "AI 에이전트", "weight": 1 },
+        { "keyword": "AI agent", "weight": 1 },
+        { "keyword": "자율 에이전트", "weight": 1 },
+        { "keyword": "AI 기본법", "weight": 1 },
+        { "keyword": "AI 규제", "weight": 1 },
+        { "keyword": "디지털 전환", "weight": 1 },
+        { "keyword": "공공 AI", "weight": 1 },
+        { "keyword": "정부 AI", "weight": 1 },
+        { "keyword": "행정 AI", "weight": 1 },
+        { "keyword": "전자정부", "weight": 1 },
+        { "keyword": "AI 칩", "weight": 1 },
+        { "keyword": "데이터센터", "weight": 1 },
+        { "keyword": "클라우드", "weight": 1 },
+        { "keyword": "토큰 비용", "weight": 1 },
+        { "keyword": "AI 인프라", "weight": 1 },
+        { "keyword": "딥페이크", "weight": 1 }
+      ],
+      "keywords_b": [
+        { "keyword": "경제", "weight": 1 },
+        { "keyword": "생산성", "weight": 1 },
+        { "keyword": "성장", "weight": 1 },
+        { "keyword": "투자", "weight": 1 },
+        { "keyword": "고용", "weight": 1 }
       ]
     }
   }

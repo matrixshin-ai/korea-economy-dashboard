@@ -86,6 +86,7 @@ const SECTION_MAP: { [key: string]: string } = {
   "국제경제": "International",
   "산업·과학": "Industry",
   "산업": "Industry",
+  "AI와 경제": "AIEconomy",
   "기타": "Others"
 };
 
