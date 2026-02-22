@@ -30,21 +30,37 @@ def _load_from_db():
         conn = psycopg2.connect(db_url)
         cur = conn.cursor()
         cur.execute(
-            "SELECT id, name, quota FROM keyword_categories ORDER BY priority DESC"
+            "SELECT id, name, quota, "
+            "COALESCE(and_logic, false) "
+            "FROM keyword_categories ORDER BY priority DESC"
         )
         categories = cur.fetchall()
         if not categories:
             conn.close()
             return None
         rules = {}
-        for cat_id, name, quota in categories:
+        for cat_id, name, quota, and_logic in categories:
             cur.execute(
-                "SELECT keyword, weight FROM keywords "
+                "SELECT keyword, weight, keyword_group FROM keywords "
                 "WHERE category_id = %s AND is_negative = false",
                 (cat_id,),
             )
-            kws = [{"keyword": r[0], "weight": r[1]} for r in cur.fetchall()]
-            rules[name] = {"quota": quota, "keywords": kws}
+            rows = cur.fetchall()
+
+            if and_logic:
+                kws_a = [{"keyword": r[0], "weight": r[1]}
+                         for r in rows if r[2] == "A"]
+                kws_b = [{"keyword": r[0], "weight": r[1]}
+                         for r in rows if r[2] == "B"]
+                rules[name] = {
+                    "quota": quota,
+                    "and_logic": True,
+                    "keywords_a": kws_a,
+                    "keywords_b": kws_b,
+                }
+            else:
+                kws = [{"keyword": r[0], "weight": r[1]} for r in rows]
+                rules[name] = {"quota": quota, "keywords": kws}
         conn.close()
         return rules
     except Exception:

@@ -1,7 +1,7 @@
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import { eq, asc } from "drizzle-orm";
-import { pgTable, text, timestamp, serial, integer, boolean } from "drizzle-orm/pg-core";
+import { pgTable, text, timestamp, serial, integer, boolean, varchar } from "drizzle-orm/pg-core";
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 // =============================================================================
@@ -98,6 +98,7 @@ const keywordCategories = pgTable("keyword_categories", {
   name: text("name").unique().notNull(),
   quota: integer("quota").default(5).notNull(),
   priority: integer("priority").default(0).notNull(),
+  andLogic: boolean("and_logic").default(false).notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
   updatedAt: timestamp("updated_at").defaultNow().notNull(),
 });
@@ -108,6 +109,7 @@ const keywords = pgTable("keywords", {
   keyword: text("keyword").notNull(),
   weight: integer("weight").default(1).notNull(),
   isNegative: boolean("is_negative").default(false).notNull(),
+  keywordGroup: varchar("keyword_group", { length: 1 }),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
@@ -170,6 +172,7 @@ async function handleUpdateKeywords(req: VercelRequest, res: VercelResponse) {
         .set({
           quota: cat.quota,
           priority: cat.priority ?? 0,
+          andLogic: cat.andLogic ?? false,
           updatedAt: new Date(),
         })
         .where(eq(keywordCategories.id, cat.id));
@@ -182,6 +185,7 @@ async function handleUpdateKeywords(req: VercelRequest, res: VercelResponse) {
           keyword: kw.keyword,
           weight: kw.weight ?? 1,
           isNegative: kw.isNegative ?? false,
+          keywordGroup: kw.keywordGroup || null,
         }));
         await txDb.insert(keywords).values(keywordRows);
       }
@@ -196,7 +200,7 @@ async function handleUpdateKeywords(req: VercelRequest, res: VercelResponse) {
 }
 
 async function handleAddCategory(req: VercelRequest, res: VercelResponse) {
-  const { name, quota, priority } = req.body || {};
+  const { name, quota, priority, andLogic } = req.body || {};
   if (!name) {
     return res.status(400).json({ message: "Category name required" });
   }
@@ -204,7 +208,7 @@ async function handleAddCategory(req: VercelRequest, res: VercelResponse) {
   const db = getDb();
   const result = await db
     .insert(keywordCategories)
-    .values({ name, quota: quota ?? 5, priority: priority ?? 0 })
+    .values({ name, quota: quota ?? 5, priority: priority ?? 0, andLogic: andLogic ?? false })
     .returning();
 
   return res.status(201).json(result[0]);

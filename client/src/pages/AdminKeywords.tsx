@@ -24,6 +24,7 @@ interface KeywordItem {
   keyword: string;
   weight: number;
   isNegative: boolean;
+  keywordGroup?: string | null;
 }
 
 interface CategoryItem {
@@ -31,6 +32,7 @@ interface CategoryItem {
   name: string;
   quota: number;
   priority: number;
+  andLogic: boolean;
   keywords: KeywordItem[];
 }
 
@@ -181,6 +183,7 @@ function CategoryCard({
 }) {
   const [newKeyword, setNewKeyword] = useState("");
   const [newIsNegative, setNewIsNegative] = useState(false);
+  const [newGroup, setNewGroup] = useState<string>("A");
 
   const addKeyword = () => {
     const kw = newKeyword.trim();
@@ -189,7 +192,12 @@ function CategoryCard({
       ...category,
       keywords: [
         ...category.keywords,
-        { keyword: kw, weight: 1, isNegative: newIsNegative },
+        {
+          keyword: kw,
+          weight: 1,
+          isNegative: newIsNegative,
+          keywordGroup: category.andLogic ? newGroup : null,
+        },
       ],
     });
     setNewKeyword("");
@@ -222,11 +230,38 @@ function CategoryCard({
     .map((kw, idx) => ({ ...kw, _idx: idx }))
     .filter((kw) => kw.isNegative);
 
+  const groupA = positiveKeywords.filter((kw) => kw.keywordGroup === "A");
+  const groupB = positiveKeywords.filter((kw) => kw.keywordGroup === "B");
+
+  const renderKeywordList = (items: typeof positiveKeywords) => (
+    <div className="flex flex-wrap">
+      {items.map((kw) => (
+        <KeywordBadge
+          key={kw._idx}
+          kw={kw}
+          onRemove={() => removeKeyword(kw._idx)}
+          onWeightChange={(w) => updateKeywordWeight(kw._idx, w)}
+          onToggleNegative={() => toggleKeywordNegative(kw._idx)}
+        />
+      ))}
+      {items.length === 0 && (
+        <span className="text-xs text-muted-foreground">No keywords</span>
+      )}
+    </div>
+  );
+
   return (
     <Card>
       <CardHeader className="pb-3">
         <div className="flex items-center justify-between gap-2">
-          <CardTitle className="text-base">{category.name}</CardTitle>
+          <div className="flex items-center gap-2">
+            <CardTitle className="text-base">{category.name}</CardTitle>
+            {category.andLogic && (
+              <Badge variant="outline" className="text-[10px] px-1.5 py-0 font-normal">
+                AND
+              </Badge>
+            )}
+          </div>
           <div className="flex items-center gap-2">
             <label className="text-xs text-muted-foreground">Quota:</label>
             <Input
@@ -250,6 +285,17 @@ function CategoryCard({
                 onChange({ ...category, priority: Number(e.target.value) || 0 })
               }
             />
+            <label className="flex items-center gap-1 text-xs text-muted-foreground whitespace-nowrap" title="AND logic: both keyword groups must match">
+              <input
+                type="checkbox"
+                checked={category.andLogic}
+                onChange={(e) =>
+                  onChange({ ...category, andLogic: e.target.checked })
+                }
+                className="h-3 w-3"
+              />
+              AND
+            </label>
             <Button
               variant="ghost"
               size="sm"
@@ -263,26 +309,36 @@ function CategoryCard({
         </div>
       </CardHeader>
       <CardContent className="space-y-3">
-        {/* Positive keywords */}
-        <div>
-          <p className="text-xs text-muted-foreground mb-1">
-            Keywords ({positiveKeywords.length})
-          </p>
-          <div className="flex flex-wrap">
-            {positiveKeywords.map((kw) => (
-              <KeywordBadge
-                key={kw._idx}
-                kw={kw}
-                onRemove={() => removeKeyword(kw._idx)}
-                onWeightChange={(w) => updateKeywordWeight(kw._idx, w)}
-                onToggleNegative={() => toggleKeywordNegative(kw._idx)}
-              />
-            ))}
-            {positiveKeywords.length === 0 && (
-              <span className="text-xs text-muted-foreground">No keywords</span>
-            )}
+        {category.andLogic ? (
+          <>
+            {/* Group A */}
+            <div>
+              <p className="text-xs text-muted-foreground mb-1 font-medium">
+                Group A ({groupA.length})
+              </p>
+              {renderKeywordList(groupA)}
+            </div>
+            {/* AND indicator */}
+            <div className="text-center text-xs text-muted-foreground font-bold py-0.5">
+              AND
+            </div>
+            {/* Group B */}
+            <div>
+              <p className="text-xs text-muted-foreground mb-1 font-medium">
+                Group B ({groupB.length})
+              </p>
+              {renderKeywordList(groupB)}
+            </div>
+          </>
+        ) : (
+          /* Normal: single keyword list */
+          <div>
+            <p className="text-xs text-muted-foreground mb-1">
+              Keywords ({positiveKeywords.length})
+            </p>
+            {renderKeywordList(positiveKeywords)}
           </div>
-        </div>
+        )}
 
         {/* Negative keywords */}
         {negativeKeywords.length > 0 && (
@@ -318,6 +374,17 @@ function CategoryCard({
               }
             }}
           />
+          {category.andLogic && (
+            <Select value={newGroup} onValueChange={setNewGroup}>
+              <SelectTrigger className="h-7 w-16 text-xs px-1">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="A">A</SelectItem>
+                <SelectItem value="B">B</SelectItem>
+              </SelectContent>
+            </Select>
+          )}
           <label className="flex items-center gap-1 text-xs text-muted-foreground whitespace-nowrap">
             <input
               type="checkbox"
@@ -349,6 +416,7 @@ export default function AdminKeywordsPage() {
   const [saving, setSaving] = useState(false);
   const [newCatDialogOpen, setNewCatDialogOpen] = useState(false);
   const [newCatName, setNewCatName] = useState("");
+  const [newCatAndLogic, setNewCatAndLogic] = useState(false);
   const { toast } = useToast();
 
   const fetchData = useCallback(async () => {
@@ -399,14 +467,14 @@ export default function AdminKeywordsPage() {
     }
   };
 
-  const handleAddCategory = async () => {
+  const handleAddCategory = async (andLogic = false) => {
     const name = newCatName.trim();
     if (!name) return;
 
     try {
       const res = await adminFetch("/api/admin", {
         method: "POST",
-        body: JSON.stringify({ action: "add-category", name, quota: 5, priority: 0 }),
+        body: JSON.stringify({ action: "add-category", name, quota: 5, priority: 0, andLogic }),
       });
       if (res.status === 401) {
         clearToken();
@@ -524,12 +592,21 @@ export default function AdminKeywordsPage() {
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     e.preventDefault();
-                    handleAddCategory();
+                    handleAddCategory(newCatAndLogic);
                   }
                 }}
                 autoFocus
               />
-              <Button className="w-full" onClick={handleAddCategory}>
+              <label className="flex items-center gap-2 text-sm text-muted-foreground">
+                <input
+                  type="checkbox"
+                  checked={newCatAndLogic}
+                  onChange={(e) => setNewCatAndLogic(e.target.checked)}
+                  className="h-3.5 w-3.5"
+                />
+                AND logic (two keyword groups must both match)
+              </label>
+              <Button className="w-full" onClick={() => handleAddCategory(newCatAndLogic)}>
                 Create
               </Button>
             </div>
