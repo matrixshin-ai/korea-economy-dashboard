@@ -203,7 +203,7 @@ async function ensureUpToDate(force = false): Promise<{ updated: boolean; reason
     await execAsync("python jobs/poll.py", { timeout: 180000 });
     
     console.log("[ensureUpToDate] Step 5/5: Rendering briefing...");
-    await execAsync("python render.py", { timeout: 120000 });
+    await execAsync("python jobs/render.py", { timeout: 120000 });
     
     console.log("[ensureUpToDate] Update completed successfully!");
     
@@ -550,7 +550,7 @@ export async function registerRoutes(
   app.post("/api/news/refresh", async (_req, res) => {
     try {
       await execAsync("python jobs/poll.py", { timeout: 180000 });
-      await execAsync("python render.py", { timeout: 120000 });
+      await execAsync("python jobs/render.py", { timeout: 120000 });
       const realNews = loadRealNews();
       res.json({
         success: true,

@@ -79,7 +79,7 @@ jobs:
       - name: Render briefing
         id: render
         if: steps.poll.outcome == 'success'
-        run: python render.py
+        run: python jobs/render.py
 
       - name: Verify render output
         if: steps.render.outcome == 'success'
