@@ -123,7 +123,9 @@ export default function Home() {
       return res.json();
     },
   });
-  const headlineNews = (briefingData?.headlines || []).slice(0, 5);
+  const headlineNews = briefingData?.top5_headlines?.length > 0
+    ? briefingData.top5_headlines
+    : (briefingData?.headlines || []).slice(0, 5);
 
   return (
     <div className="flex min-h-screen bg-background text-foreground font-sans">

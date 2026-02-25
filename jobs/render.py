@@ -307,6 +307,37 @@ def select_by_quota_filtered(items: list, quota: int) -> list:
 
 
 # ---------------------------------------------------------------------------
+# Top 5 diverse headline selection
+# ---------------------------------------------------------------------------
+def select_top5_diverse(headlines: list, threshold: int = 60) -> list:
+    """
+    Select up to 5 diverse headlines by scanning in order and skipping
+    any headline whose title has token_set_ratio >= threshold with
+    an already-selected headline.
+    """
+    from rapidfuzz import fuzz
+
+    selected = []
+    for item in headlines:
+        title = _safe_strip(item.get("title"))
+        if not title:
+            continue
+
+        is_dup = False
+        for chosen in selected:
+            if fuzz.token_set_ratio(title, chosen.get("title", "")) >= threshold:
+                is_dup = True
+                break
+
+        if not is_dup:
+            selected.append(item)
+            if len(selected) >= 5:
+                break
+
+    return selected
+
+
+# ---------------------------------------------------------------------------
 # Output builder
 # ---------------------------------------------------------------------------
 def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict) -> dict:
@@ -360,6 +391,9 @@ def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict)
                       f"({len(output['headlines'])} items)")
         except (FileNotFoundError, json.JSONDecodeError):
             print("OCR headlines empty & no previous briefing → headlines will be empty")
+
+    # Top 5 diverse headlines
+    output["top5_headlines"] = select_top5_diverse(output["headlines"])
 
     # Sections
     for category in CATEGORY_NAMES:
