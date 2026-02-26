@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-02-26T16:32:02.678507+09:00",
-  "date": "2026-02-26",
+  "generated_at": "2026-02-27T07:36:51.816359+09:00",
+  "date": "2026-02-27",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 1797,
-    "total_used": 1643,
-    "dropped_quality": 132,
-    "dropped_negative": 22,
+    "total_input": 1749,
+    "total_used": 1595,
+    "dropped_quality": 130,
+    "dropped_negative": 24,
     "per_category": {
-      "기타": 782,
-      "거시경제·재정": 256,
-      "금융시장": 248,
-      "국제경제": 116,
-      "부동산": 113,
-      "산업·과학": 126,
-      "AI와 경제": 2
+      "거시경제·재정": 247,
+      "금융시장": 245,
+      "기타": 719,
+      "산업·과학": 146,
+      "국제경제": 146,
+      "AI와 경제": 6,
+      "부동산": 86
     }
   },
   "headlines": [
@@ -265,60 +265,28 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "금통위, 오늘 기준금리 결정…성장률 올리고 금리 6연속 ‘동결’ 무게",
-        "summary": "국내 경제전문가 동결 전망 경기 회복…집값·환율 불안한국은행 금융통화위원회가 26일 올해 두 번째 통화정책방향 회의에서 현재 연 2.50%인 기준금리를 조정하는 가운데 ‘동결’ 가..",
-        "link": "https://www.mk.co.kr/news/economy/11972459",
-        "source": "매일경제 : 경제",
-        "published": "2026-02-26T08:38:44+09:00",
-        "score": 202
-      },
-      {
-        "title": "한국은행 GDP 성장률 전망…반도체 수출이 좌우할까?",
-        "summary": "한국은행은 올해 1분기 국내총생산(GDP) 성장률이 약 1%에 이를 것으로 예상했다. 경제전망 설명회에서 김웅 한국은행 부총재보는 \"반도체 수출이 긍정적으로 이어지면 성장률이 추가로 상승할 수도 있다\"고 밝혔다....",
-        "link": "https://www.gokorea.kr/news/articleView.html?idxno=858969",
+        "title": "한국은행, 반도체 호조로 GDP 성장률 2% 전망…미국 관세 위험은 변수",
+        "summary": "실질 GDP 성장률이 1% 내외에 이를 것으로 예상했다. 김웅 부총재보는 이날 오후 경제전망 설명회에서 반도체 수출 호조가 지속된다면 이 성장률은 더 높아질 가능성도 있다고 전했다. 보고서에 따르면, 올해 연간 GDP...",
+        "link": "https://www.gokorea.kr/news/articleView.html?idxno=858992",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:06:00+09:00",
-        "score": 180
+        "published": "2026-02-26T17:58:00+09:00",
+        "score": 162
       },
       {
-        "title": "기준금리 2.50% 6회 연속 동결...'성장률 상향'에 인하 명분 떨어져",
-        "summary": "한국은행 금융통화위원회(금통위)가 26일 통화정책방향 회의에서 기준금리를 연 2.50%로 동결했다. 지난해... 지난해 상반기에도 두 차례 금리를 낮추며 경기 부양에 무게를 실었다. 내수 부진과 미국 관세 불확실성...",
-        "link": "https://www.thepublic.kr/news/articleView.html?idxno=295589",
+        "title": "수출·소비 모두 '초록불'…2년 만에 2% 성장률 달성 전망",
+        "summary": "이날 한은이 처음 발표한 6개월 금리 전망에서도 금융통화위원 대부분 기준금리 동결에 힘을 실었다.한국은행 금융통화위원회는 26일 서울 중구 한국은행 본부에서 통화정책방향 회의를 열고 올해 경제성장률(GDP)...",
+        "link": "https://www.asiatoday.co.kr/view.php?key=20260226010008046",
         "source": "네이버뉴스",
-        "published": "2026-02-26T15:56:00+09:00",
-        "score": 172
-      },
-      {
-        "title": "한은, 기준금리 연 2.50% 6연속 동결…올해 성장률 2.0%로 높여",
-        "summary": "기획재정부는 최근 경제동향(그린북)에서 \"최근 우리 경제는 소비 등 내수 개선, 반도체 중심 수출 호조 등으로 경기회복 흐름이 이어지는 모습\"이라고 평가했다. KDI 역시 반도체 수출과 소비 회복을 근거로 올해...",
-        "link": "https://www.econovill.com/news/articleView.html?idxno=731067",
-        "source": "네이버뉴스",
-        "published": "2026-02-26T10:28:00+09:00",
-        "score": 172
-      },
-      {
-        "title": "[정책포커스] 한국은행 금통위, 기준금리 6번째 동결…금통위원 만장일...",
-        "summary": "한국은행 금융통화위원회는 26일 다음 통화정책방향 결정시까지 한국은행 기준금리를 현재의 2.50%로... 기준금리 수준을 유지하면서 대내외 정책 여건을 점검해 나가는 것이 적절하다고 설명했다. 세계경제, 성장세 이어가...",
-        "link": "http://www.sisacast.kr/news/articleView.html?idxno=92411",
-        "source": "네이버뉴스",
-        "published": "2026-02-26T15:56:00+09:00",
-        "score": 170
-      },
-      {
-        "title": "[속보] 한은 금통위, 기준금리 연 2.5%…6연속 동결",
-        "summary": "고환율·부동산 과열 부담 여전 성장률 0.1~0.2%포인트 상향할 듯한국은행 금융통화위원회가 올해 두번째 통화정책방향 회의를 열고 기준금리를 연 2.5%로 동결했다. 지난해 7·8..",
-        "link": "https://www.mk.co.kr/news/economy/11972562",
-        "source": "매일경제 : 경제",
-        "published": "2026-02-26T09:50:29+09:00",
+        "published": "2026-02-26T18:02:00+09:00",
         "score": 160
       },
       {
-        "title": "반도체·소비 회복에 올해 GDP성장률 0.2%p 오른 2.0%",
-        "summary": "근원물가(식료품 및 에너지 제외 지수) 상승률과 단기 기대인플레이션율(일반인)은 각각 2.0%, 2.6%로 전월 수준을 유지했다. 금통위는 가계대출이 정부의 거시건전성정책 강화 기조에 맞춰 소폭 증가에 그쳤다고 봤다. 이로...",
-        "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=249255",
+        "title": "한국은행, 기준금리 6연속 동결…9개월째 연 2.5%",
+        "summary": "지난해 3분기 실질 국내총생산(GDP) 성장률(전 분기 대비)은 반도체 등 수출 호조와 민생 소비쿠폰 효과... 실제로 이날 한은은 올해 실질 GDP 성장률 전망치를 1.8%에서 2.0%로 0.2%p 올려 잡았다. 여기에 더해 금리를...",
+        "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1050142",
         "source": "네이버뉴스",
-        "published": "2026-02-26T11:12:00+09:00",
-        "score": 156
+        "published": "2026-02-27T00:02:00+09:00",
+        "score": 152
       },
       {
         "title": "한은, 2윌 금통위 기준금리 '동결' 유력…불확실성 속 '성장률' 주목",
@@ -345,23 +313,63 @@
         "score": 146
       },
       {
-        "title": "전쟁 4년간 잘 버티던 러시아, 성장률 1%로 급락하며 경기 침체 경고등",
-        "summary": "군사비 지출은 국내총생산(GDP)의 약 7% 수준으로 추산된다. 반면 국가 재정의 핵심 축이던 석유·가스 수입은... 르몽드는 2026년 러시아 재정적자가 GDP의 3.5~4.4%에 이를 것으로 전망된다고 전했다. 전쟁 초기 러시아...",
-        "link": "https://biz.chosun.com/international/international_economy/2026/02/26/62FCZ6ME4BB6TFKMDB6AMOWERY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-02-26T15:02:00+09:00",
+        "title": "[더벨]한국은행, 1년간 기준금리 동결 고수하나",
+        "summary": "한국은행 금융통화위원회(이하 금통위)가 7연속 기준금리를 동결했다. 경기 부양을 위한 금리 인하 명분이 사라지고 외환 및 금융시장 측면에는 불안정이 이어지면서 장기간 동결 기조가 이어질 전망이다. 반도체 수출...",
+        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202602261001031320102744",
+        "source": "네이버뉴스",
+        "published": "2026-02-27T07:02:00+09:00",
         "score": 144
       },
       {
-        "title": "[속보] 한국은행, 올해 성장률 전망치 1.8→2.0% 상향 조정",
-        "summary": "반도체 중심 수출 증가 등 반영한국은행이 올해 한국의 실질 국내총생산(GDP) 성장률을 기존 1.8%에서 2.0%로 상향했다. 내년은 1.8%로 전망했다. 한은은 26일 수정 경제..",
-        "link": "https://www.mk.co.kr/news/economy/11972568",
-        "source": "매일경제 : 경제",
-        "published": "2026-02-26T09:52:24+09:00",
+        "title": "[2월 금통위] 견조한 반도체 수출에 성장 예측치 높였지만…불확실성은...",
+        "summary": "[사진=연합뉴스] 한국은행이 올해 한국 국내총생산(GDP) 성장률을 기존 예상보다 상향 조정한 2.0%로... 다만 반도체 수출 증가세가 6% 내외로 낮아지면 전체 GDP 성장률에 0.2%포인트 하방 요인으로 작용할 것으로...",
+        "link": "https://www.ajunews.com/view/20260226153454783",
+        "source": "네이버뉴스",
+        "published": "2026-02-26T16:56:00+09:00",
+        "score": 140
+      },
+      {
+        "title": "기준금리 연 2.5%, 6연속 동결…한은 올해 성장률 전망 1.8%→2.0% 상향",
+        "summary": "지난해 3분기 실질 국내총생산(GDP) 성장률(전 분기 대비)은 반도체 등 수출 호조와 민생 소비쿠폰 효과... 실제로 이날 한은은 올해 실질 GDP 성장률 눈높이를 1.8%에서 2.0%로 0.2%포인트(p) 올려 잡았다. 박정우 노무라증권...",
+        "link": "https://www.epnc.co.kr/news/articleView.html?idxno=329128",
+        "source": "네이버뉴스",
+        "published": "2026-02-26T18:30:00+09:00",
         "score": 132
+      },
+      {
+        "title": "한은, 기준금리 동결...경제 성장세에 금리 못 내리나?",
+        "summary": "금통위는 또한 올해 실질 국내총생산(GDP) 성장률 전망치를 기존 1.8%에서 2.0%로 0.2%포인트(p) 상향 조정했다.... 전규언 하나증권 연구위원은 \"성장률이 2% 수준을 달성하면 GDP 갭 개선으로 물가 압력이 높아질 수 있다...",
+        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=294362",
+        "source": "네이버뉴스",
+        "published": "2026-02-26T17:22:00+09:00",
+        "score": 126
+      },
+      {
+        "title": "한은, 올해 성장률 2.0%로 상향…경상수지 1700억달러 흑자 전망",
+        "summary": "한은은 \"올해 GDP 성장률이 0.2%p 상향조정된 것은 건설경기의 더딘 회복(-0.2%p)에도 반도체 경기호조(+0.2%p), 양호한 세계경제 흐름(+0.05%p), 반도체·의약품 관세부과시점 전제 이연(+0.05%p), 정부의 소비·투자지원책(+0.1%p)...",
+        "link": "http://www.joseilbo.com/news/news_read.php?uid=563611&class=18&grp=",
+        "source": "네이버뉴스",
+        "published": "2026-02-26T16:51:00+09:00",
+        "score": 122
+      },
+      {
+        "title": "올 성장률 1.8→2% … 한은, 기준금리 6연속 동결",
+        "summary": "6개월 뒤 기준금리 역시 2.50% 동결을 예상하는 시각이 압도적(76.2%)으로 우세했다. 한편 한은은 올해 실질 국내총생산(GDP) 성장률 전망치를 기존 1.8%에서 2.0%로 상향 조정했다.",
+        "link": "https://www.mk.co.kr/article/11973374",
+        "source": "매일경제",
+        "published": "2026-02-26T18:07:00+09:00",
+        "score": 120
       }
     ],
     "금융시장": [
+      {
+        "title": "“코스피 이렇게 달릴 줄 몰랐다” 주가에 연동된 예금 금리 뚝↓",
+        "summary": "주가 상승률이 20%에 못 미치면 10% 안팎의 금리를 받을 수 있지만 20%를 초과하면서 2%대로 뚝 떨어진... 연 2% 안팎의 기본 금리를 제공하되 관찰기관 내 지수 상승률에 따라 연 3~12% 수준의 추가 수익을 주지만...",
+        "link": "https://www.sedaily.com/article/20013351?ref=naver",
+        "source": "서울경제",
+        "published": "2026-02-27T06:01:00+09:00",
+        "score": 140
+      },
       {
         "title": "채권업계 종사자 99% \"고환율 영향으로 2월 기준금리 동결될 것\"",
         "summary": "고환율 지속과 미국 FOMC(연방공개시장위원회) 기준금리 동결 가능성 영향이다. 금융투자협회(금투협)가... 금투협 관계자는 \"높은 수준의 환율이 지속 유지되고 미국 FOMC의 기준금리 동결 가능성이 증가함에 따라...",
@@ -379,65 +387,65 @@
         "score": 130
       },
       {
-        "title": "채권 전문가 99% \"2월 금통위 기준금리 동결할 것\"",
-        "summary": "금투협은 \"높은 수준의 환율이 지속 유지되고, 미국 연방공개시장위원회(FOMC)의 기준금리 동결 가능성이 증가됨에 따라 금통위의 기준금리 동결에 대한 예상이 직전 조사 대비 증가한 것으로 조사됐다\"고 했다. 국내...",
-        "link": "https://view.asiae.co.kr/article/2026022414415704072",
-        "source": "아시아경제",
-        "published": "2026-02-24T14:41:00+09:00",
-        "score": 106
-      },
-      {
-        "title": "채권시장 전문가 99%, 이달 금통위 기준금리 동결 전망",
-        "summary": "직전 조사(96%) 대비 동결 전망이 더욱 우세해진 것으로, 고환율 기조의 지속과 미국 연방공개시장위원회(FOMC)의 금리 동결 가능성 확대가 주된 배경으로 꼽혔다. 종합 BMSI는 96.5로 전월(96.8) 대비 0.3포인트 소폭...",
-        "link": "https://www.sedaily.com/article/20011934?ref=naver",
-        "source": "서울경제",
-        "published": "2026-02-24T13:32:00+09:00",
-        "score": 106
-      },
-      {
-        "title": "코스피, 삼성·하이닉스 7%대 급등에 '6300선 안착'…코스닥 1.97%↑",
-        "summary": "56%), 인터넷과카탈로그소매(-4.89%), 해운사(-4.28%), 출판(-3.43%), 문구류(-3.42%)가 위치했다. 한편 이날 오후 3시30분 기준 서울 외환시장에서 달러 대비 원화 환율은 전날보다 3.6원 내린 1425.8원에 마감했다.",
-        "link": "http://www.newsprime.co.kr/news/article.html?no=725553",
+        "title": "李대통령 '주가 누르기 방지법' 박차…코스피 랠리 속도 붙나",
+        "summary": "최근 이어지고 있는 랠리의 핵심 동력은 단연 반도체다. 국내 증시의 투톱인 삼성전자의 SK하이닉스의 역대급 실적 호조가 주가를 밀어올리고 있는 것이다. 여기에 새 정부 출범 이후 주식시장 개혁 등 자본시장 선진화...",
+        "link": "https://www.newsis.com/view/NISX20260226_0003528264",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:24:00+09:00",
-        "score": 106
+        "published": "2026-02-27T07:00:00+09:00",
+        "score": 118
+      },
+      {
+        "title": "[김대호 박사의 오늘의 키워드] 엔비디아 공매도·코스피 광풍·주가 누...",
+        "summary": "- 한은, 첫 점도표 공개…6개월 뒤 '금리 유지'에 무게 - 첫 점도표에서 8월 기준금리 전망 중간값 연 2.50% - 금통위원 7명이 각각 3개씩 제시한 전망치 총 21개 - 한은, 당분간 점도표·더불어 포워드 가이던스 함께 제시...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000294021?division=NAVER",
+        "source": "SBS",
+        "published": "2026-02-27T07:10:00+09:00",
+        "score": 110
       }
     ],
     "산업·과학": [
       {
-        "title": "“전기차 배터리로 돈 법니다”…제주, 분산에너지 혁신 선도",
-        "summary": "브이피피랩, 26~27일 제주서 ‘분산에너지 × VPP 비즈니스데이’ 개최 제주 등 분산특구 활성화 방안 모색…전력시장 변화·사업 기회 공유도 제주, 전기차 전력 판매(V2G), 잉여전력 열에너지 전환(P2H) 등 추진 전기차...",
-        "link": "https://www.mk.co.kr/article/11973016",
-        "source": "매일경제",
-        "published": "2026-02-26T15:38:00+09:00",
-        "score": 120
-      },
-      {
-        "title": "전기차를 '달리는 배터리'로 쓰는 V2G, 어디까지 왔나",
-        "summary": "특히 태양광이나 풍력발전처럼 기상 조건에 따라 생산량이 불규칙한 재생에너지는 전기차가 남는 전력을 흡수했다가 필요할 때 다시 공급함으로써 에너지 활용도와 경제성을 동시에 높일 수 있다. 이러한 기술적...",
-        "link": "https://www.bizhankook.com/bk/article/31613",
+        "title": "반도체 장비 관련주, '봄꽃만개' HPSP·한미반도체·한화비전·SFA반도체...",
+        "summary": "전기차 산업의 미래를 이끌 차세대 배터리 기술로 전고체 배터리에 대한 관심이 높아지는 가운데... 첨단반도체, 디스플레이, 전기차 배터리 분야를 핵심 시장으로 설정하고 글로벌 영업망을 구축하고 있다....",
+        "link": "http://www.finomy.com/news/articleView.html?idxno=250400",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:28:00+09:00",
+        "published": "2026-02-27T00:10:00+09:00",
         "score": 102
       },
       {
-        "title": "SK, 가정용 ESS 유니콘 '루나에너지' 지분 매각…'전고체 배터리' 승부수",
-        "summary": "▲SK그룹 본사 전경[사진=SK그룹] 전기차 배터리 시장의 ‘게임 체인저’로 꼽히는 전고체 배터리 경쟁이 본격화되는 가운데 SK가 선택과 집중을 통해 미래 성장 축을 재정렬하고 있다는 게 업계의 평가다. 26일 업계에...",
-        "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065593448396365",
-        "source": "네이버뉴스",
-        "published": "2026-02-26T15:36:00+09:00",
-        "score": 96
+        "title": "반도체·자동차 쌍끌이 장세…코스피도 6300 뚫었다 [매경 자이앤트]",
+        "summary": "반도체·자동차 쌍끌이 장세가 계속되며 코스피가 역대 처음으로 6300선을 돌파했다. 다수의 종목에서 신고가가 나오며 국내 증시에 훈풍이 계속되고 있다. 26일 코스피는 전 거래일 ..",
+        "link": "https://www.mk.co.kr/news/stock/11973175",
+        "source": "매일경제 : 증권",
+        "published": "2026-02-26T16:53:57+09:00",
+        "score": 80
       },
       {
-        "title": "코스닥 외국인, '2차전지·로봇·반도체' 집중 매수…에코프로 1127억 쓸...",
-        "summary": "금리 인하 기대가 재부각되며 고밸류 성장주에 대한 선호가 되살아났다는 분석이다. 통신·관광·IT서비스 등 내수·서비스 종목도 일부 담겼다. 서진시스템, 서부T&D 등이 순매수 상위에 올랐다. 반면 외국인은 반도체...",
-        "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=432608",
-        "source": "네이버뉴스",
-        "published": "2026-02-26T16:06:00+09:00",
+        "title": "“코스피 조정 오더라도 2년 내 7500 갈 것, 반도체‧로봇‧지주사 섹터...",
+        "summary": "이를 위해서는 평소에 경제 흐름과 산업 구조를 공부해두는 것이 필요하다. 또한 불안하다면 일부 이익을... 중요한 건 시장의 소음이 아니라, 우리 경제와 기업의 펀더멘털이 훼손됐는지 여부다. 구조적인 문제가...",
+        "link": "https://woman.donga.com/3/all/12/6116833/1",
+        "source": "동아일보",
+        "published": "2026-02-27T07:02:00+09:00",
         "score": 80
+      },
+      {
+        "title": "점안제 명가의 변신…삼천당제약, 바이오시밀러 이어 '먹는 위고비' 승...",
+        "summary": "삼천당제약은 지난 1943년 설립된 조선삼천당을 1986년 윤대인 삼천당제약 회장이 인수해 사명을 바꾸고 회사의 방향을 재편하며 성장한 기업으로 알려졌다. 윤대인 회장은 2022년 3월 대표이사 임기 만료로...",
+        "link": "https://www.newsway.co.kr/news/view?ud=2026022614112993863",
+        "source": "네이버뉴스",
+        "published": "2026-02-27T07:14:00+09:00",
+        "score": 76
       }
     ],
     "부동산": [
+      {
+        "title": "1월 서울 주택 인허가·착공 반토막…월세 비중 역대 최고 66.8%[부동산AtoZ]",
+        "summary": "올해 1월 서울 주택 인허가와 착공이 모두 작년 같은 기간의 절반 이상 급감한 것으로 나타났다. 전·월세 거래 중 월세(보증부월세·반전세 포함) 비중은 역대 최고를 기록했다. 27일 국토교통부가 발표한 '1월 주택 통계'에 따르면, 전국 주택 인허가는 1만6531가구로 전년 동월 대비 26.4% 줄었다. 서울은 1226가구로 55.9% 감소했고, 인천은 95가구에 그쳐 92.9% 급감했다. 서울 아파트 인허가는 1만3702가구로, 전년 동기 대비",
+        "link": "https://www.asiae.co.kr/article/2026022701215363704",
+        "source": "아시아경제 - 부동산",
+        "published": "2026-02-27T06:14:06+09:00",
+        "score": 151
+      },
       {
         "title": "‘얼죽신’ 열풍도 식나? 분당-수지 나란히 미달…부동산 규제에 청약 시장 주춤",
         "summary": "‘얼죽신(얼어 죽어도 신축)’ 열풍과 집값 상승 기대로 높은 경쟁률을 기록해온 수도권 아파트 분양시장이 최근 들어 주춤하는 모양새다. 정부의 강력한 규제와 함께 집값이 하락할 것이..",
@@ -447,38 +455,30 @@
         "score": 142
       },
       {
+        "title": "‘불패신화’ 강남·용산 집값 2년만에 꺾였다…다주택자 압박에 호가 뚝뚝",
+        "summary": "서울아파트 매물 7만건 돌파 ‘불패신화’ 핵심지부터 하락서울 부동산의 ‘불패 신화’를 상징하는 강남 3구와 용산구 아파트 가격이 일제히 하락세로 돌아섰다. 지난주 경기 과천이 하락..",
+        "link": "https://www.mk.co.kr/news/realestate/11973378",
+        "source": "매일경제 : 부동산",
+        "published": "2026-02-26T18:14:11+09:00",
+        "score": 126
+      },
+      {
         "title": "강남3구·용산 아파트값, 2년만 하락전환…李 \"부동산 정상화의 길로\"(종합)",
         "summary": "서울 강남3구와 용산구 아파트값이 한 주 전보다 떨어졌다는 통계가 나왔다. 지난해 서울 집값 상승을 이끌었던 지역으로 주간 집계에서 동시에 하락 전환한 건 2년여 만이다. 지난해 고강도 대출 규제와 거래 제한 조치에도 꾸준히 오름세를 유지해왔는데, 다주택자를 둘러싼 시장 여건이 불리하게 흘러가면서 상승세가 멈춘 데 이어 하락 조짐이 불거지는 모양새다. 한국부동산원이 26일 발표한 주간 아파트 가격동향 자료를 보면",
         "link": "https://www.asiae.co.kr/article/2026022615020319336",
         "source": "아시아경제 - 부동산",
         "published": "2026-02-26T15:02:03+09:00",
         "score": 126
-      },
-      {
-        "title": "강남3구·용산 집값 떨어졌다…다주택자 매물 하락 거래",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/26/133411531.1.jpg\" vspace=\"10\" />대한민국 아파트값 풍향계로 불리는 서울 강남3구(강남, 서초, 송파구) 아파트값이 전주 대비 하락 전환했다. 용산구 아파트값도 하락 전환했다. 5월 10일 다주택자 양도세 중과 시행이 다가오면서 절세 매물이 쌓이고 하락 거래가 나온 영향으로 풀이된다. 한국부동산원이 26일 발표한 주간아파트가격동향에 따르면 이달 넷째 주(23일 기준) 서울 아파트값은 전주(0.15%)보다 0.11% 오른 것으로 집계됐음. 1월 넷째 주(0.31%)를 정점으로 4주 연속 상승폭이 줄고 있다.고가 주택이 몰린 강남권에서는 하락세가 뚜렷하게 나타났다. 강남구 아파트값은 전주(0.01%)보다 0.06% 내렸다. 2024년 3월 둘째 주(―0.01%) 이후 1년 11개월 만에 하락으로 돌아섰다. 이번 주 2...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260226/133428427/1",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-02-26T14:00:00+09:00",
-        "score": 126
-      },
-      {
-        "title": "다주택자 압박에 꺾인 강남·용산 집값…양도세 중과 이후 시장은",
-        "summary": "다주택자 양도세 중과 유예 종료, 임대사업자 혜택 축소 등 이재명 대통령이 연일 부동산시장 정상화를... 강남·용산 집값 꺾였다…매물 증가에 수억원 내린 거래도 26일 한국부동산원의 2월 넷째 주(23일 기준) 주간...",
-        "link": "https://www.mt.co.kr/estate/2026/02/26/2026022615125031177",
-        "source": "머니투데이",
-        "published": "2026-02-26T16:25:00+09:00",
-        "score": 110
       }
     ],
     "국제경제": [
       {
-        "title": "IMF \"트럼프 관세가 미국 성장 저해, 정책 바꿔라\"",
-        "summary": "IMF는 \"강화된 국경 단속과 이주민 추방 증가로 향후 몇 년 간 외국인 노동력이 감소할 것\"이라며 \"이 때문에 고용 성장률이 둔화되고 인플레이션 압력이 소폭 상승해 내년까지 GDP를 0.4% 감소시킬 것으로 예상한다\"고...",
-        "link": "https://www.mt.co.kr/world/2026/02/26/2026022611001413500",
-        "source": "머니투데이",
-        "published": "2026-02-26T11:13:00+09:00",
-        "score": 140
+        "title": "연준 FOMC 금리인하 \"IMF 전면 수정 권고\" 뉴욕증시 비트코인\" 엔비디아...",
+        "summary": "미국 연방준비제도(연준)가 도널드 트럼프 미국 대통령의 대폭 인하 압박에도 불구하고 올해 기준금리를 최소한에 그쳐야 한다는 IMF의 정책 수정가 권고가 나왔다. 국제통화기금(IMF)은 미국 경제전망 보고서에서...",
+        "link": "https://www.g-enews.com/view.php?ud=20260223202153673906806b77b_1",
+        "source": "네이버뉴스",
+        "published": "2026-02-27T00:00:00+09:00",
+        "score": 164
       },
       {
         "title": "[글로벌차트] '트럼프 효과' 반짝에 그친 美 모기지…연준도 기대 안해",
@@ -505,111 +505,135 @@
         "score": 130
       },
       {
-        "title": "IMF 보고서…트럼프 정책, 미국 경제에 불리한 영향 조명",
-        "summary": "국제통화기금(IMF)은 미국의 경제 전망과 관련하여 올해 연방준비제도(Fed·연준)가 기준금리를 한 차례... IMF는 이날 발표한 보고서에서 미국의 경제 성장률이 올해 2.4%에 이를 것으로 예상하며, 기준금리는 연말까지 3.25...",
-        "link": "https://www.gokorea.kr/news/articleView.html?idxno=858976",
+        "title": "美 트럼프 행정부 ‘반도체 관세 15%’ 재추진…글로벌 공급망 요동",
+        "summary": "미국 정부가 인공지능(AI)과 첨단 기술 보호를 명분으로 한국과 일본 등 우방국을 포함한 글로벌 반도체... 수입 반도체에 대한 관세율을 기존 10%에서 15%로 상향 조정하는 방안을 발표했다. 이는 자국 내 반도체 제조...",
+        "link": "https://www.ddaily.co.kr/page/view/2026022706535311058",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:10:00+09:00",
-        "score": 120
+        "published": "2026-02-27T06:55:00+09:00",
+        "score": 126
       }
     ],
     "AI와 경제": [
       {
-        "title": "폴라리스AI파마, 본업 CDMO 순항 속 '알파타우 투자' 결실…투트랙 성장 가속",
-        "summary": "폴라리스AI파마가 본업인 원료의약품(API) 및 위탁개발생산(CDMO) 사업의 실질적 확장과 더불어 선제적으로 단행한 글로벌 바이오 벤처 투자가 결실을 맺으며 중장기 성장 동력을 확고히 다지고 있다. 폴라리스AI파마는 팜젠사이언스와 신약 및 개량신약 공동 연구개발을 위한 전략적 파트너십(MOU)을 체결하고 본격적인 기술 협력에 돌입했다고 26일 밝혔다. 양사는 이번 협약을 기점으로 팜젠사이언스가 보유한 주요 신약 파이프",
-        "link": "https://www.asiae.co.kr/article/2026022610280033644",
-        "source": "아시아경제 - 증권",
-        "published": "2026-02-26T10:28:00+09:00",
-        "score": 30
+        "title": "M83 자회사 피앤티링크, AI 인프라 투자 수혜로 외형 969억 돌파",
+        "summary": "코스닥 상장사 엠83(M83)의 100% 자회사 피앤티링크가 지난해 매출액 969억원을 기록하며 전년대비 237% 성장했다고 26일 밝혔다. 피앤티링크는 그래픽처리장치(GPU) 서..",
+        "link": "https://www.mk.co.kr/news/stock/11973228",
+        "source": "매일경제 : 증권",
+        "published": "2026-02-26T17:21:22+09:00",
+        "score": 34
       },
       {
-        "title": "한성숙 장관 “K-뷰티 성장위해 기술개발 적극 지원할것”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/26/133429662.1.jpg\" vspace=\"10\" />한성숙 중소벤처기업부(중기부) 장관은 26일 “K-뷰티 산업의 스마트제조혁신을 위해 공정·품질 최적화를 돕는 멀티 인공지능(AI) 에이전트 기술 개발을 신규 지원하고, 뷰티 업종 맞춤형 AI 전환 가이드라인을 마련하겠다”고 밝혔다. 한 장관은 이날 인천 남동구 예그리나에서 진행된 ‘K-뷰티 스마트제조혁신 현장 간담회’에 참석해 “중소기업 수출 품목 1위인 화장품이 지난해 역대 최고 수출실적을 달성했다”며 “K-뷰티의 글로벌 지속 성장을 위해선 기초체력인 제조 현장의 스마트화, AI 도입, 기술 개발 투자가 중요하다”며 이같이 말했다.이번 간담회는 K-뷰티 스마트공장 구축 현장에서 디지털 전환(DX) 성과를 직접 확인하고 업계 관계자들과 제조혁신 방안을 논의하고자 마련됐다. 간담회 ...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260226/133429661/1",
+        "title": "[GAM]AI 시대 고성장 산업 '전자포'③ 8대 A주 테마주 속 투자 기회",
+        "summary": "LDK2 전자포는 2세대 저유전 전자포로, 고성능 유리섬유포에 속하며 5G 통신, 인공지능(AI) 서버, 첨단 반도체 패키징 등 고주파·고속 전자장비의 까다로운 요구를 충족시키기 위해 설계된 제품이다. ④ 실적...",
+        "link": "https://www.newspim.com/news/view/20260226001131",
+        "source": "네이버뉴스",
+        "published": "2026-02-27T07:00:00+09:00",
+        "score": 34
+      },
+      {
+        "title": "“검색 대신 대화하세요”…네이버쇼핑 AI 에이전트 베타 출시",
+        "summary": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은 한국언론진흥재단의 지원을 받아 개발한 ‘인공지능(AI) 기반 맞춤형 뉴스 추천 및 요약 서비스’입니다. 독자...",
+        "link": "https://www.sedaily.com/article/20013400?ref=naver",
+        "source": "서울경제",
+        "published": "2026-02-27T07:25:00+09:00",
+        "score": 28
+      },
+      {
+        "title": "제품에 접목할 AI 기술에 투자… 삼성전자의 도전은 계속된다",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/02/26/133423887.3.jpg\" vspace=\"10\" />삼성전자는 ‘인재와 기술을 바탕으로 최고의 제품과 서비스를 창출해 인류 사회에 공헌한다’는 회사의 경영철학에 기초해 미래 경영을 위한 새로운 도전을 이어간다. 기존 사업은 초격차 기술 리더십으로 재도약의 기틀을 다지는 데 집중하고 인공지능(AI) 산업의 성장이 만들어 갈 미래를 위한 새로운 성장 동력을 확보할 계획이다.DX부문, 차별화된 AI로 고객 경험 강화 삼성전자 DX부문은 지난해부터 스마트폰, TV, 가전 등 전 제품에 AI를 적용해 시장을 선도하고 있다. 스마트폰, 태블릿, 워치, 버즈 등 모바일 제품 전체에 자사의 ‘갤럭시 AI’를 확대 적용해 모바일 AI 시대를 이끌어 갈 계획이다. 지난해 1월 출시한 갤럭시 S25 시리즈에는 AI에 고도화된 자연어 이해 기술을 적용,...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260226/133423899/2",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-02-26T15:11:21+09:00",
-        "score": 26
+        "published": "2026-02-27T04:30:00+09:00",
+        "score": 28
+      },
+      {
+        "title": "하워드 막스 “AI, 훌륭한 투자자 자질 갖춰…많은 전문 투자자 대체할...",
+        "summary": "투자 메모 ‘돌진하는 AI’서 밝혀 인공지능(AI)이 경제와 사회를 변혁할 잠재적 영향력이 예상을... 투자와 경제에 대한 막스의 생각을 적은 ‘메모’는 워런 버핏 전 버크셔해서웨이 회장이 “반드시 챙겨본다”고 할...",
+        "link": "https://www.chosun.com/economy/economy_general/2026/02/27/ISAKVYIKEFEUTG74FSHL2XNNVA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-02-27T07:32:00+09:00",
+        "score": 28
       }
     ],
     "기타": [
       {
-        "title": "신한투자증권, 매주 금요일 MTS에 시황 AI영상",
-        "summary": "신한투자증권은 리서치센터가 발간하는 주간 주식 시황을 기반으로 한 영상 콘텐츠를 인공지능(AI)으로 제작해 매주 금요일 정기 제공하고 있다고 26일 밝혔다. 힙합, 트로트 등 다양한 음악 형식을 접목해 시장 정보를 쉽고 흥미롭게 전달하도록 구성함으로써 투자정보 접근성을 높인 것이 특징이다. 주간 시황 영상과 함께 주요 시장 이슈 발생 시 관련 AI 영상도 수시로 제공해 투자자들이 시장 흐름을 보다 신속하게 파악할 수",
-        "link": "https://www.asiae.co.kr/article/2026022609531026110",
-        "source": "아시아경제 - 증권",
-        "published": "2026-02-26T09:53:10+09:00",
+        "title": "美, 이란과 핵협상 와중에 러·이란 연계 스위스은행 제재 추진",
+        "summary": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 도널드 트럼프 행정부가 미국과 이란의 핵 협상이 진행되고 있는 26일(현지시간) 러시아 및 이란과 연...",
+        "link": "https://www.yna.co.kr/view/AKR20260227000400071",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-02-27T00:14:42+09:00",
         "score": 24
       },
       {
-        "title": "[생존의 조건, 피지컬 AI 임팩트]③서용석 교수 \"피지컬 AI, 인구절벽 해법이지만 '숙련'의 가치는 지켜야\"",
-        "summary": "편집자주화면에 머물던 인공지능(AI)이 로봇의 몸을 입고 실제 노동을 수행하는 '피지컬 AI' 시대가 상륙했다. 최근 현대자동차 노조가 이족보행 로봇 '아틀라스' 도입에 강력히 반발하는 등 기술 진보와 고용 불안 사이의 갈등은 이미 현실로 다가왔다. 피지컬 AI는 노동의 소멸을 고하는 종말인가, 아니면 인류 역량을 확장할 진화의 계단인가. 아시아경제는 제리 카플란 스탠퍼드대 교수와 켄 골드버그 UC버클리대 교수, 서용석",
-        "link": "https://www.asiae.co.kr/article/2026022008442478072",
+        "title": "[으라車車]\"운전 도와주는 똑똑한 차, 돈 더 낼 의향 있다\"",
+        "summary": "첨단운전자보조시스템(Advanced Driver Assistance System·ADAS) 경쟁의 무게추가 바뀌고 있습니다. 한때는 센서 정밀도와 알고리즘 성능을 앞세운 '기술 과시'가 핵심이었습니다. 하지만 이제는 얼마나 자주 쓰이느냐, 그리고 얼마나 돈을 벌 수 있느냐가 성패를 가르는 기준으로 떠올랐습니다.  27일 보스턴컨설팅그룹(BCG)과 보쉬(Bosch)가 최근 한국·미국·중국·일본·영국·독일·프랑스 등 7개국 약 3000명의 차량 소유자",
+        "link": "https://www.asiae.co.kr/article/2026022616570920475",
         "source": "아시아경제 - 산업·IT",
-        "published": "2026-02-26T15:00:12+09:00",
+        "published": "2026-02-27T06:30:00+09:00",
         "score": 24
       },
       {
-        "title": "한울이앤씨, 홈리프트 부문 'K-제품' 대상 수상",
-        "summary": "2022년 스웨덴 스위프트리프트(SWIFT LIFT)의 홈리프트 제품을 국내 독점 수입·공급하는 계약을 체결한 바 있다. 업체 측은 \"충남 천안 본사 및 서울·경기 영업·서비스 네트워크를 기반으로 제조·설치·유지보수에...",
-        "link": "https://www.mt.co.kr/industry/2026/02/26/2026022518453683793",
-        "source": "머니투데이",
-        "published": "2026-02-26T16:04:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "코트라, 美 통상환경 대응 실무전략 설명회 개최",
-        "summary": "국내 수출기업 관계자 200여 명이 참가한 설명회에는 미국 회계법인, 한국원산지정보원, TBT종합지원센터 등... 기업들의 관세·비관세 애로를 해소하고, 대체시장 개척을 통한 수출다변화를 적극 지원하겠다”고 말했다.",
-        "link": "https://biz.heraldcorp.com/article/10683287?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-02-26T16:19:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "한국전력, ‘역대 최대’ 영업익 13조원… 205조 부채는 여전",
-        "summary": "국제유가 하락에 따라 액화천연가스(LNG) 수입 단가와 전력도매가격(SMP)이 낮아지면서 연료비와 전력구입비가 줄었다. 여기에 자산 매각, 사업 구조조정, 비용 절감 등 재정건전화 조치도 수익성 회복에 기여했다....",
-        "link": "https://www.chosun.com/economy/economy_general/2026/02/26/UJQOIHN4LRD4NODVBZF5SPDGEY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "title": "9시간 근무·초봉 5000만원… 청년들, 버스 운전대 잡는다",
+        "summary": "버스 준공영제는 운행은 민간 버스 회사가 맡되 노선과 배차·요금 체계 등은 지자체가 관리하고, 수입이 운영비에 못 미칠 경우 부족분을 재정으로 지원하는 제도다. 이로 인해 버스 회사 운영이 안정되면서 임금과...",
+        "link": "https://www.chosun.com/national/transport-environment/2026/02/27/L4JFSNEEE5AEJDJEKSQRX7WNPE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
         "source": "조선일보",
-        "published": "2026-02-26T16:08:00+09:00",
+        "published": "2026-02-27T00:53:00+09:00",
         "score": 24
       },
       {
-        "title": "국방비와 AI 투자로 세계 부채 348조달러 달해 '사상 최대'",
-        "summary": "미 달러화.[사진=로이터 뉴스핌] 다만 국내총생산(GDP) 대비 글로벌 부채 비율은 5년 연속 하락해 약 308%를... IIF는 이 같은 추세가 이어질 경우 유럽 국가들의 GDP 대비 부채 비율이 2035년까지 18%포인트 이상 상승할 수...",
-        "link": "https://www.newspim.com/news/view/20260226000864",
+        "title": "'대산 1호 프로젝트' 승인...현대오일뱅크·현대케미칼·롯데케미칼 통...",
+        "summary": "고용과 지역경제 대응도 포함됐다. 매출 감소 요건을 완화해 고용유지 지원금 적용을 확대하고... 마련해 중장기 경쟁력 강화와 지역경제·고용 안정, 민간 투자 확대, 수출 활성화 및 통상 대응 고도화를 병행한다.",
+        "link": "https://www.newswhoplus.com/news/articleView.html?idxno=55462",
         "source": "네이버뉴스",
-        "published": "2026-02-26T14:41:00+09:00",
+        "published": "2026-02-27T07:30:00+09:00",
         "score": 24
       },
       {
-        "title": "최진식 중견련 회장 \"산업 전반, 사회 전체, 공동체 발전에 대해 말할 것...",
-        "summary": "최진식 회장은 \"성공적인 한미 통상·안보 협상 타결 이후 미국 연방대법원 판결로 재점화된 관세 혼란을 극복하고, 코스피 활황, 역대 최대 수출이라는 낭보를 기업 펀더멘털 강화로 연결하기 위해서는 민관의 원활한...",
-        "link": "https://www.m-i.kr/news/articleView.html?idxno=1341011",
+        "title": "대한민국 2029년부터 인구 감소 '중장년 삶 바뀐다'",
+        "summary": "국회예산정책처는 인구 감소와 고령화가 장기적으로 경제와 재정, 사회 전반에 구조적 영향을 미칠 것으로 내다봤다. 인구 변화가 정책 환경과 사회 구조의 방향을 바꾸는 핵심 요인으로 작용할 것이라는 설명이다.",
+        "link": "https://bravo.etoday.co.kr/view/atc_view/18690",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:22:00+09:00",
+        "published": "2026-02-27T07:02:00+09:00",
         "score": 24
       },
       {
-        "title": "김영일 예비후보 “군산시민의 명령을 받들어 지역경제 반드시 살려내겠...",
-        "summary": "이어 그는 “현대중공업 군산조선소와 한국GM 군산공장이 멈추면서 경제 위기를 겪으며 산업 및 고용위기지역으로 지정했지만 군산형 일자리와 중고차 수출복합단지 사업은 기대만큼의 성과를 거두지 못했다”며...",
-        "link": "https://www.pressian.com/pages/articles/2026022616111649247?utm_source=naver&utm_medium=search",
+        "title": "'지방정부 혁신평가 우수' 충남도, '디지털 행정·민관협력' 성과 인정",
+        "summary": "정부·지자체·금융권 협업을 통한 청년 주거 이자 지원사업 개선·확대, 미국발 관세 인상 등 통상 환경 변화에 대응한 수출기업 지원책 마련, '충남형 융복합 신 미래농업 가치사슬 구축' 등이 주요 사례로 꼽혔다. 강성기...",
+        "link": "https://www.bzeronews.com/news/articleView.html?idxno=812406",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:21:00+09:00",
+        "published": "2026-02-27T07:22:00+09:00",
         "score": 24
       },
       {
-        "title": "제12회 청주시 기업인의 날 개최…지역 경제 주역 한자리에",
-        "summary": "선정 기업에는 경영안정자금 이자보전(3%) 5년 지원, 지방세 세무조사 3년 유예, 해외시장 개척 및 수출역량 강화사업 우선 지원 등 다양한 인센티브가 제공된다. 고용선도기업 인증 기간은 2026년 1월 1일부터 2027년 12월...",
-        "link": "https://www.jbnews.com/news/articleView.html?idxno=1499533",
+        "title": "지방정부 혁신평가 ‘우수기관’ 선정",
+        "summary": "주요 사례로는 △정부·지자체·금융권 협업을 통한 ‘청년 주거 이자 지원사업’의 획기적 개선 및 확대 △미국발 관세 인상 등 급변하는 통상 환경에 선제적으로 대응한 수출기업 지원책 마련 △농생명 구조 혁신을...",
+        "link": "http://www.globalepic.co.kr/view.php?ud=20260227070905386723fd0362e7_29",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:12:00+09:00",
+        "published": "2026-02-27T07:12:00+09:00",
         "score": 24
       },
       {
-        "title": "케이이엠텍, 임시주총서 정관 변경·감자·자본준비금 전입 승인",
-        "summary": "알루미늄 제련·정련 및 합금 제조업, 알루미늄 합금제품 판매업, 알루미늄 스크랩 수입 및 수출업, 알루미늄 압출제품 제조 및 판매업, 연료·광물·1차금속·비료 및 화학제품 도매 및 중개업도 사업영역 확대를...",
-        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=635008",
+        "title": "[팔방미인] 나이 드는 걸 두려워 마라",
+        "summary": "수입이 줄어드는 시기에는 과도한 투자나 소비보다는 자산 및 지출의 구조를 재편해야 한다. 재정적 안정은 단순한 숫자의 문제가 아니라 심리적 평온의 기반이기 때문이다. 그리고 일의 의미를 재정의해야 한다. 은퇴는...",
+        "link": "https://www.kgnews.co.kr/news/article.html?no=885689",
         "source": "네이버뉴스",
-        "published": "2026-02-26T16:30:00+09:00",
+        "published": "2026-02-27T06:02:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "[사설] 김민석 총리, 일괄약가인하 폭주에 제동 걸라",
+        "summary": "약가 정책의 급격한 변화가 생산 중단·품목 철수·수입 의존 심화로 연결된다면, 그 부담은 고스란히 국민에게 돌아간다. 국민건강권은 재정 수치의 보조 변수가 아니다. 더 심각한 문제는 산업 구조다. 국내 기업의 투자...",
+        "link": "https://www.pharmnews.com/news/articleView.html?idxno=301725",
+        "source": "네이버뉴스",
+        "published": "2026-02-27T05:50:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "MLB가 머리를 조아린 니그로리그의 흑인 여성 야구인",
+        "summary": "30년대부터 경기장에서 “흑인을 고용하지 않는 곳에서는 물건을 사지 말자(Don’t Buy Where You Can’t Work)”며 흑인 인권 캠페인을 벌이기도 했다. 그는 독일계-인도계 혼혈 어머니와 백인 아버지 사이에서...",
+        "link": "https://www.hankookilbo.com/news/article/A2026022311360003993?did=NA",
+        "source": "네이버뉴스",
+        "published": "2026-02-27T04:32:00+09:00",
         "score": 24
       }
     ]
@@ -660,5 +684,41 @@
       "score": 92,
       "match_status": "OK"
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-02-27",
+    "generated_at": "2026-02-26T22:37:56.451492+00:00",
+    "key_headlines": [
+      {
+        "title": "Government Addresses Structural Economic Issues and Supports Business Restructuring",
+        "summary": "Vice Prime Minister and Minister of Economy and Finance, Koo Yun-cheol, highlighted that accumulated structural problems are hindering the economy and announced support measures for business restructuring, including the 'Daesan No. 1' project."
+      },
+      {
+        "title": "2.1 Trillion KRW Support Package for 'Daesan No. 1' Project and Environmental Goals",
+        "summary": "Vice PM Koo announced a 2.1 trillion KRW support package for the 'Daesan No. 1' project, focusing on the petrochemical industry's restructuring, and additionally pledged to improve Nakdong River's water quality to Grade 1 by 2030."
+      },
+      {
+        "title": "Advance Payment System Overhauled, 2.1 Trillion KRW Injected into 'Daesan No. 1 Project'",
+        "summary": "The government revised its advance payment system after criticism regarding payment delays and confirmed a 2.1 trillion KRW investment into the 'Daesan No. 1 Project' to support petrochemical industry restructuring and environmental improvements."
+      },
+      {
+        "title": "First Petrochemical Business Restructuring 'Daesan Project' Approved with 2.1 Trillion KRW Support",
+        "summary": "The 'Daesan Project', marking the first case of petrochemical business restructuring, received final government approval. This initiative is set to receive 2.1 trillion KRW in government support to facilitate industry reorganization."
+      },
+      {
+        "title": "Government Emphasizes Self-Rescue Efforts for Support, Expects Accelerated Petrochemical Restructuring",
+        "summary": "The government sent a clear message that support would be provided upon proven self-rescue efforts by companies, signaling expectations for accelerated structural reforms in the petrochemical industry, with Vice PM Koo affirming over 2.1 trillion KRW in backing."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "The government is actively addressing structural economic issues and pushing for industrial restructuring, with a key focus on the petrochemical sector. The 'Daesan No. 1 Project,' a significant restructuring initiative for the petrochemical industry, has received final government approval and will be supported by a 2.1 trillion KRW package. This support is contingent on companies' self-rescue efforts, aiming to enhance long-term competitiveness, stabilize regional economies, and boost private investment. Additionally, the government is rationalizing the advance payment system and setting environmental goals, such as improving Nakdong River water quality to Grade 1 by 2030.",
+      "Macro & Fiscal Policy": "The Bank of Korea (BOK) maintained its benchmark interest rate at 2.5% for the sixth consecutive meeting, marking nine months of steady rates. Despite global uncertainties like high exchange rates and potential U.S. tariffs, the BOK has raised its 2026 real GDP growth forecast from 1.8% to 2.0%, primarily driven by strong semiconductor exports and improved consumption. Most Monetary Policy Committee members leaned towards rate stability, while closely monitoring domestic and international economic conditions, including household debt and inflation trends.",
+      "Financial Markets": "The KOSPI index surged past 6300, driven by the strong performance of semiconductor and automotive stocks, with leading companies like Samsung Electronics and SK Hynix reporting record profits. This stock market rally has led to a decrease in interest rates for deposit products linked to stock performance, as KOSPI's growth exceeded initial thresholds. Concurrently, bond fund assets have fallen below 100 trillion KRW as investor interest shifts towards equities and expectations for U.S. rate cuts diminish. The government's initiatives to prevent 'stock market suppression' are also expected to further bolster the KOSPI's upward momentum.",
+      "Industry & Technology": "The semiconductor and automotive sectors are driving a robust KOSPI rally, with key semiconductor equipment stocks showing significant gains. Interest is also growing in next-generation battery technologies, particularly solid-state batteries for electric vehicles. Samsung Electronics continues its commitment to future growth by integrating AI into all its products, from smartphones to home appliances, and expanding its 'Galaxy AI' ecosystem. Furthermore, pharmaceutical companies like Samchundang Pharm are diversifying into biosimilars and innovative drug delivery methods, such as 'oral Wegovy', showcasing industry transformation.",
+      "Real Estate": "Seoul's housing market saw a significant slowdown in January, with housing permits and starts plummeting by over 50% year-on-year. The proportion of monthly rent (wolse) transactions reached an all-time high of 66.8%, indicating a shift in rental market dynamics. The once-heated demand for new apartments is cooling, with some developments in areas like Bundang and Suji experiencing undersubscription, partly due to stringent government regulations. Apartment prices in traditionally resilient areas like Gangnam's three districts and Yongsan have also begun to decline for the first time in two years, suggesting a broader trend towards real estate normalization amid tightened regulations on multi-homeowners.",
+      "International Economy": "The IMF has advised the U.S. Federal Reserve to exercise caution with interest rate cuts, recommending minimal adjustments despite pressure from President Trump. Fed officials indicated a willingness to consider rate hikes if inflation remains unchecked, reinforcing their firm stance. It's anticipated that the Fed will likely maintain current interest rates until Chairman Powell's term concludes next May, given the prevailing U.S. economic conditions. Concurrently, the Trump administration is reportedly re-evaluating a 15% tariff on imported semiconductors, including those from key allies like South Korea and Japan, under the guise of protecting AI and advanced technology, which could disrupt global supply chains.",
+      "AI & Economy": "Investments in AI infrastructure are yielding significant returns, with M83's subsidiary P&T Link reporting a 237% revenue increase, exceeding 96.9 billion KRW, primarily from GPU servers. The 'electronic port' industry, critical for high-frequency and high-speed electronic equipment like 5G communication and AI servers, is identified as a high-growth sector in the AI era. Samsung Electronics is pioneering mobile AI with its 'Galaxy AI' across its product lines, while Naver Shopping launched an AI agent for conversational commerce. Prominent investor Howard Marks suggested that AI possesses the qualities of a superior investor and could potentially replace many professional investors.",
+      "Others": "The U.S. Trump administration is reportedly preparing sanctions against Swiss banks with ties to Russia and Iran, even as nuclear negotiations with Iran proceed. In the automotive sector, the focus for Advanced Driver Assistance Systems (ADAS) is shifting from mere technological prowess to profitability and user adoption, with consumers showing willingness to pay more for smart driving features. Meanwhile, public transport initiatives are attracting young people to bus driving roles, offering stable employment with competitive salaries due to semi-public bus systems. Looking ahead, South Korea is projected to face a significant population decline starting in 2029, which will have structural impacts across the economy, fiscal policy, and society as a whole."
+    }
+  }
 }
