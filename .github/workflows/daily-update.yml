@@ -3,7 +3,7 @@ name: Daily Data Update
 on:
   schedule:
     - cron: '0 22 * * 0-5'   # 22:00 UTC = 07:00 KST next day (Mon-Sat morning)
-    - cron: '30 6 * * 1-6'   # 06:30 UTC = 15:30 KST (Mon-Sat afternoon)
+    - cron: '45 6 * * 1-6'   # 06:45 UTC = 15:45 KST (Mon-Sat afternoon)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
