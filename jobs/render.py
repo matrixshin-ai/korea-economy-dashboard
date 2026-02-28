@@ -311,14 +311,16 @@ def select_by_quota_filtered(items: list, quota: int) -> list:
 # ---------------------------------------------------------------------------
 def select_top5_diverse(headlines: list, threshold: int = 60) -> list:
     """
-    Select up to 5 diverse headlines by scanning in order and skipping
-    any headline whose title has token_set_ratio >= threshold with
-    an already-selected headline.
+    Select up to 5 diverse headlines by scanning in score-descending order
+    and skipping any headline whose title has token_set_ratio >= threshold
+    with an already-selected headline.
     """
     from rapidfuzz import fuzz
 
+    sorted_headlines = sorted(headlines, key=lambda x: x.get("score", 0), reverse=True)
+
     selected = []
-    for item in headlines:
+    for item in sorted_headlines:
         title = _safe_strip(item.get("title"))
         if not title:
             continue
