@@ -10,7 +10,8 @@ import {
   ChevronRight,
   BarChart3,
   Globe,
-  Settings
+  Settings,
+  Film
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -177,8 +178,8 @@ export function Sidebar() {
 
         <Link href="/essay" className={cn(
           "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group",
-          location === '/essay' 
-            ? "bg-primary/10 text-primary shadow-sm" 
+          location === '/essay'
+            ? "bg-primary/10 text-primary shadow-sm"
             : "text-muted-foreground hover:bg-muted hover:text-foreground"
         )}>
           <BookOpen className={cn("w-4 h-4", location === '/essay' ? "text-primary" : "text-muted-foreground group-hover:text-foreground")} />
@@ -203,7 +204,7 @@ export function Sidebar() {
               <ChevronRight className="w-4 h-4" />
             )}
           </button>
-          
+
           {indicatorsExpanded && (
             <div ref={indicatorsSubRef} className="ml-4 mt-1 space-y-0.5 border-l border-border/50 pl-3">
               <a
@@ -218,7 +219,7 @@ export function Sidebar() {
               <Link href="/indicators" className={cn(
                 "flex items-center gap-2 px-2 py-1.5 rounded-md text-sm transition-colors",
                 location === '/indicators'
-                  ? "text-primary font-medium bg-primary/5" 
+                  ? "text-primary font-medium bg-primary/5"
                   : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
               )}>
                 <Globe className="w-3.5 h-3.5" />
@@ -227,6 +228,16 @@ export function Sidebar() {
             </div>
           )}
         </div>
+
+        <Link href="/media" className={cn(
+          "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group",
+          location === '/media'
+            ? "bg-primary/10 text-primary shadow-sm"
+            : "text-muted-foreground hover:bg-muted hover:text-foreground"
+        )}>
+          <Film className={cn("w-4 h-4", location === '/media' ? "text-primary" : "text-muted-foreground group-hover:text-foreground")} />
+          미디어
+        </Link>
 
         <Link href="/admin/keywords" className={cn(
           "flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium transition-all duration-200 group",
