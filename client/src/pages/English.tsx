@@ -1,9 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import { ArrowLeft, FileText, Play } from "lucide-react";
+import { ArrowLeft, FileText, Play, Bookmark } from "lucide-react";
 import { useState } from "react";
 
 interface KeyHeadline {
@@ -218,12 +218,59 @@ export default function EnglishPage() {
               />
             </div>
           ) : (
-            <Card className="border-dashed border-2 border-gray-200">
-              <CardContent className="py-12 text-center">
-                <Play className="w-12 h-12 text-gray-300 mx-auto mb-3" />
-                <p className="text-gray-400 text-sm">Coming soon</p>
-              </CardContent>
-            </Card>
+            <div className="max-w-sm">
+              <Card className="overflow-hidden border-border/50 hover:shadow-lg transition-all hover:border-primary/30 group">
+                <a
+                  href="https://www.youtube.com/playlist?list=PLzpCnWuuVBerqJMoeztvbDs2j7hSG10Kc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <div className="relative w-full aspect-video bg-muted overflow-hidden">
+                    <img
+                      src="/media/thumb_korea.png"
+                      alt="Korea Daily Economy — Playlist"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/35 transition-all">
+                      <div className="w-13 h-13 bg-white/95 rounded-full flex items-center justify-center scale-0 group-hover:scale-100 transition-transform">
+                        <Play className="w-5 h-5 text-primary ml-0.5" />
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <CardContent className="p-4 pt-3">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-red-500/10 text-red-500">
+                      ▶ YouTube
+                    </span>
+                  </div>
+                  <h3 className="text-sm font-semibold text-foreground mb-1 line-clamp-2">
+                    Korea Daily Economy — Playlist
+                  </h3>
+                  <p className="text-xs text-muted-foreground">YouTube Playlist</p>
+                </CardContent>
+                <CardFooter className="px-4 pb-3 pt-0 gap-2">
+                  <Button asChild className="flex-1 gap-1.5" size="sm">
+                    <a
+                      href="https://www.youtube.com/playlist?list=PLzpCnWuuVBerqJMoeztvbDs2j7hSG10Kc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Play className="w-3.5 h-3.5" /> Play
+                    </a>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex-1 gap-1.5"
+                  >
+                    <Bookmark className="w-3.5 h-3.5" />
+                    Save
+                  </Button>
+                </CardFooter>
+              </Card>
+            </div>
           )}
         </section>
 

@@ -45,7 +45,7 @@ const MOLTBOOK = {
     "Can AI agents lower inflation before they raise measured growth — and what does that mean for central bank policy?",
   tags: ["AI Policy", "Macro", "Central Bank"],
   participants: 24,
-  href: "https://www.moltbook.com/post/57a3360e-1e0e-4b24-bc2e-68979553502a",
+  href: "https://www.moltbook.com/m/ai-macro-policy",
 };
 
 export default function MediaPage() {
