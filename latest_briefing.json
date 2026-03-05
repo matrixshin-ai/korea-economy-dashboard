@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-05T14:06:28.568777+09:00",
+  "generated_at": "2026-03-05T16:31:25.960309+09:00",
   "date": "2026-03-05",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 1758,
-    "total_used": 1610,
-    "dropped_quality": 133,
-    "dropped_negative": 15,
+    "total_input": 1887,
+    "total_used": 1735,
+    "dropped_quality": 130,
+    "dropped_negative": 22,
     "per_category": {
-      "기타": 696,
-      "금융시장": 295,
-      "부동산": 91,
-      "산업·과학": 158,
-      "국제경제": 143,
-      "거시경제·재정": 224,
-      "AI와 경제": 3
+      "금융시장": 298,
+      "기타": 758,
+      "부동산": 94,
+      "거시경제·재정": 281,
+      "산업·과학": 202,
+      "국제경제": 101,
+      "AI와 경제": 1
     }
   },
   "headlines": [
@@ -247,202 +247,194 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "高환율·물가 장기화 우려…2% 성장률 달성 '안개 속'",
-        "summary": "국내총생산(GDP) 성장률이 0.45%p 낮아지고 내년에는 0.24%p 추가 하락할 것으로 추정했다. 소비자물가 상승률은 올해 0.60%p 오르고 GDP 대비 경상수지 비중은 2%p 이상 축소될 수 있다고도 분석했다. 김 이코노미스트는...",
-        "link": "https://www.m-i.kr/news/articleView.html?idxno=1342814",
-        "source": "네이버뉴스",
-        "published": "2026-03-04T16:34:00+09:00",
-        "score": 146
+        "title": "[3보] 中 \"올해 성장률 목표 4.5∼5%…소비자물가 상승률 목표 2%안팎\"",
+        "summary": "실업률 목표는 5.5%로 전년과 동일하게 설정했다. 신규 고용 역시 전년과 마찬가지로 1천200만명으로 잡았다. 올해 국방 예산 증액폭은 작년 대비 7%로 잡았다. 4년 연속 7%대를 유지했다.",
+        "link": "https://www.yna.co.kr/view/AKR20260305035852083?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-05T09:21:00+09:00",
+        "score": 180
       },
       {
-        "title": "고환율·고유가 수입물가 직격탄… 韓 소비자물가 0.6%p 상승 경고",
-        "summary": "4일 한국은행에 따르면 지난 1월 기준 수입물가는 지난해 12월보다 0.4% 올랐다. 수입물가는 지난해 7월부터 7개월째 오름세다. 계속되는 고환율 탓에 수입물가가 상승세를 이어가고 있는 가운데 중동발 위기는 물가...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=1772616503&code=11151100&cp=nv",
-        "source": "국민일보",
-        "published": "2026-03-05T00:19:00+09:00",
+        "title": "中 정부, 올해 국방예산 7% 증액…GDP성장률 목표 4.5∼5%로 하향",
+        "summary": "이는 적극적인 재정 정책을 통해 재정 지출 강도를 높이겠다는 의지로 풀이된다. 실업률 목표는 5.5%로 전년과 동일하게 설정했다. 신규 고용 역시 전년과 마찬가지로 1200만명으로 잡았다.",
+        "link": "https://biz.heraldcorp.com/article/10687636?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-03-05T11:35:00+09:00",
+        "score": 170
+      },
+      {
+        "title": "베이지북 \"경기둔화 지역 증가·물가 압력 지속\"…금리인하 시점 늦어질...",
+        "summary": "연방준비제도(Fed)가 오는 17~18일(현지시간) 열리는 연방공개시장위원회(FOMC) 회의를 앞두고 낸 3월 경기동향... 체감 경기를 보여주는 자료다. 미국 기준금리를 결정하는 FOMC에서 통화정책 판단의 참고 자료로 활용된다.",
+        "link": "https://view.asiae.co.kr/article/2026030505423785489",
+        "source": "아시아경제",
+        "published": "2026-03-05T06:14:00+09:00",
+        "score": 160
+      },
+      {
+        "title": "중국 성장률 목표 낮췄다…첫 4%대 제시, 부동산 침체·대외 변수 반영",
+        "summary": "중국 정부는 올해 재정적자 비율을 국내총생산(GDP)의 4% 수준으로 유지하기로 했다. 물가와 고용 목표 역시 기존 정책 방향을 유지하는 모습이다. 올해 소비자물가지수(CPI) 상승률 목표는 약 2% 수준으로 제시됐으며 도시...",
+        "link": "http://www.newsian.co.kr/news/articleView.html?idxno=86812",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T12:14:00+09:00",
+        "score": 150
+      },
+      {
+        "title": "중국, 올해 GDP 성장률 4.5~5%로 설정...블룸버그통신, 1991년이후 35년만...",
+        "summary": "실업률 목표는 5.5%로 전년과 동일하게 설정했다. 신규 고용 역시 전년과 마찬가지로 1200만명으로 잡았다. 올해 국방 예산 증액폭은 작년 대비 7%로 증액했다. 4년 연속 7%대를 유지했다. 이성구 전문위원",
+        "link": "http://www.beyondpost.co.kr/view.php?ud=2026030510093275802aaae0046f_30",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T10:18:00+09:00",
         "score": 140
       },
       {
-        "title": "베이지북 \"경기둔화 지역 증가·물가 압력 지속\"…금리인하 시점 늦어질까",
-        "summary": "연방준비제도(Fed)가 오는 17~18일(현지시간) 열리는 공개시장위원회(FOMC) 회의를 앞두고 낸 3월 경기동향 보고서(베이지북)에서 경제 활동이 보합에 머물거나 감소했다고 보고한 지역이 증가했다고 진단했다. 또 물가 상승 압력이 확인된 만큼 금리 동결 기조가 당분간 이어질 것으로 예상된다.  4일(현지시간) 2월 베이지북에 따르면 미국 12개 연방준비은행(연은) 관할 지역 중 7개 지역에서 경제활동이 '소폭에서 완만한 증가",
-        "link": "https://www.asiae.co.kr/article/2026030505423785489",
+        "title": "[2026 양회] 中 15·5계획 첫해 성장률 목표 4.5~5% \"경제체질 개선\" 방점",
+        "summary": "△소비자물가지수(CPI) 상승률(약 2%) △재정적자율(약 4%) △도시 조사 실업률(약 5.5%) △신규 일자리수 (1200만명 이상) 등 주요 경제 지표 목표치도 지난해와 동일하다. 중국이 올해 3대 주요 경제 업무로 △내수 진작...",
+        "link": "https://www.ajunews.com/view/20260305113842662",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T12:26:00+09:00",
+        "score": 134
+      },
+      {
+        "title": "中, 올해 성장률 목표 4.5~5%로 낮췄다…국방예산 증가율도 소폭 감소",
+        "summary": "국내총생산(GDP) 증가율(경제성장률) 4.5~5%를 목표치로 설정해 실무에서 더 나은 결과를 얻고자 한다”고... 재정적자율은 지난해에 이어 올해도 GDP 대비 4% 수준이다. 적자 규모는 작년보다 2300억 위안 증가한 5조 8900억...",
+        "link": "https://www.dailian.co.kr/news/view/1617286/?sc=Naver",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T15:35:00+09:00",
+        "score": 132
+      },
+      {
+        "title": "중국 성장률 목표치 첫 4%대로…내수 활성화에 방점(상보)",
+        "summary": "도시 실업률은 5.5% 내외를 달성하고 1200만개의 신규 일자리를 창출할 예정이다. 경기 부양 측면에서 재정적자는 전년대비 2300억위안(약 48조8000억원) 증가한 5조8900억위안(약 1251조원)을 제시했다. 국내총생산(GDP)대비...",
+        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=03716246645380368",
+        "source": "이데일리",
+        "published": "2026-03-05T11:15:00+09:00",
+        "score": 130
+      },
+      {
+        "title": "중국 양회, 올해 경제성장률 4.5~5%로…성장 목표 낮춰",
+        "summary": "도시 실업률은 5.5% 내외를 달성하고 1200만개의 신규 일자리를 창출할 예정이다. 경기 부양 측면에서 국내총생산(GDP)대비 재정적자 비율은 4.0%, 중앙정부의 특별 채권 발행 규모는 1조3000억위안(약 276조원)으로...",
+        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=03571926645380368",
+        "source": "이데일리",
+        "published": "2026-03-05T10:36:00+09:00",
+        "score": 130
+      },
+      {
+        "title": "中, 올해 성장률 목표치 '4.5~5%'…물가 상승률 목표 2%",
+        "summary": "중국이 올해 국내총생산(GDP) 성장률 목표치를 '4.5~5%'로 제시했다. 5일 블룸버그 통신 등에 따르면 리창 중국 국무원 총리는 이날 베이징 인민대회당에서 열리는 전국인민대표대회(전인대) 개막식에서 정부 공작보고(업무보고)를 통해 이 같은 목표치를 제시한다.   내부적으로 내수와 부동산 침체, 청년 실업 문제가 심각하고, 밖으로는 미국과의 기술·무역 패권을 둘러싼 긴장감이 고조되면서 경기 하방 압력이 크다는 판단에",
+        "link": "https://www.asiae.co.kr/article/2026030509305447107",
         "source": "아시아경제 - 국제",
-        "published": "2026-03-05T06:14:33+09:00",
-        "score": 120
+        "published": "2026-03-05T09:39:04+09:00",
+        "score": 122
       },
       {
-        "title": "중동발 유가·환율 쇼크에 인하 여력↓…이창용 '마지막 금통위'에 쏠린...",
-        "summary": "4일 밤사이 원·달러 환율 한때 1506원 물가 상방 압력 커졌지만 성장·가계부채 부담에 인상보다 동결 무게 중동발 지정학 리스크가 한국은행의 기준금리 셈법을 한층 더 꼬이게 만들고 있다. 미국·이스라엘의 이란 공습...",
-        "link": "https://news.tf.co.kr/read/economy/2298438.htm",
+        "title": "中 \"올해 성장률 목표 4.5∼5%\"…안팎 도전 속 35년만에 최저치(종합2보...",
+        "summary": "부동산 침체·내수 부진·관세 압박 속 전인대서 4년 만에 하향조정 물가목표 약 2%·재정적자율 GDP대비 약... 국내총생산(GDP) 성장률 목표치를 35년 만에 최저 수준인 4.5∼5%로 설정했다. 리창 중국 국무원 총리는 5일...",
+        "link": "https://www.yna.co.kr/view/AKR20260305035854083?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-05T12:19:00+09:00",
+        "score": 118
+      },
+      {
+        "title": "중국, ‘성장’보다 ‘자립’ 방점…성장률 목표, 4%대 ‘35년래 최저’...",
+        "summary": "국내총생산(GDP) 대비 약 4%로 사상 최고를 기록한 지난해와 같은 수준을 유지했다. 이는 정부가 일반 공공 예산에서 예상한 세입보다 5조8900억위안(약 1254조원) 많은 지출을 계획하고 있음을 의미한다. GDP 대비 재정적자...",
+        "link": "https://www.etoday.co.kr/news/view/2562279",
         "source": "네이버뉴스",
-        "published": "2026-03-05T00:01:00+09:00",
-        "score": 106
-      },
-      {
-        "title": "인천 시민경제, 물가 안정세에도 경기 회복 부진",
-        "summary": "올 1월 인천시 고용률이 61.5%로 전국 평균 61.0% 보다 높았음에도 실업률이 4.5%여서 전국 평균 4.1% 보다 높은 게 문제였다. 인천시 임금노동자가 전년동월대비 1.9% 증가하는 사이 자영업자가 5.1% 줄면서 고용 회복 동력도...",
-        "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3015012",
-        "source": "네이버뉴스",
-        "published": "2026-03-03T16:54:00+09:00",
-        "score": 98
-      },
-      {
-        "title": "씨티 \"한은, 유가 급등·원화 약세에도 금리 안 올릴 것\"",
-        "summary": "씨티는 브렌트유 가격이 예상대로 오르면 우리나라의 올해 국내총생산(GDP) 성장률이 0.09%포인트(p) 낮아질 것으로 전망했다. 또 GDP 대비 경상수지 비중 역시 0.44%p 감소하고 올해 소비자물가 상승률은 0.12%p 높아질...",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4401766",
-        "source": "네이버뉴스",
-        "published": "2026-03-04T17:48:00+09:00",
-        "score": 92
-      },
-      {
-        "title": "삼다일보 현대성 기자 \"제주지역 수출 증가율 전국 최고지만 지역경기는...",
-        "summary": "실업률은 2024년 2.3%에서 지난해 2.2%로 0.1%포인트 감소한 모습입니다. [이병철] 네. 고용률과 취업자 수가 소폭 늘었지만 건설업 취업자가 급감했고. 자영업 측면이 강한 도소매업, 음식점업, 숙박업 등 취업자가...",
-        "link": "https://news.bbsi.co.kr/news/articleView.html?idxno=4069642",
-        "source": "네이버뉴스",
-        "published": "2026-03-03T15:16:00+09:00",
-        "score": 88
-      },
-      {
-        "title": "[수능에 나오는 경제·금융] 물가냐 경기냐…매와 비둘기의 전쟁",
-        "summary": "기업은 줄도산했고 실업률은 폭증했습니다. 사람들이 반발했고 정치적 압력도 커졌죠. 하지만 그 결과 물가는 3%대로 내려왔어요. 이 덕에 1980년대 다시 호황을 맞이했다는 게 매파들의 주장입니다. 당장의 고통을 견뎌야...",
-        "link": "https://www.hankyung.com/article/2026022790871",
-        "source": "한국경제",
-        "published": "2026-03-03T15:55:00+09:00",
-        "score": 86
-      },
-      {
-        "title": "막오른 中 양회… 올해 관전포인트는 성장률·국방비 증액",
-        "summary": "양회의 최대 관심사인 리창 국무원 총리의 정부공작보고를 통해 올해 국내총생산(GDP) 성장률 목표와 재정... 중국은 2035년까지 1인당 GDP를 2만달러 이상, 2020년 대비 2배 수준으로 확대한다는 중장기 목표를 제시해왔다....",
-        "link": "http://www.fnnews.com/news/202603041827079662",
-        "source": "파이낸셜뉴스",
-        "published": "2026-03-04T18:28:00+09:00",
-        "score": 82
-      },
-      {
-        "title": "미 연준 경기동향 보고서 “이민단속 미니애폴리스 등 소비 둔화”",
-        "summary": "앞서 연준은 지난해 9월부터 12월까지 3회 연속 기준금리를 인하한 뒤 지난 1월 27∼28일 FOMC에서 기준금리를 3.50∼3.75%로 동결한 바 있습니다. 전문가들은 고용시장이 안정화된 반면 인플레이션 상승 위험이 커진 점을...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8499696&ref=A",
-        "source": "KBS",
-        "published": "2026-03-05T05:53:00+09:00",
-        "score": 82
-      },
-      {
-        "title": "'물가' 우려하는 연은 총재들…관세·이란 전쟁에 동결 기조 길어지나(...",
-        "summary": "오는 18일 예정된 연방공개시장위원회(FOMC)에서 기준금리 동결 관측이 우세한 가운데 이런 기조가 예상보다... 그러면서 \"FOMC는 장기적으로 2%의 인플레이션을 물가 안정으로 정의하는데, 관세의 영향으로 그 목표 달성이...",
-        "link": "https://view.asiae.co.kr/article/2026030404351435987",
-        "source": "아시아경제",
-        "published": "2026-03-04T04:35:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "美 경제 완만 성장세…연준 “물가 상승 여전”",
-        "summary": "연준은 지난 1월 연방공개시장위원회(FOMC) 회의에서 기준금리를 3.50~3.75% 범위로 동결했다. 노동시장이 안정되는 가운데 인플레이션이 여전히 높은 수준을 유지하고 있다는 판단에 따라 금리 인하 사이클을 일시 중단한...",
-        "link": "http://www.fnnews.com/news/202603050515561260",
-        "source": "파이낸셜뉴스",
-        "published": "2026-03-05T06:04:00+09:00",
-        "score": 80
+        "published": "2026-03-05T14:56:00+09:00",
+        "score": 114
       }
     ],
     "금융시장": [
       {
-        "title": "파랗게 질린 금융시장···코스피·코스닥 모두 역대 최대 하락에 환율도 10원 급등",
-        "summary": "미국과 이란 간 전쟁 여파로 코스피 지수가 급락 마감한 4일 서울 중구 하나은행 본점 딜링룸 전광판에 코스피 등 종가가 표시돼 있다. 성동훈 기자미국·이스라엘과 이란 간 무력 충돌 장기화 우려에 국내 증시가 4일 사상 ‘최악의 하루’를 보냈다. 코스피 지수는 이날 하루 12.06%, 코스닥 지수는 14% 폭락하면서 각각 역대 최대 하락률을 기록했다. 코스피···",
-        "link": "https://www.khan.co.kr/article/202603041718001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-03-04T17:18:00+09:00",
-        "score": 146
-      },
-      {
-        "title": "[마켓 프리뷰] 코스피·코스닥 10%대 폭락…고환율·고물가 리스크 촉각",
-        "summary": "급등…글로벌 경제 우려 - 국내증시, 고점 부담 누적…중동 원유 수입 높은 의존도 - 시총 상위 200위... 이억원 \"韓 경제·금융시장, 견조한 펀더멘털 있다\" - 정부, 시장 혼란 악용 행위 엄단 의지…\"관용 없어\" Q....",
-        "link": "https://biz.sbs.co.kr/article_hub/20000295164?division=NAVER",
-        "source": "SBS",
-        "published": "2026-03-05T07:32:00+09:00",
-        "score": 146
-      },
-      {
-        "title": "'코스피 12%↓' 韓증시 사상 최대 폭락…9·11 넘어선 충격파",
-        "summary": "이날 서울채권시장에서 3년 만기 국고채 금리는 전 거래일보다 0.043%포인트 오른 연 3.223%에 마감했다. 중동 사태 전인 지난달 27일(연 3.041%) 대비 0.182%포인트 급등했다. 원달러 환율은 야간 거래에서 한때 1506.5원을...",
-        "link": "https://www.econovill.com/news/articleView.html?idxno=731916",
+        "title": "코스피 9%·코스닥 14% '용수철 반등'… 국내 증시 투자심리 회복",
+        "summary": "코스피,코스닥,환율 5일 코스피가 전 거래일보다 490.36포인트(9.63%) 오른 5583.90에 마감했다. 이날 오후... 서울 외환시장에서 원·달러 환율은 전 거래일보다 8.1원 내린 1468.1원에 마감했다.",
+        "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3057136",
         "source": "네이버뉴스",
-        "published": "2026-03-04T21:20:00+09:00",
+        "published": "2026-03-05T16:22:00+09:00",
+        "score": 146
+      },
+      {
+        "title": "곡소리 증시, 하루 만에 환호성···코스피·코스닥 동반 반등",
+        "summary": "발동됐으나, 5일 장에선 코스피와 코스닥 모두 매수 사이드카가 발동되는 등 롤러코스터 장세를 보였다. 또한 전일 1500원대까지 치솟았던 원·달러 환율도 안정세에 접어들며, 8.1원 내려 1468.1원으로 장을 마쳤다.",
+        "link": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=678160",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:12:00+09:00",
+        "score": 146
+      },
+      {
+        "title": "[종합] \"코인같은 韓 증시\"…코스피 9%·코스닥 14% '폭등'",
+        "summary": "코스피와 코스닥은 각각 9%, 14%씩 올라 이틀간 폭락장의 낙폭을 되돌렸으며, 환율도 1460원대에서... 이날 서울 외환시장에서 원·달러 환율은 전일 주간 거래 종가 대비 8.1원 내린 1468.1원까지 하락했다. 아시아...",
+        "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=833153",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:04:00+09:00",
+        "score": 146
+      },
+      {
+        "title": "[증시-마감] '롤러코스터' 코스피 이번엔 역대급 상승폭…코스닥도 14% ...",
+        "summary": "코스피가 하루 만에 급등세로 돌아서 역대 최대 상승폭을 기록했다. 코스닥도 장중 17%대의 폭등세를... 5일 연합인포맥스 신주식종합(화면번호 3536)에 따르면 코스피는 전 거래일 대비 490.36포인트(9.63%) 오른 5,583....",
+        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4402002",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:14:00+09:00",
         "score": 142
       },
       {
         "title": "[채권/외환] 美 국채금리 3일째 상승…유가 급등에 인플레이션 우려 재...",
-        "summary": "◆ 경제지표 견조…ISM 서비스 지수 2년 반 만 최고 이날 발표된 미국 경제 지표는 예상보다 강한 모습을 보였다. 공급관리협회(ISM)에 따르면 2월 비제조업 구매관리자지수(PMI)는 56.1로 집계돼 2022년 7월 이후...",
+        "summary": "CME 페드워치에 따르면 6월 연방공개시장위원회(FOMC)에서 최소 25bp 금리 인하가 이뤄질 확률은 35.5%로 낮아졌다. 최근 몇 주 동안 시장은 같은 회의에서 금리 인하 가능성을 50% 이상으로 반영해 왔다. ◆ 경제지표...",
         "link": "https://www.newspim.com/news/view/20260305000039",
         "source": "네이버뉴스",
         "published": "2026-03-05T07:24:00+09:00",
-        "score": 130
-      },
-      {
-        "title": "미국증시 장중..나스닥 '급등', 美국채금리 '상승', 유가 '주춤', 천연가...",
-        "summary": "4일(미국시간) 뉴욕시장에서 장중 미국 국채금리 상승에도 뉴욕증시 4대 지수도 오름세를 보이고 있다.... 미국 경제방송 씨엔비씨에 따르면 이날 미국증시 장중(한국시각 5일 새벽 4시 1분 기준) 2년물 미국 국채금리...",
-        "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=161862",
-        "source": "네이버뉴스",
-        "published": "2026-03-05T04:38:00+09:00",
         "score": 130
       }
     ],
     "산업·과학": [
       {
-        "title": "반도체 업계 \"자동화 8년 걸린다…공정 로봇 도입, PM 표준화부터 이뤄져야\"",
-        "summary": "산업 현장의 자동화, 로봇 공정 적용이 본격화하는 가운데 정작 반도체 공정은 장비 설계와 데이터 구조 등에서 표준이 부재해 자동화에 어려움을 겪고 있다는 분석이 나왔다. 반도체 제조 공정이 초정밀·초고속 생산 체계로 진화하면서 장비 유지보수 자동화가 제조 경쟁력의 핵심 과제로 떠오르고 있다. 5일 반도체장비재료협회(SEMI), 한국반도체산업협회, 한국반도체연구조합 등 업계가 전날 발간한 'PM 오토메이션(자동화) 백",
-        "link": "https://www.asiae.co.kr/article/2026030415511889970",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-03-05T06:00:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "“한국은 칩한민국 맞네”…반도체 숨 고르자 전산업 생산 석달만에 ‘...",
-        "summary": "전기차 보조금 조기 확정 등에 힘입어 자동차 등 운송장비와 반도체 제조용 기계 등 기계류 투자가 확대됐다. 반면 건설기성은 11.3% 줄어 2012년 1월 이후 14년 만에 최대 감소 폭을 나타냈다. 작년 건설업황 부진이 올...",
-        "link": "https://www.mk.co.kr/article/11978989",
-        "source": "매일경제",
-        "published": "2026-03-04T23:00:00+09:00",
-        "score": 78
-      },
-      {
-        "title": "[더벨][모태 2026 1차 정시출자] 1500억 출자 스케일업 딥테크, 미래·원...",
-        "summary": "시스템반도체, 바이오·헬스, 미래 모빌리티, 친환경·에너지, 로봇, 우주항공, 차세대원전, 양자기술 등... 벤처조합과 PEF를 병행 운용하며 반도체·AI·모빌리티 등 성장 산업에 대한 중대형 투자 경험을 축적해왔다....",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202603031037529400109510",
+        "title": "K-배터리, 전기차 넘어 로봇과 ESS로 질주",
+        "summary": "반도체에 이어 '제 2의 미래산업'으로 주목 받은 2차 전지는 중국의 추격과 각국의 전기차 보조금 축소, 미국의 화석연료 위주 정책 변화에 지난해 애를 먹었다. 우리 업체들은 이제 전기차(EV)를 벗어나 에너지저장장치...",
+        "link": "http://www.koreareport.co.kr/news/articleView.html?idxno=43040",
         "source": "네이버뉴스",
-        "published": "2026-03-05T07:02:00+09:00",
-        "score": 72
+        "published": "2026-03-05T15:10:00+09:00",
+        "score": 152
       },
       {
-        "title": "美→中 원유 운송비 사상 최고...칩·배터리 공급도 비상[이태규의 워싱...",
-        "summary": "미국과 이란의 전쟁으로 중동의 바다, 하늘길이 막히면서 원유는 물론이고 반도체, 배터리, 의약품 등의... 수출되는 반도체 및 배터리도 중동을 경유한다. 운송 과정에서 지연이 발생할 수 있다”고 분석했다. 전세계...",
-        "link": "https://www.sedaily.com/article/20015389?ref=naver",
-        "source": "서울경제",
-        "published": "2026-03-05T07:07:00+09:00",
-        "score": 70
+        "title": "LG에너지솔루션, 전고체 기반 황 양극 기술 구현…차세대 배터리 패권 ...",
+        "summary": "해당 기술의 성능 입증이 실제 전기차 등에 적용되는 파우치 형태의 셀 상태에서도 구현됨을 확인했다. 이번 연구 성과가 이론적 기술이 아닌 실질적인 배터리 제조 공정 및 밸류체인 적용으로 직결될 수 있음을 검증한...",
+        "link": "https://www.mediapen.com/news/view/1085241",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:02:00+09:00",
+        "score": 96
+      },
+      {
+        "title": "코스닥...에코프로·알테오젠·삼천당제약·휴림로봇 '폭등'",
+        "summary": "코스닥 시장에서만 1600종목 넘게 상승한 가운데 2차전지, 제약바이오, 반도체, 로봇주 등이... 반도체주 중 솔브레인, 테크윙 등이 상한가를 기록했다. 리노공업(20.32%), 원익IPS(23.53%), 이오테크닉스(23.37...",
+        "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=161916",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:28:00+09:00",
+        "score": 92
+      },
+      {
+        "title": "[굿모닝경제] 유조선 운임 '껑충' / 쪼그라든 반도체 / '캐나다 잠수함' 눈도장",
+        "summary": "<table><tr><td><img align=\"left\" border=\"0\" src=\"http://img.vod.mbn.co.kr/vod2/605/2026/03/05/20260305082219_20_605_1413093_1080_7_s1.jpg\" width=\"160\" />호르무즈 해협 봉쇄 위기로 주요 해운 노선 운임이 보름 만에 폭등했습니다.  한국해양진흥공사에 따르면, 그제(3일) 기준 대형 유조선의 중동 노선 운임은 지난달 13일보다 3배나 뛰었습니다.  해진공은 또 호르무즈 해협 통과 물동량이 평상시보다 80% 줄었다고 밝혔습니다.---  반도체 생산이 줄면서 산업 생산이 석 달 만에 줄었습니다.  국가데이터처에 따르면, 지난 1월 국내 모든 산업의 생산활동을 종합한 전산업생산은 전달보다 1.3% 감소했습니다.  반면 소비는 두 달 연속 증가하는 등 회복세를 유지했습니다.---  김정관 산업통상부 장관이 최대 60조 원 규모의 캐나다 초계 잠수함 프로젝트 수주 지원을 위해 ...",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5179608",
+        "source": "MBN : 경제기사",
+        "published": "2026-03-05T07:00:00+09:00",
+        "score": 90
       }
     ],
     "부동산": [
       {
-        "title": "\"비거주 1주택자 전세대출 막히면…급속도로 월세화될 듯\"",
-        "summary": "지난 3일 정부의 부동산 대책 회의에서 1주택자에 대한 수도권 전세대출 보증 제한 추진이 논의된 배경에는 이재명 대통령의 '비거주 1주택'에 대한 규제 강화 지시가 자리 잡고 있다..",
-        "link": "https://www.mk.co.kr/news/economy/11978714",
-        "source": "매일경제 : 경제",
-        "published": "2026-03-04T17:51:20+09:00",
+        "title": "\"전세 대신 월세 가라는 거냐\" … 1주택자 전세대출 규제에 시장 '술렁'",
+        "summary": "정부가 '비거주 1주택자'를 겨냥한 전세대출 규제 카드를 검토하면서 금융권과 부동산 현장 일선에서... 함께 '부동산 투기 근절을 위한 규제 방안'을 논의했다. 이 자리에서 1주택자가 자기 집에 거주하지 않고 수도권 등...",
+        "link": "https://biz.newdaily.co.kr/site/data/html/2026/03/05/2026030500335.html",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T15:50:00+09:00",
         "score": 150
       },
       {
-        "title": "전세가 사라진다? 임대차 아파트 ‘월세 비중’ 절반 넘겼다",
-        "summary": "지난달 부동산R114가 국토교통부 실거래가 자료를 분석해 보니 서울 아파트 임대차 계약 중에 준월세 비중은 2022년 51%에서 2023년 54%, 2024년 54%, 지난해에는 55%로, 지속적으로 늘어났습니다. 대출 규제와 전세가격의...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8499700&ref=A",
-        "source": "KBS",
-        "published": "2026-03-05T06:00:00+09:00",
-        "score": 135
-      },
-      {
-        "title": "결국 청담현대 11억 내려 팔았다…강남 아파트 실거래가 4.6억 '뚝'[부동산AtoZ]",
-        "summary": "이재명 대통령이 다주택자 압박을 지속하면서 서울 강남구 아파트 평균 실거래가가 한 달 만에 5억원 가까이 떨어진 것으로 나타났다. 오는 5월9일 다주택자 양도세 중과 유예 종료를 앞두고 호가를 낮춘 매물들의 계약이 성사되면서 실거래가 평균도 낮아진 것으로 풀이된다. 이 대통령이 다주택자에 이어 비거주 1주택자에 대한 추가 규제를 예고하면서 강남 집값은 당분간 하락 안정세를 이어갈 것이라는 전망이 나온다. 3일 본",
-        "link": "https://www.asiae.co.kr/article/2026030309344296621",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-03-03T11:00:00+09:00",
-        "score": 126
+        "title": "서울 아파트값 상승세 둔화 속 뛰는 경기 남부, 신고가에 청약까지 '흥...",
+        "summary": "10·15 부동산 대책과 정부의 다주택자 압박 등으로 인해 울 아파트값 상승세가 5주 연속 둔화한 가운데, 경기 남부 일대 중 비규제 지역으로 분류된 동탄 지역이 업계의 주목을 받고 있다. 5일 한국부동산원이 발표한...",
+        "link": "http://www.todaykorea.co.kr/news/articleView.html?idxno=340687",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:10:00+09:00",
+        "score": 116
       },
       {
         "title": "서울 아파트 신고가 거래도 꺾였다…용산·마포구 비중 하락[부동산AtoZ]",
@@ -451,6 +443,14 @@
         "source": "아시아경제 - 부동산",
         "published": "2026-03-04T11:00:00+09:00",
         "score": 110
+      },
+      {
+        "title": "“보증금 낮추고 일부 월세로 낼게요”…전셋값 고공행진에 반전세 계약 늘어",
+        "summary": "전국 주택 전·월세 거래 중 월세 비율 작년 1월 59.2%서 올해 1월 66.8% 전·월세전환율 오름세…6.2%→6.6%순수 전세 대신 보증금을 낮추고 월세를 일부 부담하는 ‘반..",
+        "link": "https://www.mk.co.kr/news/realestate/11979413",
+        "source": "매일경제 : 부동산",
+        "published": "2026-03-05T10:05:39+09:00",
+        "score": 106
       }
     ],
     "국제경제": [
@@ -471,135 +471,119 @@
         "score": 120
       },
       {
-        "title": "뉴욕 연은 총재 \"관세 90%는 미국인과 미국 기업이 부담\"",
-        "summary": "그러면서 \"연방공개시장위원회(FOMC)는 장기적으로 2%의 인플레이션을 물가 안정으로 정의하는데, 관세의 영향으로 그 목표 달성이 일시적으로 정체됐다\"고 꼬집었다. 다만 윌리엄스 총재는 트럼프 행정부의 관세 정책이...",
-        "link": "https://view.asiae.co.kr/article/2026030401224119572",
-        "source": "아시아경제",
-        "published": "2026-03-04T01:22:00+09:00",
-        "score": 96
-      },
-      {
-        "title": "美재무 \"글로벌 관세 이번주 10%에서 15%로 인상\"",
-        "summary": "도널드 트럼프 미국 행정부가 세계 각국에 새로 부과한 '글로벌 관세'가 이번주 중 10%에서 15%로 인상될 예정이라고 스콧 베선트 미국 재무부 장관(사진)이 밝혔다.\n베선트 장관..",
-        "link": "https://www.mk.co.kr/news/world/11979006",
-        "source": "매일경제 : 국제",
-        "published": "2026-03-04T23:20:54+09:00",
-        "score": 94
-      },
-      {
-        "title": "美, 글로벌 관세 15%로 올린다…“이번 주 인상”",
-        "summary": "24일 ‘무역법 122조’에 근거해 글로벌 관세 10% 부과 포고령을 발효했다. 이후 트럼프 대통령은 글로벌 관세를 법에 허용된 최고치인 15%로 올리겠다고 예고했다. 무역법 122조는 미국의 무역 적자가 심각해 나라 경제가...",
-        "link": "https://www.segye.com/newsView/20260305500222?OutUrl=naver",
+        "title": "美법원, '트럼프 상호관세' 환급 결정…글로벌 관세 15% 인상 '초읽기'",
+        "summary": "미국 국제무역법원(USCIT) 소속 리처드 이턴 원로판사는 4일(현지시간) 결정문에서 \"모든 수입업체가... USTR(무역대표부)로부터 (무역법) 301조에 대한 연구들과, 상무부로부터 (무역확장법) 232조에 따른 관세도 보게 될...",
+        "link": "http://www.shinailbo.co.kr/news/articleView.html?idxno=2198893",
         "source": "네이버뉴스",
-        "published": "2026-03-05T06:05:00+09:00",
-        "score": 94
+        "published": "2026-03-05T15:48:00+09:00",
+        "score": 118
+      },
+      {
+        "title": "트럼프, 케빈 워시 연준의장 지명안 상원 송부…인준 공식 요청",
+        "summary": "리모델링 공사와 관련해 검찰의 수사를 받고 있다고 밝힌 바 있다. 당시 파월 의장은 자신에 대한 형사 기소 위협이 트럼프 대통령의 요구에 맞춰 금리를 빠르게 인하하겠다고 하지 않겠다고 한 데서 비롯됐다고 말했다.",
+        "link": "https://www.news1.kr/world/usa-canada/6091517",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T15:21:00+09:00",
+        "score": 110
+      },
+      {
+        "title": "美 연준 베이지북 \"일부 기업, 관세 비용 상승 고객에 전가 지속\"",
+        "summary": "공개시장위원회(FOMC) 회의를 앞두고 발간한 3월 경기동향 보고서(베이지북)에서 경제 활동이 보합에... 통상적으로 FOMC 회의 2주 전에 발표한다. 이번 베이지북은 1월 말 보고서 발간 이후 지난 2월 23일까지 권역별로...",
+        "link": "https://www.newdaily.co.kr/site/data/html/2026/03/05/2026030500028.html",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T07:44:00+09:00",
+        "score": 110
       }
     ],
     "AI와 경제": [
       {
-        "title": "[창간기획] \"이젠 손에 돈 몰린다\"… AI 에이전트발 투자 지도 재편",
-        "summary": "보고서는 AI 도입 초기에는 기업 이익이 개선되지만, 이후 화이트칼라 실업률이 10%를 넘어서고 S&P500 지수가 고점 대비 38% 하락할 수 있다는 구체적 경로를 제시했다. 단순한 기술 낙관론을 넘어 소비 위축과 모기지...",
-        "link": "https://www.dt.co.kr/article/12049062?ref=naver",
-        "source": "네이버뉴스",
-        "published": "2026-03-02T16:47:00+09:00",
-        "score": 30
-      },
-      {
-        "title": "10만 줄 코드도 AI 에이전트가 작성…개발 패러다임 대전환",
-        "summary": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은 한국언론진흥재단의 지원을 받아 개발한 ‘인공지능(AI) 기반 맞춤형 뉴스 추천 및 요약 서비스’입니다. 독자...",
-        "link": "https://www.sedaily.com/article/20015400?ref=naver",
-        "source": "서울경제",
-        "published": "2026-03-05T07:29:00+09:00",
-        "score": 28
-      },
-      {
-        "title": "[외신 헤드라인] 젠슨 황 \"오픈AI 300억 달러투자가 마지막일수도\"",
-        "summary": "그러면서 현재 중동 리스크에도 불구하고 미국 경제 자체는 강력한 거시적 순풍을 타고 있다 분석했는데, 경제가 예상보다 빠르게 성장할 경우 인플레이션이 시장의 전망치보다 더 높아질 수 있다는 점도 분명히...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000295142?division=NAVER",
-        "source": "SBS",
-        "published": "2026-03-05T06:28:00+09:00",
+        "title": "AI, 일자리 위협 우려에…국가AI전략위 “사람 돕는 생산성 향상 도구”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/05/133471041.1.jpg\" vspace=\"10\" />임문영 국가인공지능(AI)전략위원회 상근 부위원장이 5일 “인공지능(AI) 확산 과정에서 일자리 변화에 대한 우려가 제기되는 것은 충분히 이해할 수 있는 부분”이라며 “중요한 것은 AI를 단순히 대체 기술로 바라보기보다 사람이 더 안전하고 부가가치 높은 일을 수행하도록 돕는 생산성 향상 도구로 이해하는 것”이라고 밝혔다.국가AI전략위는 이날 오후 사회분과 주관으로 ‘노동 현장 AI 전환과 일자리의 미래 릴레이 간담회’ 첫 행사를 개최했다. 간담회는 총 3차례에 걸쳐 열린다.최근 AI 기술이 제조·서비스 등 다양한 산업 분야로 확산되면서 업무방식과 직무 구성 변화가 나타나고 있다. 이에 따라 고용구조 전환 과정에서 발생할 수 있는 현장 적응 과제와 제도 보완 필요성에 대한 사회적 논...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260305/133471040/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-03-05T15:35:26+09:00",
         "score": 28
       }
     ],
     "기타": [
       {
-        "title": "‘진짜 사장’ 어디까지 인정하나요?…노란봉투법 코앞인데 여전히 아리...",
-        "summary": "김영훈 고용노동부 장관은 4일 구윤철 부총리 겸 재정경제부 장관 주재로 열린 ‘개정 노조법 관련... 대한민국 경제라는 배를 함께 타고 거친 파도를 넘는 동주공제(同舟共濟·같은 배를 타고 물을 건넌다) 관계”라고...",
-        "link": "https://www.mk.co.kr/article/11979208",
-        "source": "매일경제",
-        "published": "2026-03-05T07:15:00+09:00",
+        "title": "김동연, 중동정세 악화에 '중소기업 지원책' 긴급 지시",
+        "summary": "또 호르무즈해협 우회와 공항 폐쇄 등으로 발생하는 물류비 증가분에 대해 긴급 지원방안을 마련하고, 중동 수출품목 등에 대한 수출 바우처 등의 추가 지원 대책을 검토하도록 했다. 경기신용보증재단 등을 통해서는...",
+        "link": "https://www.yna.co.kr/view/AKR20260305148100061?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-05T16:27:00+09:00",
         "score": 24
       },
       {
-        "title": "매경이 전하는 세상의 지식 (매-세-지, 3월 5일)",
-        "summary": "미국이 이란을 공습한 상황에서 이달 말 도널드 트럼프 미국 대통령의 방중을 앞두고 양국 간 소통과 협력의 필요성을 재확인한 것이라는 해석이 나옵니다. ☞ 재테크의 기본, 부동산 정보! 쉽고 빠르게 알고싶다면",
-        "link": "https://www.mk.co.kr/article/11978721",
-        "source": "매일경제",
-        "published": "2026-03-05T07:01:00+09:00",
+        "title": "'청년일자리, 청년들로부터 듣는다'…노동부, 타운홀미팅 개최(종합)",
+        "summary": "일자리·노동환경·소득생활 분야 의견수렴해 내년 예산안 반영 고용노동부는 5일 서울 중구 서울지방고용노동청 청년온(ON)라운지에서 '청년 일자리 정책 타운홀미팅'을 열었다. 이날 행사에는 김영훈 노동부 장관 및...",
+        "link": "https://www.yna.co.kr/view/AKR20260304168651530?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-05T16:01:00+09:00",
         "score": 24
       },
       {
-        "title": "치료 넘어 복귀까지…근로복지공단, \"산재 근로자 끝까지 책임\"",
-        "summary": "근로복지공단이 산업재해를 입은 근로자의 치료 이후 삶과 일터 복귀 전 과정을 1대1로 지원하는 통합 프로그램을 본격 가동한다. 단순한 치료·보상 중심의 기존 지원을 넘어 심리 회복과 직무 복귀, 재취업, 복귀 이후 고용 유지까지 전주기를 체계적으로 관리해 산재 이후의 고용 불안과 장기 실업을 줄이겠다는 취지다. 공단은 고용노동부, 기획예산처와 함께 '직업복귀 토탈케어' 사업을 올해부터 시행한다고 4일 밝혔다. 이번",
-        "link": "https://www.asiae.co.kr/article/2026030314551855029",
-        "source": "아시아경제 - 경제",
-        "published": "2026-03-04T17:00:54+09:00",
+        "title": "거래소 \"2월 밸류업 지수 최고치 경신\"",
+        "summary": "한국거래소는 지난달 밸류업 지수가 사상 최고치인 2836.31포인트를 기록했다고 5일 밝혔다. 이는 지수 산출 개시일인 2024년 9월 대비 185.9% 상승한 수치다.  거래소는 이날 '월간 기업가치 제고 현황'을 통해 밸류업 상장지수펀드(ETF) 13종목의 순자산총액도 지난 2월 말 기준 2조7000억원을 기록하며 최초 설정했을 때보다 446.3%(4961억원) 증가했다고 설명했다. 2월 기업가치 제고 계획을 신규 공시한 기업 5사 중 4사는 코",
+        "link": "https://www.asiae.co.kr/article/2026030513421220125",
+        "source": "아시아경제 - 증권",
+        "published": "2026-03-05T13:42:13+09:00",
         "score": 24
       },
       {
-        "title": "젠슨 황, 상장 앞둔 오픈AI에 \"1000억달러 투자 가능성 희박\"",
-        "summary": "젠슨 황 엔비디아 최고경영자(CEO)가 지난해 발표했던 오픈AI에 대한 1000억달러(약 144조원) 규모 투자를 실현하기 어렵다고 밝혔다. 블룸버그통신 등 주요 외신에 따르면 황 CEO는 4일(현지시간) 미국 샌프란시스코에서 열린 '모건스탠리 기술·미디어·통신 콘퍼런스'에서 최근 오픈AI에 300억달러를 투자한 데 대해 \"이 인공지능(AI) 스타트업에 대한 마지막 투자가 될 수 있다\"고 말했다. 그는 지난해 9월 계획했던 1000억달러",
-        "link": "https://www.asiae.co.kr/article/2026030506151510450",
+        "title": "美 싱크탱크 \"온플법은 디지털 장벽... 무역보복 301조 동원 경고\"",
+        "summary": "미국의 싱크탱크가 현재 국회에 계류 중인 온라인플랫폼법(온플법)을 대표적인 디지털 분야 비관세 장벽으로 지목하고, 향후 한미 통상 마찰로 비화할 가능성을 경고했다. 구글이 미국 컴퓨터통신산업협회(CCIA)를 앞세워 한국 정부로부터 19년 만에 고정밀 지도를 받아낸 지 일주일 만에 나온 조치로, 국내 디지털 정책 방향의 불확실성이 커지는 모양새다.미국 워싱턴 DC의 싱크탱크인 아시아정책연구소(NBR)는 4일 '한국의 온라",
+        "link": "https://www.asiae.co.kr/article/2026030510530886839",
         "source": "아시아경제 - 산업·IT",
-        "published": "2026-03-05T06:15:16+09:00",
+        "published": "2026-03-05T11:34:51+09:00",
         "score": 24
       },
       {
-        "title": "‘환갑’ 맞은 국세청...AI 대전환·민생지원 등 60대 혁신안 공개 [Pick...",
-        "summary": "조세정의 구현 분야에서는 부동산 탈세 등 고질적 탈세와 악의적 고액 체납자에 대한 엄정 대응 의지를 강조했다. 세외수입 체납까지 국세청에서 통합 관리해 국가재정 수입 관리를 효율화하는 내용도 포함됐다. 민생...",
-        "link": "https://www.sedaily.com/article/20015383?ref=naver",
-        "source": "서울경제",
-        "published": "2026-03-05T06:32:00+09:00",
+        "title": "“1.8나노 공정 고객사 찾는다”… 인텔 파운드리, 美 빅테크 수주 나서",
+        "summary": "8나노급) 파운드리(반도체 위탁생산) 공정의 고객사 유치에 나설 것으로 알려졌다. 그동안 인텔의 18A... 미국 팹리스(반도체 설계) 기업은 트럼프 행정부의 ‘메이드 인 USA’ 기조에 발맞추고, 생산능력이 포화 상태에...",
+        "link": "https://biz.chosun.com/it-science/ict/2026/03/05/L2JVVXHYY5E5JDZTVFFX6XOCL4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-03-05T16:10:00+09:00",
         "score": 24
       },
       {
-        "title": "황 엔비디아 CEO, '오픈AI 300억弗 투자가 마지막 될 것'",
-        "summary": "4일(현지시간) 경제전문방송 CNBC는 젠슨 황 엔비디아 최고경영자(CEO)가 모건스탠리 기술·미디어·텔레콤(TMT) 콘퍼런스에 참석해, 최근 단행한 300억달러(약 45조원) 규모의 오픈AI 투자가 \"마지막이 될 가능성이 높다...",
-        "link": "http://www.fnnews.com/news/202603050629496454",
-        "source": "파이낸셜뉴스",
-        "published": "2026-03-05T07:14:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "국제 금융 시장의 베팅.... 이란 전쟁 오래가지 않는다",
-        "summary": "미국 에너지정보청(EIA)에 따르면 해당 항로를 통해 원유를 수입하는 최대 국가는 중국이며 인도, 한국, 일본이 그 뒤를 잇고 있다. 리포 오일 어소시에이츠의 앤드루 리포 사장은 “봉쇄가 지속될 경우 하루 2000만 배럴의...",
-        "link": "http://www.fnnews.com/news/202603050553339048",
-        "source": "파이낸셜뉴스",
-        "published": "2026-03-05T06:07:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "커지는 ‘AI 전쟁’ 우려…AI 산업 지형도 요동",
-        "summary": "미, 클로드 전방위 활용해 이란 공격 “생각하는 속도보다 빠른 군사작전 결정” 우려 ‘반트럼프’ 앤트로픽 이용자 늘고 챗GPT 줄어미국의 이란 공격을 계기로 인공지능(AI)이 전장에서 핵심 비대칭 전력이자 인프라로 자리잡은 사실이 분명해지면서 AI의 군사적 활용을 둘러싼 우려가 커지고 있다. AI에 기반한 군사 기술은 드론전이 중심이 된 우크라이나 전쟁은 ···",
-        "link": "https://www.khan.co.kr/article/202603050603001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "title": "중동사태 피해기업에 법인세 납부기한 3개월 연장·세무조사 보류",
+        "summary": "임광현 국세청장이 지난해 10월16일 정부세종청사 국세청에서 열린 국회 기획재정위원회 국정감사에서 의원들의 질의에 답하고 있다. 연합뉴스국세청이 미국의 이란 공습으로 계약 취소 등 예기치 못한 피해를 본 중소·중견기업의 법인세 납부 기한을 3개월 직권 연장한다. 원유 수입 비용 부담이 급증한 해운·항공, 정유·석유화학 업종에는 세무조사를 보류한다.국세청은 ···",
+        "link": "https://www.khan.co.kr/article/202603051400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
-        "published": "2026-03-05T06:03:00+09:00",
+        "published": "2026-03-05T14:00:00+09:00",
         "score": 24
       },
       {
-        "title": "중동 피해기업에 13조 금융지원…대출·보증 1년 만기연장",
-        "summary": "또 호르무즈 해협 경유 수입 비중이 54%에 달하는 나프타는 콕 집어서 필요시 수출 물량을 내수용으로 전환하는 등의 지원 방안을 마련하겠다고 밝혔습니다. [앵커] 중동 사태와 관련해 청와대와 여당도 각각 회의를...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000295145?division=NAVER",
-        "source": "SBS",
-        "published": "2026-03-05T06:50:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "[MWC26] SKT, 파네시아와 손잡고 AI 데이터센터 구조 혁신 추진",
-        "summary": "시스템 최적화에 달려 있다\"며 \"이번 협력은 연산 성능이 높아져도 데이터 이동과 공급이 이를 따라가지 못하는 구조적 병목인 '메모리 월(Memory Wall)'을 완화해 AI DC 성능과 경제성을 함께 높일 것\"이라고 말했다.",
-        "link": "http://www.inews24.com/view/1945355",
+        "title": "'공급망 쇼크' 온다…김동연, 중동 사태 대비 '선제 방어막'",
+        "summary": "여기에 두바이 등 주요 거점 공항들마저 미사일 위협으로 폐쇄되거나 운영이 중단되면서 반도체 등 고부가가치 제품을 실어 나를 '하늘길'까지 차단된 상태다. 수출 의존도가 높은 경기도 내 중소기업들로서는 원자재...",
+        "link": "https://www.nocutnews.co.kr/news/6480227?utm_source=naver&utm_medium=article&utm_campaign=20260305041626",
         "source": "네이버뉴스",
-        "published": "2026-03-05T07:16:00+09:00",
+        "published": "2026-03-05T16:17:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "엔비디아, 오픈AI 투자 끝내나…AI 판 흔든다",
+        "summary": "◆ AI 기업 상장 시대…반도체 수요 확대 기대 이번 발언은 AI 스타트업의 기업공개 움직임과도 맞물려 있다.... 이 같은 변화는 한국 반도체 산업에도 중요한 변수로 작용할 전망이다. AI 데이터센터 확대는 고성능...",
+        "link": "https://www.mstoday.co.kr/news/articleView.html?idxno=100742",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:00:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "김동연, 중동 정세 악화 대응 긴급 지시",
+        "summary": "지원 △수출 바우처 등 추가 지원 대책 검토 등 네 가지 사항을 긴급 지시했다. 우선 경기도는 중동 정세... 이를 통해 기업들이 겪는 물류 차질, 수출 계약 지연, 비용 증가 등 현장의 어려움을 신속히 접수하고 실질적인...",
+        "link": "https://www.ajunews.com/view/20260305154439879",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:22:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "‘대구시장 출마’ 주호영 부의장 “지금은 대구의 골든타임, 정치력으...",
+        "summary": "실증‧사업화‧판로‧수출까지 이어지는 성장 사다리를 구축해 기업이 대구에서 바로 시험하고 사업화할 수... 기존 제조 기반을 AI·로봇·바이오 등 미래형 산업으로 전환해, 실증–사업화–수출로 이어지는 생태계를...",
+        "link": "https://www.womennews.co.kr/news/articleView.html?idxno=274156",
+        "source": "네이버뉴스",
+        "published": "2026-03-05T16:17:00+09:00",
         "score": 24
       }
     ]
@@ -650,5 +634,41 @@
       "score": 98,
       "match_status": "OK"
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-03-05",
+    "generated_at": "2026-03-05T07:31:52.676107+00:00",
+    "key_headlines": [
+      {
+        "title": "Government to Intensively Monitor Revised Labor Act's Implementation",
+        "summary": "The government will operate an intensive 3-month monitoring period for the revised Labor Union Act (Yellow Envelope Law), set to take effect on March 10th, to ensure its stable establishment in workplaces."
+      },
+      {
+        "title": "Deputy PM Goo Pledges Efforts for Smooth Labor Law On-site Establishment",
+        "summary": "Deputy Prime Minister and Minister of Economy and Finance, Goo Yun-cheol, chaired a meeting, pledging all-out efforts for the revised Labor Union Act's smooth on-site establishment and continuous communication among labor, management, and government."
+      },
+      {
+        "title": "Deputy PM Goo Expresses Vigilance Over Surging Exchange Rate",
+        "summary": "Deputy Prime Minister Goo Yun-cheol stated that the government is monitoring the won-dollar exchange rate with 'vigilance' following its rapid increase, acknowledging external shocks as a contributing factor."
+      },
+      {
+        "title": "Won-Dollar Rate Breaches 1500; Deputy PM Assures Ample Forex Reserves",
+        "summary": "The won-dollar exchange rate temporarily exceeded 1500, prompting Deputy Prime Minister Goo Yun-cheol to assure the public that South Korea possesses ample foreign exchange reserves of $400 billion, with $1 trillion including private holdings, mitigating concerns of a dollar shortage."
+      },
+      {
+        "title": "Government Reviews Potential Impact of Revised Labor Act on Subcontracting",
+        "summary": "The revised Labor Union Act, particularly articles 2 and 3, is seen as institutionalizing the possibility of co-negotiations for win-win outcomes in the original and subcontracting structure, marking a significant change in labor relations."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "The Korean government is set to implement the revised Labor Union Act, known as the 'Yellow Envelope Law,' on March 10th, initiating a three-month intensive monitoring period to ensure its stable on-site establishment. Deputy Prime Minister Goo Yun-cheol chaired a meeting, emphasizing the importance of continuous communication among labor, management, and government. Concurrently, Deputy PM Goo also expressed heightened vigilance over the rapidly increasing won-dollar exchange rate, which briefly surpassed 1500, attributing the surge partly to external shocks from the Middle East. He reassured the public that Korea's substantial foreign exchange reserves of over $400 billion, including private sector holdings of $1 trillion, are more than sufficient, mitigating any concerns of a dollar shortage.",
+      "Macro & Fiscal Policy": "China has set its GDP growth target for 2026 at 4.5-5%, a slight reduction from previous years, while maintaining its unemployment target at 5.5% and consumer price inflation at around 2%. The country also announced a 7% increase in its defense budget, marking four consecutive years of such growth. Concurrently, the US Federal Reserve's latest Beige Book report indicated that economic activity generally maintained a modest expansion but noted an increase in regions experiencing economic slowdown and persistent inflationary pressures. These factors contribute to the speculation that the timing for interest rate cuts could be delayed, as also reflected in some companies passing on increased tariff costs to customers.",
+      "Financial Markets": "The Korean stock market experienced a significant rebound, with the KOSPI surging 9% and the KOSDAQ jumping 14%, recouping losses from previous days and signaling a recovery in investor sentiment. This rally was accompanied by a stabilization of the won-dollar exchange rate, which closed at 1468.1, down 8.1 won from the previous day, after briefly breaching the 1500 mark. Meanwhile, US Treasury bond yields rose for the third consecutive day amid renewed inflation concerns fueled by surging oil prices and growing panic over the Iran conflict. Market expectations for a 25bp rate cut at the June FOMC meeting have notably decreased to 35.5%, indicating a shift in monetary policy outlook.",
+      "Industry & Technology": "South Korea's battery industry is strategically expanding beyond electric vehicles (EVs) into robotics and Energy Storage Systems (ESS), following a challenging year marked by Chinese competition and reduced EV subsidies. LG Energy Solution, in particular, announced a breakthrough with its all-solid-state based sulfur cathode technology, demonstrating its potential for next-generation battery dominance even in pouch cell form factors applicable to EVs. The stock market saw significant gains in secondary battery, biopharmaceutical, semiconductor, and robot sectors, with several companies like EcoPro and Alteogen experiencing sharp increases. Separately, oil tanker shipping rates surged three-fold due to the Hormuz Strait closure, while domestic semiconductor production saw a decline, contributing to an overall decrease in industrial production for the first time in three months.",
+      "Real Estate": "The government is considering new regulations on 'non-resident single homeowner' jeonse (lump-sum deposit) loans, causing ripples in the financial and real estate sectors amid discussions to curb real estate speculation. While Seoul apartment price increases have slowed for five consecutive weeks, non-regulated areas in Southern Gyeonggi, such as Dongtan, are seeing price increases and high subscription rates. Furthermore, the proportion of new high-price transactions (신고가) in Seoul apartments decreased last month, particularly in Yongsan and Mapo districts, suggesting a cooling in previously leading areas. Amid rising jeonse prices, there's a noticeable shift towards 'ban-jeonse' (semi-monthly rent) contracts, where a lower deposit is paid along with a monthly rent, as the monthly rent ratio increased significantly.",
+      "International Economy": "The US Federal Reserve's latest Beige Book report indicated a modest economic expansion with increasing regional slowdowns and persistent inflation, also noting that some businesses continue to pass on tariff costs. Concurrently, US Treasury bond prices sharply declined amid 'Iran war panic,' pushing yields higher and reducing market expectations for a June interest rate cut. In a separate development, a US court ruled in favor of refunding 'Trump tariffs' on certain imports, while former President Trump officially nominated Kevin Warsh for Fed Chair, amidst ongoing scrutiny. There is also a warning from a US think tank that the US is considering using Trade Act Section 301 against countries implementing 'digital barriers,' such as Korea's proposed Online Platform Law.",
+      "AI & Economy": "The National AI Strategy Committee addressed growing concerns about AI's impact on employment, emphasizing that AI should be viewed not as a replacement technology but as a productivity-enhancing tool that enables people to perform safer and higher value-added tasks. This stance was articulated during the first 'Relay Dialogue on AI Transformation in the Labor Field and the Future of Jobs,' as AI technology's expansion into various industries transforms work methods and job structures. The committee aims to discuss adaptation challenges and necessary institutional improvements arising from these changes, promoting a balanced approach to AI integration in the economy.",
+      "Others": "Gyeonggi Province Governor Kim Dong-yeon ordered emergency support measures for small and medium-sized enterprises affected by the worsening Middle East situation, including assistance for increased logistics costs and additional export vouchers. The Ministry of Employment and Labor held a town hall meeting to gather opinions from youth on employment, labor environments, and income to reflect in next year's budget. The Korea Exchange announced that the 'Value-up Index' reached a record high in February, signaling strong market confidence in companies with enhanced corporate value. A US think tank warned that South Korea's proposed Online Platform Law could be seen as a digital trade barrier, potentially leading to trade retaliation under Section 301, while Intel Foundry is reportedly seeking customers for its 1.8nm process, targeting major US tech companies."
+    }
+  }
 }
