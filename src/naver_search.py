@@ -13,6 +13,14 @@ from html import unescape
 
 from feeds import ALLOWED_SOURCES
 
+KST = timezone(timedelta(hours=9))
+
+
+def get_collection_hours():
+    """Return 72 on Monday (KST), 48 otherwise."""
+    now_kst = datetime.now(KST)
+    return 72 if now_kst.weekday() == 0 else 48
+
 
 NAVER_SEARCH_QUERIES = [
     "경제",
@@ -121,7 +129,7 @@ def search_news(query: str, display: int = 100, sort: str = "date") -> list:
         return []
 
 
-def fetch_naver_candidates(hours: int = 72) -> list:
+def fetch_naver_candidates(hours: int = 48) -> list:
     """
     Fetch news candidates from Naver Search API
     Returns list in same format as RSS candidates:
@@ -187,7 +195,8 @@ def fetch_naver_candidates(hours: int = 72) -> list:
 
 
 if __name__ == "__main__":
-    results = fetch_naver_candidates(hours=72)
+    hours = get_collection_hours()
+    results = fetch_naver_candidates(hours=hours)
     print(f"\nTotal candidates: {len(results)}")
     for r in results[:5]:
         print(f"  - {r['source']}: {r['title'][:50]}...")

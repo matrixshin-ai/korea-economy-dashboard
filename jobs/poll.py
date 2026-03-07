@@ -22,6 +22,12 @@ KST = pytz.timezone("Asia/Seoul")
 MIN_TITLE_LEN = 12
 
 
+def get_collection_hours():
+    """Return 72 on Monday (KST), 48 otherwise."""
+    now_kst = datetime.now(KST)
+    return 72 if now_kst.weekday() == 0 else 48
+
+
 def should_drop_item(title: str, summary: str) -> bool:
     """
     Drop rule:
@@ -43,7 +49,7 @@ def parse_published(entry):
     return None
 
 
-def within_hours(dt, hours=72):
+def within_hours(dt, hours=48):
     if not dt:
         return False
     now = datetime.now(timezone.utc)
@@ -52,7 +58,7 @@ def within_hours(dt, hours=72):
     return dt >= (now - timedelta(hours=hours))
 
 
-def fetch_rss_candidates():
+def fetch_rss_candidates(hours=48):
     """Fetch candidates from RSS feeds"""
     seen = set()
     candidates = []
@@ -77,7 +83,7 @@ def fetch_rss_candidates():
                 seen.add(link)
 
                 published = parse_published(e)
-                if not within_hours(published, 72):
+                if not within_hours(published, hours):
                     continue
 
                 title = getattr(e, "title", "").strip()
@@ -123,12 +129,15 @@ def main():
     )
     print(f"{'='*60}\n")
 
-    rss_candidates = fetch_rss_candidates()
+    hours = get_collection_hours()
+    print(f"  Collection window: {hours} hours ({'Monday mode' if hours == 72 else 'default'})\n")
+
+    rss_candidates = fetch_rss_candidates(hours=hours)
     print(f"\nRSS: {len(rss_candidates)} candidates collected")
 
     naver_candidates = []
     try:
-        naver_candidates = fetch_naver_candidates(hours=72)
+        naver_candidates = fetch_naver_candidates(hours=hours)
     except Exception as e:
         print(f"\nNaver search failed (continuing with RSS only): {e}")
 
