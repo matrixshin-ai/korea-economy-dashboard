@@ -11,6 +11,8 @@ import re
 from datetime import datetime, timedelta, timezone
 from html import unescape
 
+from feeds import ALLOWED_SOURCES
+
 
 NAVER_SEARCH_QUERIES = [
     "경제",
@@ -164,7 +166,10 @@ def fetch_naver_candidates(hours: int = 72) -> list:
                     summary = summary[:500] + "..."
                 
                 source = extract_source(link)
-                
+
+                if source not in ALLOWED_SOURCES:
+                    continue
+
                 candidates.append({
                     "title": title,
                     "summary": summary,
