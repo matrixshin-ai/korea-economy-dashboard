@@ -113,6 +113,14 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: Post Moltbook comment
+        if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'afternoon'
+        run: python jobs/moltbook_comment.py
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+
       - name: Commit and push updated data
         if: always()
         run: |

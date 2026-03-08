@@ -49,14 +49,14 @@ VM 사용자: `matrix_shin` (경로: `/home/matrix_shin/`)
 ## 3. 일일 타임라인
 
 ```
-05:00 KST  [C] Moltbook 파이프라인 (설계 의도. 현재 코드는 23:00 -- 재수정 필요)
+23:00 KST  [C] Moltbook 파이프라인 (collect -> draft -> Telegram 미리보기)
 07:00 KST  [A] Dashboard 1차 (RSS only, GHA cron 22:00 UTC)
 ~14:00 KST     기재부 PDF 도착
 14:30 KST  [B] OCR 파이프라인 (Windows Task Scheduler, 2026-03-08 변경: 14:00 -> 14:30)
 15:45 KST  [A] Dashboard 2차 (OCR 반영 + AI 요약 + Moltbook 댓글, GHA cron 06:45 UTC)
 ~15:00+ KST [D] YouTube (GHA cron UTC 06:00, 지연 0~3h)
 22:00 KST      OpsGuard 일일 리포트
-23:00 KST  [C] Moltbook 파이프라인 (현재 실제 코드 -- 05:00으로 재수정 필요)
+              (23:00 확정 -- 코드와 문서 일치)
 ```
 
 ---
@@ -225,7 +225,7 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 **2026-03-08 변경사항**:
 - 고아 프로세스 제거 (PID 459184)
 - Anthropic API Key 교체
-- 스케줄: 실제 코드 `run_bot(schedule_time="23:00")` -- 설계 의도 05:00과 불일치
+- 스케줄: `run_bot(schedule_time="23:00")` -- 23:00 KST 확정
 
 ### 5-D. youtube-automation
 
@@ -283,7 +283,7 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 
 | # | 이슈 | 영향 |
 |---|------|------|
-| 1 | moltbook-scheduler 스케줄 23:00 vs 설계 05:00 불일치 | 파이프라인이 설계 시각에 실행되지 않음 |
+| 1 | opsguard README.md 타임라인에 05:00 KST 잔존 -- 23:00으로 수정 필요 | 모니터링 타이밍 오탐 가능 |
 | 2 | moltbook_comment.py가 daily_state와 미연동 | 외부 댓글 1/day 제한 우회 가능 |
 | 3 | moltbook-scheduler 외부 댓글 자동화 미완성 | 카운터(can_external_comment)만 있고 호출 코드 없음 |
 
@@ -299,7 +299,7 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 | # | 이슈 | 비고 |
 |---|------|------|
 | 6 | YouTube 자동화 상세 구조 미파악 | 스펙 문서 존재하나 코드 미확인 |
-| 7 | CLAUDE.md 문서 일부 오래됨 | moltbook-scheduler CLAUDE.md의 "daily 05:00 KST" 등 |
+| 7 | ~~CLAUDE.md 문서 일부 오래됨~~ | 해결됨 (23:00 KST로 수정 완료) |
 
 ---
 
@@ -307,7 +307,7 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 
 | # | 작업 | 관련 앱 | 우선순위 |
 |---|------|---------|----------|
-| 1 | moltbook-scheduler 05:00 KST 스케줄 재수정 | moltbook-scheduler | 높음 |
+| 1 | opsguard README.md 타임라인 05:00 -> 23:00 수정 | opsguard | 중간 |
 | 2 | moltbook-scheduler 외부 댓글 자동화 완성 | moltbook-scheduler | 높음 |
 | 3 | moltbook_comment.py <-> daily_state 연동 설계 | dashboard + scheduler | 높음 |
 | 4 | 대시보드 기사 중복 억제 강화 | dashboard | 중간 |
@@ -383,4 +383,5 @@ C:\Users\신민식\Downloads\claude-code-opsguard-impl.md
 - dashboard `jobs/moltbook_comment.py` 신규 추가 (외부 submolt 댓글 자동화)
 - moltbook-scheduler 고아 프로세스 제거 (PID 459184)
 - moltbook-scheduler Anthropic API Key 교체
-- 발견: moltbook-scheduler 스케줄 코드 23:00 vs 설계 05:00 불일치
+- moltbook-scheduler 스케줄 23:00 KST 확정 (CLAUDE.md, CONTROL_TOWER.md 수정 완료)
+- TODO: opsguard README.md 타임라인도 05:00 -> 23:00 수정 필요
