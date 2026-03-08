@@ -8,14 +8,14 @@
 ## 1. 시스템 전체 구조
 
 ```
-                      OpsGuard (GCP VM)
+                      OpsGuard (VM)
                       모니터링 + 알림
                            |
         +------------------+------------------+------------------+
         |                  |                  |                  |
   korea-economy-       ocr-automation    moltbook-         youtube-
   dashboard            (로컬 PC)         scheduler         automation
-  (Vercel + GHA)                         (GCP VM)          (Fly.io)
+  (Vercel + GHA)                         (VM)              (PaaS)
         |                  |                  |
         +------ 데이터 ---->|                  |
         |<----- OCR -------+                  |
@@ -27,22 +27,21 @@
 
 ## 2. 앱별 상태
 
-| 앱 | 레포 | 인프라 | 상태 |
-|----|------|--------|------|
-| korea-economy-dashboard | matrixshin-ai/korea-economy-dashboard | Vercel + Neon DB + GitHub Actions | 정상 |
-| ocr-automation | matrixshin-ai/ocr-automation (private) | 로컬 PC (Windows Task Scheduler) | 정상 |
-| moltbook-scheduler | matrixshin-ai/moltbook-scheduler (private) | GCP e2-micro VM (us-central1-a) | 정상 |
-| youtube-automation | matrixshin-ai/youtube-automation | Fly.io (nrt) | 정상 |
-| opsguard | matrixshin-ai/opsguard (private) | GCP e2-micro VM (us-central1-a) | 정상 |
+| 앱 | 인프라 | 상태 |
+|----|--------|------|
+| korea-economy-dashboard | Vercel + Neon DB + GitHub Actions | 정상 |
+| ocr-automation (private) | 로컬 PC (Windows Task Scheduler) | 정상 |
+| moltbook-scheduler (private) | GCP VM | 정상 |
+| youtube-automation | PaaS | 정상 |
+| opsguard (private) | GCP VM (moltbook-scheduler와 동일) | 정상 |
 
-### GCP VM (moltbook-bot, e2-micro, us-central1-a)
+### GCP VM
 
 두 서비스 공존:
 - `moltbook-telegram.service` -- PolicyEditorBot
 - `opsguard.service` -- OpsGuard 모니터링
 
-VM 사용자: `matrix_shin` (경로: `/home/matrix_shin/`)
-접속: `gcloud compute ssh moltbook-bot --zone=us-central1-a`
+접속 방법 및 경로는 별도 운영 문서 참조.
 
 ---
 
@@ -50,13 +49,12 @@ VM 사용자: `matrix_shin` (경로: `/home/matrix_shin/`)
 
 ```
 23:00 KST  [C] Moltbook 파이프라인 (collect -> draft -> Telegram 미리보기)
-07:00 KST  [A] Dashboard 1차 (RSS only, GHA cron 22:00 UTC)
+07:00 KST  [A] Dashboard 1차 (RSS only)
 ~14:00 KST     기재부 PDF 도착
-14:30 KST  [B] OCR 파이프라인 (Windows Task Scheduler, 2026-03-08 변경: 14:00 -> 14:30)
-15:45 KST  [A] Dashboard 2차 (OCR 반영 + AI 요약 + Moltbook 댓글, GHA cron 06:45 UTC)
-~15:00+ KST [D] YouTube (GHA cron UTC 06:00, 지연 0~3h)
+14:30 KST  [B] OCR 파이프라인 (2026-03-08 변경: 14:00 -> 14:30)
+15:45 KST  [A] Dashboard 2차 (OCR 반영 + AI 요약 + Moltbook 댓글)
+~15:00+ KST [D] YouTube 파이프라인
 22:00 KST      OpsGuard 일일 리포트
-              (23:00 확정 -- 코드와 문서 일치)
 ```
 
 ---
@@ -88,7 +86,7 @@ VM 사용자: `matrix_shin` (경로: `/home/matrix_shin/`)
 
 | ID | 체크 | 설명 |
 |----|------|------|
-| C-1 | Service Status | systemd 서비스 active 여부 (로컬 subprocess) |
+| C-1 | Service Status | systemd 서비스 active 여부 |
 | C-2 | Pipeline Triggered | journalctl에서 "PIPELINE TRIGGERED" 검색 |
 | C-3 | Skip Marker | `data/skips/skip_YYYYMMDD.json` 존재 시 정상 스킵으로 처리 |
 | C-4 | Post Published | 당일 게시 여부 |
@@ -98,12 +96,12 @@ VM 사용자: `matrix_shin` (경로: `/home/matrix_shin/`)
 
 | ID | 체크 | 설명 |
 |----|------|------|
-| D-1 | Worker Health | Fly.io 워커 HTTP health |
+| D-1 | Worker Health | 워커 HTTP health |
 | D-2 | Cron Run | GitHub Actions cron 최근 실행 |
 | D-3 | Video Published | 당일 영상 게시 여부 |
 | D-4 | Pipeline Status | 파이프라인 완료/진행 상태 |
-| D-5 | Warmup | `/api/cron/warmup` |
-| D-6 | Test Fetch | `/api/pipeline/test-fetch` |
+| D-5 | Warmup | warmup 엔드포인트 |
+| D-6 | Test Fetch | test-fetch 엔드포인트 |
 
 ### CH: Chain Checks (교차 검증)
 
@@ -114,24 +112,13 @@ VM 사용자: `matrix_shin` (경로: `/home/matrix_shin/`)
 | CH-3 | Dashboard -> YouTube | 대시보드 데이터가 YouTube에 사용되었는지 |
 | CH-4 | End-to-End | 전체 파이프라인 정상 여부 |
 
-### OpsGuard 환경변수 (VM .env)
+### OpsGuard 환경변수
 
-```
-TELEGRAM_BOT_TOKEN=(OpsGuard 전용 봇, PolicyEditorBot과 분리)
-TELEGRAM_CHAT_ID=(소유자 chat ID)
-GITHUB_PAT=ghp_...
-DASHBOARD_URL=https://korea-economy-dashboard.vercel.app
-YT_WORKER_URL=https://youtube-automation.fly.dev
-GITHUB_OWNER=matrixshin-ai
-DASHBOARD_REPO=korea-economy-dashboard
-OCR_REPO=ocr-automation
-MOLTBOOK_REPO=moltbook-scheduler
-YOUTUBE_REPO=youtube-automation
-```
+각 프로젝트의 `.env` 및 `.env.example` 참조. OpsGuard VM의 `.env`는 VM에서 직접 관리.
 
 ### OpsGuard CD
 
-GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> tar+scp+rsync -> VM 배포 -> systemctl restart
+GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배포 -> systemctl restart
 
 ---
 
@@ -170,9 +157,11 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> tar+sc
 
 **Staleness 판정**: `getMostRecentKST330PM()` in `server/routes.ts`
 
+**환경변수**: 프로젝트 `.env` 및 GitHub Secrets 참조
+
 ### 5-B. ocr-automation
 
-**위치**: `C:\ocr_automation` (로컬 PC)
+**위치**: 로컬 PC
 **스케줄**: Windows Task Scheduler, **14:30 KST** (2026-03-08 변경: 14:00 -> 14:30)
 
 **파이프라인**: 기재부 석간 PDF -> OCR -> 기사 매칭 -> `ocr_headlines.json` push to dashboard
@@ -187,7 +176,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> tar+sc
 
 ### 5-C. moltbook-scheduler
 
-**위치**: GCP VM `/home/matrix_shin/moltbook-scheduler/`
+**위치**: GCP VM
 **스택**: Python, Claude API (drafter), Moltbook API, Telegram Bot
 
 **데이터 파이프라인**:
@@ -216,21 +205,22 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - 외부 submolt 댓글: max 1/day, 삼각형 2개 이상 연결 필수
 
 **Moltbook API 인증**:
-1. Bearer API Key (`Authorization: Bearer {MOLTBOOK_API_KEY}`)
+1. Bearer API Key
 2. Verification Challenge -- 매 게시/댓글마다 산술 문제 자동 풀이 필요
 3. Unicode -> ASCII 변환 필수 (em-dash 등이 ?로 치환됨)
 
 **Telegram Bot**: 폴링 방식, Approve/Reject 버튼으로 사람 승인 후 게시
 
 **2026-03-08 변경사항**:
-- 고아 프로세스 제거 (PID 459184)
-- Anthropic API Key 교체
+- 고아 프로세스 제거
+- API Key 교체
 - 스케줄: `run_bot(schedule_time="23:00")` -- 23:00 KST 확정
+
+**환경변수**: 프로젝트 `.env` 및 `.env.example` 참조
 
 ### 5-D. youtube-automation
 
-**인프라**: Fly.io (nrt region)
-**레포**: matrixshin-ai/youtube-automation
+**인프라**: PaaS
 **상세 구조**: 미파악 (추후 확인 필요)
 
 ---
@@ -268,10 +258,10 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 | 위치 | GitHub Actions | GCP VM |
 | 대상 | 외부 submolt (검색 기반) | 자기 submolt (m/ai-macro-policy) |
 | 인증 | Bearer + verification challenge | 동일 |
-| 트리거 | GHA afternoon run (15:45 KST) | Telegram bot 스케줄 |
+| 트리거 | GHA afternoon run (15:45 KST) | Telegram bot 스케줄 (23:00 KST) |
 | 승인 | 자동 (사람 승인 없음) | Telegram 버튼 승인 |
 | 횟수 제한 | 자체 히스토리 (moltbook_history.json) | daily_state.json (1/day) |
-| API Key | `MOLTBOOK_API_KEY` (GitHub Secrets) | 동일 키, VM .env |
+| API Key | GitHub Secrets | VM .env (동일 키) |
 
 **문제: 두 시스템이 독립적으로 동작하여 1/day 외부 댓글 제한을 공유하지 않음.**
 
@@ -293,13 +283,14 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 |---|------|------|
 | 4 | OpsGuard 알림 타이밍 오탐 다수 (A-2, A-4, A-7, B-1) | 타이밍 불일치로 불필요한 알림 발생 |
 | 5 | 대시보드 기사 중복 | 오늘의 핵심이슈, 거시경제/재정 섹션에서 동일 기사 노출 |
+| 6 | OpsGuard가 git으로 관리되지 않음 | VM 직접 수정 필요, 변경 이력 추적 불가, CD 파이프라인 무효화 |
 
 ### 낮은 우선순위 / 미파악
 
 | # | 이슈 | 비고 |
 |---|------|------|
-| 6 | YouTube 자동화 상세 구조 미파악 | 스펙 문서 존재하나 코드 미확인 |
-| 7 | ~~CLAUDE.md 문서 일부 오래됨~~ | 해결됨 (23:00 KST로 수정 완료) |
+| 7 | YouTube 자동화 상세 구조 미파악 | 스펙 문서 존재하나 코드 미확인 |
+| 8 | ~~CLAUDE.md 문서 일부 오래됨~~ | 해결됨 (23:00 KST로 수정 완료) |
 
 ---
 
@@ -316,58 +307,30 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 
 ---
 
-## 10. 환경변수 / Secrets 목록
+## 10. 환경변수 안내
 
-### korea-economy-dashboard (GitHub Secrets)
+각 프로젝트의 환경변수는 해당 프로젝트의 `.env` 또는 `.env.example` 파일을 참조.
 
-| Key | 용도 |
-|-----|------|
-| GEMINI_API_KEY | Gemini 2.5 Flash (요약 + 댓글 생성) |
-| NAVER_CLIENT_ID | Naver 검색 API |
-| NAVER_CLIENT_SECRET | Naver 검색 API |
-| MOLTBOOK_API_KEY | Moltbook 댓글 게시 |
-
-### korea-economy-dashboard (.env, 로컬 전용)
-
-| Key | 용도 |
-|-----|------|
-| ADMIN_PASSWORD | 관리 비밀번호 |
-| GEMINI_API_KEY | 로컬 테스트용 |
-| AI_INTEGRATIONS_GEMINI_API_KEY | Vercel AI 연동 |
-| MOLTBOOK_API_KEY | 로컬 테스트용 |
-
-### moltbook-scheduler (VM .env)
-
-| Key | 용도 |
-|-----|------|
-| MOLTBOOK_API_KEY | Moltbook API (moltbook_sk_...) |
-| DASHBOARD_URL | Dashboard API 엔드포인트 |
-| TELEGRAM_BOT_TOKEN | PolicyEditorBot Telegram |
-| TELEGRAM_CHAT_ID | 소유자 chat ID |
-| WEEKLY_REPORT_CHAT_ID | 주간 리포트 채널 |
-| ANTHROPIC_API_KEY | Claude API (drafter) |
-
-### Moltbook API Key 형식
-
-접두사: `moltbook_sk_`
-활성 에이전트: PolicyEditorBot (`moltbook_sk_JVHgCl1wScCpoHBpAAkpuGhyLqzlt5Fy`)
+| 프로젝트 | 환경변수 위치 |
+|----------|--------------|
+| korea-economy-dashboard | `.env` (로컬) + GitHub Secrets (CI) |
+| moltbook-scheduler | `.env` (VM) + `.env.example` (레포) |
+| opsguard | `.env` (VM) + `.env.example` (레포) |
+| youtube-automation | 별도 확인 필요 |
 
 ---
 
-## 11. 참고 문서 (로컬)
+## 11. 참고 문서
 
-```
-C:\Users\신민식\Downloads\orchestration-agent-plan.md
-C:\Users\신민식\Downloads\audit_report.md
-C:\Users\신민식\Downloads\korea_economy_dashboard_spec.md
-C:\Users\신민식\Downloads\moltbook-policyeditorbot-spec.md
-C:\Users\신민식\Downloads\youtube-automation-system-spec.md
-C:\Users\신민식\Downloads\CONTEXT_FOR_NEW_CHAT__1_.md
-C:\Users\신민식\Downloads\opsguard-context-for-new-chat.md
-C:\Users\신민식\Downloads\opsguard-cd-guide.md
-C:\Users\신민식\Downloads\opsguard-cd-progress.md
-C:\Users\신민식\Downloads\claude-code-opsguard-impl.md
-```
+로컬 Downloads 폴더에 스펙 문서들 존재:
+- orchestration-agent-plan.md
+- audit_report.md
+- korea_economy_dashboard_spec.md
+- moltbook-policyeditorbot-spec.md
+- youtube-automation-system-spec.md
+- opsguard-context-for-new-chat.md
+- opsguard-cd-guide.md
+- opsguard-cd-progress.md
 
 ---
 
@@ -381,7 +344,10 @@ C:\Users\신민식\Downloads\claude-code-opsguard-impl.md
 - dashboard 기사 수집 시간 범위 72h -> 48h (월요일 예외 72h)
 - dashboard English 페이지 Video Brief + MOLTBOOK 링크 수정
 - dashboard `jobs/moltbook_comment.py` 신규 추가 (외부 submolt 댓글 자동화)
-- moltbook-scheduler 고아 프로세스 제거 (PID 459184)
-- moltbook-scheduler Anthropic API Key 교체
+- moltbook-scheduler 고아 프로세스 제거
+- moltbook-scheduler API Key 교체
 - moltbook-scheduler 스케줄 23:00 KST 확정 (CLAUDE.md, CONTROL_TOWER.md 수정 완료)
+- OpsGuard scheduler.py: moltbook_morning 체크 05:30 -> 23:30 KST (VM 직접 수정)
+- OpsGuard scheduler.py: chain_morning 체크 05:35 -> 23:35 KST (VM 직접 수정)
+- OpsGuard는 현재 git 미관리 상태 -- VM에서 직접 수정, 레포 동기화 안 됨
 - TODO: opsguard README.md 타임라인도 05:00 -> 23:00 수정 필요
