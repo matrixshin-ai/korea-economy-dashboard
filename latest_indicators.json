@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-09T07:38:39.401824",
+  "updated_at": "2026-03-09T22:31:02.903626",
   "indicators": [
     {
       "id": "kospi",
@@ -62,14 +62,10 @@
     {
       "id": "sp500",
       "name": "S&P 500",
-      "value": "6,740.02",
-      "change": -1.33,
+      "value": "6,795.99",
+      "change": 0.83,
       "category": "stock",
       "trend": [
-        {
-          "date": "2026-03-02",
-          "value": 6881.62
-        },
         {
           "date": "2026-03-03",
           "value": 6816.63
@@ -85,20 +81,20 @@
         {
           "date": "2026-03-06",
           "value": 6740.02
+        },
+        {
+          "date": "2026-03-09",
+          "value": 6795.99
         }
       ]
     },
     {
       "id": "nasdaq",
       "name": "Nasdaq",
-      "value": "22,387.68",
-      "change": -1.59,
+      "value": "22,695.95",
+      "change": 1.38,
       "category": "stock",
       "trend": [
-        {
-          "date": "2026-03-02",
-          "value": 22748.86
-        },
         {
           "date": "2026-03-03",
           "value": 22516.69
@@ -114,20 +110,20 @@
         {
           "date": "2026-03-06",
           "value": 22387.68
+        },
+        {
+          "date": "2026-03-09",
+          "value": 22695.95
         }
       ]
     },
     {
       "id": "dow",
       "name": "Dow Jones",
-      "value": "47,501.55",
-      "change": -0.95,
+      "value": "47,740.80",
+      "change": 0.5,
       "category": "stock",
       "trend": [
-        {
-          "date": "2026-03-02",
-          "value": 48904.78
-        },
         {
           "date": "2026-03-03",
           "value": 48501.27
@@ -143,20 +139,20 @@
         {
           "date": "2026-03-06",
           "value": 47501.55
+        },
+        {
+          "date": "2026-03-09",
+          "value": 47740.8
         }
       ]
     },
     {
       "id": "us_10y",
       "name": "미국 국채 10년",
-      "value": "4.13%",
-      "change": -0.31,
+      "value": "4.14%",
+      "change": 0.07,
       "category": "rate",
       "trend": [
-        {
-          "date": "2026-03-02",
-          "value": 4.05
-        },
         {
           "date": "2026-03-03",
           "value": 4.06
@@ -172,20 +168,20 @@
         {
           "date": "2026-03-06",
           "value": 4.13
+        },
+        {
+          "date": "2026-03-09",
+          "value": 4.14
         }
       ]
     },
     {
       "id": "us_30y",
       "name": "미국 국채 30년",
-      "value": "4.76%",
-      "change": 0.06,
+      "value": "4.74%",
+      "change": -0.32,
       "category": "rate",
       "trend": [
-        {
-          "date": "2026-03-02",
-          "value": 4.7
-        },
         {
           "date": "2026-03-03",
           "value": 4.7
@@ -201,20 +197,20 @@
         {
           "date": "2026-03-06",
           "value": 4.76
+        },
+        {
+          "date": "2026-03-09",
+          "value": 4.74
         }
       ]
     },
     {
       "id": "us_rate",
       "name": "미국 기준금리 (Fed)",
-      "value": "3.57%",
-      "change": -0.5,
+      "value": "3.59%",
+      "change": 0.64,
       "category": "rate",
       "trend": [
-        {
-          "date": "2026-03-02",
-          "value": 3.59
-        },
         {
           "date": "2026-03-03",
           "value": 3.6
@@ -230,6 +226,10 @@
         {
           "date": "2026-03-06",
           "value": 3.57
+        },
+        {
+          "date": "2026-03-09",
+          "value": 3.59
         }
       ]
     },
@@ -507,8 +507,8 @@
     {
       "id": "krw_usd",
       "name": "원/달러 환율",
-      "value": "1,491.68",
-      "change": 0.82,
+      "value": "1,465.92",
+      "change": -0.92,
       "category": "currency",
       "trend": [
         {
@@ -529,15 +529,15 @@
         },
         {
           "date": "2026-03-09",
-          "value": 1491.68
+          "value": 1465.92
         }
       ]
     },
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "158.45",
-      "change": 0.58,
+      "value": "157.83",
+      "change": 0.19,
       "category": "currency",
       "trend": [
         {
@@ -558,7 +558,7 @@
         },
         {
           "date": "2026-03-09",
-          "value": 158.45
+          "value": 157.83
         }
       ]
     },
@@ -566,7 +566,7 @@
       "id": "cny_usd",
       "name": "위안/달러",
       "value": "6.91",
-      "change": 0.22,
+      "change": 0.13,
       "category": "currency",
       "trend": [
         {
@@ -594,8 +594,8 @@
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "99.36",
-      "change": 0.37,
+      "value": "98.73",
+      "change": -0.27,
       "category": "currency",
       "trend": [
         {
@@ -612,15 +612,15 @@
         },
         {
           "date": "2026-03-09",
-          "value": 99.36
+          "value": 98.73
         }
       ]
     },
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$101.44",
-      "change": 11.6,
+      "value": "$88.14",
+      "change": -3.04,
       "category": "commodity",
       "trend": [
         {
@@ -637,15 +637,15 @@
         },
         {
           "date": "2026-03-09",
-          "value": 101.44
+          "value": 88.14
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$5,113.40",
-      "change": -0.64,
+      "value": "$5,136.20",
+      "change": -0.19,
       "category": "commodity",
       "trend": [
         {
@@ -662,7 +662,7 @@
         },
         {
           "date": "2026-03-09",
-          "value": 5113.4
+          "value": 5136.2
         }
       ]
     }
