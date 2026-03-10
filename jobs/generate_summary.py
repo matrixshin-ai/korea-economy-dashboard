@@ -8,6 +8,7 @@ import json
 import os
 import re
 import sys
+import hashlib
 from datetime import datetime, timezone
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -206,19 +207,22 @@ def main():
     print(f"Generating summaries for date: {briefing_date}")
 
     news_content = build_news_content(briefing)
-    print(f"News content: {len(news_content)} chars")
+    briefing_hash = hashlib.sha256(news_content.encode("utf-8")).hexdigest()[:16]
+    print(f"News content: {len(news_content)} chars (hash={briefing_hash})")
 
     for lang in ["KR", "EN"]:
         print(f"\nGenerating {lang} summary...")
         cache_path = os.path.join(BASE_DIR, f"cached_summary_{lang.lower()}.json")
 
-        # Skip if cache already has today's summary
+        # Skip if cache has same date AND same briefing content hash
         if os.path.exists(cache_path):
             try:
                 cached = json.load(open(cache_path, "r", encoding="utf-8"))
-                if cached.get("date") == briefing_date:
-                    print(f"  {lang} summary already up to date (date={briefing_date})")
+                if cached.get("date") == briefing_date and cached.get("briefing_hash") == briefing_hash:
+                    print(f"  {lang} summary already up to date (date={briefing_date}, hash={briefing_hash})")
                     continue
+                if cached.get("date") == briefing_date:
+                    print(f"  {lang} briefing content changed (old_hash={cached.get('briefing_hash', 'none')}, new_hash={briefing_hash}) - regenerating")
             except (json.JSONDecodeError, KeyError):
                 pass
 
@@ -234,6 +238,7 @@ def main():
                 "date": briefing_date,
                 "generated_at": datetime.now(timezone.utc).isoformat(),
                 "lang": lang,
+                "briefing_hash": briefing_hash,
             }
 
             with open(cache_path, "w", encoding="utf-8") as f:
@@ -252,14 +257,16 @@ def main():
         existing_summary_en
         and isinstance(existing_summary_en, dict)
         and existing_summary_en.get("date") == briefing_date
+        and existing_summary_en.get("briefing_hash") == briefing_hash
     ):
-        print("  Structured EN summary already up to date - skipping")
+        print(f"  Structured EN summary already up to date (hash={briefing_hash}) - skipping")
     else:
         try:
             structured = generate_structured_en_summary(api_key, news_content)
             briefing["summary_en"] = {
                 "date": briefing_date,
                 "generated_at": datetime.now(timezone.utc).isoformat(),
+                "briefing_hash": briefing_hash,
                 "key_headlines": structured.get("key_headlines", []),
                 "sections": structured.get("sections", {}),
             }
