@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-03-08
+> Last updated: 2026-03-10
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 
 ---
@@ -290,6 +290,7 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 | # | 이슈 | 비고 |
 |---|------|------|
 | 7 | YouTube 자동화 상세 구조 미파악 | 스펙 문서 존재하나 코드 미확인 |
+| 9 | YouTube OAuth token 간헐적 만료 | 원인 미확정. 발생 시 수동 재발급 필요 (절차는 변경 이력 2026-03-10 참조) |
 | 8 | ~~CLAUDE.md 문서 일부 오래됨~~ | 해결됨 (23:00 KST로 수정 완료) |
 
 ---
@@ -351,3 +352,11 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - OpsGuard scheduler.py: chain_morning 체크 05:35 -> 23:35 KST (VM 직접 수정)
 - OpsGuard는 현재 git 미관리 상태 -- VM에서 직접 수정, 레포 동기화 안 됨
 - TODO: opsguard README.md 타임라인도 05:00 -> 23:00 수정 필요
+
+### 2026-03-10
+
+- YouTube OAuth Refresh Token 만료 → 수동 재발급 완료
+- 원인: 불명확 (프로덕션 상태임에도 만료됨, Google 보안 이벤트 또는 Fly.io 재배포 가능성)
+- 재발급 절차: myaccount.google.com/permissions 권한 해제 → youtube-automation.fly.dev/settings → Open Google Authorization → code 복사 → Get Token → `fly secrets set YT_REFRESH_TOKEN` 등록
+- Google OAuth 앱 상태: In production (7일 만료 아님)
+- 향후 동일 문제 발생 시 위 절차 참조
