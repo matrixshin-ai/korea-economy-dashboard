@@ -360,3 +360,6 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - 재발급 절차: myaccount.google.com/permissions 권한 해제 → youtube-automation.fly.dev/settings → Open Google Authorization → code 복사 → Get Token → `fly secrets set YT_REFRESH_TOKEN` 등록
 - Google OAuth 앱 상태: In production (7일 만료 아님)
 - 향후 동일 문제 발생 시 위 절차 참조
+- generate_summary.py 스킵 로직 수정: 날짜 비교만 하던 것을 briefing 콘텐츠 해시(SHA-256) 비교 추가
+- 원인: 오전 RSS only 요약이 생성되면 오후 OCR 반영 후에도 날짜가 같아 스킵되던 문제
+- 효과: 오후 OCR 데이터 반영 시 EN/KR summary 자동 재생성
