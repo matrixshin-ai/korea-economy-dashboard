@@ -370,3 +370,5 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - 원인: `playlistItems.insert` API가 `youtube.upload` scope로는 403 "insufficient authentication scopes" 반환
 - OAuth 토큰 재발급 완료 (새 scope 적용, `fly secrets set YT_REFRESH_TOKEN`)
 - 내일부터 영상 업로드 후 플레이리스트 자동 추가 정상 동작 예상
+- OpsGuard scheduler.py: A-7 EN summary 체크 시간 16:15 → 17:00 KST 변경
+- 이유: Dashboard 오후 런 완료(~16:28)보다 체크가 빨라서 오탐 발생
