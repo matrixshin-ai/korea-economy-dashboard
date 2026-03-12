@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-03-10
+> Last updated: 2026-03-12
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 
 ---
@@ -363,3 +363,10 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - generate_summary.py 스킵 로직 수정: 날짜 비교만 하던 것을 briefing 콘텐츠 해시(SHA-256) 비교 추가
 - 원인: 오전 RSS only 요약이 생성되면 오후 OCR 반영 후에도 날짜가 같아 스킵되던 문제
 - 효과: 오후 OCR 데이터 반영 시 EN/KR summary 자동 재생성
+
+### 2026-03-12
+
+- youtube-automation OAuth scope 수정: `youtube.upload` → `youtube` (플레이리스트 추가 권한 포함)
+- 원인: `playlistItems.insert` API가 `youtube.upload` scope로는 403 "insufficient authentication scopes" 반환
+- OAuth 토큰 재발급 완료 (새 scope 적용, `fly secrets set YT_REFRESH_TOKEN`)
+- 내일부터 영상 업로드 후 플레이리스트 자동 추가 정상 동작 예상
