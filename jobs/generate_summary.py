@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import hashlib
+import time
 from datetime import datetime, timezone
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -117,6 +118,27 @@ def remove_korean_text(text: str) -> str:
     return text.strip()
 
 
+def _call_gemini(client, prompt, max_retries=3):
+    """Call Gemini API with exponential backoff retry for 500/503 errors."""
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+            )
+            return response
+        except Exception as e:
+            err_str = str(e)
+            is_retryable = "500" in err_str or "503" in err_str
+            if attempt < max_retries and is_retryable:
+                wait = 2 ** attempt
+                print(f"    Gemini API error (attempt {attempt}/{max_retries}): {err_str}")
+                print(f"    Retrying in {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
+
+
 def generate_summary(api_key: str, news_content: str, lang: str) -> str:
     """Call Gemini API to generate summary."""
     from google import genai
@@ -141,10 +163,7 @@ def generate_summary(api_key: str, news_content: str, lang: str) -> str:
                 "the response to be rejected. Translate ALL Korean content to English.]"
             )
 
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=retry_prompt,
-        )
+        response = _call_gemini(client, retry_prompt)
         summary = response.text or ""
 
         if lang == "KR":
@@ -173,10 +192,7 @@ def generate_structured_en_summary(api_key: str, news_content: str) -> dict:
     client = genai.Client(api_key=api_key)
     prompt = STRUCTURED_EN_PROMPT_TEMPLATE.format(news_content=news_content)
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-    )
+    response = _call_gemini(client, prompt)
     text = (response.text or "").strip()
 
     # Strip markdown code fence if present
