@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T02:21:21.164925",
+  "updated_at": "2026-03-14T07:24:32.316693",
   "indicators": [
     {
       "id": "kospi",
@@ -508,7 +508,7 @@
       "id": "krw_usd",
       "name": "원/달러 환율",
       "value": "1,497.53",
-      "change": 1.5,
+      "change": 1.83,
       "category": "currency",
       "trend": [
         {
@@ -529,6 +529,10 @@
         },
         {
           "date": "2026-03-13",
+          "value": 1470.58
+        },
+        {
+          "date": "2026-03-14",
           "value": 1497.53
         }
       ]
@@ -570,7 +574,7 @@
       "id": "cny_usd",
       "name": "위안/달러",
       "value": "6.90",
-      "change": 0.44,
+      "change": 0.39,
       "category": "currency",
       "trend": [
         {
@@ -591,6 +595,10 @@
         },
         {
           "date": "2026-03-13",
+          "value": 6.87
+        },
+        {
+          "date": "2026-03-14",
           "value": 6.9
         }
       ]
@@ -627,8 +635,8 @@
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$99.31",
-      "change": 3.74,
+      "value": "$98.71",
+      "change": 3.11,
       "category": "commodity",
       "trend": [
         {
@@ -649,15 +657,15 @@
         },
         {
           "date": "2026-03-13",
-          "value": 99.31
+          "value": 98.71
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$5,023.10",
-      "change": -1.81,
+      "value": "$5,061.70",
+      "change": -1.06,
       "category": "commodity",
       "trend": [
         {
@@ -678,7 +686,7 @@
         },
         {
           "date": "2026-03-13",
-          "value": 5023.1
+          "value": 5061.7
         }
       ]
     }
