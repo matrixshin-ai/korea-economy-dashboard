@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-03-12
+> Last updated: 2026-03-16
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 
 ---
@@ -53,7 +53,7 @@
 ~14:00 KST     기재부 PDF 도착
 14:30 KST  [B] OCR 파이프라인 (2026-03-08 변경: 14:00 -> 14:30)
 15:45 KST  [A] Dashboard 2차 (OCR 반영 + AI 요약 + Moltbook 댓글)
-~15:00+ KST [D] YouTube 파이프라인
+~17:30 KST  [D] YouTube 파이프라인 (2026-03-16 변경: 15:00 -> 17:30)
 22:00 KST      OpsGuard 일일 리포트
 ```
 
@@ -291,6 +291,7 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 |---|------|------|
 | 7 | YouTube 자동화 상세 구조 미파악 | 스펙 문서 존재하나 코드 미확인 |
 | 9 | YouTube OAuth token 간헐적 만료 | 원인 미확정. 발생 시 수동 재발급 필요 (절차는 변경 이력 2026-03-10 참조) |
+| 10 | Moltbook comment 401 Unauthorized 에러 | 2026-03-16 발생. 원인 미확인 |
 | 8 | ~~CLAUDE.md 문서 일부 오래됨~~ | 해결됨 (23:00 KST로 수정 완료) |
 
 ---
@@ -372,3 +373,10 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - 내일부터 영상 업로드 후 플레이리스트 자동 추가 정상 동작 예상
 - OpsGuard scheduler.py: A-7 EN summary 체크 시간 16:15 → 17:00 KST 변경
 - 이유: Dashboard 오후 런 완료(~16:28)보다 체크가 빨라서 오탐 발생
+
+### 2026-03-16
+
+- youtube-automation cron 스케줄 변경: UTC 06:00 → UTC 08:30 (KST 15:00 → KST 17:30)
+- 이유: YouTube 파이프라인이 Dashboard 오후 EN summary 완료(~KST 17:00) 이전에 실행되어 어제 버전 스크립트를 사용하는 문제
+- 효과: Dashboard 오후 워크플로우 완료 후 30분 버퍼 확보
+- Moltbook comment 401 Unauthorized 에러 발생 — 원인 미확인 (알려진 이슈 #10 등록)
