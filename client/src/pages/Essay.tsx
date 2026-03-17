@@ -21,6 +21,7 @@ export default function EssayPage() {
   const [isWriteOpen, setIsWriteOpen] = useState(false);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [loginError, setLoginError] = useState("");
+  const [expandedIds, setExpandedIds] = useState<Set<number>>(new Set());
   const queryClient = useQueryClient();
   const { isAdmin, isLoading: authLoading, login, logout, authHeader } = useAuth();
 
@@ -214,8 +215,25 @@ export default function EssayPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground leading-relaxed font-serif whitespace-pre-line">
-                      {essay.content.length > 500 ? essay.content.substring(0, 500) + "..." : essay.content}
+                      {essay.content.length > 500 && !expandedIds.has(essay.id)
+                        ? essay.content.substring(0, 500) + "..."
+                        : essay.content}
                     </p>
+                    {essay.content.length > 500 && (
+                      <Button
+                        variant="link"
+                        size="sm"
+                        className="mt-2 p-0 h-auto text-primary"
+                        onClick={() => setExpandedIds((prev) => {
+                          const next = new Set(prev);
+                          if (next.has(essay.id)) next.delete(essay.id);
+                          else next.add(essay.id);
+                          return next;
+                        })}
+                      >
+                        {expandedIds.has(essay.id) ? "접기" : "더보기"}
+                      </Button>
+                    )}
                   </CardContent>
                 </Card>
               </article>
