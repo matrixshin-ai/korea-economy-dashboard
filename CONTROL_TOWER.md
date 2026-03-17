@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-03-16
+> Last updated: 2026-03-17
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 
 ---
@@ -292,6 +292,8 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 | 7 | YouTube 자동화 상세 구조 미파악 | 스펙 문서 존재하나 코드 미확인 |
 | 9 | YouTube OAuth token 간헐적 만료 | 원인 미확정. 발생 시 수동 재발급 필요 (절차는 변경 이력 2026-03-10 참조) |
 | 10 | Moltbook comment 401 Unauthorized 에러 | 2026-03-16 발생. 원인 미확인 |
+| 11 | /api/summary-status가 Vercel에서 HTML 반환 | Express 라우트가 서버리스 함수보다 우선순위 낮음. OpsGuard A-4 체크에 영향, 대시보드 기능에는 무영향 |
+| 12 | A-4 체크 재검토 필요 | /api/summary-status 미작동으로 현재 체크가 의미없을 수 있음 |
 | 8 | ~~CLAUDE.md 문서 일부 오래됨~~ | 해결됨 (23:00 KST로 수정 완료) |
 
 ---
@@ -380,3 +382,10 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - 이유: YouTube 파이프라인이 Dashboard 오후 EN summary 완료(~KST 17:00) 이전에 실행되어 어제 버전 스크립트를 사용하는 문제
 - 효과: Dashboard 오후 워크플로우 완료 후 30분 버퍼 확보
 - Moltbook comment 401 Unauthorized 에러 발생 — 원인 미확인 (알려진 이슈 #10 등록)
+
+### 2026-03-17
+
+- 경제 에세이 게시판 글쓰기 수정: Vercel read-only 파일시스템 문제로 저장 불가 → api/essays.ts를 GitHub Contents API로 essays.json 읽기/쓰기하도록 수정
+- GitHub Fine-grained PAT 생성 (korea-economy-dashboard-essay, Contents R/W) → Vercel GITHUB_TOKEN 환경변수 추가
+- YouTube OAuth scope 문제 재발: Google Cloud Console OAuth consent screen에 youtube scope 미등록이 근본 원인으로 확인 → scope 추가 후 토큰 재발급 완료
+- YouTube cron 스케줄 변경: UTC 06:00 → UTC 08:30 (KST 15:00 → 17:30) — Dashboard 오후 EN summary 완료 후 실행 보장
