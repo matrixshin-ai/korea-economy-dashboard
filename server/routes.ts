@@ -57,7 +57,46 @@ function readEssays(): EssayItem[] {
 }
 
 function writeEssays(essays: EssayItem[]) {
-  fs.writeFileSync(ESSAYS_PATH, JSON.stringify(essays, null, 2), "utf-8");
+  try {
+    fs.writeFileSync(ESSAYS_PATH, JSON.stringify(essays, null, 2), "utf-8");
+  } catch {
+    // Vercel read-only filesystem — ignore
+  }
+}
+
+async function commitEssaysToGitHub(essays: EssayItem[], message: string): Promise<void> {
+  const token = process.env.GITHUB_TOKEN;
+  if (!token) {
+    console.error("GITHUB_TOKEN not set — skipping GitHub commit");
+    return;
+  }
+  const repo = "matrixshin-ai/korea-economy-dashboard";
+  const filePath = "jobs/data/essays.json";
+  const apiUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+  const headers = {
+    Authorization: `token ${token}`,
+    "Content-Type": "application/json",
+    "User-Agent": "korea-economy-dashboard",
+  };
+
+  const getRes = await fetch(apiUrl, { headers });
+  if (!getRes.ok) {
+    throw new Error(`GitHub GET failed: ${getRes.status}`);
+  }
+  const getData = (await getRes.json()) as { sha: string };
+
+  const content = Buffer.from(JSON.stringify(essays, null, 2) + "\n", "utf-8").toString("base64");
+  const putRes = await fetch(apiUrl, {
+    method: "PUT",
+    headers,
+    body: JSON.stringify({ message, content, sha: getData.sha }),
+  });
+
+  if (!putRes.ok) {
+    const err = await putRes.text();
+    throw new Error(`GitHub commit failed: ${putRes.status} ${err}`);
+  }
+  console.log(`[Essays] Committed to GitHub: ${message}`);
 }
 
 interface RssNewsItem {
@@ -441,7 +480,7 @@ export async function registerRoutes(
     res.json(readEssays());
   });
 
-  app.post("/api/essays", (req, res) => {
+  app.post("/api/essays", async (req, res) => {
     const { author, title, content } = req.body || {};
     if (!author || !title || !content) {
       return res.status(400).json({ message: "author, title, content are required" });
@@ -457,10 +496,15 @@ export async function registerRoutes(
     };
     essays.unshift(essay);
     writeEssays(essays);
+    try {
+      await commitEssaysToGitHub(essays, `Add essay: ${title}`);
+    } catch (err: any) {
+      console.error("[Essays] GitHub commit error:", err.message);
+    }
     res.status(201).json(essay);
   });
 
-  app.delete("/api/essays/:id", requireAdmin, (req, res) => {
+  app.delete("/api/essays/:id", requireAdmin, async (req, res) => {
     const id = parseInt(req.params.id);
     const essays = readEssays();
     const idx = essays.findIndex((e) => e.id === id);
@@ -469,6 +513,11 @@ export async function registerRoutes(
     }
     essays.splice(idx, 1);
     writeEssays(essays);
+    try {
+      await commitEssaysToGitHub(essays, `Delete essay #${id}`);
+    } catch (err: any) {
+      console.error("[Essays] GitHub commit error:", err.message);
+    }
     res.status(204).send();
   });
 
