@@ -76,6 +76,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(201).json(essay);
     }
 
+    if (req.method === "DELETE") {
+      const id = Number(req.query.id);
+      if (isNaN(id)) return res.status(400).json({ message: "Invalid ID" });
+
+      const { essays, sha } = await readEssaysFromGitHub();
+      const idx = essays.findIndex((e) => e.id === id);
+      if (idx === -1) return res.status(404).json({ message: "Essay not found" });
+      essays.splice(idx, 1);
+      await writeEssaysToGitHub(essays, sha, `Delete essay #${id}`);
+      return res.status(204).send(null);
+    }
+
     res.status(405).json({ message: "Method not allowed" });
   } catch (error: any) {
     res.status(500).json({ message: error.message });

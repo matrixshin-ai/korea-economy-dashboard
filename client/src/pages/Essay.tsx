@@ -51,7 +51,7 @@ export default function EssayPage() {
 
   const deleteMutation = useMutation({
     mutationFn: async (id: number) => {
-      const res = await fetch(`/api/essays/${id}`, {
+      const res = await fetch(`/api/essays?id=${id}`, {
         method: "DELETE",
         headers: authHeader(),
       });
