@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-03-17
+> Last updated: 2026-03-21
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 
 ---
@@ -389,3 +389,11 @@ korea-economy-dashboard      moltbook-scheduler         Moltbook
 - GitHub Fine-grained PAT 생성 (korea-economy-dashboard-essay, Contents R/W) → Vercel GITHUB_TOKEN 환경변수 추가
 - YouTube OAuth scope 문제 재발: Google Cloud Console OAuth consent screen에 youtube scope 미등록이 근본 원인으로 확인 → scope 추가 후 토큰 재발급 완료
 - YouTube cron 스케줄 변경: UTC 06:00 → UTC 08:30 (KST 15:00 → 17:30) — Dashboard 오후 EN summary 완료 후 실행 보장
+
+### 2026-03-21
+
+- youtube-automation 중복 업로드 방지 로직 추가
+- 원인: GitHub Actions curl이 `waitForScriptReady` 45분 대기 후 재시도하면서 Fly.io 파이프라인이 2회 실행됨 (03-17 발생 확인: 동일 날짜에 영상 2개 업로드)
+- 해결: `/api/cron/pipeline`에 KST 날짜 기준 중복 체크 추가 — DB에서 당일 completed + youtubeVideoId 존재 시 `{"status":"skipped","reason":"Already uploaded today"}` 반환
+- 수동 트리거(`/api/pipeline/trigger`)는 중복 체크 제외 (필요시 수동 재실행 가능)
+- 변경 파일: `server/routes.ts` (getKSTDateString + 중복 체크), `server/storage.ts` (getCompletedUploadForDate 메서드)
