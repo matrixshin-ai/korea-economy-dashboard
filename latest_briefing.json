@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-03-30T14:35:19.171126+09:00",
+  "generated_at": "2026-03-30T17:14:15.603525+09:00",
   "date": "2026-03-30",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 870,
-    "total_used": 727,
-    "dropped_quality": 126,
-    "dropped_negative": 17,
+    "total_input": 731,
+    "total_used": 595,
+    "dropped_quality": 124,
+    "dropped_negative": 12,
     "per_category": {
-      "부동산": 62,
-      "기타": 385,
-      "금융시장": 113,
-      "거시경제·재정": 72,
-      "산업·과학": 54,
-      "국제경제": 37,
-      "AI와 경제": 4
+      "기타": 312,
+      "금융시장": 81,
+      "부동산": 52,
+      "거시경제·재정": 68,
+      "산업·과학": 37,
+      "국제경제": 35,
+      "AI와 경제": 10
     }
   },
   "headlines": [
@@ -256,20 +256,36 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "[사설]중동 사태로 성장률 먹구름… 경기 부양보다 충격 완화가 우선",
-        "summary": "중동 사태가 장기화하면 정부와 한국은행은 경기 침체에 대응하면서 물가도 잡아야 하는 난처한 상황에 빠지게 된다. OECD는 한국의 올해 물가상승률 전망치를 1.8%에서 2.7%로 0.9%포인트 올렸다. 고유가와 고환율이...",
-        "link": "https://www.donga.com/news/Opinion/article/all/20260329/133632924/2",
-        "source": "동아일보",
-        "published": "2026-03-29T23:31:00+09:00",
-        "score": 116
+        "title": "유가·국채 수익률 급등…美 경기침체 경고등",
+        "summary": "이란 전쟁이 미국 경제를 침체의 도가니로 몰아넣을 수 있다는 경고가 나왔다. 에너지 가격 상승과 차입 비용 증가, 주식시장 부진이 기업과 소비자에 부담을 주면서 경기 하강 우려가 커지고 있다는 분석이다.  블룸버그통신은 경제학자들이 최근 미국 성장률 전망치를 낮추고 경기침체 가능성은 높여 잡고 있다고 29일(현지시간) 보도했다. 에너지 가격 급등이 인플레이션 압력을 키우고, 이는 다시 소비와 투자 위축으로 이어질",
+        "link": "https://www.asiae.co.kr/article/2026033010114632196",
+        "source": "아시아경제 - 국제",
+        "published": "2026-03-30T11:08:49+09:00",
+        "score": 120
       },
       {
-        "title": "중동전쟁에 2.0→2.4% 펄쩍 소비자물가, 내달엔 더 뛴다",
-        "summary": "원·달러 환율이 급등하면서 공급 측면에서의 물가 상승 압력이 커지고 있기 때문이다. 전문가들은 이란 전쟁 상황에 따라 물가 전망이 크게 달라질 수 있다고 입을 모았다. 국제유가·환율의 충격파, 4개월 만에 2.4...",
-        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01502246645388568",
-        "source": "이데일리",
-        "published": "2026-03-30T05:31:00+09:00",
-        "score": 90
+        "title": "OECD, 인니 올 경제성장률 전망 4.8%로 낮춰..중국, 인도 등도 대폭 하향...",
+        "summary": "OECD는 이러한 공급 차질이 장기화될 경우 유가와 가스 가격이 기존 전망보다 약 25% 추가 상승하고, 이에 따라 2년 차 세계국내총생산(GDP)이 약 0.5%포인트 낮아지는 한편 소비자물가는 1년 차 0.7%포인트, 2년 차 0.9...",
+        "link": "http://www.fnnews.com/news/202603301223016755",
+        "source": "파이낸셜뉴스",
+        "published": "2026-03-30T12:56:00+09:00",
+        "score": 106
+      },
+      {
+        "title": "2년 연속 적극재정… 내년 본예산 800조 넘어서나",
+        "summary": "이어질 수 있고 올해 국가채무 비율도 국내총생산(GDP) 대비 50%를 넘어설 가능성이 큰 상황이라 우려스럽다”고 말했다. 한편 각 부처는 5월 31일까지 이번 편성 지침에 따른 예산 요구서를 기획처에 제출할 예정이다.",
+        "link": "https://www.sedaily.com/article/20025927?ref=naver",
+        "source": "서울경제",
+        "published": "2026-03-30T16:41:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "정부, 내년 예산도 ‘적극 재정’ 이어간다···내년 예산 800조원 넘어...",
+        "summary": "국세수입 증가와 추가경정예산 증가분 등을 고려할 경우 800조원 수준에 성큼 다가설 수도 있다. 정부는 AI 대전환 등 5대 구조적 변화에 선제 대응할 필요가 있고, 중동 정세 등 대외여건 변화에 따라 새로운 재정 수요도...",
+        "link": "https://www.khan.co.kr/article/202603301711001",
+        "source": "경향신문",
+        "published": "2026-03-30T17:11:00+09:00",
+        "score": 88
       },
       {
         "title": "[글로벌 경제지표] 韓국채, WGBI 편입…美 고용지표·韓 물가지표 주목",
@@ -280,51 +296,19 @@
         "score": 86
       },
       {
-        "title": "[다음주 경제일정] 韓국채, WGBI 편입 개시…美 고용지표·韓 물가지표 ...",
-        "summary": "실업률도 4.4%로 올랐고요. 만약 이런 흐름이 이번 달에도 이어졌거나 더 나빠졌다면, 스태그플레이션 공포가 더 커질 가능성이 있습니다. 미국과 중국의 서비스업 PMI도 확인하시고요. 금요일 뉴욕증시는 부활절을 앞둔...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000300289?division=NAVER",
-        "source": "SBS",
-        "published": "2026-03-27T11:28:00+09:00",
-        "score": 86
-      },
-      {
-        "title": "OECD, 韓 성장률 1.7% 대폭 하향…미국은 올렸다",
-        "summary": "보인다\"며 \"인플레이션 조정폭이 큰데, OECD 회원국 가운데 에너지 쇼크의 직접적인 영향을 크게 받는... 인플레이션이 금리를 밀어 올려 경기를 위축시키는 경로뿐만 아니라, 중동발 에너지 쇼크가 석유화학을 시작으로...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000300562?division=NAVER",
-        "source": "SBS",
-        "published": "2026-03-29T18:00:00+09:00",
-        "score": 82
-      },
-      {
-        "title": "“미쳐버린 기름값, 한방울도 아쉽다”…에너지 절약 나선 이통사들",
-        "summary": "유가가 배럴당 연평균 75달러 안팎을 유지할 경우 국내총생산(GDP) 성장률이 0.2%포인트(p) 떨어져 1.8%에 머무를 전망이다. 수출 증가율은 0.3%p 낮아지고 수입 증가율은 3.0%p 상승해 무역수지를 208억달러 축소시킬 것으로...",
-        "link": "https://www.mk.co.kr/article/12000975",
-        "source": "매일경제",
-        "published": "2026-03-28T07:46:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "[사설] 7% 뚫린 주담대 금리, 금융시스템 리스크 경계할 때다",
-        "summary": "한국은행은 기준금리 동결을 이어가고 있지만 중동발(發) 인플레이션 심화로 통화정책 기조가 긴축으로 돌아설 것이라는 관측까지 나오고 있어 금리는 당분간 상승세를 지속할 가능성이 커 보인다. 이날 미국 10년물...",
-        "link": "https://www.sedaily.com/article/20025493?ref=naver",
-        "source": "서울경제",
-        "published": "2026-03-30T00:06:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "\"중동發 기름값 쇼크보다 더 무섭다\" 7% 뚫은 주담대 금리, 3년5개월새 최고",
-        "summary": "5대 (KB국민·신한·하나·우리·NH농협) 시중은행의 주택담보대출 고정금리가 3년5개월만에 7%를 넘겼다. 중동 전쟁 이후 인플레이션(물가상승) 압력 상승과 중앙은행의 기준금리 인상 전환 가능성 등 통화정책의 불확실성이 커져 시장금리가 빠르게 오르고 있는 게 요인으로 꼽힌다. 29일 금융권에 따르면 5대 시중은행의 27일 기준 주택담보대출 혼합형(고정) 금리(은행채 5년물 기준)는 연 4.410∼7.010% 수준으로 나타났다. 지",
-        "link": "https://www.asiae.co.kr/article/2026032919362506950",
-        "source": "아시아경제 - 경제",
-        "published": "2026-03-29T19:36:25+09:00",
-        "score": 76
-      },
-      {
         "title": "금요일 휴장 때 고용지표 발표…소비자 신뢰지수 주목[이번주 美 증시는...",
         "summary": "지난 3월18일 연방공개시장위원회(FOMC) 이후에도 이란 전쟁이 계속되며 유가 100달러대가 유지됐다는 점을 감안할 때 인플레이션과 향후 통화정책에 대한 언급이 있을지 주목된다.",
         "link": "https://www.mt.co.kr/world/2026/03/30/2026032812221610783",
         "source": "머니투데이",
         "published": "2026-03-30T05:35:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "작년 GRDP 성장률 1%, 8개 시도 역성장…\"건설업 부진 영향\"",
+        "summary": "나라 전체로 산출하는 국내총생산(GDP)과 유사한 개념이지만 기초자료와 추계방법 등에 차이가 있어 GRDP의 합이 GDP와 꼭 일치하는 것은 아니다. 권역별로는 수도권(1.9%), 충청권(0.7%), 동남권(0.2%)이 전년 대비...",
+        "link": "https://www.mt.co.kr/economy/2026/03/30/2026033008363862691",
+        "source": "머니투데이",
+        "published": "2026-03-30T12:00:00+09:00",
         "score": 70
       },
       {
@@ -336,107 +320,115 @@
         "score": 70
       },
       {
-        "title": "“25조 쏟아부어도 역부족”…한국 경제성장률 ‘인플레 빨간불’ 켜졌다",
-        "summary": "OECD, 美 인플레 4.2%로 예측 전쟁 장기화시 물가 1% 더 올라 韓 정부, 25조원 추경 카드 꺼내 2022년 전례봤을때 효과 제한적 與마저 “하락분 모두 보전 어렵다”중동..",
-        "link": "https://www.mk.co.kr/news/economy/12001354",
-        "source": "매일경제 : 경제",
-        "published": "2026-03-29T09:25:28+09:00",
-        "score": 66
+        "title": "진성준 \"추경, 민생지원금 '차등 지원' 검토 중… 매표용 현금 살포? 예...",
+        "summary": "GDP 갭 마이너스라고 이렇게 부르는데, 그것 때문에 돈이 풀린다고 해서 금방 물가가 오른다고는 볼 수 없다는 게 한국은행의 진단이고요. 수출이 역대 최대 규모로 늘어나고 있습니다만 그게 주로 반도체의 폭발적 수요에...",
+        "link": "https://radio.ytn.co.kr/program/?f=2&id=108055&s_mcd=0214&s_hcd=01",
+        "source": "YTN",
+        "published": "2026-03-30T08:30:00+09:00",
+        "score": 68
       },
       {
-        "title": "김용범, 수출 통제 확대 경고…“나프타 지키려다 소탐대실”",
-        "summary": "아울러 문재인 정부 기획재정부 1차관이었던 2020년 코로나19 상황과 현재의 중동 상황을 비교하며 “팬데믹에는 백신이 있었다. 하지만 이번 위기는 다르다. 지정학과 에너지 갈등에는 정해진 해법이 없다”고 했다....",
-        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=02633846645387912",
-        "source": "이데일리",
-        "published": "2026-03-28T14:16:00+09:00",
-        "score": 58
+        "title": "이란, 전쟁통에 두배 더 벌었다…“작년보다 더 원유수출”",
+        "summary": "‘만지작’…GDP 4분의 1 수익 예상 지난 11일(현지시간) 이란 수도 테헤란 엥겔랍 광장에서 이란혁명수비대... 통행세로만 한 해 150조원에 달해 이란 국내총생산(GDP)의 최대 4분의 1 수준의 수입이 예상된다. 아울러 이란의...",
+        "link": "https://biz.heraldcorp.com/article/10705778?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-03-30T15:54:00+09:00",
+        "score": 62
+      },
+      {
+        "title": "[단독] 기름값 이어 냄비·식판까지...‘물가 연쇄 쇼크’ 눈앞",
+        "summary": "3MRO의 대규모 가격 인상은 2021년 12월 코로나19 팬데믹에 따른 글로벌 물류 대란으로 40년 만의 인플레이션이 시작된 당시 단행된 후 4년 4개월 만이다. 오프라인 도매업체들도 다음달 가격 줄인상을 예고하고 있다. 서울...",
+        "link": "https://www.sedaily.com/article/20025922?ref=naver",
+        "source": "서울경제",
+        "published": "2026-03-30T16:36:00+09:00",
+        "score": 60
+      },
+      {
+        "title": "정부, 내년 예산도 ‘적극 재정’ 이어간다···내년 예산 800조원 넘어서나",
+        "summary": "박홍근 기획예산처 장관이 30일 서울 종로구 정부서울청사에서 열린 임시국무회의에서 인사말을 하고 있다. 연합뉴스정부가 내년도 예산안 편성에 ‘적극 재정’ 방침을 이어간다. 이에 따라 내년도 정부 예산안은 총 800조 원에 육박할 것이란 전망이 나오고 있다. 정부는 재정의 지속가능성을 위해 전년 대비 2배 이상 늘린 ‘50조원 + 알파’ 규모의 지출구조조정도···",
+        "link": "https://www.khan.co.kr/article/202603301711001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-03-30T17:11:00+09:00",
+        "score": 60
       }
     ],
     "금융시장": [
       {
-        "title": "내달 ‘세계국채지수’ 편입, 환율 안정 기대",
-        "summary": "외국 투자자 한국 국채 투자 증가11월까지 91조원 자금 유입 전망4월부터 한국 국채가 세계국채지수(WGBI)에 편입되면서 미국과 이란 간 전쟁으로 위축된 국내 채권·외환 시장에 ‘구원투수’ 역할을 할지 주목된다. 시장에선 대체로 외국 기관투자자들의 자금이 들어와 한국 국채 수요가 늘면 금리 하락과 환율 안정 효과를 기대할 수 있다고 보고 있다.구윤철 부총···",
-        "link": "https://www.khan.co.kr/article/202603292058025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-03-29T20:58:02+09:00",
-        "score": 116
-      },
-      {
-        "title": "이번 주 WGBI 편입 시작…금리·환율 안정 효과 낼까",
-        "summary": "(세종=연합뉴스) 송정은 기자 = 한국이 4월 1일부터 세계국채지수(WGBI)에 편입되면서 외국인 자금 유입에 따른 시장 영향에 이목이 쏠린다.",
-        "link": "https://www.yna.co.kr/view/AKR20260328043300002",
+        "title": "국채 금리 뛰고 주가는 하락…커지는 'S 불안'(종합)",
+        "summary": "(서울=연합뉴스) 문관현 김태균 기자 = 이란 전쟁을 둘러싼 긴장이 고조되는 가운데 한국과 일본, 대만 증시가 30일(이하 현지시간) 일제히 하...",
+        "link": "https://www.yna.co.kr/view/AKR20260330083151009",
         "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-03-29T05:51:00+09:00",
-        "score": 106
+        "published": "2026-03-30T16:41:52+09:00",
+        "score": 146
       },
       {
-        "title": "코스피, 장 초반 하락 딛고 반등 마감…코스닥은 강보합",
-        "summary": "미국과 이란의 종전 협상 난항으로 인한 인플레이션 우려 확대와 구글 터보퀀트 출시로 장 초반 하락했던 국내 증시가 반등 마감했다. 27일 코스피 지수는 전장 대비 0.4% 내린 5438.87에 장을 마쳤다. 장 초반 한때 5200선으로 하락했지만, 개인과 기관의 매수세에 낙폭을 줄였다. 투자자별로 외국인은 4조835억9500만원을 순매도했지만, 개인과 기관은 각각 3조302억1000만원, 7167억1700만원을 순매수했다. 업종별로 살펴보면 일",
-        "link": "https://www.asiae.co.kr/article/2026032715583865511",
+        "title": "중동 전쟁 확전 우려에 국내 증시 하락 마감…코스피 5200선",
+        "summary": "중동 전쟁 확전 우려에 코스피와 코스닥이 동반 하락했다.  30일 코스피 지수는 전 거래일 대비 161.57포인트(2.97%) 내린 5277.30에 마감했다.  투자자별로는 외국인이 2조1335억원을 순매도했다. 이와 달리 개인과 기관은 각각 8974억원, 8832억원 순매수했다.  업종별로는 대부분 하락 마감했다. 증권(-6.32%), 의료 정밀기기(-4.20%), 기계 장비(-4.06%), 금융(-4.04%), 운송장비 부품(-3.71%), 제약(-3.63%), 전기 가스(-3.62",
+        "link": "https://www.asiae.co.kr/article/2026033016042122990",
         "source": "아시아경제 - 증권",
-        "published": "2026-03-27T15:58:38+09:00",
+        "published": "2026-03-30T16:04:21+09:00",
         "score": 106
       },
       {
-        "title": "다우 고점서 10% 급락 조정장 진입…주식·채권·유가 동반 요동",
-        "summary": "브렌트유가 배럴당 112.57달러까지 치솟고 미 국채 10년물 금리도 4.43%로 급등하면서 전통적 분산투자... 브렌트유는 배럴당 112.57달러로 2022년 7월 이후 최고치를 기록했으며, 미 국채 10년물 금리는 4.43%까지...",
-        "link": "https://www.sedaily.com/article/20025536?ref=naver",
-        "source": "서울경제",
-        "published": "2026-03-30T06:03:00+09:00",
+        "title": "중동전쟁 격화에 코스피 5100선 하락 출발…코스닥도 약세",
+        "summary": "한국 증시가 중동 전쟁 등으로 투자 심리가 위축되며 급락 출발했다.   30일 오전 9시 17분 기준 코스피 지수는 전 거래일 대비 246.9포인트(4.54%) 내린 5191.94에 거래되고 있다.  투자자별로 매도세가 강했다. 외국인과 기관은 각각 1234억원, 2809억원 순매도했다. 이와 달리 개인은 3759억원 순매수했다.  대다수 업종은 하락세다. 증권(-6.40%), 기계 장비(-5.71%), 운송장비 부품(-5.47%), 건설(-5.42%), 금융(-4.91%), 전기",
+        "link": "https://www.asiae.co.kr/article/2026033009472183246",
+        "source": "아시아경제 - 증권",
+        "published": "2026-03-30T09:47:21+09:00",
         "score": 106
       },
       {
-        "title": "중동사태에 금리인하 기대감 ‘뚝’…美채권 보관액 6조 감소",
-        "summary": "지난해 9월 미국 연방공개시장위원회(FOMC)가 기준금리 인하 사이클을 시작하면서 미국 국채 보관금액은... 연준은 18일 FOMC에서 기준금리를 연 3.50~3.75%로 동결했다. 연준은 올해 개인소비지출(PCE) 물가 상승률...",
-        "link": "https://biz.heraldcorp.com/article/10704206?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-03-27T11:35:00+09:00",
-        "score": 106
+        "title": "트럼프 \"이란 석유장악\" 언급에 코스피 한때 5%↓…증시 충격파(종합)",
+        "summary": "(서울=연합뉴스) 황철환 기자 = 이란 내 원유를 미국이 장악하는 방안과 지상군 투입 가능성을 거론한 도널드 트럼프 미국 대통령의 발언이 전해지...",
+        "link": "https://www.yna.co.kr/view/AKR20260330071151008",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-03-30T16:09:54+09:00",
+        "score": 90
+      },
+      {
+        "title": "[속보] 코스피, 4%대 급락 5100선 후퇴…코스닥도 3%대↓",
+        "summary": "코스피가 외국인과 기관 투자자의 쌍끌이 매도에 4%대 급락하며 5100선으로 밀렸다. 한 달 전 시작된 이란 전쟁이 예멘과 홍해 지역까지 확전하는 양상을 보인 데다 국제유가마저 다..",
+        "link": "https://www.mk.co.kr/news/stock/12001964",
+        "source": "매일경제 : 증권",
+        "published": "2026-03-30T09:14:42+09:00",
+        "score": 90
       }
     ],
     "산업·과학": [
       {
-        "title": "포르쉐, K배터리 품고 국내 럭셔리 전기차 시장 노린다",
-        "summary": "럭셔리 전기차 시장 확대에 본격적으로 나선다고 밝혔다. 마티아스 부세 대표를 비롯한 포르쉐코리아 주요 임원들은 향후 전략과 관련해 올해부터 국내에서 판매하는 포르쉐의 모든 순수 전기차(BEV) 모델에...",
-        "link": "https://www.khan.co.kr/article/202603292111005",
-        "source": "경향신문",
-        "published": "2026-03-29T21:12:00+09:00",
-        "score": 90
+        "title": "\"백도어 우려\"…'中로봇 철퇴' 나선 미국에 로봇주 '수혜' 전망",
+        "summary": "전기차 배터리 분야에서 인플레이션 감축법(IRA)처럼 로봇 분야에서도 중국 ‘기술 봉쇄’를 현실화하겠다는 것이다. 법안 통과 시 미국 기업이자 현대자동차그룹의 자회사인 보스턴다이내믹스를 중심으로 국내 로봇...",
+        "link": "https://www.hankyung.com/article/202603306295i",
+        "source": "한국경제",
+        "published": "2026-03-30T16:57:00+09:00",
+        "score": 78
       },
       {
-        "title": "\"폭락할까 조마조마…반도체 말고 어디 투자?\" 전문가는 '이 업종' 꼽았다[주末머니]",
-        "summary": "반도체 외 업종 중 올해 1분기 성장 가능성이 높은 업종으로 증권·조선·방산이 꼽혔다. 반도체 업종은 이익 추이를 지켜봐야 한다는 제언도 나왔다.  대신증권은 반도체 외 업종 중 올해 1분기 실적 서프라이즈 가능성이 높은 업종으로 증권·조선·방산 업종을 제시했다.  증권·조선 업종은 이익 추정치가 꾸준히 향상 중이다. 증권 업종은 증시 상승과 변동성 확대에 따라 증가한 거래대금이 실적 개선 기대를 높였다. 조선 업",
-        "link": "https://www.asiae.co.kr/article/2026032708400053470",
-        "source": "아시아경제 - 증권",
-        "published": "2026-03-29T09:11:00+09:00",
-        "score": 66
+        "title": "LG화학, AI·전장·디스플레이 첨단소재로 갈아탄다…최첨단 소재, 포트...",
+        "summary": "(AI) 반도체, 자율주행, 차세대 디스플레이 등을 새로운 공략 시장으로 주목하고 있다. 범용 석유화학에서... 전자 소재 사업의 핵심 산업인 △반도체 △전장 △차세대 디스플레이를 중심으로 투자를 이어간다는...",
+        "link": "https://www.ceoscoredaily.com/page/view/2026033016223729783",
+        "source": "이데일리",
+        "published": "2026-03-30T17:10:00+09:00",
+        "score": 76
       },
       {
-        "title": "\"배터리 역량 강화\" 현대차그룹, 풀액셀",
-        "summary": "전기차 성능향상은 물론 로보틱스·AAM(미래항공모빌리티) 등 미래 모빌리티(이동성) 사업 주도권을 확보하기... 현대차가 이같이 배터리 전문인력 확보에 주력하는 이유는 우선 '완성도 높은 전기차'를 생산하기...",
-        "link": "https://www.mt.co.kr/industry/2026/03/30/2026032919215479931",
+        "title": "中, 플랫폼·태양광·전기차 '제살깎기 출혈경쟁' 본격 단속",
+        "summary": "시장감독총국은 통지를 통해 \"각종 반불공정 경쟁 조치를 종합적으로 활용해 플랫폼 경제, 태양광, 리튬배터리, 신에너지차 등 중점 산업에서의 '내권식(內卷式) 경쟁'을 중점적으로 방지·관리한다고 밝혔다. 중국에서...",
+        "link": "https://www.mt.co.kr/world/2026/03/30/2026033014411074557",
         "source": "머니투데이",
-        "published": "2026-03-30T04:05:00+09:00",
-        "score": 66
+        "published": "2026-03-30T15:45:00+09:00",
+        "score": 72
       },
       {
-        "title": "AI 시대… 디스플레이, 크기 아닌 성능 경쟁",
-        "summary": "나이스신용평가는 “필요한 픽셀(색점)만 빛을 내는 OLED(유기발광다이오드)는 LCD(액정표시장치) 대비 소비 전력이 약 30%가량 낮아 AI 연산으로 인한 배터리 소모를 상쇄하는 결정적 역할을 한다”고 했다. 국내...",
-        "link": "https://www.chosun.com/economy/tech_it/2026/03/30/IILIEGGBJZCSLPEIYDJHTLZCFA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-03-30T00:36:00+09:00",
-        "score": 60
+        "title": "LG화학, 반도체·전장 매출 2배 키운다",
+        "summary": "전력반도체·센서 부품 외에 유리기판 공정 개발도 추진 석유화학 분야를 비롯한 주력 산업이 업황 둔화와 시장 경쟁 심화로 악재를 맞은 가운데 LG화학이 반도체와 전장 등 첨단 산업 분야 사업을 축으로 신성장 동력...",
+        "link": "https://www.mk.co.kr/article/12002480",
+        "source": "매일경제",
+        "published": "2026-03-30T17:12:00+09:00",
+        "score": 66
       }
     ],
     "부동산": [
-      {
-        "title": "\"노원도 없으면 진짜 어디로 가야 하나\" 울먹…광명·동탄까지 전세 비상[부동산AtoZ]",
-        "summary": "\"전월세 물량이 없어서 아예 이사를 못 가고 있어요.\" 서울 외곽 아파트 전세시장에서 매물 품귀 현상이 경기도로 확산하면서 '억(億) 단위' 숫자가 바뀌는 현상이 나타나고 있다. 27일 부동산 중개업계에 따르면 광명시 하안동 광명e편한세상센트레빌 전용면적 59㎡ 전세가가 최근 5억6000만~5억7000만원에서 6억원으로 앞자리가 바뀌었고, 전용 84㎡도 6억원대 중반에서 7억원으로 뛰었다. 인근 공인중개업소 대표는 \"양천·구로",
-        "link": "https://www.asiae.co.kr/article/2026032618431720047",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-03-27T11:55:42+09:00",
-        "score": 132
-      },
       {
         "title": "\"전세도 월세도 구하기 어려워요\"…'3말 4초' 장 열리자 중저가 아파트 '들썩'",
         "summary": "<table><tr><td><img align=\"left\" border=\"0\" src=\"http://img.vod.mbn.co.kr/vod2/552/2026/03/27/20260327194839_20_552_1415037_1080_7_s1.jpg\" width=\"160\" />【 앵커멘트 】  서울 아파트 전·월세 물건이 크게 줄고 가격이 오르자 차라리 집을 사겠다는 수요가 꿈틀대고 있습니다.  다주택자들은 양도세 중과를 피하기 위한 매물을 내놓는 가운데, 대출 규제가 약한 15억 이하 중저가 아파트 거래가 이어집니다.  배준우 기자입니다.【 기자 】  서울 성북구의 4500세대 대단지 아파트. 이곳 전용 59제곱미터는 지난달 8억 원 최고가로 거래됐는데, 최근 매물들은 7억 원 중반대입니다.  문의들이 몰리고 있습니다.▶ 인터뷰(☎) : 인근 공인중개사- \"굉장히 많이 사고 싶어 하세요. 젊은 친구들이. 입주할 수 있는 거니까. (70%) 대출받으시니까.\"  최근 다주택자들은 양도세 ...",
@@ -446,11 +438,11 @@
         "score": 131
       },
       {
-        "title": "이번주 6810가구 분양…서초·신길 서울 ‘대어’ 쏟아진다[코주부]",
-        "summary": "29일 부동산R114에 따르면 DL이앤씨는 다음 달 1일 서울 서초구 서초동 신동아1·2차 아파트 재건축 단지 ‘아크로 드 서초’의 1순위 청약을 진행한다. 지상 최고 39층, 16개동, 전용 59~170㎡ 총 1161가구 규모이며 이 중...",
-        "link": "https://www.sedaily.com/article/20025474?ref=naver",
-        "source": "서울경제",
-        "published": "2026-03-30T07:01:00+09:00",
+        "title": "서울 청약 ‘국평 쏠림’ 4년째…85㎡ 이하 경쟁률 36.8대1",
+        "summary": "서울 남산에서  아파트 밀집 지역이 보이고 있다. 김창길 기자서울 아파트 청약 시장에서 ‘국민 평형’이라 불리는 전용면적 85㎡ 이하 중소형 주택에 수요가 집중되는 흐름이 4년째 이어지고 있다.30일 부동산 리서치업체 리얼투데이가 한국부동산원 청약홈 자료를 분석한 결과 올해 들어 27일까지 서울에서 분양한 아파트의 전용 85㎡ 이하 1순위 평균 청약 경쟁률···",
+        "link": "https://www.khan.co.kr/article/202603301359001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-03-30T13:59:00+09:00",
         "score": 108
       },
       {
@@ -460,85 +452,141 @@
         "source": "MBN : 경제기사",
         "published": "2026-03-29T10:58:00+09:00",
         "score": 102
+      },
+      {
+        "title": "치솟는 분양가에... 청약시장서 4년 연속 중소형 평형 ‘인기’",
+        "summary": "서울 아파트 청약 시장에서 4년 연속 전용면적 85㎡의 이하 중소형 평형에 수요가 몰리고 있다. 가족 구성원 수가 줄어드는 가운데 분양가 상승까지 이어지며 과거보다 대형 평형의 인..",
+        "link": "https://www.mk.co.kr/news/realestate/12002108",
+        "source": "매일경제 : 부동산",
+        "published": "2026-03-30T10:51:29+09:00",
+        "score": 96
       }
     ],
     "국제경제": [
       {
-        "title": "쿡 연준 이사 \"고용보다 이란 전쟁發 인플레가 더 문제\"",
-        "summary": "연준은 지난 17~18일 연방공개시장위원회(FOMC) 정례회의를 열고 기준금리를 3.5~3.75%로 동결했다. 연준은 올해 한 차례 금리 인하 전망을 유지했지만 내부적으로는 신중론이 강화됐다. 미 행정부는 국제유가가 배럴당...",
-        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=02558406645387584",
-        "source": "이데일리",
-        "published": "2026-03-27T07:46:00+09:00",
+        "title": "중동 정세·마지막 FOMC 남은 파월…코스피 야간선물 주목",
+        "summary": "FOMC 투표권이 있는 윌리엄스 연은 총재가 물가 관련한 의견을 낼지도 시장의 관심사다. 서울 외환시장에서 원/달러 환율은 전장 대비 6.8원 오른 1515.7원에 주간 거래를 마쳤다.",
+        "link": "https://www.mt.co.kr/stock/2026/03/30/2026033016135370470",
+        "source": "머니투데이",
+        "published": "2026-03-30T16:47:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "‘스태그플레이션’ 망령…파월의 부인에도 시장은 떨고 있다 [머니인사...",
+        "summary": "단, 제롬 파월 Fed 의장은 3월 18일(현지 시간) 연방공개시장위원회(FOMC)가 기준금리를 3.50∼3.75%로 동결한 뒤 기자회견에서 스태그플레이션 우려와 관련해 “현 상황을 스태그플레이션이라 규정하는 것은 적절치 않다”며...",
+        "link": "https://magazine.hankyung.com/business/article/202603190994b",
+        "source": "한국경제",
+        "published": "2026-03-30T16:12:00+09:00",
         "score": 70
       },
       {
-        "title": "[차세현의 글로벌 이슈 진단] 이란 수렁에 빠진 트럼프, 시진핑·푸틴은...",
-        "summary": "전후 두 국가 간 무역 규모는 전쟁 전보다 두 배 이상 늘어나 50억 달러에 육박하고 있다. 그러나 러시아는 현재 이란에 가장 절실한 첨단 전투기, 방공 시스템, 정밀 유도무기 등을 지원하지 않고 있다. 우크라이나...",
-        "link": "https://www.joongang.co.kr/article/25415800",
-        "source": "중앙일보",
-        "published": "2026-03-30T00:17:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "쿠팡, 트럼프와 직통 가능한 ‘특급 로비스트’ 추가 선임",
-        "summary": "미국의 수출 촉진, 한국·대만·일본·영국·유럽연합(EU) 등 미 동맹과의 경제·무역 관계 강화를 위한 논의 등이 로비 목적으로 명시됐다. 발라드 외에 트럼프 2기 국무부에서 선임 고문을 지낸 미카 케첼, 트럼프 1기 때...",
-        "link": "https://www.chosun.com/international/us/2026/03/30/YSMO3EWY45F2DOZVSYFQQJPHMM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-03-30T04:03:00+09:00",
-        "score": 68
-      },
-      {
-        "title": "트럼프, 미국인 교황 발언에 맞불?…그레이엄 목사 편지 재공개",
-        "summary": "도널드 트럼프 미국 대통령이 29일(현지시간) 복음주의를 대표하는 프랭클린 그레이엄 목사의 편지를 자신의 소셜미디어(SNS)에 다시 게시했다. 레오14세 교황이 종려주일(부활절 직전 일요일) 미사에서 이란 전쟁을 비판하자 기독교 보수 표심을 단단히 묶어두기 위한 것으로 보인다. 이날 트럼프 대통령은 자신의 소셜미디어(SNS) X(옛 트위터)에 지난해 10월 5일 그레이엄 목사로부터 받은 편지를 공유했다. 복음주의 보수 기독",
-        "link": "https://www.asiae.co.kr/article/2026033003082664418",
+        "title": "월가, '타코' 신호 포착…트럼프, 이란 전쟁도 물러설까",
+        "summary": "미국·이스라엘과 이란 간 전쟁이 한 달 넘게 이어지는 가운데 월가가 '타코(TACO)'의 재등장 신호를 포착했다고 29일(현지시간) 야후파이낸스가 보도했다. 타코는 Trump Always Chickens Out의 약자로, '트럼프는 항상 물러선다'는 의미다. 이는 시장을 뒤흔드는 정책을 발표한 뒤 막상 시장이 흔들리면 후퇴하는 트럼프 대통령의 행보를 가리키는 표현이다. 지난해 4월 트럼프 대통령이 전 세계를 상대로 한 상호관세 정책을 발표",
+        "link": "https://www.asiae.co.kr/article/2026033009284818622",
         "source": "아시아경제 - 국제",
-        "published": "2026-03-30T03:08:26+09:00",
+        "published": "2026-03-30T11:12:33+09:00",
+        "score": 64
+      },
+      {
+        "title": "\"협상 잘 진행\" 트럼프, 인터뷰에서는 '하르그섬 점령' 언급[미국-이란 전쟁]",
+        "summary": "도널드 트럼프 미국 대통령이 29일(현지시간) 이란과의 직·간접적인 협상이 모두 잘 진행되고 있다며 이란이 미국의 15개 항 요구사항의 대부분을 받아들였다고 말했다. 그러나 \"이란의 석유를 가져오고 싶다\"며 이란의 원유 수출 거점인 하르그섬 점령을 언급하며 이란을 향한 압박을 지속했다. AP통신과 CNN 등에 따르면 트럼프 대통령은 플로리다주에서 워싱턴DC로 돌아가는 전용기 기내에서 \"협상이 매우 잘 진행되고 있다\"며",
+        "link": "https://www.asiae.co.kr/article/2026033011045582190",
+        "source": "아시아경제 - 국제",
+        "published": "2026-03-30T11:12:03+09:00",
         "score": 60
       },
       {
-        "title": "\"왕은 없다\"…美안팎서 800만명 反트럼프 역대 최대 시위",
-        "summary": "도널드 트럼프 미국 대통령에 반대하는 대규모 시위가 28일(현지시간) 미국은 물론 유럽 등 세계 곳곳에서 일제히 열렸다. '노 킹스'(No Kings·왕은 없다)라는 이름의 대규모 시위는 지난해 6월과 10월에 이어 이번이 세 번째다. 시위 주최 측은 이날 보도자료에서 미 워싱턴DC, 뉴욕, 샌프란시스코 등 50개 주에서 총 3300여건의 집회가 열렸으며, 800만명 이상이 참가했다고 밝혔다. 미 당국은 공식 집계를 발표하지 않았다. 주",
-        "link": "https://www.asiae.co.kr/article/2026032910212080011",
-        "source": "아시아경제 - 국제",
-        "published": "2026-03-29T10:21:20+09:00",
+        "title": "美리치먼드 연은 총재 “인플레 둔화 멈출 위험…이란 전쟁 변수”",
+        "summary": "연준은 이달 연방공개시장위원회(FOMC)에서 기준금리를 동결했으며, 제롬 파월 의장은 추가 금리 인하에 앞서 인플레이션 진전이 더 필요하다는 입장을 밝힌 바 있다. 바킨 총재는 노동시장에 대해서도 “평가가 어려운...",
+        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01305446645387912",
+        "source": "이데일리",
+        "published": "2026-03-28T02:06:00+09:00",
         "score": 60
       }
     ],
     "AI와 경제": [
       {
-        "title": "고용노동교육원 이종선 원장 취임…\"고용노동교육 2.0시대 연다\"",
-        "summary": "고려대 노동교육원 교수·대통령비서실 사회정책비서관실 행정관 등 역임 한국고용노동교육원은 30일 신임... 이 원장은 취임사에서 \"디지털 전환과 인공지능(AI) 시대, 기후·환경위기 시대에 고용노동정책과 노동교육을...",
-        "link": "https://www.yna.co.kr/view/AKR20260328024100530?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-03-30T06:00:00+09:00",
-        "score": 36
+        "title": "AI 바람 타고 클라우드 매출 첫 9조 돌파…외산 의존도는 여전",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/03/30/133638071.1.jpg\" vspace=\"10\" />국내 클라우드 산업이 생성형 인공지능(AI) 열풍에 힘입어 사상 처음으로 연 매출 9조 원을 넘어섰다. 기업들이 앞다퉈 AI 서비스를 도입하면서 그를 뒷받침하는 클라우드 수요도 급증한 결과다.  과학기술정보통신부와 정보통신산업진흥원(NIPA)이 30일 발표한 ‘2025년 클라우드 산업 실태조사’에 따르면 지난해 국내 클라우드 시장 매출액은 9조2609억 원으로 전년(약 7조4000억 원)보다 25.2% 늘었다. 관련 기업 수는 323개 늘어난 2712개, 종사자 수는 2563명 증가한 3만3217명으로 집계됐다.   분야별로 보면 서비스형 소프트웨어(SaaS)와 클라우드 관리 서비스(CMS·통상 MSP)의 약진이 두드러진다. SaaS는 문서편집 등 응용 프로그램을 인터넷으로 구독하...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260330/133637374/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-03-30T16:03:00+09:00",
+        "score": 46
       },
       {
-        "title": "이종선 한국고용노동교육원 신임 원장 취임",
-        "summary": "한국고용노동교육원은 30일 신임 원장으로 이종선 원장이 공식 취임했다고 밝혔다. 한국고용노동교육원 이종선 신임원장.(사진=한국고용노동교육원) 이 원장은 취임사에서 “디지털 전환과 인공지능(AI) 시대, 기후...",
-        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01610486645388568",
-        "source": "이데일리",
-        "published": "2026-03-30T06:02:00+09:00",
+        "title": "국내 클라우드 매출 9조원 돌파…\"AI 시대 핵심 인프라\"",
+        "summary": "과학기술정보통신부(과기정통부)와 정보통신산업진흥원은 2024년 기준 국내 클라우드 시장 매출이 전년(7조4000억원) 대비 25.2% 성장한 9조2609억원을 기록했다고 30일 밝혔다. 과기정통부와 정보통신산업진흥원이 발표한 '2025년 클라우드 산업 실태조사'에 따르면 2020년부터 2024년까지 국내 클라우드 부문 매출은 연평균 성장률 23.2%를 나타냈다. 2024년 성장률은 25.2%로 최근 5년간 연평균 성장률을 상회한 셈이다. 세부 서",
+        "link": "https://www.asiae.co.kr/article/2026033014074514402",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-03-30T14:07:45+09:00",
+        "score": 42
+      },
+      {
+        "title": "충남, AI 데이터센터 2곳 추가 유치…2조5500억 투자",
+        "summary": "논산에는 팜인더가 397억 원을 들여 식품 건조·가공시설을 구축하고, 예산에는 MS머트리얼즈가 반도체 공정용 특수가스 공장을 신설한다. 6개 기업 전체 투자 규모는 2조5547억 원, 신규 고용은 1065명이다. 김태흠...",
+        "link": "https://view.asiae.co.kr/article/2026033017030554708",
+        "source": "아시아경제",
+        "published": "2026-03-30T17:03:00+09:00",
+        "score": 38
+      },
+      {
+        "title": "국회·경제·노동단체 사회적 대화...\"AI 시대 제도적 기반 조속히 마련...",
+        "summary": "우 의장은 AI 시대에 지속 가능한 경쟁력을 확보하기 위해 특수고용직과 플랫폼 노동, 프리랜서 보호라는 과제를 공동으로 정립하는 단계에 이르렀다고 밝혔습니다. 그러면서 사회적 대화를 제도화해 후속 논의를...",
+        "link": "https://www.ytn.co.kr/_ln/0101_202603301651487948",
+        "source": "YTN",
+        "published": "2026-03-30T16:51:00+09:00",
+        "score": 38
+      },
+      {
+        "title": "중기부, '투자연계형 해외 진출 프로그램' 참여 AI 스타트업 모집",
+        "summary": "중소벤처기업부는 31일부터 국내 유망 AI 스타트업의 글로벌 스케일업과 해외 민간투자 유치를 집중적으로 지원하기 위해 '2026년 투자연계형 GMEP(해외 시장 진출 프로그램)'에 참여할 창업기업을 모집한다.  이 사업은 해외로 진출하려는 AI(인공지능) 스타트업에 대한 투자유치를 촉진하기 위해 마련됐다. 지원 대상은 해외 진출·투자유치를 희망하는 업력 10년 이내의 AI 산업분야 창업기업 20개사다.  중기부는 '투자 유치'",
+        "link": "https://www.asiae.co.kr/article/2026033010305807758",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-03-30T12:00:00+09:00",
         "score": 32
       },
       {
-        "title": "산업부, 공공데이터 활용 공모전 개최…AI 연계 아이디어 발굴",
-        "summary": "산업통상부가 공공데이터를 활용한 창의적 아이디어 발굴에 나선다. 인공지능(AI) 활용 항목을 새롭게 도입해 데이터 기반 혁신 모델 발굴을 강화한다는 구상이다. 산업부는 산업기술시험원 등 산하 공공기관과 공동으로 오는 30일부터 7월 6일까지 '제14회 공공데이터 활용 아이디어 공모전'을 개최한다고 밝혔다. 이번 공모전은 '공공데이터로 견인하는 지역활력, AI 데이터로 도약하는 기업성장'을 주제로 진행되며, 국민 누구나",
-        "link": "https://www.asiae.co.kr/article/2026032912440120256",
-        "source": "아시아경제 - 경제",
-        "published": "2026-03-29T12:44:01+09:00",
+        "title": "전문직·IT 업종 20·30세대 때린 AI…일자리 대체 우려 확산",
+        "summary": "조지프 브릭스 골드만삭스 글로벌경제 부문 리서치 책임자는 미국 20·30세대 기술직 근로자의 실업률이... 미국 시장조사기관 시트리니 리서치는 AI 발전으로 인해 2028년 6월 미국 실업률이 10.2%에 달할 것이라는...",
+        "link": "https://view.asiae.co.kr/article/2026033010051452475",
+        "source": "아시아경제",
+        "published": "2026-03-30T11:36:00+09:00",
         "score": 28
       },
       {
-        "title": "전국 어디서나 AI 훈련…2.5만개 중소기업 맞춤훈련 지원",
-        "summary": "정부가 전국 어디서나 인공지능(AI) 훈련을 받을 수 있는 기반 구축에 나섰다. 고용노동부는 한국산업인력공단과 함께 인프라가 부족한 지역 중소기업의 AI 훈련 접근성을 높이기 위해 '중소기업 AI훈련확산센터' 10개소와 'AI특화 공동훈련센터' 20개소 등 총 30개 훈련지원센터를 선정했다고 29일 밝혔다. AI확산센터는 AI 훈련과정 개발과 전문 인력 양성을 담당하며, 민간 AI훈련코치와 공단 전담인력 등 약 500명이 2만5000개",
-        "link": "https://www.asiae.co.kr/article/2026032910355914996",
-        "source": "아시아경제 - 경제",
-        "published": "2026-03-29T12:00:00+09:00",
-        "score": 26
+        "title": "노사정 “AI 시대 노동권 논의해야”…사회적 대화 제도화 첫발",
+        "summary": "우원식 국회의장은 “AI 시대의 지속 가능한 경쟁력을 갖추기 위해서는 특수고용직, 플랫폼 종사자, 프리랜서 등 기존 법망 밖의 노동자들을 위한 사회적 보호 장치가 필수적”이라며 “이번에 공동으로 마련한 기준들을...",
+        "link": "https://www.sedaily.com/article/20025929?ref=naver",
+        "source": "서울경제",
+        "published": "2026-03-30T16:43:00+09:00",
+        "score": 28
       }
     ],
     "기타": [
+      {
+        "title": "與 대전시장 예비후보들 '명심' 경쟁…\"내가 손발 맞출 적임자\"",
+        "summary": "그러면서 ▲ 공학 중심 혁신도시 구축 ▲ 1조원 규모 AI 혁신펀드 조성 ▲ 국립 반도체 대학원 설립 ▲ 임신·출산 의료비 전액 지원 ▲ 대전-세종 광역철도사업 재추진 ▲ 1조원 규모 청년기금 조성 등 '6대 대전환'을...",
+        "link": "https://www.yna.co.kr/view/AKR20260330136000001?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-30T16:38:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "산업부 \"러시아산 나프타 2.7만톤 오늘 국내 도착\"",
+        "summary": "미국이 한 달간 러시아산 수출 통제를 완화하면서 도입 가능성이 열렸지만 금융 결제와 2차 제재 문제가 걸림돌이었다. 이에 산업부는 미국 재무부의 파트너인 재정경제부를 통해 협의에 나섰다. 그 결과 미국...",
+        "link": "https://www.yna.co.kr/view/AKR20260330147000003?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-30T17:02:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "'고품질 선인장 육성'…고양시 접목 선인장 무병 종묘장 조성",
+        "summary": "부진으로 수출 부적합 판정을 받는 등 어려움을 겪어왔다. 이에 대한 해결 방안으로 시는 이번 무병묘 보급을 통해 선인장의 품질을 상향 평준화해 경기도 선인장의 수출 경쟁력을 한 단계 끌어올릴 계획이다. 수출 효자...",
+        "link": "https://www.yna.co.kr/view/AKR20260330145100060?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-30T16:55:00+09:00",
+        "score": 24
+      },
       {
         "title": "밴스 美부통령 “이미 목표 달성…미군, 이란서 곧 빠져 나올 것”",
         "summary": "JD밴스 미국 부통령이 최근 대이란 전쟁의 조기 종전 가능성을 언급했다. 밴스 부통령은 지난 27일(현지시간) 팟캐스트 ‘더 베니 쇼’와의 인터뷰에서 “(도널드 트럼프) 대통령은 ..",
@@ -548,19 +596,11 @@
         "score": 24
       },
       {
-        "title": "후티반군 참전 … 호르무즈 이어 홍해까지 막히나",
-        "summary": "도널드 트럼프 미국 대통령이 이란과의 협상 시한을 다음달 6일까지로 연장한 가운데 양측이 압박 수위를 최고조로 끌어올리고 있다. 미국은 지상전에 본격 대비하고 있고, 이란에는 예멘..",
-        "link": "https://www.mk.co.kr/news/world/12001795",
-        "source": "매일경제 : 국제",
-        "published": "2026-03-29T17:51:25+09:00",
-        "score": 24
-      },
-      {
-        "title": "[주末머니]다가오는 휴머노이드 시대 ○○○을 주목하라",
-        "summary": "휴머노이드 산업 성장에 대한 기대감이 커지고 있는 가운데 키움증권은 자동차, 이차전지 등 수혜 업종에서도 옥석 가리기가 필요하다고 전했다. 키움증권은 \"1월 열린 CES 2026(세계 최대 IT·가전 박람회) 행사를 기점으로 휴머노이드 로봇에 대한 시장의 관심은 높아진 상황\"이라며 \"올해는 테슬라 옵티머스 3세대 생산 시작, 중국 유니트리 및 아지봇 기업공개(IPO) 등 주요 이벤트가 있어 휴머노이드 산업 성장에 대한 기대감",
-        "link": "https://www.asiae.co.kr/article/2026032708401361618",
-        "source": "아시아경제 - 증권",
-        "published": "2026-03-29T09:15:00+09:00",
+        "title": "“내 BMW 바퀴 통째로 사라져”...인천 주차장서 벌어진 황당한 일",
+        "summary": "인천 한 주차장에 세워둔 수입 승용차의 바퀴가 사라져 경찰이 수사에 나섰다. 30일 인천 서부경찰서에 따르면 지난 24일 오후 10시경 서구 아시아드 주경기장 주차장에서 BMW 차량 바퀴를 도난당했다는 112 신고가...",
+        "link": "https://www.mk.co.kr/article/12002441",
+        "source": "매일경제",
+        "published": "2026-03-30T16:43:00+09:00",
         "score": 24
       },
       {
@@ -572,52 +612,36 @@
         "score": 24
       },
       {
-        "title": "앤디 김 \"美 지상군 투입 너무 위험…전쟁 더 길게 만드는 것\"",
-        "summary": "앤디 김 미국 민주당 연방 상원의원(뉴저지)은 29일(현지시간) 도널드 트럼프 대통령이 이란과 협상하는 와중에 대규모 지상군 투입을 검토하는 것과 관련 \"우리는 이란에 지상군을 배치해서는 안 된다. 이는 너무 위험한 작전이다\"고 말했다. 김 의원은 이날 CNN 방송에 출연 \"이(트럼프의 지상군 파병 검토)는 내가 의회뿐 아니라 정부에서 근무한 기간을 통틀어 가장 중대한 순간 중 하나\"라며 이같이 밝혔다.  미군은 현재 이란",
-        "link": "https://www.asiae.co.kr/article/2026033004315572686",
-        "source": "아시아경제 - 국제",
-        "published": "2026-03-30T04:31:55+09:00",
+        "title": "DDP ‘키마키마’, 어린이 참여 기부금 200만원 전달",
+        "summary": "2025년에는 일본·중국·미국 등지에서 6847명의 외국인 가족이 방문했으며, 자체 개발 프로그램 ‘촉감놀이터’는 일본 도쿄 어린이 과학관에 수출되며 K-키즈 콘텐츠의 가능성을 입증했다. 신수지 디키디키 관장은...",
+        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=04149206645388568",
+        "source": "이데일리",
+        "published": "2026-03-30T16:44:00+09:00",
         "score": 24
       },
       {
-        "title": "JD밴스 부통령 \"이란 전쟁에서 곧 빠져나올 것\"",
-        "summary": "JD밴스 미국 부통령이 팟캐스트에 출연해 이란 전쟁의 조기 종전 가능성을 언급했다. 밴스 부통령은 지난 27일(현지시간) 팟캐스트 '더 베니 쇼'와의 인터뷰에서 \"(도널드 트럼프) 대통령은 '우리는 1년, 2년 더 이란에 있는 것에 관심이 없다'는 점에 대해 분명히 밝혀왔다\"며 이같이 말했다. 밴스 부통령은 \"우리는 거기서(이란 전쟁에서) 곧 빠져나올 것(We're going to be out of there soon)이며, 유가는 다시 내려갈 것\"이라",
-        "link": "https://www.asiae.co.kr/article/2026032921222670490",
-        "source": "아시아경제 - 국제",
-        "published": "2026-03-29T21:22:27+09:00",
-        "score": 24
+        "title": "한국·홍콩, 아시아 Web3 정책협의체 출범",
+        "summary": "Hon Johnny NG Kit-Chong), 윤석헌 아시아경제개발위원회·HYPAI Labs 회장이 공동회장 체제로 협의체를 이끈다.... 민병덕 의원은 Web3가 글로벌 경제 질서를 재편하는 만큼 아시아가 수동적 추격을 넘어 제도 설계와 산업 표준...",
+        "link": "https://www.joongang.co.kr/article/25416016",
+        "source": "중앙일보",
+        "published": "2026-03-30T17:11:00+09:00",
+        "score": 22
       },
       {
-        "title": "밴스 미 부통령 \"이란과의 전쟁서 곧 빠져 나올 것\"",
-        "summary": "J.D 밴스 미국 부통령이 대이란 전쟁의 조기 종료 가능성을 언급해 주목받고 있다. 밴스 부통령은 지난 27일(현지 시각) 팟캐스트 '더 베니 쇼(The Benny Show)'와의 인터뷰에서 \"도널드 트럼프 대통령은 우리가 1~2년 더 이란에 머무는 것에는 관심이 없다는 점을 분명히 밝혀왔다\"고 말했다. 그는 \"우리는 곧 그곳(대이란 전쟁)에서 빠져나올 것\"이라며 \"유가도 다시 내려갈 것\"이라고 덧붙였다. 다만 즉각적인 전면 철수 가능성",
-        "link": "https://www.asiae.co.kr/article/2026032920582962589",
-        "source": "아시아경제 - 국제",
-        "published": "2026-03-29T20:58:30+09:00",
-        "score": 24
+        "title": "조총련계, '日에 北소식 전달' 일본어 사이트 신설",
+        "summary": "경수현 특파원 = 재일본조선인총연합회(조총련)측 인사들이 일본에 북한 주장과 소식을 알리는 새로운... 운영 주체는 조총련 기관지인 조선신보사 직원과 조선대 교수진 등이 참여하는 '조선반도 국제문제 연구회'다. 이...",
+        "link": "https://www.yna.co.kr/view/AKR20260330139400073?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-03-30T16:32:00+09:00",
+        "score": 20
       },
       {
-        "title": "\"美국방부, 이란서 지상 작전 준비 중\"…기습 작전 가능성도",
-        "summary": "미군이 해병대와 공수부대 등 7000명가량의 지상전 병력을 이란 앞으로 집결시키고 있는 가운데 미국 국방부가 이란에서 수주간에 걸친 지상 작전을 준비 중이라고 워싱턴포스트(WP)가 28일(현지시간) 보도했다. WP는 미 당국자들이 이란에서 수주 간의 지상 작전을 준비 중이라고 밝혔다면서 트럼프 대통령이 실제로 확전을 선택한다면 전쟁이 위험한 새 단계로 진입할 수 있다고 전했다. 익명을 요구한 미 당국자들은 이번 대이란",
-        "link": "https://www.asiae.co.kr/article/2026032910144364020",
-        "source": "아시아경제 - 국제",
-        "published": "2026-03-29T10:14:43+09:00",
-        "score": 24
-      },
-      {
-        "title": "\"치지직, 조만간 공개될 것\" 의문의 영상 올린 백악관, 알고보니",
-        "summary": "최근 미국 백악관 공식 사회관계망서비스(SNS)에 올라왔던 의문의 영상들은 백악관 공식 애플리케이션(앱) 출시의 예고편이었던 것으로 드러났다.  27일 백악관은 공식 홈페이지를 통해 백악관 공식 앱 출시를 발표했다. 백악관은 \"도널드 트럼프 미국 대통령과 행정부가 국민에게 그 어느 때보다 직접적으로 정보를 전달하는 공식 모바일 앱을 출시했다\"며 \"이 앱은 국민에게 백악관과 직접 소통할 수 있는 통로를 제공하며, 불필",
-        "link": "https://www.asiae.co.kr/article/2026032909523023558",
-        "source": "아시아경제 - 국제",
-        "published": "2026-03-29T09:54:10+09:00",
-        "score": 24
-      },
-      {
-        "title": "현대차그룹, 차량 5부제 전 그룹사로 확대",
-        "summary": "현대자동차그룹이 국가적인 에너지 위기 극복을 위해 전 그룹사 차원의 에너지 절약에 적극 나선다. 현대차그룹은 즉각적인 에너지 절감을 위해 전 그룹사가 차량 5부제에 동참한다고 29일 밝혔다. 현대차·기아 본사를 중심으로 시행하던 차량 5부제를 전 그룹사로 확대 적용하는 것이다. 임직원 출퇴근 셔틀버스 운영 확대도 병행해 직원들의 자가 차량 이용도 최소화한다. 전 사업장 에너지 제어 조건도 더욱 강화해 전기 사용량",
-        "link": "https://www.asiae.co.kr/article/2026032910393718160",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-03-29T10:39:37+09:00",
-        "score": 24
+        "title": "“HBM 골든타임인데” 1.5억원 연봉 노조의 ‘초강수’",
+        "summary": "반도체(DS)부분의 HBM(고대역폭메모리)주도권 탈환이 시급한 ‘골든타임’에 노조가 제도 개편만을 고집하며 발목을 잡고 있다는 비판이 나온다. 30일 업계에 따르면 삼성전자는 최근 재개된 임금협상에서 영업이익의 10...",
+        "link": "https://magazine.hankyung.com/business/article/202603306274b",
+        "source": "한국경제",
+        "published": "2026-03-30T16:49:00+09:00",
+        "score": 20
       }
     ]
   },
@@ -667,5 +691,42 @@
       "score": 100,
       "match_status": "OK"
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-03-30",
+    "generated_at": "2026-03-30T08:15:47.411265+00:00",
+    "briefing_hash": "0114000efba9ca6e",
+    "key_headlines": [
+      {
+        "title": "Ministry of Economy and Finance Launches Intensive AI Training for Employees",
+        "summary": "The Ministry of Economy and Finance conducted intensive AI training for section chiefs and assistant directors from March 23-27, with plans to expand weekend intensive courses for all employees starting in April, signaling a fundamental innovation in work methods."
+      },
+      {
+        "title": "Ministry of Economy and Finance to Issue 210 Billion Won in Retail Bonds in April, Including New 3-Year Term",
+        "summary": "The Ministry of Economy and Finance announced plans to issue 210 billion won in retail investment bonds in April, an increase of 30 billion won to accommodate a newly introduced 3-year maturity product, with the 10-year term remaining the largest at 110 billion won and an average annual yield of 5.9%."
+      },
+      {
+        "title": "Korea's WGBI Inclusion in April Expected to Attract 80 Trillion Won in Foreign Capital",
+        "summary": "With the full inclusion of South Korean bonds into the FTSE World Government Bond Index (WGBI starting April 1), a substantial inflow of up to 80 trillion won in foreign capital is anticipated to gradually enter the market between April and November, expected to stabilize interest rates by 20-30 basis points in the second and third quarters."
+      },
+      {
+        "title": "Government Reviews 10 Trillion Won Policy Finance for Long-Term Middle East War Response",
+        "summary": "The Ministry of Economy and Finance, in conjunction with the Export-Import Bank of Korea (KEXIM), is actively reviewing the implementation of a 10 trillion won policy finance program to address the potential long-term impacts of the Middle East war. As of March 25, 20% of the funds have been disbursed, primarily offering loan repayment deferments and support to affected small and medium-sized enterprises."
+      },
+      {
+        "title": "Ministry of Economy and Finance and KEXIM Urge Rapid Execution of 10 Trillion Won Crisis Program",
+        "summary": "The Ministry of Economy and Finance and KEXIM are emphasizing the urgent and rapid execution of a 10 trillion won special program designed to respond to crises, particularly supporting Korean businesses impacted by the Middle East conflict. With only about 20% of the targeted funds currently disbursed, efforts are being intensified to accelerate the distribution of assistance."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "The Ministry of Economy and Finance is prioritizing innovation by initiating intensive AI training for its employees, aiming to fundamentally transform work methods. Concurrently, the ministry is preparing to issue 210 billion won in retail investment bonds in April, featuring a new 3-year term and expanding the 10-year maturity offerings. A major financial development is the expected inflow of 80 trillion won in foreign capital into the Korean bond market starting in April, following its inclusion in the WGBI, which is projected to stabilize interest rates. Additionally, the government, through the Ministry of Economy and Finance and KEXIM, is rigorously reviewing and accelerating the execution of a 10 trillion won policy finance program to aid businesses affected by the protracted Middle East war.",
+      "Macro & Fiscal Policy": "The global economic outlook shows heightened concern, with warnings of a potential US recession due to rising oil prices and increased borrowing costs stemming from the Iran war, leading economists to lower growth forecasts. The OECD has similarly downgraded economic growth projections for Indonesia, China, and India, citing long-term supply disruptions that could further inflate energy prices and reduce global GDP. Domestically, South Korea plans to continue an active fiscal policy for a second consecutive year, with the national budget potentially exceeding 800 trillion won, raising concerns about the national debt surpassing 50% of GDP. The government justifies this expansion by the need to address structural changes like AI transformation and external geopolitical factors. Upcoming economic indicators, including Korea's WGBI inclusion, US employment figures, and Korean inflation data, are closely watched amid fears of stagflation.",
+      "Financial Markets": "Middle East tensions significantly impacted global financial markets, with Korean, Japanese, and Taiwanese stock exchanges experiencing widespread declines. The KOSPI index notably dropped by 2.97%, closing at 5277.30, driven by substantial net selling from foreign investors amounting to 2.1335 trillion won across various sectors. The market's downturn was exacerbated by concerns over the escalating conflict and former US President Trump's remarks about potentially seizing Iranian oil. The KOSPI saw an initial drop of over 4% on the opening, further retreating to the 5100 level, underscoring the deep sensitivity of the market to geopolitical instability.",
+      "Industry & Technology": "The US is moving to restrict Chinese robots due to 'backdoor' concerns, similar to the IRA in electric vehicle batteries, potentially benefiting American and South Korean robot companies. LG Chem is strategically shifting its focus towards advanced materials for AI semiconductors, autonomous driving, and next-generation displays, aiming to double revenue from these high-tech sectors. In China, authorities are cracking down on 'cutthroat competition' in key industries such as the platform economy, solar power, lithium batteries, and new energy vehicles to stabilize markets. LG Chem's strategic pivot includes developing glass substrates and components for power semiconductors and sensors, reinforcing its commitment to cutting-edge industrial growth.",
+      "Real Estate": "Seoul's rental market is tightening, with a scarcity of 'jeonse' and 'wolse' (lump-sum deposit and monthly rent) properties and rising prices, prompting some renters to consider purchasing homes. Mid-to-low-priced apartments under 1.5 billion won are seeing increased transaction activity, partly due to relaxed loan regulations, while multi-homeowners are reportedly offloading properties to avoid capital gains tax. A 'decoupling' trend is observed in Seoul's housing market, where prices in affluent Gangnam's three districts are declining, while areas like Seongbuk and Gangseo are experiencing increases. Smaller 'national size' apartments (85㎡ or less) continue to be highly popular in new apartment subscriptions for the fourth consecutive year, driven by changing household sizes and rising construction costs.",
+      "International Economy": "The international economy is largely focused on the Middle East situation and its impact on markets, with upcoming FOMC meetings and Fed officials' comments on inflation being closely monitored. Despite Fed Chair Jerome Powell's denial, fears of 'stagflation' persist in the market, particularly given ongoing inflation risks. Former US President Trump's unpredictable rhetoric regarding the Iran war, including comments on seizing Iranian oil and occupying Kharg Island, adds significant uncertainty to geopolitical and economic stability. Richmond Fed President Thomas Barkin warned of risks to inflation deceleration, explicitly citing the Iran war as a critical variable, aligning with Powell's stance that more inflation progress is needed before further interest rate cuts.",
+      "AI & Economy": "South Korea's cloud market has significantly grown, with annual sales surpassing 9 trillion won for the first time in 2025 (reported in March 2026), a 25.2% increase driven by the generative AI boom. This surge highlights the cloud industry's critical role as core infrastructure for the AI era, with strong growth observed in Software as a Service (SaaS) and Cloud Management Services (CMS). Regionally, Chungnam Province is attracting substantial investment, securing two additional AI data centers with a total investment of 2.55 trillion won, creating over a thousand new jobs. Nationally, discussions are underway among the National Assembly, economic, and labor organizations to swiftly establish institutional frameworks for the AI era, focusing on protecting vulnerable workers. Furthermore, the Ministry of SMEs and Startups is actively recruiting AI startups for an 'Investment-Linked Overseas Expansion Program' to support their global growth and attract international investment.",
+      "Others": "The 'Others' section covers diverse developments, including Daejeon mayoral preliminary candidates advocating for an AI innovation fund and a national semiconductor graduate school as part of their '6 Big Transformations' pledges. In industrial news, 27,000 tons of Russian naphtha arrived in South Korea after US export controls were temporarily eased and financial settlement issues were resolved through inter-agency coordination. Agriculture sees Goyang City establishing disease-free grafted cactus nurseries to enhance quality and boost exports. Geopolitical updates include US Vice President JD Vance's comments suggesting an early end to the Iran war, claiming US goals have been met. Finally, a local crime incident in Incheon involved the theft of BMW car wheels from a parking lot."
+    }
+  }
 }
