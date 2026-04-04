@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-03T22:35:37.203730",
+  "updated_at": "2026-04-04T07:37:07.790663",
   "indicators": [
     {
       "id": "kospi",
       "name": "KOSPI",
-      "value": "nan",
-      "change": NaN,
+      "value": "5,377.30",
+      "change": 2.74,
       "category": "stock",
       "trend": [
         {
@@ -26,15 +26,15 @@
         },
         {
           "date": "2026-04-03",
-          "value": NaN
+          "value": 5377.3
         }
       ]
     },
     {
       "id": "kosdaq",
       "name": "KOSDAQ",
-      "value": "nan",
-      "change": NaN,
+      "value": "1,063.75",
+      "change": 0.7,
       "category": "stock",
       "trend": [
         {
@@ -55,7 +55,7 @@
         },
         {
           "date": "2026-04-03",
-          "value": NaN
+          "value": 1063.75
         }
       ]
     },
@@ -229,7 +229,7 @@
       "category": "rate",
       "trend": [
         {
-          "date": "2026-04-03",
+          "date": "2026-04-04",
           "value": 3.0
         }
       ]
@@ -238,13 +238,9 @@
       "id": "kr_3y",
       "name": "국고채 3년",
       "value": "3.74%",
-      "change": -1.84,
+      "change": 0.0,
       "category": "rate",
       "trend": [
-        {
-          "date": "2026-03-05",
-          "value": 3.61
-        },
         {
           "date": "2026-03-06",
           "value": 3.6
@@ -359,6 +355,10 @@
         },
         {
           "date": "2026-04-03",
+          "value": 3.74
+        },
+        {
+          "date": "2026-04-04",
           "value": 3.74
         }
       ]
@@ -367,13 +367,9 @@
       "id": "kr_10y",
       "name": "국고채 10년",
       "value": "3.74%",
-      "change": -1.84,
+      "change": 0.0,
       "category": "rate",
       "trend": [
-        {
-          "date": "2026-03-05",
-          "value": 3.61
-        },
         {
           "date": "2026-03-06",
           "value": 3.6
@@ -489,14 +485,18 @@
         {
           "date": "2026-04-03",
           "value": 3.74
+        },
+        {
+          "date": "2026-04-04",
+          "value": 3.74
         }
       ]
     },
     {
       "id": "krw_usd",
       "name": "원/달러 환율",
-      "value": "1,510.54",
-      "change": 0.09,
+      "value": "1,514.00",
+      "change": 0.32,
       "category": "currency",
       "trend": [
         {
@@ -521,7 +521,7 @@
         },
         {
           "date": "2026-04-04",
-          "value": 1510.54
+          "value": 1514.0
         }
       ]
     },
@@ -557,8 +557,8 @@
     {
       "id": "cny_usd",
       "name": "위안/달러",
-      "value": "6.88",
-      "change": -0.05,
+      "value": "6.89",
+      "change": 0.13,
       "category": "currency",
       "trend": [
         {
@@ -583,7 +583,7 @@
         },
         {
           "date": "2026-04-04",
-          "value": 6.88
+          "value": 6.89
         }
       ]
     },
