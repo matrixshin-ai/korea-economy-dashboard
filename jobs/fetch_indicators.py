@@ -98,6 +98,9 @@ def scrape_korean_yields():
             if resp.status_code == 200:
                 html = resp.text
                 match = re.search(r'id="p"[^>]*>([0-9.]+)', html)
+                if not match:
+                    # Fallback: extract from meta description (e.g. "last recorded at 2.50 percent")
+                    match = re.search(r'last recorded at ([0-9.]+) percent', html)
                 if match:
                     value = float(match.group(1))
                     scraped_values[rate_id] = value
@@ -119,7 +122,7 @@ def scrape_korean_yields():
     
     yields_data = []
     defaults = {
-        "kr_base_rate": ("한국 기준금리", 3.00),
+        "kr_base_rate": ("한국 기준금리", 2.50),
         "kr_3y": ("국고채 3년", 2.80),
         "kr_10y": ("국고채 10년", 3.00),
     }
