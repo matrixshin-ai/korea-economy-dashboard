@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
-Fetch real economic indicators from Yahoo Finance and BOK ECOS API
+Fetch real economic indicators from Yahoo Finance, FRED, and BOK ECOS API
 Scheduled to run daily at 00:00 KST
 """
+import csv
+import io
 import json
 import os
 from datetime import datetime, timedelta
@@ -156,6 +158,59 @@ def fetch_bok_indicators():
     return results
 
 
+def get_fred_rate(series_id: str, name: str, indicator_id: str):
+    """Fetch interest rate data from FRED public CSV (no API key required).
+
+    Uses the public CSV download endpoint:
+    https://fred.stlouisfed.org/graph/fredgraph.csv?id=<SERIES_ID>
+
+    Recommended series:
+      DFF       — Effective Federal Funds Rate (daily, most recent business day)
+      DFEDTARU  — Fed Funds Target Range Upper Limit
+      DFEDTARL  — Fed Funds Target Range Lower Limit
+    """
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
+    try:
+        resp = requests.get(url, timeout=15, headers={"User-Agent": "korea-economy-dashboard/1.0"})
+        resp.raise_for_status()
+
+        reader = csv.DictReader(io.StringIO(resp.text))
+        rows = [row for row in reader if row.get("DATE") and row.get(series_id) and row[series_id] != "."]
+
+        if not rows:
+            print(f"FRED {series_id}: no data rows")
+            return None
+
+        # Build 6-month trend (~30 sample points)
+        cutoff = (datetime.now() - timedelta(days=180)).strftime("%Y-%m-%d")
+        recent = [r for r in rows if r["DATE"] >= cutoff] or rows[-60:]
+
+        step = max(1, len(recent) // 30)
+        trend = [
+            {"date": r["DATE"], "value": round(float(r[series_id]), 2)}
+            for i, r in enumerate(recent)
+            if i == 0 or i == len(recent) - 1 or i % step == 0
+        ]
+
+        current_val = float(rows[-1][series_id])
+        prev_val = float(rows[-2][series_id]) if len(rows) > 1 else current_val
+        change_pct = ((current_val - prev_val) / prev_val) * 100 if prev_val else 0
+
+        print(f"FRED {series_id}: {name} = {current_val}% (trend: {len(trend)} points)")
+        return {
+            "id": indicator_id,
+            "name": name,
+            "value": f"{current_val:.2f}%",
+            "change": round(change_pct, 2),
+            "category": "rate",
+            "trend": trend,
+        }
+
+    except Exception as e:
+        print(f"FRED {series_id}: error - {e}")
+        return None
+
+
 def update_indicators():
     """Main function to update all indicators"""
     print(f"[{datetime.now()}] Fetching real economic indicators...")
@@ -172,7 +227,7 @@ def update_indicators():
         ("GC=F", "금", "commodity", "gold"),
         ("^TNX", "미국 국채 10년", "rate", "us_10y"),
         ("^TYX", "미국 국채 30년", "rate", "us_30y"),
-        ("^IRX", "미국 기준금리 (Fed)", "rate", "us_rate"),
+        # ^IRX (13주 T-Bill) 제거 → FRED DFF로 교체 (아래)
     ]
 
     indicators = []
@@ -180,6 +235,11 @@ def update_indicators():
         data = get_yahoo_data(ticker, name, category, id_override)
         if data:
             indicators.append(data)
+
+    # 미국 기준금리: FRED DFF (Effective Federal Funds Rate) — API 키 불필요
+    fred_rate = get_fred_rate("DFF", "미국 기준금리 (Fed)", "us_rate")
+    if fred_rate:
+        indicators.append(fred_rate)
 
     # Korean indicators from BOK ECOS API
     bok_data = fetch_bok_indicators()
