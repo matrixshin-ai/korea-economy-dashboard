@@ -113,7 +113,7 @@ jobs:
         run: python jobs/generate_summary.py
         continue-on-error: true
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Post Moltbook comment
         if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'afternoon'

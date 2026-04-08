@@ -1,7 +1,7 @@
 """
-Gemini AI Briefing Summary Generator
+Claude AI Briefing Summary Generator
 - Reads latest_briefing.json
-- Calls Gemini API to generate KR/EN news anchor narration
+- Calls Claude API (Haiku) to generate KR/EN news anchor narration
 - Writes cached_summary_kr.json and cached_summary_en.json
 """
 import json
@@ -11,6 +11,8 @@ import sys
 import hashlib
 import time
 from datetime import datetime, timezone
+
+import anthropic
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -118,33 +120,31 @@ def remove_korean_text(text: str) -> str:
     return text.strip()
 
 
-def _call_gemini(client, prompt, max_retries=3):
-    """Call Gemini API with exponential backoff retry for 500/503 errors."""
+MODEL = "claude-haiku-4-5-20251001"
+
+
+def _call_claude(client: anthropic.Anthropic, prompt: str, max_retries: int = 3) -> str:
+    """Call Claude API with exponential backoff retry for transient errors."""
     for attempt in range(1, max_retries + 1):
         try:
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
+            message = client.messages.create(
+                model=MODEL,
+                max_tokens=4096,
+                messages=[{"role": "user", "content": prompt}],
             )
-            return response
-        except Exception as e:
-            err_str = str(e)
-            is_retryable = "500" in err_str or "503" in err_str
-            if attempt < max_retries and is_retryable:
+            return message.content[0].text
+        except (anthropic.APIStatusError, anthropic.APIConnectionError) as e:
+            if attempt < max_retries and getattr(e, "status_code", 500) >= 500:
                 wait = 2 ** attempt
-                print(f"    Gemini API error (attempt {attempt}/{max_retries}): {err_str}")
+                print(f"    Claude API error (attempt {attempt}/{max_retries}): {e}")
                 print(f"    Retrying in {wait}s...")
                 time.sleep(wait)
             else:
                 raise
 
 
-def generate_summary(api_key: str, news_content: str, lang: str) -> str:
-    """Call Gemini API to generate summary."""
-    from google import genai
-
-    client = genai.Client(api_key=api_key)
-
+def generate_summary(client: anthropic.Anthropic, news_content: str, lang: str) -> str:
+    """Call Claude API to generate summary."""
     if lang == "KR":
         prompt = KR_PROMPT_TEMPLATE.format(news_content=news_content)
     else:
@@ -163,8 +163,7 @@ def generate_summary(api_key: str, news_content: str, lang: str) -> str:
                 "the response to be rejected. Translate ALL Korean content to English.]"
             )
 
-        response = _call_gemini(client, retry_prompt)
-        summary = response.text or ""
+        summary = _call_claude(client, retry_prompt)
 
         if lang == "KR":
             return summary
@@ -185,15 +184,11 @@ def generate_summary(api_key: str, news_content: str, lang: str) -> str:
     return best_summary
 
 
-def generate_structured_en_summary(api_key: str, news_content: str) -> dict:
-    """Call Gemini API to generate structured English summary as JSON."""
-    from google import genai
-
-    client = genai.Client(api_key=api_key)
+def generate_structured_en_summary(client: anthropic.Anthropic, news_content: str) -> dict:
+    """Call Claude API to generate structured English summary as JSON."""
     prompt = STRUCTURED_EN_PROMPT_TEMPLATE.format(news_content=news_content)
 
-    response = _call_gemini(client, prompt)
-    text = (response.text or "").strip()
+    text = _call_claude(client, prompt).strip()
 
     # Strip markdown code fence if present
     if text.startswith("```"):
@@ -207,10 +202,12 @@ def generate_structured_en_summary(api_key: str, news_content: str) -> dict:
 
 
 def main():
-    api_key = os.environ.get("GEMINI_API_KEY", "")
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     if not api_key:
-        print("GEMINI_API_KEY not set - skipping summary generation")
+        print("ANTHROPIC_API_KEY not set - skipping summary generation")
         return
+
+    client = anthropic.Anthropic(api_key=api_key)
 
     if not os.path.exists(BRIEFING_PATH):
         print(f"No briefing file at {BRIEFING_PATH}")
@@ -243,7 +240,7 @@ def main():
                 pass
 
         try:
-            summary = generate_summary(api_key, news_content, lang)
+            summary = generate_summary(client, news_content, lang)
 
             if lang == "EN" and count_korean_chars(summary) > 0:
                 print(f"  WARNING: EN summary still has Korean chars - skipping")
@@ -278,7 +275,7 @@ def main():
         print(f"  Structured EN summary already up to date (hash={briefing_hash}) - skipping")
     else:
         try:
-            structured = generate_structured_en_summary(api_key, news_content)
+            structured = generate_structured_en_summary(client, news_content)
             briefing["summary_en"] = {
                 "date": briefing_date,
                 "generated_at": datetime.now(timezone.utc).isoformat(),
