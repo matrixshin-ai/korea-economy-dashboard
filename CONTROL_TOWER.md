@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-03-21
+> Last updated: 2026-04-08
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -172,13 +172,15 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 
 ## 7. 크로스 프로젝트 알려진 이슈
 
-| # | 이슈 | 관련 앱 | 우선순위 |
-|---|------|---------|----------|
-| 1 | opsguard README.md 타임라인에 05:00 KST 잔존 -- 23:00으로 수정 필요 | opsguard | 중간 |
-| 2 | moltbook_comment.py가 daily_state와 미연동 | dashboard + scheduler | 높음 |
-| 3 | moltbook-scheduler 외부 댓글 자동화 미완성 | moltbook-scheduler | 높음 |
-| 4 | OpsGuard 알림 타이밍 오탐 다수 (A-2, A-4, A-7, B-1) | opsguard | 중간 |
-| 6 | OpsGuard가 git으로 관리되지 않음 | opsguard | 중간 |
+| # | 이슈 | 관련 앱 | 우선순위 | 상태 |
+|---|------|---------|----------|------|
+| 1 | opsguard README.md 타임라인에 05:00 KST 잔존 -- 23:00으로 수정 필요 | opsguard | 중간 | 미해결 |
+| 2 | moltbook_comment.py가 daily_state와 미연동 | dashboard + scheduler | 높음 | 미해결 |
+| 3 | moltbook-scheduler 외부 댓글 자동화 미완성 | moltbook-scheduler | 높음 | 미해결 |
+| 4 | OpsGuard 알림 타이밍 오탐 다수 (A-2, A-4, A-7, B-1) | opsguard | 중간 | 미해결 |
+| 5 | Gemini API 불안정 (503/429) — 오후 summary 재생성 실패 | dashboard | 높음 | **해결** (2026-04-08 Claude API 전환) |
+| 6 | OpsGuard가 git으로 관리되지 않음 | opsguard | 중간 | 미해결 |
+| 7 | GCP VM에 flyctl 미설치 — Fly.io 자동 복구 불가 | opsguard | 중간 | 미해결 |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -210,7 +212,34 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 
 ---
 
-## 10. 참고 문서
+## 10. 변경 이력
+
+### 2026-04-08
+
+**generate_summary.py: Gemini API → Claude API 전환**
+- 모델: `claude-haiku-4-5-20251001` (KR / EN / Structured EN 전체 교체)
+- 이유: Gemini 503/429 오류 반복 발생으로 오후 summary 재생성 실패
+- `requirements.txt`: `google-genai` → `anthropic>=0.40`
+- GitHub Secrets에 `ANTHROPIC_API_KEY` 추가 필요
+
+**미국 기준금리 데이터 소스 교체**
+- Yahoo Finance `^IRX` → FRED DFF (실제 Fed 기준금리)
+- 이유: `^IRX`는 13주 T-Bill 수익률로 실제 기준금리와 다름, 6개월 그래프 왜곡
+- API 키 불필요 (공개 CSV URL)
+
+**한국 지표 전체 BOK ECOS API 통합**
+- KOSPI, KOSDAQ, 원/달러, 국고채 3년/10년 모두 BOK ECOS API로 통합
+- Trading Economics 스크래핑 완전 제거
+- 5일 히스토리 → 6개월 히스토리로 개선
+
+**한국 기준금리 수정**
+- fallback 값 3.00% → 2.50% 수정
+- BOK ECOS API로 교체 (공식 소스, 실시간)
+- GitHub Secrets에 `BOK_ECOS_API_KEY` 추가
+
+---
+
+## 11. 참고 문서
 
 로컬 Downloads 폴더에 스펙 문서들 존재:
 - orchestration-agent-plan.md
