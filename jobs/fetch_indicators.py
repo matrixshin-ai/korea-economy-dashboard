@@ -165,9 +165,9 @@ def get_fred_rate(series_id: str, name: str, indicator_id: str):
     https://fred.stlouisfed.org/graph/fredgraph.csv?id=<SERIES_ID>
 
     Recommended series:
-      DFF       — Effective Federal Funds Rate (daily, most recent business day)
-      DFEDTARU  — Fed Funds Target Range Upper Limit
+      DFEDTARU  — Fed Funds Target Range Upper Limit (현재 사용)
       DFEDTARL  — Fed Funds Target Range Lower Limit
+      DFF       — Effective Federal Funds Rate (daily, most recent business day)
     """
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
     try:
@@ -236,8 +236,8 @@ def update_indicators():
         if data:
             indicators.append(data)
 
-    # 미국 기준금리: FRED DFF (Effective Federal Funds Rate) — API 키 불필요
-    fred_rate = get_fred_rate("DFF", "미국 기준금리 (Fed)", "us_rate")
+    # 미국 기준금리: FRED DFEDTARU (Fed Funds Target Range Upper Limit) — API 키 불필요
+    fred_rate = get_fred_rate("DFEDTARU", "미국 기준금리 (Fed)", "us_rate")
     if fred_rate:
         indicators.append(fred_rate)
 
