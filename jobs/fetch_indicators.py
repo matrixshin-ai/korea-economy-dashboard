@@ -175,7 +175,8 @@ def get_fred_rate(series_id: str, name: str, indicator_id: str):
         resp.raise_for_status()
 
         reader = csv.DictReader(io.StringIO(resp.text))
-        rows = [row for row in reader if row.get("DATE") and row.get(series_id) and row[series_id] != "."]
+        # FRED CSV 헤더: observation_date, <SERIES_ID>
+        rows = [row for row in reader if row.get("observation_date") and row.get(series_id) and row[series_id] != "."]
 
         if not rows:
             print(f"FRED {series_id}: no data rows")
@@ -183,11 +184,11 @@ def get_fred_rate(series_id: str, name: str, indicator_id: str):
 
         # Build 6-month trend (~30 sample points)
         cutoff = (datetime.now() - timedelta(days=180)).strftime("%Y-%m-%d")
-        recent = [r for r in rows if r["DATE"] >= cutoff] or rows[-60:]
+        recent = [r for r in rows if r["observation_date"] >= cutoff] or rows[-60:]
 
         step = max(1, len(recent) // 30)
         trend = [
-            {"date": r["DATE"], "value": round(float(r[series_id]), 2)}
+            {"date": r["observation_date"], "value": round(float(r[series_id]), 2)}
             for i, r in enumerate(recent)
             if i == 0 or i == len(recent) - 1 or i % step == 0
         ]
