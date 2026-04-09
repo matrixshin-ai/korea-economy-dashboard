@@ -158,6 +158,19 @@ def fetch_bok_indicators():
     return results
 
 
+def _load_cached_indicator(output_file: str, indicator_id: str):
+    """기존 JSON 파일에서 특정 indicator의 마지막 값을 읽어 반환 (FRED 차단 시 fallback)"""
+    try:
+        with open(output_file, encoding="utf-8") as f:
+            data = json.load(f)
+        for ind in data.get("indicators", []):
+            if ind["id"] == indicator_id:
+                return ind
+    except Exception:
+        pass
+    return None
+
+
 def get_fred_rate(series_id: str, name: str, indicator_id: str):
     """Fetch interest rate data from FRED public CSV (no API key required).
 
@@ -238,7 +251,12 @@ def update_indicators():
             indicators.append(data)
 
     # 미국 기준금리: FRED DFEDTARU (Fed Funds Target Range Upper Limit) — API 키 불필요
+    # GitHub Actions IP 차단 시 기존 latest_indicators.json의 마지막 값을 fallback으로 사용
     fred_rate = get_fred_rate("DFEDTARU", "미국 기준금리 (Fed)", "us_rate")
+    if fred_rate is None:
+        fred_rate = _load_cached_indicator(OUTPUT_FILE, "us_rate")
+        if fred_rate:
+            print(f"FRED DFEDTARU: using cached fallback value ({fred_rate['value']})")
     if fred_rate:
         indicators.append(fred_rate)
 
