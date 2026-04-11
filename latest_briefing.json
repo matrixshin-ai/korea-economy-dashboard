@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-11T14:33:28.880156+09:00",
+  "generated_at": "2026-04-11T16:39:57.399876+09:00",
   "date": "2026-04-11",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 898,
-    "total_used": 735,
-    "dropped_quality": 147,
-    "dropped_negative": 16,
+    "total_input": 800,
+    "total_used": 651,
+    "dropped_quality": 136,
+    "dropped_negative": 13,
     "per_category": {
-      "기타": 384,
-      "금융시장": 68,
-      "부동산": 71,
-      "거시경제·재정": 114,
-      "산업·과학": 41,
-      "국제경제": 53,
-      "AI와 경제": 4
+      "기타": 350,
+      "금융시장": 63,
+      "부동산": 76,
+      "거시경제·재정": 86,
+      "산업·과학": 27,
+      "국제경제": 43,
+      "AI와 경제": 6
     }
   },
   "headlines": [
@@ -155,14 +155,6 @@
         "score": 170
       },
       {
-        "title": "'7연속' 동결…\"이란 전쟁에 성장률 2% 미만 될 것\"",
-        "summary": "한국은행 금융통화위원회가 7번 연속 기준금리를 동결했습니다. 물가 상승을 막으려면 금리를 올려야 하지만 심각한 가계부채와 경기침체가 우려되고 금리를 내리자니 높은 환율이 문제라는 겁니다. 박재현 기자가...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008514056&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-04-11T06:27:00+09:00",
-        "score": 138
-      },
-      {
         "title": "이창용 \"현 시점 스태그플레이션 가능성 낮다…초과세수 통한 추경 긍정적\"(종합2보)",
         "summary": "\"한 치 앞을 가늠하기 힘든 중동 사태 전개 양상이 최대 변수다.\" 10일 이창용 한국은행 총재 임기 만료 전 마지막 금융통화위원회 후 기자간담회를 관통하는 키워드는 전쟁이었다. 중동전쟁의 전개와 그 파급영향을 좀 더 살펴야 한단 이유에서 기준금리는 연 2.50%로 동결됐다. 올해 소비자물가 상승률은 전쟁발 고유가와 고환율 영향에 기존 전망(2.2%) 대비 '상당폭' 상향 조정이 예고됐다. 경제성장률 역시 지난 전망치(2.0%)",
         "link": "https://www.asiae.co.kr/article/2026041015262538246",
@@ -176,14 +168,6 @@
         "link": "https://www.mk.co.kr/news/economy/12013404",
         "source": "매일경제 : 경제",
         "published": "2026-04-10T09:50:24+09:00",
-        "score": 130
-      },
-      {
-        "title": "물가 오르고 경기는 둔화…금리 인상 ‘신중 모드’",
-        "summary": "■ 금통위 7회 연속 동결: 이창용 한국은행 총재의 임기 만료 전 마지막 금통위에서 기준금리가 연 2.5%로... 3%) 이후 가장 높은 수준으로, 연준은 3월 FOMC 의사록에서 금리 인상 가능성까지 논의한 것으로 드러났다....",
-        "link": "https://www.sedaily.com/article/20031192?ref=naver",
-        "source": "서울경제",
-        "published": "2026-04-11T05:29:00+09:00",
         "score": 130
       },
       {
@@ -228,29 +212,45 @@
       },
       {
         "title": "전쟁發 유가충격 덮쳤다 美 3월 소비자물가 급등",
-        "summary": "미국·이란 전쟁에 따른 유가 충격이 인플레이션을 다시 자극하면서 올해 미국 연방준비제도(Fed·연준)의 금리 인하 가능성도 한층 낮아졌다는 평가가 나온다. 미국 노동부는 10일(현지시간) 3월 소비자물가지수(CPI)가...",
-        "link": "https://www.mk.co.kr/article/12014210",
-        "source": "매일경제",
-        "published": "2026-04-10T23:28:00+09:00",
+        "summary": "미국의 3월 소비자물가가 국제유가 급등 영향으로 거의 4년 만에 가장 큰 폭으로 올랐다. \n미국·이란 전쟁에 따른 유가 충격이 인플레이션을 다시 자극하면서 올해 미국 연방준비제도(..",
+        "link": "https://www.mk.co.kr/news/world/12014210",
+        "source": "매일경제 : 국제",
+        "published": "2026-04-10T23:27:02+09:00",
+        "score": 110
+      },
+      {
+        "title": "[다음주 경제일정] 美 어닝시즌 개막…中 1분기 성장률 주목",
+        "summary": "미국 연방준비제도가 FOMC 회의를 2주 앞두고 최신 경기동향 보고서, 베이지북을 내놓습니다. 앞서 나온 3월 고용지표는 서프라이즈였고, 고유가에 따른 물가 우려가 크기 때문에 인플레이션 진단에 초점이 맞춰져...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000303457?division=NAVER",
+        "source": "SBS",
+        "published": "2026-04-10T11:09:00+09:00",
+        "score": 110
+      },
+      {
+        "title": "기준금리 2.5% 동결…“물가 상당 폭 높아질 것”",
+        "summary": "한국은행 금융통화위원회는 중동 사태로 불확실성이 높은 만큼 기준금리 수준을 유지하면서, 사태 추이와 영향을 점검해 가기로 했다고 설명했습니다. 이창용 한은 총재는 올해 물가 상승률이 2%대 중후반으로 기존...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8532864&ref=A",
+        "source": "KBS",
+        "published": "2026-04-10T21:36:00+09:00",
         "score": 110
       }
     ],
     "금융시장": [
       {
-        "title": "코스피, 장초반 0.6% 내린 5,830대…코스닥은 상승 전환(종합)",
-        "summary": "간밤 공개된 연방공개시장위원회(FOMC) 회의록에서 연방준비제도(Fed·연준) 위원들은 당분간 기준금리 동결에 대체로 동의했다. 다만 이는 시장이 예측할 수 있었던 내용이었던 만큼, 영향이 제한적이었던...",
-        "link": "https://www.yna.co.kr/view/AKR20260409037251008?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-04-09T09:45:00+09:00",
-        "score": 110
+        "title": "[머니플로우] 주가 상승에 ETF 순자산 400조 '초읽기'…서학개미 유턴 가속",
+        "summary": "(서울=연합뉴스) 김태종 기자 = 미국과 이란의 휴전으로 국내 증시가 상승세로 돌아서면서 상장지수펀드(ETF) 순자산이 400조원 향해 다시 시...",
+        "link": "https://www.yna.co.kr/view/AKR20260410164200008",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-04-11T08:00:01+09:00",
+        "score": 98
       },
       {
-        "title": "“하루에 6%씩 오르니까”…휴전 안도랠리에 코스피 추종 ETF 뭉칫돈",
-        "summary": "일제히 코스피 상장지수펀드(ETF) 투자에 나섰다. 코스피200을 추종하는 대표 ETF인 KODEX 200에만 한 주 새 1조원에 가까운 자금이 몰린 것이다. 테마 ETF 중에는 중동 에너지 시설 재건에 대한 기대감을 바탕으로...",
-        "link": "https://www.mk.co.kr/article/12013992",
-        "source": "매일경제",
-        "published": "2026-04-10T18:49:00+09:00",
-        "score": 92
+        "title": "[머니플로우] 주가 상승에 ETF 순자산 400조 '초읽기'…서학개미 유턴 가...",
+        "summary": "지난달 말 5,052.46에서 지난 8일 5,872.34까지 상승했던 코스피가 지난 9일에는 5,800선 아래로 내려갔지만, ETF 순자산은 오히려 늘어났다. 이달 들어서는 코스피200 선물지수를 기초지수로 코스피200 하락에 곱버스...",
+        "link": "https://www.yna.co.kr/view/AKR20260410164200008?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-04-11T08:00:00+09:00",
+        "score": 90
       },
       {
         "title": "한은 총재 “현재 환율은…외국인 주식 매도와 중동 사태가 큰 영향”",
@@ -269,25 +269,17 @@
         "score": 90
       },
       {
-        "title": "'휴전 지속 기대감' 장 초반 코스피 5800 후반대…코스닥도 상승",
-        "summary": "중동전쟁 우려가 완화되면서 장 초반 코스피와 코스닥 지수가 동시 상승세를 보인다. 10일 오전 9시14분 코스피 지수는 전 거래일 대비 1.89%(109.48포인트) 오른 5887.49에 거래되고 있다. 개인이 3010억1200만원 순매수, 외국인과 기관이 각각 1459억3400만원, 1752억100만원 순매도 중이다. 업종별로는 상승세를 보이는 종목이 많다. 의료·정밀기기(+2.96%), 전기·전자(+2.51%), 금융(+2.19%), 제조(+2.02%), 유통(+2.01%), 금",
-        "link": "https://www.asiae.co.kr/article/2026041009430757871",
-        "source": "아시아경제 - 증권",
-        "published": "2026-04-10T09:43:07+09:00",
+        "title": "[속보] 코스피 5858.87(▲80.86p, 1.40%), 원·달러 환율 1482.5(보합) 마감",
+        "summary": "코스피 5858.87(▲80.86p, 1.40%), 원·달러 환율 1482.5(보합) 마감",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5187343",
+        "source": "MBN : 경제기사",
+        "published": "2026-04-10T15:37:00+09:00",
         "score": 90
       }
     ],
     "산업·과학": [
       {
-        "title": "AI붐 탄 에너지 특수강…K철강 생존 돌파구",
-        "summary": "철강업계 관계자는 \"초대형 데이터센터나 해상풍력 하부구조물은 까다로운 품질 인증과 지정학적 무역 장벽이 존재해 중국산 저가 범용 철강재의 진입이 쉽지 않은 초고부가가치 시장\"이라며 \"기술력을 입증한 국내...",
-        "link": "https://www.mk.co.kr/article/12013944",
-        "source": "매일경제",
-        "published": "2026-04-10T17:53:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "[속보] “반도체지수 2.3%↑…사상 최고” 美증시 혼조, 나스닥 0.35%↑",
+        "title": "“반도체지수 2.3%↑…사상 최고” 美증시 혼조, 나스닥 0.35%↑",
         "summary": "전기차는 테슬라가 0.98% 상승했으나 루시드가 2.17% 하락하는 등 혼조세를 보였다. 반도체주는 엔비디아가 2.55% 상승하는 등 반도체지수도 2.31% 올라 사상 최고치를 경신했다.",
         "link": "https://www.kmib.co.kr/article/view.asp?arcid=0029663293&code=61141211&cp=nv",
         "source": "국민일보",
@@ -303,6 +295,14 @@
         "score": 52
       },
       {
+        "title": "“반도체 수퍼사이클 안 믿는다”...개인 9조원 매도 폭탄",
+        "summary": "K반도체주를 약 9조원 어치 순매도했다. 개인은 삼성전자·SK하이닉스 두 주식을 매도 상위 종목으로 올려놨다. 10일 까지 두 반도체주에 대한 순매도액은 각각 5조5534억원, 3조3547억원이다. 인공지능(AI) 시대가...",
+        "link": "https://www.mk.co.kr/article/12014346",
+        "source": "매일경제",
+        "published": "2026-04-11T12:58:00+09:00",
+        "score": 50
+      },
+      {
         "title": "K증시 반도체·전력설비·방산에 주목…대한광통신, 삼성전기 신고가 터치 [매경 자이앤트]",
         "summary": "국내 증시에서 반도체와 전력설비 등 특정 업종에 투자자들의 관심이 집중되는 모습이 나타났다. 10일 매경 자이앤트 텔레그램이 집계한 결과 반도체 관련주들이 동반 강세를 보이며 신고..",
         "link": "https://www.mk.co.kr/news/stock/12013982",
@@ -313,50 +313,42 @@
     ],
     "부동산": [
       {
-        "title": "둔산지구 재건축 ‘블랙홀 효과’…‘재개발’ 위축 우려도",
-        "summary": "[서용원/대전과학기술대 부동산행정정보학과 겸임교수 : \"중구나 대덕구나 동구 같은 경우에는 상대적 박탈감이 너무 크다는 거죠. 이쪽 지역은 미분양이라든지 지금 분양된 물량들도 마이너스 피가 형성될 거라는 그런...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8532942&ref=A",
-        "source": "KBS",
-        "published": "2026-04-10T21:52:00+09:00",
+        "title": "오세훈 “정원오, 재건축·재개발에 진심이라면 정부에 부동산 대출 규제부터 철회 요구해야”",
+        "summary": "정원오 후보 ‘오세훈보다 빠른 재건축’ 주장에 오세훈 “진정성 있다면 대통령 마음부터 바꿔라”오세훈 서울시장이 강남 재건축을 자신보다 더 빠르게 추진하겠다는 정원오 더불어민주당 서..",
+        "link": "https://www.mk.co.kr/news/realestate/12014345",
+        "source": "매일경제 : 부동산",
+        "published": "2026-04-11T12:30:05+09:00",
+        "score": 130
+      },
+      {
+        "title": "재개발·재건축 조합장 해임하려면 적법하고 신속해야[똑똑한부동산]",
+        "summary": "재개발·재건축 사업의 주체는 조합이다. 조합은 사업구역 내에 토지 등을 소유하고 있는 조합원으로 구성된다. 그러나 적게는 수백명, 많게는 수천명에 이르는 조합원이 재개발·재건축 사업을 직접 운영하는 것은...",
+        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=02056566645415136",
+        "source": "이데일리",
+        "published": "2026-04-11T11:01:00+09:00",
+        "score": 130
+      },
+      {
+        "title": "안심통학 가능 학세권 아파트…본격 분양 나선 '더샵 안동더퍼스트'",
+        "summary": "30~40대가 부동산 시장의 핵심 수요층으로 자리 잡으면서 자녀의 안전한 통학이 가능한 '학세권' 아파트가... 한국부동산원이 발표한 연령별 청약 당첨자 자료에 따르면, 지난해 전체 당첨자 8만656명 가운데 30대 이하와...",
+        "link": "https://edu.donga.com/news/articleView.html?idxno=106118",
+        "source": "동아일보",
+        "published": "2026-04-11T14:00:00+09:00",
         "score": 116
       },
       {
-        "title": "“서울 집값 잡히는 줄 알았는데, 왜 이리 뜨거워?”...강북 아파트 11억 돌파",
-        "summary": "대출규제·전세난 맞물리며 상승세 평균 10억 돌파 8개월만에 1억 ↑ “단기간 가격 하락 가능성 적어”대출 규제와 전세난이 맞물리며 서울 강북권 아파트 평균 매매가격이 처음으로 1..",
-        "link": "https://www.mk.co.kr/news/realestate/12013299",
-        "source": "매일경제 : 부동산",
-        "published": "2026-04-10T08:49:24+09:00",
-        "score": 110
-      },
-      {
-        "title": "외곽은 오르고 강남은 내리는 서울 아파트값…강남은 전세도 하락전환",
-        "summary": "서울 아파트값 상승률이 한 주 전보다 소폭 떨어졌다. 외곽지역은 오름세를 지속하는 한편 강남권은 하락세를 이어갔다. 한국부동산원이 9일 발표한 주간 아파트가격동향 자료를 보면, 4월 첫 주차(6일 기준) 서울 아파트 매매가격 상승률은 0.10%로 집계됐다. 한 주 전(0.12%)보다 상승 폭이 축소됐다. 지난달 중순 이후 매주 상승 폭이 확대되는 추세였다가 다소 둔화한 모양새다. 구별로 보면 성북구(0.23%), 강서구(0.25%), 구",
-        "link": "https://www.asiae.co.kr/article/2026040913494067602",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-04-09T14:00:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "전세 구하다 지쳐 ‘노도강’ 아파트로 실수요자 몰린다",
-        "summary": "어차피 전세 물건을 구하기 어려우니까 집을 사겠다는 거죠.” 4월 7일 오후 서울 노원구 중계무지개 아파트에서 만난 부동산공인중개사 A 씨는 기자에게 최근 부동산시장 상황에 대해 이렇게 설명했다. 이 아파트는...",
-        "link": "https://weekly.donga.com/3/all/11/6178342/1",
-        "source": "동아일보",
-        "published": "2026-04-11T07:02:00+09:00",
-        "score": 110
+        "title": "오세훈 “정원오, 재건축·재개발에 진심이라면 정부에 부동산 대출 규...",
+        "summary": "무차별적인 부동산 대출 규제부터 철회하라고 요구하는 것이 순서”라고 밝혔다. 오 시장은 정원오 후보가... 오 시장은 “서울시는 이미 국토교통부에 수십 차례 현장의 절규를 전달하며 부동산 규제 합리화를 요구해...",
+        "link": "https://www.mk.co.kr/article/12014345",
+        "source": "매일경제",
+        "published": "2026-04-11T12:31:00+09:00",
+        "score": 115
       }
     ],
     "국제경제": [
       {
-        "title": "트럼프 관세전쟁 '시즌2'…공급망·통상질서 재편 가속화 [로앤비즈 브...",
-        "summary": "태평양 통상전략혁신 허브는 국제통상·관세·국제분쟁 등 분야 전문가들로 구성된 조직으로, 글로벌 관세 정책과 무역분쟁 대응 전략을 연구하고 기업 대상 자문을 제공하고 있다.",
-        "link": "https://www.hankyung.com/article/202604102923i",
-        "source": "한국경제",
-        "published": "2026-04-10T16:57:00+09:00",
-        "score": 92
-      },
-      {
         "title": "미 24개 주 “트럼프 관세 무효화해야”…무역법원서 공방",
-        "summary": "또 해당 조항은 금본위제와 같은 고정환율 체제를 전제로 만들어진 것으로, 현재의 변동환율 체제에서는 사실상 의미가 없다고 지적했다. 즉 당시에는 외환보유고와 금 보유량을 기준으로 국제수지 균형을 판단했지만...",
+        "summary": "국제무역법원에서 열린 심리에서 트럼프 대통령이 지난 2월 24일 서명한 수입품 10% 관세 부과 명령을 즉각 폐기해야 한다고 주장했다. 이번 소송의 핵심 쟁점은 트럼프 대통령이 1974년 무역법 122조를 근거로 관세를...",
         "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01443206645415136",
         "source": "이데일리",
         "published": "2026-04-11T03:04:00+09:00",
@@ -371,20 +363,28 @@
         "score": 78
       },
       {
-        "title": "전쟁 불확실성에 더욱 신중했던 FOMC…\"물가 상방, 고용 하방 압력↑\"",
-        "summary": "올해 3월 열린 미국 연방공개시장위원회(FOMC)에서 연방준비제도(Fed·연준) 참석자들은 이란 전쟁 여파로 물가... 사진=로이터 9일 한은 워싱턴주재원은 ‘2026년 3월 FOMC 회의 의사록 주요 내용’ 보고서를 통해 3월 연준...",
-        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=04382086645414480",
-        "source": "이데일리",
-        "published": "2026-04-09T16:04:00+09:00",
-        "score": 78
-      },
-      {
         "title": "[스타트 경제] 미국 \"이란 핵포기·항복 받아내야\"...이란 \"하루 15척만\"...",
         "summary": "그러면 미국 연준의 FOMC 이번 달 말에 있는데 그것도 그렇고 트럼프도 약간 주춤할 것 같아요. 결국은 물가상승률이 올라가면 연준이 이제는 좀 상당히 매파적으로 간다 그러면 어떻게 보면 미국 주가가 하락할 가능성이...",
         "link": "https://www.ytn.co.kr/_ln/0102_202604100732097848",
         "source": "YTN",
         "published": "2026-04-10T07:32:00+09:00",
         "score": 76
+      },
+      {
+        "title": "이란 사태 속 파월의 시장 달래기 [US REPORT]",
+        "summary": "실업률은 4% 초반대로 양호하지만 빅테크 기업에서조차 대규모 해고가 나올 만큼 고용 시장 곳곳에 경고등이 켜졌다. 섣부른 금리 인상은 고용 심리를 더 얼어붙게 만들 수 있다. 물가·고용 사이 연준의 정책 딜레마...",
+        "link": "https://www.mk.co.kr/article/12007333",
+        "source": "매일경제",
+        "published": "2026-04-10T21:01:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "미·중 반도체 법제 전쟁···공급망 충격파 예고[글로벌 모닝 브리핑]",
+        "summary": "지난달 연방공개시장위원회(FOMC) 회의에서 일부 위원들이 금리 인상 가능성을 공론화한 것으로 확인되면서 시장의 긴장감이 고조되고 있습니다. 연방준비제도(Fed·연준)가 8일(현지 시간) 공개한 3월 FOMC 의사록에 따르면...",
+        "link": "https://www.sedaily.com/article/20030681?ref=naver",
+        "source": "서울경제",
+        "published": "2026-04-10T06:01:00+09:00",
+        "score": 70
       }
     ],
     "AI와 경제": [
@@ -413,12 +413,28 @@
         "score": 28
       },
       {
-        "title": "AI 도입 일자리 소멸 우려에…이 대통령 “너무 공포감 가질 필요 없어...",
-        "summary": "비정규직 문제 등 노동 문제 해결을 위한 대화 필요성을 강조하면서, 민주노총의 경제사회노동위원회 참여를 당부했습니다. KBS 뉴스 손서영입니다. 촬영기자:홍성민 최석규/영상편집:신남규/그래픽:여현수",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8533139&ref=A",
-        "source": "KBS",
-        "published": "2026-04-11T07:05:00+09:00",
+        "title": "AI칩 수요 꺽이지 않았다…TSMC '또 깜짝' 실적",
+        "summary": "업계에서는 인공지능(AI) 반도체 수요 확대가 실적 성장을 견인한 것으로 보고 있습니다. 특히 엔비디아 AI 가속기(B200·B300 계열) 수요와 애플 A시리즈 칩 선행 생산 효과가 반영된 것으로 보고 있습니다. 이같은...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000303643?division=NAVER",
+        "source": "SBS",
+        "published": "2026-04-11T12:10:00+09:00",
         "score": 28
+      },
+      {
+        "title": "[주末머니]시장에서 소외된 ○○종목…\"곧 관심은 돌아온다\"",
+        "summary": "NAVER, 카카오 등 IT 플랫폼에 대한 관심이 쏠릴 것이라는 전망이 나왔다.  11일 하나증권은 NAVER, 카카오가 시장에서 소외됐지만 글로벌 시장의 개화, 디지털자산 가치 상승에 따라 관심을 받을 것이라고 내다봤다. NAVER, 카카오는 내수 중심의 광고·커머스의 견고한 성장에도 시장에서 완전히 소외된 상태다. 이는 글로벌 인공지능(AI) 거대언어모델(LLM) 사업자의 높은 성장률과 사업 성과 대비 느린 AI 침투 속도, 글로벌 소",
+        "link": "https://www.asiae.co.kr/article/2026041008130818526",
+        "source": "아시아경제 - 증권",
+        "published": "2026-04-11T10:52:00+09:00",
+        "score": 26
+      },
+      {
+        "title": "산업부, 석유·나프타 공급 안정에 8천여억 원 투입…총 1.1조",
+        "summary": "산업부는 이 밖에도 수출기업 비용 경감 및 석유화학 등 피해산업 지원에 1,459억 원, '제조 인공지능(AI) 대전환'(M.AX) 지원에 830억 원 등을 각각 추가로 확보했습니다. 산업부는 이번 추경을 통해 기업의 생산 비용...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8533236&ref=A",
+        "source": "KBS",
+        "published": "2026-04-11T14:14:00+09:00",
+        "score": 26
       }
     ],
     "기타": [
@@ -431,6 +447,14 @@
         "score": 24
       },
       {
+        "title": "“주당 400만원 시대 연다”...뭐하는 회사길래 ‘충격’ 전망",
+        "summary": "업계 관계자는 “미국의 관세 부담 완화 가능성까지 더해지면서 변압기 수출 경쟁력이 더욱 개선될 것으로 보인다”며 “전 세계적인 전력망 교체 수요와 AI 데이터센터 증설에 따른 전력 부족 상황이...",
+        "link": "https://magazine.hankyung.com/business/article/202604113892b",
+        "source": "한국경제",
+        "published": "2026-04-11T14:22:00+09:00",
+        "score": 24
+      },
+      {
         "title": "발끈한 멜라니아 …\"엡스타인과 날 엮지 마라\"",
         "summary": "도널드 트럼프 미국 대통령의 부인 멜라니아 트럼프 여사(사진)가 제프리 엡스타인 및 그의 공범 길레인 맥스웰과의 관계를 부인하는 성명을 9일(현지시간) 발표했다.\n멜라니아는 이날 ..",
         "link": "https://www.mk.co.kr/news/world/12013895",
@@ -439,35 +463,19 @@
         "score": 24
       },
       {
-        "title": "\"백악관, 직원들에 내부정보 활용 거래 경고\"",
-        "summary": "백악관이 직원들에게 지위를 부적절하게 활용해 거래하지 말라는 이메일을 보낸 것으로 알려졌다. 최근 이란 전쟁을 둘러싸고 원유 선물시장과 예측시장 플랫폼인 폴리마켓에서 수상한 거래가 잇따르자 내부 기강 잡기에 나선 것으로 보인다. 월스트리트저널(WSJ)은 9일(현지시간) 백악관이 지난달 23일 해당 내용의 이메일을 전 직원에게 보냈다고 보도했다. 지난달 23일 오전 도널드 트럼프 미국 대통령은 자신의 사회관계망서비",
-        "link": "https://www.asiae.co.kr/article/2026041009584517050",
-        "source": "아시아경제 - 국제",
-        "published": "2026-04-10T11:24:08+09:00",
+        "title": "[주末머니]비트코인은 바닥 다지는 중, 지지선은 어디?",
+        "summary": "미국·이란 전쟁 초기 오르던 비트코인이 전쟁이 장기화하면서 상승분을 되돌리는 모습을 보였다. 시장에서는 6만6000달러가 비트코인의 방향성을 결정지을 단기 분기점으로 보고 있다. 11일 신한투자증권에 따르면 이란 전쟁 확전 이후 3월 중순까지 비트코인은 정책 불확실성 완화와 현물 상장지수펀드(ETF) 자금 유입 재개, 파생 포지션 재구축이 맞물리며 7만6000달러까지 상승했다. 그러나 3월24일 클래리티 법안 초안 공개 이",
+        "link": "https://www.asiae.co.kr/article/2026041008243992008",
+        "source": "아시아경제 - 증권",
+        "published": "2026-04-11T11:55:00+09:00",
         "score": 24
       },
       {
-        "title": "아마존 CEO \"2000억달러 AI 투자, 평생 한번뿐인 기회\"",
-        "summary": "앤디 재시 아마존 최고경영자(CEO)가 천문학적인 규모의 인공지능(AI) 인프라 투자를 '평생에 한 번 있을 기회'라고 옹호했다. 9일(현지시간) 재시 CEO는 주주들에게 보낸 공개서한에서 \"우리는 이 사업을 운영하는 데 있어 보수적인 자세를 취하지 않을 것\"이라며 \"의미 있는 리더가 되기 위해 투자할 것이며, 그 결과 우리의 미래 사업, 영업 이익 및 잉여 현금 흐름은 훨씬 더 커질 것\"이라고 밝혔다. 아마존은 지난 2월 올해 2",
-        "link": "https://www.asiae.co.kr/article/2026041010323438797",
-        "source": "아시아경제 - 국제",
-        "published": "2026-04-10T10:54:33+09:00",
-        "score": 24
-      },
-      {
-        "title": "국회, 26.2조 '전쟁 추경' 여야 합의 처리…하위소득 70% 고유가지원금...",
-        "summary": "고용노동부의 내일배움카드(일반) 사업은 본예산 규모와 유사 직업능력개발사업과의 중복성을 이유로 1018억원이 삭감됐다. 정부안에 담겼던 '모두의 창업 프로젝트'(1550억원)는 전액 감액 후 동일 금액을...",
-        "link": "https://view.asiae.co.kr/article/2026041023295735230",
-        "source": "아시아경제",
-        "published": "2026-04-10T23:29:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "국회, 26.2조 '전쟁 추경' 여야 합의 처리…고유가지원금 사업 유지(상보...",
-        "summary": "고용노동부의 내일배움카드(일반) 사업은 본예산 규모와 유사 직업능력개발사업과의 중복성을 이유로 1018억원이 삭감됐다. 정부안에 담겼던 '모두의 창업 프로젝트'(1550억원)는 전액 감액 후 동일 금액을...",
-        "link": "https://view.asiae.co.kr/article/2026041023053117466",
-        "source": "아시아경제",
-        "published": "2026-04-10T23:05:00+09:00",
+        "title": "“한국에 이거 가져가면 떼돈 번대”...100만원짜리가 1.5억에 팔린다고...",
+        "summary": "A 씨는 베트남 호찌민에 근거를 둔 마약판매 조직과 공모했으며, 대마를 한국으로 밀수입한 후 일부는 베트남 마약 유통 조직을 통해 유통하고, 일부는 일본 야쿠자 조직에 다시 수출하려고 한 것으로 조사됐다. 범행...",
+        "link": "https://www.sedaily.com/article/20031239?ref=naver",
+        "source": "서울경제",
+        "published": "2026-04-11T15:53:00+09:00",
         "score": 24
       },
       {
@@ -479,27 +487,35 @@
         "score": 24
       },
       {
-        "title": "해수부, 중동전쟁 위기 극복에 추경 1448억원 확정",
-        "summary": "수산식품 수출기업에 대한 물류비 지원 예산도 추가로 확보해 수산식품 수출 성장세가 꺾이지 않도록 지원을 강화해 나간다. 아울러 호르무즈 해협 내 선박 고립으로 어려움을 겪고 있는 중소 선사도 지원한다. 보유...",
-        "link": "https://www.mt.co.kr/economy/2026/04/10/2026041023132861488",
-        "source": "머니투데이",
-        "published": "2026-04-10T23:20:00+09:00",
+        "title": "김 총리 “고유가 피해지원금 기준 조속히 확정…집행에 박차”",
+        "summary": "또 “산업 피해 최소화와 공급망 안정도 시급하다”며 “비상경제상황실 중심으로 나프타(납사) 대체 수입 지원, 수출 바우처, 석유 등 핵심 전략 품목의 공급망 안정 지원 등 핵심사업 진행 상황을 꼼꼼히 점검하라”...",
+        "link": "https://biz.heraldcorp.com/article/10714947?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-04-11T11:11:00+09:00",
         "score": 24
       },
       {
-        "title": "산업부 추경 1.1조 확정…나프타 수급안정 2천억 증액",
-        "summary": "무역보험기금 출역액을 1000억원 늘리고, 수출지원기반활용(330억원), 지역산업위기대응(70억원), 코트라(59억원) 등에 대한 예산도 확충한다. 제조 인공지능 전환(AX) 대전환에도 830억원의 추경이 편성됐다. 이를 통해...",
-        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01302166645415136",
-        "source": "이데일리",
-        "published": "2026-04-11T01:22:00+09:00",
+        "title": "‘데이터 센터’ 막으려 총질까지…“전기료-소음 못 참아”[딥다이브]",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/04/10/133718239.1.png\" vspace=\"10\" />인공지능(AI) 기술 경쟁은 곧 데이터센터 구축 경쟁이기도 하죠. 빅테크 기업들이 천문학적인 금액을 데이터센터 건설에 쏟아붓고 있는 이유입니다. 국내 메모리 반도체 업계의 초호황을 이끄는 원동력이기도 하고요.그런데 AI 데이터센터가 늘어갈수록 데이터센터에 대한 혐오도 커져 갑니다. 세계 곳곳에서 지역주민과 정치인이 뭉쳐서 ‘우리 지역엔 안 된다’며 데이터센터 건설을 막아 세우고 있죠. AI 산업의 ‘물리적 병목지점’으로 자리 잡은 데이터센터 님비(NIMBY) 현상을 들여다보겠습니다.*이 기사는 4월 10일(금요일) 발행한 딥다이브 뉴스레터의 온라인 기사 버전입니다. ‘읽다 보면 빠져드는 경제뉴스’ 딥다이브를 뉴스레터로 구독하세요.https://www.donga.com/news/Ne...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260410/133718236/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-04-11T10:00:00+09:00",
         "score": 24
       },
       {
-        "title": "중동전쟁發 고유가 피해 큰 어업…해수부, 추경 1448억원",
-        "summary": "수산식품 수출기업에 대한 물류비 지원 예산도 추가로 확보하여 수산식품 수출 성장세가 꺾이지 않도록 지원을 강화해 나간다. 또한, 호르무즈 해협 내 선박 고립으로 어려움을 겪고 있는 중소 선사도 지원한다. 보유...",
-        "link": "http://www.edaily.co.kr/news/newspath.asp?newsid=05766246645414808",
-        "source": "이데일리",
-        "published": "2026-04-10T23:09:00+09:00",
+        "title": "정부, 자원 공급망 안정에 9천억원 추가 투입",
+        "summary": "수출기업 부담을 덜고 석유화학 등 피해 업종을 지원하기 위한 예산도 1459억원이 추가 편성됐다. 나프타 수급 안정 지원 사업에는 정부안 4695억원보다 2049억원이 더 늘어 총 6744억원 규모가 배정됐다.",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/04/11/2026041190082.html",
+        "source": "조선일보",
+        "published": "2026-04-11T16:00:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "'3256만명에 최대 60만원'…김 총리 '전쟁추경' 신속 집행 강조",
+        "summary": "김 총리는 \"비상경제상황실 중심으로 나프타 대체 수입 지원, 수출 바우처, 석유 등 핵심 전략 품목의 공급망 안정 지원 등 핵심사업 진행 상황을 꼼꼼히 점검하라\"고 지시했다.",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/04/11/2026041190032.html",
+        "source": "조선일보",
+        "published": "2026-04-11T11:38:00+09:00",
         "score": 24
       }
     ]
@@ -550,5 +566,42 @@
       "score": 93,
       "match_status": "OK"
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-04-11",
+    "generated_at": "2026-04-11T07:41:09.409831+00:00",
+    "briefing_hash": "01230fa94b06924c",
+    "key_headlines": [
+      {
+        "title": "Government Prioritizes NAFTA Supply to Healthcare and Essential Goods",
+        "summary": "Deputy Prime Minister Koo Yun-chul announced that the government will prioritize supply of critical raw materials like NAFTA to healthcare and essential consumer goods sectors, while designating seven petrochemical byproducts as crisis items and relaxing the 90-day public contract rule."
+      },
+      {
+        "title": "Government Strengthens Cryptocurrency Asset Management System to Prevent Public Sector Losses",
+        "summary": "The government has established a comprehensive management system for cryptocurrency assets held by public agencies, with 78 billion won in seized assets to be immediately stored in institutional cold wallets, and officials facing prosecution and disciplinary action for violations."
+      },
+      {
+        "title": "26 Trillion Won Emergency Budget Compiled Without Bond Issuance, Targeting Bottom 70% Income Earners",
+        "summary": "The government approved a 26.2 trillion won emergency supplementary budget using surplus tax revenue to provide high oil price damage support payments to the bottom 70% of income earners and stimulate consumer spending amid economic downturn."
+      },
+      {
+        "title": "Bank of Korea Maintains Base Rate at 2.50% for Seventh Consecutive Meeting",
+        "summary": "The Monetary Policy Committee unanimously decided to hold the base rate at 2.50% as international oil prices and won-dollar exchange rates remain elevated due to Middle East conflict, with May economic forecast signaling significant upward revision of inflation expectations."
+      },
+      {
+        "title": "KOSPI Closes 1.40% Higher on Easing Middle East Tensions",
+        "summary": "The KOSPI index rose to 5,858.87 points with foreign investors net buying 1.01 trillion won as concerns about Middle East conflict eased, while semiconductor stocks reached historic highs with the semiconductor index climbing 2.31%."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "The South Korean government is implementing comprehensive measures to address immediate economic challenges following Middle East conflict escalation. A 26.2 trillion won emergency budget has been compiled without issuing government bonds, utilizing surplus tax revenue to provide relief payments to the bottom 70% of income earners and stimulate domestic consumption. Critically, the government has prioritized supply of NAFTA and other essential raw materials to healthcare and consumer goods sectors facing shortages. Additionally, public sector cryptocurrency asset management has been strengthened significantly, with 78 billion won in seized assets now subject to enhanced security protocols and institutional oversight to prevent recurring loss incidents.",
+      "Macro & Fiscal Policy": "The Bank of Korea maintained its base rate at 2.50% for the seventh consecutive meeting with unanimous committee approval, citing persistent external uncertainties from Middle East tensions and elevated international oil prices. Economic growth projections have been revised downward, with the central bank now expecting 2026 growth to fall below the 2% previous estimate due to prolonged Middle East conflict impacts. Inflation expectations have been substantially revised upward from the previous 2.2% forecast, reflecting elevated oil prices and won-dollar exchange rate pressures. The government's supplementary budget using surplus revenues is viewed positively for supporting aggregate demand, though uncertainties surrounding oil supply normalization remain a key variable in monetary policy decisions.",
+      "Financial Markets": "Stock markets responded positively to easing Middle East tensions, with the KOSPI closing 1.40% higher at 5,858.87 points on April 10. Foreign investors led the gains with net purchases of 1.01 trillion won, while individuals and institutions posted net selling positions. The semiconductor sector recorded historic highs with the semiconductor index rising 2.31%, driven by strong NVIDIA performance (+2.55%) and sustained AI chip demand. ETF net assets are approaching the 400 trillion won threshold as market sentiment improves. The won-dollar exchange rate remained stable at 1,482.5, reflecting balanced foreign exchange market conditions amid ongoing geopolitical uncertainties.",
+      "Industry & Technology": "The semiconductor sector demonstrated exceptional strength with the semiconductor index reaching historic highs and individual chipmakers like NVIDIA surging 2.55%. However, individual retail investors have engaged in substantial net selling of major semiconductor stocks including Samsung Electronics and SK Hynix totaling approximately 9 trillion won, suggesting skepticism about the semiconductor super-cycle narrative. Hyundai Motor and Tesla are intensifying electric vehicle competition in the Chinese market with new product launches targeting the world's largest automotive consumer base. Semiconductor equipment manufacturers and specialized component suppliers, including companies like Daehan Optical Communication and Samsung Electro-Mechanics, are attracting investor attention with new record price achievements in defense and power equipment sectors.",
+      "Real Estate": "Real estate policy debates have intensified with political figures advocating for accelerated reconstruction and redevelopment projects in Seoul, particularly Gangnam areas. Current discussions focus on eliminating government lending restrictions on real estate as a prerequisite for project acceleration, with officials arguing that indiscriminate credit constraints hinder legitimate property development. School-zone apartments targeting families with children in the 30-40 age demographic are entering the market in earnest, reflecting demographic shifts in primary real estate demand. Reconstruction and redevelopment project management governance issues remain prominent, with attention to legitimate procedures for dismissing cooperative leadership and ensuring transparent project operations.",
+      "International Economy": "The U.S. economy showed slower-than-expected quarterly growth with Q4 2025 GDP growth at only 0.5%, while the Federal Reserve indicated uncertainty regarding interest rate direction for upcoming policy decisions. Twenty-four U.S. states have challenged President Trump's 10% tariff order in international trade courts, contesting its legal basis under 1974 trade law provisions. The Middle East conflict has elevated energy price uncertainty, preventing the Fed from committing to specific rate directions, with both hikes and cuts remaining under consideration. The U.S.-China semiconductor regulatory competition is expected to create supply chain disruptions globally, as both nations strengthen controls over semiconductor technology and advanced chip manufacturing capabilities.",
+      "AI & Economy": "The government is advancing AI agent adoption in public administration through various initiatives including the Science and Technology Ministry's administrative automation experiments and the Ministry of Strategy and Finance's 'AI-ONE Platform' project for integrated document management systems. Anthropic is reportedly considering development of proprietary AI chips to reduce dependency on NVIDIA and Google solutions, signaling increasing competition in AI infrastructure. Meta has shifted AI strategy toward closed-source model development with its new 'Muse Spark' AI model, prioritizing revenue monetization over open-source ecosystem expansion. TSMC's earnings surprise reflects sustained AI semiconductor demand from NVIDIA's B200/B300 accelerators and Apple's advanced chip production, indicating no reduction in AI-driven semiconductor demand despite market sentiment fluctuations.",
+      "Others": "The Ministry of Labor confirmed a 416.5 billion won supplementary budget allocation focused on mitigating employment shocks from Middle East conflict impacts through job creation and worker support programs. Cryptocurrency markets showed bitcoin stabilizing around 66,000 dollars as a key technical support level, with the asset recovering from initial conflict-driven gains as extended conflict duration created downward pressure. Transformer and power equipment manufacturers are positioned for significant revenue growth opportunities driven by global power grid modernization requirements and AI data center expansion, with industry projections suggesting substantial salary increases for skilled workforce. Various regulatory and enforcement actions continue addressing illicit activities including drug smuggling operations exploiting international supply chains."
+    }
+  }
 }
