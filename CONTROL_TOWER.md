@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-04-09
+> Last updated: 2026-04-11
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -180,7 +180,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 4 | OpsGuard 알림 타이밍 오탐 다수 (A-2, A-4, A-7, B-1) | opsguard | 중간 | 미해결 |
 | 5 | Gemini API 불안정 (503/429) — 오후 summary 재생성 실패 | dashboard | 높음 | **해결** (2026-04-08 Claude API 전환, 종료) |
 | 6 | OpsGuard가 git으로 관리되지 않음 | opsguard | 중간 | 미해결 |
-| 7 | GCP VM에 flyctl 미설치 — Fly.io 자동 복구 불가 | opsguard | 중간 | 미해결 |
+| 7 | GCP VM에 flyctl 미설치 — Fly.io 자동 복구 불가 | opsguard | 중간 | **해결** (2026-04-11 flyctl 설치 완료) |
 | 8 | FRED API GitHub Actions IP 차단 — us_rate 누락 | dashboard | 중간 | **부분 해결** (2026-04-09 fallback 로직 추가, 캐시값 재사용) |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
@@ -214,6 +214,16 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-04-11
+
+**GCP VM에 flyctl 설치 완료**
+- 설치: `curl -L https://fly.io/install.sh | sh`
+- 이유: OpsGuard [D-4] Fly.io 자동 복구 실패 ('fly' 명령어 없음)
+
+**moltbook-scheduler drafter.py: Claude API 529 과부하 retry 로직 추가**
+- 이유: 어제(4/10) KST 23:00 파이프라인에서 Claude API 529로 draft 생성 실패
+- 최대 5회 재시도, exponential backoff (2→4→8→16→32초)
 
 ### 2026-04-09
 
