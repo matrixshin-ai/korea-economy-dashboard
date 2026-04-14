@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-04-11
+> Last updated: 2026-04-14
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -182,6 +182,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 6 | OpsGuard가 git으로 관리되지 않음 | opsguard | 중간 | 미해결 |
 | 7 | GCP VM에 flyctl 미설치 — Fly.io 자동 복구 불가 | opsguard | 중간 | **해결** (2026-04-11 flyctl 설치 완료) |
 | 8 | FRED API GitHub Actions IP 차단 — us_rate 누락 | dashboard | 중간 | **부분 해결** (2026-04-09 fallback 로직 추가, 캐시값 재사용) |
+| 9 | Vercel `/api/summary-status` HTML 반환 — YouTube readiness 폴링 45분 stuck | dashboard + youtube | 높음 | **해결** (2026-04-14 서버리스 함수 추가) |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -214,6 +215,21 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-04-14
+
+**moltbook-scheduler src/drafter.py SyntaxError 수정**
+- `import time`이 `try` 블록 밖으로 잘못 위치하여 자정부터 매 시간 크래시 반복
+- 들여쓰기 수정으로 해결
+
+**GCP VM에 flyctl 설치 완료 → OpsGuard Fly.io 자동 복구 정상화**
+- flyctl PATH 적용 후 OpsGuard 서비스 재시작
+
+**korea-economy-dashboard `api/summary-status.ts` Vercel 서버리스 함수 추가**
+- 원인: Express 라우트(`/api/summary-status`)만 존재, Vercel에서는 SPA HTML 반환
+- youtube-automation readiness 폴링이 45분간 "Not ready yet" 반복 후 타임아웃
+- `api/briefing-summary.ts`와 동일 패턴으로 서버리스 함수 생성
+- 응답: `{ today, briefing: {date, ready}, summary: {date, ready, generated_at}, allReady }`
 
 ### 2026-04-11
 
