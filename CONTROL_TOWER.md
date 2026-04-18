@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-04-14
+> Last updated: 2026-04-18
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -183,6 +183,8 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 7 | GCP VM에 flyctl 미설치 — Fly.io 자동 복구 불가 | opsguard | 중간 | **해결** (2026-04-11 flyctl 설치 완료) |
 | 8 | FRED API GitHub Actions IP 차단 — us_rate 누락 | dashboard | 중간 | **부분 해결** (2026-04-09 fallback 로직 추가, 캐시값 재사용) |
 | 9 | Vercel `/api/summary-status` HTML 반환 — YouTube readiness 폴링 45분 stuck | dashboard + youtube | 높음 | **해결** (2026-04-14 서버리스 함수 추가) |
+| 10 | OCR step6 cp949 인코딩 오류 — ☑ 특수문자 포함 기사 제목 출력 시 UnicodeEncodeError | ocr-automation | 높음 | **해결** (2026-04-18 `sys.stdout.reconfigure(errors="replace")` 추가) |
+| 11 | Moltbook pipeline maximum recursion depth 오류 — f-string 예외 로깅 시 재귀 발생 | moltbook-scheduler | 높음 | **부분 해결** (2026-04-18 로깅 개선, 4/19 자동 실행 결과 확인 필요) |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -215,6 +217,19 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-04-18
+
+**OCR step6_daily_extract_csv.py: cp949 인코딩 오류 수정**
+- 원인: ☑ (U+2611) 등 특수문자가 포함된 기사 제목 `print()` 시 `UnicodeEncodeError: 'cp949' codec can't encode character` 발생
+- 수정: 파일 상단에 `sys.stdout.reconfigure(errors="replace")` 추가
+- CSV 저장은 `utf-8-sig` 인코딩이라 데이터 손실 없음
+
+**Moltbook telegram_bot.py: 파이프라인 예외 로깅 개선**
+- 원인: f-string에서 예외 객체 `str(e)` 변환 시 `maximum recursion depth` 오류 발생
+- 수정: `repr(e)[:200]` 사용으로 안전한 예외 문자열 변환
+- 4/10~4/17 Moltbook 초안 생성 실패의 근본 원인이 이 재귀 오류로 확인됨
+- 4/19 자동 실행 결과 확인 필요
 
 ### 2026-04-14
 
