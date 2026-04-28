@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-04-18
+> Last updated: 2026-04-28
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -55,13 +55,19 @@
 
 ```
 23:00 KST  [C] Moltbook 파이프라인 (collect -> draft -> Telegram 미리보기)
-07:00 KST  [A] Dashboard 1차 (RSS only)
+07:00 KST  [A] Dashboard 1차 (RSS only, 스케줄 트리거)
 ~14:00 KST     기재부 PDF 도착
 14:30 KST  [B] OCR 파이프라인 (2026-03-08 변경: 14:00 -> 14:30)
-15:45 KST  [A] Dashboard 2차 (OCR 반영 + AI 요약 + Moltbook 댓글)
-~17:30 KST  [D] YouTube 파이프라인 (2026-03-16 변경: 15:00 -> 17:30)
+        ↓  push_to_dashboard.py가 git push 완료 후 daily-update.yml 즉시 dispatch
+       [A] Dashboard 2차 (이벤트 트리거, OCR 반영 + AI 요약 + Moltbook 댓글)
+        ↓  EN summary 생성 성공 시 youtube-automation pipeline.yml 자동 dispatch
+       [D] YouTube 파이프라인 (이벤트 트리거, 스크립트 fetch → TTS → 업로드)
+~17:30 KST  [D] YouTube 파이프라인 (스케줄 트리거, fallback — 이미 완료 시 skip)
 22:00 KST      OpsGuard 일일 리포트
 ```
+
+> **2026-04-28 변경**: Dashboard 2차 및 YouTube가 시간 기반 스케줄에서 이벤트 기반 트리거로 전환됨.
+> 기존 스케줄(15:45, 17:30)은 fallback으로 유지.
 
 ---
 
@@ -217,6 +223,22 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-04-28
+
+**이벤트 기반 파이프라인 구축 (시간 기반 → OCR 완료 시 자동 트리거)**
+
+- 배경: GitHub Actions 스케줄 지연이 최대 2시간 이상 발생하여 EN summary 완료 전에 YouTube가 실행되는 문제 반복
+  - 실측: Dashboard 오전 53분 지연, 오후 2시간 22분 지연 (2026-04-28 기준)
+  - YouTube GHA가 먼저 실행되면 "Already uploaded today" (전날 데이터) 또는 stale script 사용
+- 기존 흐름: `OCR(14:30) → Dashboard GHA(15:45+지연) → EN summary → YouTube(17:30+지연)`
+- 변경 흐름: `OCR(14:30) → Dashboard 즉시 트리거 → EN summary → YouTube 자동 트리거`
+- 변경 내용:
+  - `push_to_dashboard.py`: git push 완료 후 `daily-update.yml` 즉시 workflow_dispatch (토큰: `gh auth token` → `GH_TOKEN` fallback)
+  - `daily-update.yml`: Generate AI briefing summary 스텝에 `id: summary` 추가, EN summary 생성 성공 시 `youtube-automation/pipeline.yml` 자동 workflow_dispatch
+  - GitHub Secret `GH_PAT` 추가 (classic PAT, `repo` scope, korea-economy-dashboard 레포)
+- 기존 cron 스케줄(Dashboard 15:45, YouTube 17:30)은 fallback으로 유지
+- 예상 효과: OCR 완료 후 전체 파이프라인이 30분 내 완료 (GHA 지연 무관)
 
 ### 2026-04-18
 
