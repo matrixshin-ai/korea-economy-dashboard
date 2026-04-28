@@ -109,6 +109,7 @@ jobs:
           "
 
       - name: Generate AI briefing summary
+        id: summary
         if: steps.render.outcome == 'success'
         run: python jobs/generate_summary.py
         continue-on-error: true
@@ -131,3 +132,18 @@ jobs:
           git add latest_*.json cached_summary_*.json cache_candidates.json kr_bond_history.json jobs/data/ || true
           git diff --staged --quiet || git commit -m "Daily data update $(date +'%Y-%m-%d')"
           git push
+
+      - name: Trigger YouTube pipeline
+        if: steps.summary.outcome == 'success'
+        continue-on-error: true
+        run: |
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+            "https://api.github.com/repos/matrixshin-ai/youtube-automation/actions/workflows/pipeline.yml/dispatches" \
+            -H "Authorization: Bearer ${{ secrets.GH_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -d '{"ref":"main"}')
+          if [ "$HTTP_CODE" = "204" ]; then
+            echo "YouTube pipeline dispatched successfully"
+          else
+            echo "::warning::YouTube pipeline dispatch failed (HTTP $HTTP_CODE)"
+          fi
