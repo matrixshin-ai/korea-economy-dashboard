@@ -111,7 +111,12 @@ jobs:
       - name: Generate AI briefing summary
         id: summary
         if: steps.render.outcome == 'success'
-        run: python jobs/generate_summary.py
+        run: |
+          set -o pipefail
+          python jobs/generate_summary.py 2>&1 | tee /tmp/summary_output.log
+          if grep -q "EN briefing content changed" /tmp/summary_output.log; then
+            echo "en_changed=true" >> $GITHUB_OUTPUT
+          fi
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -134,7 +139,7 @@ jobs:
           git push
 
       - name: Trigger YouTube pipeline
-        if: steps.summary.outcome == 'success'
+        if: steps.summary.outputs.en_changed == 'true'
         continue-on-error: true
         run: |
           HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
