@@ -139,7 +139,7 @@ jobs:
           git push
 
       - name: Trigger YouTube pipeline
-        if: steps.summary.outputs.en_changed == 'true'
+        if: steps.summary.outputs.en_changed == 'true' && steps.runtype.outputs.type == 'afternoon'
         continue-on-error: true
         run: |
           HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
