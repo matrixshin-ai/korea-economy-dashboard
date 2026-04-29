@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-04-28
+> Last updated: 2026-04-29
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -60,7 +60,7 @@
 14:30 KST  [B] OCR 파이프라인 (2026-03-08 변경: 14:00 -> 14:30)
         ↓  push_to_dashboard.py가 git push 완료 후 daily-update.yml 즉시 dispatch
        [A] Dashboard 2차 (이벤트 트리거, OCR 반영 + AI 요약 + Moltbook 댓글)
-        ↓  EN summary 생성 성공 시 youtube-automation pipeline.yml 자동 dispatch
+        ↓  EN summary 재생성 감지 시 youtube-automation pipeline.yml 자동 dispatch
        [D] YouTube 파이프라인 (이벤트 트리거, 스크립트 fetch → TTS → 업로드)
 ~17:30 KST  [D] YouTube 파이프라인 (스케줄 트리거, fallback — 이미 완료 시 skip)
 22:00 KST      OpsGuard 일일 리포트
@@ -191,6 +191,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 9 | Vercel `/api/summary-status` HTML 반환 — YouTube readiness 폴링 45분 stuck | dashboard + youtube | 높음 | **해결** (2026-04-14 서버리스 함수 추가) |
 | 10 | OCR step6 cp949 인코딩 오류 — ☑ 특수문자 포함 기사 제목 출력 시 UnicodeEncodeError | ocr-automation | 높음 | **해결** (2026-04-18 `sys.stdout.reconfigure(errors="replace")` 추가) |
 | 11 | Moltbook pipeline maximum recursion depth 오류 — f-string 예외 로깅 시 재귀 발생 | moltbook-scheduler | 높음 | **부분 해결** (2026-04-18 로깅 개선, 4/19 자동 실행 결과 확인 필요) |
+| 12 | YouTube 이중 트리거 — EN summary 미변경 시에도 YouTube dispatch 발생 | dashboard + youtube | 높음 | **해결** (2026-04-29 EN summary 재생성 감지 조건으로 전환, 종료) |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -223,6 +224,16 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-04-29
+
+**daily-update.yml YouTube 트리거 조건 개선**
+
+- 기존: EN summary 생성 성공 시 항상 트리거 (`steps.summary.outcome == 'success'`)
+- 변경: `"EN briefing content changed"` 감지 시에만 트리거 (`steps.summary.outputs.en_changed == 'true'`)
+- `generate_summary.py` 출력을 `tee`로 캡처, grep으로 EN 재생성 여부를 step output에 반영
+- 배경: OCR dispatch 런(오전)에서도 YouTube가 트리거되어 어제 스크립트로 영상 생성되는 문제
+- 중복 영상 수동 삭제 (2026-04-28 제목, Apr 29 업로드본)
 
 ### 2026-04-28
 
