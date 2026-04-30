@@ -227,12 +227,26 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 
 ### 2026-04-29
 
+**Raindrop → Dashboard 연동 구현**
+
+- `jobs/fetch_raindrop.py` 신규 작성
+  - 컬렉션 ID: 70314520, `GET /rest/v1/raindrops/70314520`
+  - `RAINDROP_TOKEN` 환경변수로 Bearer 인증
+  - KST 기준 최근 24시간 이내 북마크 필터링
+  - Claude API로 한국어 핵심이슈 요약 생성
+  - `jobs/data/raindrop_headlines.json` 저장
+- `jobs/render.py`: `raindrop_headlines.json` 병합 — OCR 헤드라인보다 먼저 표시, `핵심이슈` 섹션 추가
+- `daily-update.yml`: Fetch Raindrop bookmarks 스텝 추가 (`RAINDROP_TOKEN`, `ANTHROPIC_API_KEY`)
+- GitHub Secrets에 `RAINDROP_TOKEN` 추가
+- 반영 범위: 오늘의 핵심이슈, 오늘의 뉴스 종합(KR/EN), YouTube 스크립트
+
 **daily-update.yml YouTube 트리거 조건 개선**
 
 - 기존: EN summary 생성 성공 시 항상 트리거 (`steps.summary.outcome == 'success'`)
-- 변경: `"EN briefing content changed"` 감지 시에만 트리거 (`steps.summary.outputs.en_changed == 'true'`)
+- 변경 1: `"EN briefing content changed"` 감지 시에만 트리거 (`steps.summary.outputs.en_changed == 'true'`)
+- 변경 2: 오후 런(afternoon)에서만 YouTube 트리거 (`&& steps.runtype.outputs.type == 'afternoon'`)
 - `generate_summary.py` 출력을 `tee`로 캡처, grep으로 EN 재생성 여부를 step output에 반영
-- 배경: OCR dispatch 런(오전)에서도 YouTube가 트리거되어 어제 스크립트로 영상 생성되는 문제
+- 배경: 오전 런에서도 EN summary가 재생성되어 YouTube가 오전 버전으로 생성되는 문제
 - 중복 영상 수동 삭제 (2026-04-28 제목, Apr 29 업로드본)
 
 ### 2026-04-28
