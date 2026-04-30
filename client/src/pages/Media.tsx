@@ -178,68 +178,75 @@ export default function MediaPage() {
             </p>
           </div>
 
-          <div className="rounded-xl overflow-hidden flex flex-col md:flex-row bg-gradient-to-br from-[#0f1b4d] via-[#1a2f7a] to-primary shadow-[0_8px_40px_rgba(59,96,228,0.3)]">
-            {/* Left content */}
-            <div className="flex-1 p-8">
-              <h3 className="text-[22px] font-bold text-white mb-3">
-                {MOLTBOOK.heading}
-              </h3>
-              <p className="text-[15px] text-white/80 italic leading-relaxed mb-4 border-l-[3px] border-white/25 pl-3.5">
-                "{MOLTBOOK.question}"
-              </p>
-              <div className="flex items-center gap-2 flex-wrap mb-5">
-                {MOLTBOOK.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-[11px] font-semibold text-white/70 bg-white/12 border border-white/15 px-2.5 py-0.5 rounded-full"
-                  >
-                    {tag}
+          <div className="flex flex-col md:flex-row gap-5">
+            {/* Moltbook card */}
+            <div className="flex-[2] rounded-xl overflow-hidden flex flex-col sm:flex-row bg-gradient-to-br from-[#0f1b4d] via-[#1a2f7a] to-primary shadow-[0_8px_40px_rgba(59,96,228,0.3)]">
+              <div className="flex-1 p-8">
+                <h3 className="text-[22px] font-bold text-white mb-3">
+                  {MOLTBOOK.heading}
+                </h3>
+                <p className="text-[15px] text-white/80 italic leading-relaxed mb-4 border-l-[3px] border-white/25 pl-3.5">
+                  "{MOLTBOOK.question}"
+                </p>
+                <div className="flex items-center gap-2 flex-wrap mb-5">
+                  {MOLTBOOK.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="text-[11px] font-semibold text-white/70 bg-white/12 border border-white/15 px-2.5 py-0.5 rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                  <span className="text-xs text-white/55 ml-auto">
+                    👥 {MOLTBOOK.participants} discussing today
                   </span>
-                ))}
-                <span className="text-xs text-white/55 ml-auto">
-                  👥 {MOLTBOOK.participants} discussing today
-                </span>
-              </div>
-              <Button
-                asChild
-                variant="secondary"
-                className="bg-white text-primary hover:bg-blue-50 gap-1.5 font-semibold"
-              >
-                <a
-                  href={MOLTBOOK.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                </div>
+                <Button
+                  asChild
+                  variant="secondary"
+                  className="bg-white text-primary hover:bg-blue-50 gap-1.5 font-semibold"
                 >
-                  Enter Forum{" "}
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </Button>
-            </div>
-
-            {/* Right — 봇마당 card */}
-            <div className="hidden md:flex w-[240px] items-center justify-center p-5 border-l border-white/[0.08] shrink-0">
-              <a
-                href="https://botmadang.org/agent/%EB%A7%A4%ED%8A%B8%EB%A6%AD%EC%8A%A4"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex flex-col items-center gap-3 rounded-xl bg-white/10 backdrop-blur-sm p-5 hover:bg-white/15 transition-colors w-full"
-              >
-                <span className="text-base font-bold text-white">봇마당</span>
+                  <a
+                    href={MOLTBOOK.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Enter Forum{" "}
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </Button>
+              </div>
+              <div className="hidden sm:flex w-[160px] items-center justify-center p-4 shrink-0">
                 <img
                   src="/media/mascot.png"
-                  alt="봇마당 마스코트"
-                  className="w-[80px] h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] animate-float"
+                  alt="Moltbook Mascot"
+                  className="w-[120px] h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] animate-float"
                 />
-                <span className="text-[11px] text-white/70 text-center leading-snug">
-                  한국인을 위한, 한국인에 의한,
-                  <br />
-                  한국인의 Moltbook.
-                </span>
-                <span className="text-xs font-semibold text-white bg-white/15 border border-white/20 px-4 py-1.5 rounded-full">
-                  봇마당 입장
-                </span>
-              </a>
+              </div>
             </div>
+
+            {/* 봇마당 card */}
+            <a
+              href="https://botmadang.org/agent/%EB%A7%A4%ED%8A%B8%EB%A6%AD%EC%8A%A4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 rounded-xl bg-[#1a1a2e] flex flex-col items-center justify-center gap-4 p-8 shadow-[0_8px_40px_rgba(0,0,0,0.3)] hover:bg-[#22223a] transition-colors"
+            >
+              <span className="text-2xl font-extrabold text-orange-400">봇마당</span>
+              <img
+                src="/media/mascot.png"
+                alt="봇마당 마스코트"
+                className="w-[90px] h-auto drop-shadow-[0_0_20px_rgba(255,255,255,0.15)] animate-float"
+              />
+              <span className="text-sm text-white/80 text-center leading-relaxed">
+                한국인을 위한, 한국인에 의한,
+                <br />
+                한국인의 Moltbook.
+              </span>
+              <span className="text-sm font-semibold text-white/90 bg-white/10 border border-white/20 px-5 py-2 rounded-full hover:bg-white/20 transition-colors">
+                봇마당 입장
+              </span>
+            </a>
           </div>
         </section>
       </main>
