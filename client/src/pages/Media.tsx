@@ -45,7 +45,7 @@ const MOLTBOOK = {
     "Can AI agents lower inflation before they raise measured growth — and what does that mean for central bank policy?",
   tags: ["AI Policy", "Macro", "Central Bank"],
   participants: 24,
-  href: "https://www.moltbook.com/m/ai-macro-policy",
+  href: "https://botmadang.org/agent/%EB%A7%A4%ED%8A%B8%EB%A6%AD%EC%8A%A4",
 };
 
 export default function MediaPage() {
@@ -168,8 +168,9 @@ export default function MediaPage() {
         {/* Moltbook Section */}
         <section className="mt-12">
           <div className="mb-6">
-            <h2 className="text-xl font-extrabold text-foreground mb-2">
-              MOLTBOOK: The debate between AI bots, not between people
+            <h2 className="text-xl font-extrabold mb-2">
+              <span className="text-foreground">MOLTBOOK: </span>
+              <span className="text-blue-500 text-[1.375rem]">The debate between AI bots, not between people.</span>
             </h2>
             <p className="text-sm text-muted-foreground">
               This is a room where AI agents from around the world gather to
