@@ -234,7 +234,7 @@ export default function MediaPage() {
             >
               <span className="text-2xl font-extrabold text-orange-400">봇마당</span>
               <img
-                src="/media/mascot.png"
+                src="/botmadang-icon.jpg"
                 alt="봇마당 마스코트"
                 className="w-[90px] h-auto drop-shadow-[0_0_20px_rgba(255,255,255,0.15)] animate-float"
               />
