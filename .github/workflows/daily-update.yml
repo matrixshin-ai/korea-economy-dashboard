@@ -34,6 +34,13 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Fetch Raindrop bookmarks
+        run: python jobs/fetch_raindrop.py
+        continue-on-error: true
+        env:
+          RAINDROP_TOKEN: ${{ secrets.RAINDROP_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
       - name: Fetch indicators
         run: python jobs/fetch_indicators.py
         continue-on-error: true

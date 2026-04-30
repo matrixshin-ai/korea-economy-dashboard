@@ -109,6 +109,18 @@ def load_ocr_headlines() -> list:
         return []
 
 
+def load_raindrop_headlines() -> dict:
+    """Load Raindrop bookmarks from jobs/data/raindrop_headlines.json."""
+    path = os.path.join(BASE_DIR, "jobs", "data", "raindrop_headlines.json")
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data
+    except FileNotFoundError:
+        print("Raindrop headlines file not found, skipping")
+        return {"items": [], "summary": "", "count": 0}
+
+
 def load_all_items() -> list:
     """
     Load items from combined candidates.
@@ -342,7 +354,8 @@ def select_top5_diverse(headlines: list, threshold: int = 60) -> list:
 # ---------------------------------------------------------------------------
 # Output builder
 # ---------------------------------------------------------------------------
-def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict) -> dict:
+def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict,
+                       raindrop_data: dict | None = None) -> dict:
     now_kst = datetime.now(KST)
 
     # Load rules ONCE (important)
@@ -350,6 +363,9 @@ def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict)
     CATEGORY_NAMES = list(RULES.keys())
     if OTHERS_CATEGORY not in CATEGORY_NAMES:
         CATEGORY_NAMES.append(OTHERS_CATEGORY)
+
+    if raindrop_data is None:
+        raindrop_data = {"items": [], "summary": "", "count": 0}
 
     output = {
         "generated_at": now_kst.isoformat(),
@@ -367,7 +383,37 @@ def build_daily_output(classified_items: dict, ocr_headlines: list, stats: dict)
         "sections": {},
     }
 
-    # OCR-matched headlines
+    # Raindrop bookmarks → 오늘의 핵심이슈 section (before OCR headlines)
+    raindrop_items = raindrop_data.get("items", [])
+    raindrop_summary = raindrop_data.get("summary", "")
+    output["핵심이슈"] = {
+        "summary": raindrop_summary,
+        "items": [
+            {
+                "title": item.get("title", ""),
+                "link": item.get("link", ""),
+                "published": item.get("created", ""),
+                "source": "Raindrop",
+            }
+            for item in raindrop_items
+        ],
+    }
+
+    # Raindrop items prepended to headlines list
+    for item in raindrop_items:
+        output["headlines"].append(
+            {
+                "title": item.get("title", ""),
+                "summary": "",
+                "link": item.get("link", ""),
+                "source": "Raindrop",
+                "published": item.get("created", ""),
+                "score": 80,
+                "match_status": "raindrop",
+            }
+        )
+
+    # OCR-matched headlines (appended after Raindrop)
     if ocr_headlines:
         # New OCR data available → use it
         for item in ocr_headlines:
@@ -463,7 +509,13 @@ def main():
         status = item.get("status", "")
         print(f"  {i}. [{status}] {title[:60]}")
 
-    output = build_daily_output(classified, ocr_headlines, stats)
+    raindrop_data = load_raindrop_headlines()
+    raindrop_count = raindrop_data.get("count", 0)
+    print(f"\nRaindrop Bookmarks: {raindrop_count} items (last 24h)")
+    for i, item in enumerate(raindrop_data.get("items", []), 1):
+        print(f"  {i}. {item.get('title', '')[:70]}")
+
+    output = build_daily_output(classified, ocr_headlines, stats, raindrop_data)
 
     briefing_path = os.path.join(BASE_DIR, "latest_briefing.json")
     with open(briefing_path, "w", encoding="utf-8") as f:
