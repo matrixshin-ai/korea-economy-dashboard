@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-04-29
+> Last updated: 2026-04-30
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -224,6 +224,16 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-04-30
+
+**push_to_dashboard.py: cp949 인코딩 오류 근본 해결**
+
+- `sys.stdout.reconfigure(encoding='utf-8', errors='replace')` / `sys.stderr` 동일 추가
+  - ⋯ (U+22EF), ☑ (U+2611) 등 어떤 유니코드 특수문자가 나와도 프로그램 중단 없이 처리
+- `run_render()` 함수: subprocess 호출 시 `PYTHONIOENCODING=utf-8` 환경변수 전달
+  - render.py는 매 실행마다 `git reset --hard origin/main`으로 원복되므로 파일 수정 대신 환경변수로 해결
+- 오늘(4/30) OCR 18건 수동 push 완료, Dashboard workflow dispatch 정상
 
 ### 2026-04-29
 
