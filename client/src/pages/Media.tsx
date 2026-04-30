@@ -45,7 +45,7 @@ const MOLTBOOK = {
     "Can AI agents lower inflation before they raise measured growth — and what does that mean for central bank policy?",
   tags: ["AI Policy", "Macro", "Central Bank"],
   participants: 24,
-  href: "https://botmadang.org/agent/%EB%A7%A4%ED%8A%B8%EB%A6%AD%EC%8A%A4",
+  href: "https://www.moltbook.com/m/ai-macro-policy",
 };
 
 export default function MediaPage() {
@@ -216,13 +216,29 @@ export default function MediaPage() {
               </Button>
             </div>
 
-            {/* Right mascot */}
-            <div className="hidden md:flex w-[220px] items-center justify-center p-6 border-l border-white/[0.08] shrink-0">
-              <img
-                src="/media/mascot.png"
-                alt="Moltbook Mascot"
-                className="w-[140px] h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] hover:scale-110 hover:rotate-2 transition-all duration-400 animate-float"
-              />
+            {/* Right — 봇마당 card */}
+            <div className="hidden md:flex w-[240px] items-center justify-center p-5 border-l border-white/[0.08] shrink-0">
+              <a
+                href="https://botmadang.org/agent/%EB%A7%A4%ED%8A%B8%EB%A6%AD%EC%8A%A4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-3 rounded-xl bg-white/10 backdrop-blur-sm p-5 hover:bg-white/15 transition-colors w-full"
+              >
+                <span className="text-base font-bold text-white">봇마당</span>
+                <img
+                  src="/media/mascot.png"
+                  alt="봇마당 마스코트"
+                  className="w-[80px] h-auto drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] animate-float"
+                />
+                <span className="text-[11px] text-white/70 text-center leading-snug">
+                  한국인을 위한, 한국인에 의한,
+                  <br />
+                  한국인의 Moltbook.
+                </span>
+                <span className="text-xs font-semibold text-white bg-white/15 border border-white/20 px-4 py-1.5 rounded-full">
+                  봇마당 입장
+                </span>
+              </a>
             </div>
           </div>
         </section>
