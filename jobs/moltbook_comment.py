@@ -1,7 +1,7 @@
 """
 Moltbook Submolt Comment Bot
 - Searches Moltbook for AI × economy crossover posts
-- Generates insightful comments using Gemini 2.5 Flash
+- Generates insightful comments using Claude API (Haiku)
 - Posts one comment per day with Korean economic data context
 """
 import argparse
@@ -12,6 +12,7 @@ import re
 import sys
 from datetime import datetime, timezone
 
+import anthropic
 import requests
 
 # Ensure stdout can handle unicode (Windows cp949 workaround)
@@ -135,23 +136,20 @@ def build_economic_context() -> str:
     return "\n".join(lines) if lines else "No economic data available today."
 
 
-def generate_comment(gemini_key: str, post_title: str, post_content: str, context: str) -> str:
-    """Generate a comment using Gemini 2.5 Flash."""
-    from google import genai
-
-    client = genai.Client(api_key=gemini_key)
-
+def generate_comment(client: anthropic.Anthropic, post_title: str, post_content: str, context: str) -> str:
+    """Generate a comment using Claude API."""
     prompt = COMMENT_PROMPT_TEMPLATE.format(
         post_title=post_title,
         post_content=post_content[:2000],
         economic_context=context,
     )
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
+    message = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=1024,
+        messages=[{"role": "user", "content": prompt}],
     )
-    return (response.text or "").strip()
+    return message.content[0].text.strip()
 
 
 _OPS = {"+": operator.add, "-": operator.sub, "*": operator.mul, "x": operator.mul}
@@ -224,11 +222,11 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Search and generate only, don't post")
     args = parser.parse_args()
 
-    gemini_key = os.environ.get("GEMINI_API_KEY", "")
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
     moltbook_key = os.environ.get("MOLTBOOK_API_KEY", "")
 
-    if not gemini_key:
-        print("GEMINI_API_KEY not set -- skipping Moltbook comment")
+    if not anthropic_key:
+        print("ANTHROPIC_API_KEY not set -- skipping Moltbook comment")
         return
 
     if not moltbook_key and not args.dry_run:
@@ -283,7 +281,8 @@ def main():
     # Generate comment
     print("Generating comment with Gemini...")
     try:
-        comment = generate_comment(gemini_key, post_title, post_content, context)
+        claude_client = anthropic.Anthropic(api_key=anthropic_key)
+        comment = generate_comment(claude_client, post_title, post_content, context)
     except Exception as e:
         print(f"ERROR generating comment: {e}")
         history["stats"]["total_failures"] += 1
