@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-04-30
+> Last updated: 2026-05-01
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -181,8 +181,8 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | # | 이슈 | 관련 앱 | 우선순위 | 상태 |
 |---|------|---------|----------|------|
 | 1 | opsguard README.md 타임라인에 05:00 KST 잔존 -- 23:00으로 수정 필요 | opsguard | 중간 | 미해결 |
-| 2 | moltbook_comment.py가 daily_state와 미연동 | dashboard + scheduler | 높음 | 미해결 |
-| 3 | moltbook-scheduler 외부 댓글 자동화 미완성 | moltbook-scheduler | 높음 | 미해결 |
+| 2 | moltbook_comment.py가 daily_state와 미연동 | dashboard + scheduler | 높음 | **해결** (설계 결정: 역할 분리로 종료. 외부 댓글은 moltbook_comment.py 전담, moltbook-scheduler는 자기 포스트만 담당) |
+| 3 | moltbook-scheduler 외부 댓글 자동화 미완성 | moltbook-scheduler | 높음 | **해결** (설계 결정: 구현 안 하기로 확정, 이슈 #2와 동일) |
 | 4 | OpsGuard 알림 타이밍 오탐 다수 (A-2, A-4, A-7, B-1) | opsguard | 중간 | 미해결 |
 | 5 | Gemini API 불안정 (503/429) — 오후 summary 재생성 실패 | dashboard | 높음 | **해결** (2026-04-08 Claude API 전환, 종료) |
 | 6 | OpsGuard가 git으로 관리되지 않음 | opsguard | 중간 | 미해결 |
@@ -192,6 +192,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 10 | OCR step6 cp949 인코딩 오류 — ☑ 특수문자 포함 기사 제목 출력 시 UnicodeEncodeError | ocr-automation | 높음 | **해결** (2026-04-18 `sys.stdout.reconfigure(errors="replace")` 추가) |
 | 11 | Moltbook pipeline maximum recursion depth 오류 — f-string 예외 로깅 시 재귀 발생 | moltbook-scheduler | 높음 | **부분 해결** (2026-04-18 로깅 개선, 4/19 자동 실행 결과 확인 필요) |
 | 12 | YouTube 이중 트리거 — EN summary 미변경 시에도 YouTube dispatch 발생 | dashboard + youtube | 높음 | **해결** (2026-04-29 EN summary 재생성 감지 조건으로 전환, 종료) |
+| 13 | moltbook_comment.py Gemini → Claude API 미전환 — google-genai import 실패로 54일간 외부 댓글 중단 | dashboard | 높음 | **해결** (2026-05-01 Claude API 전환 + MOLTBOOK_API_KEY 갱신) |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -202,8 +203,6 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | # | 작업 | 관련 앱 | 우선순위 |
 |---|------|---------|----------|
 | 1 | opsguard README.md 타임라인 05:00 -> 23:00 수정 | opsguard | 중간 |
-| 2 | moltbook-scheduler 외부 댓글 자동화 완성 | moltbook-scheduler | 높음 |
-| 3 | moltbook_comment.py <-> daily_state 연동 설계 | dashboard + scheduler | 높음 |
 | 5 | OpsGuard 알림 타이밍 조정 | opsguard | 중간 |
 
 > 프로젝트별 보류 작업은 각 프로젝트 문서 참조.
@@ -224,6 +223,19 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-01
+
+**moltbook_comment.py Gemini → Claude API 전환**
+
+- `generate_comment()`: Gemini 2.5 Flash → Claude Haiku (`claude-haiku-4-5-20251001`) 전환
+- `google-genai` import 완전 제거, `anthropic` SDK 사용 (기존 의존성)
+- `daily-update.yml`: Post Moltbook comment 스텝 env `GEMINI_API_KEY` → `ANTHROPIC_API_KEY` 변경
+- 원인: `google-genai`가 `requirements.txt`에 누락되어 2026-03-08 이후 54일간 import 실패
+- MOLTBOOK_API_KEY GitHub Secrets 갱신 (GCP VM의 유효한 키로 동기화)
+- RAINDROP_TOKEN GitHub Secrets 갱신 (만료된 토큰 교체)
+- daily-update.yml YouTube 트리거에 `github.event_name == 'schedule'` 조건 추가 (workflow_dispatch 시 YouTube 트리거 방지)
+- 외부 댓글 역할 분리 설계 확정: moltbook_comment.py가 외부 submolt 댓글 전담, moltbook-scheduler는 자기 포스트만 담당 (이슈 #2, #3 종료)
 
 ### 2026-04-30
 
