@@ -34,6 +34,20 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Debug Raindrop Token
+        env:
+          RAINDROP_TOKEN: ${{ secrets.RAINDROP_TOKEN }}
+        run: |
+          echo "Token length: ${#RAINDROP_TOKEN}"
+          echo "Token prefix: ${RAINDROP_TOKEN:0:8}..."
+          curl -s -o /dev/null -w "HTTP status: %{http_code}\n" \
+            -H "Authorization: Bearer $RAINDROP_TOKEN" \
+            "https://api.raindrop.io/rest/v1/user"
+          echo "--- Collections check ---"
+          curl -s -w "\nHTTP status: %{http_code}\n" \
+            -H "Authorization: Bearer $RAINDROP_TOKEN" \
+            "https://api.raindrop.io/rest/v1/collections" | head -c 500
+
       - name: Fetch Raindrop bookmarks
         run: python jobs/fetch_raindrop.py
         continue-on-error: true
