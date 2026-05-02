@@ -237,6 +237,12 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 - daily-update.yml YouTube 트리거에 `github.event_name == 'schedule'` 조건 추가 (workflow_dispatch 시 YouTube 트리거 방지)
 - 외부 댓글 역할 분리 설계 확정: moltbook_comment.py가 외부 submolt 댓글 전담, moltbook-scheduler는 자기 포스트만 담당 (이슈 #2, #3 종료)
 
+**fetch_raindrop.py: Raindrop API 일시적 401 retry 로직 추가**
+
+- 원인: raise_for_status() 후 즉시 sys.exit(1) — 일시적 401로 5/1 오전 런 실패
+- 토큰 자체는 정상 (디버그 런에서 /rest/v1/user 200 확인)
+- 수정: 최대 3회 retry, backoff 5→10→20초, 401/429/5xx 모두 대상
+
 ### 2026-04-30
 
 **push_to_dashboard.py: cp949 인코딩 오류 근본 해결**
