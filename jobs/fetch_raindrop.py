@@ -8,6 +8,7 @@ Raindrop Bookmark Fetcher
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone, timedelta
 
 import requests
@@ -17,13 +18,30 @@ COLLECTION_ID = "70314520"
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def fetch_raindrops(token: str) -> list:
+def _is_retryable(status_code: int) -> bool:
+    return status_code in (401, 429) or status_code >= 500
+
+
+def fetch_raindrops(token: str, max_retries: int = 3) -> list:
+    """Fetch bookmarks with exponential backoff retry for transient errors."""
     url = f"https://api.raindrop.io/rest/v1/raindrops/{COLLECTION_ID}"
     headers = {"Authorization": f"Bearer {token}"}
     params = {"perpage": 50, "sort": "-created"}
-    resp = requests.get(url, headers=headers, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp.json().get("items", [])
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp = requests.get(url, headers=headers, params=params, timeout=30)
+            resp.raise_for_status()
+            return resp.json().get("items", [])
+        except requests.HTTPError as e:
+            status = e.response.status_code if e.response is not None else 0
+            if attempt < max_retries and _is_retryable(status):
+                wait = 5 * (2 ** (attempt - 1))  # 5s, 10s, 20s
+                print(f"  Raindrop API error (attempt {attempt}/{max_retries}): {e}")
+                print(f"  Retrying in {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
 
 
 def filter_recent_24h(items: list) -> list:
