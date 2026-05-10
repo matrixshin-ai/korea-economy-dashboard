@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T11:00:48.901739",
+  "updated_at": "2026-05-10T22:51:18.692484",
   "indicators": [
     {
       "id": "sp500",
@@ -883,8 +883,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "156.62",
-      "change": 0.07,
+      "value": "156.88",
+      "change": 0.03,
       "category": "currency",
       "trend": [
         {
@@ -905,7 +905,11 @@
         },
         {
           "date": "2026-05-08",
-          "value": 156.62
+          "value": 156.83
+        },
+        {
+          "date": "2026-05-10",
+          "value": 156.88
         }
       ]
     },
@@ -913,7 +917,7 @@
       "id": "cny_usd",
       "name": "위안/달러",
       "value": "6.80",
-      "change": -0.16,
+      "change": -0.02,
       "category": "currency",
       "trend": [
         {
@@ -935,14 +939,18 @@
         {
           "date": "2026-05-08",
           "value": 6.8
+        },
+        {
+          "date": "2026-05-10",
+          "value": 6.8
         }
       ]
     },
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "97.84",
-      "change": -0.42,
+      "value": "98.04",
+      "change": 0.2,
       "category": "currency",
       "trend": [
         {
@@ -960,6 +968,10 @@
         {
           "date": "2026-05-08",
           "value": 97.84
+        },
+        {
+          "date": "2026-05-10",
+          "value": 98.04
         }
       ]
     },
@@ -1099,8 +1111,8 @@
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$95.42",
-      "change": 0.64,
+      "value": "$98.07",
+      "change": 2.78,
       "category": "commodity",
       "trend": [
         {
@@ -1118,14 +1130,18 @@
         {
           "date": "2026-05-08",
           "value": 95.42
+        },
+        {
+          "date": "2026-05-10",
+          "value": 98.07
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,730.70",
-      "change": 0.66,
+      "value": "$4,695.20",
+      "change": -0.53,
       "category": "commodity",
       "trend": [
         {
@@ -1142,7 +1158,11 @@
         },
         {
           "date": "2026-05-08",
-          "value": 4730.7
+          "value": 4720.4
+        },
+        {
+          "date": "2026-05-10",
+          "value": 4695.2
         }
       ]
     }
