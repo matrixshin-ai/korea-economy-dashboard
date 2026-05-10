@@ -41,8 +41,22 @@ Requirements:
 - Connect related news naturally to show the overall economic flow
 - Include implications for investors and general viewers at the end
 - Write exactly 800-1000 words (5-minute reading length)
-- Use clear paragraph breaks for easy reading
 - Write ONLY in English. Do NOT include any Korean characters.
+
+Format the English summary as follows:
+- Each paragraph must start with a headline on its own line, prefixed with ##
+- The headline should be a concise, journalistic title (5-10 words) that captures the key point
+- Examples: "## BOK Holds Rate at 2.75%", "## Kia Surpasses Hyundai in April Sales", "## Export Growth Slows on US Tariff Pressure"
+- After the headline, write the paragraph body (3-5 sentences)
+- Separate each section with a blank line
+- Do NOT use any other markdown formatting
+
+Example output format:
+## BOK Holds Rate at 2.75%
+The Bank of Korea held its benchmark interest rate steady at 2.75%...
+
+## Kia Surpasses Hyundai in Domestic Sales
+Kia Motors is poised to surpass Hyundai Motor Company in April...
 
 News content:
 {news_content}"""
