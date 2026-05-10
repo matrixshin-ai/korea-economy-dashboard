@@ -36,7 +36,8 @@ EN_PROMPT_TEMPLATE = """You are a distinguished Korean economic news anchor. Rea
 
 Requirements:
 - Write in a natural and professional tone as if speaking directly to listeners
-- Start directly with "Good morning. Here is today's Korean economic news briefing." - DO NOT introduce yourself or say "I'm your host" or use placeholders like "[Your Name]"
+- Do NOT start with "Good morning" or any greeting. Start directly with the first ## headline.
+- Do NOT introduce yourself or say "I'm your host" or use placeholders like "[Your Name]"
 - Explain each major news item in detail, analyzing its economic significance and background
 - Connect related news naturally to show the overall economic flow
 - Include implications for investors and general viewers at the end
