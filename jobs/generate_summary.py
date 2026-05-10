@@ -42,6 +42,7 @@ Requirements:
 - Connect related news naturally to show the overall economic flow
 - Include implications for investors and general viewers at the end
 - Write exactly 800-1000 words (5-minute reading length)
+- Always include specific percentage figures and numeric rates (e.g. 2.75%, +0.4%, 3.18%) when discussing economic indicators. Do not round or omit percentage values.
 - Write ONLY in English. Do NOT include any Korean characters.
 
 Format the English summary as follows:
