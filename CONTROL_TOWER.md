@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-05-01
+> Last updated: 2026-05-10
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -193,6 +193,9 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 11 | Moltbook pipeline maximum recursion depth 오류 — f-string 예외 로깅 시 재귀 발생 | moltbook-scheduler | 높음 | **부분 해결** (2026-04-18 로깅 개선, 4/19 자동 실행 결과 확인 필요) |
 | 12 | YouTube 이중 트리거 — EN summary 미변경 시에도 YouTube dispatch 발생 | dashboard + youtube | 높음 | **해결** (2026-04-29 EN summary 재생성 감지 조건으로 전환, 종료) |
 | 13 | moltbook_comment.py Gemini → Claude API 미전환 — google-genai import 실패로 54일간 외부 댓글 중단 | dashboard | 높음 | **해결** (2026-05-01 Claude API 전환 + MOLTBOOK_API_KEY 갱신) |
+| 14 | Anthropic API 크레딧 소진 — 5/9 KR/EN summary 전체 실패, YouTube 미생성 | dashboard + youtube | 높음 | **해결** (2026-05-10 크레딧 $25 충전, Auto reload 활성화) |
+| 15 | YouTube 트리거 조건 오류 — en_changed 미설정으로 dispatch 불가 | dashboard + youtube | 높음 | **해결** (2026-05-10 신규 EN 생성 시에도 en_changed=true 출력, schedule 조건 제거) |
+| 16 | OpsGuard B-1 오탐 — OCR 정상 실행(일요일 제외)인데 last_commit_date 잘못 읽음 | opsguard | 중간 | 미해결 |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -223,6 +226,25 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-10
+
+**Anthropic API 크레딧 소진 복구**
+
+- Feb 22 지급된 $5.50 credit grant 소진 (5/9 기준)
+- $25 크레딧 충전, Auto reload 활성화 ($5 이하 시 $15 자동 충전)
+- 월 예상 비용: $3~5 (haiku 기준)
+
+**YouTube 트리거 조건 수정**
+
+- `generate_summary.py`: EN 신규 생성 시에도 `"EN briefing content changed"` 출력 추가
+- `daily-update.yml`: Trigger YouTube pipeline if 조건에서 `github.event_name == 'schedule'` 제거
+- 수정 전: hash 변경 시에만 `en_changed=true` → 수정 후: 신규 생성/date 불일치 포함 모든 EN 생성 시 true
+
+**OpsGuard B-1 오탐 확인**
+
+- OCR은 일요일 제외 매일 정상 실행 중 (기재부 PDF 미발행일)
+- B-1 체크 로직이 last_commit_date를 잘못 읽는 버그 → 미해결
 
 ### 2026-05-01
 
