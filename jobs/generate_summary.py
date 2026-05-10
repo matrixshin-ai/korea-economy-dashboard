@@ -258,6 +258,8 @@ def main():
                 json.dump(result, f, ensure_ascii=False, indent=2)
 
             print(f"  {lang} summary saved ({len(summary)} chars)")
+            if lang == "EN":
+                print("  EN briefing content changed")
 
         except Exception as e:
             print(f"  ERROR generating {lang} summary: {e}")
