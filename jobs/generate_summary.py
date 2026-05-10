@@ -44,7 +44,10 @@ Requirements:
 - Write ONLY in English. Do NOT include any Korean characters.
 
 Format the English summary as follows:
-- Each paragraph must start with a headline on its own line, prefixed with ##
+- Before the first ## section, write a single MAIN HEADLINE line prefixed with # (single hash):
+  Example: # Markets Steady as BOK Holds, Kia Leads Auto Sales Surge
+  This should be 8-12 words capturing the overall theme of today's briefing.
+- Each paragraph must start with a headline on its own line, prefixed with ## (double hash)
 - The headline should be a concise, journalistic title (5-10 words) that captures the key point
 - Examples: "## BOK Holds Rate at 2.75%", "## Kia Surpasses Hyundai in April Sales", "## Export Growth Slows on US Tariff Pressure"
 - After the headline, write the paragraph body (3-5 sentences)
@@ -52,6 +55,8 @@ Format the English summary as follows:
 - Do NOT use any other markdown formatting
 
 Example output format:
+# Markets Steady as BOK Holds, Kia Leads Auto Sales Surge
+
 ## BOK Holds Rate at 2.75%
 The Bank of Korea held its benchmark interest rate steady at 2.75%...
 
@@ -155,6 +160,16 @@ def _call_claude(client: anthropic.Anthropic, prompt: str, max_retries: int = 3)
                 time.sleep(wait)
             else:
                 raise
+
+
+def extract_headline(text: str) -> tuple[str, str]:
+    """Extract # headline from text. Returns (headline, remaining_text)."""
+    lines = text.strip().split("\n")
+    if lines and lines[0].startswith("# ") and not lines[0].startswith("## "):
+        headline = lines[0][2:].strip()
+        remaining = "\n".join(lines[1:]).strip()
+        return headline, remaining
+    return "", text
 
 
 def generate_summary(client: anthropic.Anthropic, news_content: str, lang: str) -> str:
@@ -267,6 +282,13 @@ def main():
                 "lang": lang,
                 "briefing_hash": briefing_hash,
             }
+
+            if lang == "EN":
+                headline, content = extract_headline(summary)
+                if headline:
+                    result["headline"] = headline
+                    result["summary"] = content
+                    print(f"  EN headline: {headline}")
 
             with open(cache_path, "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
