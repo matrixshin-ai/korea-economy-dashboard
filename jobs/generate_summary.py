@@ -49,9 +49,11 @@ Format the English summary as follows:
 - Before the first ## section, write a single MAIN HEADLINE line prefixed with # (single hash):
   Example: # Markets Steady as BOK Holds, Kia Leads Auto Sales Surge
   This should be 8-12 words capturing the overall theme of today's briefing.
-- Each paragraph must start with a headline on its own line, prefixed with ## (double hash)
-- The headline should be a concise, journalistic title (5-10 words) that captures the key point
-- Examples: "## BOK Holds Rate at 2.75%", "## Kia Surpasses Hyundai in April Sales", "## Export Growth Slows on US Tariff Pressure"
+- Each paragraph must start with a short label on its own line, prefixed with ## (double hash)
+- The label must be a noun phrase of 2-4 words maximum.
+- NO verbs, NO complete sentences.
+- Examples: "## IMF AI Risk", "## Semiconductor Tax Windfall", "## Kia Sales Milestone", "## Real Estate Reform", "## BOK Rate Hold"
+- Think of it as a newspaper section tag, not a headline.
 - After the headline, write the paragraph body (3-5 sentences)
 - Separate each section with a blank line
 - Do NOT use any other markdown formatting
