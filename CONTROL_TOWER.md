@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-05-10
+> Last updated: 2026-05-12
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -55,19 +55,18 @@
 
 ```
 23:00 KST  [C] Moltbook 파이프라인 (collect -> draft -> Telegram 미리보기)
-07:00 KST  [A] Dashboard 1차 (RSS only, 스케줄 트리거)
+07:00 KST  [A] Dashboard 1차 (RSS only, 스케줄 트리거) → 오전 summary 제공
 ~14:00 KST     기재부 PDF 도착
-14:30 KST  [B] OCR 파이프라인 (2026-03-08 변경: 14:00 -> 14:30)
-        ↓  push_to_dashboard.py가 git push 완료 후 daily-update.yml 즉시 dispatch
-       [A] Dashboard 2차 (이벤트 트리거, OCR 반영 + AI 요약 + Moltbook 댓글)
+14:30 KST  [B] OCR 파이프라인 — push_to_dashboard.py git push만 수행 (dispatch 없음)
+15:30 KST      장 마감 → 지표 확정
+16:50 KST  [A] Dashboard 2차 (스케줄 트리거, OCR + 장마감 지표 + AI 요약 + Moltbook 댓글)
         ↓  EN summary 재생성 감지 시 youtube-automation pipeline.yml 자동 dispatch
        [D] YouTube 파이프라인 (이벤트 트리거, 스크립트 fetch → TTS → 업로드)
-~17:30 KST  [D] YouTube 파이프라인 (스케줄 트리거, fallback — 이미 완료 시 skip)
 22:00 KST      OpsGuard 일일 리포트
 ```
 
-> **2026-04-28 변경**: Dashboard 2차 및 YouTube가 시간 기반 스케줄에서 이벤트 기반 트리거로 전환됨.
-> 기존 스케줄(15:45, 17:30)은 fallback으로 유지.
+> **2026-05-12 변경**: 15:45 afternoon 런 제거 → 16:50 evening 런으로 대체.
+> OCR push 후 즉시 dispatch 중단, 장마감 확정 지표 반영을 위해 스케줄 트리거로 전환.
 
 ---
 
@@ -167,7 +166,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 위치 | GitHub Actions | GCP VM |
 | 대상 | 외부 submolt (검색 기반) | 자기 submolt (m/ai-macro-policy) |
 | 인증 | Bearer + verification challenge | 동일 |
-| 트리거 | GHA afternoon run (15:45 KST) | Telegram bot 스케줄 (23:00 KST) |
+| 트리거 | GHA evening run (16:50 KST) | Telegram bot 스케줄 (23:00 KST) |
 | 승인 | 자동 (사람 승인 없음) | Telegram 버튼 승인 |
 | 횟수 제한 | 자체 히스토리 (moltbook_history.json) | daily_state.json (1/day) |
 | API Key | GitHub Secrets | VM .env (동일 키) |
@@ -226,6 +225,17 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-12
+
+**런 스케줄 재편 — 장마감 확정 지표 반영 및 YouTube 업로드 품질 개선**
+
+- 배경: 14:37 KST YouTube 업로드 시 장중 잠정 지표 기반 EN summary 사용 문제
+- 15:45 KST afternoon 런 제거 → 16:50 KST evening 런으로 대체
+- OCR push 후 즉시 workflow_dispatch 트리거 제거 (push_to_dashboard.py, ocr-automation 레포)
+- runtype: afternoon → evening
+- YouTube dispatch 조건: en_changed && afternoon → en_changed && evening
+- 효과: 장마감(15:30) 확정 지표 + OCR 데이터가 모두 반영된 summary로 YouTube 업로드
 
 ### 2026-05-10
 
