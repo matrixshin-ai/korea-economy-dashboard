@@ -3,7 +3,7 @@ name: Daily Data Update
 on:
   schedule:
     - cron: '0 22 * * 0-5'   # 22:00 UTC = 07:00 KST next day (Mon-Sat morning)
-    - cron: '45 6 * * 1-6'   # 06:45 UTC = 15:45 KST (Mon-Sat afternoon)
+    - cron: '50 7 * * 1-6'   # 07:50 UTC = 16:50 KST (Mon-Sat evening)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -22,8 +22,8 @@ jobs:
             echo "type=morning" >> $GITHUB_OUTPUT
             echo "Running morning (07:00 KST) update — RSS only"
           else
-            echo "type=afternoon" >> $GITHUB_OUTPUT
-            echo "Running afternoon (15:30 KST) update — full with OCR"
+            echo "type=evening" >> $GITHUB_OUTPUT
+            echo "Running evening (16:50 KST) update — full with OCR"
           fi
 
       - name: Set up Python
@@ -56,7 +56,7 @@ jobs:
         continue-on-error: true
 
       - name: Check OCR headlines data
-        if: steps.runtype.outputs.type == 'afternoon'
+        if: steps.runtype.outputs.type == 'evening'
         run: |
           if [ -f jobs/data/ocr_headlines.json ]; then
             ITEMS=$(python -c "import json; d=json.load(open('jobs/data/ocr_headlines.json')); print(len(d.get('articles', [])))")
@@ -108,7 +108,7 @@ jobs:
           print(f'Headlines count: {headlines}')
           print(f'Sections count: {sections}')
           run_type = '$RUN_TYPE'
-          if headlines == 0 and run_type == 'afternoon':
+          if headlines == 0 and run_type == 'evening':
               print('::warning::headlines is empty (afternoon run)')
           if sections == 0:
               print('::error::No sections in briefing')
@@ -129,7 +129,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Post Moltbook comment
-        if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'afternoon'
+        if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'evening'
         run: python jobs/moltbook_comment.py
         continue-on-error: true
         env:
@@ -146,7 +146,7 @@ jobs:
           git push
 
       - name: Trigger YouTube pipeline
-        if: steps.summary.outputs.en_changed == 'true' && steps.runtype.outputs.type == 'afternoon'
+        if: steps.summary.outputs.en_changed == 'true' && steps.runtype.outputs.type == 'evening'
         continue-on-error: true
         run: |
           HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
