@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-05-12
+> Last updated: 2026-05-13
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -194,7 +194,10 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 13 | moltbook_comment.py Gemini → Claude API 미전환 — google-genai import 실패로 54일간 외부 댓글 중단 | dashboard | 높음 | **해결** (2026-05-01 Claude API 전환 + MOLTBOOK_API_KEY 갱신) |
 | 14 | Anthropic API 크레딧 소진 — 5/9 KR/EN summary 전체 실패, YouTube 미생성 | dashboard + youtube | 높음 | **해결** (2026-05-10 크레딧 $25 충전, Auto reload 활성화) |
 | 15 | YouTube 트리거 조건 오류 — en_changed 미설정으로 dispatch 불가 | dashboard + youtube | 높음 | **해결** (2026-05-10 신규 EN 생성 시에도 en_changed=true 출력, schedule 조건 제거) |
-| 16 | OpsGuard B-1 오탐 — OCR 정상 실행(일요일 제외)인데 last_commit_date 잘못 읽음 | opsguard | 중간 | 미해결 |
+| 16 | OpsGuard B-1 오탐 — OCR 정상 실행(일요일 제외)인데 last_commit_date 잘못 읽음 | opsguard | 중간 | **해결** (2026-05-13 체크 대상을 dashboard repo ocr_headlines.json 커밋으로 변경) |
+| 17 | YouTube playlist 추가 403 — OAuth 토큰에 PlaylistItem.Insert 스코프 부족 | youtube-automation | 낮음 | 미해결 |
+| 18 | OpsGuard A-7 warmup 자동 복구 대상 /api/warmup 404 — 실제 복구 미작동 | opsguard | 낮음 | 미해결 |
+| 19 | OCR → Dashboard 자동 트리거 gap — push 후 수동 dispatch 또는 16:50 스케줄 대기 필요 | ocr-automation + dashboard | 낮음 | 관찰 중 |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -225,6 +228,31 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-13
+
+**런 스케줄 재편 — 장마감 확정 지표 반영 및 YouTube 업로드 품질 개선**
+- 배경: 14:37 KST YouTube 업로드 시 장중 잠정 지표 기반 EN summary 사용 문제
+- 15:45 KST afternoon 런 제거 → 16:50 KST evening 런으로 대체
+- OCR push 후 즉시 workflow_dispatch 트리거 제거 (push_to_dashboard.py, ocr-automation 레포)
+- runtype: afternoon → evening
+- YouTube dispatch 조건: en_changed && afternoon → en_changed && evening
+- 효과: 장마감(15:30) 확정 지표 + OCR 데이터가 모두 반영된 summary로 YouTube 업로드
+- 실측: GHA 스케줄 지연 2시간 19분 발생 (16:50 설정 → 19:09 실행)
+
+**YouTube 영상 끝 무음 여백 제거**
+- 원인 1: concat demuxer 마지막 파일에 duration 없음 → ffmpeg 무한 연장
+- 원인 2: -shortest 플래그가 concat demuxer와 함께 오작동
+- 수정: 마지막 파일 duration 0.040초 명시 + -shortest → -t audioDuration(ffprobe 측정값)
+- getAudioDuration() ffprobe 파싱 오류(NaN) 추가 수정: -of default=nw=1 → -of csv=p=0
+
+**OpsGuard B-1 오탐 수정**
+- 원인: ocr-automation repo 전체 커밋 확인 → 코드 변경 없는 날 항상 ERROR
+- 수정: korea-economy-dashboard repo의 ocr_headlines.json 커밋 날짜 확인으로 변경
+
+**OpsGuard A-7 체크 타이밍 조정**
+- 원인: evening 런 GHA 스케줄 지연으로 16:15 체크 시점에 EN summary 미생성
+- 수정: 16:15 KST → 20:00 KST (evening 런 완료 후 충분한 여유)
 
 ### 2026-05-12
 
