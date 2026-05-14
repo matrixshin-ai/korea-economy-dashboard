@@ -18,12 +18,15 @@ jobs:
         id: runtype
         run: |
           HOUR_UTC=$(date -u +%H)
-          if [ "$HOUR_UTC" = "22" ]; then
+          if [ "$HOUR_UTC" -ge "21" ] || [ "$HOUR_UTC" -le "1" ]; then
             echo "type=morning" >> $GITHUB_OUTPUT
-            echo "Running morning (07:00 KST) update — RSS only"
-          else
+            echo "Running morning (07:00 KST, ±2h tolerance) update — RSS only"
+          elif [ "$HOUR_UTC" -ge "7" ] && [ "$HOUR_UTC" -le "11" ]; then
             echo "type=evening" >> $GITHUB_OUTPUT
-            echo "Running evening (16:50 KST) update — full with OCR"
+            echo "Running evening (16:50 KST, ±2h tolerance) update — full with OCR"
+          else
+            echo "type=unknown" >> $GITHUB_OUTPUT
+            echo "WARNING: Unexpected run time UTC=$HOUR_UTC — YouTube dispatch skipped"
           fi
 
       - name: Set up Python
