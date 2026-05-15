@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-05-13
+> Last updated: 2026-05-15
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -69,16 +69,19 @@
 23:00 KST  [C] Moltbook 파이프라인 (collect -> draft -> Telegram 미리보기)
 07:00 KST  [A] Dashboard 1차 (RSS only, 스케줄 트리거) → 오전 summary 제공
 ~14:00 KST     기재부 PDF 도착
-14:30 KST  [B] OCR 파이프라인 — push_to_dashboard.py git push만 수행 (dispatch 없음)
-15:30 KST      장 마감 → 지표 확정
-16:50 KST  [A] Dashboard 2차 (스케줄 트리거, OCR + 장마감 지표 + AI 요약 + Moltbook 댓글)
+14:30 KST  [B] OCR 파이프라인
+        ↓  push_to_dashboard.py git push 완료 후 daily-update.yml 즉시 dispatch
+       [A] Dashboard 2차 (이벤트 트리거, OCR 반영 + AI 요약 + Moltbook 댓글)
         ↓  EN summary 재생성 감지 시 youtube-automation pipeline.yml 자동 dispatch
-       [D] YouTube 파이프라인 (이벤트 트리거, 스크립트 fetch → TTS → 업로드)
+       [D] YouTube 파이프라인 (이벤트 트리거)
+15:30 KST      장 마감 → 지표 확정
+16:50 KST  [A] Dashboard evening 런 (스케줄 fallback)
+~18:00 KST [D] YouTube (OpsGuard 자동 복구 fallback)
 22:00 KST      OpsGuard 일일 리포트
 ```
 
-> **2026-05-12 변경**: 15:45 afternoon 런 제거 → 16:50 evening 런으로 대체.
-> OCR push 후 즉시 dispatch 중단, 장마감 확정 지표 반영을 위해 스케줄 트리거로 전환.
+> **2026-05-15 변경**: OCR push 후 즉시 dispatch 복원 (5/12 제거 → 원복).
+> 16:50 evening 런은 스케줄 fallback으로 유지. OpsGuard YouTube 자동 복구도 fallback으로 병존.
 
 ---
 
@@ -240,6 +243,14 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-15
+
+**trigger_dashboard_workflow() 복원 — OCR→Dashboard 즉시 트리거 원복**
+- trigger_dashboard_workflow() 복원 (5/12 제거 → 원복, ocr-automation push_to_dashboard.py)
+- 제거 이유(runtype 버그)가 잘못된 판단이었음 확인
+- GHA evening 스케줄 불안정 확인 (오늘 16:50 KST 미실행, 14:33 수동 dispatch만 1건)
+- OpsGuard 자동 복구가 YouTube fallback으로 작동 중 확인 (18:00 KST POST /api/pipeline/trigger → videoId: P-v2dDMuVmI)
 
 ### 2026-05-13
 
