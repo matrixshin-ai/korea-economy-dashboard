@@ -131,6 +131,13 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      - name: Export to Obsidian daily vault
+        if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'evening'
+        run: python jobs/export_to_daily_vault.py
+        continue-on-error: true
+        env:
+          VAULT_PAT: ${{ secrets.VAULT_PAT }}
+
       - name: Post Moltbook comment
         if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'evening'
         run: python jobs/moltbook_comment.py
