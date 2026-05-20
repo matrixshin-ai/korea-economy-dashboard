@@ -326,6 +326,25 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 - 토큰 자체는 정상 (디버그 런에서 /rest/v1/user 200 확인)
 - 수정: 최대 3회 retry, backoff 5→10→20초, 401/429/5xx 모두 대상
 
+### 2026-05-20
+
+**Obsidian daily vault 자동 연동 구축**
+
+- `jobs/export_to_daily_vault.py` 신규 작성
+  - 소스: `cached_summary_kr.json` (나레이션 한국어 브리핑 전문)
+  - 대상: `matrixshin-ai/obsidian-vault` 레포의 `daily/YYYY-MM-DD-economy-briefing.md`
+  - GitHub Contents API로 직접 push (파일 존재 시 update, 없으면 create)
+  - 첫 줄 # 헤더 자동 제거, YAML frontmatter 포함
+- `daily-update.yml` 스텝 추가
+  - cron 추가: `0 9 * * 1-5` (KST 18:00 평일)
+  - runtype `obsidian` 조건 추가 (UTC 08:30~09:30)
+  - Export 스텝 조건: `steps.runtype.outputs.type == 'obsidian'`
+- GitHub Secret `VAULT_PAT` 등록 (`matrixshin-ai/korea-economy-dashboard`)
+- `obsidian-vault` 레포에 `daily/` 폴더 생성 (집 PC에서 push)
+- LLMwiki `OBSIDIAN_SOURCES_DIR` 확장
+  - 기존: `Clippings`
+  - 변경: `Economy, JAMnomics, daily, Clippings` (4개 폴더)
+
 ### 2026-04-30
 
 **push_to_dashboard.py: cp949 인코딩 오류 근본 해결**
