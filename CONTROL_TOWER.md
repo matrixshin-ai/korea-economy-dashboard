@@ -345,6 +345,11 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
   - 기존: `Clippings`
   - 변경: `Economy, JAMnomics, daily, Clippings` (4개 폴더)
 
+### 2026-05-19
+
+**LLM Wiki 구축**
+→ [[LLMWiki-Setup-Guide]]
+
 ### 2026-04-30
 
 **push_to_dashboard.py: cp949 인코딩 오류 근본 해결**
