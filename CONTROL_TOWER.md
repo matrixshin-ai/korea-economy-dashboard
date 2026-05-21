@@ -77,6 +77,7 @@
 15:30 KST      장 마감 → 지표 확정
 16:50 KST  [A] Dashboard evening 런 (스케줄 fallback)
 ~18:00 KST [D] YouTube (OpsGuard 자동 복구 fallback)
+18:00 KST  [E] Obsidian daily export (obsidian 런, 장 마감 + OCR 반영 확인 후 daily/ push)
 22:00 KST      OpsGuard 일일 리포트
 ```
 
@@ -123,7 +124,7 @@
 | ID | 체크 | 설명 |
 |----|------|------|
 | D-1 | Worker Health | 워커 HTTP health |
-| D-2 | Cron Run | GitHub Actions cron 최근 실행 |
+| D-2 | Cron Run | GitHub Actions cron 최근 실행. 미실행 감지 시 Fly.io `/api/pipeline/trigger`에 직접 HTTP POST로 자동 복구 — GHA를 거치지 않으므로 Actions 로그에 흔적 없음 |
 | D-3 | Video Published | 당일 영상 게시 여부 |
 | D-4 | Pipeline Status | 파이프라인 완료/진행 상태 |
 | D-5 | Warmup | warmup 엔드포인트 |
@@ -213,6 +214,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 17 | YouTube playlist 추가 403 — OAuth 토큰에 PlaylistItem.Insert 스코프 부족 | youtube-automation | 낮음 | 미해결 |
 | 18 | OpsGuard A-7 warmup 자동 복구 대상 /api/warmup 404 — 실제 복구 미작동 | opsguard | 낮음 | 미해결 |
 | 19 | OCR → Dashboard 자동 트리거 gap — push 후 수동 dispatch 또는 16:50 스케줄 대기 필요 | ocr-automation + dashboard | 낮음 | 관찰 중 |
+| 20 | OpsGuard D-2 자동복구가 이벤트 기반 파이프라인과 충돌 가능 — D-2 체크(~18:00 KST)가 Fly.io 직접 POST로 YouTube 트리거하나, 정상 흐름에서는 19:37 KST evening 런이 트리거함. YouTube 중복 실행 원인 중 하나 | opsguard + youtube | 중간 | 미해결 |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -243,6 +245,21 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-21
+
+**미스터리 실행 원인 확인 (OpsGuard D-2 자동복구)**
+- OpsGuard가 D-2(YouTube 미실행) 감지 시 Fly.io `/api/pipeline/trigger`에 직접 HTTP POST
+- GHA를 거치지 않으므로 Actions 로그에 흔적 없음, `matrixshin-ai` 계정 트리거도 아님
+- 매번 18:00 KST 전후 발생 → OpsGuard D-2 체크 시각과 일치
+- 현재 이벤트 기반 파이프라인(19:37 KST evening 런)과 충돌 가능성 있음 → 이슈 #20 등록
+
+**Obsidian daily export 버그 수정**
+- 원인 1: runtype 판별에서 obsidian 분기(UTC 08:30~09:30)가 evening 조건(HOUR_UTC 7~11)에 가로채여 dead code였음
+- 수정 1: daily-update.yml runtype 판별 순서 변경 — obsidian 분기를 evening보다 앞으로 이동
+- 원인 2: cached_summary_kr.json이 장 마감 전 버전일 수 있어 불완전한 브리핑이 push될 위험
+- 수정 2: export_to_daily_vault.py에 가드 추가 — 오늘 날짜(KST) 확인 + KST 15:30 이후인지 확인, 미충족 시 push 차단
+- 결과: 18:00 KST obsidian 런이 매일 1회 장 마감 후 브리핑만 daily/에 push
 
 ### 2026-05-15
 
@@ -487,7 +504,49 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 
 ---
 
-## 11. 참고 문서
+## 11. Obsidian LLM Wiki
+
+> 상세 가이드: `C:\Users\minsi\Documents\obsidian-vault\LLMWiki-Setup-Guide.md`
+
+### 구축 완료 항목
+
+| 항목 | 상태 |
+|------|------|
+| Obsidian vault (`matrixshin-ai/obsidian-vault`) GitHub 동기화 | 완료 |
+| Obsidian Git 플러그인 (Auto commit/push 10분) | 완료 |
+| LLM Wiki (`obsidian-wiki/`) 설치 및 `.env` 설정 | 완료 |
+| Obsidian Web Clipper (기사 → `Clippings/` 자동 저장) | 완료 |
+| Zotero + Obsidian Integration (PDF/논문 수집) | 완료 |
+| Claude Code Integration 플러그인 (Windows npm 경로) | 완료 |
+| korea-economy-dashboard → `daily/` 브리핑 자동 push | 완료 (2026-05-21 runtype 버그 수정) |
+
+### OBSIDIAN_SOURCES_DIR (현재 설정)
+
+```
+Economy/, JAMnomics/, daily/, Clippings/
+```
+
+### 핵심 명령어
+
+| 명령어 | 용도 |
+|--------|------|
+| `/wiki-status` | 미수집 자료 및 페이지 현황 확인 |
+| `/wiki-ingest` | 새 자료 → Wiki 페이지 변환 |
+| `/wiki-query` | Wiki에 질문 |
+| `/wiki-lint` | 품질 검사 (모순, 고립 페이지) |
+
+> **실행 위치:** 터미널 Claude Code (Obsidian 내부 Claude Code 아님)
+
+### 향후 계획
+
+- [ ] daily/ export 정상 작동 확인 필요 (오늘 18:00 KST 첫 실행 예정)
+- [ ] Economy 폴더 전체 ingest
+- [ ] JAMnomics ingest (Economy와 cross-link)
+- [ ] `/wiki-lint` 실행으로 품질 점검
+
+---
+
+## 12. 참고 문서
 
 로컬 Downloads 폴더에 스펙 문서들 존재:
 - orchestration-agent-plan.md
