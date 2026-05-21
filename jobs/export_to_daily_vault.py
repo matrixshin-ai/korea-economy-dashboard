@@ -39,6 +39,17 @@ content_md = "\n".join([
     narration,
 ])
 
+briefing_date = cache.get("date", "")
+if briefing_date != today:
+    print(f"WARNING: cached_summary_kr.json date ({briefing_date}) != today ({today}). Skipping push.")
+    raise SystemExit(0)
+
+now_kst = datetime.now(KST)
+market_close = now_kst.replace(hour=15, minute=30, second=0, microsecond=0)
+if now_kst < market_close:
+    print(f"WARNING: Current KST time {now_kst.strftime('%H:%M')} is before 15:30. Skipping push.")
+    raise SystemExit(0)
+
 content_b64 = base64.b64encode(content_md.encode("utf-8")).decode("ascii")
 
 headers = {
