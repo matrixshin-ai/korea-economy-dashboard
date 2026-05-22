@@ -14,19 +14,11 @@ import yfinance as yf
 
 OUTPUT_FILE = "latest_indicators.json"
 
-# BOK ECOS API indicator definitions
+# BOK ECOS API indicator definitions (KOSPI/KOSDAQ fetched via yfinance — see fetch_korean_stocks)
 BOK_INDICATORS = [
     {
         "stat_code": "722Y001", "item_code": "0101000",
         "id": "kr_base_rate", "name": "한국 기준금리", "category": "rate",
-    },
-    {
-        "stat_code": "802Y001", "item_code": "0001000",
-        "id": "kospi", "name": "KOSPI", "category": "stock",
-    },
-    {
-        "stat_code": "802Y001", "item_code": "0089000",
-        "id": "kosdaq", "name": "KOSDAQ", "category": "stock",
     },
     {
         "stat_code": "731Y001", "item_code": "0000001",
@@ -41,6 +33,12 @@ BOK_INDICATORS = [
         "id": "kr_10y", "name": "국고채 10년", "category": "rate",
     },
 ]
+
+# BOK ECOS fallback config for KOSPI/KOSDAQ (used only when yfinance fails)
+_BOK_STOCK_FALLBACK = {
+    "kospi":  {"stat_code": "802Y001", "item_code": "0001000", "name": "KOSPI"},
+    "kosdaq": {"stat_code": "802Y001", "item_code": "0089000", "name": "KOSDAQ"},
+}
 
 
 def get_yahoo_data(ticker: str, name: str, category: str, id_override: str = None):
@@ -158,6 +156,86 @@ def fetch_bok_indicators():
     return results
 
 
+def fetch_korean_stocks() -> list:
+    """Fetch KOSPI (^KS11) and KOSDAQ (^KQ11) from yfinance.
+
+    Falls back to BOK ECOS (802Y001) if yfinance fails.
+    BOK ECOS has a T+1 publication lag; yfinance provides same-day closing prices.
+    """
+    STOCKS = [
+        ("^KS11", "kospi",  "KOSPI"),
+        ("^KQ11", "kosdaq", "KOSDAQ"),
+    ]
+    results = []
+
+    for ticker, ind_id, name in STOCKS:
+        item = None
+        try:
+            hist = yf.Ticker(ticker).history(period="6mo")
+            if not hist.empty and len(hist) >= 2:
+                close = float(hist["Close"].iloc[-1])
+                prev_close = float(hist["Close"].iloc[-2])
+                change_pct = (close - prev_close) / prev_close * 100
+
+                step = max(1, len(hist) // 30)
+                trend = [
+                    {"date": idx.strftime("%Y-%m-%d"), "value": round(float(row["Close"]), 2)}
+                    for i, (idx, row) in enumerate(hist.iterrows())
+                    if i == 0 or i == len(hist) - 1 or i % step == 0
+                ]
+                item = {
+                    "id": ind_id,
+                    "name": name,
+                    "value": f"{close:,.2f}",
+                    "change": round(change_pct, 2),
+                    "category": "stock",
+                    "trend": trend,
+                }
+                print(f"yfinance: {name} ({ticker}) = {close:,.2f} ({change_pct:+.2f}%)")
+        except Exception as e:
+            print(f"yfinance {ticker}: error - {e}")
+
+        if item is None:
+            # BOK ECOS fallback (T+1 lag)
+            api_key = os.environ.get("BOK_ECOS_API_KEY")
+            if api_key:
+                fb = _BOK_STOCK_FALLBACK[ind_id]
+                try:
+                    end_date = datetime.now().strftime("%Y%m%d")
+                    start_date = (datetime.now() - timedelta(days=180)).strftime("%Y%m%d")
+                    url = (
+                        f"https://ecos.bok.or.kr/api/StatisticSearch/{api_key}/json/kr"
+                        f"/1/200/{fb['stat_code']}/D/{start_date}/{end_date}/{fb['item_code']}"
+                    )
+                    rows = requests.get(url, timeout=15).json().get("StatisticSearch", {}).get("row", [])
+                    if rows:
+                        step = max(1, len(rows) // 30)
+                        trend = [
+                            {"date": f"{r['TIME'][:4]}-{r['TIME'][4:6]}-{r['TIME'][6:8]}", "value": float(r["DATA_VALUE"])}
+                            for i, r in enumerate(rows)
+                            if i == 0 or i == len(rows) - 1 or i % step == 0
+                        ]
+                        current_val = float(rows[-1]["DATA_VALUE"])
+                        prev_val = float(rows[-2]["DATA_VALUE"]) if len(rows) > 1 else current_val
+                        change_pct = (current_val - prev_val) / prev_val * 100 if prev_val else 0
+                        item = {
+                            "id": ind_id,
+                            "name": name,
+                            "value": f"{current_val:,.2f}",
+                            "change": round(change_pct, 2),
+                            "category": "stock",
+                            "trend": trend,
+                        }
+                        print(f"BOK fallback: {name} = {current_val:,.2f} (T+1 lag)")
+                except Exception as e:
+                    print(f"BOK fallback {ind_id}: error - {e}")
+
+        if item:
+            results.append(item)
+
+    return results
+
+
 def _load_cached_indicator(output_file: str, indicator_id: str):
     """기존 JSON 파일에서 특정 indicator의 마지막 값을 읽어 반환 (FRED 차단 시 fallback)"""
     try:
@@ -260,9 +338,11 @@ def update_indicators():
     if fred_rate:
         indicators.append(fred_rate)
 
-    # Korean indicators from BOK ECOS API
-    bok_data = fetch_bok_indicators()
-    indicators.extend(bok_data)
+    # Korean stock indices: yfinance (same-day) with BOK ECOS fallback (T+1)
+    indicators.extend(fetch_korean_stocks())
+
+    # Korean rates and currency from BOK ECOS API
+    indicators.extend(fetch_bok_indicators())
 
     indicators.sort(key=lambda x: (
         0 if x["category"] == "stock" else
