@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-05-15
+> Last updated: 2026-05-22
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -215,6 +215,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 18 | OpsGuard A-7 warmup 자동 복구 대상 /api/warmup 404 — 실제 복구 미작동 | opsguard | 낮음 | 미해결 |
 | 19 | OCR → Dashboard 자동 트리거 gap — push 후 수동 dispatch 또는 16:50 스케줄 대기 필요 | ocr-automation + dashboard | 낮음 | 관찰 중 |
 | 20 | OpsGuard D-2 자동복구가 이벤트 기반 파이프라인과 충돌 가능 — D-2 체크(~18:00 KST)가 Fly.io 직접 POST로 YouTube 트리거하나, 정상 흐름에서는 19:37 KST evening 런이 트리거함. YouTube 중복 실행 원인 중 하나 | opsguard + youtube | 중간 | 미해결 |
+| 21 | GHA evening cron 만성 지연 (2~4시간) — schedule 이벤트 낮은 우선순위 때문. OpsGuard VM에서 KST 16:30 workflow_dispatch 트리거로 해결 예정 (yfinance 교체 확인 후 진행) | dashboard + opsguard | 높음 | 미해결 |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -226,6 +227,8 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 |---|------|---------|----------|
 | 1 | opsguard README.md 타임라인 05:00 -> 23:00 수정 | opsguard | 중간 |
 | 5 | OpsGuard 알림 타이밍 조정 | opsguard | 중간 |
+| 6 | OpsGuard VM KST 16:30 workflow_dispatch 트리거 구현 — yfinance 정상 작동 확인 후 진행 | opsguard + dashboard | 높음 |
+| 7 | OpsGuard D-2 체크 시각 18:00 → 20:30으로 변경 — 16:30 트리거 구현 후 함께 조정 | opsguard | 중간 |
 
 > 프로젝트별 보류 작업은 각 프로젝트 문서 참조.
 
@@ -260,6 +263,21 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 - moltbook_comment.py 로그에 "Gemini" 문자열 잔존 → 실제 API 호출 여부 확인 필요
 - OpsGuard D-2 자동복구(Fly.io 직접 POST) → 이슈 #20 등록
 - YouTube 중복 실행(19:58 dispatch + 20:42 schedule) → YouTube 자체 중복 방지 로직 확인 필요
+
+**KOSPI/KOSDAQ 데이터 소스 교체: BOK ECOS → yfinance**
+- 원인: BOK ECOS T+1 구조 — 당일 장마감 데이터가 다음날 아침에야 반영됨
+- 수정: fetch_indicators.py에서 ^KS11(KOSPI), ^KQ11(KOSDAQ)을 yfinance로 교체
+- fallback: yfinance 실패 시 BOK ECOS 호출 (T+1 경고 출력)
+- 유지: latest_indicators.json 구조 동일, Market Tape 등 다운스트림 영향 없음
+- GHA Ubuntu 환경에서 SSL 패치 불필요 (로컬 Windows 한글 경로 문제만 해당)
+- 미확인: 실제 GHA 런에서 yfinance 정상 작동 여부 → 월요일(2026-05-25) 확인 필요
+
+**5/22 파이프라인 분석 및 미해결 이슈 정리**
+- GHA evening cron 만성 지연 확인 (2~4시간, 05-11부터 시작, 인시던트와 무관)
+- 근본 원인: schedule 이벤트는 workflow_dispatch보다 낮은 우선순위
+- OpsGuard D-2 자동복구(18:00 KST Fly.io POST)가 evening 런보다 먼저 YouTube 트리거
+- 16:30 workflow_dispatch 트리거 방안 검토했으나 BOK ECOS T+1 발견으로 보류
+  → yfinance 교체로 해결, 월요일 확인 후 16:30 트리거 재검토 예정
 
 ### 2026-05-21
 
