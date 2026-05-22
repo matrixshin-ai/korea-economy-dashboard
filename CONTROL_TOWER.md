@@ -77,8 +77,8 @@
 15:30 KST      장 마감 → 지표 확정
 16:50 KST  [A] Dashboard evening 런 (스케줄 fallback)
 ~18:00 KST [D] YouTube (OpsGuard 자동 복구 fallback)
-18:00 KST  [E] Obsidian daily export (obsidian 런, 장 마감 + OCR 반영 확인 후 daily/ push)
 22:00 KST      OpsGuard 일일 리포트
+23:00 KST  [E] Obsidian daily export (독립 워크플로우, GHA 지연 허용, KST 15:30 가드)
 ```
 
 > **2026-05-15 변경**: OCR push 후 즉시 dispatch 복원 (5/12 제거 → 원복).
@@ -245,6 +245,21 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-22
+
+**obsidian-export.yml 독립 워크플로우 분리**
+- 원인: GHA 지연(최대 3h+)으로 obsidian 런 탐지 창(1시간) 이탈 → 이틀 연속 export 실패
+- 수정: daily-update.yml에서 obsidian export 스텝 및 runtype 판별 로직 완전 제거
+- 신규: .github/workflows/obsidian-export.yml 생성 (cron: UTC 14:00 = KST 23:00, 평일)
+- 효과: GHA 지연 7시간 30분까지 허용, runtype 판단 불필요
+- daily-update.yml cron 2개로 단순화: morning(07:00), evening(16:50)
+
+**5/21 파이프라인 분석 결과 기록**
+- KR summary에서 주식시장 섹션 누락 확인 → 당분간 관찰 예정
+- moltbook_comment.py 로그에 "Gemini" 문자열 잔존 → 실제 API 호출 여부 확인 필요
+- OpsGuard D-2 자동복구(Fly.io 직접 POST) → 이슈 #20 등록
+- YouTube 중복 실행(19:58 dispatch + 20:42 schedule) → YouTube 자체 중복 방지 로직 확인 필요
 
 ### 2026-05-21
 
@@ -518,7 +533,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | Obsidian Web Clipper (기사 → `Clippings/` 자동 저장) | 완료 |
 | Zotero + Obsidian Integration (PDF/논문 수집) | 완료 |
 | Claude Code Integration 플러그인 (Windows npm 경로) | 완료 |
-| korea-economy-dashboard → `daily/` 브리핑 자동 push | 완료 (2026-05-21 runtype 버그 수정) |
+| korea-economy-dashboard → `daily/` 브리핑 자동 push | 완료 (2026-05-22 obsidian-export.yml 독립 워크플로우로 분리) |
 
 ### OBSIDIAN_SOURCES_DIR (현재 설정)
 
@@ -539,7 +554,7 @@ Economy/, JAMnomics/, daily/, Clippings/
 
 ### 향후 계획
 
-- [ ] daily/ export 정상 작동 확인 필요 (오늘 18:00 KST 첫 실행 예정)
+- [ ] 2026-05-22 KST 23:00 첫 실행 예정 — 내일 아침 확인 필요
 - [ ] Economy 폴더 전체 ingest
 - [ ] JAMnomics ingest (Economy와 cross-link)
 - [ ] `/wiki-lint` 실행으로 품질 점검
