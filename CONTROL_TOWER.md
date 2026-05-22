@@ -66,23 +66,24 @@
 ## 3. 일일 타임라인
 
 ```
-23:00 KST  [C] Moltbook 파이프라인 (collect -> draft -> Telegram 미리보기)
-07:00 KST  [A] Dashboard 1차 (RSS only, 스케줄 트리거) → 오전 summary 제공
-~14:00 KST     기재부 PDF 도착
-14:30 KST  [B] OCR 파이프라인
-        ↓  push_to_dashboard.py git push 완료 후 daily-update.yml 즉시 dispatch
-       [A] Dashboard 2차 (이벤트 트리거, OCR 반영 + AI 요약 + Moltbook 댓글)
-        ↓  EN summary 재생성 감지 시 youtube-automation pipeline.yml 자동 dispatch
-       [D] YouTube 파이프라인 (이벤트 트리거)
-15:30 KST      장 마감 → 지표 확정
-16:50 KST  [A] Dashboard evening 런 (스케줄 fallback)
-~18:00 KST [D] YouTube (OpsGuard 자동 복구 fallback)
-22:00 KST      OpsGuard 일일 리포트
-23:00 KST  [E] Obsidian daily export (독립 워크플로우, GHA 지연 허용, KST 15:30 가드)
+23:00 KST / 14:00 UTC  [C] Moltbook 파이프라인 (collect -> draft -> Telegram 미리보기)
+07:00 KST / 22:00 UTC  [A] Dashboard morning 런 (RSS/Raindrop 수집 + 오전 브리핑)
+14:30 KST / 05:30 UTC  [B] OCR 파이프라인 (로컬 PC, 기재부 PDF)
+14:33 KST / 05:33 UTC       push_to_dashboard.py → workflow_dispatch (runtype=unknown, YouTube 미트리거)
+15:30 KST / 06:30 UTC       한국 주식시장 마감 — Yahoo Finance 데이터 확정
+16:00 KST / 07:00 UTC  [F] OpsGuard dispatch_dashboard_evening 실행
+                             → 15:50 KST 이후 성공한 런 없으면 workflow_dispatch 전송
+16:02 KST / 07:02 UTC  [A] Dashboard evening 런 (장마감 지수 + OCR + RSS 포함 브리핑 생성)
+16:07 KST / 07:07 UTC       KR/EN summary 생성 완료 → YouTube dispatch
+16:10 KST / 07:10 UTC  [D] YouTube 파이프라인 시작
+16:40 KST / 07:40 UTC       YouTube 영상 업로드 완료 (예상)
+18:00 KST / 09:00 UTC       OpsGuard D-2 체크 — YouTube 런 있음 → 자동복구 스킵
+23:00 KST / 14:00 UTC  [E] Obsidian daily export (obsidian-export.yml)
 ```
 
-> **2026-05-15 변경**: OCR push 후 즉시 dispatch 복원 (5/12 제거 → 원복).
-> 16:50 evening 런은 스케줄 fallback으로 유지. OpsGuard YouTube 자동 복구도 fallback으로 병존.
+> **2026-05-22 변경**: OpsGuard KST 16:00 dispatch로 GHA cron 지연(2~4시간) 우회.
+> YouTube 고객 전달 목표: 16:40 KST (기존 20:30 대비 약 4시간 단축)
+> 기존 GHA cron(`50 7 * * 1-6`)은 fallback으로 유지.
 
 ---
 
@@ -215,7 +216,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 18 | OpsGuard A-7 warmup 자동 복구 대상 /api/warmup 404 — 실제 복구 미작동 | opsguard | 낮음 | 미해결 |
 | 19 | OCR → Dashboard 자동 트리거 gap — push 후 수동 dispatch 또는 16:50 스케줄 대기 필요 | ocr-automation + dashboard | 낮음 | 관찰 중 |
 | 20 | OpsGuard D-2 자동복구가 이벤트 기반 파이프라인과 충돌 가능 — D-2 체크(~18:00 KST)가 Fly.io 직접 POST로 YouTube 트리거하나, 정상 흐름에서는 19:37 KST evening 런이 트리거함. YouTube 중복 실행 원인 중 하나 | opsguard + youtube | 중간 | 미해결 |
-| 21 | GHA evening cron 만성 지연 (2~4시간) — schedule 이벤트 낮은 우선순위 때문. OpsGuard VM에서 KST 16:30 workflow_dispatch 트리거로 해결 예정 (yfinance 교체 확인 후 진행) | dashboard + opsguard | 높음 | 미해결 |
+| 21 | GHA evening cron 만성 지연 (2~4시간) — schedule 이벤트 낮은 우선순위 때문. OpsGuard VM에서 KST 16:30 workflow_dispatch 트리거로 해결 예정 (yfinance 교체 확인 후 진행) | dashboard + opsguard | 높음 | **해결** (2026-05-22 OpsGuard 16:00 KST dispatch 구현, 월요일 확인 예정) |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -227,7 +228,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 |---|------|---------|----------|
 | 1 | opsguard README.md 타임라인 05:00 -> 23:00 수정 | opsguard | 중간 |
 | 5 | OpsGuard 알림 타이밍 조정 | opsguard | 중간 |
-| 6 | OpsGuard VM KST 16:30 workflow_dispatch 트리거 구현 — yfinance 정상 작동 확인 후 진행 | opsguard + dashboard | 높음 |
+| 6 | OpsGuard VM KST 16:00 workflow_dispatch 트리거 구현 완료 (2026-05-22) — 2026-05-26(월) 정상 작동 확인 필요 | opsguard + dashboard | 높음 |
 | 7 | OpsGuard D-2 체크 시각 18:00 → 20:30으로 변경 — 16:30 트리거 구현 후 함께 조정 | opsguard | 중간 |
 
 > 프로젝트별 보류 작업은 각 프로젝트 문서 참조.
@@ -278,6 +279,17 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 - OpsGuard D-2 자동복구(18:00 KST Fly.io POST)가 evening 런보다 먼저 YouTube 트리거
 - 16:30 workflow_dispatch 트리거 방안 검토했으나 BOK ECOS T+1 발견으로 보류
   → yfinance 교체로 해결, 월요일 확인 후 16:30 트리거 재검토 예정
+
+**OpsGuard KST 16:00 Dashboard evening dispatch 구현**
+- 신규: actions/dispatch.py — dispatch_dashboard_evening() 함수
+  - KST 15:50 이후 성공한 런 있으면 스킵 (중복 방지)
+  - in_progress/queued 런 있으면 스킵
+  - 해당 없으면 daily-update.yml workflow_dispatch POST
+  - 결과 Telegram 알림
+- 수정: scheduler.py — CronTrigger(hour=16, minute=0, day_of_week="mon-sat", timezone=KST)
+- 기존 GHA cron(50 7 * * 1-6) fallback으로 유지
+- 배포 완료, 2026-05-26(월) KST 16:00 Telegram 알림으로 확인 필요
+- 효과: GHA cron 지연(2~4시간) 우회, YouTube 고객 전달 16:40 KST 목표 (기존 20:30)
 
 ### 2026-05-21
 
