@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: '0 22 * * 0-5'   # 22:00 UTC = 07:00 KST next day (Mon-Sat morning)
     - cron: '50 7 * * 1-6'   # 07:50 UTC = 16:50 KST (Mon-Sat evening)
-    - cron: '0 9 * * 1-5'   # 09:00 UTC = 18:00 KST (Mon-Fri obsidian export)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -24,9 +23,6 @@ jobs:
           if [ "$HOUR_UTC" -ge "21" ] || [ "$HOUR_UTC" -le "1" ]; then
             echo "type=morning" >> $GITHUB_OUTPUT
             echo "Running morning (07:00 KST, ±2h tolerance) update — RSS only"
-          elif [ "$TOTAL_MIN" -ge "510" ] && [ "$TOTAL_MIN" -le "570" ]; then
-            echo "type=obsidian" >> $GITHUB_OUTPUT
-            echo "Running obsidian export (18:00 KST) update"
           elif [ "$HOUR_UTC" -ge "7" ] && [ "$HOUR_UTC" -le "11" ]; then
             echo "type=evening" >> $GITHUB_OUTPUT
             echo "Running evening (16:50 KST, ±2h tolerance) update — full with OCR"
@@ -136,13 +132,6 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Export to Obsidian daily vault
-        if: steps.runtype.outputs.type == 'obsidian'
-        run: python jobs/export_to_daily_vault.py
-        continue-on-error: true
-        env:
-          VAULT_PAT: ${{ secrets.VAULT_PAT }}
 
       - name: Post Moltbook comment
         if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'evening'

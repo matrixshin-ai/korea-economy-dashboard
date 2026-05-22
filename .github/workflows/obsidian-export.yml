@@ -1,0 +1,28 @@
+name: Obsidian Daily Export
+
+on:
+  schedule:
+    - cron: '0 14 * * 1-5'  # UTC 14:00 = KST 23:00 (Mon-Fri)
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Export to Obsidian daily vault
+        run: python jobs/export_to_daily_vault.py
+        env:
+          VAULT_PAT: ${{ secrets.VAULT_PAT }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
