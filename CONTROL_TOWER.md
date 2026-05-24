@@ -16,8 +16,10 @@
 - 현재 시각은 Claude가 UTC 기준으로 직접 확인 후 KST(+9)로 변환하여 사용
 - 사용자가 시각을 언급했더라도 오래된 메시지일 수 있으므로 Claude가 현재 UTC로 재계산
 - 오늘 날짜는 사용자가 알려준 날짜를 우선 사용. 모르면 현재 UTC 기준으로 KST 날짜 계산
-- 모든 시간은 KST(UTC+9) 기준으로 표시
-- GitHub Actions 로그는 UTC이므로 반드시 +9시간 변환
+- 모든 시각 표기는 KST(UTC+9)와 UTC를 동시에 표시한다
+  예) 16:00 KST / 07:00 UTC
+- KST 단독 또는 UTC 단독 표기는 금지
+- GitHub Actions 로그는 UTC 기준이므로 반드시 +9시간 변환하여 KST 병기
 - UTC 22:00 = KST 07:00 (오전 런)
 - UTC 07:50 = KST 16:50 (저녁 런)
 
@@ -249,6 +251,21 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-24
+
+**GitHub PAT 2개 만료 임박 — 갱신 완료**
+
+- 대상 토큰:
+  - `opsguard-fallback`: 2026-05-27 만료 → 갱신 완료
+  - `moltbook-vm`: 2026-05-25 만료 → 갱신 완료
+- 두 토큰 모두 OpsGuard `GITHUB_PAT` 변수로 사용됨
+  - `checks/ocr_pipeline.py` (B-1, B-2 체크)
+  - `checks/youtube.py` (D-6 체크)
+  - `actions/notify.py` (GitHub Issue fallback 알림)
+  - `actions/dispatch.py` (workflow dispatch 트리거)
+- `~/opsguard/.env` GITHUB_PAT 교체 + 중복 라인 정리 (2줄 → 1줄)
+- `opsguard.service` 재시작 후 정상 기동 확인
 
 ### 2026-05-22
 
