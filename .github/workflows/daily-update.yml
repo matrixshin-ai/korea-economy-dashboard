@@ -150,6 +150,13 @@ jobs:
           git diff --staged --quiet || git commit -m "Daily data update $(date +'%Y-%m-%d')"
           git push
 
+      - name: Wait for Vercel deployment
+        if: steps.summary.outputs.en_changed == 'true' && steps.runtype.outputs.type == 'evening'
+        run: |
+          echo "Vercel 배포 완료 대기 중 (120초)..."
+          sleep 120
+          echo "대기 완료, YouTube pipeline 트리거"
+
       - name: Trigger YouTube pipeline
         if: steps.summary.outputs.en_changed == 'true' && steps.runtype.outputs.type == 'evening'
         continue-on-error: true
