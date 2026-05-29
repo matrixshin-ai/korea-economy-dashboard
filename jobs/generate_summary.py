@@ -159,10 +159,14 @@ def remove_korean_text(text: str) -> str:
 
 MODEL = "claude-haiku-4-5-20251001"
 
+_529_BACKOFF = [30, 60, 120, 240]  # seconds between retries for 529 Overloaded
+
 
 def _call_claude(client: anthropic.Anthropic, prompt: str, max_retries: int = 3) -> str:
-    """Call Claude API with exponential backoff retry for transient errors."""
-    for attempt in range(1, max_retries + 1):
+    """Call Claude API with retry: 529→5회/30-240s, 5xx→3회/지수, 4xx→즉시 raise."""
+    attempt_529 = 0
+    attempt_5xx = 0
+    while True:
         try:
             message = client.messages.create(
                 model=MODEL,
@@ -170,14 +174,33 @@ def _call_claude(client: anthropic.Anthropic, prompt: str, max_retries: int = 3)
                 messages=[{"role": "user", "content": prompt}],
             )
             return message.content[0].text
-        except (anthropic.APIStatusError, anthropic.APIConnectionError) as e:
-            if attempt < max_retries and getattr(e, "status_code", 500) >= 500:
-                wait = 2 ** attempt
-                print(f"    Claude API error (attempt {attempt}/{max_retries}): {e}")
+        except anthropic.APIStatusError as e:
+            status = getattr(e, "status_code", 0)
+            if status == 529:
+                attempt_529 += 1
+                if attempt_529 > 5:
+                    raise
+                wait = _529_BACKOFF[min(attempt_529 - 1, len(_529_BACKOFF) - 1)]
+                print(f"    529 Overloaded, {wait}초 후 재시도 ({attempt_529}/5)...")
+                time.sleep(wait)
+            elif status >= 500:
+                attempt_5xx += 1
+                if attempt_5xx >= max_retries:
+                    raise
+                wait = 2 ** attempt_5xx
+                print(f"    Claude API error (attempt {attempt_5xx}/{max_retries}): {e}")
                 print(f"    Retrying in {wait}s...")
                 time.sleep(wait)
             else:
                 raise
+        except anthropic.APIConnectionError as e:
+            attempt_5xx += 1
+            if attempt_5xx >= max_retries:
+                raise
+            wait = 2 ** attempt_5xx
+            print(f"    Claude API error (attempt {attempt_5xx}/{max_retries}): {e}")
+            print(f"    Retrying in {wait}s...")
+            time.sleep(wait)
 
 
 def extract_headline(text: str) -> tuple[str, str]:
