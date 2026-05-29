@@ -28,6 +28,7 @@ KR_PROMPT_TEMPLATE = """당신은 한국의 저명한 경제 전문 앵커입니
 - 마무리에는 투자자와 일반 시청자를 위한 시사점 제시
 - 반드시 2000-2500자 분량으로 작성 (5분 읽기 분량)
 - 문단 구분을 명확히 하여 읽기 쉽게 구성
+- Raindrop 핵심이슈는 전문가가 직접 선별한 중요 기사입니다. 반드시 나레이션에 포함하세요.
 
 뉴스 내용:
 {news_content}"""
@@ -44,6 +45,7 @@ Requirements:
 - Write exactly 800-1000 words (5-minute reading length)
 - Always include specific percentage figures and numeric rates (e.g. 2.75%, +0.4%, 3.18%) when discussing economic indicators. Do not round or omit percentage values.
 - Write ONLY in English. Do NOT include any Korean characters.
+- Raindrop 핵심이슈는 전문가가 직접 선별한 중요 기사입니다. 반드시 나레이션에 포함하세요. (The Raindrop section contains expert-curated important articles. You MUST include them in the narration.)
 
 Format the English summary as follows:
 - Before the first ## section, write a single MAIN HEADLINE line prefixed with # (single hash):
@@ -115,11 +117,23 @@ def build_news_content(briefing: dict) -> str:
     lines = []
     lines.append(f"Date: {briefing.get('date', '')}")
 
-    lines.append("\n=== 오늘의 핵심이슈 (Key Headlines) ===")
-    for item in briefing.get("headlines", [])[:5]:
+    # Top 5 OCR headlines (keyword-scored, Raindrop excluded)
+    lines.append("\n=== 오늘의 핵심이슈 (Top 5 Headlines) ===")
+    for item in briefing.get("top5_headlines", []):
         title = item.get("title", "")
         summary = item.get("summary", "")
         lines.append(f"- {title}: {summary}")
+
+    # Raindrop — expert-curated, must be included in narration
+    raindrop_items = briefing.get("핵심이슈", {}).get("items", [])
+    if raindrop_items:
+        lines.append(
+            "\n=== Raindrop 핵심이슈 "
+            "(전문가가 직접 선별한 중요 기사 — 반드시 나레이션에 포함) ==="
+        )
+        for item in raindrop_items:
+            title = item.get("title", "")
+            lines.append(f"- {title}")
 
     for section, items in briefing.get("sections", {}).items():
         lines.append(f"\n=== {section} ===")
