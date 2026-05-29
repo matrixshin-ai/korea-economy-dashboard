@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-05-22
+> Last updated: 2026-05-29
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -219,6 +219,8 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 | 19 | OCR → Dashboard 자동 트리거 gap — push 후 수동 dispatch 또는 16:50 스케줄 대기 필요 | ocr-automation + dashboard | 낮음 | 관찰 중 |
 | 20 | OpsGuard D-2 자동복구가 이벤트 기반 파이프라인과 충돌 가능 — D-2 체크(~18:00 KST)가 Fly.io 직접 POST로 YouTube 트리거하나, 정상 흐름에서는 19:37 KST evening 런이 트리거함. YouTube 중복 실행 원인 중 하나 | opsguard + youtube | 중간 | 미해결 |
 | 21 | GHA evening cron 만성 지연 (2~4시간) — schedule 이벤트 낮은 우선순위 때문. OpsGuard VM에서 KST 16:30 workflow_dispatch 트리거로 해결 예정 (yfinance 교체 확인 후 진행) | dashboard + opsguard | 높음 | **해결** (2026-05-22 OpsGuard 16:00 KST dispatch 구현, 월요일 확인 예정) |
+| 22 | YouTube 스크립트에 장중 KOSPI 반영 — Commit+push 후 38초 내에 YouTube fetch 실행, Vercel 배포 완료(51초) 전에 이전 commit 버전 수신 | dashboard + youtube | 높음 | **해결** (2026-05-29 Commit+push 후 120초 대기 스텝 추가) |
+| 23 | OCR 기사가 LLM 입력에서 완전 누락 — Raindrop(score 80)이 headlines[] 상단 점유, select_top5_diverse()가 항상 Raindrop으로만 채워져 OCR top5 선정 불가 | dashboard | 높음 | **해결** (2026-05-29 render.py OCR_KEYWORD_RULES + importance_score, select_top5_diverse() Raindrop 완전 제외) |
 
 > 프로젝트별 이슈는 각 프로젝트 문서 참조.
 
@@ -230,7 +232,7 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 |---|------|---------|----------|
 | 1 | opsguard README.md 타임라인 05:00 -> 23:00 수정 | opsguard | 중간 |
 | 5 | OpsGuard 알림 타이밍 조정 | opsguard | 중간 |
-| 6 | OpsGuard VM KST 16:00 workflow_dispatch 트리거 구현 완료 (2026-05-22) — 2026-05-26(월) 정상 작동 확인 필요 | opsguard + dashboard | 높음 |
+| 6 | OpsGuard VM KST 16:00 workflow_dispatch 트리거 — 2026-05-29 16:05 KST 런 확인, 정상 작동 중 | opsguard + dashboard | 낮음 |
 | 7 | OpsGuard D-2 체크 시각 18:00 → 20:30으로 변경 — 16:30 트리거 구현 후 함께 조정 | opsguard | 중간 |
 
 > 프로젝트별 보류 작업은 각 프로젝트 문서 참조.
@@ -251,6 +253,33 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-29
+
+**OCR keyword scoring + Raindrop 분리 (render.py + generate_summary.py)**
+- 배경: OCR score는 네이버 매칭 정확도이지 기사 중요도가 아님
+  Raindrop이 전체 목록 상단 점유 → headlines[:5]가 항상 Raindrop으로 채워져 OCR 전체 무시
+- 수정 1 (render.py):
+  - OCR_KEYWORD_RULES 정의 (6개 섹션, 거시경제/재정 등 keyword rule 적용)
+  - score_ocr_by_keywords() 함수 추가 — 기사 제목에 키워드 weight 합산
+  - select_top5_diverse(): Raindrop 완전 제외, OCR에만 importance_score 적용 → top5 선정
+  - 대시보드 화면은 그대로 유지
+- 수정 2 (generate_summary.py):
+  - build_news_content(): top5(OCR 5건) + Raindrop 전체(별도 섹션) + sections 전체 → LLM 입력
+  - KR/EN 프롬프트: "Raindrop 핵심이슈는 전문가가 직접 선별한 중요 기사. 반드시 나레이션에 포함"
+- 테스트: tests/test_render.py 신규 22개 단위 테스트 전부 통과
+- 529 retry 로직 유실 후 재추가 (_529_BACKOFF = [30, 60, 120, 240])
+
+**Vercel 배포 대기 120초 추가 (daily-update.yml)**
+- 배경: YouTube 워커가 Vercel 배포 완료(51초) 전에 스크립트 fetch
+  → 이전 버전(장중 데이터)으로 YouTube 생성
+- 수정: Commit and push → 120초 대기 → Trigger YouTube pipeline
+- 조건: en_changed == 'true' && type == 'evening' 일 때만 적용
+
+**5/28 파이프라인 분석 결과**
+- YouTube KOSPI 수치 불일치 원인 확인 (Vercel 배포 전 fetch)
+- OCR이 LLM 입력에서 완전 누락되는 구조적 버그 발견 및 수정
+- obsidian-export 첫 성공 확인 (today/yesterday 허용 로직 적용)
 
 ### 2026-05-24
 
