@@ -27,6 +27,20 @@ export default function ReportPage() {
     },
   });
 
+  const { data: audioMeta } = useQuery<{ date: string; generated_at: string } | null>({
+    queryKey: ['/audio/briefing-meta.json'],
+    queryFn: async () => {
+      const res = await fetch('/audio/briefing-meta.json');
+      if (!res.ok) return null;
+      return res.json();
+    },
+    retry: false,
+    staleTime: 5 * 60 * 1000,
+  });
+
+  const todayKST = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+  const audioAvailable = lang === 'KR' && audioMeta?.date === todayKST;
+
   const currentContent = summaryData?.summary || '';
 
   useEffect(() => {
@@ -143,27 +157,31 @@ export default function ReportPage() {
                 >
                   {lang === 'KR' ? 'English' : '한국어'}
                 </Button>
-                <Button 
-                  size="sm" 
-                  className={isPlaying ? "bg-red-500 hover:bg-red-600 text-white h-8 w-8 p-0" : "h-8 w-8 p-0"}
-                  onClick={handlePlay}
-                  data-testid="button-audio-play"
-                  disabled={isLoading || !currentContent}
-                >
-                  {isPlaying ? <Square className="w-4 h-4" /> : <Play className="w-4 h-4" />}
-                </Button>
-                <Button 
-                  size="sm" 
-                  variant={isLooping ? "default" : "outline"}
-                  className={isLooping ? "h-8 w-8 p-0" : "h-8 w-8 p-0"}
-                  onClick={() => setIsLooping(!isLooping)}
-                  data-testid="button-audio-loop"
-                  title={lang === 'KR' ? '반복 재생' : 'Loop'}
-                >
-                  <Repeat className="w-4 h-4" />
-                </Button>
-                <Button 
-                  size="sm" 
+                {!audioAvailable && (
+                  <>
+                    <Button
+                      size="sm"
+                      className={isPlaying ? "bg-red-500 hover:bg-red-600 text-white h-8 w-8 p-0" : "h-8 w-8 p-0"}
+                      onClick={handlePlay}
+                      data-testid="button-audio-play"
+                      disabled={isLoading || !currentContent}
+                    >
+                      {isPlaying ? <Square className="w-4 h-4" /> : <Play className="w-4 h-4" />}
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant={isLooping ? "default" : "outline"}
+                      className={isLooping ? "h-8 w-8 p-0" : "h-8 w-8 p-0"}
+                      onClick={() => setIsLooping(!isLooping)}
+                      data-testid="button-audio-loop"
+                      title={lang === 'KR' ? '반복 재생' : 'Loop'}
+                    >
+                      <Repeat className="w-4 h-4" />
+                    </Button>
+                  </>
+                )}
+                <Button
+                  size="sm"
                   variant="outline"
                   className="h-8 w-8 p-0"
                   onClick={() => refetch()}
@@ -174,6 +192,15 @@ export default function ReportPage() {
                 </Button>
               </div>
             </div>
+            {audioAvailable && (
+              <audio
+                key={audioMeta?.date}
+                controls
+                preload="metadata"
+                className="w-full mt-3"
+                src="/audio/briefing-kr.mp3"
+              />
+            )}
           </CardHeader>
           
           <CardContent className="p-0 bg-white/50">
