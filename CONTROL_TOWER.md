@@ -1,6 +1,6 @@
 # CONTROL_TOWER.md -- Operations Control Tower
 
-> Last updated: 2026-05-29
+> Last updated: 2026-05-30
 > Purpose: 4개 앱 + OpsGuard의 전체 운영 상태, 연동 관계, 알려진 이슈, 보류 작업을 한 곳에 정리
 >
 > 프로젝트별 상세 문서:
@@ -253,6 +253,25 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 ---
 
 ## 10. 변경 이력
+
+### 2026-05-30
+
+**Google Cloud TTS 연동 — KR 브리핑 오디오 자동 생성**
+- 배경: 대시보드 Play 버튼이 Web Speech API 사용 → iOS 15초 버그, Android 음성팩 미설치 시 무음
+  고객에게 공유 가능한 오디오 URL 없음
+- 구현:
+  - jobs/generate_tts.py 신규 — Google Cloud TTS REST API, ko-KR-Wavenet-A, MP3 저장
+  - daily-update.yml evening 런에 Generate KR Audio 스텝 추가
+  - client/public/audio/briefing-kr.mp3 — Vercel에서 서빙
+  - client/public/audio/briefing-meta.json — 날짜 메타데이터
+  - Report.tsx + DailyReport.tsx — 오늘 날짜 mp3 있으면 &lt;audio controls&gt; 표시 (모바일 호환)
+  - EN 모드 또는 오디오 없으면 기존 Web Speech API 폴백
+- GCP 설정:
+  - 프로젝트: youtube-auto-487119
+  - 서비스 계정: korea-economy-tts@youtube-auto-487119.iam.gserviceaccount.com
+  - GitHub Secrets: GOOGLE_TTS_CREDENTIALS 추가
+- 고객 공유 URL: https://korea-economy-dashboard.vercel.app/audio/briefing-kr.mp3
+- 첫 실행: 오늘 16:00 KST / 07:00 UTC OpsGuard dispatch 런
 
 ### 2026-05-29
 
