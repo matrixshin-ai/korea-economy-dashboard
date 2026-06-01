@@ -23,7 +23,7 @@ META_PATH = os.path.join(AUDIO_DIR, "briefing-meta.json")
 TTS_ENDPOINT = "https://texttospeech.googleapis.com/v1/text:synthesize"
 SCOPES = ["https://www.googleapis.com/auth/cloud-platform"]
 VOICE_NAME = "ko-KR-Wavenet-A"
-MAX_CHARS = 4800  # Google TTS limit: 5000 chars, 버퍼 포함
+MAX_BYTES = 4900  # Google TTS limit: 5,000 bytes (UTF-8). 한글 3 bytes/char → ~1,633자 기준
 
 
 def clean_markdown(text: str) -> str:
@@ -56,6 +56,8 @@ def synthesize(text: str, token: str) -> bytes:
         },
         timeout=60,
     )
+    if not resp.ok:
+        print(f"  TTS API error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
     return base64.b64decode(resp.json()["audioContent"])
 
@@ -82,9 +84,11 @@ def main() -> None:
         return
 
     text = clean_markdown(raw_text)
-    if len(text) > MAX_CHARS:
-        print(f"  WARNING: text {len(text)} chars > {MAX_CHARS}, truncating")
-        text = text[:MAX_CHARS]
+    encoded = text.encode("utf-8")
+    if len(encoded) > MAX_BYTES:
+        print(f"  WARNING: text {len(encoded):,} bytes > {MAX_BYTES} bytes ({len(text):,} chars), truncating")
+        text = encoded[:MAX_BYTES].decode("utf-8", errors="ignore")
+        print(f"  Truncated to {len(text):,} chars / {len(text.encode('utf-8')):,} bytes")
 
     # 같은 날짜면 스킵
     if os.path.exists(META_PATH) and os.path.exists(AUDIO_PATH):
