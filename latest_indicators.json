@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T12:08:37.999550",
+  "updated_at": "2026-06-01T13:22:32.272148",
   "indicators": [
     {
       "id": "sp500",
@@ -358,7 +358,7 @@
       "id": "us_10y",
       "name": "미국 국채 10년",
       "value": "4.45%",
-      "change": -0.04,
+      "change": 0.0,
       "category": "rate",
       "trend": [
         {
@@ -376,14 +376,18 @@
         {
           "date": "2026-05-29",
           "value": 4.45
+        },
+        {
+          "date": "2026-06-01",
+          "value": 4.45
         }
       ]
     },
     {
       "id": "us_30y",
       "name": "미국 국채 30년",
-      "value": "4.99%",
-      "change": 0.16,
+      "value": "4.98%",
+      "change": -0.24,
       "category": "rate",
       "trend": [
         {
@@ -401,6 +405,10 @@
         {
           "date": "2026-05-29",
           "value": 4.99
+        },
+        {
+          "date": "2026-06-01",
+          "value": 4.98
         }
       ]
     },
@@ -851,8 +859,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "159.47",
-      "change": 0.13,
+      "value": "159.66",
+      "change": 0.25,
       "category": "currency",
       "trend": [
         {
@@ -873,7 +881,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 159.47
+          "value": 159.66
         }
       ]
     },
@@ -909,8 +917,8 @@
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "99.05",
-      "change": 0.14,
+      "value": "99.17",
+      "change": 0.26,
       "category": "currency",
       "trend": [
         {
@@ -927,7 +935,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 99.05
+          "value": 99.17
         }
       ]
     },
@@ -1067,8 +1075,8 @@
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$90.30",
-      "change": 3.37,
+      "value": "$91.02",
+      "change": 4.19,
       "category": "commodity",
       "trend": [
         {
@@ -1085,15 +1093,15 @@
         },
         {
           "date": "2026-06-01",
-          "value": 90.3
+          "value": 91.02
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,536.70",
-      "change": -0.52,
+      "value": "$4,515.10",
+      "change": -1.0,
       "category": "commodity",
       "trend": [
         {
@@ -1110,7 +1118,7 @@
         },
         {
           "date": "2026-06-01",
-          "value": 4536.7
+          "value": 4515.1
         }
       ]
     }
