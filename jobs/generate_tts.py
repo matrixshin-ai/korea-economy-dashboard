@@ -2,12 +2,14 @@
 Google Cloud TTS — KR 브리핑 오디오 생성
 GOOGLE_TTS_CREDENTIALS 환경변수(서비스 계정 JSON) 필요
 cached_summary_kr.json → ko-KR-Wavenet-A → client/public/audio/briefing-kr.mp3
+텍스트를 4,900 bytes 청크로 나눠 여러 번 호출 후 MP3 합산
 """
 import base64
 import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 
 import requests
@@ -23,7 +25,7 @@ META_PATH = os.path.join(AUDIO_DIR, "briefing-meta.json")
 TTS_ENDPOINT = "https://texttospeech.googleapis.com/v1/text:synthesize"
 SCOPES = ["https://www.googleapis.com/auth/cloud-platform"]
 VOICE_NAME = "ko-KR-Wavenet-A"
-MAX_BYTES = 4900  # Google TTS limit: 5,000 bytes (UTF-8). 한글 3 bytes/char → ~1,633자 기준
+MAX_CHUNK_BYTES = 4900
 
 
 def clean_markdown(text: str) -> str:
@@ -40,6 +42,61 @@ def get_access_token(info: dict) -> str:
     req = google.auth.transport.requests.Request()
     creds.refresh(req)
     return creds.token
+
+
+def split_text_into_chunks(text: str, max_bytes: int = MAX_CHUNK_BYTES) -> list[str]:
+    """텍스트를 max_bytes 이하의 청크로 분리 (문장/줄바꿈 단위 우선, UTF-8 경계 보장)."""
+
+    def safe_cut(data: bytes, limit: int) -> tuple[bytes, bytes]:
+        end = min(limit, len(data))
+        while end > 0:
+            try:
+                data[:end].decode("utf-8")
+                break
+            except UnicodeDecodeError:
+                end -= 1
+        return data[:end], data[end:]
+
+    chunks: list[str] = []
+    current_parts: list[str] = []
+    current_bytes = 0
+
+    lines = text.splitlines(keepends=True)
+
+    for line in lines:
+        if len(line.encode("utf-8")) > max_bytes:
+            segments = re.split(r"(?<=[.!?。])\s*", line)
+        else:
+            segments = [line]
+
+        for seg in segments:
+            seg_bytes = len(seg.encode("utf-8"))
+
+            if seg_bytes > max_bytes:
+                # 마지막 수단: UTF-8 경계에서 강제 분할
+                if current_parts:
+                    chunks.append("".join(current_parts).strip())
+                    current_parts, current_bytes = [], 0
+                remaining = seg.encode("utf-8")
+                while remaining:
+                    chunk_data, remaining = safe_cut(remaining, max_bytes)
+                    if not chunk_data:
+                        break
+                    chunks.append(chunk_data.decode("utf-8").strip())
+                continue
+
+            if current_bytes + seg_bytes > max_bytes:
+                if current_parts:
+                    chunks.append("".join(current_parts).strip())
+                current_parts, current_bytes = [seg], seg_bytes
+            else:
+                current_parts.append(seg)
+                current_bytes += seg_bytes
+
+    if current_parts:
+        chunks.append("".join(current_parts).strip())
+
+    return [c for c in chunks if c.strip()]
 
 
 def synthesize(text: str, token: str) -> bytes:
@@ -60,6 +117,21 @@ def synthesize(text: str, token: str) -> bytes:
         print(f"  TTS API error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
     return base64.b64decode(resp.json()["audioContent"])
+
+
+def synthesize_chunk(text: str, token: str) -> bytes:
+    """synthesize() 재활용 — 일시적 오류(429/500/503) 시 최대 3회 재시도."""
+    for attempt in range(1, 4):
+        try:
+            return synthesize(text, token)
+        except requests.HTTPError as e:
+            status = e.response.status_code if e.response is not None else 0
+            if status in (429, 500, 503) and attempt < 3:
+                wait = 2 ** attempt
+                print(f"    TTS error {status}, retry {attempt}/3 in {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
 
 
 def main() -> None:
@@ -84,11 +156,6 @@ def main() -> None:
         return
 
     text = clean_markdown(raw_text)
-    encoded = text.encode("utf-8")
-    if len(encoded) > MAX_BYTES:
-        print(f"  WARNING: text {len(encoded):,} bytes > {MAX_BYTES} bytes ({len(text):,} chars), truncating")
-        text = encoded[:MAX_BYTES].decode("utf-8", errors="ignore")
-        print(f"  Truncated to {len(text):,} chars / {len(text.encode('utf-8')):,} bytes")
 
     # 같은 날짜면 스킵
     if os.path.exists(META_PATH) and os.path.exists(AUDIO_PATH):
@@ -100,31 +167,46 @@ def main() -> None:
         except (json.JSONDecodeError, KeyError):
             pass
 
-    print(f"Generating TTS: date={briefing_date}, chars={len(text)}, voice={VOICE_NAME}")
+    total_bytes = len(text.encode("utf-8"))
+    chunks = split_text_into_chunks(text, max_bytes=MAX_CHUNK_BYTES)
+    print(f"Generating TTS: date={briefing_date}, chars={len(text)}, total_bytes={total_bytes}, chunks={len(chunks)}, voice={VOICE_NAME}")
+    for i, chunk in enumerate(chunks):
+        print(f"  chunk[{i}]: {len(chunk.encode('utf-8'))} bytes")
 
     token = get_access_token(credentials_info)
     print("  Access token obtained")
 
-    audio_bytes = synthesize(text, token)
-    print(f"  Synthesized {len(audio_bytes):,} bytes")
+    start = time.time()
+    mp3_parts: list[bytes] = []
+
+    for i, chunk in enumerate(chunks):
+        t0 = time.time()
+        mp3 = synthesize_chunk(chunk, token)
+        elapsed = time.time() - t0
+        print(f"  chunk[{i}]: {len(mp3):,} bytes MP3 ({elapsed:.1f}s)")
+        mp3_parts.append(mp3)
+
+    total_mp3 = b"".join(mp3_parts)
+    total_elapsed = time.time() - start
 
     os.makedirs(AUDIO_DIR, exist_ok=True)
 
     with open(AUDIO_PATH, "wb") as f:
-        f.write(audio_bytes)
+        f.write(total_mp3)
 
     meta = {
         "date": briefing_date,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "voice": VOICE_NAME,
         "chars": len(text),
-        "size_bytes": len(audio_bytes),
+        "chunks": len(chunks),
+        "size_bytes": len(total_mp3),
     }
     with open(META_PATH, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
-    print(f"  Saved: {AUDIO_PATH}")
-    print(f"  Meta:  {META_PATH}")
+    print(f"\n  Saved: {AUDIO_PATH} ({len(total_mp3):,} bytes)")
+    print(f"  Total: {len(chunks)} chunks, {total_elapsed:.1f}s elapsed")
 
 
 if __name__ == "__main__":
