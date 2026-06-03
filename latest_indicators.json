@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T07:01:07.118705",
+  "updated_at": "2026-06-03T12:27:20.820528",
   "indicators": [
     {
       "id": "sp500",
@@ -362,10 +362,6 @@
       "category": "rate",
       "trend": [
         {
-          "date": "2026-05-27",
-          "value": 4.48
-        },
-        {
           "date": "2026-05-28",
           "value": 4.45
         },
@@ -390,10 +386,6 @@
       "change": -0.48,
       "category": "rate",
       "trend": [
-        {
-          "date": "2026-05-27",
-          "value": 5.01
-        },
         {
           "date": "2026-05-28",
           "value": 4.99
@@ -963,8 +955,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "159.98",
-      "change": 0.22,
+      "value": "159.86",
+      "change": 0.14,
       "category": "currency",
       "trend": [
         {
@@ -985,7 +977,7 @@
         },
         {
           "date": "2026-06-03",
-          "value": 159.98
+          "value": 159.86
         }
       ]
     },
@@ -993,7 +985,7 @@
       "id": "cny_usd",
       "name": "위안/달러",
       "value": "6.77",
-      "change": 0.08,
+      "change": 0.05,
       "category": "currency",
       "trend": [
         {
@@ -1021,8 +1013,8 @@
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "99.35",
-      "change": 0.13,
+      "value": "99.36",
+      "change": 0.15,
       "category": "currency",
       "trend": [
         {
@@ -1039,7 +1031,7 @@
         },
         {
           "date": "2026-06-03",
-          "value": 99.35
+          "value": 99.36
         }
       ]
     },
@@ -1219,8 +1211,8 @@
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$95.73",
-      "change": 2.1,
+      "value": "$96.20",
+      "change": 2.6,
       "category": "commodity",
       "trend": [
         {
@@ -1237,15 +1229,15 @@
         },
         {
           "date": "2026-06-03",
-          "value": 95.73
+          "value": 96.2
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,486.30",
-      "change": -0.06,
+      "value": "$4,484.80",
+      "change": -0.1,
       "category": "commodity",
       "trend": [
         {
@@ -1262,7 +1254,7 @@
         },
         {
           "date": "2026-06-03",
-          "value": 4486.3
+          "value": 4484.8
         }
       ]
     }
