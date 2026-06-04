@@ -143,11 +143,16 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Generate KR Audio
+        id: tts
         if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'evening'
         run: python jobs/generate_tts.py
         continue-on-error: true
         env:
           GOOGLE_TTS_CREDENTIALS: ${{ secrets.GOOGLE_TTS_CREDENTIALS }}
+
+      - name: Add podcast episode to RSS
+        if: steps.tts.outcome == 'success'
+        run: node scripts/add-podcast-episode.js
 
       - name: Post Moltbook comment
         if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'evening'
@@ -162,7 +167,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add latest_*.json cached_summary_*.json cache_candidates.json kr_bond_history.json jobs/data/ client/public/audio/ || true
+          git add latest_*.json cached_summary_*.json cache_candidates.json kr_bond_history.json jobs/data/ client/public/audio/ client/public/feed.xml || true
           git diff --staged --quiet || git commit -m "Daily data update $(date +'%Y-%m-%d')"
           git push
 

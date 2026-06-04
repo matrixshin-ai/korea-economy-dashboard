@@ -194,6 +194,11 @@ def main() -> None:
     with open(AUDIO_PATH, "wb") as f:
         f.write(total_mp3)
 
+    if briefing_date:
+        dated_path = os.path.join(AUDIO_DIR, f"briefing-kr-{briefing_date}.mp3")
+        with open(dated_path, "wb") as f:
+            f.write(total_mp3)
+
     meta = {
         "date": briefing_date,
         "generated_at": datetime.now(timezone.utc).isoformat(),
