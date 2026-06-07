@@ -152,9 +152,10 @@ jobs:
 
       - name: Add podcast episode to RSS
         if: steps.tts.outcome == 'success'
+        continue-on-error: true
         run: |
           node --version
-          node scripts/add-podcast-episode.js
+          node scripts/add-podcast-episode.cjs
 
       - name: Post Moltbook comment
         if: steps.render.outcome == 'success' && steps.runtype.outputs.type == 'evening'
