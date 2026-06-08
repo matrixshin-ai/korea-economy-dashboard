@@ -254,6 +254,32 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 
 ## 10. 변경 이력
 
+### 2026-06-08
+
+**RSS/Podcast 파이프라인 수정 및 Spotify Processing 해제 작업**
+
+- 원인: 2026-06-04~06-06 사흘간 Step 17(Add podcast episode to RSS) 실패
+  - scripts/add-podcast-episode.js가 CommonJS require() 사용인데 package.json "type":"module"로 ES Module 충돌
+  - evening 런 failure → Moltbook/YouTube 스킵 연속 발생
+- 수정 1: add-podcast-episode.js → add-podcast-episode.cjs 이름 변경
+- 수정 2: daily-update.yml Step 17에 continue-on-error: true 추가
+  (향후 RSS 실패 시 Moltbook/YouTube 스킵 방지)
+
+**Spotify Processing 해제를 위한 feed.xml 개선**
+- 문제 1: og-image.png 미존재 → Vercel SPA fallback(text/html) 반환 → FATAL 에러
+  - 수정: 팟캐스트 커버 이미지(1400×1400px) client/public/og-image.png 추가
+- 문제 2: itunes:category 누락 → ERROR
+  - 수정: <itunes:category text="Business"/> 채널 레벨 추가
+- 문제 3: itunes:explicit 값 오류 (no → false)
+  - 수정: W3C 최신 스펙 기준 false로 변경
+- 문제 4: MP3 ID3 태그 없음 → Spotify 에피소드 정보 미인식
+  - 수정: generate_tts.py에 add_id3_tags() 함수 추가 (mutagen 라이브러리)
+    TIT2(제목), TPE1(아티스트), TALB(앨범), TDRC(연도) 태그 적용
+- feed.xml W3C 유효성 검사: 에러 0개 확인
+- og-image.png: image/png 2.1MB 정상 서빙 확인
+
+**Last updated: 2026-06-08**
+
 ### 2026-05-30
 
 **Google Cloud TTS 연동 — KR 브리핑 오디오 자동 생성**
