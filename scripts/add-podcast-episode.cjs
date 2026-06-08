@@ -16,6 +16,8 @@ const DEFAULT_FEED = `<?xml version="1.0" encoding="UTF-8"?>
     <language>ko-KR</language>
     <itunes:author>matrixshin-ai</itunes:author>
     <itunes:image href="${BASE_URL}/og-image.png"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>no</itunes:explicit>
   </channel>
 </rss>`;
 
@@ -35,6 +37,8 @@ function buildItem(date, sizeBytes) {
     "    <item>",
     `      <title>한국 경제 브리핑 ${date}</title>`,
     "      <description>오늘의 한국 경제 주요 이슈를 정리한 오디오 브리핑입니다.</description>",
+    `      <link>${BASE_URL}</link>`,
+    "      <itunes:explicit>no</itunes:explicit>",
     `      <pubDate>${pubDate}</pubDate>`,
     `      <guid isPermaLink="false">${guid}</guid>`,
     `      <enclosure`,
