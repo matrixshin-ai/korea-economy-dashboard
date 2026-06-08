@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 import requests
 from google.oauth2 import service_account
 import google.auth.transport.requests
+from mutagen.id3 import ID3, ID3NoHeaderError, TIT2, TPE1, TALB, TDRC
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHED_SUMMARY_KR = os.path.join(BASE_DIR, "cached_summary_kr.json")
@@ -134,6 +135,19 @@ def synthesize_chunk(text: str, token: str) -> bytes:
                 raise
 
 
+def add_id3_tags(path: str, date: str) -> None:
+    year = date[:4]
+    try:
+        tags = ID3(path)
+    except ID3NoHeaderError:
+        tags = ID3()
+    tags["TIT2"] = TIT2(encoding=3, text=f"한국 경제 브리핑 {date}")
+    tags["TPE1"] = TPE1(encoding=3, text="Korea Economy Dashboard")
+    tags["TALB"] = TALB(encoding=3, text="한국 경제 브리핑")
+    tags["TDRC"] = TDRC(encoding=3, text=year)
+    tags.save(path)
+
+
 def main() -> None:
     creds_raw = os.environ.get("GOOGLE_TTS_CREDENTIALS", "")
     if not creds_raw:
@@ -193,11 +207,13 @@ def main() -> None:
 
     with open(AUDIO_PATH, "wb") as f:
         f.write(total_mp3)
+    add_id3_tags(AUDIO_PATH, briefing_date)
 
     if briefing_date:
         dated_path = os.path.join(AUDIO_DIR, f"briefing-kr-{briefing_date}.mp3")
         with open(dated_path, "wb") as f:
             f.write(total_mp3)
+        add_id3_tags(dated_path, briefing_date)
 
     meta = {
         "date": briefing_date,
