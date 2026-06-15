@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-15T14:35:22.715626+09:00",
+  "generated_at": "2026-06-15T16:03:02.736345+09:00",
   "date": "2026-06-15",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 661,
-    "total_used": 640,
-    "dropped_quality": 7,
-    "dropped_negative": 14,
+    "total_input": 640,
+    "total_used": 616,
+    "dropped_quality": 12,
+    "dropped_negative": 12,
     "per_category": {
-      "기타": 305,
-      "산업·과학": 52,
-      "금융시장": 116,
-      "거시경제·재정": 77,
-      "부동산": 47,
-      "국제경제": 37,
-      "AI와 경제": 6
+      "부동산": 46,
+      "기타": 320,
+      "산업·과학": 34,
+      "금융시장": 98,
+      "거시경제·재정": 66,
+      "국제경제": 47,
+      "AI와 경제": 5
     }
   },
   "headlines": [
@@ -200,20 +200,12 @@
         "score": 100
       },
       {
-        "title": "[광화문에서/주애진]교부금-연금 새는 구멍 막아야 잠재성장률 반등 가...",
-        "summary": "올 1분기(1∼3월) 명목 국내총생산(GDP)의 전 분기 대비 증가율은 10.5%로 50년 만에 가장 높았다. 반도체 초호황 덕분에 수출과 증시가 활황을 보이면서 역대급 초과 세수가 예상돼 나라 곳간도 두둑해질 예정이다....",
-        "link": "https://www.donga.com/news/Opinion/article/all/20260614/134109968/2",
-        "source": "동아일보",
-        "published": "2026-06-14T23:13:00+09:00",
-        "score": 98
-      },
-      {
-        "title": "씨티 \"상반기 주가 상승에 연간 GDP 0.4% 증가 추정\"",
-        "summary": "(서울=연합뉴스) 이도흔 기자 = 한국씨티은행은 한국은행의 기준금리 인상 속도가 예상보다 빨라져 최종 금리가 연 4.0%에 도달할 수 있다고 전...",
-        "link": "https://www.yna.co.kr/view/AKR20260615081700002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-06-15T12:11:41+09:00",
-        "score": 90
+        "title": "AI로 GDP 2배 성장, 불완전 고용률도 2배…2030년 미국의 역설",
+        "summary": "韓·中 OLED 기술격차 1~2년…“R&D 지원 지연땐 역전” - 핵심 요약: 한국수출입은행 해외경제연구소 보고서에 따르면 한국의 글로벌 OLED 시장 점유율이 2020년 87.3%에서 2025년 68.7%로 하락한 반면 중국은 같은 기간 12.1...",
+        "link": "https://www.sedaily.com/article/20055856?ref=naver",
+        "source": "서울경제",
+        "published": "2026-06-15T14:18:00+09:00",
+        "score": 92
       },
       {
         "title": "\"한계기업 1%P 늘면…정상기업 투자·고용 성장률 최대 0.18%P 감소\"",
@@ -222,22 +214,6 @@
         "source": "아시아경제 - 국제",
         "published": "2026-06-15T12:00:00+09:00",
         "score": 80
-      },
-      {
-        "title": "AI로 GDP 2배 성장, 불완전 고용률도 2배…2030년 미국의 역설",
-        "summary": "■ 반도체 채용 확대, 나머지 제조업은 양극화: SK하이닉스(000660)가 지난해 임직원 2152명을 늘리고 삼성전자(005930)도 5년간 6만 명 채용 계획을 실행에 옮기면서 반도체 업계 종사자 10만 명 선이 굳건히 유지됐다....",
-        "link": "https://www.sedaily.com/article/20055856?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-15T14:18:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "자본주의 4.0 시대는 오는가[포스트워 투자전략]",
-        "summary": "실업률과 물가상승률 간의 역의 필립스 관계, 실업률과 구인율 간의 역의 베버리지 관계가 동시에 흐트러진 상황에서 경기 후행의 고용 지표를 중시해 기준금리를 변경하면 선제성을 유지할 수 없다는 시각이다....",
-        "link": "https://magazine.hankyung.com/business/article/202606034471b",
-        "source": "한국경제",
-        "published": "2026-06-12T16:01:00+09:00",
-        "score": 76
       },
       {
         "title": "씨티 \"최종 기준금리 연 4.0% 도달할 수도\"",
@@ -256,19 +232,11 @@
         "score": 68
       },
       {
-        "title": "반도체로 더 걷힐 세수 16조, 나랏빚 갚는 대신 ‘미래기금’ 만들듯",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/15/134110739.1.jpg\" vspace=\"10\" />반도체 슈퍼사이클(초호황)과 증시 활황에 힘입어 올해 국세 수입이 두 달 전 정부의 전망치보다 16조 원 이상 많을 수 있다는 분석이 나온다. 정부는 늘어나는 초과 세수를 국가 채무 상환이나 추가경정예산(추경) 편성에 투입하는 기존 방식에서 벗어나 미래 산업 투자 재원으로 활용하는 방안을 검토하고 있다. 인공지능(AI)·첨단산업 육성에 사용할 ‘미래대응기금’(가칭)을 신설하거나, 하반기(7∼12월) 출범할 한국형 국부펀드에 추가 출자하는 방안 등이 유력한 카드로 거론되고 있다.● 증권거래세 수입 4배로 뛰어14일 기획예산처에 따르면 올해 1∼4월 누적 국세 수입은 164조1000억 원으로 전년 동기 대비 21조9000억 원(15.4%) 증가했다. 이런 증가세가 연말까지 이어질 경우...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260615/134110317/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-15T04:30:00+09:00",
-        "score": 64
-      },
-      {
-        "title": "구윤철 “청년고용 어려움 가중…청년뉴딜 핵심 과제 속도감 있게 집행...",
-        "summary": "구윤철 부총리 겸 재정경제부 장관 [연합] 구 부총리는 “어제 발표된 5월 고용동향에 따르면 전년동기대비 청년 고용률(43.8%)은 하락하고, 실업률(7.2%)은 상승하는 등 청년 고용의 어려움이 더욱 가중되고 있는 엄중한...",
-        "link": "https://biz.heraldcorp.com/article/10770575?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-06-12T15:31:00+09:00",
+        "title": "광주·전남 5월 수출 56억 6천만 달러…10억 9천만 달러 흑자",
+        "summary": "수입은 28.5% 늘어난 45억 7천만 달러였다. 광주지역 5월 수출은 전년 동월 대비 4.0% 감소한 15억 3천만 달러에 그쳤다. 전월 대비로도 11.8% 줄었다. 수입은 9.7% 증가한 7억 8천만 달러로, 무역수지는 7억 6천만...",
+        "link": "https://view.asiae.co.kr/article/2026061514121082831",
+        "source": "아시아경제",
+        "published": "2026-06-15T14:58:00+09:00",
         "score": 58
       },
       {
@@ -286,6 +254,38 @@
         "source": "한국경제",
         "published": "2026-06-13T14:21:00+09:00",
         "score": 56
+      },
+      {
+        "title": "李대통령 \"남은 4년 성패 2년차에 달려…핵심 과제 제도적 기반 구축\"",
+        "summary": "이 대통령은 또 1분기 명목 국내총생산(GDP) 성장률이 50년 만의 최고치인 10.5%를 기록하고 수출도 놀라운 성장세를 보이며 1인당 국민총소득(GNI)이 4만 달러에 근접할 수 있다는 관측 등을 소개하며 \"우리 경제에 새로운...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000316487?division=NAVER",
+        "source": "SBS",
+        "published": "2026-06-15T08:56:00+09:00",
+        "score": 52
+      },
+      {
+        "title": "구윤철 “초과세수, 미래 대비·양극화 해소 등에 사용할 것”",
+        "summary": "구윤철 경제부총리 겸 재정경제부 장관이 초과세수 활용 방안에 대해 “미래를 대비하는 부분과 현재를 위한 양극화 해소 등에 쓰겠다”고 말했습니다. 구 부총리는 오늘(15일) 재정경제부 공식 유튜브에서 초과세수 활용...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8586434&ref=A",
+        "source": "KBS",
+        "published": "2026-06-15T15:57:00+09:00",
+        "score": 52
+      },
+      {
+        "title": "\"인구 17.5억 신흥시장 뚫는다\"… 코트라, K푸드 수출상담회 개최",
+        "summary": "전략 권역으로 선정된 신흥 10개국은 총합 인구 17억5000만명, 합산 국내총생산(GDP) 7조달러를 넘어서는 초거대 시장이다. 거대한 잠재력에도 불구하고 현재 한국 농식품 수출에서 차지하는 비중은 단 2%에 불과해 향후...",
+        "link": "https://view.asiae.co.kr/article/2026061216391977010",
+        "source": "아시아경제",
+        "published": "2026-06-15T06:00:00+09:00",
+        "score": 50
+      },
+      {
+        "title": "실업급여 지급 사상 첫 17조…고용보험 실질 적립금 796억 불과",
+        "summary": "“5년뒤 美 고학력자들, 대거 알바 내몰릴 것” - 핵심 요약: 경제학자·정책 입안자 등 40명이 참여한 토론에서 AI가 2030년까지 미국 GDP를 2배 늘릴 것이라는 추정이 나왔지만, 불완전 고용률은 현재 8%에서 2030년 14%로...",
+        "link": "https://www.sedaily.com/article/20055855?ref=naver",
+        "source": "서울경제",
+        "published": "2026-06-15T14:18:00+09:00",
+        "score": 50
       }
     ],
     "금융시장": [
@@ -299,10 +299,10 @@
       },
       {
         "title": "중동전쟁 이후…코스피는 '금리'와 '반도체 실적'에 달렸다",
-        "summary": "미국과 이란의 종전 협상이 타결되면서 우리 증시가 급등한 가운데 추가 상승을 가를 주요 변수로 금리와 반도체 기업 실적 등이 꼽혔다.18일 미국 FOMC에서 금리 방향 중요15일 대신증권은 미국과 이란의 종전 이후 우리 증시의 등락을 가를 중요한 변수로 미국 금리의 방향성을 꼽았다. 오는 18일로 예정된 미국 연방준비제도(Fed)의 연방공개시장위원회(FOMC)에서 만약 금리 동결 가능성이 커진다면 우리 증시가 한 단계 도약할",
+        "summary": "미국 FOMC에서 금리 방향 중요 15일 대신증권은 미국과 이란의 종전 이후 우리 증시의 등락을 가를 중요한 변수로 미국 금리의 방향성을 꼽았다. 오는 18일로 예정된 미국 연방준비제도(Fed)의 연방공개시장위원회(FOMC)...",
         "link": "https://view.asiae.co.kr/article/2026061509372821053",
-        "source": "아시아경제 - 증권",
-        "published": "2026-06-15T09:41:41+09:00",
+        "source": "아시아경제",
+        "published": "2026-06-15T09:41:00+09:00",
         "score": 116
       },
       {
@@ -314,38 +314,46 @@
         "score": 110
       },
       {
-        "title": "“이제부턴 꽃길” 코스피, 종전 합의 소식에 8400선 상승 출발…코스닥...",
-        "summary": "한지영 키움증권 연구원은 “이날 국내 증시에서 외국인의 수급이 주된 관심사가 될 전망”이라면서 “주중 6월 연방공개시장위원회(FOMC), 미국과 이란의 최종 협상 과정 등을 중립 혹은 중립 이상으로...",
-        "link": "https://www.mk.co.kr/article/12074027",
-        "source": "매일경제",
-        "published": "2026-06-15T09:19:00+09:00",
+        "title": "[포토]코스피 5.2% 상승, 8500선 회복…코스닥 1.86%↑",
+        "summary": "36(5.20%)포인트 상승한 8,545.98을 코스닥은 전 거래일 대비 4.98(0.48%)포인트 상승한 1,034.03을 기록했다. 서울외환시장에서 원·달러 환율은 전일 대비 5.40원(0.36%) 하락한 달러당 1,514.40원에 거래되고 있다.",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04136086645482048",
+        "source": "이데일리",
+        "published": "2026-06-15T15:53:00+09:00",
         "score": 106
       },
       {
-        "title": "5월 주식시장서 외국인 318억달러 순매도…역대 최대",
-        "summary": "한은은 “국내 주가 상승에 따른 지분 비율 조정과 차익 실현 매도 등으로 주식자금 순유출이 확대됐다”며 “채권자금은 WGBI(세계국채지수) 추종 자금 유입, 시장금리 상승에 따른 저가 매수 등에 힘입어 순유입...",
-        "link": "https://biz.heraldcorp.com/article/10771954?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-06-15T14:32:00+09:00",
-        "score": 98
+        "title": "지난달 韓 채권 8.5조 사들인 외국인… 주식 자금은 역대 최대 순유출",
+        "summary": "지난달 한국을 포함한 주요국 채권 금리는 중동 전쟁 협상 교착에 따른 인플레이션 및 중앙은행 기준금리 인상 우려로 대부분 상승했다. 채권은 금리가 상승하면 가격이 하락한다. 한국의 10년 만기 국채 금리는...",
+        "link": "https://www.chosun.com/economy/economy_general/2026/06/15/DEGMZ7KZ2FHBNAKTEDEO4C5OBU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-06-15T12:01:00+09:00",
+        "score": 106
       }
     ],
     "산업·과학": [
       {
-        "title": "KIST-KIMS, 첨단소재 협력 강화 워크숍",
-        "summary": "참석자들은 반도체, 인공지능(AI), 우주항공, 차세대 에너지, 바이오헬스, 데이터 기반 소재 연구 등 국가전략기술 분야에서 공동 연구 가능성을 살폈다. 양 기관은 특히 반도체 패키징용 첨단소재, 차세대 배터리...",
-        "link": "https://www.joongang.co.kr/article/25436819",
-        "source": "중앙일보",
-        "published": "2026-06-15T14:10:00+09:00",
-        "score": 64
+        "title": "신성이엔지, 인도 스털링 앤 윌슨과 반도체·배터리 등 제조 시설용 클...",
+        "summary": "손잡고 반도체, 배터리, 디스플레이 제조 시설용 클린룸 및 드라이룸 HVAC(공조 시스템) 프로젝트 공동 추진에... 향후 반도체 팹, 배터리 생산시설, 디스플레이 공장 등에 적용되는 첨단 공조 시스템 사업을 함께 입찰·수주...",
+        "link": "http://www.fnnews.com/news/202606151357425898",
+        "source": "파이낸셜뉴스",
+        "published": "2026-06-15T15:57:00+09:00",
+        "score": 116
       },
       {
-        "title": "한국앤컴퍼니, '한국 배터리' 방문 교체 서비스 ..\"쿠팡으로 언제나 주...",
-        "summary": "한국앤컴퍼니그룹의 사업형 지주회사 한국앤컴퍼니가 한국(Hankook) 배터리 방문 교체 서비스를 제공, 자동차 배터리 교체 편의성을 높이기에 나섰다. 기존에는 배터리 교체를 위해 정비소를 직접 방문하거나...",
-        "link": "http://www.fnnews.com/news/202606151428382734",
-        "source": "파이낸셜뉴스",
-        "published": "2026-06-15T14:33:00+09:00",
-        "score": 62
+        "title": "[바이오스냅] 국가바이오혁신위원회·제약바이오협회 간담회",
+        "summary": "▲ 대웅바이오는 지난 6∼7일 서울 웨스틴조선 호텔에서 심포지엄을 열어 알츠하이머병 최신 치료 전략과 혈액 기반 진단 기술 '루미펄스'를 설명했다고 15일 전했다. 루미펄스는 특정 타우 단백질과 베타 아밀로이드...",
+        "link": "https://www.yna.co.kr/view/AKR20260615117200017?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-06-15T15:05:00+09:00",
+        "score": 76
+      },
+      {
+        "title": "전기비행기 뜬다…韓中 '하늘길 배터리 경쟁' 속도전",
+        "summary": "CATL 역시 전기차를 넘어 UAM용 배터리에 투자를 하며 미래 모빌리티 시장 선점에 나서고 있는 상황이다. 국내 배터리 업계 역시 UAM을 차세대 먹거리로 점찍고 기술 개발에 한창이다. eVTOL은 일반 전기차와 다르게 고도...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04060646645482048",
+        "source": "이데일리",
+        "published": "2026-06-15T15:41:00+09:00",
+        "score": 66
       },
       {
         "title": "바이오혁신위, 제약바이오 CEO와 현장 소통",
@@ -354,24 +362,24 @@
         "source": "아시아경제 - 산업·IT",
         "published": "2026-06-15T13:45:46+09:00",
         "score": 60
-      },
-      {
-        "title": "국가바이오혁신위원회, 제약바이오협회 이사장단과 간담회",
-        "summary": "협회 관계자는 \"제약업계는 연구개발(R&D) 촉진과 투자환경 개선, 신약 개발 혁신 생태계 조성, 개방형 혁신(오픈이노베이션) 활성화, 글로벌 생산 및 수출 경쟁력 강화, 필수의약품 안정공급 기반 확충 등 주요 현안에 대해...",
-        "link": "https://www.mt.co.kr/thebio/2026/06/15/2026061514292627587",
-        "source": "머니투데이",
-        "published": "2026-06-15T14:33:00+09:00",
-        "score": 60
       }
     ],
     "부동산": [
       {
-        "title": "지난달 서울 전세 올 들어 최대폭 올랐다…집값 상승 1위 ‘성북구’[부...",
-        "summary": "한국부동산원 5월 전국주택가격동향 서울 변동률 4월 0.55%→5월 0.9% 서울의 아파트 전경.[뉴시스]... 15일 한국부동산원이 발표한 ‘5월 전국주택가격 동향조사’에 따르면 지난달 서울 아파트값 상승률은 0.9%로 전월(0....",
-        "link": "https://biz.heraldcorp.com/article/10771684?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-06-15T14:01:00+09:00",
-        "score": 152
+        "title": "서울 평균 집값 10억원 넘었다… 경기도도 매매·전세·월세 ‘트리플 ...",
+        "summary": "15일 한국부동산원이 발표한 ‘5월 전국주택가격동향조사’에 따르면 5월 서울의 전체 주택(아파트... 부동산원 측은 “서울·수도권 중심으로 신축 및 재건축 추진 단지 등에 대한 수요가 집중되며 전반적인...",
+        "link": "https://biz.chosun.com/real_estate/real_estate_general/2026/06/15/77GWRFGKVNA4TPN4PBFFGB4G6I/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-06-15T15:28:00+09:00",
+        "score": 208
+      },
+      {
+        "title": "안 오르는 집값 대신 월세수익… 中서 뜨는 ‘구축 투자’",
+        "summary": "부동산 위기 속 예금·국채 수익률 1%대로 임대수익률 2~3% 달하는 구축 주택 인기 ↑ 중고주택 거래 19%늘어… 상하이 30%↑ 중국 부동산 시장에서 투자 공식이 바뀌고 있다. 집값 상승을 기대하고 주택을 매입하던 과거와...",
+        "link": "https://biz.chosun.com/international/international_general/2026/06/15/MFV5VQHPR5FHTEMPJEZR377OE4/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-06-15T15:23:00+09:00",
+        "score": 126
       },
       {
         "title": "\"직접 안 살아도 돼\" 동탄·수지 불길 기흥으로…결국 국평 15억 뚫었다[부동산AtoZ]",
@@ -380,14 +388,6 @@
         "source": "아시아경제 - 부동산",
         "published": "2026-06-13T06:30:00+09:00",
         "score": 122
-      },
-      {
-        "title": "5월 서울 집값 상승률 0.90% 상승…'월간 상승률' 1월 수준으로 확대",
-        "summary": "15일 한국부동산원이 발표한 5월 전국 주택가격 동향조사 결과에 따르면 서울의 주택종합(아파트... 부동산원은 \"서울·수도권 중심으로 신축 및 재건축 추진 단지 등에 대한 수요가 집중되며 전반적인 흐름은...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008610859&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-06-15T14:14:00+09:00",
-        "score": 118
       },
       {
         "title": "[달인열전] \"재건축은 속도전 … 한강벨트 초기 재개발 주목\"",
@@ -400,44 +400,44 @@
     ],
     "국제경제": [
       {
-        "title": "이번엔 진짜 끝날까...트럼프, 이란 종전 서명 예고 [글로벌 모닝 브리...",
-        "summary": "이날 토론에서는 AI가 2030년까지 국내총생산(GDP)을 2배 늘릴 것이라는 추정이 나왔습니다. 하지만 불완전 고용률은 현재 8%에서 2030년에는 14%로 급등할 것이라는 경고도 나왔습니다. 대표 진보 정치인인 버니 샌더스는...",
-        "link": "https://www.sedaily.com/article/20055594?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-15T06:01:00+09:00",
-        "score": 70
+        "title": "'매파' 워시, 첫 FOMC 주재…금리인하 공약 vs 물가 딜레마",
+        "summary": "과거 금리 인상을 주장해온 ‘매파’(긴축 선호)였지만, 의장직에 도전하는 동안에는 백악관이 바라는 금리 인하와 연준의 대대적 변화를 약속했기 때문이다. 도널드 트럼프(오른쪽) 미국 대통령이 지난달 22일(현지시간)...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04073766645482048",
+        "source": "이데일리",
+        "published": "2026-06-15T15:45:00+09:00",
+        "score": 94
       },
       {
-        "title": "워시의 FOMC 데뷔전, 긴축 선회 공식화?…금요일 휴장[이번주 美 증시는...",
-        "summary": "여기에는 연준 위원들의 금리 전망을 점으로 표시한 점도표를 비롯해 경제성장률과 인플레이션, 실업률 등에 대한 전망치가 들어 있다. 워시 의장은 그간 점도표 공개에 대해 \"도움이 되지 않는다\"는 입장을 밝혀...",
-        "link": "https://www.mt.co.kr/world/2026/06/15/2026061320480710703",
-        "source": "머니투데이",
-        "published": "2026-06-15T05:35:00+09:00",
-        "score": 70
+        "title": "트럼프, 프랑스 디지털세 폐지 않으면 와인 등 주류에 100% 관세 부과",
+        "summary": "유럽통계청 자료에 따르면 술(주류)은 유럽연합(EU)의 대미 최대 수출 품목 중 하나로, 2024년 기준 수출액이 약 90억유로(약 16조원)에 달한다. 프랑스는 지난 2019년부터 프랑스 내 매출 2500만유로(약 2900만달러·약440억원)...",
+        "link": "http://www.fnnews.com/news/202606151506473256",
+        "source": "파이낸셜뉴스",
+        "published": "2026-06-15T15:49:00+09:00",
+        "score": 92
       },
       {
-        "title": "‘트럼프와 선 긋기’ 나선 프랑스 극우 대권주자",
-        "summary": "바르델라 RN 대표 “요일마다 달라” 안보자립 강조…유럽 극우 속내 보여줘 2년 전 美 대선 앞두고는 트럼프 칭찬한때 “트럼프 팬”이었던 프랑스 대표 극우 정치인이 등을 돌렸다. ..",
-        "link": "https://www.mk.co.kr/news/society/12074127",
-        "source": "매일경제 : 국제",
-        "published": "2026-06-15T10:08:57+09:00",
-        "score": 52
+        "title": "트럼프 \"佛 디지털세 폐지하라\"…와인·샴페인 100% 관세 경고",
+        "summary": "실제로 미국 무역대표부(USTR)는 지난 2019년 프랑스의 DST를 이유로 프랑스산 제품에 대해 100% 관세 부과... 한편 캐나다는 지난해 미국과의 무역 마찰 이후 DST 도입 계획을 철회했고, 이탈리아는 폐지를 검토하는 것으로...",
+        "link": "https://www.yna.co.kr/view/AKR20260615115300009?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-06-15T14:58:00+09:00",
+        "score": 88
       },
       {
-        "title": "[글로벌 현장]세계 최대 산유국 미국의 역설",
-        "summary": "월가 투자은행(IB)들은 이 같은 구조적 고유가 국면이 장기화할 것으로 보고 인플레이션 헤지 수단으로... 정부가 인플레이션 방어를 위해 전략비축유(SPR) 방출 등 긴급 처방에 나섰으나 민간 자본주의 시장의 거대한 시세...",
-        "link": "https://magazine.hankyung.com/business/article/202606095255b",
-        "source": "한국경제",
-        "published": "2026-06-15T13:49:00+09:00",
-        "score": 50
+        "title": "트럼프, 프랑스에 \"디지털세 폐지 안 하면 와인 100% 관세\"",
+        "summary": "당시 롤랑 레스퀴르 경제장관은 “과도한 과세는 미국의 과도한 보복을 초래할 수 있다”고 경고했다고 뉴욕포스트는 전했다. 이번 트럼프 대통령의 100% 관세 위협은 2019년 미국 무역대표부(USTR)가 프랑스 디지털세...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04188566645482048",
+        "source": "이데일리",
+        "published": "2026-06-15T16:00:00+09:00",
+        "score": 88
       },
       {
-        "title": "“소문에 사서 뉴스에 팔라” 학술적으로 증명?  ... 이번주 FOMC 대응법",
-        "summary": "전미경제연구소(NBER), FOMC와 공포지수 상관관계 분석요즘 투자자분들은 각국 중앙은행이 내리는 기준금리 결정에 부쩍 예민해지셨을 겁니다. 한동안 별 변화가 없던 기준금리가 오..",
-        "link": "https://www.mk.co.kr/news/economy/12073579",
-        "source": "매일경제 : 경제",
-        "published": "2026-06-14T13:46:38+09:00",
-        "score": 50
+        "title": "트럼프, 프랑스에 와인·샴페인 100% 관세 경고…디지털세 폐지하라”",
+        "summary": "실제로 미국 무역대표부(USTR)는 지난 2019년 프랑스의 DST를 이유로 프랑스산 제품에 대해 100% 관세 부과... 한편 캐나다는 지난해 미국과의 무역 마찰 이후 DST 도입 계획을 철회했고, 이탈리아는 폐지를 검토하는 것으로...",
+        "link": "https://biz.heraldcorp.com/article/10772000?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-06-15T15:08:00+09:00",
+        "score": 88
       }
     ],
     "AI와 경제": [
@@ -450,12 +450,28 @@
         "score": 48
       },
       {
-        "title": "미국 AI 규제 시작…앤스로픽 직격탄",
-        "summary": "투자자 증거금 5억 달러가 수일간 묶이며 원·달러 환율 변동에 따른 환차손만 200억 원에 달하는 등 후폭풍은 고스란히 투자자들에게 돌아간 상황이다. 5. 망분리 규제 완화, 신한·하나·우리·카뱅 뽑혔다 - 핵심...",
-        "link": "https://www.sedaily.com/article/20055849?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-15T14:17:00+09:00",
-        "score": 34
+        "title": "한·일 경제계, 도쿄서 'AI 전력 효율·돌봄 로봇' 협력 논의",
+        "summary": "한일 양국 경제계가 글로벌 인공지능(AI) 경쟁에 대응하고 공통의 사회적 난제를 해결하기 위해 산업 협력 체계 구축에 나섰다. 한국무역협회는 15일 일본 도쿄 국제문화회관에서 일본경제동우회와 공동으로 '제5차 한일 경제 라운드테이블'을 개최하고 'AI 시대의 한·일 산업협력 강화 방안'을 모색했다고 밝혔다.  한일 경제 라운드테이블은 2024년 2월 무역협회가 출범한 한일교류특별위원회와 일본 측 파트너인 일본경제동우회",
+        "link": "https://view.asiae.co.kr/article/2026061515372489806",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-06-15T15:37:24+09:00",
+        "score": 42
+      },
+      {
+        "title": "'AI 수출통제' 배경에 아마존…\"위험하다\" 문제제기한 투자자",
+        "summary": "앤트로픽은 아마존의 AI 반도체와 클라우드 인프라를 활용하고, 아마존은 앤트로픽의 AI 모델을 자사 기업용 AI 서비스에 접목하는 협력 관계를 이어왔다. 통상 투자자는 투자 기업의 성장과 사업 확대를 지원하는...",
+        "link": "https://www.mt.co.kr/tech/2026/06/15/2026061512104183030",
+        "source": "머니투데이",
+        "published": "2026-06-15T15:36:00+09:00",
+        "score": 38
+      },
+      {
+        "title": "동국홀딩스, AI 데이터센터·CVC로 미래 먹거리 찾는다",
+        "summary": "본업인 철강에서는 고부가가치 강재를 중심으로 수출 경쟁력을 확보한다는 구상이다. 냉연 자회사인 동국씨엠은 저수익 품목을 축소했다. 프리미엄 컬러강판 브랜드인 ‘럭스틸’과 ‘앱스틸’ 중심의 고부가 제품군...",
+        "link": "https://www.hankyung.com/article/2026061561961",
+        "source": "한국경제",
+        "published": "2026-06-15T15:42:00+09:00",
+        "score": 32
       },
       {
         "title": "상용일자리 26년 만에 첫 감소…2030세대 IT·전문직 일자리 크게 줄어 ‘AI 대체’ 우려",
@@ -464,55 +480,15 @@
         "source": "경향신문:경제",
         "published": "2026-06-15T07:22:00+09:00",
         "score": 32
-      },
-      {
-        "title": "李 언급한 'AI 기본소득', 머스크도 거론…'해본' 올트먼은 \"글쎄\" [이슈...",
-        "summary": "다리오 아모데이 앤트로픽 최고경영자(CEO)는 자신의 블로그에 공개한 정책 에세이에서 AI가 초고속 성장과 극심한 불평등이 동시에 굳어지는 경제를 만들 수 있다고 진단했다. 그러면서 AI발 노동 수요 감소가 장기화할...",
-        "link": "https://www.hankyung.com/article/202606156200g",
-        "source": "한국경제",
-        "published": "2026-06-15T14:32:00+09:00",
-        "score": 30
-      },
-      {
-        "title": "GS, K-뉴딜 아카데미 참여…청년 인재 AI 역량 키운다",
-        "summary": "‘52g 리부트 캠프’ 운영 GS그룹이 고용노동부와 산업통상부가 주관하는 인재 양성 프로젝트 ‘K-뉴딜 아카데미’에 참여해 인공지능(AI) 실전 역량을 갖춘 청년 인재 양성에 나선다. GS그룹은 다음 달부터 청년 교육...",
-        "link": "https://www.mk.co.kr/article/12074368",
-        "source": "매일경제",
-        "published": "2026-06-15T14:17:00+09:00",
-        "score": 26
-      },
-      {
-        "title": "AI가 일의 단위를 바꾼다, ‘2026 일잘러 페스타’ 7월 개막",
-        "summary": "더피엠디가 주최하고 기고만장과 공동 주관하는 이번 행사는 고용노동부, 한국디지털기업협회, 한국인공지능·소프트웨어산업협회, 한국HRD기업협회가 후원한다. 디지틀조선일보C&M은 미디어 파트너로 참여한다....",
-        "link": "http://digitalchosun.dizzo.com/site/data/html_dir/2026/06/15/2026061580133.html",
-        "source": "조선일보",
-        "published": "2026-06-15T14:12:00+09:00",
-        "score": 26
       }
     ],
     "기타": [
-      {
-        "title": "삼성·한투·타임폴리오 \"스페이스X 상장일 장중에 매수\"(종합)",
-        "summary": "(서울=연합뉴스) 김태종 기자 = 미 우주항공 스페이스X가 현지시간 12일 상장한 가운데 관련 상장지수펀드(ETF)를 내놓았던 국내 자산운용사들...",
-        "link": "https://www.yna.co.kr/view/AKR20260615031751008",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-06-15T11:37:17+09:00",
-        "score": 24
-      },
       {
         "title": "'AI라는 든든한 버스에 올라타자'…중국 첨단산업 현장 가보니",
         "summary": "그러나 AI의 급속한 발전은 높은 청년 실업률에 허덕이는 중국 경제에 어두운 그림자도 함께 드리우고 있다. 인력이 AI와 로봇 기술로 대체되는 현장을 목도할 수 있었던 것이다. 난징시의 한 기업 관계자는 \"생산 공정을...",
         "link": "https://www.yna.co.kr/view/AKR20260614034400009?input=1195m",
         "source": "연합뉴스",
         "published": "2026-06-14T15:56:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "노동장관 만난 포스코그룹 장인화 \"비정규직 안전인력 정규직화\"",
-        "summary": "현장 안전관리자의 고용 불안을 해소하기 위해 인력을 증원하고 정규직 전환을 추진하는 한편, 안전 관련 예산 투자도 대폭 확대할 방침이다. 김영훈 고용노동부 장관은 15일 장인화 포스코그룹 회장, 송치영 포스코이앤씨...",
-        "link": "https://magazine.hankyung.com/business/article/202606156954b",
-        "source": "한국경제",
-        "published": "2026-06-15T14:11:00+09:00",
         "score": 24
       },
       {
@@ -532,11 +508,11 @@
         "score": 24
       },
       {
-        "title": "SPA부터 스트릿까지, 日 패션 전성시대 [언박싱]",
-        "summary": "관세청 수출입무역통계에 따르면 일본산 의류 수입액은 2024년 1억1998만달러에서 2025년 1억3167만달러로 증가했다. 올해 1~5월 누적 수입액은 5762만달러로 전년 동기(5431만달러) 대비 6.1% 증가했다. 업계 관계자는...",
-        "link": "https://biz.heraldcorp.com/article/10771578?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-06-15T12:06:00+09:00",
+        "title": "장인화 포스코 회장 \"전 사업장 동일 재해 반복 없도록 모든 역량 동원...",
+        "summary": "\"그룹 전 사업장에서 더 이상 동일 재해가 반복해 발생하지 않도록 안전예산 확보와 관련 투자를 포함한 회사가 가용할 수 있는 모든 역량을 동원하겠다.\" 장인화 포스코그룹 회장은 15일 김영훈 고용노동부 장관 주재로...",
+        "link": "https://www.mt.co.kr/industry/2026/06/15/2026061513213233959",
+        "source": "머니투데이",
+        "published": "2026-06-15T15:53:00+09:00",
         "score": 24
       },
       {
@@ -548,19 +524,11 @@
         "score": 24
       },
       {
-        "title": "스페이스X 상장 잔치, 韓 ‘0주’… 공모 참여 미래에셋 1주도 못받아",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/15/134110727.1.jpg\" vspace=\"10\" />미국 우주항공 기업 스페이스X가 사상 최대 규모의 기업공개(IPO)에 성공했지만, 국내에서 유일하게 공모주 인수단으로 참여한 미래에셋증권이 공모주 확보에 실패한 것으로 밝혀져 파장을 낳고 있다. 이에 따라 국내 기관 투자가 공모주 배정은 무산됐다. 국내에서 개인 투자자의 스페이스X 공모 참여는 애초에 막혀 있었지만 투자자들은 불만을 제기하고 있다. 일부 자산운용사가 상장지수펀드(ETF)에 스페이스X 공모주를 담으려고 했지만 실패했고, 일부 운용사는 장중 매매로 스페이스X를 담아 결과적으로 수익률이 낮아질 것으로 보이기 때문이다. 금융당국은 미래에셋증권이 사전에 공모주를 배정받지 못할 가능성을 충분히 검토하고 안내했는지, 과장 마케팅 등이 있었는지 등을 들여다볼 예정이다.● 미래에셋...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260615/134110221/2",
+        "title": "싱가포르 CNA, 731부대 다룬 다큐멘터리 공개",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/15/134113741.1.png\" vspace=\"10\" />싱가포르 매체 CNA(채널뉴스아시아)가 제작한 2부작 다큐멘터리 ‘인사이드 유닛 731(Inside Unit 731: Japan’s Secret Human Experiments)‘이 최근 공개돼 관심을 모으고 있다.이번 다큐멘터리는 국제 에미상 후보에 오른 제작진이 수십 년간 은폐돼 온 731부대의 실상을 조명한 작품이다. 731부대는 일본군이 만주 하얼빈 인근에 설립한 비밀 생물전 연구기관으로, 인체실험과 생물무기 연구를 수행한 조직이다.제작진은 마지막 생존 731부대원으로 알려진 시미즈 히데오(清水英男)의 인터뷰와 생존자 증언, 새롭게 공개된 자료를 바탕으로 당시의 활동을 재구성했다. 다큐멘터리는 중국인뿐 아니라 영국인과 미국인 피해 사례도 함께 다루며 피해 규모를 조명했다.다...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260615/134113678/1",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-15T04:30:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "'금 사라, 코인 사라' 옛말…동반 하락, 투자자들 어디로 갔나",
-        "summary": "여기에 유가 상승에 따른 인플레이션 우려가 재부각되면서 달러와 채권 선호 현상이 강해진 점도 금 가격에는 부담으로 작용했다. 비트코인의 경우 미국 우주기업 스페이스X의 나스닥 상장도 영향을 미쳤다는 분석이...",
-        "link": "http://weekly.chosun.com/news/articleView.html?idxno=52561",
-        "source": "조선일보",
-        "published": "2026-06-15T11:10:00+09:00",
+        "published": "2026-06-15T14:50:00+09:00",
         "score": 24
       },
       {
@@ -569,6 +537,30 @@
         "link": "https://www.khan.co.kr/article/202606142030005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-06-14T20:30:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "스페이스X 0주 배정에 투자자 불만 폭발…금감원, 미래에셋 검사 착수",
+        "summary": "<table><tr><td><img align=\"left\" border=\"0\" src=\"http://img.vod.mbn.co.kr/vod2/605/2026/06/15/20260615073811_20_605_1421455_1080_7_s1.jpg\" width=\"160\" />【 앵커멘트 】  지난주 금요일 상장한 미국 우주기업 스페이스X 공모주 미배정 사태의 여파가 커지고 있습니다.  청약을 진행한 미래에셋증권에 대한 투자자들의 반발이 이어지며, 금융감독원은 현장 검사를 통해 경위를 파악하기로 했습니다.  장동건 기자입니다.【 기자 】   지난주 금요일 미국 나스닥 상장 첫날 거래를 공모가 대비 19% 오른 161달러로 마감한 우주기업 스페이스X.  시가총액이 2조 달러를 넘기며 단숨에 시총 6위로 뛰어올랐습니다.▶ 인터뷰 : 일론 머스크 / 스페이스X 최고경영자 (현지 시각 12일)- \"저는 스페이스X가 성공할 확률을 10%도 채 안 된다고 생각했습니다. 하지만, 새로운 우주 기업이...",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5199745",
+        "source": "MBN : 경제기사",
+        "published": "2026-06-15T07:00:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "스페이스X 상장, 19% 급등…최대주주 머스크, '조만장자' 등극",
+        "summary": "<table><tr><td><img align=\"left\" border=\"0\" src=\"http://img.vod.mbn.co.kr/vod2/906/2026/06/13/20260613200006_20_906_1421406_1080_7_s1.jpg\" width=\"160\" />【 앵커멘트 】  일론 머스크가 이끄는 우주기업 스페이스X가 미국 나스닥시장에 입성했습니다.  상장 첫날 주가는 19% 급등하며 단숨에 시가총액 6위로 올랐습니다.  최대주주인 일론 머스크는 세계 최초로 자산규모가 1조 달러를 넘는 '조만장자'에 등극했습니다.  최윤영 기자입니다.【 기 자 】  우주기업 스페이스X의 미국 나스닥 상장.  (현장음 - 나스닥 개장 종소리, 박수 소리)  데뷔는 성공적이었습니다. 스페이스X는 공모가 대비 19% 오른 161달러로 첫날 거래를 마감하며 시가총액 6위로 뛰어올랐습니다. ▶ 인터뷰 : 일론 머스크 / 스페이스X 최고경영자- \"저는 스페이스X가 성공할 확률을 10%도 채 안 ...",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5199609",
+        "source": "MBN : 경제기사",
+        "published": "2026-06-13T19:30:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "비트코인 한때 6만 달러 아래로…23억 달러 이상 자금 유출",
+        "summary": "가상자산 시가총액 1위 비트코인이 최근 6만 달러 아래로 떨어지며 52주 최저가를 기록했습니다.오늘(13일) 가상자산 정보업체 코인마켓캡에 따르면 비트코인은 지난 6일 오전 5만 9,000달러대로 떨어졌으며 이후, 5만 9,000달러∼6만 4,000달러대에서 등락 중입니다.비트코인은 작년 10월을 고점으로 꾸준히 하락세를 보이면서 역대 최고가(2025년 10월 7일, 12만 6,198달러)와 비교하면 50％ 이상 내렸습니다.이 같은 약세는 비트코인 현물 상장지수펀드(ETF) 자금 유출, 스트래티지의 비트코인 매각 결정, 스페이스X 상장 등이 복합적으로 영향을 미친 결과로 분석됩니다.타이거리서치에 따르면 지난달 비트코인 ..",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5199565",
+        "source": "MBN : 경제기사",
+        "published": "2026-06-13T15:38:00+09:00",
         "score": 24
       }
     ]
@@ -631,39 +623,39 @@
   ],
   "summary_en": {
     "date": "2026-06-15",
-    "generated_at": "2026-06-15T05:36:35.648279+00:00",
-    "briefing_hash": "06e2c4f5f534d359",
+    "generated_at": "2026-06-15T07:04:24.427562+00:00",
+    "briefing_hash": "fe238dc363158ccd",
     "key_headlines": [
       {
         "title": "South Korea's May Exports Hit Record 87.8 Billion Dollars Driven by Semiconductor Boom",
-        "summary": "Korea's exports reached 87.8 billion dollars in May, marking the highest monthly record, with semiconductor exports surging 167.7% year-over-year and trade surplus reaching 27 billion dollars for 16 consecutive months."
+        "summary": "South Korea achieved record monthly exports of 87.8 billion dollars in May, with semiconductor exports surging 167.7% year-on-year, maintaining 12 consecutive months of export growth and posting 27 billion dollars in trade surplus."
       },
       {
-        "title": "KOSPI Surges 5% as US-Iran War Ceasefire Deal Concluded",
-        "summary": "South Korean stock market jumped over 5% at market open following news of a concluded peace agreement between the US and Iran, with oil prices stabilizing around 80 dollars per barrel."
+        "title": "KOSPI Surges 5% as US-Iran War Peace Deal Signals Economic Relief",
+        "summary": "The KOSPI index jumped 5% in early trading following news of a US-Iran peace agreement, with WTI crude oil prices stabilizing around 80 dollars per barrel, easing geopolitical tensions affecting Korean markets."
       },
       {
-        "title": "Bank of Japan Expected to Raise Policy Rate from 0.75% to 1.0% Next Week",
-        "summary": "The Bank of Japan is expected to announce a rate hike to 1.0% at its June 16th financial policy committee meeting, marking another step in its monetary tightening cycle."
+        "title": "Semiconductor Sector Operating Profit Surges 961% amid K-Shaped Economic Polarization",
+        "summary": "Top 30 companies are projected to earn 175 trillion won in Q2 operating profits, with semiconductor firms (Samsung, SK Hynix, Hanmi) accounting for 84% (148 trillion won), while 27 non-semiconductor companies face declining profits, deepening Korea's K-shaped economic divide."
       },
       {
-        "title": "Semiconductor Sector Operating Profit Surges 961% as K-Shaped Economic Polarization Intensifies",
-        "summary": "Korean conglomerates show stark polarization with semiconductor firms projecting 148 trillion won in operating profit out of 175 trillion won total for top 30 companies, while non-semiconductor sectors face declining profits."
+        "title": "Bank of Japan and Fed Rate Decisions Loom as Key Economic Variables Next Week",
+        "summary": "The Bank of Japan is expected to raise its policy rate from 0.75% to 1.0% on June 16, while Fed Chair Kevin Wash will chair his first FOMC meeting on June 18, with potential rate decisions becoming critical market drivers."
       },
       {
-        "title": "Foreign Investors Net Sell 31.8 Billion Dollars in May Stock Market, Recording Historic High Outflow",
-        "summary": "Foreign investors conducted record net selling of 31.8 billion dollars in Korean stock markets in May due to profit-taking and portfolio rebalancing amid rising domestic stock valuations."
+        "title": "Seoul Average Home Price Exceeds 1 Billion Won as Property Market Reaches New Heights",
+        "summary": "Seoul's average housing price surpassed 1 billion won in May 2026, with Gyeonggi Province also recording triple highs across sales, lease, and jeonse (long-term deposit rental) markets, driven by strong demand for new construction and reconstruction projects."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea's May exports reached a record-breaking 87.8 billion dollars, marking the highest monthly figure with semiconductor exports surging 167.7% year-over-year, while the nation maintained an 16-month consecutive trade surplus of 27 billion dollars. The KOSPI index rallied over 5% at market open following the conclusion of US-Iran ceasefire negotiations, with oil prices stabilizing around 80 dollars per barrel, boosting market sentiment. However, Korean economy is experiencing severe K-shaped polarization as semiconductor firms project 961% higher operating profits while non-semiconductor companies face declining earnings, with the top 30 companies' 175 trillion won profits being concentrated among semiconductor leaders.",
-      "Macro & Fiscal Policy": "South Korea's first-quarter nominal GDP growth rate reached 10.5% quarter-over-quarter, the highest in 50 years, supported by exceptional semiconductor exports and strong fiscal performance. Marginal firms increased by 1 percentage point, causing negative spillover effects on normal firms' investment and employment growth, potentially reducing growth rates by up to 0.18 percentage points according to Bank of Korea analysis. Citibank estimates that Korea's annual GDP growth could increase by 0.4 percentage points from first-half stock market gains, while the central bank is expected to accelerate rate hikes with the final policy rate potentially reaching 4.0% annually.",
-      "Financial Markets": "The KOSPI surged 5% at market open following US-Iran ceasefire announcement, with key variables now centering on the Federal Reserve's FOMC decision scheduled for June 18 and semiconductor company earnings. Foreign investors recorded historic net selling of 31.8 billion dollars in May, marking the largest monthly outflow, driven by profit-taking and portfolio rebalancing amid elevated domestic valuations. Bond markets experienced net inflows due to World Government Bond Index tracking flows and bargain-hunting amid rising interest rates, while the Korean won strengthened on geopolitical risk reduction.",
-      "Industry & Technology": "KIST and KIMS intensified advanced materials collaboration across strategic technology sectors including semiconductor packaging, next-generation batteries, and AI-related materials. Han-Korea company launched on-site battery replacement service through Coupang to enhance convenience for vehicle battery substitution. The National Biotech Innovation Committee held talks with pharmaceutical biotech industry leaders to strengthen domestic innovation ecosystem and global competitiveness, focusing on R&D promotion, open innovation, and global export capabilities.",
-      "Real Estate": "Seoul apartment prices rose 0.9% in May, the largest monthly increase this year, driven by concentrated demand for new construction and reconstruction projects in Seoul and the metropolitan area. Property prices in Giheung, Yongin have surged past 1.5 billion won as investment heat spreads from adjacent Dongtan and Suji areas, benefiting from semiconductor company employment and bonus incentives. The national average apartment price breakthrough of 1.5 billion won marks a significant milestone, with reconstruction speed becoming critical for successful development projects in the Han River belt area.",
-      "International Economy": "The US-Iran ceasefire agreement has significantly reduced geopolitical risk, with oil prices stabilizing and trade normalcy expected to resume, while the Hormuz Strait opening is anticipated to improve supply chain stability and reduce Middle Eastern crude oil dependence. Incoming Federal Reserve Chair Kevin Warsh's first FOMC meeting on June 18 is expected to clarify the Fed's rate policy direction, with market expectations for potential rate hikes against previous hiking cycle expectations. AI is projected to double US GDP by 2030 but could simultaneously double underemployment rate from 8% to 14%, raising concerns about technological displacement and income inequality.",
-      "AI & Economy": "Edge data centers are emerging as critical AI infrastructure, with companies like Vectr targeting this market alongside industrial AI conversion partners to establish dominance in the sector. Regular wage employment declined for the first time in 26 years and 5 months in May, with significant decreases in IT and professional services for the 2030 generation, reflecting growing concerns about AI-driven job displacement. AI-based basic income has gained attention from multiple figures including Lee Jae-myung and Elon Musk, while Anthropic CEO Dario Amodei warned that AI could create extreme inequality and prolonged labor demand reduction. GS Group is participating in the K-New Deal Academy to cultivate youth talent with practical AI capabilities for future workforce development.",
-      "Others": "Samsung, Korea Investment Holdings, and Time Portfolio announced intentions to purchase SpaceX-related ETFs during its trading debut on June 12, capitalizing on space industry investment momentum. Kieum Investment Asset Management launched a space-themed ETF with up to 25% SpaceX exposure to tap growing investor interest in aerospace infrastructure. Meditoxin began pharmacy distribution of LactiPLAN, a body fat-reducing probiotic with individually recognized functional benefits from the Food and Drug Administration. Posco Group announced plans to regularize non-regular safety personnel and expand safety-related budget investments significantly to improve worker stability and workplace safety standards."
+      "Hot Economy News": "South Korea's export sector is experiencing exceptional momentum with May exports reaching a record 87.8 billion dollars, driven primarily by a remarkable 167.7% surge in semiconductor exports. The country has maintained 12 consecutive months of export growth, with the semiconductor sector's operating profit projected to jump 961% in Q2, creating a stark K-shaped economic pattern where chip companies dominate while other industries struggle. Geopolitical relief from the US-Iran peace agreement has boosted market sentiment, with the KOSPI jumping 5% and crude oil prices stabilizing around 80 dollars per barrel, easing previous concerns about inflation and supply chain disruptions.",
+      "Macro & Fiscal Policy": "The Bank of Korea is projected to accelerate its rate-hiking cycle, with analysts predicting the benchmark rate could reach 4.0% by next year if the central bank raises rates consecutively in the second half, up from current expectations of 3.5%. Margin firms are creating negative externalities on healthy companies, with research showing that a 1 percentage point increase in marginal firm share reduces normal firm investment and employment growth by up to 0.18 percentage points, highlighting the need for improved market exit mechanisms. The government is considering ending price caps on petroleum products following the Middle East peace resolution, though refineries and petrochemical companies face near-term inventory losses from reverse lag effects before achieving mid-to-long-term cost stabilization.",
+      "Financial Markets": "Foreign investors have become net sellers of Korean equities with record outflows of 70.2 billion dollars in May, despite purchasing 8.5 trillion won of Korean bonds as US Treasury yields rose amid inflation concerns and anticipated central bank rate hikes. The KOSPI recovered to over 8,500 points, gaining 5.2%, while the KOSDAQ rose 1.86%, with the won strengthening to 1,514.40 per dollar as geopolitical tensions eased following the US-Iran ceasefire agreement. Market participants are closely watching the Bank of Japan's June 16 rate decision and the Fed's June 18 FOMC meeting, as these central bank actions are expected to be critical variables determining Korean stock market direction alongside semiconductor earnings results.",
+      "Industry & Technology": "South Korea's battery and semiconductor industries are intensifying competition with China in emerging sectors, particularly in electric vertical takeoff and landing (eVTOL) aircraft batteries as both nations eye the future urban air mobility market. Domestic companies including Shinsung E&G are partnering internationally, such as with India's Sterling and Wilson, to develop advanced HVAC systems for semiconductor fabs, battery plants, and display factories across Asia. The biotech sector is advancing with innovations in Alzheimer's disease treatment strategies and blood-based diagnostics, while the government's Biotech Innovation Committee is strengthening collaboration with pharmaceutical and biotech companies to enhance global competitiveness and build a robust innovation ecosystem.",
+      "Real Estate": "Seoul's housing market has reached a new milestone with average property prices exceeding 1 billion won in May 2026, while Gyeonggi Province simultaneously hit record highs across sales, lease, and jeonse categories driven by strong demand for newly built and reconstructed apartment complexes. Investor interest is shifting toward older properties in major Chinese cities where modest 2-3% rental yields exceed traditional investment products returning only 1%, reflecting changing investment strategies amid prolonged property slumps. Secondary cities near Seoul such as Dongtan, Suji, and Giheung are experiencing heated competition as investment demand spreads, with Giheung crossing the 1.5 billion won national average price threshold for premium complexes near Samsung and SK Hynix semiconductor facilities.",
+      "International Economy": "US President Trump has threatened 100% tariffs on French wine and champagne unless France abolishes its digital services tax, continuing his administration's aggressive trade strategy against what it views as discriminatory taxation of American technology companies. Fed Chair Kevin Wash faces a policy dilemma between his past hawkish positions favoring rate increases and the Trump administration's preference for rate cuts, creating uncertainty about the central bank's upcoming June 18 FOMC decision and its impact on global markets. The international trade environment remains tense, with Canada having already withdrawn its digital services tax proposal and Italy considering similar moves, as Trump uses tariff threats to reshape global trade policies in line with US interests.",
+      "AI & Economy": "South Korea and Japan have launched formal economic cooperation frameworks to strengthen AI-related industrial collaboration, focusing on power efficiency in AI infrastructure and care robotics development to address shared societal challenges and maintain global competitiveness. EdgeAI companies are attracting investor attention as AI datacenters emerge as critical infrastructure, with Korean firms positioning themselves to lead in this high-growth market sector alongside traditional industrial transformation efforts. However, concerns are mounting about AI's displacement of skilled workers, with salaried employment declining for the first time in 26 years and workers aged 20-30 experiencing significant job losses in IT, professional, scientific, and technology services, raising questions about whether AI advancement will create sufficient new opportunities to offset displaced workers.",
+      "Others": "China's rapid AI and automation adoption is transforming production processes and replacing human labor across industries, even as the country grapples with persistently high youth unemployment, creating a paradox where technological advancement coincides with workforce displacement challenges. Space industry investments are attracting retail interest with the launch of space-themed ETFs containing SpaceX exposure of up to 25%, reflecting growing enthusiasm for commercial space ventures following SpaceX's public market activities. Consumer health companies are expanding distribution channels for functional products, with Meditoxs launching its LactiPLAN body-fat-reducing probiotic supplement in pharmacies nationwide, while industrial safety remains a critical focus with Posco Group management committing to comprehensive investment in workplace safety measures to prevent recurring incidents across all facilities."
     }
   }
 }
