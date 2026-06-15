@@ -172,7 +172,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add latest_*.json cached_summary_*.json cache_candidates.json kr_bond_history.json jobs/data/ client/public/audio/ client/public/feed.xml || true
           git diff --staged --quiet || git commit -m "Daily data update $(date +'%Y-%m-%d')"
-          git push
+          git pull --rebase origin main
+          git push origin main
 
       - name: Deploy to Vercel
         run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
