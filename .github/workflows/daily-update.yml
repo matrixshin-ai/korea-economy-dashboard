@@ -174,6 +174,12 @@ jobs:
           git diff --staged --quiet || git commit -m "Daily data update $(date +'%Y-%m-%d')"
           git push
 
+      - name: Deploy to Vercel
+        run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
       - name: Wait for Vercel deployment
         if: steps.summary.outputs.en_changed == 'true' && steps.runtype.outputs.type == 'evening'
         run: |
