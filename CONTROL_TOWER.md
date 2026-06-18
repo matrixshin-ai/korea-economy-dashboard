@@ -254,6 +254,35 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 
 ## 10. 변경 이력
 
+### 2026-06-18
+
+**Deploy to Vercel 스텝 제거 (daily-update.yml)**
+- 배경: 2026-06-15 beeaccf 커밋에서 "Deploy to Vercel" 스텝 추가됨
+  (GitHub Actions bot commit이 deploy.yml을 트리거하지 못해 추가한 것)
+- 문제: VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID 3개 Secret이 
+  미설정 상태로 추가되어 6/15부터 매일 evening 런 실패
+  → Wait for Vercel deployment, Trigger YouTube pipeline 연쇄 스킵
+- 확인: Vercel은 GitHub push 시 이미 정상 자동 배포 중이었음 (대시보드 최신 데이터 정상 반영 확인)
+- 수정: Deploy to Vercel 스텝 완전 제거, 이전 정상 흐름으로 복원
+
+**moltbook-vm GitHub PAT 갱신**
+- 만료 예정 알림 수신 → 365일 만료로 재발급
+- GCP VM(moltbook-bot) opsguard/.env의 GITHUB_PAT 업데이트
+- 용도 확인: opsguard가 daily-update.yml workflow 조회/dispatch에 사용 (actions/dispatch.py)
+- gcloud CLI 사무실 PC에 신규 설치 (향후 VM 작업 편의를 위함)
+
+**moltbook 봇마당 파이프라인 404 에러 수정**
+- 원인: 2026-06-16부터 model "claude-sonnet-4-20250514" 404 Not Found (Anthropic 모델 deprecated)
+- 영향: 봇마당 코멘트 생성, daily pipeline 전체 실패 (06-16~06-18 3일간)
+- 수정: src/drafter.py, botmadang_drafter.py, scheduler.py에서
+  모델명을 claude-sonnet-4-6으로 일괄 교체
+- moltbook-telegram.service 재시작 완료, active(running) 확인
+
+**보류 작업**
+- opsguard-fallback GitHub PAT 갱신 — 주말 진행 예정 (moltbook-vm은 완료)
+
+**Last updated: 2026-06-18**
+
 ### 2026-06-08
 
 **RSS/Podcast 파이프라인 수정 및 Spotify Processing 해제 작업**
