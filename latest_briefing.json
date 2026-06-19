@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-19T14:34:12.623462+09:00",
+  "generated_at": "2026-06-19T14:35:57.342750+09:00",
   "date": "2026-06-19",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 662,
-    "total_used": 650,
-    "dropped_quality": 3,
-    "dropped_negative": 9,
+    "total_input": 671,
+    "total_used": 654,
+    "dropped_quality": 11,
+    "dropped_negative": 6,
     "per_category": {
-      "기타": 304,
-      "금융시장": 117,
-      "거시경제·재정": 72,
-      "국제경제": 41,
-      "산업·과학": 61,
-      "부동산": 52,
-      "AI와 경제": 3
+      "산업·과학": 58,
+      "기타": 306,
+      "금융시장": 103,
+      "거시경제·재정": 83,
+      "국제경제": 48,
+      "부동산": 48,
+      "AI와 경제": 8
     }
   },
   "headlines": [
@@ -222,68 +222,60 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "불확실한 물가에 잉글랜드은행도 기준금리 유지",
-        "summary": "최근 미국과 이란의 종전 양해각서 체결, 호르무즈 재개방 약속에 국제 유가가 하락했지만 인플레이션... 다만, 계속 완화되는 노동시장과 경제 둔화 조짐, 전쟁 전보다 높은 금리 등은 인플레이션 압력을 억제하는...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000317550?division=NAVER",
+        "title": "생산자물가 9개월 연속 상승…수입란 2천만개 공급 시작",
+        "summary": "[기자] 한국은행에 따르면 지난달 생산자물가지수는 129.82로 전달보다 0.8% 올랐습니다. 9개월 연속 상승세를 이어오고 있는데요. 품목별로 보면 산업용 도시가스가 10% 넘게 올라 러시아·우크라이나 전쟁 직후인 2022년...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000317647?division=NAVER",
         "source": "SBS",
-        "published": "2026-06-19T06:22:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "“불 붙은 증시가 물가까지 끌어올렸다”…5월 생산자물가 9개월째 상승",
-        "summary": "한국은행이 19일 발표한 ‘5월 생산자물가지수’에 따르면 지난달 생산자물가지수는 129.82(2020년=100)로 전월(128.75)보다 0.8% 상승했다. 생산자물가는 지난해 9월 이후 9개월째 상승세를 이어가고 있다. 품목별로는...",
-        "link": "https://www.mk.co.kr/article/12078139",
-        "source": "매일경제",
-        "published": "2026-06-19T08:54:00+09:00",
-        "score": 100
-      },
-      {
-        "title": "고유가·고환율에 생산자물가 8%대 상승…\"중동 전쟁 충격 쌓인다\"",
-        "summary": "(사진=연합뉴스) 19일 한국은행이 발표한 ‘2026년 5월 생산자물가지수(잠정)’에 따르면 지난달 생산자물가지수는 129.82(2020년=100)로 전년 동월보다 8.5% 급등하며 지난 2022년 7월(9.2%) 이후 3년 10개월 만에 가장 큰...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02269766645483360",
-        "source": "이데일리",
-        "published": "2026-06-19T06:03:00+09:00",
-        "score": 100
+        "published": "2026-06-19T11:50:00+09:00",
+        "score": 130
       },
       {
         "title": "유가 꺾였지만 생산자물가엔 '여진'···화학·금융이 바통 이어",
-        "summary": "19일 한국은행에 따르면 지난 5월 생산자물가지수는 전월 대비 0.8% 올랐다. 전월 상승률(2.7%)보다 1.9%p 하향된 결과지만 지난해 9월(0.4%)부터 9개월 연속 상승세는 유지했다. 지난 2020년 11월부터 이어진 13개월 오름세...",
+        "summary": "생산자물가지수는 국내생산자가 국내시장에 공급하는 상품·서비스 가격 변동을 나타내는 통계로 경기동향 판단 지표, 국내총생산(GDP) 디플레이터 등으로 쓰인다. 다만 가격 변동을 측정하기 때문에 절대 수준을...",
         "link": "http://www.fnnews.com/news/202606181515321712",
         "source": "파이낸셜뉴스",
         "published": "2026-06-19T06:01:00+09:00",
+        "score": 112
+      },
+      {
+        "title": "5월 생산자물가 전년 대비 8.5% 상승…3년 10개월만에 최고",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134142797.1.jpg\" vspace=\"10\" />중동 정세 불안 영향으로 고유가와 고환율 현상이 이어지면서 지난달 생산자물가가 전년 동월 대비 8% 이상 오른 것으로 나타났다. 전월 대비로는 9개월 연속 오름세를 보였다. 한국은행은 미국과 이란의 종전 합의 이후에도 생산자 물가 상승세가 둔화될 때까지는 시간이 더 걸릴 것으로 예상했다.24일 한은에 따르면 올해 5월 생산자물가지수(잠정치)는 129.82(2020년 수준 100)로 1년 전(119.64)보다 8.5% 올랐다. 이는 러시아와 우크라이나 전쟁 발발 이후인 2022년 7월(9.2%) 이후 3년 10개월 만에 가장 큰 폭의 상승률이다.석탄 및 석유제품 중 드라이크리닝에 주로 사용되는 솔벤트의 생산자물가가 239.6% 뛰었다. 화학 제품 중에선 황산(215.9%), 자일렌(...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260619/134142502/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-06-19T11:36:00+09:00",
         "score": 100
       },
       {
-        "title": "5월 생산자물가 전년比 8.5% 상승… 러·우 전쟁 이후 46개월만에 최고",
-        "summary": "5월 생산자물가가 전년 동월 대비 8.5% 상승했다고 한국은행이 19일 밝혔다. 러시아·우크라이나 전쟁으로 물가가 급등했던 2022년 7월(9.2%) 이후 3년 10개월 만에 최고치를 기록한 것이다. 중동 사태로 상승한 국제...",
-        "link": "https://biz.chosun.com/policy/policy_sub/2026/06/19/CPG743ANDNAEJHNRZN23E2F2XQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-06-19T08:49:00+09:00",
+        "title": "\"위탁매매수수료 22% 폭등\"…5월 생산자물가 9개월째 상승",
+        "summary": "[사진=한국은행]  지난달 유가 상승 파급 효과가 나타나고 증시 호조에 따른 서비스 가격도 상승해 국내 생산자물가가 9개월째 상승세를 이어갔다. 19일 한국은행에 따르면 올해 5월 생산자물가지수는 129.82(2020년...",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=527001",
+        "source": "중앙일보",
+        "published": "2026-06-19T14:34:00+09:00",
         "score": 100
       },
       {
-        "title": "고유가 파급·증시 호조 등에 5월 생산자물가 9개월째 상승",
-        "summary": "19일 한국은행에 따르면, 올해 5월 생산자물가지수는 129.82(2020년 수준 100)로, 전월(128.75)보다 0.8% 상승했습니다. 작년 9월부터 9개월 연속 상승입니다. 품목별로 보면, 공산품은 화학제품(1.8%), 1차 금속제품(1.4...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008617738&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-06-19T07:54:00+09:00",
+        "title": "지난달 생산자물가 1년 전보다 8.5%&#8593;···3년 10개월만 최고",
+        "summary": "전월 대비 0.8% 올라 9개월째 상승중생산자물가지수 등락률. 한은 제공미국·이란 전쟁에 따른 고유가 파급 효과로 지난달 생산자물가가 1년전보다 8% 넘게 올라 약 4년 만에 최대 폭으로 상승했다. 전월 대비로도 0.8% 상승해 9개월째 상승세를 이어갔다. 다만 석유류는 전월 대비 소폭 하락했다.한국은행이 19일 발표한 ‘5월 생산자물가지수’를 보면, 지난···",
+        "link": "https://www.khan.co.kr/article/202606191127011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-06-19T11:27:01+09:00",
         "score": 100
       },
       {
-        "title": "한은 총재 \"물가, 상당기간 높은 오름세 지속할 것\"",
-        "summary": "신현송 한국은행 총재가 \"소비자물가는 앞으로 상당 기간 높은 수준의 오름세를 지속할 것으로 예상된다\"고 말했습니다. 신 총재는 오늘(17일) 오후 한은에서 열린 물가안정목표 운영상황 점검 기자설명회 모두발언에서 \"에너지 공급망이 중동 전쟁 이전 수준으로 정상화하고 국제유가가 안정되기까지 오랜 시간이 소요될 것 같다\"며 이같이 밝혔습니다. 그는 \"고유가 영향이 에너지뿐 아니라 여타 다른 품목으로도 파급될 수 있다\"면서 \"국내 경기 개선세에 따른 수요 압력도 점차 높아질 것으로 예상된다\"고 설명했습니다. 그러면서 \"임금 상승 또한 비용과 수요 양 측면에서 물가 상방 압력을 더 높일 우려가 있다\"고 덧붙였습니다. 신 총재는 ..",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5200341",
-        "source": "MBN : 경제기사",
-        "published": "2026-06-17T14:27:00+09:00",
-        "score": 92
+        "title": "고유가 파급·증시 호조에...5월 생산자물가 9개월째 상승",
+        "summary": "한국은행에 따르면 올해 5월 생산자물가지수는 129.82로 전달의 128.75보다 0.8% 상승했습니다. 품목별로는 화학제품 1.8%, 1차 금속제품 1.4%, 컴퓨터·전자·광학기기 1.6% 등을 중심으로 공산품이 0.7% 올랐습니다. 공산품...",
+        "link": "https://science.ytn.co.kr/program/view.php?mcd=0082&hcd=&key=202606191104310180",
+        "source": "YTN",
+        "published": "2026-06-19T13:42:00+09:00",
+        "score": 100
       },
       {
-        "title": "예상밖 물가 안정에 … 영란은행, 기준금리 동결",
-        "summary": "영국 중앙은행인 영란은행(BOE)이 기준금리를 현행 3.75%로 동결했다. 이란 전쟁 여파로 에너지 가격이 급등했지만, 최근 물가 상승률이 예상보다 안정적인 수준을 유지하면서 추가..",
-        "link": "https://www.mk.co.kr/news/world/12077650",
-        "source": "매일경제 : 국제",
-        "published": "2026-06-18T17:41:26+09:00",
-        "score": 90
+        "title": "영국은행, 인플레·침체 우려 속에서 기준금리 3.75% 동결",
+        "summary": "영국의 중앙은행이 물가상승(인플레이션) 압력과 경기 침체 우려 사이에서 고심한 끝에 기준금리를... 중동발 에너지 가격 상승에 따른 인플레이션 고착화를 선제적으로 방어해야 한다는 이유에서다. 에너지...",
+        "link": "http://www.fnnews.com/news/202606190804400189",
+        "source": "파이낸셜뉴스",
+        "published": "2026-06-19T09:42:00+09:00",
+        "score": 98
       },
       {
         "title": "점도표 뒤집혔다…워시 첫 FOMC ‘물가 안정’ 못 박고 금리인상 시대 ...",
@@ -295,18 +287,26 @@
       },
       {
         "title": "구윤철 \"고용·물가 중동전쟁 여파 아직…민생부담 경감 총력\"",
-        "summary": "구윤철 부총리 겸 재정경제부 장관은 19일 \"중동전쟁 종전 양해각서(MOU) 체결 소식 이후 국제유가가 하락하는... 구 부총리는 이날 오전 정부서울청사에서 비상경제본부 회의 겸 경제관계장관회의를 열고 이같이 밝혔다....",
+        "summary": "구윤철 부총리 겸 재정경제부 장관은 19일 \"중동전쟁 종전 양해각서(MOU) 체결 소식 이후 국제유가가 하락하는 등 대외 불확실성이 완화되는 모습\"이라면서도 \"고용둔화, 물가상승, 환율·금리 변동 등 중동전쟁 영향이 아직 지속되는 만큼 정부는 민생부담 경감을 위해 총력을 다하겠다\"고 강조했다. 구 부총리는 이날 오전 정부서울청사에서 비상경제본부 회의 겸 경제관계장관회의를 열고 이같이 밝혔다. 구 부총리는 \"제조·건",
         "link": "https://view.asiae.co.kr/article/2026061908453424232",
-        "source": "아시아경제",
-        "published": "2026-06-19T08:45:00+09:00",
+        "source": "아시아경제 - 경제",
+        "published": "2026-06-19T08:45:34+09:00",
         "score": 82
       },
       {
-        "title": "생산자물가 9개월 연속 상승...“미·이란 종전 효과는 점진적”",
-        "summary": "그리고 환율이 어떻게 움직일지가 크게 영향을 줄 것”이라며 “석유 시설이 정상적으로 복구되고 호르무즈 해협 통항이 이뤄질지 등 진행 정도에 따라 국제 원자재 가격이나 환율 추이가 국내 생산자 물가에도...",
-        "link": "https://biz.heraldcorp.com/article/10776509?ref=naver",
+        "title": "“불 붙은 증시가 물가까지 끌어올렸다”…5월 생산자물가 9개월째 상승",
+        "summary": "위탁매매수수료 증가 영향 금융·보험 서비스 가격 상승 석탄·석유제품은 하락 전환 산업용 도시가스·항공서비스↑지난달 국제유가 상승 여파와 증시 호조에 따른 금융서비스 가격 상승이 이..",
+        "link": "https://www.mk.co.kr/news/economy/12078139",
+        "source": "매일경제 : 경제",
+        "published": "2026-06-19T08:53:15+09:00",
+        "score": 80
+      },
+      {
+        "title": "5월 생산자물가 9개월 연속 상승",
+        "summary": "원/달러 환율도 야간 거래에서 1540원을 찍는 등 고공행진하면서 생산자물가에 상방 압력으로 작용하고... 19일 서울 외환시장에서 원/달러 환율은 전 거래일보다 10.3원 오른 1537.4원에 주간 거래를 시작했다. 시작가...",
+        "link": "https://biz.heraldcorp.com/article/10781788?ref=naver",
         "source": "헤럴드경제",
-        "published": "2026-06-19T06:01:00+09:00",
+        "published": "2026-06-19T11:33:00+09:00",
         "score": 80
       },
       {
@@ -320,70 +320,54 @@
     ],
     "금융시장": [
       {
-        "title": "[마켓 브리핑] 뉴욕증시, 금리 인상 리스크 딛고 하루 만에 상승",
-        "summary": "또 블룸버그에 따르면 스페이스X가 기업공개로 857억 달러를 조달했음에도 추가로 200억 달러 규모의 채권 발행을 추진하고 있는 것으로 알려졌는데요. 이 역시 주가에 부담으로 작용한 것으로 보입니다. 반면 반도체주...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000317559?division=NAVER",
+        "title": "[증시타임] FOMC·금리·환율 변화 속 반도체·소비재·금융주 투자 전망",
+        "summary": "美 연준, ‘워시체제’ 첫 FOMC…총평은? Q. 달러·원 환율과 한국은행 금리 정책 전망은? Q. 코스피, 사상 첫 9,000 돌파…1만피도 가능할까? Q. 오라클 실적, 긍정적으로 봐야 하는 이유는? Q. 하반기 반도체 산업...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000317577?division=NAVER",
         "source": "SBS",
-        "published": "2026-06-19T07:15:00+09:00",
-        "score": 122
+        "published": "2026-06-19T10:16:00+09:00",
+        "score": 150
       },
       {
-        "title": "[마켓 프리뷰] 코스피, 美 금리 인상 공포 딛고 9000선 첫 돌파",
-        "summary": "5원 기록 - 종전 합의에도 오르는 달러·원 환율…美 긴축 '뇌관' - 해외투자 평균보다 약 3% 증가시 환율 약 0.7%p↑ - 해외 투자소득 약 8% 증가시 환율 약 0.4%p 하락 Q. 미국과 이란이 종전 MOU에 서명하고, 호르무즈...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000317560?division=NAVER",
-        "source": "SBS",
-        "published": "2026-06-19T07:28:00+09:00",
-        "score": 116
+        "title": "“9천 피 돌파했는데, 내 주식은 왜 마이너스?”…온도 차 극명해지는 증시",
+        "summary": "삼전닉스 제외 체감지수 ‘4700 피’ 코스피 상승 종목 11% 불과 코스닥과 격차도 심화 뚜렷코스피 지수가 사상 첫 9천 피를 돌파한 가운데 불장 속 시장의 온도 차는 극명한 모..",
+        "link": "https://www.mk.co.kr/news/economy/12078246",
+        "source": "매일경제 : 경제",
+        "published": "2026-06-19T10:11:24+09:00",
+        "score": 106
       },
       {
-        "title": "뉴욕증시, 반도체 강세에 상승 마감…코스피 1만선도 보인다[뉴스새벽배...",
-        "summary": "-뉴욕증시 3대 지수는 전날 미 연방준비제도(Fed·연준)가 금리 인상 가능성을 시사하면서 하락했으나 이날 일제히 반등. 인공지능(AI) 칩 업종을 중심으로 저가 매수세가 유입. -인텔은 10.64% 급등. 도널드 트럼프...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02840486645483360",
-        "source": "이데일리",
-        "published": "2026-06-19T08:03:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "[오늘의 증시]美 반도체 다시 강세…9000 뚫은 코스피, 최고치 행진 이어가나",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134141320.1.jpg\" vspace=\"10\" />이란전 종전에 따른 호르무즈 해협 운항 정상화에 대한 기대감이 커지며 간밤 뉴욕증시가 반등에 성공한 가운데, 19일 우리 증시는 전날 사상 처음 9000포인트 돌파를 기록한 데 이어 이날에도 상승 랠리를 지속할 것으로 전망된다. 18일(현지시간) 뉴욕증권거래소(NYSE)에서 다우존스 30 산업평균지수는 전 거래일 대비 72.15포인트(0.14%) 오른 5만1564.70에 거래를 마쳤다. 스탠더드앤드푸어스(S&amp;P) 500지수는 전장보다 80.48포인트(1.08%) 상승한 7500.58에, 기술주 중심의 나스닥지수는 496.28포인트(1.91%) 오른 2만6517.93에 각각 장을 마쳤다. 뉴욕증시는 지난 18일 미국 연방준비제도(Fed·연준)의 기준금리 동결과 함께 연준 위원...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260619/134141319/1",
+        "title": "‘1만피’ 향하는 코스피…국내 증시 시총 8000조원 돌파",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134143068.1.jpg\" vspace=\"10\" />코스피가 9300포인트를 넘어서면서 사상 최고가 행진을 이어가는 가운데, 19일 국내 증시의 시가총액이 8000조원을 돌파했다. 반도체 호황에 힘입어 지수 상승을 주도 중인 SK하이닉스 시총이 삼성전자에 이어 두 번째로 2000조원을 넘어선 데 따른 영향으로 풀이된다. 한국거래소에 따르면 이날 오전 유가증권시장과 코스닥 시장의 시총 합산액은 8137조724억원으로 집계됐다. 유가증권시장이 7591조11억원, 코스닥 시장이 546조 규모다. 국내 증시 시총은 지난 4월27일 6000조원을 넘어선 데 이어 지난달 11일 7000조원을 돌파했다. 코스피 지수가 단기간에 급등하면서 시총도 빠르게 늘어나는 모습이다. 유가증권시장에서 시총 1·2위를 차지하고 있는 삼성전자와 SK하이닉스의 합...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260619/134143067/1",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-19T08:00:20+09:00",
-        "score": 110
+        "published": "2026-06-19T12:43:28+09:00",
+        "score": 106
       },
       {
-        "title": "[증시전략] 워시 첫 FOMC서 '매파 본색'…\"금리인하 어림없다\"",
-        "summary": "여기에 환율, 외국인 수급도 불안 요소인데요? - 9천피 고지 밟았지만…과열·쏠림·변동성 우려 여전 - 반도체 쏠림, 삼전닉스 비중 53%…VKOSPI 역대급 - 최근까지 하루사이 8%이상씩 급등락…사이드카 발동 - 올해...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000317554?division=NAVER",
-        "source": "SBS",
-        "published": "2026-06-19T07:09:00+09:00",
+        "title": "코스피 9300선도 돌파···‘300만닉스 가나’ 반도체 대형주가 주도",
+        "summary": "19일 서울 중구 하나은행 딜링룸 현황판에 코스피와 코스닥지수가 표시되고 있다. 연합뉴스삼성전자·SK하이닉스 등 반도체 대형주의 주도로 코스피 지수가 19일 상승세를 이어가며 사상 최초로 9300선을 돌파했다.이날 코스피는 전장 대비 225.05포인트(2.48%) 오른 9288.89로 출발해 9300선을 유지하고 있다. 전날 코스피는 전 거래일 대비 2.2···",
+        "link": "https://www.khan.co.kr/article/202606191023001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-06-19T10:23:00+09:00",
+        "score": 106
+      },
+      {
+        "title": "9,300도 넘은 코스피...국내 증시 시총 8천조 돌파",
+        "summary": "미국-이란 간 종전합의에도 원-달러 환율은 여전히 높은 수준인데, 오늘은 어떤가요? [기자] 현재 원-달러 환율은 1,530원대에서 움직이고 있습니다. 오늘 서울 외환시장에서 원-달러 환율은 어제보다 10.3원 오른 1,537....",
+        "link": "https://www.ytn.co.kr/_ln/0102_202606191204276927",
+        "source": "YTN",
+        "published": "2026-06-19T12:04:00+09:00",
         "score": 106
       }
     ],
     "산업·과학": [
       {
-        "title": "블록버스터 특허절벽 현실로…글로벌 제약시장 흔드는 K-바이오",
-        "summary": "반도체·방산·조선·배터리·변압기까지, 한국 제조업이 글로벌 무대에서 경쟁력을 입증하고 있다. 선진국들이 특정 분야에 치우친 것과 달리, 한국은 첨단 기술 중심의 '풀 스펙트럼' 포트폴리오로 공급망 재편기에...",
-        "link": "https://www.mt.co.kr/thebio/2026/06/19/2026061511245852054",
-        "source": "머니투데이",
-        "published": "2026-06-19T06:30:00+09:00",
-        "score": 116
-      },
-      {
-        "title": "제조업 없이 AI도 없다..골드러시 준비해야[우보세]",
-        "summary": "AI 데이터센터 구축과 가동을 위해선 더 많은 발전 및 전력 인프라, 장비, 반도체, 철강·석유화학 등 기초소재, 배터리 등이 필요하다. AI 비즈니스라고 해도 '뭔가를 물리적으로 만들어야 하는' 산업의 기본 명제는 바뀌지...",
-        "link": "https://www.mt.co.kr/industry/2026/06/19/2026061717485223728",
-        "source": "머니투데이",
-        "published": "2026-06-19T05:50:00+09:00",
-        "score": 72
-      },
-      {
-        "title": "\"160㎝·55㎏, 더 가벼워질 거예요\"...엔지니어의 꿈 멀지 않았다",
-        "summary": "반도체·방산·조선·배터리·변압기까지, 한국 제조업이 글로벌 무대에서 경쟁력을 입증하고 있다.... LG에너지솔루션은 휴머노이드의 에너지원이 될 배터리를 맡는다. 목표는 350Wh/kg(킬로그램 당 와트)급 황화물계...",
-        "link": "https://www.mt.co.kr/tech/2026/06/19/2026061109220142460",
-        "source": "머니투데이",
-        "published": "2026-06-19T08:15:00+09:00",
-        "score": 68
+        "title": "‘37만전자’ 담는 ‘상위 1%’…1만피 향해 반도체·전력기기株 베팅[...",
+        "summary": "삼성증권은 최근 삼성SDI에 대해 데이터센터향 배터리백업장치(BBU)와 에너지저장장치(ESS) 증가, 유럽 전기차 배터리 출하 본격화로 3분기 흑자 전환이 가능하다고 전망하고 있다. 이어 SK와 삼성전기(009150)...",
+        "link": "https://www.sedaily.com/article/20057756?ref=naver",
+        "source": "서울경제",
+        "published": "2026-06-19T11:40:00+09:00",
+        "score": 98
       },
       {
         "title": "신규원전 후보지 선정…대형원전 '영덕', SMR '기장'",
@@ -392,73 +376,73 @@
         "source": "MBN : 경제기사",
         "published": "2026-06-18T07:00:00+09:00",
         "score": 68
+      },
+      {
+        "title": "롯데화학군, 평택 반도체 소재 공장 착공…생산거점 다변화",
+        "summary": "롯데화학군이 국내 반도체 클러스터 확대에 맞춰 평택에 핵심소재 생산거점을 구축하고 글로벌 수요 증가에 선제적으로 대응한다. 롯데화학군 계열사인 한덕화학은 19일 경기도 평택 포승지구에서 반도체·디스플레이용 현상액(TMAH·수산화테트라메틸암모늄) 생산공장 착공식을 개최했다고 밝혔다.현상액(TMAH)은 반도체 및 디스플레이 제조 공정에서 미세 회로 패턴을 형성하는 현상 공정에 필수적인 핵심 소재로, 고순도의 반도",
+        "link": "https://view.asiae.co.kr/article/2026061910080693287",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-06-19T10:08:06+09:00",
+        "score": 66
+      },
+      {
+        "title": "[굿모닝 마켓] 뉴욕증시, 반도체주 랠리·유가 하락에 상승 마감",
+        "summary": "미국과 이란의 합의로 호르무즈 해협이 개방되면서, 에너지 가격 하락이 결국에는 인플레이션 우려를 줄일... 통화정책에 민감한 2년물 금리는 소폭 오름세를 지속했지만, 결국에는 평화 협정 체결로 인플레이션이 잡힐...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000317573?division=NAVER",
+        "source": "SBS",
+        "published": "2026-06-19T08:11:00+09:00",
+        "score": 62
       }
     ],
     "부동산": [
       {
-        "title": "서울 아파트 매매-전세-월세 71주째 ‘트리플 강세’",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134141117.1.jpg\" vspace=\"10\" />서울 아파트 매매 가격을 비롯해 전세와 월세 가격이 동반 상승하는 ‘트리플 강세’가 71주째 이어지고 있다. 공급 부족으로 인한 전월세 상승이 주택 매수세를 자극하는 상황에서 증시 활황과 반도체 호황으로 풀린 유동성이 부동산 시장으로 흘러가는 것이 아니냐는 우려가 나온다. 18일 한국부동산원에 따르면 서울 아파트 매매 가격은 전주 대비 0.27% 오르며 상승세를 이어갔다. 주간 조사 기준 지난해 2월 첫째 주(3일 조사)부터 71주 연속 올랐다. 전세 역시 이번 주 0.3% 상승하며 71주 연속 오름세를 이어갔다. 월간 동향만 집계하는 월세의 경우 2023년 6월부터 올해 5월까지 36개월 연속 오르고 있고, 올해 2월부터 4개월 연속 상승 폭이 확대되는 등 최근 들어 더 가파르게...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260619/134140774/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-19T04:30:00+09:00",
-        "score": 166
+        "title": "\"강남 월세 600만원\" 다주택자 때려잡다 전세 씨 말랐다, 대책은…",
+        "summary": "김학렬 스마트튜브부동산연구소장은 18일 SBS 유튜브 ‘교양이를 부탁해’에 출연해 “서울 집값 상승은... 김 소장은 부동산 가격을 결정하는 요인으로 일자리 접근성을 언급했다. 강남구는 주민 수가 약 50만명...",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/06/19/2026061901618.html",
+        "source": "조선일보",
+        "published": "2026-06-19T13:44:00+09:00",
+        "score": 170
       },
       {
-        "title": "청약도 ‘재건축 재개발 불패’…경쟁률 7배 높았다",
-        "summary": "청약 시장에서 재개발·재건축 등 정비사업 단지가 인기다. 빈 땅에 새 아파트만 들어서는 단지보다 기존 생활 인프라가 잘 갖춰져 실수요자의 선호도가 높기 때문이다. 18일 부동산R1..",
-        "link": "https://www.mk.co.kr/news/realestate/12077193",
-        "source": "매일경제 : 부동산",
-        "published": "2026-06-18T10:56:29+09:00",
-        "score": 156
-      },
-      {
-        "title": "양도세 중과前으로 돌아간 강남3구 집값, 한달새 2억∼3억 뛰어",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134140987.1.jpg\" vspace=\"10\" />최근 서울 아파트 매매가격과 전월세가격이 동반 상승하는 것은 매매와 전세 모두 매물이 급감한 가운데 주택 수요를 받아줄 신규 주택 공급이 부족한 것이 근본적인 원인으로 꼽힌다. 서울 강남3구(강남, 서초, 송파구)와 한강벨트 지역은 5월 10일부터 시행된 다주택자 양도소득세 중과를 피하기 위한 절세 매물이 끊기자 거래 자체가 급감하고 높은 호가의 매물만 거래되고 있다. 15억 원 이하 아파트가 많은 지역은 전셋값이 오르면서 매매가격까지 자극하고 있는 모양새다. 여기에 전세의 월세화가 진행되며 월세가격 오름세도 커지고 있다. 공급 부족 문제가 해결되기 전까지는 이런 ‘트리플 강세’ 현상이 이어질 수 있다는 우려가 나온다. ● 강남권 한 달 새 2억∼3억 원 올라18일 한국부동산원에 ...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260619/134140784/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-19T04:30:00+09:00",
-        "score": 138
-      },
-      {
-        "title": "집값 고공행진 반세권, 신규분양 단지도 기대 UP",
-        "summary": "삼성전자, SK하이닉스 등 반도체 기업들의 역대급 실적으로 수도권 일대 이른바 반도체 벨트 일대 신규 분양시장도 주목받고 있다.  대규모 반도체 설비투자 확대에 따른 인구 유입 기대는 물론, 이들 기업 임직원들이 받은 수억원대 성과급이 주변 부동산 시장의 큰손 역할을 하고 있어서다. 17일 업계에 따르면 최근 수도권 일대 이른바 '반세권'으로 불리는 반도체 단지 인접 지역 아파트 시장은 매수세가 몰리면서 집값이 고공",
-        "link": "https://view.asiae.co.kr/article/2026061710581722284",
+        "title": "\"하반기 전셋값 3.6% 오를 듯…집값 상승률 웃돌아\"",
+        "summary": "올해 하반기 전국 전셋값이 3.6% 올라 매매가격 상승률 전망치인 1.5%를 크게 웃돌 것이란 전망이 나왔다. 입주 물량 감소와 재건축·재개발 멸실, 착공 지연이 겹치면서 전세난이 집값까지 다시 밀어올릴 수 있다는 분석이다. 한국건설산업연구원은 18일 서울 강남구 건설회관에서 개최한 '2026년 하반기 건설·부동산 경기 전망 세미나'에서 이같이 밝혔다.  올 한 해 동안에는 전국 매매가격이 2.5% 오를 것으로 연구원은 예상했",
+        "link": "https://view.asiae.co.kr/article/2026061819104557985",
         "source": "아시아경제 - 부동산",
-        "published": "2026-06-17T10:58:17+09:00",
-        "score": 126
+        "published": "2026-06-18T19:10:45+09:00",
+        "score": 122
+      },
+      {
+        "title": "화곡역세권에 2146가구 아파트 … 319가구는 장기전세",
+        "summary": "서울 강서구 화곡역 북측 노후 주거지가 2146가구 규모의 장기전세주택을 포함한 주거단지로 탈바꿈한다.\n서울시는 지난 17일 개최한 제10차 도시계획위원회에서 '화곡역세권 장기전세..",
+        "link": "https://www.mk.co.kr/news/realestate/12077709",
+        "source": "매일경제 : 부동산",
+        "published": "2026-06-18T17:54:14+09:00",
+        "score": 106
+      },
+      {
+        "title": "4월 서울 아파트 매매 실거래가 상승 전환…전세 1%대 상승 지속",
+        "summary": "대출 규제 속에서 중저가 중심의 실수요가 몰리며 지난 4월 서울 아파트 매매 실거래가격 지수가 상승 전환했다. 전세 실거래가 역시 1%대 상승세를 지속하며 매매와 전세가 동반 상승하는 흐름을 보였다. 임대차 시장에서는 전세 대신 갱신 계약이나 월세를 선택하는 비중이 늘어났다. 18일 서울시는 지난 4월 서울 아파트 매매 실거래가격지수가 전월 대비 0.08% 상승했다고 밝혔다. 이는 전년 동월 대비 12.86% 상승한 수치다.",
+        "link": "https://view.asiae.co.kr/article/2026061717581315883",
+        "source": "아시아경제 - 부동산",
+        "published": "2026-06-18T06:00:00+09:00",
+        "score": 106
       }
     ],
     "국제경제": [
       {
-        "title": "이란 웃고 미국 흔들렸다?...트럼프, 종전 합의 역풍 [글로벌 모닝 브리...",
-        "summary": "연방공개시장위원회(FOMC) 정례회의에서 기준금리를 동결하고 올해 한 차례 금리 인상 가능성을 시사하는... 연준은 17일(현지 시간) FOMC 정례회의에서 기준금리를 기존 3.50~3.75%에서 동결했습니다. 연준은 성명에서...",
-        "link": "https://www.sedaily.com/article/20057556?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-19T06:01:00+09:00",
-        "score": 130
-      },
-      {
-        "title": "美연준위원 절반 “연내 금리 오를것”… 주요국 ‘통화 긴축’ 빨라진다",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134141115.1.jpg\" vspace=\"10\" />케빈 워시 미국 연방준비제도(Fed·연준) 의장 취임 이후 처음 열린 연방공개시장위원회(FOMC)에서 위원들 절반이 연내 기준(정책)금리가 인상된다고 전망했다. 주요국의 통화 긴축 속도가 빨라지고 있다.  유럽중앙은행(ECB)과 일본은행(BOJ)이 중동 전쟁 영향에 따른 물가 상승세를 꺾기 위해 기준금리를 올린 상황에서, 미 연준도 9월부터 기준금리를 올릴 것이라는 관측이 나온다. 미국 기준금리 인상 가능성에 따른 달러화 강세로 원화 가치가 하락하며 원-달러 환율은 18일 5거래일 만에 다시 1520원을 넘어섰다. 미국 등 주요국이 통화 정책을 전환하며 중동 전쟁 종전 후 주식·외환시장의 변동성은 커질 것으로 우려된다.● “워시의 연준, 매파적 기조 명확해져” 미 연준이 17일(현...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260619/134140791/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-19T04:30:00+09:00",
-        "score": 98
-      },
-      {
-        "title": "韓·대만이 훔친 기술로 美파운드리를 키운다니 [트럼프 스톡커]",
-        "summary": "전날 미국 연방준비제도(Fed·연준)가 연방공개시장위원회(FOMC) 정례회의에서 연내 금리 인상을 시사하는 매파적(통화긴축 선호) 신호를 보냈음에도 증시는 기술주를 중심으로 하루 만에 반등했다. 이날 뉴욕 증시를...",
-        "link": "https://www.sedaily.com/article/20057608?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-19T07:22:00+09:00",
+        "title": "[속보] 이 대통령 “트럼프와 조선협력 중요성 공감…미국 군함건조 논...",
+        "summary": "또 유럽의 철강 관세 제도가 바뀌는 것과 관련, “한국의 철강 쿼터가 대폭 줄어들면서 이 같은 조치가 무역에 있어 장벽이 돼선 안 된다는 확고한 입장을 EU에 전달했다”고 말했다. 도널드 트럼프 미국 대통령이 “미국...",
+        "link": "https://www.mk.co.kr/article/12078438",
+        "source": "매일경제",
+        "published": "2026-06-19T14:09:00+09:00",
         "score": 88
       },
       {
-        "title": "유가·반도체 훈풍에 나스닥 1.9%↑…워시發 금리인상 베팅 확대[월스트...",
-        "summary": "당시 시장은 워시 의장이 첫 연방공개시장위원회(FOMC) 회의에서 물가 안정을 최우선 과제로 제시하고, 연준... 이는 전체 미결제약정의 약 15%에 해당하는 규모로, 투자자들이 7월 FOMC에서의 금리 인상 가능성에 대거...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02020486645483360",
-        "source": "이데일리",
-        "published": "2026-06-19T05:34:00+09:00",
+        "title": "[이번 주 뉴스메이커] 케빈 워시·에드 야데니·도널드 트럼프·마이크...",
+        "summary": "◇ 케빈 워시 케빈 워시 연준의장이 FOMC 데뷔전을 치렀죠. 트럼프 대통령이 지명한 인물이라, 비둘기파적일... FOMC 위원들의 입장은 분명하고 만장일치입니다. 우리 위원회는 반드시 물가 안정을 달성할 것입니다. 저는...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000317629?division=NAVER",
+        "source": "SBS",
+        "published": "2026-06-19T11:22:00+09:00",
         "score": 80
       },
       {
@@ -468,15 +452,47 @@
         "source": "연합뉴스",
         "published": "2026-06-18T20:23:00+09:00",
         "score": 78
+      },
+      {
+        "title": "“환율 1400원대 복귀, 물건너가나”…워시 체제 첫 FOMC, 외환시장 영향은",
+        "summary": "연준 매파 전환에 달러 강세 원화값 안정 기대 후퇴 점도표서 연내 금리 인상 전망↑ “환율 하락 시점 지연 가능성 커져”미국 연방준비제도(Fed)가 기준금리를 동결했지만 시장은 오..",
+        "link": "https://www.mk.co.kr/news/economy/12077479",
+        "source": "매일경제 : 경제",
+        "published": "2026-06-18T15:53:57+09:00",
+        "score": 78
+      },
+      {
+        "title": "미 연준은 금리를 언제 올릴까 … 워시 의장이 연준 개편 꺼낸 까닭은",
+        "summary": "케빈 워시 첫 FOMC 분석 ①케빈 워시 미국 연방준비제도(Fed) 의장이 6월 17일 처음 주재한 연방공개시장위원회(FOMC)는 기준금리 동결로 끝났다. 기준금리 목표 범위는 연..",
+        "link": "https://www.mk.co.kr/news/world/12078180",
+        "source": "매일경제 : 국제",
+        "published": "2026-06-19T09:19:26+09:00",
+        "score": 78
       }
     ],
     "AI와 경제": [
       {
-        "title": "통합관리·투자 활성화로 마리나산업 육성한다",
-        "summary": "친환경·인공지능(AI) 마리나 선박과 관련한 연구개발(R&D) 확대 및 기술이전을 통해 국내기업의 수출경쟁력을 높여 나갈 계획이다. 아울러 마리나 관광 대중화 정책을 적극 추진한다. 단순 유람 형태만 있었던 국내...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02817526645483360",
-        "source": "이데일리",
-        "published": "2026-06-19T08:02:00+09:00",
+        "title": "아시아경제, 로봇산업 이끌 지능형 로봇 기획·개발자 인재 양성",
+        "summary": "최근 인공지능(AI)이 단순히 정보를 생성하는 단계를 넘어 실제 물리적 환경을 인식하고 행동하는 '피지컬 AI(Physical AI)' 시대로 진화하고 있다. 글로벌 빅테크 기업들은 휴머노이드 로봇과 협동로봇 개발에 대규모 투자를 이어가고 있으며, 제조·물류·의료·서비스 산업 전반에서는 AI와 로봇 기술을 결합한 자동화 혁신이 빠르게 확산하는 추세다. 전문가들은 미래의 산업 경쟁력이 생성형 AI 활용 능력을 넘어 AI가 현실 세",
+        "link": "https://view.asiae.co.kr/article/2026061909595946477",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-06-19T09:59:59+09:00",
+        "score": 44
+      },
+      {
+        "title": "AI·탄소중립 전환 충격 최소화…노동부, 산업전환 고용안정 기본계획 ...",
+        "summary": "고용노동부는 19일 서울 중구에서 산업전환고용안전전문위원회 첫 회의를 열고 ‘산업전환 고용안정 기본계획’ 수립 방향에 대한 의견을 수렴했다고 밝혔다. 산업전환고용안전전문위원회는 지난해 시행된...",
+        "link": "https://biz.heraldcorp.com/article/10781898?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-06-19T13:50:00+09:00",
+        "score": 40
+      },
+      {
+        "title": "아마존, AI 칩 외부 판매 추진… 엔비디아 의존도 낮추나",
+        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0619/2026061909564354903_1781830603_0029991138.jpg\" /></center><br /><br /><br />아마존이 자체 개발한 인공지능(AI) 반도체를 외부 기업 데이터센터에 직접 판매하는 방안을 추진하고 있다. AI 인프라 시장에서 엔비디아 그래픽처리장치(GPU)에 대한 의존도를 낮추려는 기업 수요를 겨냥한 전략으로 풀이된다.<br /><br />블룸버그통신은 19일(현지시간) 아마존이 AI 가속기 ‘트레이니엄’ 칩을 아마존웹서비스(AWS)를 거치지 않고 외부 고객사에 공급하는 방안을 협상 중이라고 보도했다. 피터 드산티스 아마존 AI 부문 최고책임자는 “트레이니엄 칩을 직접 구매하려는 잠재 고객들과 논의를 시작했다”고 밝혔다. 다만 구체적인 고객사 이름은 공개하지 않았다.<br /><br />트레이니엄은 아마존이 자체 설계한 AI 학...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0029991138",
+        "source": "국민일보 | 경제",
+        "published": "2026-06-19T01:06:00+00:00",
         "score": 40
       },
       {
@@ -488,21 +504,37 @@
         "score": 38
       },
       {
-        "title": "“칩플레이션 시대… 메모리는 AI 시대 가장 경쟁 치열한 자원”",
-        "summary": "모건스탠리는 6월 2일 “AI 인프라 병목 현상에 따른 메모리 공급 부족이 거시경제적 우려 상황으로 번질 수 있다”는 내용의 칩플레이션(Chipflation: AI 칩과 인플레이션의 합성어) 관련 보고서를 내기도 했다....",
-        "link": "https://weekly.donga.com/3/all/11/6272719/1",
-        "source": "동아일보",
-        "published": "2026-06-19T07:02:00+09:00",
+        "title": "미 에너지규제당국, 데이터센터 갈등 완화 추구",
+        "summary": "(서울=연합뉴스) 설원태 기자 = 미국 연방 에너지 규제 당국이 18일(현지시간)인공지능(AI) 데이터센터를 전력망에 연결하는 비용의 일부가 일...",
+        "link": "https://www.yna.co.kr/view/AKR20260619049600009",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-06-19T10:23:31+09:00",
         "score": 32
+      },
+      {
+        "title": "이니텍, 하이퍼놀로지와 AI·보안 기술 협력…AX 시장 공동 공략 나선다",
+        "summary": "이니텍이 AI 전문기업 하이퍼놀로지와 손잡고 인공지능 전환(AX·AI Transformation) 시장 확대에 나선다. 이니텍(대표이사 김철균·이응길)은 하이퍼놀로지와 'AI 산업 지능화 및 디지털 보안 기술 협력을 위한 전략적 업무협약(MOU)'을 체결했다고 19일 밝혔다. 이번 협약은 AI 기술과 정보보호 역량을 결합해 산업 현장의 디지털 전환을 넘어 AI 기반 업무 혁신을 가속화하고, 제조·금융·공공 분야 고객에게 안전성과 활용성을",
+        "link": "https://view.asiae.co.kr/article/2026061912533747130",
+        "source": "아시아경제 - 증권",
+        "published": "2026-06-19T12:53:37+09:00",
+        "score": 32
+      },
+      {
+        "title": "세계 메모리 시장 올해 1천500조 전망…AI붐에 1년새 4배로",
+        "summary": "(서울=연합뉴스) 임성호 기자 = 글로벌 인공지능(AI) 인프라 투자 급증으로 올해 세계 메모리 시장 규모가 작년과 비교해 4배 넘게 폭증할 것...",
+        "link": "https://www.yna.co.kr/view/AKR20260619073700003",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-06-19T11:34:33+09:00",
+        "score": 28
       }
     ],
     "기타": [
       {
-        "title": "'K뷰티' 대박 났는데 돈은 中이 벌었다…韓업체 울상인 까닭",
-        "summary": "관세청 통계에 따르면 보습 원료로 쓰이는 글리세롤의 중국산 수입량은 2023년 9.5t에서 지난해 190.2t으로 약 20배 늘었다. 같은 기간 중국산 향료 조제품 수입량도 약 60% 급증했다. 뷰티 인디 브랜드 확산도 원료 단가...",
-        "link": "https://www.hankyung.com/article/2026061850581",
-        "source": "한국경제",
-        "published": "2026-06-19T08:01:00+09:00",
+        "title": "호르무즈 열리자 중동 원유 생산도 재시동…2주내 정상화 예고",
+        "summary": "원유 공급이 정상화되면 에너지 가격이 하락하고 각국 중앙은행이 우려하는 인플레이션 압력도 완화할 수 있다. 특히 트럼프 대통령에게는 오는 11월 중간선거를 앞두고 미국 내 연료 가격을 낮추는 동시에 최저 수준으로...",
+        "link": "https://www.yna.co.kr/view/AKR20260619074900009?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-06-19T11:54:00+09:00",
         "score": 24
       },
       {
@@ -511,6 +543,14 @@
         "link": "https://www.mk.co.kr/news/economy/12077876",
         "source": "매일경제 : 경제",
         "published": "2026-06-18T20:14:38+09:00",
+        "score": 24
+      },
+      {
+        "title": "“2년은 더 간다”…삼성전기, AI 서버發 수요 폭발에 목표가↑",
+        "summary": "KB증권은 19일 삼성전기에 대해 인공지능(AI) 서버 확산에 따른 적층세라믹콘덴서(MLCC)와 패키징 기판 수요 급증으로 최소 2년 이상 초호황 국면을 맞을 것이라며 목표주가를 ..",
+        "link": "https://www.mk.co.kr/news/stock/12078145",
+        "source": "매일경제 : 증권",
+        "published": "2026-06-19T08:59:00+09:00",
         "score": 24
       },
       {
@@ -530,19 +570,11 @@
         "score": 24
       },
       {
-        "title": "GS건설, 중소 건설현장 안전보건 역량 강화 지원",
-        "summary": "GS건설이 협력업체와 중소 건설 현장의 산업재해 예방을 지원하기 위해 체험형 안전교육 인프라를 활용한 상생협력에 나섰다고 17일 밝혔다. GS건설은 전날 경기도 용인 안전혁신학교에서 고용노동부 안양지청과 '건설안전 징검다리 프로젝트' 추진을 위한 업무협약을 체결했다. '건설안전 징검다리 프로젝트'는 고용노동부 안양지청 주관으로 대규모 기업과 중소규모 기업 간의 안전보건 역량 격차를 해소하기 위해 대규모 기업이",
-        "link": "https://view.asiae.co.kr/article/2026061709253466931",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-06-17T09:25:34+09:00",
-        "score": 24
-      },
-      {
-        "title": "美, 이란과 후속 협상 시작…이스라엘 향해 공개 경고",
-        "summary": "도널드 트럼프 미국 행정부가 종전 양해각서(MOU) 발표 첫날 이스라엘을 향해 직설적으로 경고했다. 후속 협상이 진행되는 동안 이스라엘의 군사행동 가능성이 MOU 합의를 흔드는 변수로 부상하자 공개 압박에 나선 것으로 해석된다.  18일(현지시간) 뉴욕타임스(NYT)와 블룸버그통신 등에 따르면 J.D. 밴스 미국 부통령은 백악관 브리핑에서 이스라엘 내각을 향해 이례적으로 직설적인 경고를 보냈다.  그는 \"내가 이스라엘 정부",
-        "link": "https://view.asiae.co.kr/article/2026061907174914095",
-        "source": "아시아경제 - 국제",
-        "published": "2026-06-19T07:17:49+09:00",
+        "title": "자율주행 AI 경쟁력은 데이터…정부, 국내 첫 E2E 표준 공개",
+        "summary": "자율주행 기술 경쟁의 핵심으로 떠오른 인공지능(AI) 학습데이터를 체계적으로 구축하고 공유하기 위한 국내 첫 표준이 마련됐다. 기업과 기관마다 제각각 구축되던 자율주행 데이터를 공동 활용할 수 있는 기반이 마련되면서 국내 자율주행 AI 개발에도 속도가 붙을 전망이다. 과학기술정보통신부는 자율주행 인공지능 개발에 필요한 학습데이터의 구축과 공유를 지원하기 위해 '자율주행 E2E(End-to-End) 데이터 구축 가이드라인",
+        "link": "https://view.asiae.co.kr/article/2026061909124891883",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-06-19T12:00:00+09:00",
         "score": 24
       },
       {
@@ -554,27 +586,27 @@
         "score": 24
       },
       {
-        "title": "中 강풍에 '뿌리' 흔들리는 K제조업…\"경제 안보 위해 지원을\"",
-        "summary": "중국 내 부동산 경기 침체와 내수 부진으로 수요가 줄어들면서 소화하지 못한 저가 물량이 해외 시장으로 대거 유입됐다는 의미다. 한국 시장도 예외는 아니다. 조선업에서 주로 쓰이는 후판의 경우 중국산 수입량은...",
-        "link": "https://www.mt.co.kr/industry/2026/06/19/2026061311533439336",
-        "source": "머니투데이",
-        "published": "2026-06-19T07:30:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "머리카락도 ‘생존 문제’…탈모약 건보 적용될까[나유정]",
-        "summary": "법적으로 정부는 건보 예상 수입의 20%를 지원해야 하지만, 실제 지원 비율은 14% 수준에 머물러 재정 부담을 가중하고 있다. 현행 법령상 정부는 건보료 예상 수입의 20%를 국고(일반회계 14%)와 기금(국민건강증진기금 6...",
-        "link": "https://biz.heraldcorp.com/article/10781274?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-06-19T08:27:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "앤스로픽 CEO, G7 정상들에 “분열 유혹 막아야”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134141063.1.jpg\" vspace=\"10\" />“인공지능(AI)이 가져올 ‘분열의 유혹’에 저항하라.” 미국 AI 기업 앤스로픽의 다리오 아모데이 최고경영자(CEO·사진)가 17일(현지 시간) AI가 나쁜 사람들의 손에 들어가는 것을 막으려면 민주주의 주요국이 적극 협력해야 한다고 촉구했다. 영국 파이낸셜타임스(FT) 등에 따르면 아모데이 CEO는 이날 프랑스 에비앙에서 열린 주요 7개국(G7) 정상회의 폐막일 행사에서 이같이 발언했다. 이날 행사에는 도널드 트럼프 미국 대통령 등을 포함한 G7 정상, 샘 올트먼 오픈AI CEO, 데미스 허사비스 구글 딥마인드 CEO 등이 참석했다. 허사비스 CEO는 이 자리에서 “민주주의 동맹이 분열되면 생화학 테러와 사이버 보안 위험 등이 닥쳤을 때 공동 대응이 어려울 것”이라고 우려했다....",
-        "link": "https://www.donga.com/news/People/article/all/20260619/134140598/2",
+        "title": "8월 첫방 ‘엑스 더 리그’, 생성형 AI 기술 접목한 ‘AI 팬미팅’ 이벤트 개최",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/19/134142434.2.jpg\" vspace=\"10\" />라라스테이션과 ENA가 공동 기획·제작하는 글로벌 라이브 커머스 국가대항전 ‘엑스 더 리그(X The League, 이하 XTL)’가 생성형 AI 기술을 활용한 팬 참여형 이벤트를 선보인다고 19일 밝혔다. XTL은 전 세계 9개국에서 모인 40명의 탑 셀러들이 국가를 대표해 세일즈 경쟁을 펼치는 글로벌 서바이벌 프로젝트이다. 지난 2월 첫 촬영을 시작으로 약 5개월간의 대장정을 거쳐 오는 8월 ENA 및 글로벌 OTT 플랫폼을 통해 전 세계에 공개될 예정이다. 이번 ‘AI 팬미팅’ 이벤트는 전세계 팬들을 하나로 묶고, 화면으로 소통하는 프로그램의 특성을 미리 체험하게 만들며, ‘트렌디한 방송’이라는 눈도장을 찍기 위한 스마트한 사전 마케팅 전략으로 보인다. 이용자는 XTL 공식 ...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260619/134142505/1",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-19T04:30:00+09:00",
+        "published": "2026-06-19T11:03:51+09:00",
+        "score": 24
+      },
+      {
+        "title": "국민연금 고갈 2065년→2069년…수익률 2%p 높이면 2120년까지",
+        "summary": "국민연금은 아직 재정수지 흑자를 보이고 있지만, 지출 증가 속도가 수입 증가 속도보다 훨씬 빠르다. 2021년부터 2025년까지 국민연금기금 수입은 연평균 3.2% 증가했지만, 지출은 연평균 14.0% 늘었다. 20년 넘게 이어진...",
+        "link": "https://www.joongang.co.kr/article/25438213",
+        "source": "중앙일보",
+        "published": "2026-06-19T14:09:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "[경제뭔데]내 보험금·대출 AI가 심사한다는데···어디까지 믿어도 될까",
+        "summary": "경향신문 경제부 기자들이 쓰는 [경제뭔데] 코너입니다. 한 주간 일어난 경제 관련 뉴스를 쉽고 재미있게 풀어서 전해드립니다.AI가 바꾼 금융 일상, 보험금 청구 8분 만에 지급“인간이 최종 의사결정” 금융위 가이드라인 제시대출 거절 이유 등 소비자가 이해 쉽도록 설명해야경향신문 자료사진“초고성능 인공지능(AI)이 인간의 의도를 벗어나는 상황에 대비하기 위해···",
+        "link": "https://www.khan.co.kr/article/202606190956001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-06-19T09:56:00+09:00",
         "score": 24
       }
     ]
@@ -634,5 +666,42 @@
       "match_status": "OK",
       "importance_score": 3
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-06-19",
+    "generated_at": "2026-06-19T05:37:18.311993+00:00",
+    "briefing_hash": "c84c2dd5246b6221",
+    "key_headlines": [
+      {
+        "title": "May Producer Prices Rise 0.8% Month-on-Month, Extending 9-Month Consecutive Increase",
+        "summary": "South Korea's May producer price index reached 129.82, up 0.8% from the previous month and 8.5% year-on-year, marking the highest increase in 3 years and 10 months since the Russia-Ukraine war. The rise was driven by industrial city gas, semiconductors, and financial service fees."
+      },
+      {
+        "title": "Seoul Outer Areas See Sharp Decline in Listings Amid '2030' Purchase Surge",
+        "summary": "As renters convert to home purchases due to lease shortages, listings in Seoul's Jungnang and Nowon districts dropped by 12% and 8% respectively, with new apartment prices hitting record highs."
+      },
+      {
+        "title": "KOSPI Surpasses 9,300 for First Time; Domestic Market Capitalization Exceeds 8,000 Trillion Won",
+        "summary": "The KOSPI index broke through 9,300 points for the first time in history, driven by semiconductor giants Samsung Electronics and SK Hynix, while domestic stock market capitalization surpassed 8,000 trillion won."
+      },
+      {
+        "title": "Government Restructures Small Business Non-Performing Loans Worth 2.2 Trillion Won",
+        "summary": "The government announced a comprehensive reform of the regional credit guarantee system and new 2 trillion won regional guarantee programs to address small business debt problems during an emergency economic meeting."
+      },
+      {
+        "title": "New Nuclear Power Plants Selected for Yeongdeok and Gijang; SMR Technology Investment Accelerates",
+        "summary": "South Korea's government selected Yeongdeok in North Gyeongsang Province for two large-scale nuclear reactors and Gijang in Busan for a small modular reactor (SMR), marking its first new nuclear site selection in 15 years."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "South Korea's producer price inflation continues with the May producer price index rising 0.8% month-on-month, extending the ninth consecutive monthly increase. The year-on-year increase of 8.5% represents the largest surge since the Russia-Ukraine war outbreak in July 2022. Rising geopolitical tensions in the Middle East and elevated exchange rates have sustained inflationary pressures, particularly in industrial city gas, chemicals, and financial service fees. While oil prices showed signs of softening, broader inflationary pressures are spreading to other sectors.",
+      "Macro & Fiscal Policy": "The Bank of Korea reported persistent producer price inflation driven by Middle East tensions and elevated energy costs. The government announced emergency economic measures including a comprehensive restructuring of the regional credit guarantee system and new 2 trillion won guarantee programs for small businesses to address non-performing debt issues. The government is coordinating responses to manage inflation expectations while supporting struggling small business sectors. Crude grain prices have risen for four consecutive months, creating downstream inflation risks for processed foods and livestock products, with implications expected within 3-12 months.",
+      "Financial Markets": "The KOSPI index surged to 9,300 points for the first time, driven primarily by semiconductor stocks including Samsung Electronics and SK Hynix, with the latter's market capitalization exceeding 2 trillion won. Domestic stock market capitalization reached 8,137 trillion won, advancing from 7 trillion won just one month prior. However, market breadth remains concerning, with only 11% of KOSPI constituent stocks participating in the rally, and significant performance divergence between large-cap semiconductors and mid-cap stocks. The won-dollar exchange rate remains elevated at approximately 1,537 won per dollar despite the U.S.-Iran ceasefire agreement.",
+      "Industry & Technology": "South Korea is accelerating nuclear power expansion with selections made for two large reactors in Yeongdeok and one small modular reactor in Gijang, marking the first nuclear site designation in 15 years. Lotte Chemical inaugurated a semiconductor materials production facility in Pyeongtaek, producing TMAH (tetramethylammonium hydroxide) essential for semiconductor and display manufacturing. Samsung SDI is expected to achieve profitability in the third quarter, supported by growing demand for battery backup units and energy storage systems for data centers. These developments reflect Korea's strategic focus on semiconductor supply chain resilience and clean energy transition amid rising global demand.",
+      "Real Estate": "Seoul apartment sales prices rebounded in April after stabilizing, with the transaction price index rising 0.08% month-on-month, though up 12.86% year-on-year, driven by mid-to-low price segment demand amid lending restrictions. Lease prices continued their 1% range monthly increase, reflecting a structural shift toward monthly rentals over jeonse (long-term lease) arrangements. The second-half forecast predicts 3.6% jeonse price increases significantly outpacing 1.5% sales price growth expectations, driven by declining unit supplies and delayed construction. Strong demand from '2030' (young homebuyers) in outer Seoul areas has reduced inventory by 8-12%, supporting price stability in peripheral districts like Jungnang and Nowon.",
+      "International Economy": "The United States-Iran ceasefire agreement has opened the Strait of Hormuz and is expected to normalize Middle Eastern oil production within two weeks, with potential crude supply recovery reducing global energy prices and inflation pressures. Fed Chair Kevin Walsh presided over his first FOMC meeting, maintaining rates steady while hawkish signals suggest potential rate increases later in 2026, supporting continued dollar strength. The Trump administration is actively restructuring NATO, reviewing the positioning of 120,000 U.S. troops in Europe for six months and pressing allies to increase defense spending to GDP ratios of 5% by 2035. President Lee's dialogue with Trump focused on shipbuilding cooperation and addressing Korea's steel export quotas under new European tariff regimes.",
+      "AI & Economy": "South Korea is positioning itself in the emerging Physical AI era, where artificial intelligence moves beyond information generation to perceive and interact with physical environments. Global technology giants are making substantial investments in humanoid and collaborative robot development, with applications rapidly expanding across manufacturing, logistics, healthcare, and service sectors. Amazon is pursuing strategies to reduce Nvidia GPU dependency by directly selling its custom-designed Trainium AI chips to external customers, signaling growing competition in AI infrastructure markets. The government announced plans to establish contingency AI infrastructure and designated AI semiconductor talent development as critical to maintaining economic security amid U.S.-China technological competition.",
+      "Others": "The U.S.-Iran ceasefire agreement and Strait of Hormuz opening are expected to normalize crude oil production and stabilize energy prices, supporting inflation management ahead of November U.S. midterm elections. Iran has agreed to waive tolls on Strait of Hormuz transit for 60 days, after which transit fees will resume. Concerns remain regarding downstream impacts, including potential future toll charges and geopolitical risks in Israel and Lebanon. Samsung Electro-Mechanics is positioned for continued strong performance with at least two more years of exceptional conditions driven by accelerating AI server demand for multilayer ceramic capacitors and packaging substrates."
+    }
+  }
 }
