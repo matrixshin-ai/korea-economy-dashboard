@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-22T14:33:09.785727+09:00",
+  "generated_at": "2026-06-22T14:35:05.229829+09:00",
   "date": "2026-06-22",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 697,
-    "total_used": 681,
-    "dropped_quality": 2,
-    "dropped_negative": 14,
+    "total_input": 612,
+    "total_used": 589,
+    "dropped_quality": 8,
+    "dropped_negative": 15,
     "per_category": {
-      "기타": 349,
-      "금융시장": 95,
-      "산업·과학": 56,
-      "부동산": 64,
-      "국제경제": 45,
-      "거시경제·재정": 69,
-      "AI와 경제": 3
+      "거시경제·재정": 71,
+      "기타": 309,
+      "금융시장": 79,
+      "산업·과학": 52,
+      "부동산": 44,
+      "국제경제": 27,
+      "AI와 경제": 7
     }
   },
   "headlines": [
@@ -172,12 +172,44 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "2차 추경카드 꺼내나… 정부 \"초과세수 추경, 물가에 영향 없다\"",
-        "summary": "21일 국회에 따르면 재경부와 기획예산처는 물론 한국은행도 해당 보고서에서 추경이 물가에 끼치는 영향이 없다고 짚었다. 재경부와 기획처는 소비쿠폰으로 인한 물가 부담을 경계하라는 국회 지적에, 소비쿠폰이...",
-        "link": "http://www.fnnews.com/news/202606212115216027",
-        "source": "파이낸셜뉴스",
-        "published": "2026-06-21T21:17:00+09:00",
+        "title": "“역대급 세수, 미래 위해 쌓아라”…재정 전문가들, 박홍근 기획처 장관에 제언",
+        "summary": "국내 재정 전문가들이 올해와 내년 예상되는 역대급 세수를 당해연도 지출 확대에만 쓰지 말고, 잠재성장률을 높일 수 있는 미래대비 투자와 향후 경기 대응을 위해 별도 기금 형태로 저장·운용해야 한다고 정부에 주문했다. 또한 재량지출 구조조정을 넘어 법적으로 묶여 자동으로 늘어나는 의무지출의 경직적인 증가 구조도 과감하게 수술해야 한다고 제언했다.박홍근 기획예산처 장관은 22일 학계, 연구기관, 시민사회의 재정",
+        "link": "https://view.asiae.co.kr/article/2026062209120566809",
+        "source": "아시아경제 - 경제",
+        "published": "2026-06-22T11:00:00+09:00",
+        "score": 114
+      },
+      {
+        "title": "임금발 물가상승 압력 시차 두고 강화…저소득층 '삼중고' 우려",
+        "summary": "김용범 청와대 정책실장은 지난 20일 페이스북에서 올해 한국 경제의 명목 국내총생산(GDP) 성장률이 두 자릿수를 넘어설 전망이지만 소비자물가 지수는 3%에 머물고 있다며 \"거시지표는 뜨겁지만, 자영업자의 체감경기는...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005862893",
+        "source": "MBN",
+        "published": "2026-06-22T07:06:00+09:00",
         "score": 112
+      },
+      {
+        "title": "박홍근 만난 재정 전문가들 \"역대급 세수, 미래 투자에 적극 사용해야\"",
+        "summary": "박홍근 기획예산처 장관은 22일 오전 재정 전문가 간담회에서 \"우리 경제가 좋은 흐름을 이어가고 있지만 반도체 경기의 지속 여부와 향후 세수 흐름, 물가·금리 변동 가능성으로 인해 재정 운용에 있어 불확실성이 그 어느 때보다 높은 상황\"이라고 진단했다. 이날 행사에는 김세직 한국개발연구원(KDI) 원장, 권남훈 산업연구원장, 우석진 명지대 교수, 이우진 고려대 교수, 고선 중앙대 교수, 손병호 연세대 겸임교수, 이상민",
+        "link": "https://view.asiae.co.kr/article/2026062211330581293",
+        "source": "아시아경제 - 경제",
+        "published": "2026-06-22T11:33:05+09:00",
+        "score": 110
+      },
+      {
+        "title": "이란 전쟁에 미 국방부 비용 61조원…물가·금리 전방위 충격",
+        "summary": "전쟁에 따른 에너지 가격 상승이 인플레이션을 자극하면서 미 연방준비제도(Fed·연준)의 통화정책 부담도 커지고 있다는 분석이 제기됩니다. 미 노동통계국의 최근 자료에 따르면 5월 미국의 소비자물가지수(CPI)가...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8591679&ref=A",
+        "source": "KBS",
+        "published": "2026-06-22T11:37:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "中, 내수·수출 양극화 가운데 사실상 기준금리 13개월 연속 동결",
+        "summary": "5월 전국 도시 실업률은 5.1%를 기록하며 전달(5.2%) 대비 소폭 개선됐다. 왕관화 중국 국가통계국 대변인 겸 국민경제종합통계국장은 지난 16일 소매판매 발표와 관련해 \"중국은 안정적 경제 성장을 위한 충분한 정책...",
+        "link": "http://www.fnnews.com/news/202606221155545339",
+        "source": "파이낸셜뉴스",
+        "published": "2026-06-22T12:27:00+09:00",
+        "score": 96
       },
       {
         "title": "[뉴욕증시] 기술주 중심 강세…25일 PCE 물가지수 발표",
@@ -188,20 +220,20 @@
         "score": 92
       },
       {
-        "title": "“집값 잡으려면 올려야”… 7월 금리인상 가능성 커졌다",
-        "summary": "특히 우리나라 가계부채 규모는 국내총생산(GDP) 대비 주요 선진국과 비교해도 높은 수준으로 평가받는다. 물가 역시 안심하기 어려운 상황이다. 소비자물가 상승률은 여전히 한국은행 목표치인 2%를 웃돌고 있으며...",
-        "link": "https://m.skyedaily.com/news_view.html?ID=306247",
-        "source": "이데일리",
-        "published": "2026-06-21T10:38:00+09:00",
-        "score": 76
+        "title": "반도체 성과급발 인플레 현실화하나…저소득층 '삼중고' 우려",
+        "summary": "김용범 청와대 정책실장은 지난 20일 페이스북에서 올해 한국 경제의 명목 국내총생산(GDP) 성장률이 두 자릿수를 넘어설 전망이지만 소비자물가 지수는 3%에 머물고 있다며 \"거시지표는 뜨겁지만, 자영업자의 체감경기는...",
+        "link": "https://www.yna.co.kr/view/AKR20260621041300002?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-06-22T05:53:00+09:00",
+        "score": 88
       },
       {
-        "title": "김용범 “반도체로 번 돈, 부동산 흡수 안 돼...보유·양도세 조정 필요...",
-        "summary": "김 실장은 지난 20일 페이스북에 올린 글에서 “주가와 영업이익, 세수와 경상수지 수치가 모두 좋은 방향을 가리키고 있다”며 “올해 명목 국내총생산(GDP) 성장률은 두 자릿수를 넘어설 것으로 보인다”고 밝혔다. 이어...",
-        "link": "https://www.mk.co.kr/article/12079159",
-        "source": "매일경제",
-        "published": "2026-06-21T13:22:00+09:00",
-        "score": 72
+        "title": "인플레이션 최대 복병 '반도체 성과급'",
+        "summary": "한국은행은 최근 발표한 '물가안정목표 운영상황 점검' 보고서에서 물가 위협 요인 중 하나로 반도체 대기업의 성과급을 꼽았다. 보고서에 따르면 삼성전자와 SK하이늑스 등  정보기술(IT) 업종의 특별 급여는 올해 1분기...",
+        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=359024",
+        "source": "이데일리",
+        "published": "2026-06-22T12:38:00+09:00",
+        "score": 86
       },
       {
         "title": "미 연준은 금리를 언제 올릴까…워시 의장이 연준 개편 꺼낸 까닭은 [케...",
@@ -212,86 +244,46 @@
         "score": 72
       },
       {
-        "title": "반도체發 50조 유동성… 임금·물가·집값 다 올릴판 [Pick코노미]",
-        "summary": "반도체 호황으로 시장에 풀릴 유동성이 50조 원대에 달할 수 있다는 전망이 나오는 가운데 한국은행이 이례적으로 정보기술(IT) 업종 성과급을 물가 상방 위험으로 공식 지목했다. 중동발 사태가 일단락되면 유가는 하방...",
-        "link": "https://www.sedaily.com/article/20058354?ref=naver",
+        "title": "경기준비위 “경기도 재정 곳간 바닥”…교부단체 전환 재차 촉구",
+        "summary": "인수위는 최근 부동산 경기 침체에 따른 취득세 등 지방세 수입 감소와 함께 경기도가 지방교부세를 받지 못하는 불교부단체라는 점을 재정 악화의 주요 원인으로 지목했다. 현재 경기도는 자체 세입 규모가 크다는 이유로...",
+        "link": "https://www.sedaily.com/article/20058558?ref=naver",
         "source": "서울경제",
-        "published": "2026-06-22T05:30:00+09:00",
-        "score": 60
+        "published": "2026-06-22T13:24:00+09:00",
+        "score": 72
       },
       {
-        "title": "‘반도체 머니’ 50조…서비스 물가부터 흔든다",
-        "summary": "기대인플레이션에 영향을 미치기 시작하면 물가 압력이 훨씬 길게 이어질 수 있다”고 설명했다. 유가는 올랐다 내려가면 영향도 함께 빠지지만 임금이 오르면 기업과 가계의 기대인플레이션까지 자극해 임금과 물가가...",
-        "link": "https://www.sedaily.com/article/20058238?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-21T15:34:00+09:00",
-        "score": 60
+        "title": "[팩트체크] 김용범·신현송이 띄운 명목 GDP 17% 증가의 함정",
+        "summary": "“앞으로는 실질 국내총생산(GDP)뿐 아니라 명목 GDP도 계속 봐야 한다.” 신현송 한국은행 총재가 지난 19일 한국금융학회 특별심포지엄에서 꺼낸 말이다. 신 총재는 올해 1분기 한국의 명목 GDP가 전년 동기 대비 17.1...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030001370&code=61141111&cp=nv",
+        "source": "국민일보",
+        "published": "2026-06-22T09:11:00+09:00",
+        "score": 70
       },
       {
-        "title": "마이크론 실적, 반도체주 분수령…PCE 물가 주목[이번주 美 증시는]",
-        "summary": "미국 증시는 지난주 수요일(17일) 연방공개시장위원회(FOMC) 결과 연내 금리 인상 가능성이 높아졌다는... 특히 지난주 연방공개시장위원회(FOMC) 이후 발표된 경제전망요약(SEP)에서 연준 위원들의 올해 인플레이션...",
-        "link": "https://www.mt.co.kr/stock/2026/06/22/2026062020124067894",
-        "source": "머니투데이",
-        "published": "2026-06-22T05:35:00+09:00",
-        "score": 60
-      },
-      {
-        "title": "호황에 富동산 될라… 김용범 \"보유·양도세 조정\"",
-        "summary": "김 실장은 올해 우리나라의 명목GDP(국내총생산) 성장률이 전년 대비 10% 이상 기록할 것으로 예상되는 가운데 법인세 급증, 국가채무비율 하락, 1인당 국민소득 4만달러 조기달성 등의 상황이 뒤따를 것이라고 봤다. 그래서...",
-        "link": "https://www.mt.co.kr/politics/2026/06/22/2026062118452839029",
-        "source": "머니투데이",
-        "published": "2026-06-22T04:00:00+09:00",
-        "score": 60
-      },
-      {
-        "title": "호르무즈 리스크 재부상… 美물가도 변수 [주간 증시 전망]",
-        "summary": "최근 FOMC에서 기준금리는 동결됐지만 물가 전망치는 상향 조정됐다. PCE가 예상치를 웃돌 경우 금리 인상... 이경민 대신증권 연구원은 \"6월 연방공개시장위원회(FOMC) 이후 연준 정책 방향성이 다소 모호해진 상황...",
-        "link": "http://www.fnnews.com/news/202606211820422545",
-        "source": "파이낸셜뉴스",
-        "published": "2026-06-21T18:23:00+09:00",
-        "score": 60
-      },
-      {
-        "title": "\"계란후라이도 못먹겠다\"...'달걀 10개' 5000원, 밥상 물가 '초비상'",
-        "summary": "여기에 무더위가 일찍 찾아오면서 이른바 '히트플레이션'(Heatflation·열과 인플레이션의 합성어)이 현실화될 수 있다는 우려도 제기된다. 특란 10구 1년만에 40% 가까이 올라... 닭값도 급등 21일 축산물품질평가원...",
-        "link": "http://www.fnnews.com/news/202606220715035128",
-        "source": "파이낸셜뉴스",
-        "published": "2026-06-22T07:41:00+09:00",
-        "score": 60
-      },
-      {
-        "title": "‘달걀 10구’ 가격 5000원 뚫었다…이른 폭염에 밥상물가 비상",
-        "summary": "예년보다 빠른 폭염에 ‘히트플레이션(열+인플레이션)’ 우려가 겹치면서 여름철이 물가 관리의 최대 고비일 것으로 전망된다. 21일 축산물품질평가원 축산물유통정보에 따르면 이달 특란 10구 전국 평균 소매...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260621/134150393/1",
-        "source": "동아일보",
-        "published": "2026-06-21T14:07:00+09:00",
-        "score": 60
+        "title": "[셀럽의 한 수] 美·이란 스위스 1차 고위급 회담 종료…중재국 공동성...",
+        "summary": "상존 - 경제·금융 수장들, 美 통화정책 긴축 방향 전개 인식 - 증권사 \"주요국 중앙은행들 물가 경계 수위... 주요국 경제 성장·소비 회복세 촉각…통화정책 변수 - 韓 반도체 초호황…수출 호조에 경상수지 최대 흑자...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000317997?division=NAVER",
+        "source": "SBS",
+        "published": "2026-06-22T14:30:00+09:00",
+        "score": 64
       }
     ],
     "금융시장": [
       {
-        "title": "금리 인상 우려감 높을 때 사 모아야 할 주식은 [주末머니]",
-        "summary": "올해 상반기 증권업종의 주가 상승률은 코스피 수익률을 밑돌았지만, 국내 증시 호조가 지속될 것으로 전망돼 관련 종목에 대한 기대감은 여전히 지속되고 있다. 20일 하나증권은 증권업종에 대한 투자의견을 '비중확대'로 제시했다. 고연수 하나증권 연구원은 \"국내 증시로의 자금 유입이 지속될 것으로 예상되는바, 금리 인상 우려에 따른 주가 조정을 매수 기회로 삼을 것을 추천한다\"고 밝혔다. 2분기 누적 기준 KRX 증권지수는",
-        "link": "https://view.asiae.co.kr/article/2026061816493961217",
-        "source": "아시아경제 - 증권",
-        "published": "2026-06-20T17:24:00+09:00",
+        "title": "국내 주식 투자자 절반 \"올해 코스피 1만 간다\"",
+        "summary": "올 하반기 증시에 영향을 미칠 핵심 변수로는 금리·환율(58.7%)을 가장 많이 꼽았다. 유가·인플레이션(12.3%), 대외 지정학적 갈등(11.2%), 해외 증시(10.4%) 등이 뒤를 이었다. 증시 호황으로 개인 투자자들의 주식시장...",
+        "link": "https://www.hankyung.com/article/2026062204486",
+        "source": "한국경제",
+        "published": "2026-06-22T13:56:00+09:00",
         "score": 132
       },
       {
-        "title": "한국이나 미국이나 금리 올린다는데, 코스피는 왜 계속 오를까 [주末머니]",
-        "summary": "과거에는 주로 금리 상승기에 주가 하락하는 일이 많았지만 인공지능(AI) 혁명시대가 도래하면서 이런 과거의 패턴이 사라졌다는 분석이 나왔다. 21일 신한투자증권의 '주식시장, 금리를 배제하라' 보고서에 따르면 2008년 글로벌 금융위기 이후 주식시장은 통화정책과 금리의 지배 속에 살았다. 2008년 이후 금리인하는 주가 상승을, 금리 상승이 주가 하락을 결정했다. 이런 경험은 미국 연준(Fed)이 무제한 양적완화를 단행한 2",
-        "link": "https://view.asiae.co.kr/article/2026061815072390521",
-        "source": "아시아경제 - 증권",
-        "published": "2026-06-21T17:46:00+09:00",
-        "score": 128
-      },
-      {
-        "title": "코스피 사상 첫 '9천피'에…'국내 주식형 ETF' 비중 50% 돌파",
-        "summary": "(서울=연합뉴스) 김태종 기자 = 국내 상장지수펀드(ETF) 시장이 500조원을 훌쩍 넘어선 가운데 국내 주식형 ETF가 차지하는 비중이 50%...",
-        "link": "https://www.yna.co.kr/view/AKR20260619145500008",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-06-21T07:05:02+09:00",
-        "score": 122
+        "title": "국내 주식 투자자 절반 “올해 코스피 1만 간다”",
+        "summary": "0%였다. 한편, 투자자들은 하반기 증시에 영향을 미칠 핵심 변수로 금리·환율(58.7%)을 가장 많이 꼽았다. 이어 유가·인플레이션(12.3%), 대외 지정학적 갈등(11.2%), 해외 증시(10.4%) 순으로 경계감을 드러냈다.",
+        "link": "https://www.chosun.com/economy/money/2026/06/22/MTLS25DTLRGQ3HC5PCG6C5TURI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-06-22T10:58:00+09:00",
+        "score": 132
       },
       {
         "title": "코스피 9000에도 국내 증시 8% ‘동전주’ 한국거래소, 투자자에 ‘상장폐지 주의보’",
@@ -300,6 +292,14 @@
         "source": "경향신문:경제",
         "published": "2026-06-21T20:42:00+09:00",
         "score": 122
+      },
+      {
+        "title": "코스피 '1만피' 질주 이어갈까…최대 변수는 美 금리 [1분 브리프]",
+        "summary": "금리…\"잭슨홀·9월 FOMC 주목\" ■ '유가 30% 급락' 소식에 주유소 뛰어갔더니…\"아직 2000원대인데?\" ○두바이유 가격 106→73달러 한달간 30% 하락 ○국내 유가 반영까지 통상 2~3주 시차 ○환율·최고가격제...",
+        "link": "https://view.asiae.co.kr/article/2026062123293077028",
+        "source": "아시아경제",
+        "published": "2026-06-22T08:00:00+09:00",
+        "score": 116
       },
       {
         "title": "[증시 예보] 9000선 넘은 코스피…시선은 마이크론·PCE로",
@@ -312,28 +312,12 @@
     ],
     "산업·과학": [
       {
-        "title": "'우주 먹거리 선점하자'…K태양광·배터리·반도체 분주",
-        "summary": "저궤도 위성망 확대와 우주 데이터센터 구축 논의가 본격화하면서 태양광, 배터리, 반도체 등 첨단산업이... 배터리 업계도 우주 시장을 차세대 수요처로 주목하고 있다. 특히 최근 일론 머스크 테슬라·스페이스X...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02522326645484016",
-        "source": "이데일리",
-        "published": "2026-06-21T19:11:00+09:00",
-        "score": 100
-      },
-      {
-        "title": "AI 반도체·전기차 성능 갉아먹던 '킬러 결함' 정체 밝혔다[과학을읽다]",
-        "summary": "인공지능(AI) 데이터센터와 전기차의 핵심 부품으로 주목받는 탄화규소(SiC) 전력반도체의 수율을 떨어뜨리는 대표적 '킬러 결함'의 정체가 세계 최초로 밝혀졌다. 반도체 생산 과정에서 발생하는 치명적 불량의 생성 원리가 규명되면서 차세대 전력반도체의 품질과 생산성을 높일 수 있는 기반이 마련됐다는 평가다. 한국전기연구원(KERI)은 나문경 차세대반도체연구센터 박사팀이 홍순구 충남대 교수팀, 호리바에스텍코리아와 공",
-        "link": "https://view.asiae.co.kr/article/2026061913204776508",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-06-21T12:00:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "전자·디스플레이·이노텍 다 잘 나간다…구광모의 ‘원LG’ 전략 재조명",
-        "summary": "LG전자 로봇 기술, LG이노텍 부품, LG에너지솔루션 배터리, LG CNS의 AI 역량을 결합해 피지컬 AI 생태계를 구축하겠다는 구상이다. 재계 관계자는 “구광모 회장 취임 이후 LG는 사업 구조를 바꾸고 미래 성장 동력을...",
-        "link": "https://www.mk.co.kr/article/12079534",
-        "source": "매일경제",
-        "published": "2026-06-22T06:02:00+09:00",
-        "score": 84
+        "title": "[2026 100대 CEO]이규석 현대모비스 사장, 로보틱스·반도체 양 날개로 미...",
+        "summary": "현대모비스는 차량용 부품 설계 역량과 양산 경험 등 강점을 바탕으로 장차 센서, 제어기, 배터리 등 로봇 내 다양한 유관 부품으로 사업 영역을 넓혀 나갈 계획이다. 자동차부품에 한정되지 않고 로봇산업, 나아가 피지컬...",
+        "link": "https://magazine.hankyung.com/business/article/202606156188b",
+        "source": "한국경제",
+        "published": "2026-06-22T13:42:00+09:00",
+        "score": 94
       },
       {
         "title": "제조업 ‘7월 전망’ 3개월 만에 하락… 반도체·자동차만 웃는다",
@@ -342,23 +326,39 @@
         "source": "매일경제 : 경제",
         "published": "2026-06-21T14:55:50+09:00",
         "score": 80
+      },
+      {
+        "title": "LG에너지솔루션, ‘ees 유럽 2026’ 참가… AI 데이터센터용 배터리 솔루션 공개",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/22/134155521.1.jpg\" vspace=\"10\" />LG에너지솔루션이 오는 23일부터 25일(현지시간)까지 독일 뮌헨 메쎄 뮌헨에서 열리는 배터리·에너지저장장치 전문 전시회 ‘ees 유럽 2026’에 참가한다고 22일 밝혔다.이번 전시 주제는 ‘Powering the Future of AI’다. LG에너지솔루션은 AI 데이터센터용 배터리 통합 솔루션과 유럽 현지 생산체계, 배터리 규제 대응 기술을 소개할 예정이다.전시 제품은 AI 데이터센터의 전력 수요에 대응하는 전력망용 배터리에너지저장장치(BESS)부터 무정전전원장치(UPS), 배터리백업유닛(BBU)까지 포함한다. 전력망 안정화와 데이터센터 비상 전력 공급에 필요한 제품군을 함께 선보인다.전력망용 ESS 시스템으로는 ‘JF2S DC LINK 5.0’을 전시한다. 폴란드 브로츠와프...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260622/134155553/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-06-22T10:58:07+09:00",
+        "score": 80
+      },
+      {
+        "title": "차량 디스플레이에 베팅한 대만 형제, 억만장자 반열",
+        "summary": "공학도 형·MBA 동생 2001년 하이맥스 설립 페라리·포르쉐 등 납품…글로벌 점유율 40% 과감한 초기 투자 결실…스마트안경 투자 추진20여 년 전 차량용 디스플레이 반도체에 통..",
+        "link": "https://www.mk.co.kr/news/business/12079703",
+        "source": "매일경제 : 국제",
+        "published": "2026-06-22T11:02:03+09:00",
+        "score": 60
       }
     ],
     "부동산": [
-      {
-        "title": "\"전세값 보다 싸요\"…동탄 집값 22억 찍자 우르르 몰린 동네 [현장+]",
-        "summary": "22일 한국부동산원 청약홈에 따르면 경기 오산시 내삼미2구역 A2블록에 들어서는 '북오산자이 드포레'는... 박지민 월용청약연구소 대표는 \"동탄 부동산 시장에서 부는 훈풍이 북오산까지 충분히 유입될 수 있을 것...",
-        "link": "https://www.hankyung.com/article/2026061843936",
-        "source": "한국경제",
-        "published": "2026-06-22T06:31:00+09:00",
-        "score": 136
-      },
       {
         "title": "전국 아파트 매매 전세 ‘동반 불장’…17개 시도중 16곳 일제히 상승",
         "summary": "전국 아파트 시장에서 매매와 전세가 모두 오르고 있다. 지방 일부 지역을 제외한 전국 17개 시도 중 16곳이 일제히 상승 곡선을 그리며 완연한 불장세를 나타냈다. 특히 서울 전셋값은 최근 1년 만에 주간 기준 가장 높은 상승률을 기록했다. 20일 부동산114 인공지능(AI) 시세 조사에 따르면 6월 셋째주 전국 아파트 매매가격은 0.25% 상승했다. 서울이 0.29% 뛰고, 경기·인천이 0.26% 오르며 수도권 일대가 0.27% 상승했다. 비",
         "link": "https://view.asiae.co.kr/article/2026061915375435626",
         "source": "아시아경제 - 부동산",
         "published": "2026-06-20T07:00:00+09:00",
+        "score": 110
+      },
+      {
+        "title": "전세대란에 불 지르는 선무당 주택정책 \"임대를 매매로 바꾸면 세입자는...",
+        "summary": "임 청장이 개인 소셜미디어에 올린 글이긴 하지만, 이는 정부가 추진하고 있는 부동산 세제 개편 방향을... 계약 갱신 때 임대료를 5% 이내로 올리는 등 조건을 지키면 종합부동산 과세 때 주택 수에서도 제외해준다. 현재...",
+        "link": "https://realty.chosun.com/site/data/html_dir/2026/06/22/2026062201588.html",
+        "source": "조선일보",
+        "published": "2026-06-22T13:52:00+09:00",
         "score": 110
       },
       {
@@ -380,54 +380,78 @@
     ],
     "국제경제": [
       {
-        "title": "트럼프 2기 관세회피 단속 강화…무협 \"기업들, 준법 관리 강화해야\"",
-        "summary": "트럼프 2기 행정부가 고율 관세 조치의 실효성을 담보하기 위해 수입 신고 검증과 단속 강도를 끌어올리고 있다. 이에 미국으로 수출하는 한국 기업들의 선제적인 대응이 필요하다는 제언이 나왔다. 한국무역협회 국제무역통상연구원은 21일 발표한 '미국 관세회피 대응 강화 동향' 보고서를 통해 미국의 수입신고 검증과 관세회피 단속이 한층 엄격해지면서 위반 기업에 고액의 배상책임이 부과되는 사례가 확인되고 있다고 밝혔다",
-        "link": "https://view.asiae.co.kr/article/2026062110345739906",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-06-21T11:00:00+09:00",
-        "score": 88
+        "title": "‘해협 볼모’ 퍼주기 협상, 부통령이 책임지나요 [트럼프 스톡커]",
+        "summary": "이달 17일 연준이 연방공개시장위원회(FOMC)에서 올 연말 금리 경로를 ‘1회 인하’에서 ‘1회 인상’으로 급선회한 점도표(연준 위원들의 금리 전망치를 점으로 표시해 분기마다 발표하는 표)를 공개한 만큼 25일 나올...",
+        "link": "https://www.sedaily.com/article/20058227?ref=naver",
+        "source": "서울경제",
+        "published": "2026-06-22T05:01:00+09:00",
+        "score": 80
       },
       {
-        "title": "관세 인상 이어 관세 회피 단속 강화하는 미국…무협 “수출 업체, 준법 체계 강화 필요”",
-        "summary": "‘미국 관세 회피 대응 강화 동향’ 보고서원산지 허위·가격 저가 신고 등 엄격 단속제재 방식도 ‘관세 추징→민사소송’ 강화“신고사항 점검하고 오류 발견 시 시정”도널드 트럼프 미국 대통령이 19일(현지시간) 미국 메릴랜드주 앤드루스 합동기지에서 연설하고 있다. 로이터연합뉴스미국 정부가 관세 회피 행위 단속을 강화하고 있어 수출 기업의 주의가 필요하다는 지적···",
-        "link": "https://www.khan.co.kr/article/202606211435011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-06-21T14:35:01+09:00",
-        "score": 76
-      },
-      {
-        "title": "트럼프 \"영국 총리 사임할 것…이민·에너지서 큰 실패\"",
-        "summary": "트럼프 대통령과 스타머 총리의 관계는 지난해 트럼프 대통령의 관세 폭주 와중에 영국이 미국과 최초로 새로운 무역 협정을 맺는 등 한동안 매우 순조로웠다. 하지만 올해 들어 트럼프 대통령의 덴마크령 그린란드 편입...",
-        "link": "https://www.yna.co.kr/view/AKR20260621051000071?input=1195m",
+        "title": "'연준 선제안내 없애면 금리 올라갈 것'…전문가들 경고",
+        "summary": "워시 의장은 지난 17일 취임 후 첫 연방공개시장위원회(FOMC) 회의를 주재한 뒤 연 기자회견에서 연준이 금리 방향을 제시하는 데 사용해 온 몇 가지 도구를 개편하겠다고 밝힌 바 있다. JP모건 자산운용의 최고투자책임자...",
+        "link": "https://www.yna.co.kr/view/AKR20260622019100009?input=1195m",
         "source": "연합뉴스",
-        "published": "2026-06-21T23:38:00+09:00",
-        "score": 64
+        "published": "2026-06-22T08:30:00+09:00",
+        "score": 70
       },
       {
-        "title": "트럼프 “영국 총리 곧 사임할 것…이민·에너지 정책 실패”[1일1트]",
-        "summary": "트럼프 대통령과 스타머 총리의 관계는 지난해 트럼프 대통령의 관세 폭주 와중에 영국이 미국과 최초로 새로운 무역 협정을 맺는 등 한동안 매우 순조로웠다. 하지만 올해 들어 트럼프 대통령의 덴마크령 그린란드 편입...",
-        "link": "https://biz.heraldcorp.com/article/10783132?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-06-22T06:18:00+09:00",
-        "score": 64
+        "title": "포워드가이던스 없앤 美연준…\"금리 오를 것\"(종합)",
+        "summary": "연방공개시장위원회(FOMC) 회의를 마친 뒤 기자회견을 하고 있다. (사진=로이터) 정책 방향에 대해 힌트를... 앞서 지난 17일(현지시간) 취임 후 열린 첫 공개시장위원회(FOMC)에서 연준은 성명서의 길을 대폭 줄이고, 포워드...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03050406645484344",
+        "source": "이데일리",
+        "published": "2026-06-22T11:27:00+09:00",
+        "score": 70
       },
       {
-        "title": "“美, 관세회피 단속 강화… 수출기업 대응 필요”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/22/134153929.1.jpg\" vspace=\"10\" />미국 도널드 트럼프 2기 행정부가 고율 관세를 피하려는 ‘관세 회피’ 행위에 대한 단속을 한층 강화하고 있는 만큼 우리 수출 기업들의 면밀한 대응이 필요하다는 주장이 나왔다. 21일 한국무역협회 국제무역통상연구원이 발표한 ‘미국 관세 회피 대응 강화 동향’ 보고에 따르면 트럼프 행정부는 무역 및 관세 회피 행위를 사기로 규정하고 ‘무역 사기 대응 TF’를 구성해 행정조사는 물론 민사 소송과 형사 기소까지 병행하고 있다. 특히 6일 트럼프 대통령이 △수입자 요건 강화 △정보 공개 의무 확대 △제재 강화 등을 골자로 한 통관 집행 관련 행정명령에 서명하면서 관세 대응 기조를 명확히 했다. 제재 방식도 달라지는 양상이다. 미국 정부는 주로 관세법에 따라 미납 관세를 추징해 왔으나, 최근...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260621/134152482/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-22T00:30:00+09:00",
-        "score": 64
+        "title": "K뷰티, 미국 이어 유럽까지 뻗는다",
+        "summary": "단위=만달러, 자료=관세청 수출입무역통계, 스킨케어·메이크업 화장품 기준 올해 들어서도 1~5월 이들... 대한무역투자진흥공사(KOTRA)는 지난달 보고서에서 K뷰티가 유럽 주요국에서의 점유율을 확대하는 데 주목하며...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03388246645484344",
+        "source": "이데일리",
+        "published": "2026-06-22T13:54:00+09:00",
+        "score": 66
+      },
+      {
+        "title": "엠케이전자, 중국·태국 NEPCON 참가 성료…솔더페이스트 글로벌 시장 공략 본격화",
+        "summary": "엠케이전자가 중국과 태국 전자 제조 전문 전시회에 잇따라 참가하며 신규 성장동력으로 추진 중인 솔더페이스트 사업의 글로벌 고객 확대에 나섰다. 글로벌 반도체 소재 기업 엠케이전자는 지난 6월 중국 상하이와 태국 방콕에서 열린 'NEPCON China 2026'과 'NEPCON Thailand 2026' 참가를 성공적으로 마무리했다고 22일 밝혔다. 회사는 이번 전시회를 통해 중국과 동남아시아 지역의 전자·반도체 제조 기업을 대상으로 솔더페이",
+        "link": "https://view.asiae.co.kr/article/2026062214172467099",
+        "source": "아시아경제 - 증권",
+        "published": "2026-06-22T14:17:24+09:00",
+        "score": 50
       }
     ],
     "AI와 경제": [
       {
-        "title": "K전력·에너지 기업, 북미 시장 정조준…코트라·경남, '수출 로드쇼' 열어",
-        "summary": "인공지능(AI)의 확산으로 전력·에너지 인프라 확충 수요가 커지는 가운데, 한국 유망 기업들이 미국, 캐나다 현지에서 북미 시장 진출을 위한 수주전에 나섰다. 대한무역투자진흥공사(코트라)와 경상남도는 지난 15일부터 경남도 내 중소기업 10개사, 한국수력원자력(한수원)이 참가한 가운데 미국 휴스턴과 캐나다 토론토에서 '경남 에너지·전력 기자재 북미 수출로드쇼'를 개최했다고 21일 밝혔다. 경남은 두산에너빌리티, 효성",
-        "link": "https://view.asiae.co.kr/article/2026062110533977542",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-06-21T11:00:00+09:00",
-        "score": 36
+        "title": "삼일PwC \"AI, 노동시장 양극화 촉발…임금 격차 등\"",
+        "summary": "인공지능(AI)이 확산하면서 노동시장 양극화를 촉발한다는 의견이 나왔다. 삼일PwC는 이 같은 분석을 담은 '2026 AI 일자리 바로미터' 보고서를 22일 발표했다. 보고서는 PwC가 전 세계 27개국 10억 건 이상 채용공고를 분석한 결과를 바탕으로 작성됐다. 보고서에 따르면 AI는 일자리 대체를 넘어 일자리 간 격차를 벌어지게 만든다. AI가 반복 업무를 자동화하면서 인간의 전문성과 판단력이 더 중요해지는 전문화된 일자리와 AI",
+        "link": "https://view.asiae.co.kr/article/2026062209073022844",
+        "source": "아시아경제 - 증권",
+        "published": "2026-06-22T09:07:30+09:00",
+        "score": 42
+      },
+      {
+        "title": "그로쓰리서치 \"AI로 전력기기 슈퍼사이클 온다\"",
+        "summary": "전력기기의 수요 기반이 넓어지면서 업황이 새로운 성장 구간에 진입했다는 분석이 나왔다.  독립 리서치 기업 그로쓰리서치는 전력기기 산업 보고서를 통해 22일 이같이 밝혔다. 2023년, 2024년 실적을 이끌었던 북미 노후 전력망 교체 수요에 인공지능(AI) 데이터센터용 신규 송·변전망 구축 수요가 본격적으로 더해지면서 전력기기 시장의 장기 호황 가능성이 한층 커졌다는 설명이다.  보고서에 따르면 생성형 AI가 에이전틱",
+        "link": "https://view.asiae.co.kr/article/2026062209161404765",
+        "source": "아시아경제 - 증권",
+        "published": "2026-06-22T09:16:14+09:00",
+        "score": 38
+      },
+      {
+        "title": "FSN, '브랜드·플랫폼·AI 콘텐츠' 기업으로 변신…\"수익 구조 개선 통해 성장 가속\"",
+        "summary": "FSN이 기존 광고 대행 중심 사업 구조에서 벗어나 브랜드, 플랫폼, AI 콘텐츠 중심 기업으로 체질 개선을 완료하고 본격적인 성장 기반 마련에 나선다. 코스닥 상장사 FSN은 사업 구조 재편과 재무 건전성 강화를 통해 고부가가치 사업 중심의 포트폴리오를 구축했으며, 이를 기반으로 실적 성장에 속도를 낼 계획이라고 22일 밝혔다. FSN은 그동안 수익성 중심의 사업 개편을 지속해왔다. 과거 전체 매출에서 높은 비중을 차지했던",
+        "link": "https://view.asiae.co.kr/article/2026062213420602839",
+        "source": "아시아경제 - 증권",
+        "published": "2026-06-22T13:42:06+09:00",
+        "score": 34
+      },
+      {
+        "title": "KAI, NH농협은행과 K방산 경쟁력 강화 위한 금융협력 나선다",
+        "summary": "이번 협약은 국내외 시설투자를 통한 생산 역량 확대, 신사업 투자와 수출 확대 등 미래 사업 추진 기반... 최근 K방산 수출 확대와 항공우주산업 고도화에 따라 안정적인 금융 조달 중요성이 커지는 가운데 KAI는...",
+        "link": "https://www.sedaily.com/article/20058583?ref=naver",
+        "source": "서울경제",
+        "published": "2026-06-22T14:14:00+09:00",
+        "score": 32
       },
       {
         "title": "[신간 소개] 기업 성장 패러다임의 전환 '밀도의 경제'",
@@ -438,15 +462,39 @@
         "score": 32
       },
       {
-        "title": "중진공, 산업 특화 AI 인재 육성 위한 계약학과 13개 선정",
-        "summary": "중소벤처기업부와 중소벤처기업진흥공단은 올해 처음으로 도입한 '산업특화 AI 계약학과' 총 13개를 최종 확정했다고 21일 밝혔다.  최근 생성형 AI 확산으로 산업현장의 AI 활용 수요는 급증하고 있지만 중소기업은 전문인력 부족과 재직자 재교육 한계로 AI 도입·활용에 어려움을 겪고 있다. 중진공은 산업 전문성과 AI 역량을 동시에 갖춘 현장형 인재를 양성하기 위해 '산업특화 AI계약학과'를 신설했다. 중진공은 지난 3월30",
-        "link": "https://view.asiae.co.kr/article/2026062010160846075",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-06-21T12:00:00+09:00",
+        "title": "유안타증권, 맞춤형 투자 정보 서비스 'AI PB' 오픈",
+        "summary": "유안타증권이 개인 맞춤형 투자 정보 제공하는 'AI PB' 서비스를 오픈했다.   22일 유안타증권에 따르면 'AI PB'는 고객이 투자에 필요한 시장 정보와 종목 관련 정보를 보다 쉽고 빠르게 확인할 수 있도록 지원하는 AI 기반의 개인화 투자 정보 제공 서비스다. 생성형 인공지능(AI) 기술을 활용해 투자 정보 및 관련 뉴스 자료를 분석하고, 고객의 관심 종목과 시장의 흐름을 한 화면에서 확인할 수 있게 했다. 'AI 시황' 서비스는",
+        "link": "https://view.asiae.co.kr/article/2026062209202162146",
+        "source": "아시아경제 - 증권",
+        "published": "2026-06-22T09:20:21+09:00",
+        "score": 28
+      },
+      {
+        "title": "‘전기 먹는 하마’ AI 데이터센터, 탄소 배출 새 뇌관 될까 [환경 인사이드]",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/22/134156646.1.jpg\" vspace=\"10\" />인공지능(AI) 데이터센터는 AI 시대의 핵심 인프라다. 거대 AI가 수많은 데이터를 학습하고 추론·연산을 하려면 수만 개의 두뇌인 그래픽처리장치(GPU)를 비롯한 컴퓨팅 자원과 대규모 네트워크, 냉각 인프라가 필요하다. 이를 한 곳에 모아놓은 공간이 바로 AI 데이터센터다. 한국도 AI 데이터센터 바람이 거세다. SK텔레콤은 아마존웹서비스(AWS)와 손잡고 울산 데이터센터 건설에 들어갔고, 삼성전자는 경북 구미와 전남 해남에 데이터센터를 세우겠다는 계획을 내놨다.그러나 데이터센터는 그저 짓는 것으로 끝나지 않는다. 데이터센터는 ‘전기 먹는 하마’로 불릴 정도로 막대한 전력이 필요하다. 해외 주요국들은 데이터센터 건립과 함께 전력 확보 경쟁에 나서는 한편 탄소 저감을 위한 방안을 ...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260622/134149303/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-06-22T13:48:00+09:00",
         "score": 28
       }
     ],
     "기타": [
+      {
+        "title": "드론·자율함정·전장AI…올들어 방산 벤처투자 19조원",
+        "summary": "(서울=연합뉴스) 정주호 기자 = 우크라이나 전선과 호르무즈 해협의 포성이 가시지 않은 가운데 드론·자율 함정·전장 인공지능(AI) 등 방위 기...",
+        "link": "https://www.yna.co.kr/view/AKR20260622082400009",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-06-22T13:23:17+09:00",
+        "score": 24
+      },
+      {
+        "title": "유안타증권, AI 기반 맞춤형 투자정보서비스 ‘AI PB’ 개시",
+        "summary": "유안타증권은 22일 ‘티레이더M(MTS)’ 내 인공지능(AI) 콘텐츠를 기존 챗봇과 뉴스 요약 중심에서 범위를 확장해 개인 맞춤형 투자 정보 제공으로 고도화한 ‘AI PB’ 서비스..",
+        "link": "https://www.mk.co.kr/news/stock/12079816",
+        "source": "매일경제 : 증권",
+        "published": "2026-06-22T14:02:39+09:00",
+        "score": 24
+      },
       {
         "title": "이스라엘인 10명 9명 “전쟁 승자는 이란”…美 종전 합의 ‘부정적’",
         "summary": "48.2%, 트럼프와 충돌 감수 대헤즈볼라 군사작전 지지미국과 함께 이란을 상대로 전쟁을 벌였던 이스라엘에서 압도적 다수가 이번 전쟁의 승자로 이란을 꼽았다. 21일(현지시간) 타..",
@@ -456,59 +504,35 @@
         "score": 24
       },
       {
-        "title": "MAGA 책사·中정치 전문가 … 美中 패권경쟁 판세 집중분석",
-        "summary": "관세가 외교의 언어가 되고, 공급망이 전장이 된 시대다. 오는 9월 열리는 제27회 세계지식포럼은 관세와 안보를 핵심 트랙 중 하나로 내걸고 미국 통상·안보 정책 설계자부터 이를 ..",
-        "link": "https://www.mk.co.kr/news/world/12079400",
-        "source": "매일경제 : 국제",
-        "published": "2026-06-21T17:44:22+09:00",
-        "score": 24
-      },
-      {
-        "title": "미·이란 강경 대응 속 협상은 유지…네타냐후 \"이란 핵 저지·헤즈볼라 대응에 타협 없어\"",
-        "summary": "이란이 스위스에서 열린 첫 고위급 교섭에서 도널드 트럼프 미국 대통령의 추가 공습 위협에 반발해 회담장에서 물러났지만, 카타르와 파키스탄의 중재 아래 소통 채널을 남겨둔 것으로 전해졌다. 첫날 논의에서는 동결자산 해제와 석유 제재 완화, 호르무즈 해협 통항 문제가 다뤄졌으며, 이스라엘의 레바논 내 헤즈볼라 대응이 향후 협상의 최대 변수로 떠올랐다. 21일(현지시간) 뉴욕타임스(NYT), 파이낸셜타임스(FT) 등에 따르",
-        "link": "https://view.asiae.co.kr/article/2026062208133406846",
-        "source": "아시아경제 - 국제",
-        "published": "2026-06-22T08:14:39+09:00",
-        "score": 24
-      },
-      {
-        "title": "미·이란 회담 중단설에도 협상 계속…레바논 전황 최대 변수",
-        "summary": "이란이 스위스에서 진행 중인 미국과의 후속 종전 협상을 중단했다는 소식이 알려진 가운데 협상이 교착 상태에 놓였지만 끝난 것은 아니라고 블룸버그통신이 21일(현지시간) 보도했다.  이날 블룸버그는 익명을 요구한 관계자들을 인용해 이란 협상단이 스위스 현장에서 계속 논의에 참여하고 있다고 전했다. 앞서 이란 반관영 매체 두 곳은 도널드 트럼프 미국 대통령이 레바논 내 헤즈볼라 활동을 이유로 이란에 추가 공습 가능",
-        "link": "https://view.asiae.co.kr/article/2026062204090795575",
-        "source": "아시아경제 - 국제",
-        "published": "2026-06-22T04:09:08+09:00",
-        "score": 24
-      },
-      {
-        "title": "자산운용사 1분기 순이익 1조 4664억…실적 격차는 확대",
-        "summary": "부동산 업황 부진으로 인해 일부 대체투자 운용사의 실적이 악화된 것으로 풀이된다. 금감원 관계자는 “펀드시장이 상장지수펀드(ETF) 위주로 재편되며 일부 대형 운용사로 쏠림과 과당 경쟁이 지속되고...",
-        "link": "https://www.sedaily.com/article/20058380?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-22T08:01:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "기가비스, AI발 ABF 투자 사이클 수혜 본격화…과거 업사이클 압도-메리...",
-        "summary": "메리츠증권은 22일 기가비스(420770)에 대해 인공지능(AI) 서버용 고성능 반도체 기판(ABF) 투자 확대의 최대... 기가비스는 반도체 기판 검사·수리 장비 전문기업이다. 회사 장비는 금도금 공정 이전 단계에서 불량을...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01974566645484344",
+        "title": "中, 美 희토류·방산·기술기업 무더기 제재…통상 갈등 재현 우려(종합...",
+        "summary": "양국 경제무역 협상이 아직 진행 중인 가운데 이번 사태가 향후 관세 등에 영향을 미칠지도 주목된다.... 경제무역 관계를 무시했으며 국가 안보 개념을 지속 확대하고 국가 권력을 남용하며 중국 기업을 부당하게...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03293126645484344",
         "source": "이데일리",
-        "published": "2026-06-22T08:03:00+09:00",
+        "published": "2026-06-22T13:13:00+09:00",
         "score": 24
       },
       {
-        "title": "경제난 英 “EU 재가입” 여론 확산",
-        "summary": "“무역과 일자리를 위해 유럽연합(EU)에 재가입하자.” 20일 영국 런던 도심에서 EU 재가입을 촉구하는... EU라는 거대 시장을 잃었고, 값싼 노동력을 제공하던 동유럽 이민자의 유입도 끊겼으며, 글로벌 무역 시장에서도...",
-        "link": "https://www.donga.com/news/Inter/article/all/20260622/134153588/2",
-        "source": "동아일보",
-        "published": "2026-06-22T04:32:00+09:00",
+        "title": "코트라, 공공기관 경영평가 'A' 획득",
+        "summary": "대한무역투자진흥공사(KOTRA·코트라)가 재정경제부가 주관한 ‘2025년도 공공기관 경영실적 평가결과’에서... 코트라는 1962년 설립돼 우리나라의 무역과 투자를 지원해 온 준정부기관이다. 최근에는 수출, 투자유치...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03273446645484344",
+        "source": "이데일리",
+        "published": "2026-06-22T13:04:00+09:00",
         "score": 24
       },
       {
-        "title": "사회수석, 민노총 부위원장 출신… 홍보수석은 연합뉴스 사장 지내",
-        "summary": "그 뒤 미국과의 관세 협상이 전개되던 지난해 7월 국가안보실 산하 경제안보비서관으로 자리를 옮겨 국제 무역·통상 관련 업무를 수행했다. 송 차장은 사법연수원 30기로 민주사회를 위한 변호사모임(민변)에서...",
-        "link": "https://www.chosun.com/politics/politics_general/2026/06/22/ZZPHIA2OS5C5VKOZFB4KAOG55U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-06-22T00:48:00+09:00",
+        "title": "“AI 경쟁력은 데이터에서”…영림원소프트랩, EBSC 2026서 미래 전략 제시",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/22/134155322.1.jpg\" vspace=\"10\" />영림원소프트랩이 지난 18일 서울 강남구 인터컨티넨탈 서울 파르나스에서 개최한 ‘EBSC 2026(Enterprise Business Solution Conference 2026)’을 성황리에 마쳤다고 밝혔다.올해 처음 열린 EBSC 2026은 ‘AI 시대, 사라지는 것과 남는 것’을 주제로 진행됐다. 생성형 AI 확산으로 기업 업무 환경이 빠르게 변화하는 가운데 AI 시대 기업 경쟁력의 본질과 엔터프라이즈 소프트웨어의 미래를 논의하기 위해 마련됐다.영림원소프트랩은 AI가 업무 방식을 바꾸고 있지만 기업 경쟁력의 본질은 여전히 데이터와 업무 프로세스, 그리고 이를 연결하는 시스템에 있다고 강조했다. 행사에서는 ERP를 중심으로 다양한 기업용 솔루션과 AI 기술의 활용 사례를 공유했...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260622/134155224/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-06-22T11:50:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "미-이란 고위급 회담 교착에 항공주 약세…대한항공 3%↓",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/22/134155666.1.jpg\" vspace=\"10\" />미국과 이란의 종전 후속 협상이 난항을 겪으며 항공주가 약세를 나타내고 있다.한국거래소에 따르면 22일 오전 10시53분 현재 대한항공은 전 거래일보다 3.04% 하락한 2만7100원을 나타내고 있다. 장중 한때 4%대 하락한 2만6700원까지 내려섰지만 미국과 이란이 1차 고위급 회담을 통해 호르무즈 통항 보장 메커니즘에 합의했다는 소식에 낙폭을 줄였다.티웨이홀딩스와 진에어가 4%대 하락 중인 가운데 AK홀딩스도 3%대 내리고 있다. 한진칼과 제주항공은 2%대 하락 중이다.미국과 이란은 21일(현지시간) 종전 양해각서(MOU) 이행을 위한 첫 후속 협상에 나섰으나 첫날부터 거센 신경전이 이어졌다.도널드 트럼프 미국 대통령은 이날 트루스소셜을 통해 레바논 내 대리세력들의 도발을 중...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260622/134155665/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-06-22T11:10:49+09:00",
         "score": 24
       },
       {
@@ -525,6 +549,14 @@
         "link": "https://www.khan.co.kr/article/202606212040005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-06-21T20:40:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "‘산업특화 계약학과’ 10곳 신설해 대학서 중소기업 AI 인재 키운다",
+        "summary": "중진공, 일반형 학과 3곳 선정도중소벤처기업부와 중소벤처기업진흥공단은 산업현장의 인공지능(AI) 전문 인재를 양성하기 위해 ‘산업특화 AI 계약학과’ 10곳을 신설하고, 일반형 계약학과 3개를 선정했다.산업특화 AI 계약학과 사업은 전문 인력 부족과 재직자 재교육 한계로 AI 도입·활용에 어려움을 겪는 중소기업을 돕고자 올해 처음 기획됐다. 제조, 바이오,···",
+        "link": "https://www.khan.co.kr/article/202606212039025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-06-21T20:39:02+09:00",
         "score": 24
       }
     ]
@@ -584,5 +616,42 @@
       "match_status": "REVIEW",
       "importance_score": 5
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-06-22",
+    "generated_at": "2026-06-22T05:36:29.977386+00:00",
+    "briefing_hash": "91281b586b2483d7",
+    "key_headlines": [
+      {
+        "title": "Seoul Monthly Rent Doubles in Six Months, Hits All-Time High of 1.56 Million Won",
+        "summary": "Monthly rent prices in Seoul have surged 10.6% year-over-year in May, with premium apartments exceeding 3 million won monthly rent increasing by 2 percentage points. Government plans to strengthen property holding and transfer taxes in July, raising concerns about further rental market deterioration."
+      },
+      {
+        "title": "Semiconductor Super Rally Drives Record Exports, But K-Economy Shows Polarization",
+        "summary": "South Korea's exports hit record highs in mid-June led by semiconductors comprising 41% of total 62 billion dollar exports, while main industries like automobiles show stagnation at 2.3% growth. The widening gap between semiconductor and other sectors reflects deepening K-shaped economic polarization."
+      },
+      {
+        "title": "July Property Tax Increase Measures Officially Taking Shape",
+        "summary": "The government plans to strengthen property holding tax and capital gains tax in a tax reform plan to be announced in late July, aiming to block semiconductor-generated liquidity from flowing into real estate. The measures include adjustments to comprehensive property tax rates and fair market value ratios."
+      },
+      {
+        "title": "Jeonse (Lease Deposit) Prices Rise as Renters Struggle with Loan Restrictions",
+        "summary": "Seoul apartment jeonse price increases are outpacing sales price increases for the first time in 17 months, with rental market instability intensifying amid government property tax strengthening announcements. Rising jeonse prices are being passed on to tenants, creating additional hardship."
+      },
+      {
+        "title": "National Apartment Market Shows Simultaneous Rising Trend in Both Sales and Jeonse",
+        "summary": "16 out of 17 provinces nationwide show synchronized increases in both apartment sales and jeonse prices, with Seoul recording the highest weekly jeonse appreciation rate in a year. The broad-based price increases signal a complete sellers' market across the nation."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "Seoul monthly rent prices have doubled in six months, reaching an all-time high of 1.56 million won, with year-over-year increases of 10.6% in May. Semiconductor exports are driving record-breaking economic performance, with semiconductors accounting for 41% of June mid-month exports valued at 62 billion dollars, yet this success masks significant polarization as other major industries like automobiles stagnate with only 2.3% growth. The government is preparing to strengthen property holding and capital gains taxes in July as announced tax reform measures, raising concerns about amplified rental market instability and potential negative impacts on renters. National apartment markets show simultaneous price increases in both sales and jeonse across 16 of 17 provinces, indicating a comprehensive sellers' market with Seoul recording the highest weekly jeonse appreciation in one year.",
+      "Macro & Fiscal Policy": "Fiscal experts are urging the government to allocate record tax revenues toward future investments and establish contingency funds rather than expanding current expenditures, particularly given uncertainties around semiconductor industry sustainability and future economic conditions. Government officials acknowledge heightened fiscal management uncertainty stemming from semiconductor cycle dependency, volatile tax flow forecasts, and potential inflation and interest rate fluctuations. Wage-driven inflation pressures are intensifying with time lags, creating concerns about triple hardship for low-income households including self-employed individuals who report deteriorating economic sentiment despite positive macro indicators. The government is pursuing structural reforms of mandatory expenditures, which are rigidly increasing by law beyond discretionary spending adjustments. China has maintained its base rate at record lows for 13 consecutive months amid internal domestic and export polarization, with May nationwide urban unemployment improving slightly to 5.1% from 5.2%.",
+      "Financial Markets": "Domestic stock investors are optimistic about KOSPI reaching 10,000 this year, with interest rates and exchange rates identified as the most critical variables affecting second-half market performance at 58.7%, followed by crude oil prices and inflation at 12.3%. Despite KOSPI surpassing 9,000, approximately 8% of domestic listed companies are trading as penny stocks below 1,000 won, with 219 penny stock issues identified as of mid-June, prompting Korean stock exchange investor caution notices. Crude oil prices have experienced dramatic decline of approximately 30% over a month (Dubai crude falling from 106 to 73 dollars), though domestic gas prices show typical 2-3 week lag in reflecting global price changes. Key market focus has shifted to corporate earnings and semiconductor company performance, particularly Samsung Electronics and SK Hynix, following resolution of Middle East risks and FOMC events. US Federal Reserve's removal of forward guidance may lead to interest rate increases, creating uncertainty for Korean markets heavily dependent on rate and currency fluctuations.",
+      "Industry & Technology": "Hyundai Mobis is expanding beyond automotive components into robotics and semiconductors, leveraging its design capabilities and mass production experience to develop sensor, controller, and battery components for the robot industry. Manufacturing sector outlooks for July show decline for the first time in three months except for semiconductor and automotive sectors which maintain strength above baseline indicators. LG Energy Solution is showcasing AI data center battery solutions at the ees Europe 2026 exhibition in Munich, featuring integrated battery systems addressing power demands of AI data centers including grid-scale energy storage systems, uninterruptible power supplies, and battery backup units. A Taiwanese brother-sister team betting on automotive display semiconductors have become billionaires after founding HiMax in 2001, achieving 40% global market share through supplies to Ferrari and Porsche and planning smart glasses investments.",
+      "Real Estate": "Nationwide apartment markets display synchronized price increases across 16 of 17 provinces with both sales and jeonse prices rising, with Seoul recording year-high weekly jeonse appreciation rates. Jeonse prices are rising faster than sales prices for the first time in 17 months, indicating rental market destabilization as government property tax increases are anticipated to be passed to tenants. Seoul Mayor Oh Se-hoon's reelection victory signals momentum for reconstruction projects, potentially fast-tracking some urban regeneration initiatives. Samsung C&T has secured construction rights for Gaepou Woosong 4th reconstruction project in Gangnam District, involving 459 households being reconstructed into 1,045 units with total project cost of 814.5 billion won. Government property tax policy discussions continue regarding conditional exemptions for landlords maintaining rental price increases within 5% limits during contract renewals.",
+      "International Economy": "The US Federal Reserve reversed its interest rate outlook from one cut to one rate hike this year at its recent meeting, with new Fed Chair Walsh indicating potential removal of forward guidance tools, prompting expert warnings about rising interest rate expectations. The removal of forward guidance by the Fed may increase uncertainty in global markets and elevate borrowing costs for Korean companies reliant on US financial conditions. K-beauty continues expanding in European markets beyond North America, with Korean cosmetics achieving growing market share in major European countries particularly in skincare and makeup categories. MK Electronics successfully participated in NEPCON China 2026 and NEPCON Thailand 2026, advancing global customer expansion for solder paste business in electronics and semiconductor manufacturing. The Iran conflict has generated significant US Defense Department costs at approximately 61 trillion won, with energy price increases from war generating inflationary pressures affecting Fed monetary policy decisions.",
+      "AI & Economy": "PwC's 2026 AI Jobs Barometer report analyzing over 1 billion job postings across 27 countries indicates AI is catalyzing labor market polarization beyond simple job displacement, widening gaps between specialized positions requiring human expertise and judgment versus automated routine tasks. GrowthResearch predicts a supercycle in power equipment industry as AI data center infrastructure development creates new transmission and distribution network construction demand alongside existing North American aging grid replacement projects. FSN is transforming from advertising agency-focused business model to brand, platform, and AI content-centered company through revenue structure improvements and financial health strengthening, establishing high-value-added business portfolio. Korea Aerospace Industries is launching financial cooperation with NH Bank to strengthen Korean defense industry competitiveness through facility investments, new business expansion, and export growth financing. Defense venture investment reached 19 trillion won year-to-date including drone, autonomous vessel, and battlefield AI technologies amid ongoing geopolitical conflicts.",
+      "Others": "Woori Tahnos Securities launched AI-based personalized investment information service 'AI PB' expanding beyond chatbot and news summary functions to provide customized investment insights through its trading platform. Majority of Israeli respondents (90%) identify Iran as war victor, expressing negative views toward US-Iran ceasefire agreement with 48.2% willing to accept conflict with Trump administration over continued Hezbollah military operations. China imposed wholesale sanctions on US rare earth, defense, and technology companies amid ongoing economic trade negotiations, raising concerns about potential tariff retaliation impacts. KOTRA (Korea Trade-Investment Promotion Agency) achieved 'A' rating in 2025 public institution management evaluation by the Ministry of Finance and Economy, continuing its mission supporting Korean trade and investment since 1962."
+    }
+  }
 }
