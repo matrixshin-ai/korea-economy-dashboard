@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-27T05:34:10.652749",
+  "updated_at": "2026-06-27T09:53:30.974194",
   "indicators": [
     {
       "id": "sp500",
       "name": "S&P 500",
-      "value": "7,354.02",
-      "change": -0.05,
+      "value": "nan",
+      "change": NaN,
       "category": "stock",
       "trend": [
         {
@@ -26,15 +26,15 @@
         },
         {
           "date": "2026-06-26",
-          "value": 7354.02
+          "value": NaN
         }
       ]
     },
     {
       "id": "nasdaq",
       "name": "Nasdaq",
-      "value": "25,297.62",
-      "change": -0.24,
+      "value": "nan",
+      "change": NaN,
       "category": "stock",
       "trend": [
         {
@@ -55,15 +55,15 @@
         },
         {
           "date": "2026-06-26",
-          "value": 25297.62
+          "value": NaN
         }
       ]
     },
     {
       "id": "dow",
       "name": "Dow Jones",
-      "value": "51,876.11",
-      "change": -0.09,
+      "value": "nan",
+      "change": NaN,
       "category": "stock",
       "trend": [
         {
@@ -84,15 +84,15 @@
         },
         {
           "date": "2026-06-26",
-          "value": 51876.11
+          "value": NaN
         }
       ]
     },
     {
       "id": "kospi",
       "name": "KOSPI",
-      "value": "8,411.21",
-      "change": -5.81,
+      "value": "nan",
+      "change": NaN,
       "category": "stock",
       "trend": [
         {
@@ -217,15 +217,15 @@
         },
         {
           "date": "2026-06-26",
-          "value": 8411.21
+          "value": NaN
         }
       ]
     },
     {
       "id": "kosdaq",
       "name": "KOSDAQ",
-      "value": "851.37",
-      "change": -4.1,
+      "value": "nan",
+      "change": NaN,
       "category": "stock",
       "trend": [
         {
@@ -350,7 +350,7 @@
         },
         {
           "date": "2026-06-26",
-          "value": 851.37
+          "value": NaN
         }
       ]
     },
@@ -577,7 +577,7 @@
           "value": 2.5
         },
         {
-          "date": "2026-06-24",
+          "date": "2026-06-25",
           "value": 2.5
         }
       ]
@@ -917,8 +917,8 @@
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "101.36",
-      "change": -0.07,
+      "value": "101.43",
+      "change": -0.18,
       "category": "currency",
       "trend": [
         {
@@ -936,10 +936,6 @@
         {
           "date": "2026-06-25",
           "value": 101.43
-        },
-        {
-          "date": "2026-06-26",
-          "value": 101.36
         }
       ]
     },
