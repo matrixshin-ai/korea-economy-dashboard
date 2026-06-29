@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-29T14:33:06.865100+09:00",
+  "generated_at": "2026-06-29T14:35:06.026113+09:00",
   "date": "2026-06-29",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 738,
-    "total_used": 719,
-    "dropped_quality": 8,
-    "dropped_negative": 11,
+    "total_input": 561,
+    "total_used": 547,
+    "dropped_quality": 7,
+    "dropped_negative": 7,
     "per_category": {
-      "금융시장": 117,
-      "기타": 347,
-      "거시경제·재정": 64,
-      "산업·과학": 72,
-      "AI와 경제": 7,
-      "부동산": 68,
-      "국제경제": 44
+      "기타": 236,
+      "금융시장": 91,
+      "산업·과학": 60,
+      "거시경제·재정": 79,
+      "AI와 경제": 4,
+      "국제경제": 38,
+      "부동산": 39
     }
   },
   "headlines": [
@@ -182,12 +182,12 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "[주간경제일정] 미 노동부 6월 고용보고서 주목…금리 인상 무게 실리나",
-        "summary": "이 추세가 이어진다면 고용 안정 속에 인플레이션을 잡기 위한 연준의 연내 금리 인상 전망에 무게가 실릴 수 있습니다. 5월 실업률은 4.3%로 변동이 없었습니다. 국내에선 6월 소비자물가 상승률이 관건인데요. 지난달...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000319347?division=NAVER",
-        "source": "SBS",
-        "published": "2026-06-29T06:42:00+09:00",
-        "score": 102
+        "title": "바킨 연은 총재 \"물가수준 높아…제약적 통화정책 유지해야\"",
+        "summary": "이달 연방공개시장위원회(FOMC)에서 연준은 기준금리를 동결했지만 최근 들어 연내 금리 인상이 필요할 수 있다는 연준 인사들의 발언이 잇따르고 있다. 바킨 총재는 기업들이 인플레이션 기대를 가격에 선제적으로...",
+        "link": "https://www.mt.co.kr/world/2026/06/29/2026062909463962768",
+        "source": "머니투데이",
+        "published": "2026-06-29T10:46:00+09:00",
+        "score": 130
       },
       {
         "title": "[단독] 초과세수 일부 미래대응기금에 적립…세금펑크 대비한 '재정 댐' 마련 검토",
@@ -195,6 +195,14 @@
         "link": "https://www.mk.co.kr/news/economy/12085082",
         "source": "매일경제 : 경제",
         "published": "2026-06-28T17:46:36+09:00",
+        "score": 100
+      },
+      {
+        "title": "[단독] 지난해 말 ‘시중에 풀린 돈’ GDP 1.53배…확장재정 경고등?",
+        "summary": "지난해 말 우리나라 광의통화(M2)가 명목 국내총생산(GDP)의 1.53배 수준까지 불어난 것으로 확인됐다.... 29일 국민일보 취재를 종합하면 한국은행이 내부적으로 산출한 지난해 4분기 한국의 GDP 대비 M2 비율은 153.2%로...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030032901&code=61141111&cp=nv",
+        "source": "국민일보",
+        "published": "2026-06-29T05:02:00+09:00",
         "score": 100
       },
       {
@@ -206,14 +214,6 @@
         "score": 90
       },
       {
-        "title": "고물가 여전한데…‘폭염·집중 호우’ 인플레이션 우려",
-        "summary": "[앵커] 중동 사태로 촉발된 물가 고공 행진이 넉 달째 이어지고 있습니다. 코 앞으로 다가온 여름철, 이상 고온과 집중 호우 등 계절적 요인으로 물가가 더 오르지는 않을까, 우려마저 나오고 있습니다. 송국회 기자입니다....",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8596632&ref=A",
-        "source": "KBS",
-        "published": "2026-06-28T21:26:00+09:00",
-        "score": 90
-      },
-      {
         "title": "6월 물가도 3%대 예상…OECD 韓 경제보고서 관심 [한동훈의 위클리전망...",
         "summary": "6월 ADP 신규고용자수, 비농업고용자수, 실업률이 잇달아 나온다. 5월 개인소비지출(PCE) 물가가 시장 예상에 부합한 가운데 국제유가도 하락세를 보이면서 미국 내 인플레이션 우려는 다소 진정되고 있다. 이런...",
         "link": "https://www.sedaily.com/article/20060861?ref=naver",
@@ -222,44 +222,36 @@
         "score": 88
       },
       {
-        "title": "[사설] 李 대통령 ‘2차 추경’ 군불…통화∙재정 정책 엇박자 될라",
-        "summary": "반면 소비자물가가 3%대로 치솟고 원·달러 환율이 1500원대에서 고공행진하는 와중에 섣부른 추경은 물가와 환율을 자극해 오히려 민생경제를 악화시킬 우려가 있다. 게다가 물가를 잡기 위해 기준금리 인상을 예고한...",
-        "link": "https://www.sedaily.com/article/20061072?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-29T00:02:00+09:00",
-        "score": 86
-      },
-      {
-        "title": "현대硏 \"고용 없는 성장·내수 부진 등 5대 리스크 대비해야\"",
-        "summary": "이에 따라 올해 실질 국내총생산(GDP) 성장률이 반등해도 취업자 증가율은 작년과 비슷하거나 소폭 낮을 것이라고 보고서는 전망했다. 또 반도체 중심의 수출 호조는 내수 회복으로 이어지는 파급 경로가 제한적이기...",
-        "link": "https://www.yna.co.kr/view/AKR20260626170300002?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-06-28T11:00:00+09:00",
-        "score": 82
-      },
-      {
-        "title": "현대硏 “하반기 3高 장기화…고용 없는 성장 등 5대 리스크 주의”",
-        "summary": "연구원은 올해 실질 국내총생산(GDP) 성장률이 반등해도 취업자 증가율은 지난해와 비슷하거나 소폭 낮아질 수 있다고 전망했다. 수출 호조가 내수 회복으로 충분히 이어지지 못하는 구조도 부담이다. 보고서는 “반도체...",
-        "link": "https://www.sedaily.com/article/20060975?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-28T14:58:00+09:00",
-        "score": 82
-      },
-      {
-        "title": "[다음주 경제일정] 美 6월 고용보고서 관건…美·中 제조업 PMI도 주목",
-        "summary": "비농업부문 취업자수와 실업률이 중요한데, 최근 깜짝 수치가 계속 나오고 있죠. 5월에도 전달 대비 17만 2천... 5월 실업률은 4.3%로 변동이 없었습니다. 국내에선 6월 소비자물가 상승률이 관건인데요. 지난달 3%선을 뚫고...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000319066?division=NAVER",
+        "title": "[주간경제일정] 미 노동부 6월 고용보고서 주목…금리 인상 무게 실리나",
+        "summary": "비농업부문 취업자수와 실업률이 중요한데, 최근 깜짝 수치가 계속 나오고 있죠. 5월에도 전달 대비 17만... 5월 실업률은 4.3%로 변동이 없었습니다. 국내에선 6월 소비자물가 상승률이 관건인데요. 지난달 3% 선을 뚫고...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000319347?division=NAVER",
         "source": "SBS",
-        "published": "2026-06-26T11:25:00+09:00",
+        "published": "2026-06-29T06:42:00+09:00",
         "score": 82
       },
       {
-        "title": "[단독] 지난해 말 ‘시중에 풀린 돈’ GDP 1.53배…확장재정 경고등?",
-        "summary": "실물경제 규모에 비해 시중에 풀린 돈이 150%대를 웃돌면서 환율과 집값 상승 배경을 둘러싼 과잉 유동성... 이 같은 통화량 수치는 최근 환율과 집값을 둘러싼 논쟁과 맞물려 해석될 여지가 있다. 시장 일각에서는...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030032901&code=61141111&cp=nv",
-        "source": "국민일보",
-        "published": "2026-06-29T05:02:00+09:00",
+        "title": "“물가 이미 4% 넘어, 다른 방법 없다”…금리인상 군불 때는 美 연준",
+        "summary": "“현재 인플레이션 수준은 여전히 너무 높다”며 “기준금리나 노동시장, 또는 디스인플레이션을 유발할 다른 요인의 추가적인 영향 없이 물가상승률이 2%로 돌아갈 것이라고 확신하기는 어렵다”고 말했다. 그는...",
+        "link": "https://www.mk.co.kr/article/12085372",
+        "source": "매일경제",
+        "published": "2026-06-29T10:59:00+09:00",
         "score": 80
+      },
+      {
+        "title": "바킨 총재 \"물가 너무 높아…2% 복귀 확신 어렵다\"",
+        "summary": "토마스 바킨 리치먼드 연방준비은행(연은) 총재가 현재 인플레이션(물가상승) 지표가 너무 높다며 통화정책... 페스티벌'에서 \"인플레이션 수준이 너무 높다\"며 이같이 말했다. 지난 26일 발표된 미국의 5월 개인소비지출...",
+        "link": "https://view.asiae.co.kr/article/2026062910593977401",
+        "source": "아시아경제",
+        "published": "2026-06-29T11:12:00+09:00",
+        "score": 80
+      },
+      {
+        "title": "미국산 소고기도 ‘금값’…수입 먹거리, 왜 계속 오를까 [푸드360]",
+        "summary": "고환율과 중동사태 장기화로 물류비가 치솟은 영향이다. 29일 축산물품질평가원 축산물유통정보에... 1500원대 원/달러 환율의 영향도 크다. 한국은행이 발표한 5월 수출입물가지수에 따르면 소고기의...",
+        "link": "https://biz.heraldcorp.com/article/10791152?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-06-29T12:11:00+09:00",
+        "score": 78
       },
       {
         "title": "반도체가 업그레이드한 대한민국 성장률과 경제적 연결망",
@@ -276,16 +268,24 @@
         "source": "파이낸셜뉴스",
         "published": "2026-06-28T18:36:00+09:00",
         "score": 76
+      },
+      {
+        "title": "[시론] 어쩌다 마주친 반도체 복권 파티",
+        "summary": "예상치 못한 반도체 가격 급등과 수출액 증가로 실질 국내총생산(GDP) 성장률, 국가 및 가계부채 비율, 정부 세입 증가율, 경상수지 흑자액 등 거의 모든 거시경제 지표가 춤을 추고 있다. 이들 지표는 마치 우리 경제가...",
+        "link": "https://www.hankyung.com/article/2026062823541",
+        "source": "한국경제",
+        "published": "2026-06-29T00:30:00+09:00",
+        "score": 68
       }
     ],
     "금융시장": [
       {
-        "title": "삼전닉스 50배, 코스피는 150배…韓증시 베팅판 된 코인거래소",
-        "summary": "코스피 상승세에 올라타려는 투자 수요가 커지는 가운데, 국내에서는 허용되기 어려운 고배율 상품이... 28일 금융권에 따르면 바이낸스는 최근 미국 증시에 상장된 코스피 3배 레버리지 상장지수펀드(ETF) ‘KORU’를...",
-        "link": "https://www.sedaily.com/article/20061085?ref=naver",
-        "source": "서울경제",
-        "published": "2026-06-29T06:31:00+09:00",
-        "score": 114
+        "title": "코스피, 역대급 변동성…'순환매 온기' 코스닥, 6~7%대 급등",
+        "summary": "(서울=연합뉴스) 김유아 기자 = 29일 국내 증시에서 코스피가 2거래일째 하락하고 변동성 지수는 사상 최고치를 나타내는 가운데 코스닥이 장중 ...",
+        "link": "https://www.yna.co.kr/view/AKR20260629080400008",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-06-29T12:01:19+09:00",
+        "score": 106
       },
       {
         "title": "“삼전닉스 주가 따라가는 마이크론”…코스피 핵심 시장 부상?",
@@ -296,11 +296,11 @@
         "score": 106
       },
       {
-        "title": "변동금리채권 10% 이상 KOFR로 발행해야…내달부터 행정지도",
-        "summary": "은행이 발행하는 변동금리채권 10% 이상을 KOFR 준거로 발행하도록 지도한다. KOFR 기준 이자율 스왑거래... KOFR는 국채·통안채 담보 익일물 RP(환매조건부채권)로 자금을 조달하는 비용을 뜻한다. 정부는 2021년부터...",
-        "link": "https://www.mt.co.kr/stock/2026/06/29/2026062800074115731",
-        "source": "머니투데이",
-        "published": "2026-06-29T06:00:00+09:00",
+        "title": "코스피, 삼전·닉스 약세에 8200선 주춤...코스닥은 7% 강세[fn오후시황...",
+        "summary": "외국인의 매도세에 눌려 삼성전자와 SK하이닉스 등 대형 반도체주가 약세를 보이면서 코스피가... 29일 한국거래소에 따르면 이날 오후 2시 2분 현재 코스피는 전 거래일 대비 194.39p(-2.31) 내린 8216.82에...",
+        "link": "http://www.fnnews.com/news/202606291405144892",
+        "source": "파이낸셜뉴스",
+        "published": "2026-06-29T14:08:00+09:00",
         "score": 106
       },
       {
@@ -312,65 +312,49 @@
         "score": 106
       },
       {
-        "title": "‘코스피 150배 수익’ 해외상품 등장… “사실상 도박판” 논란",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/28/134195780.1.jpg\" vspace=\"10\" />세계 최대 가상자산 거래소 바이낸스에 코스피가 1% 오르면 수익률이 150%로 뛰는 파생상품이 상장됐다. 이 상품은 물론 삼성전자, SK하이닉스 등의 주가 수익률을 ±20∼50배로 추종하는 파생상품도 선보였다. 최근 코스피, ‘삼전닉스’와 연계된 파생상품이 나온 뒤 약 12조 원이 거래된 것으로 나타났다. 손실 위험이 큰 파생상품에 국내 투자자가 제한 없이 접근할 수 있는 만큼 청산 가능성 등에 각별히 유의해야 한다는 지적이 나온다. 28일 바이낸스에 따르면 이 거래소에선 26일부터 코스피 레버리지 상장지수펀드(ETF)의 수익률을 ±50배 추종하는 파생상품이 거래를 시작했다. 이 상품은 미국 뉴욕 증시에 상장한 코스피 ±3배 레버리지 ETF ‘KORU’를 기초자산으로 한다. 결과적...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260629/134197961/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-29T04:30:00+09:00",
+        "title": "코스피 급락의 나비 효과... 뉴욕·도쿄 주가도 흔들렸다",
+        "summary": "기존에는 ‘FOMC니라미’, ‘엔화니라미’처럼 미국 연방준비제도(Fed)나 환율을 대상으로 주로 쓰이던 표현이었지만, 최근에는 코스피가 새로운 시장 변수로 부상하면서 사용되기 시작했다. 지난달 다이와증권의...",
+        "link": "https://www.chosun.com/economy/money/2026/06/27/THAJ56BUI5DSXCVSAY3NCFHVFE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-06-27T10:23:00+09:00",
         "score": 106
       }
     ],
     "산업·과학": [
       {
-        "title": "[주末머니]배터리주 반등은 언제…美 ESS·유럽 전기차 주목",
-        "summary": "전기차(EV) 수요 둔화에 눌려 있던 2차전지주가 다시 반등할 수 있을까. 증권가에선 반등의 열쇠가 전기차가 아닌 미국 에너지저장장치(ESS) 시장에 있다는 분석이 나온다. 인공지능(AI) 데이터센터 확산으로 전력망 병목이 심해지면서 배터리 기반 ESS가 전기차 부진을 메울 새 성장축으로 떠오르고 있다는 판단이다.전기차 캐즘에도 수요축은 ESS로 이동최근 이안나 유안타증권 연구원은 \"미 ESS 시장은 AI 데이터센터, 송전망 병",
-        "link": "https://view.asiae.co.kr/article/2026062515295753877",
-        "source": "아시아경제 - 증권",
-        "published": "2026-06-27T18:55:00+09:00",
-        "score": 102
+        "title": "“이 주식 오르긴 할까요?”…반도체 불장에 자동차주는 ‘후진’",
+        "summary": "미래에셋증권은 기아가 높은 관세 기저 효과와 우호적인 환율, 하이브리드 판매 확대에 힘입어 2분기를 기점으로 다시 증익 국면에 진입할 것으로 전망하며 목표주가를 24만원으로 상향 조정했다. 자율주행과 로봇...",
+        "link": "https://www.mk.co.kr/article/12085562",
+        "source": "매일경제",
+        "published": "2026-06-29T13:49:00+09:00",
+        "score": 92
       },
       {
-        "title": "“중고 전기차도 괜찮네?”…배터리 수명 확인 안 하면 낭패 [잇슈 머니...",
-        "summary": "쪼그라드는데, 전기차와 하이브리드만 나 홀로 질주하고 있습니다. 한 중고차 데이터 연구소에 따르면 올해 1분기 중고차 실거래는 약 56만 대로, 1년 전보다 3.4% 줄었습니다. 그런데 같은 기간 중고 전기차는 1만 6천여...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8596760&ref=A",
-        "source": "KBS",
-        "published": "2026-06-29T07:01:00+09:00",
+        "title": "중동전쟁 여파 원유값 폭등에…'전기차+ESS' 배터리 3사 2분기 성장 회복...",
+        "summary": "한세경 경북대 전기공학과 교수는 \"전기차 캐즘 완화로 배터리 수요가 개선됐고, 특히 미국 AI 데이터센터 확대에 따른 ESS 수요 폭증과 중국산 제한 조치로 국내 3사가 수혜를 입고 있다\"며 \"미국 인플레이션 감축법...",
+        "link": "https://view.asiae.co.kr/article/2026062908254694780",
+        "source": "아시아경제",
+        "published": "2026-06-29T10:14:00+09:00",
         "score": 90
       },
       {
-        "title": "9000피 뚫을 때 바이오 -23%…'반도체 쏠림' 탓? 이유 따로 있다",
-        "summary": "그는 \"미국의 금리 인상 가능성이 존재하고 반도체 투자 쏠림 현상이 계속되는 가운데 우리 정부의 코스닥 활성화 정책의 구체적인 방향성이 보이지 않는단 점이 아쉽다\"며 \"바이오가 반등하기 위한 환경이 녹록지 않은...",
-        "link": "https://www.mt.co.kr/thebio/2026/06/29/2026062822033296838",
-        "source": "머니투데이",
-        "published": "2026-06-29T08:00:00+09:00",
-        "score": 80
+        "title": "환경공단, 사용후 배터리 혁신기업 육성…최대 1000만원 바우처 지원",
+        "summary": "기후에너지환경부 산하 한국환경공단이 사용후 배터리 자원순환 산업 육성과 혁신기업 지원에 나선다. 한국환경공단은 사용후 배터리 순환이용 산업의 성장과 창업·중소기업의 사업화 역량 강화를 위해 'K-배터리...",
+        "link": "https://view.asiae.co.kr/article/2026062913165811320",
+        "source": "아시아경제",
+        "published": "2026-06-29T13:16:00+09:00",
+        "score": 62
       },
       {
-        "title": "'DC 전력' 규제 푼 美… K배터리 '돌파구'",
-        "summary": "전기차 배터리를 중심으로 구축한 북미 사업기반을 산업용·전력망용 ESS로 넓히겠다는 전략이다. 삼성SDI는 스텔란티스와의 합작법인인 '스타플러스에너지'(SPE)의 인디애나주 공장 생산라인 일부를 지난해...",
-        "link": "https://www.mt.co.kr/industry/2026/06/29/2026062819504788343",
-        "source": "머니투데이",
-        "published": "2026-06-29T04:04:00+09:00",
-        "score": 78
+        "title": "반도체 숨고르기에 2차전지 ‘급반등’…LG엔솔 19%↑·에코프로 23% 급...",
+        "summary": "29일 한국거래소에 따르면 오후 1시 29분 기준 코스피는 전 거래일보다 171.42포인트(2.04%) 내린 8242.20을... 코스피 시장 시가총액 상위 종목인 LG에너지솔루션은 19.16% 오른 39만 5000원에 거래됐다. 이밖에 삼성SDI(9....",
+        "link": "https://www.sedaily.com/article/20061354?ref=naver",
+        "source": "서울경제",
+        "published": "2026-06-29T14:07:00+09:00",
+        "score": 62
       }
     ],
     "부동산": [
-      {
-        "title": "\"창 열면 조만강, 문 열면 아울렛\"…김해 신문 센트럴 아이파크 1379가구 분양[부동산AtoZ]",
-        "summary": "IPARK현대산업개발이 경남 김해시 신문지구에서 1379가구 규모 아파트를 분양한다. IPARK현대산업개발은 26일 김해시 신문동 장유 신문지구 A34-1블록에 들어서는 '김해 신문 센트럴 아이파크' 견본주택을 열고 분양에 나선다고 밝혔다. '김해 신문 센트럴 아이파크'는 지하 2층~지상 최고 25층, 13개 동, 총 1379가구 규모로 조성된다. 전용 면적별로는 84㎡A·B 가 1140가구로 전체의 83%를 차지하고 113㎡ 191가구, 128㎡ 48가구",
-        "link": "https://view.asiae.co.kr/article/2026062609434549805",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-06-26T09:43:45+09:00",
-        "score": 122
-      },
-      {
-        "title": "초강력 규제 비웃은 집값…현 정부 1년 서울 아파트 ‘15% 폭등’",
-        "summary": "이재명 정부 출범 이후 세 차례에 걸친 초강력 부동산 규제 대책이 나왔지만, 서울 아파트값은 지난 1년간 15% 이상 폭등했다. 특히 강남을 겨냥한 규제의 역설로 광진·동작 등 비강남권이 20% 이상 급등한 가운데, 최근 주간 전셋값도 일제히 상승하는 등 과열 양상을 보인다. 27일 부동산114 시세 조사에 따르면 이재명 정부 출범 이후 1년 동안 서울 아파트 가격은 누적으로 15% 이상 급등했다. 전국 단위로는 9% 수준의 상승률",
-        "link": "https://view.asiae.co.kr/article/2026062615092689052",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-06-27T07:00:00+09:00",
-        "score": 110
-      },
       {
         "title": "[부동산 심머니] 재건축 급행열차 탄 최고 49층 은마 … 대치동 랜드마크로",
         "summary": "'대한민국 교육 1번지' 서울 대치동에서 대장주로 꼽히는 은마아파트 재건축 사업이 급물살을 타고 있다. 재건축 7부 능선인 사업시행계획인가를 눈앞에 두고 있다.\n은마의 재건축 시계..",
@@ -386,6 +370,22 @@
         "source": "매일경제 : 부동산",
         "published": "2026-06-28T16:48:47+09:00",
         "score": 100
+      },
+      {
+        "title": "도시형생활주택 6층까지 허용…도심 비아파트 공급 확대",
+        "summary": "최원철 연세대 미래부동산개발 최고위과정 책임교수는 \"최근 공사비와 토지비 상승으로 도시형생활주택 사업성이 악화한 상황에서 층수를 한 층 더 허용하면 연면적이 늘어나 사업성 개선에 도움이 될 수 있다\"며...",
+        "link": "http://www.fnnews.com/news/202606291248194372",
+        "source": "파이낸셜뉴스",
+        "published": "2026-06-29T14:33:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "내달 아파트 3만가구 쏟아진다…전년 동기 대비 30% 늘어",
+        "summary": "29일 부동산 정보업체 직방에 따르면 다음달 전국 아파트 분양 예정 물량은 2만9671가구(총가구 기준)로 집계됐다. 지난해 같은 기간(2만2793가구)과 비교해 30.2%(6878가구) 늘어난 규모다. 일반분양은 같은 기간...",
+        "link": "https://www.hankyung.com/article/202606293474i",
+        "source": "한국경제",
+        "published": "2026-06-29T14:20:00+09:00",
+        "score": 76
       }
     ],
     "국제경제": [
@@ -398,22 +398,6 @@
         "score": 110
       },
       {
-        "title": "美 '트럼프 관세·무역 키맨' 그리어 급부상…러트닉은 '조용'",
-        "summary": "그리어, 취소된 상호관세 대체할 관세 도입 주도·주요 무역협상 관장 한국 등과 무역협상 주도했던 러트닉은 '엡스틴 의혹' 등으로 주춤 조준형 특파원 = 도널드 트럼프 미국 대통령의 관세 및 무역 정책 추진과 협상...",
-        "link": "https://www.yna.co.kr/view/AKR20260629002400071?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-06-29T03:19:00+09:00",
-        "score": 88
-      },
-      {
-        "title": "'美 트럼프 관세·무역 키맨' 그리어 무역대표 급부상",
-        "summary": "도널드 트럼프 미국 대통령의 관세 및 무역 정책 추진과 협상 과정에서 제이미슨 그리어 미 무역대표부(USTR) 대표가 점점 큰 존재감을 드러내고 있다고 월스트리트저널(WSJ)이 현지시간 28일 진단했습니다. 그간 트럼프 2기...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000319322?division=NAVER",
-        "source": "SBS",
-        "published": "2026-06-29T04:20:00+09:00",
-        "score": 88
-      },
-      {
         "title": "나스닥 15개월만에 최대 월간 하락…워시 발언·고용지표 주목[이번주 ...",
         "summary": "다만 지난 17일 연방공개시장위원회(FOMC) 기자회견 때처럼 연준이 인플레이션 목표치인 2%를 달성해야 한다는 점을 강조하며 매파적 성향을 드러낼 수는 있을 것으로 보인다. 오는 7월2일에는 6월 고용지표가 나온다....",
         "link": "https://www.mt.co.kr/world/2026/06/29/2026062722071577744",
@@ -422,31 +406,31 @@
         "score": 80
       },
       {
-        "title": "PCE 인플레, 3년만에 최고…연준 내 \"긍정적 신호\" 평가, 왜?",
-        "summary": "윌리엄스 총재는 뉴욕 연은 총재이기에 연방공개시장위원회(FOMC)에서 항상 투표권이 있다. 굴스비 총재는 올해는 투표권이 없고 내년에 투표권을 받는다. 다음 FOMC는 오는 7월28~29일에 열린다. 시카고상품거래소(CME)...",
-        "link": "https://www.mt.co.kr/world/2026/06/26/2026062608551953609",
-        "source": "머니투데이",
-        "published": "2026-06-26T09:08:00+09:00",
+        "title": "아마존 프라임데이 40조원 신기록…깊어지는 연준 고민",
+        "summary": "워시 의장이 이달 첫 연방공개시장위원회(FOMC)에서 물가 안정을 12차례 강조하며 매파적 기조를 천명한 만큼 소비·물가가 동시에 버티는 현재 상황은 추가 긴장 인상 압박으로 이어질 수 있다는 관측이 나온다.",
+        "link": "https://www.yna.co.kr/view/AKR20260629021800009?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-06-29T09:02:00+09:00",
         "score": 70
+      },
+      {
+        "title": "비트코인 6만달러 회복 실패…매파 연준에 ETF 이탈 지속[코인 모닝콜]",
+        "summary": "(사진=코인마켓캡) 앞서 연준은 지난 18일 연방공개시장위원회(FOMC) 회의에서 기준금리를 동결하면서도 성명에서 통화 완화 기대를 낮추는 메시지를 내놨다. 이후 시장에서는 연준의 긴축 기조가 예상보다 오래...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02141846645486640",
+        "source": "이데일리",
+        "published": "2026-06-29T08:18:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "기술주에서 자금 빼 방어주로…나스닥, 5거래일 연속 하락[월스트리트i...",
+        "summary": "美소비자심리는 개선…FOMC 위원 매파적 발언 계속 미국 소비자심리가 개선되고 장기 기대인플레이션은 큰... 미국 연방공개시장위원회(FOMC) 위원들이 연내 기준금리를 인상할 가능성에 대한 시장의 우려는 계속되고...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01794166645485984",
+        "source": "이데일리",
+        "published": "2026-06-27T06:36:00+09:00",
+        "score": 68
       }
     ],
     "AI와 경제": [
-      {
-        "title": "AI와 일자리, 어떻게 공존할까…한경협 7일 대응전략 세미나 개최",
-        "summary": "AI(인공지능) 확산에 따른 고용 구조 전환에 대응하기 위한 정책 방안 논의가 이뤄진다. 한국경제인협회는 오는 7일 오후 14시 FKI타워 컨퍼런스센터에서 'AI와 일자리의 공존 : 노동시장의 구조적 변화와 대응전략' 세미나를 개최한다고 28일 밝혔다. 이번 세미나는 AI 확산에 따른 고용 구조의 전환 과정에서, 생산성 향상과 고용 불안정이 동시에 심화되는 상황에 대응하고, 고용 안정과 산업 경쟁력을 함께 제고하기 위한 정책",
-        "link": "https://view.asiae.co.kr/article/2026062810055339579",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-06-28T11:00:00+09:00",
-        "score": 56
-      },
-      {
-        "title": "\"전력기기만으론 부족하다\"…HD현대일렉트릭, AI發 배전기기 수요 선점 나서",
-        "summary": "HD현대일렉트릭이 인공지능(AI) 데이터센터 확산에 따른 글로벌 전력 수요 급증에 대응해 생산능력 확대와 자동화에 속도를 내고 있다. 특히 초고압 변압기 등 전력기기 수요를 넘어 전력을 분배·관리하는 배전기기 시장까지 빠르게 성장하면서, 회사는 기존 단품 중심 사업에서 통합 패키지·솔루션 사업으로 영역을 넓힌다는 전략이다.이창호 HD현대일렉트릭 부사장은 지난 25일 충북 청주 배전캠퍼스에서 기자 간담회를 열고 \"",
-        "link": "https://view.asiae.co.kr/article/2026062608405738469",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-06-28T14:00:00+09:00",
-        "score": 40
-      },
       {
         "title": "산업부, 지방성장 주도할 전담부서 신설",
         "summary": "산업통상부가 5극3특·RE100 산업단지 등 광역 단위를 초월해 지역 정책을 담당하는 부서를 신설한다. 하반기 정책 초점이 지역과 제조업 인공지능(AI)화에 맞춰진 만큼 지역 정책..",
@@ -456,27 +440,11 @@
         "score": 32
       },
       {
-        "title": "호주 AI 스타트업 퍼머스, 엔비디아와 인니에 데이터센터 건설",
-        "summary": "호주 인공지능(AI) 인프라 스타트업 퍼머스 테크놀로지가 미국 반도체 기업 엔비디아와 손잡고... 최근 몇 주간 반도체 수요를 둘러싼 우려로 AI 관련 주가는 출렁였다. 하지만 로젠필드 CEO는 이런 시장 분위기가...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02030326645486640",
-        "source": "이데일리",
-        "published": "2026-06-29T07:49:00+09:00",
-        "score": 32
-      },
-      {
-        "title": "HD현대일렉트릭 “자동화율 93%… 배전기기 시장도 잡는다”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/28/134196790.4.jpeg\" vspace=\"10\" />“자동화율이 왜 90%대나 되는지 아시겠죠. 이렇게 자재를 분류하고 옮기는 것부터 로봇들이 합니다.” 25일 충북 청주시 HD현대일렉트릭 청주 배전캠퍼스의 중저압차단기 공장. 저압차단기를 만드는 2층에 들어서니, 작업자 대신 자재를 옮기는 자율주행 물류로봇이 가장 먼저 모습을 보였다. 차단기는 배전 선로 내에 과전류가 흐를 때 차단하는 제품이다. 생산 라인에서는 한 라인당 작업자 2, 3명이 기기를 모니터링하는 모습만 보였다. 수십 m의 컨베이어 벨트 위 여러 로봇과 설비가 초 단위로 조립 등 작업을 하며 내는 기계음이 공장을 가득 채웠다. 6600㎡인 해당 층에는 전체 작업자가 30명에 불과했다. 북미 인공지능(AI) 데이터센터 붐이 만든 전력기기 호황은 이제 그 ‘짝꿍’ 격인...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260628/134197140/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-06-29T00:30:00+09:00",
-        "score": 32
-      },
-      {
-        "title": "앤스로픽·오픈AI 상장 전에 투자해 돈 벌 수 있다고? [주末머니]",
-        "summary": "인공지능(AI) 투자 열풍의 영향력이 기업공개(IPO) 시장으로 옮겨붙었다. 스페이스X에 이어 앤스로픽과 오픈AI까지 상장을 준비하면서 미국 증시가 다시 메가 IPO 사이클에 들어섰다는 분석이 나온다. 최근 장치영 하나증권 연구원은 \"스페이스X, 앤스로픽, 오픈AI의 합산 공모 규모는 약 2000억달러로, 역대 최대였던 2021년 연간 기록을 웃돌 것\"이라며 \"시기별로 주목해야 할 대상과 대응 방식이 달라지는 만큼, 스페이스X IPO",
-        "link": "https://view.asiae.co.kr/article/2026062515114429465",
-        "source": "아시아경제 - 증권",
-        "published": "2026-06-27T15:04:00+09:00",
+        "title": "AI 투자 거품 경고한 BIS…“과거 닷컴 버블과 닮은 꼴”",
+        "summary": "수익률 미흡하면 투자 급감 우려 “투자 붕괴에 경기 침체 올 수도”빅테크 기업들이 인공지능(AI)에 천문학적인 자금을 쏟아붓는 가운데 국제결제은행(BIS)이 “AI 투자 거품이 붕..",
+        "link": "https://www.mk.co.kr/news/world/12085329",
+        "source": "매일경제 : 국제",
+        "published": "2026-06-29T10:34:14+09:00",
         "score": 28
       },
       {
@@ -486,6 +454,14 @@
         "source": "MBN : 경제기사",
         "published": "2026-06-26T19:00:00+09:00",
         "score": 28
+      },
+      {
+        "title": "페르소나AI 등 혁신기업 집결…정부, 2030년까지 ‘신안보 유니콘’ 5개 키운다",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/06/29/134199792.2.jpg\" vspace=\"10\" />CES 혁신상 수상으로 글로벌 무대에서 AI 기술력을 입증한 페르소나AI 등 주목받는 혁신기업들이 한자리에 모였다.  정부는 지난 26일 청와대에서 이재명 대통령의 주관하에 ‘미래 신안보 혁신기업 육성 전략회의’를 개최하고, 인공지능(AI)·드론·사이버보안·우주항공 등 미래 안보 기술을 국가 핵심 성장동력으로 육성하기 위한 청사진을 발표했다. 이번 전략회의에서 정부는 오는 2030년까지 기업가치 1조 원 이상의 신안보 기업 5개와 연매출 1,000억 원 이상 기업 50개를 배출하겠다는 구체적인 목표를 제시했다. 이 대통령은 “글로벌 안보 환경 변화에 대응해 첨단기술 기반의 신안보 산업을 대한민국의 새로운 성장축으로 삼고, 민첩성과 창의성을 갖춘 스타트업과 벤처기업을 집중 지원하겠다...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260629/134199838/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-06-29T10:22:36+09:00",
+        "score": 26
       }
     ],
     "기타": [
@@ -498,35 +474,11 @@
         "score": 24
       },
       {
-        "title": "\"산업화 이전 생겨난 민주주의 … AI로 현대에 맞춰 재설계해야\"",
-        "summary": "미국 독립선언문에 대한 새로운 시각을 제시해 미국 정치학계의 주목을 끌었던 대니엘 앨런 하버드대 교수는 미국이 '슈퍼파워'로 성장할 수 있었던 가장 큰 원동력은 민주주의라고 꼽았다..",
-        "link": "https://www.mk.co.kr/news/world/12085071",
-        "source": "매일경제 : 국제",
-        "published": "2026-06-28T17:45:01+09:00",
-        "score": 24
-      },
-      {
-        "title": "너무 좋아서 위험한 ‘괴물 AI’ 페이블5, 이번주에 돌아온다",
-        "summary": "트럼프 행정부, 차단 15일만에 해제 임박 압도적 성능…“세계 최고 코딩 모델” 미 국방부·국가안보국, 최종 결정 아직미국 트럼프 행정부가 안보 우려로 접속을 전면 차단했던 앤트로..",
-        "link": "https://www.mk.co.kr/news/world/12084850",
-        "source": "매일경제 : 국제",
-        "published": "2026-06-28T11:05:29+09:00",
-        "score": 24
-      },
-      {
-        "title": "4월 중기 생산 넉달 만 감소세 전환…\"중동전쟁 영향\"",
-        "summary": "국내 중소제조업 생산이 넉 달 만에 감소세로 돌아섰다. 중동전쟁 여파로 에너지·원자재 가격이 오르면서 중소기업의 비용 부담이 커지고 있어 경기 불확실성이 확대되고 있다는 분석이다.  중소벤처기업연구원은 29일 발표한 'KOSI 중소기업 동향 6월호'를 통해 올해 4월 중소제조업 생산이 자동차와 고무·플라스틱 등을 중심으로 줄며 전년 동월 대비 0.9% 감소했다고 밝혔다. 지난 1월 이후 이어오던 증가세가 4개월 만에 꺾인",
-        "link": "https://view.asiae.co.kr/article/2026062616112608239",
-        "source": "아시아경제 - 경제",
-        "published": "2026-06-29T08:00:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "美 유엔대사 \"호르무즈 불법통제시 이란의 관련 인프라 계속 무력화\"",
-        "summary": "마이크 왈츠 유엔 주재 미국 대사는 28일(현지시간) 호르무즈 해협에서 상선 공격을 지속하는 이란을 향해 미군이 지속해서 군사 작전을 펼치겠다고 경고했다.  왈츠 대사는 이날 폭스뉴스 인터뷰에서 \"이란 정권이 한순간이라도 국제 해운이나 우리 기지에 대한 공격을 계속하는데 (도널드) 트럼프 대통령이 아무런 대응 없이 지켜보기만 할 거라고 생각한다면 그들은 안타깝게도 착각하는 것\"이라고 말했다. 이어 \"우리는 필요할",
-        "link": "https://view.asiae.co.kr/article/2026062903112874956",
-        "source": "아시아경제 - 국제",
-        "published": "2026-06-29T03:11:28+09:00",
+        "title": "\"과도한 AI 낙관론, 장기 투자 침체 초래할 수도\" BIS의 경고",
+        "summary": "한편 BIS는 이번 보고서에서 AI 투자 열풍뿐 아니라 공공부채 급증과 인플레이션 확산 가능성도 세계 경제의 주요 위험 요인으로 지목했다. 높은 국가부채와 공급 충격이 이어질 경우 인플레이션이 다시 고착화될 수...",
+        "link": "https://www.mt.co.kr/world/2026/06/29/2026062909390536698",
+        "source": "머니투데이",
+        "published": "2026-06-29T10:44:00+09:00",
         "score": 24
       },
       {
@@ -538,35 +490,59 @@
         "score": 24
       },
       {
-        "title": "AI 부채 한계 봉착?…오라클, 25년 만에 최대 주간 낙폭",
-        "summary": "(서울=연합뉴스) 정주호 기자 = 오라클이 인공지능(AI) 데이터센터 투자에 따른 재무 부담과 오픈AI 기업공개(IPO) 연기 악재가 겹치면서 ...",
-        "link": "https://www.yna.co.kr/view/AKR20260629009100009",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-06-29T07:34:37+09:00",
+        "title": "‘박삽니다. 무직자죠’ 셋 중 하나… 조사이래 첫 30% 돌파",
+        "summary": "박사 학위를 취득하고도 직업을 못 구한 비율이 처음으로 30%를 넘어섰다. ‘박사급 양질의 일자리’ 증가 속도가 급증하는 박사 학위 취득자 수를 쫓아가지 못하기 때문으로 분석된다. 인공지능(AI)의 일자리 대체 영향도 일부 있는 것으로 추정된다.<br /><br /><center><img src=\"https://image.kmib.co.kr/online_image/2026/0629/2026062906260899349_1782681968_0030034538.jpg\" /></center><br />또 청년 신규 박사 중 무직자 비율은 역대 처음으로 50%를 넘어섰다. 다른 연령대에서도 ‘백수 박사’의 비중이 늘어났다. 백수 박사 증가는 구직 활동을 멈추고 노동시장에서 이탈한 ‘비경제활동인구’가 크게 늘어난 영향으로 풀이된다.<br /><br /><span>   29일 국가데이터처 국가통계포털에 따르면 ‘2025년 국내 신규 박사 학위 취득자 조사’ 결과, 응답자 1만498명 중 현재 재...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030034538",
+        "source": "국민일보 | 경제",
+        "published": "2026-06-28T21:27:00+00:00",
+        "score": 24
+      },
+      {
+        "title": "[속보]김정관 “15년간 30조원 투자…연구개발 등 전주기 지원”",
+        "summary": "김정관 산업통상부 장관이 29일 청와대 영빈관에서 열린 대한민국 대도약 3대 메가프로젝트 국민보고회에서 산업 대도약 비전과 성장전략, 반도체2.0, 피지컬 AI 관련 발표하고 있다.(사진=뉴스1)",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04073766645486640",
+        "source": "이데일리",
+        "published": "2026-06-29T14:28:00+09:00",
         "score": 22
       },
       {
-        "title": "2000조 메가프로젝트 발표…李 \"설득·요청\" 총리는 \"시장논리\"",
-        "summary": "호남과 충청, 영남 등 비수도권에 반도체 클러스터와 AI 데이터센터 등을 세우는 대규모 투자 계획인데, 총 규모가 2000조원을 넘을 거란 관측이 나옵니다. 특히 호남 반도체 투자에 대해선 야권의 반발이 거센데, 심지어...",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/06/29/2026062990010.html",
-        "source": "조선일보",
-        "published": "2026-06-29T07:47:00+09:00",
+        "title": "[속보]김정관 “충청권에 수요 대응 첨단 패키징 거점 육성”",
+        "summary": "김정관 산업통상부 장관이 29일 청와대 영빈관에서 열린 대한민국 대도약 3대 메가프로젝트 국민보고회에서 산업 대도약 비전과 성장전략, 반도체2.0, 피지컬 AI 관련 발표하고 있다.(사진=뉴스1)",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04063926645486640",
+        "source": "이데일리",
+        "published": "2026-06-29T14:27:00+09:00",
         "score": 22
       },
       {
-        "title": "[게시판] 유네스코 세계유산위원회 기념주화 내달 23일 교부",
-        "summary": "▲ 한국은행은 다음 달 23일 &apos;제48차 유네스코 세계유산위원회&apos; 기념주화 단품과 2종 세트를 추첨 없이 신청 수량만큼 교부한다고 28일 밝혔다...",
-        "link": "https://www.yna.co.kr/view/AKR20260627033100002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-06-28T12:00:09+09:00",
+        "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+        "summary": "한국인터넷진흥원(KISA)은 금융·부동산·의료·법률 등 다양한 분야에서 모바일 전자증명을 활용하는 10대 과제를 공개하고 연내 서비스 확산에 나선다고 29일 밝혔다. 전문보기: https://www.yna.co.kr/view...",
+        "link": "https://www.yna.co.kr/view/AKR20260629100500011?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-06-29T14:30:00+09:00",
         "score": 20
       },
       {
-        "title": "中企 취업자, 지난달 9.8만명 감소…중동전쟁에 제조업 '직격탄'",
-        "summary": "4월 기준 예금은행의 중소기업 대출금리는 전월 대비 0.01%포인트 상승한 4.18%를 기록했다. 중소기업 대출 연체율은 0.09%포인트 오른 0.90%였다. 4월 기준 창업기업은 9만8천216개로 전년 같은 달 대비 3.5% 감소했다....",
-        "link": "https://www.yna.co.kr/view/AKR20260628015200030?input=1195m",
+        "title": "광명시, 편의점·음식점 손잡고 폭염 취약계층 발굴",
+        "summary": "시는 다음 달 10일까지 편의점, 음식점, 부동산중개업소 등 주민들이 자주 찾는 동네 업소 60곳을 대상으로 '폭염 대비 위기가구 집중 발굴 캠페인'을 벌인다. 이들 매장에 스마트폰으로 간편하게 복지 상담을 신청할 수...",
+        "link": "https://www.yna.co.kr/view/AKR20260629100100061?input=1195m",
         "source": "연합뉴스",
-        "published": "2026-06-29T08:00:00+09:00",
+        "published": "2026-06-29T14:17:00+09:00",
+        "score": 20
+      },
+      {
+        "title": "[베네수 강진] \"포퓰리즘에 국가체계 무너져 대응 속수무책\"",
+        "summary": "2013년부터 2021년까지 국내총생산(GDP)은 75% 감소했고, 국민 4명 중 1명이 외국으로 탈출했다. 그러나 정부는 국민적 위기를 극복하는 것보다는 정권 유지를 최우선 목표로 내세웠다. 마두로 정권은 군과 정보기관을 반정부...",
+        "link": "https://www.yna.co.kr/view/AKR20260629035700009?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-06-29T09:31:00+09:00",
+        "score": 20
+      },
+      {
+        "title": "1인가구 40% 서울…세빌스 “코리빙·시니어하우징 투자 확대”",
+        "summary": "서울이 아시아·태평양 지역의 상업용 주거 부동산 핵심 성장시장으로 부상하고 있다는 분석이 나왔다. 1인... 글로벌 부동산 서비스기업 세빌스는 29일 이 같은 내용을 담은 ‘아시아태평양 주거시장 투자 리포트’를...",
+        "link": "https://www.hankyung.com/article/202606293932r",
+        "source": "한국경제",
+        "published": "2026-06-29T13:26:00+09:00",
         "score": 20
       }
     ]
@@ -626,5 +602,42 @@
       "match_status": "OK",
       "importance_score": 5
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-06-29",
+    "generated_at": "2026-06-29T05:36:20.629588+00:00",
+    "briefing_hash": "8e7aa3a5277bafc6",
+    "key_headlines": [
+      {
+        "title": "Korean Battery Industry Shows Signs of Recovery in Q2",
+        "summary": "LG Energy Solution and Samsung SDI are expected to return to profitability in Q2 2026, driven by recovery in electric vehicle sales and surging energy storage system demand from US AI data centers."
+      },
+      {
+        "title": "Over 50% of Young PhDs in Korea Face Unemployment",
+        "summary": "A record 30% of newly minted doctorate holders are unemployed, with 51% of those under 30 unable to find jobs, highlighting a severe mismatch between PhD supply and high-quality job availability."
+      },
+      {
+        "title": "Government Focuses Support on Three Mega Projects, Raising K-Shaped Polarization Concerns",
+        "summary": "The government announced concentrated national support for semiconductors, AI data centers, and physical AI, but industry experts warn this may deepen polarization by neglecting refineries, chemicals, and steel sectors."
+      },
+      {
+        "title": "South Korea Reelected to WCO Policy and Finance Committees",
+        "summary": "South Korea simultaneously reelected as member countries of the World Customs Organization's Policy Commission and Finance Committee, maintaining continuous positions since 2014 and 2012 respectively."
+      },
+      {
+        "title": "KOSPI Faces Historic Volatility as Semiconductor Stocks Dominate Market",
+        "summary": "KOSPI experienced historic volatility with semiconductor stocks like Samsung Electronics and SK Hynix leading declines, while the KOSDAQ surged 6-7% amid semiconductor earnings concerns."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "Korean battery manufacturers LG Energy Solution and Samsung SDI are poised for a recovery in Q2 2026, benefiting from improved electric vehicle sales in Europe and explosive growth in US AI data center energy storage system demands. Regional economic growth in Q1 was heavily driven by semiconductor production, with Chungcheong region expanding 13.8% while Jeollanam-do contracted, highlighting concentration risks in Korea's economy. The government has launched ambitious 3-Mega Projects focusing on semiconductors, AI data centers, and physical AI, but industry concerns are rising about deepening K-shaped polarization as traditional manufacturing sectors like refineries, chemicals, and steel face support shortages.",
+      "Macro & Fiscal Policy": "The US Federal Reserve maintained its benchmark interest rate under new Chair Kevin Wash while signaling a hawkish stance by removing references to future rate cuts and emphasizing the importance of achieving the 2% inflation target. Korea's money supply (M2) surged to 1.53 times nominal GDP at the end of last year, raising concerns about expansionary fiscal policy and bubble risks similar to the dot-com era. The Korean government is considering establishing a future response fund to accumulate excess tax revenues as a fiscal buffer against potential future revenue shortfalls.",
+      "Financial Markets": "KOSPI experienced record volatility with semiconductor heavyweights Samsung Electronics and SK Hynix declining sharply, while KOSDAQ surged 6-7% driven by secondary battery stocks as investor attention shifted from rate-sensitive issues. LG Energy Solution climbed 19.16% and EcoPro surged 23% as semiconductor weakness prompted rotation into battery stocks amid AI infrastructure tailwinds. KOSPI's movements are emerging as a new market variable affecting global markets, with recent declines triggering ripple effects in New York and Tokyo stock exchanges, supplanting traditional indicators like FOMC guidance and currency movements.",
+      "Industry & Technology": "The secondary battery industry is experiencing a recovery driven by easing electric vehicle market conditions and surging energy storage system demand from US AI data centers, with government support through the US Inflation Reduction Act providing significant tailwinds. Hyundai's automotive division remains under pressure compared to the semiconductor boom, though improved base effects, favorable exchange rates, and hybrid vehicle expansion are expected to drive earnings growth from Q2 onwards. The Korea Environment Corporation launched support programs for used battery recycling and circular economy startups, offering vouchers up to 10 million won to foster innovation in battery resource recycling.",
+      "Real Estate": "Eunma Apartment's reconstruction project is accelerating toward securing business implementation plans, positioning it as a major Daechi-dong landmark with proposed heights up to 49 stories. High-end private rental apartments in Gangnam and Yeouido are drawing market attention as they approach lease-to-sale conversion periods, though regulatory headwinds have impacted pricing expectations. Urban micro housing will now be permitted up to 6 floors, an increase from previous regulations, aimed at improving project feasibility as construction and land costs have deteriorated, expected to enhance apartment supply in urban centers.",
+      "International Economy": "The US labor market remains robust, with Amazon reporting record Prime Day sales of 40 trillion won, but the Fed's hawkish tone raises concerns about potential rate hikes despite stable inflation. Fed Chair Wash emphasized price stability 12 times in this month's FOMC meeting, signaling a firm commitment to inflation control that could pressure consumers and markets expecting monetary easing. Bitcoin failed to recover to the 60,000 dollar mark amid the Fed's hawkish stance, leading to continued outflows from cryptocurrency ETFs as markets price in prolonged monetary tightening.",
+      "AI & Economy": "The government announced an ambitious strategy to cultivate five new security unicorns valued at over 1 trillion won each by 2030, focusing on AI, drones, cybersecurity, and aerospace as critical growth drivers, with support for emerging companies like PersonaAI. Hyundai introduced a new Avante with advanced infotainment systems and generative AI, showcasing the industry's shift toward software-defined vehicles and in-cabin experience competition rather than traditional motor show presentations. The International Bank for Settlements warned of an AI investment bubble resembling the dot-com era, cautioning that excessive AI optimism could trigger long-term investment stagnation and trigger recessions if returns disappoint.",
+      "Others": "A record 30% of newly minted doctorates remain unemployed, with 51% of those under 30 unable to secure jobs, reflecting a severe mismatch between PhD production and availability of quality doctoral-level positions in the face of AI disruption. The US Immigration and Customs Enforcement appointed a law enforcement officer as director to strengthen immigration enforcement operations. Construction companies like Lotte Engineering are implementing enhanced heat-wave safety protocols during summer, encouraging workers to exercise their right to stop work during dangerous heat conditions."
+    }
+  }
 }
