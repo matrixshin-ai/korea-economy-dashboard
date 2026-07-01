@@ -508,6 +508,19 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 - 토큰 자체는 정상 (디버그 런에서 /rest/v1/user 200 확인)
 - 수정: 최대 3회 retry, backoff 5→10→20초, 401/429/5xx 모두 대상
 
+### 2026-07-01
+
+**사무실 PC Obsidian vault merge conflict 해결**
+
+- 증상: 사무실 PC Obsidian의 daily/ 폴더가 2026-06-18 이후 업데이트 안 됨
+- 원인: Portfolio.md가 로컬(사무실 PC)과 GitHub 양쪽에서 동시 수정되어 merge conflict 발생
+  → git pull이 막혀 2주간 동기화 중단
+- 해결:
+  - `git checkout --theirs Portfolio.md` (GitHub 버전 채택)
+  - `git add Portfolio.md && git commit`
+  - `git pull` 완료, origin/main 동기화 정상화
+- 교훈: 사무실 PC obsidian-vault는 읽기 전용으로 사용할 것. 파일 수정은 집 PC에서만.
+
 ### 2026-05-20
 
 **Obsidian daily vault 자동 연동 구축**
