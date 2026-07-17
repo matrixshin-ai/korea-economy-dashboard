@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-17T14:35:25.927468+09:00",
+  "generated_at": "2026-07-17T14:37:32.573867+09:00",
   "date": "2026-07-17",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 601,
-    "total_used": 586,
-    "dropped_quality": 10,
-    "dropped_negative": 5,
+    "total_input": 577,
+    "total_used": 562,
+    "dropped_quality": 9,
+    "dropped_negative": 6,
     "per_category": {
-      "금융시장": 89,
-      "기타": 238,
-      "부동산": 56,
+      "기타": 244,
+      "금융시장": 84,
       "거시경제·재정": 94,
-      "국제경제": 60,
-      "산업·과학": 46,
-      "AI와 경제": 3
+      "부동산": 39,
+      "산업·과학": 36,
+      "국제경제": 57,
+      "AI와 경제": 8
     }
   },
   "headlines": [
@@ -242,14 +242,6 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "申 \"물가 안정때까지 인상 기조\"… 연내 3%대 기준금리 예고",
-        "summary": "신 총재는 \"한국은 성장세가 상당히 강하다\"며 \"수출, 투자, 소비 등 국내총생산(GDP)의 모든 구성 요소가 강한 흐름을 보이고 있다\"고 평가했다. 원화 약세가 장기간 이어지고 있다는 점도 통화정책의 주요 변수로...",
-        "link": "https://www.mk.co.kr/article/12100498",
-        "source": "매일경제",
-        "published": "2026-07-16T17:35:00+09:00",
-        "score": 142
-      },
-      {
         "title": "금통위 “향후 통화정책, 금리인상 기조 이어나갈 필요”",
         "summary": "한국은행 금융통화위원회가 16일 기준금리를 2.50%에서 2.75%로 0.25%포인트로 인상한 가운데, 향후 통화정책은 금리인상 기조를 이어나갈 필요가 있다고 밝혔다. 이날 한은은..",
         "link": "https://www.mk.co.kr/news/economy/12100049",
@@ -266,12 +258,28 @@
         "score": 132
       },
       {
+        "title": "42개월 만에 기준금리 인상…'빚투·영끌' 부담↑",
+        "summary": "[신현송/한국은행 총재 : GDP의 모든 구성요소가 상당히 강세를 보이고 있습니다. (기존 올해 성장률 전망치) 2.6%, 너무 낮습니다. 8월 통방(통화정책방향 회의) 때는 상당폭 이렇게 좀 더 상향 조정이 돼서….] 한은은 이번...",
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008662050&plink=ORI&cooper=NAVER",
+        "source": "SBS",
+        "published": "2026-07-17T06:30:00+09:00",
+        "score": 130
+      },
+      {
         "title": "신현송 \"8월 금리 인상도 열어둬…성장률 전망 상당폭 상향\"",
         "summary": "신현송 한국은행 총재는 오늘(16일) 8월 기준금리 인상 여부와 관련해 \"모든 가능성을 열어두고 통화정책을 하겠다\"고 말했습니다.신 총재는 이날 한은 금융통화위원회가 기준금리를 연 2.50%에서 2.75%로 인상한 뒤 기자간담회에서 \"앞으로도 나올 데이터가 중요한 게 많이 있어서 한쪽으로 단언할 수는 없다\"며 이같이 말했습니다.그는 \"통화 정책의 경로는 사전에 결정해서 움직이는 것이 아니다\"라면서 \"앞으로 몇 차례 '살아있는 회의'(live meeting)를 통해 여러 지표에 무게를 두고 정책을 펴겠다\"고 말했습니다.금리 인상 기조를 언제까지 유지할 거냐는 질문에는 \"물가 상승률이 목표 수준까지 안정적으로 수렴한다는 확..",
         "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5206347",
         "source": "MBN : 경제기사",
         "published": "2026-07-16T13:40:00+09:00",
         "score": 126
+      },
+      {
+        "title": "申 \"물가 안정때까지 인상 기조\"… 연내 3%대 기준금리 예고",
+        "summary": "한국은행이 3년6개월 만에 기준금리 인상 카드를 전격 꺼낸 주된 이유는 반도체 경기 호조로 성장세가 예상보다 강한 흐름을 보이는 가운데 물가 상승률이 상당 기간 목표 수준을 웃돌고..",
+        "link": "https://www.mk.co.kr/news/economy/12100498",
+        "source": "매일경제 : 경제",
+        "published": "2026-07-16T17:34:50+09:00",
+        "score": 122
       },
       {
         "title": "“취약 대출자 부담 재정-금융정책으로 덜어줘야”",
@@ -290,38 +298,6 @@
         "score": 110
       },
       {
-        "title": "씨티 “8월 연속 인상 전망…올해 GDP 3.7%로 상향 조정”",
-        "summary": "올해 연간 국내총생산(GDP) 상승률은 종전 3.5%에서 3.7%로 상향 조정했다. 사진=한국은행 김진욱 씨티 이코노미스트는 이날 리포트를 통해 “다음달 금통위 회의에서 강력한 GDP 상승세와 수요 측면 인플레이션 압력을...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05106966645515176",
-        "source": "이데일리",
-        "published": "2026-07-16T17:27:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "기준금리 年 2.5%→2.75%…\"인상 기조 지속\"",
-        "summary": "한은이 긴축으로 돌아선 건 무엇보다 인플레이션 우려 때문이다. 소비자물가는 지난 2월 2.0%에서 6월 3.2%로 올랐다. 한은은 이런 고물가 기조가 상당 기간 지속될 것으로 보고 있다. 미국·이란 전쟁에 따른 국제 유가...",
-        "link": "https://www.hankyung.com/article/2026071602681",
-        "source": "한국경제",
-        "published": "2026-07-16T17:50:00+09:00",
-        "score": 106
-      },
-      {
-        "title": "42개월 만에 기준금리 인상…'빚투·영끌' 부담↑",
-        "summary": "한국은행이 기준 금리를 0.25%포인트 올리면서 금리 인상 사이클로 접어들었다는 강력한 신호를 보냈습니다. 성장률과 물가가 당초 예상보다 높게 나타나고 있어서 올릴 여력도 있고 올려야 하는 상황이라는 겁니다....",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008662050&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-07-17T06:30:00+09:00",
-        "score": 106
-      },
-      {
-        "title": "한국은행, 3년 6개월 만에 기준금리 인상…신현송 \"인상 기조 이어갈 것...",
-        "summary": "2023년 1월에 올린 지 3년 6개월 만인데, 환율 안정에는 도움이 될 것으로 보이지만, 정부가 돈을 푸는 적극... 외국인 자금 이탈로 불안했던 환율에는 그나마 도움이 될 거란 전망입니다. 문제는 나라 곳간을 풀고 있는...",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/16/2026071690286.html",
-        "source": "조선일보",
-        "published": "2026-07-16T21:05:00+09:00",
-        "score": 100
-      },
-      {
         "title": "내수 침체에 빛바랜 수출 호황…中 2분기 성장률 3년만에 최저",
         "summary": "6월 도시 지역 조사 실업률은 5.0%로 전월 대비 0.1%포인트 하락했다. 다만 실제 체감 실업률은 공식 지표보다 훨씬 높을 수 있다는 지적이 나온다. 리다오쿠이 칭화대 중국경제사상·실천연구원장은 장기간 구직...",
         "link": "https://www.sedaily.com/article/20068275?ref=naver",
@@ -336,6 +312,30 @@
         "source": "동아일보 | 경제 뉴스",
         "published": "2026-07-17T01:40:00+09:00",
         "score": 96
+      },
+      {
+        "title": "年 7%대 주담대 더 오른다… 물가안정 기대속 영끌족 비상",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/16/134315663.1.jpg\" vspace=\"10\" />16일 한국은행 금융통화위원회가 3년 6개월 만에 기준금리를 올린 것은 고물가를 잡기 위한 조치다. 반도체 초호황으로 경기 회복세가 뚜렷해지면서 금리를 올려도 경제가 견딜 수 있다고 판단한 것이다. 향후 추가 금리 인상까지 예고되면서 고물가와 고환율이 다소나마 안정될 계기를 찾을지 주목된다.  다만 이미 최대 연 7%대까지 높아진 주택담보대출 금리가 연 8%대로 오를 것으로 보이면서 대출을 받은 개인의 상환 부담은 한층 커질 것으로 전망된다. 급등한 부동산 시장과 증시에 뛰어든 ‘영끌’(영혼까지 끌어모아 대출)족들은 비상이 걸렸다.● 물가·고환율 안정 기대물가 안정은 하반기 한국 경제에서 가장 시급한 과제로 꼽힌다. 5월 소비자 물가는 1년 전보다 3.1%, 6월엔 3.2% 상승해...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260716/134315507/2",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-07-17T01:40:00+09:00",
+        "score": 92
+      },
+      {
+        "title": "\"韓 핵심 지표는 반도체 가격…물가·GDP 본 뒤 추가인상 결정\"",
+        "summary": "가파른 성장세가 지속되면서 국내총생산(GDP) 갭(실질 GDP와 잠재 GDP의 차이)이 플러스(+)로 전환하는 시기도 앞당겨질 것이라고 한은은 진단했다. 신 총재는 “5월 GDP 산출 갭이 내년 초 플러스로 전환될 것이라고 했는데...",
+        "link": "https://www.hankyung.com/article/2026071602611",
+        "source": "한국경제",
+        "published": "2026-07-16T17:54:00+09:00",
+        "score": 90
+      },
+      {
+        "title": "한은, 금리 인상…‘긴축’ 선회",
+        "summary": "기준금리 ‘2.5 → 2.75%’“경기 반등 속 물가 불안 지속”8월 인상에도 “모든 가능성”미국과 금리차 ‘1%P’로 줄어여덟번 연속 ‘동결’ 끝낸 신현송 한국은행 금융통화위원회가 16일 기준금리를 연 2.50%에서 연 2.75%로 인상했다. 3년6개월 만의 긴축 전환이다. 신현송 한국은행 총재가 서울 중구 한국은행에서 통화정책 방향을 설명하고 있다. 문···",
+        "link": "https://www.khan.co.kr/article/202607162146005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-07-16T21:46:00+09:00",
+        "score": 88
       }
     ],
     "금융시장": [
@@ -364,31 +364,23 @@
         "score": 102
       },
       {
+        "title": "반도체 흔들리자 코스피 롤러코스터…레버리지 ETF가 키웠다",
+        "summary": "■ 긴축 전환: 한국은행이 기준금리를 연 2.5%에서 2.75%로 올리며 3년 6개월 만에 긴축 국면으로 돌아섰다.... 한은, 3년 6개월 만에 금리인상…연 2.75%로 - 핵심 요약: 한국은행이 16일 금융통화위원회에서 기준금리를...",
+        "link": "https://www.sedaily.com/article/20068825?ref=naver",
+        "source": "서울경제",
+        "published": "2026-07-17T10:01:00+09:00",
+        "score": 100
+      },
+      {
         "title": "“홀짝홀짝 증시에 없던 병 생길 판”…7천피 붕괴이유 있다는데",
         "summary": "코스피 6.3% 급락에 7000선 반납 모건스탠리 “데이터센터 건설 잇단 취소” AI인프라투자 회의론에 삼전닉스 주가 뚝 기준금리 인상에 외국인·기관 매물폭탄코스피가 한국은행의 기..",
         "link": "https://www.mk.co.kr/news/stock/12100641",
         "source": "매일경제 : 경제",
         "published": "2026-07-16T19:16:16+09:00",
         "score": 96
-      },
-      {
-        "title": "[ETF 따라잡기] 롤러코스피에 지친 개미들 변동성 시대 대피처는?",
-        "summary": "이달 FOMC와 반도체 기업들의 실적 발표를 앞두고 있습니다. 하반기 증시의 중요한 분기점이 될 수 있다는 전망도 나오는데요. 투자자들은 어떤 변수에 주목해야 하고, 하반기에는 어떤 전략으로 대응해야 할까요? - 물가...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000322952?division=NAVER",
-        "source": "SBS",
-        "published": "2026-07-16T14:24:00+09:00",
-        "score": 96
       }
     ],
     "산업·과학": [
-      {
-        "title": "[과기원NOW] KAIST·삼성전자, 반도체 인재에 14나노 첨단 공정 지원 外",
-        "summary": "■ 포스텍은 조창신 화학공학과·배터리공학과 교수 연구팀이 전기차 배터리 핵심 소재인 고니켈 양극재 구조를 안정시키는 기술을 개발하고 연구 결과를 국제학술지 '에너지 스토리지 머티리얼즈’에 게재했다고...",
-        "link": "https://www.dongascience.com/news/view/78993",
-        "source": "동아일보",
-        "published": "2026-07-16T18:23:00+09:00",
-        "score": 98
-      },
       {
         "title": "피지컬 AI 심장 될 ‘꿈의 배터리’",
         "summary": "대부분의 휴머노이드는 배터리를 흉부에 탑재하는데 공간 제약상 전기차만큼 충분한 용량을 확보하기 어렵다. 순수전기차(BEV)의 평균적인 배터리 용량이 50~100킬로와트시(kWh)인 데 반해 휴머노이드의 대당 탑재량은 2...",
@@ -398,64 +390,72 @@
         "score": 78
       },
       {
-        "title": "AI 투자 회의론에 반도체주 '와르르'…실적 훈풍도 뉴욕증시 못 살렸다...",
-        "summary": "에너지 가격이 다시 오를 경우 인플레이션 압력이 재차 높아져 연방준비제도(Fed)의 추가 금리 인상... 추가 금리 인상 필요성을 시사했다. 매일 아침, 월가의 흐름을 한눈에. [월스트리트in] 구독좋아요는 선택 아닌...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01925366645515504",
-        "source": "이데일리",
-        "published": "2026-07-17T05:44:00+09:00",
-        "score": 62
+        "title": "\"전고체 배터리, 당분간 수익성 기대하기 어려워\"[주末머니]",
+        "summary": "전기차(EV)에 탑재되기 시작했으나 제조사들이 과거에 목표로 삼았던 지난해부터 올해까지 차량용 전고체 배터리 본격 양산은 대체로 연기되거나 시범 생산 단계에 머물러 있다. 향후 전고체 배터리 시장은 전기차용...",
+        "link": "https://view.asiae.co.kr/article/2026071610445991013",
+        "source": "아시아경제",
+        "published": "2026-07-17T11:16:00+09:00",
+        "score": 66
       },
       {
         "title": "[속보]AI 투자 회의론에 반도체주 '와르르'…나스닥 1.5% 급락",
-        "summary": "이에 따라 에너지 가격 상승이 인플레이션을 다시 자극해 연방준비제도(Fed)가 연내 금리를 추가 인상할 수... 추가 금리 인상 필요성을 시사했다. 소비·고용은 여전히 견조…실적 시즌은 순항 다만 발표된 경제지표는...",
+        "summary": "이에 따라 에너지 가격 상승이 인플레이션을 다시 자극해 연방준비제도(Fed)가 연내 금리를 추가 인상할 수 있다는 우려도 커졌다. 이날 공개 발언에 나선 제프 슈미드 캔자스시티 연방준비은행 총재는 “인플레이션...",
         "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01784326645515504",
         "source": "이데일리",
         "published": "2026-07-17T05:24:00+09:00",
         "score": 62
+      },
+      {
+        "title": "190㎝ 로봇에 노동자 충격…현대차 ‘아틀라스 반란’ 시작됐다",
+        "summary": "중국 샤오미도 올해 초 전기차 공장에서 시험 가동에 들어갔다. BMW는 지난달 독일에서 ‘아이온’ 로봇을 처음 시험했다. 미쓰비시자동차는 지난주 내년 초 양산 계획을 발표했다. 제너럴모터스(GM)는 최근 디트로이트...",
+        "link": "https://www.sedaily.com/article/20068673?ref=naver",
+        "source": "서울경제",
+        "published": "2026-07-17T05:55:00+09:00",
+        "score": 58
       }
     ],
     "부동산": [
       {
-        "title": "분양가 치솟는데 주담대 한도 누르자 … 청약, 60㎡ 이하로 몰렸다",
-        "summary": "서울 민간 아파트 분양가가 치솟자 국민평형의 기준이 전용면적 84㎡에서 전용 59㎡로 옮겨가고 있다. 단순히 면적이 클수록 가격이 비싸지는 것뿐 아니라 집값이 25억원을 초과하면 ..",
-        "link": "https://www.mk.co.kr/news/realestate/12099510",
+        "title": "“집값 통계가 시장 흔든다?”…국회서 ‘아파트 가격 주간 발표 폐지’ 공론화",
+        "summary": "한국부동산원이 매주 발표하는 전국 아파트 매매·전세가격 통계를 둘러싼 폐지 논란이 다시 수면 위로 떠올랐다. 범여권과 시민단체, 일부 부동산 전문가들은 “주간 통계가 시장 현실보다..",
+        "link": "https://www.mk.co.kr/news/realestate/12100879",
         "source": "매일경제 : 부동산",
-        "published": "2026-07-15T17:54:11+09:00",
-        "score": 156
+        "published": "2026-07-17T07:59:30+09:00",
+        "score": 130
       },
       {
-        "title": "84점 청약 만점통장 어디서 등장? 아파트 분양 전수 분석",
-        "summary": "한국부동산원이 운영하는 청약홈에는 청약 단지 경쟁률과 최고·최저·평균 점수가 공개됩니다. 하지만... 부동산감독원 출범 예정 최근 이렇게 청약 경쟁이 심해지면서 부정 청약이라는 독버섯도 자라나고 있습니다....",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613302&ref=A",
-        "source": "KBS",
-        "published": "2026-07-17T07:00:00+09:00",
-        "score": 140
+        "title": "1~5월 비아파트 착공 전년 동기 대비 5.5% 감소… 전월세 가격 상승에 주거비 부담 커져",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/17/134316850.1.jpg\" vspace=\"10\" />비(非)아파트 공급이 감소하는 가운데 연립·다세대 주택(빌라) 전세·월세 가격이 동반 상승하면서 자금이 부족한 청년층 등의 주거 부담이 커지고 있다. 17일 국토교통부에 따르면 2026년 1∼5월 비아파트 착공은 1만2358채로 전년 동기(1만3075채)보다 5.5% 감소했다. 5월 한 달 기준 비아파트 착공도 2655채에 그쳐 전월(3140채)보다 15.4% 줄어드는 등 공급 회복이 지연되고 있다. 비아파트 착공은 전세사기 여파 이후 공급이 급격하게 줄어왔다. 비아파트 공급이 줄어들다보니 전월세 가격은 동반 상승하는 추세다. 같은 기간 한국부동산원의 월간 주택 가격 동향조사에서 연립주택 전세가격 상승률은 0.72%, 월세는 1.07% 올랐다. 특히 서울의 경우 전세 2.65%, ...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260717/134316836/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-07-17T14:20:00+09:00",
+        "score": 121
       },
       {
-        "title": "전세·매매 동반 상승…여름 비수기에도 꺾이지 않는 부동산",
-        "summary": "무더위와 휴가로 부동산 비수기로 불리는 여름철에 가격이 더 오른 겁니다. 시장에선 다주택자 급매물이... 한국부동산원의 주간 아파트 가격 동향으로 봐도 서울 아파트 매매, 전세가는 높은 상승률을 이어갔습니다....",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613313&ref=A",
-        "source": "KBS",
-        "published": "2026-07-17T07:10:00+09:00",
-        "score": 132
+        "title": "“집값 통계로 시장 불안?”…‘호가 반영’ 주간 통계 폐지론 확산",
+        "summary": "실거래 가뭄 땐 호가·인근 시세 종합 잦은 주간 공표로 대중 심리 자극 우려 부동산원장 “통계 유의미성 문제 인지” 한국부동산원이 매주 발표하는 전국 아파트 매매·전세가격 통계를 폐지해야 한다는 의견에 불이 붙고...",
+        "link": "https://www.mk.co.kr/article/12100938",
+        "source": "매일경제",
+        "published": "2026-07-17T11:37:00+09:00",
+        "score": 106
       },
       {
-        "title": "“비아파트 공급으로 전월세난 해결…산단 조성 속도”",
-        "summary": "[김윤덕/국토교통부 장관 : \"비아파트 문제라든가 또 도시형 생활주택 이런 식의 어떤 접근을 통해서 보다 더 많은 공급을 좀 빠르게 진행할 수 있도록 노력을….\"] 부동산 문제에 대한 근본적인 대책으로는 '5극3특' 전략을...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613314&ref=A",
-        "source": "KBS",
-        "published": "2026-07-17T07:12:00+09:00",
-        "score": 101
+        "title": "평균 월세 100만원 육박…서울 아파트값 뛰니 오피스텔 가격도 강세",
+        "summary": "지난 2분기 전국 오피스텔 매매가격 직전 분기比 0.30% 하락 반면, 전세·월세가격 각각 0.09%·0.71%↑ 올 상반기 100만원 이상 월세거래 5660건 전기(5115건) ..",
+        "link": "https://www.mk.co.kr/news/economy/12100893",
+        "source": "매일경제 : 부동산",
+        "published": "2026-07-17T09:13:42+09:00",
+        "score": 100
       }
     ],
     "국제경제": [
       {
-        "title": "트럼프, 브라질에 25% 관세 강행…룰라 \"WTO 제소\"",
-        "summary": "도널드 트럼프 미국 행정부가 브라질산 대부분의 수입품에 25%의 추가 관세를 부과하기로 하면서 미·브라질 무역전쟁이 다시 격화되고 있다. 미국은 브라질의 온라인 검열과 지식재산권 보호 미흡 등을 '불공정 무역...",
-        "link": "http://www.fnnews.com/news/202607162229232473",
-        "source": "파이낸셜뉴스",
-        "published": "2026-07-16T22:31:00+09:00",
-        "score": 108
+        "title": "트럼프 관세에 브라질 대선판 변수…오히려 좌파에 호재",
+        "summary": "이번 조치로 타격을 입게 될 브라질의 산업·농업 수출 규모는 110억 달러(16조3천억 원)에 이른다. 다만 커피, 소고기, 그리고 일부 에탄올 제품은 이번 관세 부과 대상에서 제외된다. USTR은 \"브라질의 정책이 불합리하고...",
+        "link": "https://www.yna.co.kr/view/AKR20260717034700009?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-07-17T13:34:00+09:00",
+        "score": 80
       },
       {
         "title": "[트럼프 스톡커] 집안 싸움 부를 ‘美물가 정점론’, 믿을 수 있나",
@@ -482,15 +482,39 @@
         "score": 80
       },
       {
-        "title": "한미 금리차 ‘1%P’로 축소…변수는 美연준",
-        "summary": "이달 열리는 미국 FOMC(연방공개시장위원회)에서는 금리 동결 가능성이 높게 거론되는 가운데 이날 향후... 미국 FOMC는 오는 28~29일(현지시간) 통화정책 회의를 열고 기준금리를 결정할 예정이다. 이번 회의에서 바로...",
-        "link": "https://biz.heraldcorp.com/article/10811070?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-07-16T11:48:00+09:00",
-        "score": 78
+        "title": "트럼프 대국민 연설...\"중국, 2018년 2020년 미국 선거 영향 미치려 노력...",
+        "summary": "그렇게 될 경우에는 미국의 인프라도 확충될 것이고 고용지표도 개선될 것이다. 이런 식으로 해서 호르무즈 해협, 이란에서 군사작전 하는 것이 미국을 더 위대하게 만들 것이다. 경제적으로도 미국에 도움이 되는 것이다...",
+        "link": "https://www.ytn.co.kr/_ln/0104_202607171042233299",
+        "source": "YTN",
+        "published": "2026-07-17T10:42:00+09:00",
+        "score": 80
       }
     ],
     "AI와 경제": [
+      {
+        "title": "최태원·권석준 AI대담 “한국 AI, 제품 아닌 ‘지능’ 수출로 패권경쟁 뚫어야”",
+        "summary": "최태원 대한상의 회장(가운데)과 권석준 성균관대학교 교수(오른쪽), 이재욱 서울대학교 AI연구원장(왼쪽)이 17일 대한상공회의소 제주포럼에서 ‘한국경제의 AI 성장을 위한 아젠다’라는 주제로 대담을 하고 있다. 대한상공회의소 제공최태원 SK그룹 회장 겸 대한상공회의소 회장과 인공지능(AI) 반도체 전문가인 권석준 성균관대학교 화학공학·반도체융합공학부 교수가···",
+        "link": "https://www.khan.co.kr/article/202607171116001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-07-17T11:16:00+09:00",
+        "score": 42
+      },
+      {
+        "title": "“AI가 리더 업무도 대체…매출 만드는 일부터 AX해야”",
+        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0717/2026071711345494387_1784255694_0030124080.jpg\" /></center><br /><br />박민준 뤼튼테크놀로지스 대표는 “AI가 리더의 업무를 하는 시기가 1년 안에 올 것”이라며 “반복 업무를 자동화하는 데 그치지 말고 실제 매출을 만들고 비용을 줄이는 핵심 부분부터 AI 전환(AX)을 해야 한다”고 말했다.<br /><br />박 대표는 17일 제주도 서귀포시 롯데호텔에서 열린 ‘2026 한경협 경영자 제주하계포럼’에서 기업의 AI 도입 전략과 내부 혁신 사례를 소개했다.<br /><br />뤼튼은 글로벌 생성형 AI 모델을 한 플랫폼에서 사용할 수 있도록 서비스를 제공하는 AI 스타트업이다. 박 대표는 “뤼튼은 챗GPT, 제미나이, 클로드 같은 글로벌 AI 기업들과 경쟁해야 한다”며 “더 적은 인원과 자본으로 살아남기 위해 A...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030124080",
+        "source": "국민일보 | 경제",
+        "published": "2026-07-17T03:55:01+00:00",
+        "score": 36
+      },
+      {
+        "title": "中 병원, 환자 데이터 판매 본격화…AI 산업 '디지털 금광' 되나 [차이나...",
+        "summary": "하지만 중국 정부가 데이터의 경제적 가치를 산업 성장에 활용하라고 독려하면서 병원에 축적된 임상정보가... AI 학습용 환자정보 거래 확산…새 수익원 17일 중국 경제매체 차이신에 따르면 중국 전역에서 병원이 보유한...",
+        "link": "https://www.hankyung.com/article/202607170994i",
+        "source": "한국경제",
+        "published": "2026-07-17T14:24:00+09:00",
+        "score": 32
+      },
       {
         "title": "“소양강변에 AI 데이터센터 유치… 풍부한 물, 수도권 접근성 갖춰”",
         "summary": "육 시장은 기획재정부 경제정책국장, 국무총리실 국무차장 등을 지낸 관료 출신이다. 지난 6·3 춘천시장 선거에서 재선에 성공했다. -왜 춘천인가. “AI 기업은 전력과 냉각수, 부지, 수도권 접근성 등을 종합적으로...",
@@ -500,19 +524,27 @@
         "score": 32
       },
       {
-        "title": "AI가 얼음물 챙기고, 5분마다 더위 잰다… 36도 폭염에 산업현장 총력전",
-        "summary": "SK인천석유화학 협력사 현장에는 인천시와 고용노동부 지원으로 전문 안전 감시원인 ‘세이프티 키맨’ 6명이 투입됐고, 근로자들은 혹서기 물품과 건강검진을 지원받는다. 건설 현장에서는 5분마다 온도를 체크한다....",
-        "link": "https://biz.chosun.com/industry/company/2026/07/17/CMKA765T55FFLNBGEGLF5Q5BHI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-07-17T06:00:00+09:00",
+        "title": "궤도 “AI 시대 경쟁력은 ‘검증’과 ‘본질’…판단은 인간의 몫”",
+        "summary": "궤도는 이날 롯데호텔 제주에서 열린 한국경제인협회 하계포럼 강연에서 \"AI가 만드는 찌꺼기 같은 정보인 워크슬롭(Workslop)이 많이 나온다\"면서 \"조사 결과 이를 정리하는 데 1인당 월 186달러(약 27만원)의 기회비용이...",
+        "link": "https://view.asiae.co.kr/article/2026071714081644990",
+        "source": "아시아경제",
+        "published": "2026-07-17T14:08:00+09:00",
         "score": 28
       },
       {
-        "title": "전국민 무료 이용 ‘모두의 AI’ 12월 선보여",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/16/134312558.1.jpg\" vspace=\"10\" />정부가 연말까지 누구나 무료로 이용할 수 있는 한국형 인공지능(AI) 챗봇 ‘모두의 AI’를 선보인다. AI로 국가 난제를 해결하는 ‘K-문샷’ 프로젝트의 분야별 추진 일정도 구체화했다. 과학기술정보통신부는 16일 ‘AI·과학기술로 함께 행복한 대체 불가 대한민국’을 목표로 한 2026년 하반기(7∼12월) 업무계획을 이재명 대통령에게 보고했다. 구체적으로 △3대 메가 프로젝트 추진 △AI 기본사회 구현 △과학기술 생태계 조성 △청년 성장 사다리 구축 등 네 가지 과제를 담았다. 모두의 AI는 국산 AI 모델을 활용한 챗GPT형 범용 챗봇이다. 12월부터 이용료와 사용량 제한 없이 제공한다. 행정안전부 등이 개발 중인 공공 AI 에이전트와도 연계한다. 2027년 하반기에는 ‘1인 ...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260716/134315520/2",
+        "title": "궤도, “AI가 못하는 일 찾아라…‘기업 본질’이 경쟁력”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/17/134316525.1.jpg\" vspace=\"10\" />“인공지능(AI) 시대에는 AI가 할 수 있는 일을 찾기보다 인간만 할 수 있는 일을 찾는 것이 더 중요하다”17일 제주 롯데호텔에서 열린 ‘2026 한국경제인협회 경영자 제주하계포럼’ 현장. 과학커뮤니케이터 궤도는 AI 시대 기업의 경쟁력을 높이기 위해서는 기업의 본질에 AI를 더해야 한다며 이같이 말했다. 궤도는 “(우리 기업에서) 변하지 않는 것이 뭘까. 나는 이 기업을 왜 운영하고 있는지를 질문하면서, 여기에 따라 AI와 함께 새로운 도전을 해야 하는 시대”라고 강조했다.그는 미국의 농기계·건설기계 전문 업체인 ‘존 디어’의 사례를 들었다. 존 디어는 전통 제조업체처럼 보이지만 AI를 적극 활용해 자율 농기계 분야에서 선두를 달리고 있다. 궤도는 “농부들은 스마트폰으로 여러...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260717/134316520/1",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-07-17T01:40:00+09:00",
+        "published": "2026-07-17T14:18:00+09:00",
+        "score": 28
+      },
+      {
+        "title": "박민준 뤼튼 대표 “경영진부터 AI로 대체할 것”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/17/134316475.1.jpg\" vspace=\"10\" />“올해 목표는 경영진을 인공지능(AI)로 대체하는 것입니다.”17일 제주 롯데호텔에서 열린 ‘2026 한국경제인협회 경영자 제주하계포럼’. 생성형 AI 서비스 기업 뤼튼테크놀로지의 박민준 대표는 직원이 아닌 경영진부터 AI로 대체하는 실험을 진행하고 있다며 이같이 밝혔다. 제품, 개발, 홍보 등 분야별 역할을 맡은 여러 AI가 토론을 벌여 의견을 내놓고, 자신은 이를 종합해 최종 의사결정을 내리는 방식으로 경영진을 대체한다는 구상이다. 그는 “전문성을 가진 AI 에이전트들이 모여 업무를 하고 의사결정까지 내리는 시대가 곧 올 것”이라고 말했다.박 대표는 이날 ‘AI 기술 도입은 쉬웠지만, 기업의 AI 전환은 없었다’를 주제로 한 강연에서 경영진을 AI로 대체하기 위해 진행 중인 실...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260717/134316474/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-07-17T14:17:00+09:00",
         "score": 26
       }
     ],
@@ -523,6 +555,14 @@
         "link": "https://www.yna.co.kr/view/AKR20260716165353002",
         "source": "연합뉴스 경제 최신기사",
         "published": "2026-07-16T20:33:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "다시 불길 커진 '두 전쟁'…유가·곡물발 인플레 우려도 재점화",
+        "summary": "인플레이션 또 자극하는 전쟁 전쟁발 인플레이션에 대한 우려도 다시 커지는 형국이다. 미국과 이란 간 충돌 격화는 즉시 국제유가 불안에 불을 지폈다. 지난 13일 트럼프 대통령이 대이란 해상 봉쇄 재개를 선언하자...",
+        "link": "https://www.yna.co.kr/view/AKR20260716204400109?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-07-17T08:31:00+09:00",
         "score": 24
       },
       {
@@ -542,11 +582,11 @@
         "score": 24
       },
       {
-        "title": "헤그세스 “에겐남 미군 용납못해”…남성호르몬 약물치료 한다",
-        "summary": "30세 이상 테스토스테론 수치 검사 남성호르몬 투입·전투력 강화 조치 남성호르몬, 트럼프 정부 인사 주요 화제미국 전쟁부(옛 국방부)가 병사들에게 테스토스테론 수치를 매년 검사하며..",
-        "link": "https://www.mk.co.kr/news/world/12100124",
-        "source": "매일경제 : 국제",
-        "published": "2026-07-16T11:28:46+09:00",
+        "title": "“추석 전에 1인당 20만원 지급한다”…민생지원금 소식 들리자 난리 났...",
+        "summary": "당시 영광군은 설과 추석 두 차례에 걸쳐 군민 1인당 총 100만원을 지급하기로 하고 524억원을 편성했는데, 이는 영광군 자체 수입의 60%에 육박하는 규모였다. 지원금 액수는 지자체 재정자립도와 반드시 비례하지...",
+        "link": "https://www.sedaily.com/article/20068873?ref=naver",
+        "source": "서울경제",
+        "published": "2026-07-17T12:06:00+09:00",
         "score": 24
       },
       {
@@ -566,36 +606,28 @@
         "score": 24
       },
       {
-        "title": "HD현대重, 데이터센터 엔진 수주로 경쟁력 부각-삼성證",
-        "summary": "한 팀장은 \"상선 부문에서도 이미 지난해 연간 수주와 비슷한 규모를 확보했다\"며 \"엔진사업을 포함해 조선업 내 다양한 모멘텀의 수혜를 누릴 가능성이 높다\"고 말했다. 삼성증권은 HD현대중공업의 매출액이...",
-        "link": "http://www.fnnews.com/news/202607160724516773",
-        "source": "파이낸셜뉴스",
-        "published": "2026-07-17T05:59:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "삼성 파운드리, 네덜란드 악셀레라AI와 협업…엣지AI 시장 정조준",
-        "summary": "네덜란드 AI 반도체 스타트업인 악셀레라AI는 2021년 설립됐다. 컴퓨터 비전·생성형 AI 애플리케이션을... 한국 반도체의 우수한 기술력이 어떻게 유럽의 AI 혁신을 뒷받침하는지 보여준다”고 밝혔다. 파브리치오 델...",
-        "link": "https://biz.heraldcorp.com/article/10811298?ref=naver",
+        "title": "이란전쟁 동참 보상?…美가 UAE에 안긴 선물 정체 [디브리핑]",
+        "summary": "당시 UAE는 2016년 미국의 ‘주요 국방 파트너’가 된 이후 무역상 혜택이 확대된 인도를 사례로 제시한 것으로 알려졌다. 트럼프 대통령은 최근 프랑스에서 열린 주요 7개국(G7) 정상회의에서 셰이크 모하메드 빈 자예드...",
+        "link": "https://biz.heraldcorp.com/article/10811825?ref=naver",
         "source": "헤럴드경제",
-        "published": "2026-07-17T07:31:00+09:00",
+        "published": "2026-07-17T08:11:00+09:00",
         "score": 24
       },
       {
-        "title": "국내 반려동물 산업 8조원 규모…세계 시장 비중 1.6%에 그쳐",
-        "summary": "6%에 그쳐 수출 경쟁력 강화를 위한 지원체계 재정비가 필요하다는 분석이 나왔다. 국가별 인증과 검역, 바이어 발굴 등을 한 번에 지원하는 원스톱 수출지원 시스템 구축이 필요하다는 분석이다. 한국농촌경제연구원...",
-        "link": "https://biz.heraldcorp.com/article/10810960?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-07-17T06:01:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "최태원 “하이닉스 인수 결단 옳아… ADR 상장은 새 이정표”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/16/134313822.4.jpg\" vspace=\"10\" />최태원 SK그룹 회장(사진)이 2012년 SK하이닉스 인수 결정과 관련해 “당시 많은 사람이 의문을 제기했지만 임직원들이 그 선택이 옳았음을 증명했다”고 밝혔다. 최 회장은 15일 자신의 링크트인에 글을 올려 이같이 말했다. 그는 SK하이닉스의 나스닥 미국주식예탁증서(ADR) 상장을 “SK하이닉스와 SK그룹, 나아가 인공지능(AI) 생태계 전체의 중요한 이정표”라고 평가했다. 이어 “SK가 AI 경제를 구축하는 핵심 파트너로 자리매김하는 계기가 될 것”이라며 “이번 성과는 무엇보다 임직원들이 만들어낸 결과”라고 강조했다. 최 회장은 SK하이닉스 인수 당시를 회고하며 “회사는 파산 직전이었고 메모리는 범용 제품으로 인식돼 많은 사람이 인수를 우려했다”고 돌아봤다. 그러면서 그는 “메...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260716/134315198/2",
+        "title": "오세훈, 단일종목 레버리지 논란에 “투전판으로 변질”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/17/134316089.1.jpg\" vspace=\"10\" />오세훈 서울시장이 단일종목 레버리지 상품 영향으로 급등락하는 주식시장을 ‘투전판’으로 규정하며 감사를 요구했다. 오 시장은 17일 페이스북에서 “9·11 테러도, 코로나도 없는데 자본시장이 투전판으로 변질되고 있다”며 “단일종목 레버리지 파생상품의 위험성을 알고도 승인하고 개미들의 자산이 공중분해될 때까지 수수방관한 결과다. 명백한 인재(人災)”라고 말했다.그는 “사태가 이 지경에 이르러서야 정부는 단일종목 레버리지 ETF의 기본 예탁금을 3000만원으로 올리는 등의 뒷북 대책을 내놓고 11월 시행하겠다고 발표했다”며 “진작 걸어 잠갔어야 할 빗장을 청년들이 파산의 벼랑 끝으로 다 내몰린 뒤에야 허겁지겁 고치는 처사”라고 비판했다.오 시장은 또 “정부 여당이 그토록 자랑하고 선전하...",
+        "link": "https://www.donga.com/news/Society/article/all/20260717/134316088/1",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-07-17T01:40:00+09:00",
+        "published": "2026-07-17T10:08:09+09:00",
         "score": 24
+      },
+      {
+        "title": "기업인 900명 만난 조정식 국회의장...제주서 ‘경제계 밀착’ 광폭 행...",
+        "summary": "대한상공회의소와 한국경제인협회가 나란히 개최한 하계포럼을 연이어 찾아 인공지능(AI)·반도체 산업... 류 회장은 “조 의장은 AI와 반도체 등 미래산업 입법을 적시에 추진하겠다고 밝혔다”며 “경제인들이 조 의장의...",
+        "link": "https://www.sedaily.com/article/20068841?ref=naver",
+        "source": "서울경제",
+        "published": "2026-07-17T13:01:00+09:00",
+        "score": 22
       }
     ]
   },
@@ -654,5 +686,42 @@
       "match_status": "OK",
       "importance_score": 7
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-07-17",
+    "generated_at": "2026-07-17T05:38:45.959083+00:00",
+    "briefing_hash": "ef5d65468b8a9606",
+    "key_headlines": [
+      {
+        "title": "Housing Prices Surge Across All Categories in June",
+        "summary": "Seoul apartment prices rose approximately 1% in June across sales, jeonse, and monthly rentals simultaneously, marking a 'triple strength' with non-capital regions also showing sales price increases. Growing housing cost burdens are evident as demand shifts toward officetels."
+      },
+      {
+        "title": "Government Pushes AI Innovation and Post-Semiconductor Initiatives with Extra Tax Revenue",
+        "summary": "The government plans to use additional tax revenue to develop high-performance AI models and fund major landmark projects like 'creating 10 Seroul Universities.' Structural fiscal adjustments will be accelerated through reforms in local education finance and basic pension systems."
+      },
+      {
+        "title": "Youth Employment Crisis Despite Semiconductor Boom: 26-Month Consecutive Decline",
+        "summary": "Youth employment rate fell for the 26th consecutive month in June, with employment numbers declining for 44 consecutive months and unemployment rising 0.9 percentage points year-over-year. Manufacturing-focused industrial structure and AI impact are blamed for youth job losses despite overall semiconductor industry strength."
+      },
+      {
+        "title": "Bank of Korea Raises Base Rate by 0.25% to 2.75% After 42 Months",
+        "summary": "The Monetary Policy Committee raised the base rate from 2.50% to 2.75%, resuming the tightening cycle after 3.5 years, signaling continued rate hikes ahead. Governor Shin Hyun-song indicated all possibilities remain open for August rate decision and projected significant upward revisions to growth forecasts."
+      },
+      {
+        "title": "Kospi Plunges 6% as Semiconductor Concerns and Rate Hike Trigger Market Volatility",
+        "summary": "The Kospi index fell over 6% in a day, surrendering the 7,000 level as recession concerns for semiconductor industry intensified and combined with the Bank of Korea's rate hike. Rising leverage ETF volatility and foreign investor selling pressures contributed to stock market turbulence."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "South Korea's housing market experienced a 'triple strength' surge in June 2026 with apartment sales, jeonse deposits, and monthly rental prices all rising, particularly in Seoul at approximately 1% each. The government is channeling additional tax revenue from strong semiconductor exports into AI innovation and major landmark projects while implementing structural fiscal reforms. Youth employment continues its 26-month decline despite robust manufacturing sector growth, highlighting a critical labor market mismatch. The Bank of Korea initiated its first rate hike in 42 months, raising the base rate to 2.75% and signaling potential further increases. Financial markets experienced sharp volatility with the Kospi index falling over 6% due to semiconductor pessimism compounded by monetary tightening.",
+      "Macro & Fiscal Policy": "The Bank of Korea's Monetary Policy Committee raised the base rate from 2.50% to 2.75%, marking the resumption of tightening after 3.5 years of accommodation as strong economic growth and persistent inflation prompted action. Governor Shin Hyun-song indicated that interest rate hikes will continue until inflation stabilizes at target levels, with base rates potentially reaching the 3% level by year-end. The government plans to amend the National Finance Act to enable supplementary budgets when tax revenue fluctuates by 5% or more, allowing faster reallocation of excess revenue to future industries like AI semiconductors. Strong GDP growth across all components suggests the positive output gap may materialize earlier than expected, though housing price control through monetary policy alone is deemed insufficient.",
+      "Financial Markets": "The Kospi index experienced severe volatility, plunging 6.3% in a single day and falling below the 7,000 level as market concerns over semiconductor industry peak-out sentiment combined with the Bank of Korea's rate hike announcement. Leverage ETF-related instability amplified market swings, prompting the government to announce complementary measures including raising deposit requirements for single-stock leverage ETFs to 30 million won. Governor Shin downplayed systemic risk concerns from stock market volatility, noting that actual economic fundamentals remain strong and real interest is semiconductor pricing rather than share prices. The won-dollar exchange rate declined slightly while Nasdaq fell 1.5% on global AI investment doubts, creating synchronized pressure on Korean equities.",
+      "Industry & Technology": "Humanoid robot development is advancing with companies like Hyundai, Xiaomi, BMW, and others conducting field tests, though battery capacity remains a critical constraint compared to electric vehicles. Solid-state battery commercialization has been repeatedly delayed, with most manufacturers unable to meet previous production timelines and remaining in pilot production phases rather than full-scale manufacturing. AI infrastructure investment concerns triggered semiconductor stock declines as major data center projects face cancellations, raising doubts about AI infrastructure spending sustainability. The industry faces structural challenges balancing AI adoption in robotics and autonomous vehicles against practical deployment and profitability constraints.",
+      "Real Estate": "Housing prices across all segments surged in June with apartments, jeonse deposits, and monthly rentals rising simultaneously, particularly in Seoul at around 1%, shifting demand toward officetels as price alternatives. Non-apartment construction declined 5.5% in the first five months of 2026 compared to the same period last year, exacerbating tight supply conditions in multi-family housing. Jeonse and monthly rental prices for villas and multi-family units rose 0.72% and 1.07% respectively, with Seoul experiencing sharper increases of 2.65% for jeonse, increasing housing burdens for capital-constrained youth. Debates over weekly apartment price statistics from Korea Real Estate Board intensified, with calls to discontinue weekly reports due to concerns about market distortion from survey methodology based on asking prices rather than actual transactions.",
+      "International Economy": "Trump tariffs targeting Brazil's agricultural and industrial exports worth 11 billion dollars risk destabilizing the Brazilian presidential election landscape, potentially benefiting leftist candidates who could adopt protectionist policies. U.S. wholesale price data came in below expectations, reducing market expectations for additional Federal Reserve rate hikes by year-end, though inflation concerns persist amid geopolitical tensions. The U.S.-Iran conflict escalation over maritime blockades reignited energy price volatility and inflation concerns, with potential impacts on global commodity and energy markets. Federal Reserve Chair Kevin Walsh reaffirmed commitment to maintaining price stability and combating persistent inflation despite recent softer inflation readings.",
+      "AI & Economy": "Korean AI industry leaders emphasize the need to export 'intelligence' and advanced AI models rather than just AI-embedded products to compete in global AI hegemony competition. Rutton Technologies CEO Park Min-jun argued that AI will begin replacing leader-level management tasks within a year, urging corporations to prioritize AI transformation of revenue-generating and cost-reduction activities rather than just automating repetitive tasks. China's hospitals increasingly commercialize patient data for AI training purposes, treating clinical information as a new revenue stream and 'digital gold mine' to support AI industry growth. Chuncheon city seeks to attract AI data centers leveraging abundant water resources, stable power supply, and proximity to the Seoul metropolitan area as competitive advantages.",
+      "Others": "The government announced stricter deposit requirements for single-stock leverage ETFs, raising minimum cash deposits to 30 million won effective early August to curb speculative trading and market volatility. War-related inflation concerns resurged as U.S.-Iran tensions escalated, potentially triggering energy price spikes that could reignite inflationary pressures globally. Local governments announced emergency civil support payments, with some regions planning to distribute 200,000 won per capita before Chuseok holidays, though fiscal sustainability remains questionable for financially constrained municipalities. Price statistics from the Korea Real Estate Board and their weekly publication frequency became subjects of renewed policy debate regarding market impact and methodology concerns."
+    }
+  }
 }
