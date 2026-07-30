@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-30T14:33:00.606620+09:00",
+  "generated_at": "2026-07-30T14:35:01.477119+09:00",
   "date": "2026-07-30",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 552,
-    "total_used": 532,
-    "dropped_quality": 10,
-    "dropped_negative": 10,
+    "total_input": 509,
+    "total_used": 486,
+    "dropped_quality": 9,
+    "dropped_negative": 14,
     "per_category": {
-      "금융시장": 114,
-      "기타": 240,
-      "거시경제·재정": 45,
-      "국제경제": 31,
-      "부동산": 39,
-      "AI와 경제": 7,
-      "산업·과학": 56
+      "금융시장": 104,
+      "부동산": 46,
+      "기타": 220,
+      "국제경제": 20,
+      "AI와 경제": 6,
+      "산업·과학": 46,
+      "거시경제·재정": 44
     }
   },
   "headlines": [
@@ -172,27 +172,43 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "[상보]Fed, 기준금리 동결…3명은 25bp 인상 주장",
-        "summary": "실업률 역시 큰 변화가 없다고 밝혔다. 물가에 대해서는 Fed의 목표인 2%에 비해 여전히 높은 수준이라고 판단했다. 특히 에너지를 포함한 일부 부문의 가격 상승을 촉발한 공급 충격이 인플레이션을 끌어올리고 있다고...",
-        "link": "https://view.asiae.co.kr/article/2026073003115111933",
-        "source": "아시아경제",
-        "published": "2026-07-30T03:12:00+09:00",
-        "score": 102
+        "title": "[헤럴드광장] 굴절된 통화정책과 딜레마에 빠질 한국은행",
+        "summary": "국제유가, 물가, 주가지수, 환율, 경제성장률 등의 경로를 뒤틀어 놓았다. 특히, 물가상승률의 굴절에 주목할... 중요한 변수인 환율도 뒤틀렸다. 중동전쟁의 여파로 대표적인 안전자산인 달러 선호현상이 집중되었다....",
+        "link": "https://biz.heraldcorp.com/article/10825526?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-07-30T11:19:00+09:00",
+        "score": 136
       },
       {
-        "title": "美 연준, 기준금리 5연속 동결… 3명은 ‘인상 필요’ 소수 의견",
-        "summary": "오마르 샤리프 인플레이션인사이츠 대표는 “현 단계에서는 고용 시장 데이터가 붕괴하거나 근원 물가 상승률이 연율 2%에 근접하지 않는 한, 연준이 9월 회의에서 금리를 0.25%포인트 인상할 것으로 예상해야 한다”고...",
-        "link": "https://biz.chosun.com/international/international_economy/2026/07/30/2MMSCURQJRHK3OXZBI2XHKXMPQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-07-30T05:54:00+09:00",
-        "score": 98
+        "title": "美 연준 매파적 동결…한은, 기준금리 인상 속도 내나",
+        "summary": "2분기 GDP 성장률과 8월 초에 나올 물가 상승률을 주의 깊게 보겠다고 밝혔다. 지난 주 발표된 2분기 성장 지표가 강한 성장세를 이어가면서 8월 연속 금리 인상에 힘을 실어준 상황이다. 2분기 한국 실질 국내총생산(GDP)...",
+        "link": "https://www.yna.co.kr/view/AKR20260730017900002?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-07-30T07:33:00+09:00",
+        "score": 106
       },
       {
-        "title": "美 기준금리 5연속 동결…워시 \"느슨한 물가 목표 없다\"",
-        "summary": "Fed는 경제가 \"견조한(solid) 속도로 확장하고 있다\"고 평가했다. 자본투자와 생산성도 강한 흐름을 보이고... 이 같은 상승세가 특정 산업에 머무를지 경제 전반의 물가 압력으로 번질지 살펴보고 있다는 설명이다. 향후...",
-        "link": "https://www.hankyung.com/article/2026073044487",
-        "source": "한국경제",
-        "published": "2026-07-30T07:32:00+09:00",
+        "title": "미 연준 매파적 동결…한은, 기준금리 인상 속도 내나",
+        "summary": "GDP 성장률과 8월 초에 나올 물가 상승률을 주의 깊게 보겠다고 밝혔습니다. 지난주 발표된 2분기 성장 지표가 강한 성장세를 이어가면서 8월 연속 금리 인상에 힘을 실어준 상황입니다. 2분기 한국 실질 국내총생산(GDP)...",
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008681846&plink=ORI&cooper=NAVER",
+        "source": "SBS",
+        "published": "2026-07-30T08:10:00+09:00",
+        "score": 106
+      },
+      {
+        "title": "미국 ‘매파적 동결’에 한은 기준금리 ‘연속 인상’ 가시권",
+        "summary": "2분기 실질 GDP(국내총생산·속보치)는 전기 대비 0.6% 성장했다. 지난 5월 한은이 전망한 성장률(0.2%)보다 세 배 높은 수준이다. 전년 동기 대비로는 3.7% 성장했다. 이 추세대로면 올해 3%대 연간 성장률은 무난히 달성할...",
+        "link": "https://biz.heraldcorp.com/article/10825315?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-07-30T09:51:00+09:00",
+        "score": 90
+      },
+      {
+        "title": "미 기준금리 동결…“물가 목표치는 2%”",
+        "summary": "미국 연방준비제도가 기준금리를 3.5∼3.75%로 동결했습니다. 올해 들어 5차례 연속 기준금리 동결입니다. 케빈 워시 연준 의장은 이번 결정이 상황을 더 지켜보기 위한 것이라며 물가상승률 목표치 2% 달성을 위해 단호히...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8624357&ref=A",
+        "source": "KBS",
+        "published": "2026-07-30T14:04:00+09:00",
         "score": 90
       },
       {
@@ -204,44 +220,28 @@
         "score": 90
       },
       {
-        "title": "워시 “완화된 인플레이션 목표 없어···오직 2% 목표만 존재”",
-        "summary": "목표치를 상회한 5년 이상의 인플레이션이 9주 만에 혹은 한 달간의 완만한 물가 하락으로는 해결될 수 없다는 사실을 잘 알고 있다”고 재차 강조했다. 연준은 이날 FOMC에서 기준금리를 3.50∼3.75%로 동결했다.",
-        "link": "https://www.khan.co.kr/article/202607300727001",
-        "source": "경향신문",
-        "published": "2026-07-30T07:27:00+09:00",
+        "title": "교보증권 “美 통화정책 의구심 커져...연준 연내 동결 기조 유지” [오늘 나온 보고서]",
+        "summary": "1~2개월 내 중동전쟁 진전되면 물가 경로 재차 달라질 수 있어미국 연방준비제도(Fed)가 7월 연방공개시장위원회(FOMC)에서 기준금리를 동결한 가운데 연준이 올 연말까지 기준금..",
+        "link": "https://www.mk.co.kr/news/stock/12111511",
+        "source": "매일경제 : 증권",
+        "published": "2026-07-30T08:44:55+09:00",
         "score": 86
       },
       {
-        "title": "반도체 수출 호조에 제조업 체감경기 4개월 연속 개선… 비제조업은 악...",
-        "summary": "한국은행이 30일 공개한 ‘7월 기업 경기 조사’에 따르면, 제조업 기업심리지수(CBSI)는 103.2를 기록했다. 전월보다 2포인트 오른 것으로, 4개월 연속 상승이다. 제조업 기업심리지수는 2022년 8월 이후 3년 9개월 만인...",
-        "link": "https://biz.chosun.com/policy/policy_sub/2026/07/30/J6JIOGVPJRDXXOR6N2R4IEIIEA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-07-30T06:01:00+09:00",
+        "title": "日, 올해 성장률 0.9%로 하향…\"유가 상승으로 인한 내수 부진 우려\"",
+        "summary": "일본 정부가 올해 실질 국내총생산(GDP) 성장률 전망치를 하향 조정했다. 중동 정세 악화에 따른 유가 상승 영향을 반영했다. 일본 내각부는 30일 경제재정자문회의에서 2026회계연도 실질 GDP 성장률 전망치를 기존 1.3...",
+        "link": "https://view.asiae.co.kr/article/2026073014085178191",
+        "source": "아시아경제",
+        "published": "2026-07-30T14:10:00+09:00",
+        "score": 82
+      },
+      {
+        "title": "“동결 반대” 3명 제치니 ‘물가 늑장 대응’ 우려 [트럼프 스톡커]",
+        "summary": "트럼프 대통령은 27일에도 미국 미시간주로 향하는 전용기 안에서 취재진과 만나 “금리는 인하돼야 한다”며 “그러면 이 나라의 국내총생산(GDP) 성장률은 8~12%까지 될 수 있다”고 큰소리쳤다. 이어 “워시 의장은...",
+        "link": "https://www.sedaily.com/article/20073615?ref=naver",
+        "source": "서울경제",
+        "published": "2026-07-30T08:19:00+09:00",
         "score": 80
-      },
-      {
-        "title": "[사설]역대 최고 인상률 홍보에 가려진 기준중위소득의 현실",
-        "summary": "이를 바로잡으려 정부는 산정 방식 변경을 추진했지만, 기존 방식을 유지한 채 소비자물가지수(CPI)와 실질 국내총생산(GDP) 성장률 등을 반영해 증가율을 보정하도록 찔끔 손질하는 데 그쳤다. 정부가 TF(태스크포스)...",
-        "link": "https://www.khan.co.kr/article/202607291817021",
-        "source": "경향신문",
-        "published": "2026-07-29T18:17:00+09:00",
-        "score": 76
-      },
-      {
-        "title": "물가안정 재확인한 美연준…'금리인상' 전망에는 선그어[일문일답]",
-        "summary": "-물가 안정과 고용 목표가 충돌한다고 보나. ▷그렇지 않다. 물가 안정과 완전 고용은 양자택일의 문제가 아니다. 오히려 높고 불안정한 인플레이션은 기업과 가계가 미래를 예측하기 어렵게 만들어 노동시장에도...",
-        "link": "https://www.mt.co.kr/world/2026/07/30/2026073005144255247",
-        "source": "머니투데이",
-        "published": "2026-07-30T05:25:00+09:00",
-        "score": 72
-      },
-      {
-        "title": "美 연준 매파적 동결…한은, 기준금리 인상 속도 내나",
-        "summary": "(서울=연합뉴스) 임지우 이도흔 기자 = 미국 연방준비제도(Fed·연준)가 &apos;매파적(통화 긴축 선호) 기준금리 동결&apos;을 결정하면서 한국은행도 통...",
-        "link": "https://www.yna.co.kr/view/AKR20260730017900002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-07-30T07:33:28+09:00",
-        "score": 70
       },
       {
         "title": "'예산 전쟁' 돌입한 전북도…정부안 반영 막바지 총력전",
@@ -252,47 +252,23 @@
         "score": 70
       },
       {
-        "title": "BIS 이코노미스트들 \"AI 붐이 통화정책 실수 위험 높여\"",
-        "summary": "미국 데이터센터와 IT 제조시설에 대한 지출이 국내총생산(GDP)의 0.8%까지 증가했고 아울러 AI 붐으로 인한... 강력한 GDP 성장은 단지 일시적인 투자 붐과 자산 효과를 반영할 수 있지만 보다 지속적인 생산성 향상은...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000325387?division=NAVER",
-        "source": "SBS",
-        "published": "2026-07-29T15:13:00+09:00",
+        "title": "한은 '8월 금리 인상' 힘 받는다 연준 매파 동결·GDP 성장 견고",
+        "summary": "30일 금융권에 따르면 연준은 28∼29일(현지시간) 열린 연방공개시장위원회(FOMC) 정례회의에서 기준금리를... 연준은 이번 금리 동결이 FOMC 위원 12명 가운데 찬성 9표, 반대 3표의 표결로 결정됐다고 밝혔다. 베스 해맥...",
+        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=361047",
+        "source": "이데일리",
+        "published": "2026-07-30T10:46:00+09:00",
         "score": 70
       },
       {
-        "title": "호주 물가 상승 예상 밑돌아…내달 금리 인상 확률 뚝",
-        "summary": "6월 실업률이 소폭 올랐지만 취업자 수는 증가했다. 물가 상승세가 예상보다 약해졌어도 고용 호조와 유가 급등이 이어질 경우 RBA가 추가 금리 인상 가능성을 완전히 배제하기는 어려울 전망이다.",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04546086645519440",
+        "title": "\"유가쇼크로 내수 부진 우려\"…日, 올해 성장률 0.9%로 하향",
+        "summary": "다카이치 사나에 일본 총리.(사진=AFP) 30일 블룸버그통신 보도에 따르면 일본 내각부 2026 회계연도 실질 GDP(국내총생산) 성장률 전망치를 기존 1.3%에서 0.9%로 낮췄다고 발표했다. 배경은 중동 정세와 연계된 국제 원유...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04372246645519768",
         "source": "이데일리",
-        "published": "2026-07-29T13:00:00+09:00",
-        "score": 68
+        "published": "2026-07-30T11:22:00+09:00",
+        "score": 70
       }
     ],
     "금융시장": [
-      {
-        "title": "Fed 금리 동결이 '물가 불안' 자극…美 주식·채권 동반 하락 [뉴욕증시...",
-        "summary": "미국 중앙은행(Fed)이 기준금리를 동결했지만, 미국·이란의 군사적 충돌이 격화할 조짐을 나타내며... 시장을 끌어 내린 건 금리다. 이날 미 국채 30년물 금리는 2007년 이후 처음으로 연 5.2%를 넘어섰다. 미 Fed가...",
-        "link": "https://www.hankyung.com/article/2026073044466",
-        "source": "한국경제",
-        "published": "2026-07-30T07:19:00+09:00",
-        "score": 176
-      },
-      {
-        "title": "美 금리동결, 3명은 \"인상\"…증시·채권 동반발작, 시장 시선은 9월로",
-        "summary": "워시 의장이 물가안정을 강조하면서도 금리는 두차례 연속 동결한 것을 두고 일각에서 '적기'를 놓치는게 아니냐는 우려까지 나오며 채권시장은 요동쳤다. 미 10년물 국채금리는 이날 장중 0.07%포인트 오른 4.67...",
-        "link": "https://www.mt.co.kr/world/2026/07/30/2026073006094053314",
-        "source": "머니투데이",
-        "published": "2026-07-30T06:12:00+09:00",
-        "score": 146
-      },
-      {
-        "title": "워시 \"2% 목표\" 강조…美 증시 급락, 채권금리 급등 [글로벌 뉴스픽]",
-        "summary": "이에 따라 동결결정 이후 채권 금리 압박이 한층 커졌는데요. 특히 30년 만기 미국 국채 수익률이 5.20%를 돌파하며 2007년 이후 최고치를 기록했습니다. 10년 만기 국채 수익률은 0.7%p 이상 상승하여 4.677%를 기록했습니다....",
-        "link": "https://biz.sbs.co.kr/article_hub/20000325493?division=NAVER",
-        "source": "SBS",
-        "published": "2026-07-30T06:17:00+09:00",
-        "score": 146
-      },
       {
         "title": "워시 “2% 목표”, 3명 “인상”...美 증시 급락, 채권금리 급등 [월가월부]",
         "summary": "연준, 기준금리 3.5~3.75% 유지 매파적 동결·유가 급등에 다우 -2%미국 연방준비제도(Fed)가 5연속 기준금리를 동결했지만 금리인상 반대표가 나오면서 연내 금리인상 가능성..",
@@ -302,163 +278,187 @@
         "score": 130
       },
       {
-        "title": "미국 연준, 5연속 금리 동결…국채 급등·뉴욕증시 하락",
-        "summary": "미국 중앙은행인 연방준비제도가 기준금리를 또 동결했습니다. 다섯 차례 연속 금리가 유지된 건데요. 다만, 위원 12명 가운데 3명은 금리 인상에 찬성했고 케빈 워시 연준 의장도 물가 목표치를 지키겠다고 밝혔습니다....",
-        "link": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5209097",
-        "source": "MBN",
-        "published": "2026-07-30T07:43:00+09:00",
+        "title": "美 국채금리보다 센 SK하닉 ADR? 환율 1430원대까지 하락",
+        "summary": "이날 새벽 미 연방공개시장위원회(FOMC)는 기준금리를 연 3.50∼3.75%로 동결했다. 위원 3명이 금리인상을 주장하며 반대표를 던지며 직전 회의보다 매파(통화긴축 선호)적 분위기가 짙어졌다. 인플레이션(물가...",
+        "link": "https://biz.heraldcorp.com/article/10825503?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-07-30T11:09:00+09:00",
         "score": 130
+      },
+      {
+        "title": "“내년 공급 부족 심화” 삼성전자 컨콜에…코스피 6000선 탈환 시도",
+        "summary": "연준이 기준금리를 현행 3.5~3.75%로 동결했지만, 시장에서는 “인플레이션에 뒷북 대응하게 되는 것 아니냐”는 우려가 제기됐다. 미국 국채 금리가 급등하면서 뉴욕 증시는 하락했다. 코스닥 지수도 0.36(0.05%) 오른...",
+        "link": "https://biz.chosun.com/stock/stock_general/2026/07/30/F7KQS7GMAZHXZPSZYIIOUDY4RA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-07-30T11:27:00+09:00",
+        "score": 118
+      },
+      {
+        "title": "[ETF 따라잡기] 코스피 고점대비 40%대 폭락…시장 흐름은?",
+        "summary": "- 코스피 연초대비 100% 상승→50% 상승중 - 국내증시 단기간에 급락, 반대 상황도 가능 - 韓 경제 펀더멘털 견고…절대적 저평가 구간 - 반등 시작할 때 매수할 수 있는 현금 확보 중요 - 연준 9월 금리인상 가능성 염두에...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000325628?division=NAVER",
+        "source": "SBS",
+        "published": "2026-07-30T14:28:00+09:00",
+        "score": 116
+      },
+      {
+        "title": "연준 금리동결했는데 장기물 금리 폭등 왜? 현금 마른 메타 주가가 결국 무너진 이유",
+        "summary": "홍장원의 불앤베어 플러스FOMC와 빅테크 실적이 겹친 뉴욕 증시는 그야말로 변수가 폭주한 하루였습니다. 연준은 28일(현지시간) 금리를 동결했습니다. 만장일치는 아니었습니다. 3명..",
+        "link": "https://www.mk.co.kr/news/economy/12111484",
+        "source": "매일경제 : 경제",
+        "published": "2026-07-30T07:54:42+09:00",
+        "score": 106
       }
     ],
     "산업·과학": [
       {
-        "title": "반도체 이어 로봇도 수입금지…미국, 중국산에 무차별 ‘국가안보 위협...",
-        "summary": "인버터는 태양광 패널이나 배터리에서 만든 전기를 전력망에 사용할 수 있는 형태로 바꿔주는 핵심 장치다.... 이 사안은 중국이 정부 보조를 업고 세계 시장에 저가로 밀어내는 반도체·배터리·철강 등 주요 제조업을...",
-        "link": "https://www.mk.co.kr/article/12111051",
-        "source": "매일경제",
-        "published": "2026-07-29T21:12:00+09:00",
-        "score": 116
-      },
-      {
-        "title": "여수 사업재편, 석유화학산업 전환의 기준 돼야[기고]",
-        "summary": "구조개편을 통해 확보한 자본과 인력을 인공지능(AI)을 접목한 스페셜티 화학, 반도체·배터리 소재, 바이오 기반 소재, 자원순환 및 탄소저감 공정 등 미래 핵심 분야로 재투자해야 한다. 사업재편의 성과 역시 단순한 '설비...",
-        "link": "https://www.mt.co.kr/opinion/2026/07/30/2026072813172886298",
+        "title": "전기차 배터리 구독서비스 '피트인' 혁신 프리미어 1000 선정",
+        "summary": "상용 전기차 에너지 플랫폼 기업 피트인이 '2026년도 제2차 혁신 프리미어 1000' 기업에 선정됐다고 30일... 피트인은 전기택시와 전기화물차 등 영업용 전기차를 대상으로 배터리 교체 구독, 전용 충전, 상태 진단·관리...",
+        "link": "https://www.mt.co.kr/future/2026/07/30/2026073011504170640",
         "source": "머니투데이",
-        "published": "2026-07-30T05:50:00+09:00",
-        "score": 92
+        "published": "2026-07-30T14:30:00+09:00",
+        "score": 102
       },
       {
-        "title": "반도체·조선 호조에 기업심리 한달만에 반등",
-        "summary": "제조업 전망(2.3포인트)이 크게 개선된 가운데, 실적이 주춤했던 비제조업도 건설업과 부동산업 등을 중심으로 전망 지수가 0.5포인트 상승하며 반등을 예고했다. 다만 기업들이 체감하는 경영 애로사항은 여전했다....",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02240246645519768",
-        "source": "이데일리",
-        "published": "2026-07-30T06:04:00+09:00",
-        "score": 90
+        "title": "반도체 이어 로봇도 수입금지…미국, 중국산에 무차별 ‘국가안보 위협’",
+        "summary": "AI 공급망 사수 사활 건 美 휴머노이드·전력 변환장치 등 美 국가안보 위협 목록에 등록 기존 제품도 소급 적용 가능성 ‘무역법 301조’ 관세 예고하자 中 “일방주의 행태” 즉각..",
+        "link": "https://www.mk.co.kr/news/world/12111051",
+        "source": "매일경제 : 국제",
+        "published": "2026-07-29T21:11:27+09:00",
+        "score": 80
       },
       {
-        "title": "반도체 조선 수출 ‘온기’ 확산…제조업 체감 경기, 3년 9개월 만에 최...",
-        "summary": "한국은행 7월 기업심리지수 반도체 수출이 급증하며 제조업을 중심으로 기업들의 체감 경기가 전반적으로 개선됐다. 30일 한국은행의 ‘7월 기업경기 조사’에 따르면 반도체 산업이 집중된 제조업...",
-        "link": "https://www.chosun.com/economy/economy_general/2026/07/30/M3FGAAD5WFDKPMSTDSIB4G5NXE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-07-30T06:01:00+09:00",
-        "score": 90
+        "title": "송주현 켄텍 교수, 급속 충전 가로막던 배터리 발열 한계 풀어",
+        "summary": "최근 전기차 배터리 시장의 가장 큰 흐름은 셀의 대형화다. 특히 원통형 배터리는 이전의 1170(지름 18㎜, 높이 65㎜) 크기에서 테슬라를 선두로 2170(지름 21㎜, 높이 70㎜), 나아가 4680(지름 46㎜, 높이 80㎜) 크기까지...",
+        "link": "https://www.mt.co.kr/policy/2026/07/30/2026073013424095913",
+        "source": "머니투데이",
+        "published": "2026-07-30T13:58:00+09:00",
+        "score": 66
+      },
+      {
+        "title": "[컨콜] 삼성SDI \"美 LFP 배터리 10월 셀 양산…연내 고객 공급\"",
+        "summary": "삼성SDI는 30일 열린 2026년 2분기 실적발표 설명회에서 \"미국 내 에너지저장장치(ESS)용 각형 리튬인산철(LFP) 라인은 양산 품질 검증 단계에 있으며, 당초 계획대로 10월 중에 셀 양산을 시작해 연내에 SBB 2.0 솔루션...",
+        "link": "https://www.mt.co.kr/industry/2026/07/30/2026073014043839030",
+        "source": "머니투데이",
+        "published": "2026-07-30T14:23:00+09:00",
+        "score": 62
       }
     ],
     "부동산": [
       {
-        "title": "\"전세 소멸에 외국자본이 월세시장 싹쓸이\"…'기업형 임대' 확대에 시끌",
-        "summary": "김 장관은 지난 27일 대한상공회의소에서 열린 부동산정책 국민 대토론회에서 “비아파트 활성화에... 영국계 부동산 투자회사 M&G리얼에스테이트는 서울 황학동 원룸 주택(95실)을 약 240억원에 통째로 인수했고, 세계...",
-        "link": "https://realty.chosun.com/site/data/html_dir/2026/07/29/2026072902934.html",
-        "source": "조선일보",
-        "published": "2026-07-30T06:02:00+09:00",
-        "score": 142
+        "title": "서울 아파트값 77주째 상승…전세·매매 오름폭은 2주째 줄어",
+        "summary": "한국부동산원이 오늘(30일) 발표한 '7월 4주(7.27일 기준) 전국 주간 아파트가격 동향' 자료를 보면, 서울 아파트값은 0.25% 올라 전주보다 0.02%p 상승 폭이 축소됐습니다. 서울 아파트값은 지난달부터 0.25~0.30...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8624352&ref=A",
+        "source": "KBS",
+        "published": "2026-07-30T14:00:00+09:00",
+        "score": 110
       },
       {
-        "title": "한강변 고급 아파트 중심으로 ‘월세 1000만원’ 확산[코주부]",
-        "summary": "한국부동산원에 따르면 6월 서울 아파트 월세가격지수 변동률은 1.15%로 나타났다. 자치구별 상승률은... 남혁우 우리은행 부동산연구원은 “월 1000만원 이상 초고액 월세 증가는 정책요인에 따른 월세 수요증가...",
-        "link": "https://www.sedaily.com/article/20073505?ref=naver",
-        "source": "서울경제",
-        "published": "2026-07-30T07:06:00+09:00",
+        "title": "“대출 나올때 얼른 사자” 외곽 매수세 늘자 중랑구 집값 상승률 전국...",
+        "summary": "30일 한국부동산원이 발표한 2026년 7월 넷째 주(지난 27일 기준) 주간 아파트가격 동향조사에 따르면, 서울... 남혁우 우리은행 부동산연구원은 “전세 가격 상승률이 가파르고, 매매가격 상승은 더디었던 동북권...",
+        "link": "https://biz.heraldcorp.com/article/10825789?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-07-30T14:04:00+09:00",
+        "score": 106
+      },
+      {
+        "title": "성북구, 올해 집값 누적상승률 10% 돌파…길음뉴타운 주축으로 들썩",
+        "summary": "30일 한국부동산원이 발표한 이달 다섯째 주(27일 기준) 아파트 가격 동향 자료에 따르면 서울 아파트... 김효선 KB국민은행 부동산수석전문위원은 \"노원은 재건축 연한이 도래한 단지들이 많은 반면 길음뉴타운은 도심...",
+        "link": "https://view.asiae.co.kr/article/2026073014324790757",
+        "source": "아시아경제",
+        "published": "2026-07-30T14:32:00+09:00",
+        "score": 102
+      },
+      {
+        "title": "연말까지 10대 건설사서 대단지 아파트 2.3만 가구 분양",
+        "summary": "오는 8월부터 연말까지 전국에서 10대 건설사가 1000가구 이상 대단지 아파트 2만3000여가구를 분양한다.  30일 부동산 전문 리서치업체 리얼투데이가 2025년 시공능력평가 ..",
+        "link": "https://www.mk.co.kr/news/realestate/12111839",
+        "source": "매일경제 : 부동산",
+        "published": "2026-07-30T13:01:32+09:00",
         "score": 100
-      },
-      {
-        "title": "부동산원, 주택도시기금 수탁은행과 맞손…“건전 가계부채 관리 지원”",
-        "summary": "금융기관 대출심사 효율화·민관 협력체계 구축 주택소유확인시스템 고도화 및 은행 연계 추진도한국부동산원이 주택도시기금 정책대출 심사의 정확성을 높이기 위해 시중은행과 협력체계 구축에..",
-        "link": "https://www.mk.co.kr/news/realestate/12110766",
-        "source": "매일경제 : 부동산",
-        "published": "2026-07-29T17:51:18+09:00",
-        "score": 90
-      },
-      {
-        "title": "“우리 동네엔 이런 집 없나요?”…‘10년 월세 0원’ 공짜 주택, 어딘가 보니",
-        "summary": "포항시·삼도 사회공헌형 민간임대 공급 협약 공공지원민간임대 934가구 중 100가구 배정 보증금·입주기준 추후 확정경북 포항에 다자녀가구와 신혼부부 등 주거지원이 필요한 계층을 대..",
-        "link": "https://www.mk.co.kr/news/realestate/12110985",
-        "source": "매일경제 : 부동산",
-        "published": "2026-07-29T20:23:04+09:00",
-        "score": 80
       }
     ],
     "국제경제": [
       {
-        "title": "美 트럼프, 연속 금리 동결에도 연준 의장 신뢰 \"이사회 때문\"",
-        "summary": "미국 연방준비제도(연준)을 상대로 기준금리 인하를 요구하며 의장까지 교체했던 미국 도널드 트럼프 대통령이 29일(현지시간) 연준의 금리 동결에 불만을 드러냈다. 그는 자신이 새로 임명한 연준 의장이 유능하지만...",
-        "link": "http://www.fnnews.com/news/202607300701111136",
-        "source": "파이낸셜뉴스",
-        "published": "2026-07-30T07:08:00+09:00",
-        "score": 98
+        "title": "워시 체제의 연준에 대한 반란…7월 FOMC 5가지 핵심 포인트",
+        "summary": "미국 연방준비제도(연준)가 29일(현지시간) 막을 내린 연방공개시장위원회(FOMC)에서 시장 다수의 예상대로... 다음은 CNBC 보도를 중심으로 이번 FOMC의 핵심 메시지를 5가지로 정리한 것이다. ①치열해진 가족 싸움 이날...",
+        "link": "https://www.mt.co.kr/world/2026/07/30/2026073010384081917",
+        "source": "머니투데이",
+        "published": "2026-07-30T11:15:00+09:00",
+        "score": 108
       },
       {
-        "title": "마이크로소프트·메타, 기대 이상의 분기 실적...연준 금리 동결",
-        "summary": "[기자] 연준은 연방 공개 시장위원회, FOMC 정례 회의에서 기준금리를 올해 1월과 3월, 4월, 6월에 이어... 앞서 트럼프 대통령은 FOMC 회의를 하루 앞두고 \"금리는 인하돼야 한다\"며 미국의 국내 총생산 증가율이 12%까지 될...",
-        "link": "https://www.ytn.co.kr/_ln/0104_202607300700365572",
-        "source": "YTN",
-        "published": "2026-07-30T07:00:00+09:00",
-        "score": 94
-      },
-      {
-        "title": "인플레 우려에 뉴욕증시 하락…다우 2%↓",
-        "summary": "미국 연방준비제도(Fed·연준)가 기준금리를 동결하자 인플레이션에 뒷북 대응이 아니냐는 우려를... 연준은 이날 연방공개시장위원회(FOMC) 회의를 열어 기준금리를 3.50∼3.75%로 동결했다. 베스 해맥, 닐 카슈카리...",
-        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=361036",
-        "source": "이데일리",
-        "published": "2026-07-30T07:42:00+09:00",
+        "title": "연준 위원 3명 “인상” 더 강해진 매파…9월 금리인상론 확산 [미 금리...",
+        "summary": "미국 연방준비제도(Fed·연준)가 29일(현지시간) 기준금리를 동결했지만 연방공개시장위원회(FOMC) 위원 3명이... 워시 의장은 이날 열린 연방공개시장위원회(FOMC) 회의 후 기자회견에서 “일부 가계, 기업, 시장...",
+        "link": "https://biz.heraldcorp.com/article/10825566?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-07-30T11:27:00+09:00",
         "score": 78
       },
       {
-        "title": "매파적 금리 동결 택한 美 연준…한은, 백투백 인상 나설까",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/30/134392018.1.jpg\" vspace=\"10\" />미국 연방준비제도(Fed·연준)가 목표 수준을 웃도는 물가 상승률에 ‘매파적 동결’을 선택했다. 한국은행도 인플레이션 우려가 완화되지 않으면 다음달 곧바로 추가 금리 인상에 나설 수 있을 것으로 보인다.연준은 28~29일(현지 시간) 열린 연방공개시장위원회(FOMC) 회의에서 기준금리를 연 3.50~3.75%로 동결했다. 올해 1월과 3월, 4월, 6월에 이은 5번째 금리 동결이다. 케빈 워시 연준 의장이 취임한 이후 두번째 금리 동결이다.만장일치로 기준금리를 동결한 지난달과 달리 이번에는 표가 9대 3으로 갈렸다. 베스 해맥 클리블랜드 연은 총재와 닐 카시카리 미니애폴리스 연은 총재, 로리 로건 댈러스 연은 총재는 금리를 0.25%포인트 인상해야 한다고 주장했다.금리 동결에 반대...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260730/134392017/1",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-07-30T07:22:43+09:00",
-        "score": 78
+        "title": "[시장 따라잡기] 하반기 로봇 모멘텀 유효 진단 속 주목할 곳은?",
+        "summary": "먼저, 7월 FOMC 결과가 오늘(30일) 새벽 나왔는데, 이후 미국 장기채 금리가 급등했더라고요? Q. 여기에 최대... 새벽 연준의 금리 결정 그리고 트럼프의 강경 발언에 중동 정세 불안 확대가 겹치면서, 다우지수도 15개월 만에...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000325563?division=NAVER",
+        "source": "SBS",
+        "published": "2026-07-30T13:39:00+09:00",
+        "score": 76
       },
       {
-        "title": "워시 감싼 트럼프 \"워시는 더 낮은 금리 보고 싶어해…정치적인 위원회...",
-        "summary": "오늘 FOMC와 기자회견이 끝난 후 워싱턴 일대에선 다양한 반응이 나오고 있습니다. 앞서 미국이 세계에서 가장 금리가 낮은 나라여야 한다고 주장했던 트럼프 대통령은 오늘 워시 의장의 동결 결정을 감쌌습니다. 취재진이...",
-        "link": "https://www.hankyung.com/article/202607304397i",
-        "source": "한국경제",
-        "published": "2026-07-30T06:43:00+09:00",
-        "score": 68
+        "title": "한은 “미 연준 통화정책과 중동 관련 불확실성 확대”",
+        "summary": "연방공개시장위원회(FOMC) 회의 결과와 관련해 \"미 연준 통화정책, 중동 사태 등과 관련한 불확실성이 확대됐다\"고 평가했습니다. 박종우 한은 부총재보는 이날 오전 한은에서 '시장상황 점검회의'를 주재하고 \"이번 FOMC...",
+        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5209139",
+        "source": "매일경제",
+        "published": "2026-07-30T11:04:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "美 연준, 5연속 기준금리 동결",
+        "summary": "다만 연방공개시장위원회(FOMC) 위원 3명이 금리 인상을 주장하며 반대표를 던지면서 시장에서는 이번 결정을 사실상의 ‘매파적(통화 긴축 선호) 동결’로 받아들이는 분위기다. 연준은 이날 FOMC 정례회의를 마친...",
+        "link": "https://biz.heraldcorp.com/article/10825581?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-07-30T11:30:00+09:00",
+        "score": 70
       }
     ],
     "AI와 경제": [
       {
-        "title": "IPO 신주 유입 자금 2450억, 스테이블코인-AI 인프라 투자",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/07/29/134382795.3.jpg\" vspace=\"10\" />케이뱅크가 올해 초 기업공개(IPO)를 통해 확보한 자금을 스테이블코인 해외 송금과 인공지능(AI) 인프라 구축에 투입한다. 원화와 유로화의 가치에 연동된 스테이블코인을 이용해 해외로 더 빠르고 저렴하게 송금하는 방식을 연구하고 AI 전용 데이터센터와 그래픽처리장치(GPU)도 구축할 계획이다.  케이뱅크의 IPO 전체 공모 금액은 4980억 원이다. 공모주 6000만 주 가운데 절반인 3000만 주는 새로 발행한 주식이고 나머지 절반은 기존 주주들이 내놓은 주식이다. 이에 따라 케이뱅크에 직접 유입된 신주모집 자금은 2490억 원이다. 나머지 2490억 원은 주식을 판 기존 투자자들에게 돌아갔다. 주식 발행에 든 비용을 빼면 케이뱅크가 확보한 돈은 약 2450억 원에 달한다. 케이...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260729/134382796/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-07-30T04:30:00+09:00",
-        "score": 42
-      },
-      {
-        "title": "[MUST KNOW5]월가는 '패닉'…AI 투자에 시장이 흔들렸다",
-        "summary": "美 FED 워시 “AI 투자 확대, 現 경제 가장 두드러진 특징” 케빈 워시 미국 연방준비제도(Fed) 의장이 인공지능(AI) 인프라 투자를 현재 미국 경제에서 가장 두드러진 변화로 평가하면서도, 인플레이션이 다시 확대될...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02722406645519768",
-        "source": "이데일리",
-        "published": "2026-07-30T07:33:00+09:00",
-        "score": 38
-      },
-      {
-        "title": "美의회 찾고 백악관도 가는 올트먼…‘GPT 해킹’ 충격 속 AI 규제론 논...",
-        "summary": "그는 이날 경제방송 CNBC와 인터뷰에서 이번 주 워싱턴DC에 계속 머물면서 수지 와일스 백악관 비서실장과도 만날 예정이라고 밝혔다. 올트먼 CEO의 이 같은 행보는 앞서 도널드 트럼프 대통령이 행정명령으로 지시한...",
-        "link": "https://biz.heraldcorp.com/article/10825024?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-07-30T07:48:00+09:00",
-        "score": 34
-      },
-      {
-        "title": "‘AIDC 얼라이언스’ 출범… 18.4GW 건설 본격화",
-        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0730/2026072920420660214_1785325326_1785311346.jpg\" /></center><br />3대 메가프로젝트의 하나로 추진되는 대규모 인공지능 데이터센터(AIDC) 구축 및 국가 전략 산업화를 위한 ‘AIDC 얼라이언스’가 29일 공식 출범했다. 초대 민간 의장은 한국정보통신진흥협회장인 정재헌 SK텔레콤 대표가 맡았다.<br /><br />AIDC 얼라이언스는 18.4기가와트(GW) 규모의 대규모 AIDC 건설을 비롯해 전력·냉각·정보통신(IT) 장비 등 전·후방 산업 수출 산업화와 클러스터 조성 및 테스트베드 구축 등 추진한다. 조직은 정부와 민간 공동의장 체제로 운영된다. 민간에서는 SK텔레콤과 네이버클라우드, 삼성SDS, NHN클라우드, LS일렉트릭, LG유플러스, LG전자, GS, 카카오, KT, KT엔에프, 퓨리오사AI 등 12개 기업...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=1785311346",
+        "title": "AI로 벌고 게임에서 깎였다… MS 게임 매출 10% 감소",
+        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0730/2026073012200463052_1785381605_0030183601.jpg\" /></center><br /><br /><br />마이크로소프트(MS)가 인공지능(AI) 사업에 힘입어 시장 기대를 크게 넘어선 분기 실적을 내놨지만, 게임 부문은 대규모 구조조정 비용까지 겹치며 두 자릿수 역성장을 기록했다.<br /><br />MS는 29일(현지시간) 2026회계연도 4분기(4~6월) 매출 900억달러, 순이익 358억달러를 기록했다고 밝혔다. 각각 전년 동기보다 18%, 31% 늘었다. 주당순이익은 4.81달러로 시장 예상치를 크게 웃돌았다. 실적 발표 후 주가는 8% 가까이 뛰었다.<br /><br />반면 Xbox 사업 매출은 10% 감소했다. 게임·구독 등 콘텐츠·서비스 매출이 10%, 콘솔 하드웨어 매출이 13% 줄어 두 축이 동시에 빠졌다. 세 분기 연...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030183601",
         "source": "국민일보 | 경제",
-        "published": "2026-07-29T16:23:00+00:00",
+        "published": "2026-07-30T03:21:00+00:00",
+        "score": 36
+      },
+      {
+        "title": "“업무효율화·실무역량 제고”…한국토지신탁, 생성형 인공지능 맞춤형 교육",
+        "summary": "한국토지신탁이 임직원 대상 인공지능(AI) 맞춤형 교육 프로그램을 진행한다. 30일 한국토지신탁에 따르면 교육 대상은 2026년도 신규입사자다. 생성형 AI와 관련 OA(사무자동화..",
+        "link": "https://www.mk.co.kr/news/realestate/12111678",
+        "source": "매일경제 : 부동산",
+        "published": "2026-07-30T09:57:07+09:00",
+        "score": 32
+      },
+      {
+        "title": "[컨콜] 삼성전기 “빅테크 등 10여개 고객과 MLCC 장기공급계약… AI 기...",
+        "summary": "고도화와 전기차(xEV) 시장 성장으로 전장용 MLCC 공급도 늘었다. 삼성전기는 3분기에도 AI 인프라 투자... AI용 최선단 제품 공급을 확대하는 동시에 자율주행차와 전기차 시장 성장에 맞춰 고용량·고전압 제품...",
+        "link": "https://biz.chosun.com/it-science/ict/2026/07/30/XQZWJ56PTZBKBMDLFUQ5ES6B34/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-07-30T13:40:00+09:00",
         "score": 30
       },
       {
-        "title": "“AI 맹신 말고 레버리지는 쳐다보지도 마”...투자의 神, 대박낸 종목은",
-        "summary": "환율이나 인수·합병 영향 등을 제외한 유기적 매출은 6% 늘었고 영업이익은 44억4500만달러로 9% 증가했다. 주당순이익(EPS)은 1.03달러로 16% 늘었으며 일회성 요인을 제외한 조정 EPS도 0.97달러를 기록해 시장 전망을...",
-        "link": "https://www.mk.co.kr/article/12111406",
-        "source": "매일경제",
-        "published": "2026-07-30T06:35:00+09:00",
+        "title": "부산 신설법인 3개 반기 연속 증가… AI 창업 ‘쑥’",
+        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0730/2026073009450862612_1785372308_0030182480.png\" /></center><br />부산지역 신설법인 수가 2024년 하반기 이후 3개 반기 연속 증가하며 창업시장에 회복 신호를 보내고 있다. 특히 정보통신업 신설법인이 전년보다 48.6% 늘어 인공지능(AI) 산업과 디지털 전환이 지역 창업의 새로운 성장축으로 떠오르고 있는 것으로 분석됐다.<br /><br />부산상공회의소는 30일 발표한 ‘2026년 상반기 부산지역 신설법인 현황 조사’에서 올해 상반기 부산지역 신설법인은 2317개로 지난해 같은 기간보다 9.2%(195개) 증가했다고 밝혔다. 직전 반기(2261개)보다도 2.5%(56개) 늘었다.<br /><br />신설법인 수는 2024년 하반기 2100개로 바닥을 찍은 뒤 3개 반기 연속 증가세를 이어갔다. 부산상의는 부산 방문...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030182480",
+        "source": "국민일보 | 경제",
+        "published": "2026-07-30T00:47:00+00:00",
+        "score": 30
+      },
+      {
+        "title": "피치 \"AI發 시장 조정, 심각한 크레디트 위험 요소\"",
+        "summary": "및 채권 발행이 연이어 이루어졌다\"고 설명했습니다. 피치에 따르면 10년 평균 이익을 기준으로 한 S&P500... 투자등급 채권 발행 규모는 1천820억 달러에 달했습니다. 피치는 \"AI 투자 규모가 실물 경제 및 전체 자본 시장에...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000325652?division=NAVER",
+        "source": "SBS",
+        "published": "2026-07-30T13:57:00+09:00",
         "score": 28
       },
       {
@@ -467,14 +467,6 @@
         "link": "https://www.mk.co.kr/news/it/12110833",
         "source": "매일경제 : 경제",
         "published": "2026-07-29T18:16:17+09:00",
-        "score": 26
-      },
-      {
-        "title": "포항에 직장인-학생 AI 교육 거점 개소",
-        "summary": "경북 제조업의 디지털 전환을 이끌고 인공지능(AI)·소프트웨어(SW) 전문 인력을 양성하는 거점이 포항에 문을 열었다. 기업이 보유한 산업 데이터를 교육과 신기술 개발, 현장 실증에 활용해 지역 산업의 경쟁력을 높이는 역할을 맡는다. 경북도는 포항시 남구 송도동 첨단해양연구개발(R&amp;D)센터 9층에 ‘정보통신기술(ICT) 콤플렉스’를 개소했다고 29일 밝혔다. 과학기술정보통신부와 정보통신산업진흥원이 추진하는 ‘ICT이노베이션스퀘어 확산 사업’의 핵심 시설이다. 이 센터는 재직자와 청년, 학생, 예비 취·창업자에게 AI·SW·데이터 처리 교육을 기초부터 심화 과정까지 제공한다. 기업의 현장 문제를 공동으로 해결하는 프로젝트 기반 학습(PBL)도 운영한다. 초기 창업 기업 등이 첨단 장비를 활용해 기술과 제품을 개발·실증할 수 있는 개방형 실험실도 갖췄다. 경북도는 제조업 재직자를 대상으로 직무와 AI 기술을 결합한 온·오프라인 하이브리드(혼합형) 교육을 운영할 계획이다. 지",
-        "link": "https://www.donga.com/news/Society/article/all/20260730/134389713/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-07-30T04:30:00+09:00",
         "score": 26
       }
     ],
@@ -488,75 +480,75 @@
         "score": 24
       },
       {
-        "title": "포스코그룹, 희토류 매장량 '세계 2위' 브라질 뚫는다",
-        "summary": "포스코그룹은 북미와 유럽의 글로벌 완성차기업들을 대상으로 전기차 구동모터용 희토류 영구자석 공급계약을 잇따라 체결하며 글로벌 시장공략을 가속화하고 있다. 브라질에서 조달한 원료를 글로벌 완성차 공급망과...",
-        "link": "https://www.mt.co.kr/industry/2026/07/30/2026072920005329128",
-        "source": "머니투데이",
-        "published": "2026-07-30T04:02:00+09:00",
+        "title": "“정치 떠난다더니”…머스크, 美 공화당에 거액기부 ‘정치 복귀’",
+        "summary": "외곽 정치후원 ‘아메리카 PAC’ 재가동 가구방문·디지털 광고 등에 자금 투입 트럼프 지지율 반등시킬 핵심 동력될 듯테크 억만장자 일론 머스크 테슬라 최고경영자가 다가오는 미국 중..",
+        "link": "https://www.mk.co.kr/news/world/12111908",
+        "source": "매일경제 : 국제",
+        "published": "2026-07-30T14:19:45+09:00",
         "score": 24
       },
       {
-        "title": "‘AI 사원’도 뽑았다... 진화화는 식품업계의 인공지능 활용법",
-        "summary": "농심은 부산 녹산 수출 전용 공장을 AI 기반 스마트 팩토리로 구축하고 있다. 생산 라인에 설치된 AI가 제품 사진 수십만 장을 학습해 면 굵기와 포장 상태, 인쇄 불량 등을 판별하고, 향후에는 설비 이상과 생산 차질까지...",
-        "link": "https://biz.chosun.com/distribution/food/2026/07/30/FAADDJN6VFAINKU6TI6BTVLGRE/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "title": "LG전자, 2분기 매출 23.8조·영업익 1.58조…역대 2Q 최대 실적",
+        "summary": "지난해 미국 수출 물량에 대한 관세 환급액이 일회성 수익으로 반영된 점도 영업이익 증가에 기여했다. 기업 간 거래(B2B) 매출은 전년 동기 대비 5% 늘어난 6조5000억원(LG이노텍 제외 전사 매출의 36%)을 기록했으며...",
+        "link": "https://view.asiae.co.kr/article/2026073014173226425",
+        "source": "아시아경제",
+        "published": "2026-07-30T14:17:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "중동전쟁에 중기제조업 생산 위축 지속, 전년比 3.7%↓",
+        "summary": "반면 2분기 중소기업 수출은 339억 1000만 달러로 전년동기대비 12.7% 증가했다. 조업일수는 67.5일에서 67.... 중소제조업의 생산 및 고용이 전년동월대비 위축되고 있지만 수출은 견조세를 이어 가고 있고...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04995446645519768",
+        "source": "이데일리",
+        "published": "2026-07-30T14:18:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "[컨콜] 삼성전기 “AI 서버 MLCC 재고 감소… 3분기 매출·ASP 모두 오른...",
+        "summary": "회사는 30일 2분기 실적발표 컨퍼런스콜에서 “AI 서버용과 전기차(xEV)용 MLCC 출하가 늘면서 전체 재고는... 예상된다”며 “전기차 출하도 전 분기 대비 두 자릿수 증가가 예상돼 전장용 MLCC 수요 역시 견조할...",
+        "link": "https://biz.chosun.com/it-science/ict/2026/07/30/EDQFH6UKVFCBVM5CFKQ3G5DMWU/?utm_source=naver&utm_medium=original&utm_campaign=biz",
         "source": "조선일보",
-        "published": "2026-07-30T06:01:00+09:00",
+        "published": "2026-07-30T14:00:00+09:00",
         "score": 24
       },
       {
-        "title": "[산업이(&#30064;)면]‘매출 80조’ 찍었는데…현대차·기아, ‘실속’은 얇아진다, 왜?",
-        "summary": "하이브리드 호조로 2분기 사상 최대 매출 찍었지만실제 손에 쥔 영업이익은 되려 감소상반기 미국에 낸 관세 부담만 3.3조원딜러 지원금 등 인센티브 증가로 수익성 비상지난달 2일 브라이언 켐프 미국 조지아주 주지사 부부가 탑승한 첫 번째 HMGMA 생산 기아 스포티지 하이브리드가 주차 로봇에 실려 무대에 등장하고 있다. 현대자동차 제공현대자동차와 기아가 올해···",
+        "title": "[산업이(&#30064;)면]‘매출 80조’ 찍었는데…현대차·기아 ‘실속’은 얇아진다, 왜?",
+        "summary": "하이브리드 호조로 2분기 사상 최대 매출실제 손에 쥔 영업이익은 되레 감소상반기 미국에 낸 관세 부담만 3.3조원딜러 지원금 등 인센티브 증가로 수익성 비상지난달 2일 브라이언 켐프 미국 조지아주 주지사 부부가 탑승한 첫 번째 HMGMA 생산 기아 스포티지 하이브리드가 주차 로봇에 실려 무대에 등장하고 있다. 현대자동차 제공현대자동차와 기아가 올해 2분기 ···",
         "link": "https://www.khan.co.kr/article/202607300600001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-07-30T06:00:00+09:00",
         "score": 24
       },
       {
-        "title": "포스코DX ‘AI 네이티브 컴퍼니’로 전환…산업 현장 피지컬 AI 적용",
-        "summary": "산업 현장엔 피지컬, 사무 영역엔 에이전틱“현장 설비부터 경영세스템까지 통합 역량”서울 중구 롯데호텔에서 29일 열린 포스코DX 기자간담회에서 질의응답을 하고 있다. 포스코DX 제공포스코DX가 산업 현장 피지컬 인공지능(AI)과 사무 영역 에이전틱 AI를 두 축으로 하는 ‘AI 네이티브 컴퍼니’로 회사 구조를 재편하겠다고 밝혔다. AI를 업무에 내재화하겠다···",
-        "link": "https://www.khan.co.kr/article/202607291609001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-07-29T16:09:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "“NASA, 2032년 도시급 ‘달 기지’ 계획… 한국, 협력 역량 갖춰”",
-        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0730/2026072920380660196_1785325086_1785313947.jpg\" /></center><br />미국 항공우주국(NASA)이 이르면 2032년 달에 사람이 체류할 수 있는 ‘도시’를 건설한다. 인류의 지속 가능한 달 상주를 실현하고 이를 전초기지 삼아 화성을 비롯한 심우주로 본격 진출하겠다는 구상이다. 전력· 통신·에너지·로봇기술 등 산업 역량을 갖춘 한국과는 기지 구축 전반에 걸쳐 폭넓은 협력을 모색할 방침이다.<br /><br />카를로스 가르시아 갈란 NASA 달 기지 프로그램 총괄책임자는 29일 서울 강남구 한국과학기술회관에서 기자간담회를 갖고 “50년 전 인류가 달에 갔을 때와 달리 이번 프로젝트는 다양한 국제 파트너들과 ‘팀’을 만들어 진행하고 싶다”고 말했다. 그는 이어 “한국 역시 이 팀에 참여할 역량이 있다고 생각해 방한하게 됐다”고...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=1785313947",
-        "source": "국민일보 | 경제",
-        "published": "2026-07-29T16:21:00+00:00",
-        "score": 24
-      },
-      {
-        "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
-        "summary": "■ 美금리 3.50∼3.75% 5연속 동결…연준 의장 &quot;인플레 2% 목표&quot;",
-        "link": "https://www.yna.co.kr/view/AKR20260730020500011",
+        "title": "IBK기업은행, 현대기아차·기보와 중소기업 금융지원 업무협약",
+        "summary": "(서울=연합뉴스) 이도흔 기자 = IBK기업은행[024110]은 현대기아차, 기술보증기금과 &apos;현대기아차 협력 반도체 기업 상생 금융지원&apos; 업무협...",
+        "link": "https://www.yna.co.kr/view/AKR20260730122300002",
         "source": "연합뉴스 경제 최신기사",
-        "published": "2026-07-30T07:30:00+09:00",
+        "published": "2026-07-30T14:18:47+09:00",
         "score": 20
       },
       {
-        "title": "양도세 高차익에 정조준…한시적 매도 유인 카드 '만지작'",
-        "summary": "(세종=연합뉴스) 안채원 송정은 기자 = 정부가 &apos;실거주 보호, 초고가·고차익 부담 강화&apos; 방향의부동산 세제 개편안을 두고 막판 조율에 들어갔다...",
-        "link": "https://www.yna.co.kr/view/AKR20260729181600002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-07-29T21:36:01+09:00",
-        "score": 20
-      },
-      {
-        "title": "에이전트AI, 65억원 유상증자…프라임밸류투자조합에 제3자배정",
-        "summary": "(서울=연합뉴스) 코스닥 상장사 에이전트AI[060900]는 운영자금 등 약 65억원을 조달하고자 제3자배정 유상증자를 결정했다고 29일 공시했...",
-        "link": "https://www.yna.co.kr/view/AKR20260729173200008",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-07-29T19:16:06+09:00",
-        "score": 20
-      },
-      {
-        "title": "풀무원, 애프터마켓서 10%대 급등",
-        "summary": "(서울=연합뉴스) 코스피 상장사 풀무원[017810]이 29일 애프터마켓에서 10%대 급등 중이다.",
-        "link": "https://www.yna.co.kr/view/AKR20260729169000008",
+        "title": "아모레퍼시픽홀딩스, 2Q 영업익 1천228억원…작년 대비 53.3%↑",
+        "summary": "(서울=연합뉴스) 코스피 상장사 아모레퍼시픽홀딩스[002790]는 연결 기준 올해 2분기 영업이익이 1천228억원으로 지난해 동기보다 53.3%...",
+        "link": "https://www.yna.co.kr/view/AKR20260730120800527",
         "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-07-29T18:12:07+09:00",
+        "published": "2026-07-30T14:13:05+09:00",
+        "score": 20
+      },
+      {
+        "title": "포스코홀딩스 2분기 영업이익 8천200억원…작년 대비 34.4%↑",
+        "summary": "(서울=연합뉴스) 코스피 상장사 포스코홀딩스[005490]는 연결 기준 올해 2분기 영업이익이 8천200억원으로 지난해 동기보다 34.4% 증가...",
+        "link": "https://www.yna.co.kr/view/AKR20260730120000527",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-07-30T14:09:44+09:00",
+        "score": 20
+      },
+      {
+        "title": "롯데정밀화학 2분기 영업이익 619억원…작년 동기 대비 611.5%↑",
+        "summary": "(서울=연합뉴스) 코스피 상장사 롯데정밀화학[004000]은 연결 기준 올해 2분기 영업이익이 619억원으로 지난해 동기보다 611.5% 증가한...",
+        "link": "https://www.yna.co.kr/view/AKR20260730118500527",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-07-30T14:02:25+09:00",
         "score": 20
       }
     ]
@@ -616,5 +608,42 @@
       "match_status": "OK",
       "importance_score": 5
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-07-30",
+    "generated_at": "2026-07-30T05:36:15.870822+00:00",
+    "briefing_hash": "e6e4efc30d05b91d",
+    "key_headlines": [
+      {
+        "title": "US Federal Reserve Holds Rates Steady; Korea Bank Eyes Consecutive Rate Hikes",
+        "summary": "The Federal Reserve maintained its benchmark rate at 3.50-3.75% for the fifth consecutive time on July 29, with three committee members dissenting and advocating for rate increases. This hawkish hold signals potential rate increases ahead, while the Bank of Korea is positioning itself for consecutive rate hikes amid strong domestic growth."
+      },
+      {
+        "title": "Manufacturing Sentiment Surges to 4-Year High on Semiconductor Boom",
+        "summary": "South Korea's manufacturing business sentiment index (CBSI) reached 103.2 in July, the highest level since June 2022, driven by strong performance in semiconductors, shipbuilding, and defense industries. This marks the strongest sentiment in over four years as major industries continue their robust recovery."
+      },
+      {
+        "title": "Government Pursues Dual Real Estate Tax Increases to Cool Housing Prices",
+        "summary": "The government and ruling party finalized comprehensive real estate tax reforms including strengthened taxation on public land prices exceeding 3 billion won and limiting long-term ownership deductions to 1 billion won. These measures aim to suppress rising property prices through dual taxation on holdings and transactions."
+      },
+      {
+        "title": "Seoul Apartment Prices Rise for 77 Consecutive Weeks",
+        "summary": "Seoul apartment prices increased 0.25% in the week of July 27, marking the 77th consecutive week of gains, though the pace of increases in both jeonse (deposit) and purchase prices slowed for the second consecutive week. External districts show accelerating buying activity as buyers rush to secure loans."
+      },
+      {
+        "title": "Microsoft Reports Strong AI-Driven Earnings But Gaming Segment Declines 10%",
+        "summary": "Microsoft recorded quarterly revenue of 90 billion dollars and net profit of 35.8 billion dollars, up 18% and 31% year-over-year respectively, bolstered by AI business expansion. However, Xbox gaming segment revenue declined 10% due to both content/service and hardware sales declines amid restructuring costs."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "Manufacturing business sentiment in South Korea has reached a four-year high of 103.2 in July 2026, driven by strong performance across semiconductors, shipbuilding, and defense sectors. The US Federal Reserve maintained its benchmark rate at 3.50-3.75% for the fifth consecutive time, though three committee members dissented by voting for rate increases, signaling a more hawkish stance. The government is implementing comprehensive real estate tax reforms to control housing price inflation, including stronger taxation on high-value properties and limiting ownership deductions. Seoul apartment prices have continued their 77-week streak of increases, though the pace of gains has moderated in recent weeks. Korea's economy continues showing resilience with strong growth prospects, though inflation and international uncertainties remain key concerns.",
+      "Macro & Fiscal Policy": "The Bank of Korea is positioned to accelerate consecutive rate hikes as the Korea-US rate differential remains at approximately 1 percentage point, with strong domestic economic growth supporting potential tightening measures. Q2 real GDP growth came in at 0.6% quarter-over-quarter and 3.7% year-over-year, exceeding the Bank of Korea's May forecast of 0.2% and supporting full-year growth targets above 3%. The government held a macro-financial meeting on July 30 to closely monitor impacts from US Federal Reserve policy decisions and Middle East geopolitical uncertainties. Core inflation trends will be critical in determining the timing and pace of Bank of Korea rate increases, with August inflation data expected to be particularly important. International oil prices and global capital flows are being closely monitored as key variables affecting domestic monetary policy decisions.",
+      "Financial Markets": "US long-term Treasury yields surged following the Federal Reserve's hawkish hold, causing significant turbulence in global financial markets with the Dow Jones index declining 2% amid oil price spikes. The Korean won weakened to the 1,430 won range per dollar, reflecting broader market volatility triggered by the FOMC decision and Middle East tensions. KOSPI index attempted recovery around the 6,000 level as Samsung Electronics shares gained momentum following positive semiconductor supply outlooks from major tech companies. Three FOMC members voted for rate increases, intensifying expectations for potential September rate hikes and causing market repricing across equity and fixed income segments. SK Hynix ADR and other semiconductor stocks showed notable volatility as investors reassess the trajectory of US monetary policy and its implications for tech earnings.",
+      "Industry & Technology": "South Korea's semiconductor industry continues its strong momentum with major players like Samsung Electronics and Samsung SDI reporting robust earnings and expanding production capacity. Samsung SDI announced that its US LFP battery manufacturing line will begin cell production in October 2026 for energy storage solutions, supporting domestic EV battery expansion. Fitein, a commercial EV battery platform company, was selected for the 2026 Innovation Premier 1000 designation for its battery subscription and fast-charging solutions for commercial vehicles. Korean researchers at KAIST have developed breakthrough battery technology that addresses rapid charging heat limitations, enhancing EV battery performance and safety. The US is implementing strict import restrictions on Chinese robotics and related components citing national security concerns, creating potential opportunities for Korean manufacturers in alternative supply chains.",
+      "Real Estate": "Seoul apartment prices rose for the 77th consecutive week to July 27, with a weekly increase of 0.25%, though the pace of gains in both jeonse and purchase prices decelerated for the second week in succession. Outer district areas like Jung-gu show accelerating buyer activity as purchasers rush to secure mortgage financing, with cumulative price increases in some areas like Seongbuk-gu reaching 10% year-to-date driven by redevelopment projects. The government is implementing comprehensive tax reforms including enhanced taxation on properties with public land prices exceeding 3 billion won and limiting long-term ownership deductions to 1 billion won to address price pressures. Major construction companies plan to supply approximately 23,000 units of large apartment complexes from August through year-end, reflecting continued strong new supply in the market. Commercial property vacancy rates have risen, creating financial pressure on small landlords unable to cover interest payments, signaling potential credit stress in the real estate sector if economic conditions deteriorate.",
+      "International Economy": "The Federal Reserve maintained its policy rate at 3.50-3.75% with three committee members dissenting in favor of rate increases, representing a more hawkish stance that is expanding market expectations for potential September rate hikes. Long-term US Treasury yields surged following the FOMC decision, causing significant repricing across global financial markets and triggering equity selloffs, particularly affecting the Dow Jones index. The Bank of Korea identified expansion of uncertainty related to US monetary policy and Middle East geopolitical developments as key risk factors for Korea's financial markets and economic stability. Elon Musk has resumed significant political contributions to Republican causes despite earlier claims of withdrawing from politics, potentially influencing US policy trajectories relevant to Korean exporters. Global capital flows are shifting in response to Fed policy expectations and Middle East tensions, with the dollar strengthening as a safe-haven asset while emerging market currencies face pressure.",
+      "AI & Economy": "Microsoft reported strong Q4 earnings growth of 18% in revenue and 31% in net profit, significantly exceeding market expectations and driving an 8% stock price increase, though this growth was heavily concentrated in AI infrastructure investment segments. Korean AI-related startups are showing strong momentum with Busan region new IT business formations increasing 48.6% year-over-year, reflecting the emergence of AI and digital transformation as new growth drivers for the startup ecosystem. Samsung Electronics and Samsung SDI are heavily investing in AI server components and MLCCs, with Samsung Electronics securing long-term supply contracts with over 10 major tech companies for advanced AI infrastructure products. The Bank of Korea is prioritizing AI-driven business transformation, launching customized AI education programs for new employees to enhance operational efficiency and practical skills. Rating agency Fitch has warned that AI-related market adjustments pose serious credit risks to the broader capital markets, as AI investment valuations have potentially outpaced underlying economic fundamentals and profit realization timelines.",
+      "Others": "LG Electronics reported record Q2 results with 23.8 trillion won in revenue and 1.58 trillion won in operating profit, benefiting from US export tariff refunds and strong B2B segment performance. Small and medium-sized manufacturers continued experiencing production contraction with output declining 3.7% year-over-year, though SME exports showed strength with a 12.7% increase, suggesting external demand resilience despite domestic production challenges. Commercial property vacancies have created severe financial distress for small landlords unable to cover interest payments, raising concerns about potential credit stress in the real estate financing sector. Mid-sized manufacturers in the Middle East conflict-affected industries are experiencing ongoing production disruptions, offsetting gains from strong export performance in other sectors. Samsung Electronics reported strong earnings with improved profit margins driven by semiconductor demand recovery and efficiency improvements, signaling positive momentum across Korea's major industrial conglomerates."
+    }
+  }
 }
