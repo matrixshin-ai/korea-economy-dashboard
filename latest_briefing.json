@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-01T14:36:16.508387+09:00",
+  "generated_at": "2026-08-01T18:47:41.517158+09:00",
   "date": "2026-08-01",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 539,
-    "total_used": 524,
+    "total_input": 550,
+    "total_used": 533,
     "dropped_quality": 6,
-    "dropped_negative": 9,
+    "dropped_negative": 11,
     "per_category": {
-      "거시경제·재정": 57,
+      "거시경제·재정": 55,
       "금융시장": 105,
-      "기타": 238,
-      "산업·과학": 57,
-      "부동산": 35,
+      "기타": 242,
+      "산업·과학": 65,
+      "부동산": 34,
       "국제경제": 27,
       "AI와 경제": 5
     }
@@ -240,14 +240,6 @@
         "score": 90
       },
       {
-        "title": "3명 '인상' 소수의견… 물가압력 거셀땐 9월 인상 가능성 [美 금리 5연속...",
-        "summary": "노동인구가 감소하는 가운데서도 고용 증가세가 이를 따라가고 있으며, 실업률도 큰 변화 없이 안정적 수준을 유지하고 있다고 진단했다. 다만 인플레이션이 목표치를 웃돌고 있다는 점을 의식한 듯 물가전망에 대한...",
-        "link": "http://www.fnnews.com/news/202607301816312279",
-        "source": "파이낸셜뉴스",
-        "published": "2026-07-30T18:18:00+09:00",
-        "score": 88
-      },
-      {
         "title": "[사설] 생산·투자·소비 '트리플 증가'라는데…경기불안 변수 수두룩",
         "summary": "얼마 전 한국은행이 발표한 2분기 실질 국내총생산(GDP)도 수출과 내수가 절반씩 기여하면서 전년 동기 대비 3.7% 증가한 것으로 나타났다. 직전 분기 대비로는 0.6% 증가해 기존 전망치 0.2%를 크게 웃돌았다. 중동 전쟁...",
         "link": "https://www.hankyung.com/article/2026073185851",
@@ -286,6 +278,14 @@
         "source": "서울경제",
         "published": "2026-07-31T14:57:00+09:00",
         "score": 70
+      },
+      {
+        "title": "\"한은, 연 2회 기준금리 추가 인상 가능성 커졌다\"",
+        "summary": "한국은행이 올해 기준금리를 두 차례 추가 인상할 가능성이 크다는 관측이 나왔다. 민현하 하나금융연구소 연구위원은 최근 게재한 금융시장 모니터 보고서에서 “연내 추가 2회 기준금리 인상 가능성이 증가했다”고...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01928646645543056",
+        "source": "이데일리",
+        "published": "2026-08-01T08:02:00+09:00",
+        "score": 70
       }
     ],
     "금융시장": [
@@ -322,25 +322,17 @@
         "score": 90
       },
       {
-        "title": "[속보] 코스피 6,595.45(▲1,001.89p, 17.91%) 마감, 원·달러 환율 1,425.9원",
-        "summary": "코스피 6,595.45(▲1,001.89p, 17.91%) 마감, 원·달러 환율 1,425.9원",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5209510",
-        "source": "MBN : 경제기사",
-        "published": "2026-07-30T17:04:00+09:00",
+        "title": "국민의힘 \"증시 하락률 1위\"…레버리지 ETF 참사 조사 추진",
+        "summary": "국민의힘은 1일 “7월 코스피는 22% 폭락해 주요국 증시 하락률 1위라는 치욕을 기록했다”고 비판했다. 박성훈 당 수석대변인은 이날 논평을 통해 “이재명 정부의 ‘롤러코스피’는 결국 개미는 울리고 외국인만...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02381286645543056",
+        "source": "이데일리",
+        "published": "2026-08-01T15:20:00+09:00",
         "score": 90
       }
     ],
     "산업·과학": [
       {
-        "title": "[사설] AI 대전환 시대, 초격차 제조강국으로 가자",
-        "summary": "미국은 반도체와 배터리·전기차에 이어 조선업까지 자국으로 불러들이고, 일본은 반도체 부활을 위해 TSMC 생산라인을 유치했고, 중국은 AI와 휴머노이드 로봇을 앞세워 제조 강국의 입지를 다지는 중이다. 서비스와...",
-        "link": "https://www.sedaily.com/article/20074532?ref=naver",
-        "source": "서울경제",
-        "published": "2026-08-01T00:00:00+09:00",
-        "score": 84
-      },
-      {
-        "title": "기술 부족한 中 반도체가 무서운 이유…여기에 있다 [테크토크]",
+        "title": "반도체판에 닥친 중국발 공포…\"삼성전자 무너뜨린 건 기술 아니라 '물...",
         "summary": "스마트폰, 전기차, 인공지능(AI) 칩 등에 적용되는 최첨단 기술입니다. 28㎚ 이상의 레거시 반도체는 용도가 다릅니다. 이런 공정은 주로 산업용 로봇, 가전제품 등에 들어가는 주문형 반도체(ASIC)입니다. 성능은 낮지만...",
         "link": "https://view.asiae.co.kr/article/2026072915372698437",
         "source": "아시아경제",
@@ -356,12 +348,20 @@
         "score": 74
       },
       {
-        "title": "\"지수 폭락에 속지 마세요\"…\"반도체 흔들릴 때 여기로 갈아타세요\"[주...",
-        "summary": "황 연구원은 \"마이크론 수익률이 마이너스로 전환된 구간에서 에너지, 유틸리티, 부동산, 헬스케어, 필수소비재 등이 유의미한 비율로 플러스 수익률 유지했다\"며 \"7월 반도체 공급 우위가 흔들리는 과정에서 애플과 같은...",
-        "link": "https://view.asiae.co.kr/article/2026073015465070067",
+        "title": "“피크아웃 공포에 주가 ‘털썩’” 손절 고민했는데…반도체주 아직 더...",
+        "summary": "이 연구원은 “공급 과잉의 시그널이 전혀 포착되지 않고 있으며 3분기 DRAM 평균판매단가(ASP) 상승률 역시 기존 추정치보다 높을 것으로 전망된다”고 덧붙였다. LG엔솔 등 배터리 3사 투자! 꼭 알아야 할 ‘이것’",
+        "link": "https://www.sedaily.com/article/20074616?ref=naver",
+        "source": "서울경제",
+        "published": "2026-08-01T11:52:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "반도체 호황에 수출 질주…7월 989억달러 '역대 7월 최대' (종합)",
+        "summary": "하이브리드차와 전기차 수출이 각각 22.2%, 31.9% 늘어난 반면 내연기관차는 3.1% 감소했다. 신차 수출은 주요 업체들의 여름 휴가 일정이 지난해 7월 말에서 올해 8월 초로 옮겨진 영향으로 증가했지만, 중고차는...",
+        "link": "https://view.asiae.co.kr/article/2026080110521696601",
         "source": "아시아경제",
-        "published": "2026-08-01T09:48:00+09:00",
-        "score": 62
+        "published": "2026-08-01T10:52:00+09:00",
+        "score": 66
       }
     ],
     "부동산": [
@@ -382,19 +382,19 @@
         "score": 115
       },
       {
+        "title": "집값·대출에 밀린 2030…“평수 안 본다” 초소형 아파트 거래 역대 최...",
+        "summary": "30일 한국부동산원 부동산통계정보시스템에 따르면 올해 1~5월 서울 전용면적 40㎡ 이하 아파트 거래량은 3985건으로 집계됐다. 지난해 같은 기간(2692건)보다 약 48% 증가한 수치로, 관련 통계가 작성된 2006년 이후...",
+        "link": "https://biz.heraldcorp.com/article/10826962?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-08-01T14:38:00+09:00",
+        "score": 110
+      },
+      {
         "title": "“뭉칠수록 강하다”…1차·2차 순차 분양하는 시리즈 아파트 ‘인기’",
         "summary": "한 지역에서 1차·2차 등으로 순차 공급되는 ‘시리즈 아파트’가 부동산 시장에서 두각을 나타내고 있다. 선발 단지를 통해 입지와 상품성이 검증된 데다 후속 단지로 갈수록 브랜드 타..",
         "link": "https://www.mk.co.kr/news/realestate/12113208",
         "source": "매일경제 : 부동산",
         "published": "2026-07-31T11:10:57+09:00",
-        "score": 100
-      },
-      {
-        "title": "그린벨트 풀어도 집값은 잡히지 않는다[손바닥 부동산]",
-        "summary": "물론 보상채권 비중을 확대하면 유동성 유입을 줄일 수 있다는 의견도 있다. 그러나 현실에서는 채권 보상에 대한 반발이 크고 사업 지연과 소송으로 이어지는 사례도 적지 않다. 결국 원활한 사업 추진을 위해 현금 보상...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01915526645543056",
-        "source": "이데일리",
-        "published": "2026-08-01T08:02:00+09:00",
         "score": 100
       }
     ],
@@ -416,20 +416,20 @@
         "score": 108
       },
       {
+        "title": "'엄한 관세에 비해 소홀'…미국, 중국 '강제노동' 수입품 단속 급감",
+        "summary": "중국이 핵심광물 수출 통제로 맞불을 놓을 가능성을 트럼프 행정부가 의식한다는 것입니다. 또한 세관국경보호국(CBP) 내 업무 우선순위 변경과 인력 감축 역시 영향을 미친 것으로 전해졌습니다. 전임 조 바이든...",
+        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5209657",
+        "source": "매일경제",
+        "published": "2026-08-01T14:55:00+09:00",
+        "score": 96
+      },
+      {
         "title": "미국 연준위원 3인, 금리인상 공개 촉구…“늦기 전에 행동해야”",
         "summary": "이들 3명은 지난달 28∼29일 연방공개시장위원회(FOMC)에서 기준금리를 3.50∼3.75%로 동결하는 결정에 반대... 올해 FOMC 의결권이 없는 바킨 총재는 자신에게 의결권이 있었다면 금리 동결에 반대표를 던졌을지는 잘...",
         "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8625961&ref=A",
         "source": "KBS",
         "published": "2026-08-01T05:22:00+09:00",
         "score": 90
-      },
-      {
-        "title": "“1년에 8번 너무 많다. 6주에 한 번꼴”…美 연준의장이 줄이겠다는 ‘...",
-        "summary": "캐빈 워시 미국 연방준비제도(Fed) 의장이 기준금리를 결정하는 연방공개시장위원회(FOMC) 정례회의의... 현재 연준은 1년에 8번, 약 6주간격으로 이틀간 FOMC를 열어 기준금리 등을 결정한다. 또 회의 내용은 3주 후 FOMC...",
-        "link": "https://www.mk.co.kr/article/12114163",
-        "source": "매일경제",
-        "published": "2026-08-01T08:01:00+09:00",
-        "score": 78
       },
       {
         "title": "'엔화 구하기' 작전 …日 대량매입 맞춘 美 연준개입에 3% '쑥'",
@@ -450,14 +450,6 @@
         "score": 34
       },
       {
-        "title": "AI 패권 경쟁 ‘쩐의 전쟁’…빅테크 투자 1조달러 넘었다",
-        "summary": "구글과 아마존, 마이크로소프트(MS), 메타 등 미국 4대 빅테크의 인공지능(AI) 투자 규모가 AI 경쟁이 본격화된 이후 처음으로 1조달러(약 1437조원)를 넘어선 것으로 전해..",
-        "link": "https://www.mk.co.kr/news/world/12113486",
-        "source": "매일경제 : 국제",
-        "published": "2026-07-31T16:24:24+09:00",
-        "score": 34
-      },
-      {
         "title": "아마존, 분기 매출 첫 2000억달러…AI 투자 더 늘린다",
         "summary": "■ 환율 급락: 한·미·일 3국 통화당국의 공조 개입설이 퍼지며 원·달러 환율이 31일 장중 1410원대까지 급락했다. 한편 외환시장 변동성이 커지면서 국내 외환거래 규모도 사상 최대 수준으로 확대되는...",
         "link": "https://www.sedaily.com/article/20074601?ref=naver",
@@ -472,6 +464,14 @@
         "source": "동아일보 | 경제 뉴스",
         "published": "2026-08-01T01:40:00+09:00",
         "score": 34
+      },
+      {
+        "title": "'AI 노스트라다무스'의 추락…시타델 나서자 시장은 안도",
+        "summary": "SA는 반도체와 AI 인프라 관련주에 집중 투자하면서 최대 4배의 레버리지(차입 투자)를 활용해온 것으로... AI와 반도체 관련주에 비슷한 방식으로 집중 투자한 다른 펀드가 마진콜에 직면하면 연쇄적인 자산 매각이...",
+        "link": "https://www.mt.co.kr/world/2026/08/01/2026080114304581002",
+        "source": "머니투데이",
+        "published": "2026-08-01T15:19:00+09:00",
+        "score": 28
       },
       {
         "title": "AI 열풍에…삼전·닉스 등 메모리 5개사 현금흐름 92배 폭증",
@@ -489,14 +489,6 @@
         "link": "https://www.mk.co.kr/news/world/12113614",
         "source": "매일경제 : 국제",
         "published": "2026-07-31T18:01:19+09:00",
-        "score": 24
-      },
-      {
-        "title": "비트코인, K자본 시장 심장부로 대이동 [홍익희의 비트코인 이야기]",
-        "summary": "정부가 지난 7월 14일 발표한 ‘2026년 하반기 경제성장전략’에 디지털자산 현물 상장지수펀드, 즉 비트코인 현물 ETF 도입을 위한 자본시장법 개정 지원 방안을 담았기 때문이다. 물론 법 개정 방침이 곧바로 ETF 출시를...",
-        "link": "https://www.mk.co.kr/article/12106717",
-        "source": "매일경제",
-        "published": "2026-08-01T13:01:00+09:00",
         "score": 24
       },
       {
@@ -524,6 +516,14 @@
         "score": 24
       },
       {
+        "title": "노동장관, 극한 폭염에 택배 상하차장 점검…9월까지 감독 강화",
+        "summary": "역대급 폭염이 계속되자 김영훈 고용노동부 장관이 더위에 취약한 택배 상·하차장을 불시에 찾아 폭염 대응 상황을 점검했다. 김 장관은 지난달 31일 경기 파주시에 있는 택배 물류센터를 예고 없이 방문해 '폭염안전 5대...",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/01/2026080190060.html",
+        "source": "조선일보",
+        "published": "2026-08-01T15:18:00+09:00",
+        "score": 24
+      },
+      {
         "title": "마진콜에 무너진 ‘AI 투자 스타’…시타델, 160억달러 인수",
         "summary": "시타델이 최근 미국 금리 인상 가능성을 반영한 투자 보고서를 내놓으며 시장 조정 가능성을 제기한 뒤, 유동성 위기에 빠진 자산을 저가에 매입하기 위한 포석을 깔았던 것 아니냐는 의혹이다. 다만 이를 뒷받침할...",
         "link": "https://biz.chosun.com/international/international_economy/2026/08/01/V4NZSPREIZFRPCBKYOZ3HAOTFQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
@@ -548,12 +548,12 @@
         "score": 24
       },
       {
-        "title": "금융위 \"단일 레버리지 추가 조치, 최대한 조기 시행\"",
-        "summary": "금융위원회는 어제(29일) 발표된 단일종목 레버리지 상장지수펀드(ETF) 추가 보완책에 관해 \"최대한 조기에 시행하겠다\"고 오늘(30일) 밝혔습니다.금융위는 전날 밤 관계기관 긴급 시장상황점검회의에서 결정된 '단일종목 레버리지 상품 추가조치'의 구체적인 추진 과제를 설명하는 자료를 통해 \"각 주요 과제별로 소관기관을 중심으로 세부방안을 조속히 마련하겠다\"면서 이같이 전했습니다.이에 따르면 금융위는 긴급한 상황에서 금융당국이 시장 안정화 조치를 취할 법적 근거를 마련하기 위해 금융감독원과 함께 자본시장법 개정안을 마련할 예정입니다. 단일종목 레버리지 상품 뿐만 아니라 다양한 분야와 시장참가자 등에 조치를 취할 수 있도록 ..",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5209295",
-        "source": "MBN : 경제기사",
-        "published": "2026-07-30T17:55:00+09:00",
-        "score": 24
+        "title": "지도·펜슬도 한발짝 늦었지만 따라잡던 애플…AI도 역전극 펼칠까[주末...",
+        "summary": "메모리 반도체 원가 상승이 있다는 것이다. 여기에 서비스 매출 성장률이 3월 분기 16%에서 6월 분기 12%로... 반도체 수급 부담을 하드웨어 경쟁력으로 비교적 무리 없이 넘기고 있다는 점도 긍정적으로 평가했다. 시리AI...",
+        "link": "https://view.asiae.co.kr/article/2026073116074055052",
+        "source": "아시아경제",
+        "published": "2026-08-01T16:48:00+09:00",
+        "score": 22
       },
       {
         "title": "배관-미장-목공… AI가 대체 못할 블루칼라 될래요",
@@ -623,39 +623,39 @@
   ],
   "summary_en": {
     "date": "2026-08-01",
-    "generated_at": "2026-08-01T05:37:24.889067+00:00",
-    "briefing_hash": "690b5f1aafc03bc3",
+    "generated_at": "2026-08-01T09:48:58.731358+00:00",
+    "briefing_hash": "bed9ad5a03c8207c",
     "key_headlines": [
       {
-        "title": "Seoul apartment construction volume halves in first half of 2026, raising housing price concerns",
-        "summary": "Seoul's apartment completion volume dropped nearly 60% in the first half of 2026 compared to the same period last year, creating concerns about short-term supply shortages and potential upward pressure on housing prices."
+        "title": "South Korea to Launch 20 Trillion Won Strategic Sovereign Wealth Fund",
+        "summary": "The government will establish a strategic sovereign wealth fund worth 20 trillion won to make long-term investments in AI, semiconductors, and other strategic industries. This marks a shift from Korea Investment Corporation's traditional overseas asset investment to domestic strategic industry focus."
       },
       {
-        "title": "Government launches 20 trillion won strategic sovereign wealth fund for AI and semiconductor investments",
-        "summary": "The Korean government is establishing a 20 trillion won strategic sovereign wealth fund to make long-term direct investments in domestic strategic industries including AI and semiconductors, shifting from the existing overseas-focused sovereign wealth fund approach."
+        "title": "KOSPI Records Historic 17.9% Single-Day Rally",
+        "summary": "The KOSPI surged 1,001.89 points on July 31st, marking the largest single-day percentage gain since the index's inception in 1983. The rally was driven by semiconductor stock strength following positive US tech earnings and recovery from recent market declines."
       },
       {
-        "title": "Household loans surge 3.8 trillion won amid volatile stock market and rising property prices",
-        "summary": "South Korean household borrowing increased by nearly 4 trillion won in July as the KOSPI index experienced extreme volatility and property prices continued to rise, with mortgage loans increasing 2 trillion won despite loan regulations."
+        "title": "Seoul Apartment Construction Volumes Halved in First Half of 2026",
+        "summary": "Completion volumes for Seoul apartments dropped 58.4% year-over-year in the first half of 2026, raising concerns about near-term housing supply shortages. Permits, groundbreaking, and completion volumes all declined compared to the previous year."
       },
       {
-        "title": "Bank of Japan holds policy rate at 1%, signals possible future rate hikes",
-        "summary": "The Bank of Japan maintained its benchmark interest rate at 1% and revised up its 2026 economic growth forecast to 0.6%, while indicating potential future rate increases depending on global economic conditions."
+        "title": "Bank of Japan Holds Policy Rate at 1% While Signaling Possible Future Increases",
+        "summary": "The Bank of Japan maintained its benchmark interest rate at 1% as expected, while upgrading its 2026 real GDP growth forecast to 0.6%. The central bank retained vigilance about inflation risks and suggested further rate increases remain possible."
       },
       {
-        "title": "KOSPI surges record 17.91% in single day as semiconductor stocks rally",
-        "summary": "The KOSPI index posted its largest single-day gain of 17.91% since its launch in 1983, driven by strong semiconductor performance following positive U.S. tech earnings and reversal of recent sharp declines."
+        "title": "Doosan Acquires SK Siltroon for 2.3 Trillion Won, Pivoting to AI and Semiconductors",
+        "summary": "Doosan acquired 70.6% of SK Siltroon from SK Group for 2.3 trillion won, marking a major expansion beyond heavy industry into semiconductors and AI infrastructure. The move positions Doosan as a comprehensive AI-era business conglomerate."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea's real estate market faces supply constraints as Seoul apartment completion volumes plummeted 60% year-over-year in the first half of 2026, while household debt simultaneously surged by 3.8 trillion won due to volatility in financial markets and persistent property price increases. The government has responded by launching a 20 trillion won strategic sovereign wealth fund to invest in critical sectors like AI and semiconductors, aiming to support domestic industry growth and overseas investment attraction. These developments underscore significant structural challenges in the Korean economy spanning housing supply, household debt management, and industrial competitiveness.",
-      "Macro & Fiscal Policy": "The Bank of Japan held its policy rate steady at 1% while upgrading its 2026 economic growth forecast from 0.5% to 0.6%, indicating cautious optimism about economic expansion tempered by ongoing inflation concerns. South Korea's next week is expected to bring July consumer price inflation data, which is anticipated to show slight decline from June levels due to lower international oil prices and government price stabilization measures. Government officials project that July consumer inflation may fall below 3%, signaling some progress on the inflation front despite macroeconomic challenges.",
-      "Financial Markets": "The KOSPI experienced historic volatility, posting its largest single-day gain of 17.91% on July 31st, recovering from previous lows at the 5500 level to above 6500 as semiconductor stocks surged dramatically—Samsung Electronics rose 26.81% and SK Hynix hit the daily limit at +29.95%. This rally was driven by positive U.S. tech earnings reports and reduced concerns about AI investment slowdown, though market volatility remains extreme and investor sentiment remains fragile. The won-dollar exchange rate fell sharply to the 1410 level amid three-way central bank intervention coordination, while domestic foreign exchange trading volumes reached record levels.",
-      "Industry & Technology": "Doosan Group acquired SK Siltrion for 2.3 trillion won from SK Holdings, marking Doosan's major pivot from traditional heavy industry into semiconductors and AI sectors, positioning the company for the artificial intelligence era. The semiconductor industry remains strategically critical as China develops concerning legacy chip capabilities in 28nm and above processes used in ASIC applications for robotics and consumer electronics, while major U.S. tech companies have now surpassed 1 trillion dollars in cumulative AI infrastructure investments. Five new AI data center and infrastructure-focused ETFs are scheduled to launch in early August, reflecting strong market appetite for AI-related investment vehicles.",
-      "Real Estate": "Seoul's real estate market faces a significant supply crisis with completion volumes dropping 58.4% for apartments and 52.1% for overall housing in the first half of 2026, raising concerns about sustained price pressures as the typical 2-3 year gap from approval to completion means supply shortages are inevitable. Interest rates emerge as the second-half's primary market variable for Seoul and surrounding areas, with growing polarization in lending rates based on credit scores and increasingly stringent DSR (debt-to-income) regulations making actual loan origination more difficult. Series apartments launched in sequential phases are gaining popularity as buyer confidence increases through proven master projects, while monthly jeonse (lease) contracts now represent nearly 70% of all rental transactions, indicating a shift toward higher-cost monthly rentals.",
-      "International Economy": "U.S. Federal Reserve Chair Kevin Powell is considering reducing the frequency of FOMC meetings from 8 times annually to potentially 6 times per year, a significant policy change that would represent the first reduction in nearly 45 years of the current meeting schedule. Three FOMC voting members publicly called for interest rate increases at the most recent meeting, opposing the decision to maintain rates at 3.50-3.75%, signaling ongoing monetary policy divisions within the Fed. The yen strengthened approximately 3% following coordinated intervention by Japanese, South Korean, and U.S. monetary authorities, with some hedge fund unwinding of yen short positions amplifying the rally.",
-      "AI & Economy": "Global AI investment competition has intensified dramatically as major U.S. tech companies including Google, Amazon, Microsoft, and Meta have cumulatively invested over 1 trillion dollars in AI infrastructure and development since the competition escalated. Amazon achieved record quarterly revenue exceeding 200 billion dollars for the first time and pledged further increases in AI investments, while memory semiconductor companies experienced a 92-fold surge in cash flow generation due to expanded AI data center demand. Z-generation workers are increasingly choosing skilled trades over white-collar professions as AI infrastructure development creates surging demand for electricians, plumbers, and technical specialists, with wages in these fields nearly doubling according to NVIDIA CEO Jensen Huang.",
-      "Others": "The Trump administration is considering imposing 100,000 dollar (approximately 142 million won) employment fees on foreign students seeking to work in the United States as part of stricter immigration policies. The Korean government announced support for regulatory changes to enable Bitcoin spot ETF introduction in the capital markets as part of its second-half 2026 economic growth strategy. LG Electronics achieved record second-quarter earnings and raised forward guidance, with tariff refunds contributing to results, while the ruling party disputed special inspector general appointment proposals citing political motivations."
+      "Hot Economy News": "South Korea's economic landscape faces mixed signals as housing supply crisis looms while equity markets experience extreme volatility. The government is bolstering strategic industrial investment through a 20 trillion won sovereign wealth fund targeting AI and semiconductors, signaling commitment to future competitiveness. Household debt surged another 3.8 trillion won amid the volatile stock market and rising real estate prices, with mortgage lending increasing 2 trillion won despite total volume restrictions. The KOSPI's historic 17.9% single-day rally provides some relief after significant July declines, though investor confidence remains fragile amid ongoing market turbulence. Corporate restructuring is accelerating, with major conglomerates like Doosan making strategic pivots toward AI and semiconductor sectors.",
+      "Macro & Fiscal Policy": "The Bank of Japan held its benchmark interest rate steady at 1.0% while upgrading economic growth forecasts, maintaining a hawkish stance that suggests future rate increases remain possible. South Korea's July consumer price inflation is expected to moderate below June levels due to declining international oil prices and government stabilization measures. The government is implementing strategic fiscal measures through the new sovereign wealth fund and related industrial policies to support long-term economic competitiveness in AI and semiconductors. However, household debt accumulation continues despite regulatory restrictions, indicating financial stress among consumers amid elevated interest rates and property prices. Interest rate levels remain a critical variable for the second half of 2026, with both the Federal Reserve and Bank of Korea signaling vigilant stances on inflation.",
+      "Financial Markets": "The KOSPI experienced record volatility, rallying 17.9% on July 31st—the largest single-day gain since the index's 1983 inception—driven by semiconductor stocks rising as much as 29.95% for SK Hynix. Samsung Electronics posted its best single-day performance in 51 years with a 26.81% gain, while market observers indicate leverage ETF liquidation is substantially complete following the previous week's dramatic losses. The extreme market swings have created investor anxiety despite the dramatic recovery, with observers describing the market as resembling a casino due to ongoing volatility. Overseas investor flows remain important drivers, with the yen's 3% appreciation following coordinated intervention by Japanese, Korean, and US monetary authorities. Bank deposits remain volatile with required deposits declining 52 trillion won in one month as banks raised rates to stem fund outflows.",
+      "Industry & Technology": "South Korea's semiconductor industry faces both opportunities and challenges, with major manufacturers benefiting from AI infrastructure investment globally but facing competition from Chinese legacy chip producers in lower-end markets. Doosan's 2.3 trillion won acquisition of SK Siltroon marks a significant industry consolidation and strategic pivot toward AI-era competitiveness. July export data showed record strength at 98.9 billion dollars, driven by semiconductor demand, hybrid vehicle exports rising 22.2%, and electric vehicle exports surging 31.9%. Memory chip manufacturers are experiencing dramatically improved cash flows with a 92-fold increase across five major firms due to expanding AI datacenter investments globally. Demand fundamentals remain strong with no signs of oversupply in the DRAM market, and third-quarter average selling prices expected to exceed previous estimates.",
+      "Real Estate": "Seoul apartment completion volumes crashed 58.4% year-over-year in the first half of 2026, falling to 12,251 units from 29,420 units, creating concerns about near-term housing supply shortages. Broader housing construction indicators including permits and groundbreaking also declined significantly, signaling continued supply constraints given the typical 2-3 year lag from approval to completion. Interest rates emerge as the critical variable for second-half real estate market performance, with loan qualification barriers rising as DSR regulations tighten and lender standards become stricter. Younger buyers increasingly target ultra-compact apartments under 40 square meters, with transactions up 48% to record levels, reflecting affordability pressures. Monthly deposit ratios in lease transactions approach 70%, indicating a shift toward rental markets as purchase affordability deteriorates, while nationwide unoccupied units post-completion total 30,000 units.",
+      "International Economy": "The US Federal Reserve faces internal debate over monetary policy operations, with considerations underway to reduce the frequency of FOMC meetings from eight to fewer annually, a significant change after 45 years of established practice. Three Federal Reserve officials publicly called for interest rate increases following the July 28-29 FOMC decision to hold rates at 3.50-3.75%, signaling internal disagreement over monetary policy direction. The coordinated yen intervention by Japanese, Korean, and US monetary authorities successfully appreciated the yen 3% as dollar weakness from FOMC expectations receded. US enforcement of forced labor provisions on Chinese imports has declined significantly, suggesting Trump administration prioritization concerns over Chinese critical mineral export restrictions. Global market interconnections remain strong with US tech earnings improvements benefiting semiconductor stocks worldwide and influencing Asian equity markets.",
+      "AI & Economy": "AI infrastructure investment is reshaping labor markets globally, with Nvidia CEO Jensen Huang noting that skilled blue-collar trade workers in datacenter construction and related fields are experiencing wage increases of approximately 100% amid high demand. Amazon reported quarterly revenues exceeding 200 billion dollars for the first time and announced increased AI investment commitments, signaling accelerating technology sector growth. Memory semiconductor manufacturers are generating exceptional cash flow increases of up to 92 times due to AI datacenter investment expansion, with major firms like Samsung and SK Hynix driving the cash generation surge. Five new AI and datacenter-related ETFs are launching August 4th, providing investors with exposure to AI infrastructure and related technology sectors. AI-related professional sectors show continued strong demand while concerns emerge about white-collar job displacement, creating occupational wage compression as blue-collar technical skills command premium compensation.",
+      "Others": "The Trump administration is considering imposing a 100,000 dollar (approximately 142 million won) employment fee on foreign students seeking US work authorization, representing a hardline immigration policy escalation. LG Electronics reported record second-quarter earnings with government tariff refunds contributing to results, leading to analyst price target upgrades. Germany and Sweden urged Spain to control flood disasters as initial death tolls reached 6,000, with US President Trump characterizing the situation as a catastrophe. South Korea's Labor Ministry intensified workplace inspections in extreme heat conditions, conducting surprise visits to delivery logistics centers and strengthening oversight through September to protect workers from extreme temperatures. The Korean ruling party criticized the stock market's 22% July decline as the worst among major global markets and called for investigations into leverage ETF-related damages."
     }
   }
 }
