@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-04T14:35:13.528895+09:00",
+  "generated_at": "2026-08-04T14:37:44.723975+09:00",
   "date": "2026-08-04",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 604,
-    "total_used": 593,
-    "dropped_quality": 6,
-    "dropped_negative": 5,
+    "total_input": 549,
+    "total_used": 539,
+    "dropped_quality": 2,
+    "dropped_negative": 8,
     "per_category": {
-      "기타": 261,
-      "산업·과학": 29,
-      "금융시장": 140,
-      "부동산": 73,
-      "국제경제": 49,
-      "거시경제·재정": 36,
-      "AI와 경제": 5
+      "금융시장": 118,
+      "기타": 217,
+      "부동산": 59,
+      "거시경제·재정": 57,
+      "산업·과학": 37,
+      "국제경제": 44,
+      "AI와 경제": 7
     }
   },
   "headlines": [
@@ -322,12 +322,60 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "[속보]7월 소비자물가 2.8%, 3개월 만에 2%대…경유 21.5%↑·파 18.3%↑",
-        "summary": "농축수산물 가운데서는 파(18.3%), 수입쇠고기(8.7%), 쌀(7.9%), 달걀(7.5%), 고등어(7.0%), 국산쇠고기(5.7%) 등의 가격이 올랐다. 반면 배추(-18.4%), 수박(-11.1%), 무(-10.8%), 오이(-13.8%), 호박(-15.9%) 등은 하락했다. 서비스...",
-        "link": "https://biz.heraldcorp.com/article/10829770?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-08-04T08:01:00+09:00",
+        "title": "소비자물가 둔화·근원물가는 상승…채권시장 금리 전망은(종합)",
+        "summary": "(서울=연합뉴스) 강수지 기자 = 한국은행이 통화정책 결정 변수로 주시하는 7월 물가지표 상승세가 둔화하면서, 채권시장은 대체로 8월 연속 ...",
+        "link": "https://www.yna.co.kr/view/AKR20260804040951008",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-08-04T13:52:33+09:00",
+        "score": 130
+      },
+      {
+        "title": "2분기 깜짝 성장·근원물가 고공행진…기준금리 연속 인상될까(종합)",
+        "summary": "(서울=연합뉴스) 임지우 기자 = 올해 상반기 한국 경제가 강한 성장세를 지속하고, 근원물가를 중심으로 고물가도 이어지면서 한국은행이 7·8월 ...",
+        "link": "https://www.yna.co.kr/view/AKR20260804073651002",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-08-04T13:41:49+09:00",
+        "score": 110
+      },
+      {
+        "title": "소비자물가 상승률 낮아졌지만…한은, 근원물가 상승에 '주목'",
+        "summary": "8월에는 SKT의 ‘통신비 반값’ 할인으로 소비자물가 상승률이 1.7%까지 낮아진 바 있다. 한편, 일반인들의 향후 1년 후 물가 수준에 대한 인식을 보여주는 기대인플레이션은 2.7%로 전월(2.8%)대비 0.1%포인트 하락했다.",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03555526645544040",
+        "source": "이데일리",
+        "published": "2026-08-04T09:58:00+09:00",
+        "score": 110
+      },
+      {
+        "title": "한은 “8월 소비자물가 상승률, 7월보다 높아질 것”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/04/134416550.1.jpg\" vspace=\"10\" />한국은행이 다음달 소비자물가 상승률이 이달보다 높아질 것으로 내다봤다.4일 한은에 따르면 이지호 부총재보는 이날 오전 물가 상황 점검 회의를 열고 최근 물가 상황과 향후 물가 흐름을 점검했다.이 부총재보는 “7월 소비자물가는 석유류 최고 가격 인하, 농산물 가격 하락 등의 영향으로 전월보다 상승폭이 둔화됐다”면서도 “근원물가는 비용 충격 전이 등으로 내구재 가격 오름폭이 확대되며 상승률이 소폭 확대됐다”고 평가했다.그는 “8월 소비자물가 상승률은 전년도에 있었던 일부 이동통신사의 대규모 통신 요금 할인의 기저 효과에 크게 영향받아 7월보다 높아질 것으로 예상된다”고 짚었다.이 부총재보는 “향후 소비자물가는 중동 전쟁과 관련한 불확실성이 높은 가운데 정부 물가 안정 대책이 하방 요인...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260804/134416549/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-04T09:38:48+09:00",
+        "score": 110
+      },
+      {
+        "title": "7월 소비자물가 2.8%↑…석유 최고가격제 효과에 3개월 만에 2%대 진입",
+        "summary": "이두원 국가데이터처 경제동향통계심의관은 \"국제유가나 환율 인하 효과에 최고가격 등 정부의 시장 안정화 정책 효과가 가시화하면서 오름세가 둔화했다\"고 설명했다.재정경제부는 석유 최고가격제로 지난달...",
+        "link": "https://www.kbsm.net/news/view.php?idx=529073",
+        "source": "KBS",
+        "published": "2026-08-04T11:42:00+09:00",
         "score": 102
+      },
+      {
+        "title": "강한 성장·높은 근원물가…시장 시선 '연속 인상'으로 이동",
+        "summary": "한국은행의 8월 기준금리 인상 가능성이 부상하고 있다. 시장의 기본 전망은 여전히 8월 동결 뒤 10월 인상이지만, 2분기 성장률이 예상보다 강하게 나온 데 이어 7월 근원물가도 상승폭을 키우면서 두 달 연속 금리를...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04913446645544040",
+        "source": "이데일리",
+        "published": "2026-08-04T14:29:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "통화정책 힌트 하나도 안줬다… 파월과 다른 워시의 소통법 [글로벌 리...",
+        "summary": "정책금리가 제로 수준에 근접해 추가 인하 여력이 제한됐던 2003년, 2011년을 기점으로 활용도가 크게 확대됐고, 2020년 9월 도입된 \"실업률이 최대고용 수준에 도달하고 인플레이션이 추세적으로 2%를 소폭 상회할 때까지...",
+        "link": "http://www.fnnews.com/news/202608021851472740",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-02T18:53:00+09:00",
+        "score": 98
       },
       {
         "title": "[주간경제일정] 美 7월 고용보고서 발표 예정…취업자수·실업률 주목",
@@ -338,11 +386,19 @@
         "score": 98
       },
       {
-        "title": "[속보] 7월 소비자물가 상승률 1년 전보다 2.8% 상승",
-        "summary": "서울시내 한 대형마트 식재료 코너. 연합뉴스국가데이터처는 7월 소비자물가 상승률은 전년 동월 대비 2.8% 상승했다고 4일 밝혔다.품목별로 보면 상품 물가는 지난해 같은 기간보다 3.0% 올랐다. 석유류 가격이 15.5% 올랐던 영향으로 공업제품이 3.7% 올랐지만, 농축수산물은 0.9% 오르는 데 그쳤다.서비스물가는 1년 전보다 2.6% 상승했다. 공공서···",
-        "link": "https://www.khan.co.kr/article/202608040800001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-08-04T08:00:00+09:00",
+        "title": "“이번 달엔 만회 가능할까요”…‘엔비디아 성적표’ 앞둔 8월, 투자전...",
+        "summary": "최근 미국 국채금리는 견조한 경기와 인플레이션 우려, 재정적자 확대에 따른 국채 공급 부담 등이 맞물리며... 보이고, 인플레이션도 추가 확인이 필요한 국면”이라며 “고용과 물가가 예상보다 강하면 장기금리...",
+        "link": "https://www.mk.co.kr/article/12116150",
+        "source": "매일경제",
+        "published": "2026-08-04T11:18:00+09:00",
+        "score": 92
+      },
+      {
+        "title": "[속보] 7월 소비자물가 상승률 2.8%…석 달 만에 2%대로",
+        "summary": "지난달 소비자물가 상승률이 3개월 만에 다시 2%대로 복귀했다. 미국과 이란의 전쟁 영향으로 급등했던 석유류 가격 오름세가 둔화한 까닭이다. 국가데이터처가 4일 발표한 ‘7월 소비..",
+        "link": "https://www.mk.co.kr/news/economy/12115904",
+        "source": "매일경제 : 경제",
+        "published": "2026-08-04T08:02:40+09:00",
         "score": 90
       },
       {
@@ -354,94 +410,30 @@
         "score": 88
       },
       {
-        "title": "미국 7월 제조업 경기 4년 만에 최고...물가상승 압박 여전",
-        "summary": "제조업 경기와 업계 고용이 예상보다 강한 데다 물가 상승 압력도 여전한 만큼 시장에서는 이르면 다음 달 금리 인상 가능성도 거론되고 있습니다. 워싱턴에서 YTN 신윤정입니다.",
-        "link": "https://www.ytn.co.kr/_ln/0104_202608040657354305",
-        "source": "YTN",
-        "published": "2026-08-04T06:57:00+09:00",
-        "score": 82
-      },
-      {
-        "title": "中 \"하반기 완화적 통화정책\"…판다본드 발행 촉진",
-        "summary": "지난달 발표된 2분기 국내총생산(GDP) 증가율은 4.3%로 3년여 만에 가장 낮은 수준을 기록했다. 정부의 올해 성장 목표(4.5~5.0%) 하단에도 미달했다. 정치국도 최근 회의에서 \"경제가 어려움과 도전에 직면해 있다\"고...",
-        "link": "https://view.asiae.co.kr/article/2026080314014347306",
-        "source": "아시아경제",
-        "published": "2026-08-03T14:14:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "뉴욕증시, 3대 지수 주간 상승 마감…실적 시즌·고용보고서 주목[뉴스...",
-        "summary": "고용과 실업률을 발표하는 가운데 시장은 고용시장 둔화 여부와 연방준비제도(Fed)의 향후 통화정책 방향에 촉각. -시장에서는 7월 비농업부문 고용이 약 8만 3000명 증가하고 실업률은 4.2~4.3% 수준을 기록할 것으로...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02033606645543712",
-        "source": "이데일리",
-        "published": "2026-08-03T08:22:00+09:00",
-        "score": 66
-      },
-      {
-        "title": "中금리인하 신호? … 인민은행 \"유동성 충분히 유지\"",
-        "summary": "실제 중국의 올해 2분기 국내총생산(GDP) 성장률은 4.3%에 그쳤다. 직전 1분기(5%)에 비해 크게 둔화한 것은 물론이고 2022년 4분기 이후 가장 낮은 수치다. 현지 전문가들은 올해 3분기에 기준금리나 지급준비율 인하 가능성을...",
-        "link": "https://www.mk.co.kr/article/12115428",
-        "source": "매일경제",
-        "published": "2026-08-03T17:55:00+09:00",
-        "score": 60
-      },
-      {
-        "title": "정부 거절에 ‘내돈내산’ 기차역 건설…예산 내포역에 닥칠 미래 [르포...",
-        "summary": "기획재정부(현 재정경제부) 의뢰로 한국개발연구원(KDI)이 진행한 수요 분석에서 경제성이 낮게 나오면서 내포역 신설이 어렵게 되자 2021년 11월 충남도와 예산군은 건설비용을 직접 부담하겠다고 나섰다. 당시...",
-        "link": "https://www.joongang.co.kr/article/25450596",
-        "source": "중앙일보",
-        "published": "2026-08-04T05:00:00+09:00",
-        "score": 58
-      },
-      {
-        "title": "[김상철의 경제포커스]집값 폭등이 아니라 '수도권 쏠림'이 맞다",
-        "summary": "성장률과 물가상승률을 합치면 명목 국내총생산(GDP) 성장률이 된다. 이 수준으로만 오른다면 집값은 제자리가 된다. 사실 우리나라의 평균 집값 상승률도 미국과 크게 다르지 않다. 25년 전 우리나라의 명목 GDP는 원화...",
-        "link": "https://view.asiae.co.kr/article/2026073112283323077",
-        "source": "아시아경제",
-        "published": "2026-08-03T11:00:00+09:00",
-        "score": 56
-      },
-      {
-        "title": "[한규섭 칼럼]증시를 ‘대통령의 영역’으로 가져온 李 대통령",
-        "summary": "그러나 학계에서 많이 활용되는 경제 성과의 척도는 실업률, 물가상승률, 소비자심리지수, 경제성장률... 또 일반적으로 물가나 실업률은 정부 거시경제 정책의 영향을 많이 받지만 증시는 개별 기업들의 영역에 가깝다....",
-        "link": "https://www.donga.com/news/Opinion/article/all/20260803/134415386/2",
-        "source": "동아일보",
-        "published": "2026-08-03T23:16:00+09:00",
-        "score": 52
-      },
-      {
-        "title": "\"7차 석유최고가격, 7월 물가상승률 0.3%p 완화 효과\"",
-        "summary": "이형일 재정경제부 1차관은 오늘(4일) 물가관계차관회의를 주재하고 \"지난주 발표된 유로존 7월 물가가 에너지 가격 상승 등으로 인해 상승세가 확대된 것과 대조적으로 우리나라는 물가상승세가 완화되고 있는 모습...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8627740&ref=A",
-        "source": "KBS",
-        "published": "2026-08-04T08:00:00+09:00",
-        "score": 52
+        "title": "한은 “8월 물가, 7월보다 높아질 것”…통신료 할인 기저효과",
+        "summary": "서울 중구 한국은행 본관 정문에 19일 로고가 새겨진 문패가 달려 있다. 2025.12.19 한수빈 기자한국은행이 지난달 소비자물가 상승률이 3개월 만에 2%대로 내려왔으나 이달 물가 상승폭은 지난달보다 확대할 것으로 예상된다고 4일 밝혔다.이지호 한은 부총재보는 이날 오전 한은에서 물가상황 점검회의를 열고 “7월 소비자물가는 석유류 최고가격 인하, 농산물···",
+        "link": "https://www.khan.co.kr/article/202608041030001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-08-04T10:30:00+09:00",
+        "score": 80
       }
     ],
     "금융시장": [
       {
-        "title": "코스피·환율 함께 떨어져…‘증시 하락=고환율’ 공식 깨졌다",
-        "summary": "코스피와 환율이 따로 움직이는 디커플링(탈동조화) 현상이 나타나고 있다. 통상 국내 증시가 하락하면 환율은 상승(원화 가치는 하락)하는 경향이 있지만, 최근에는 이런 공식이 맞아떨어지지 않는다. 3일...",
-        "link": "https://www.joongang.co.kr/article/25450558",
-        "source": "중앙일보",
-        "published": "2026-08-04T00:22:00+09:00",
-        "score": 130
+        "title": "코스피, 유가·금리 하락에 강세 출발…코스닥도 3%대↑",
+        "summary": "유가 하락으로 물가 상승(인플레이션) 부담이 완화되면 통화 긴축에 대한 우려를 덜 수 있다. 하지만 현대차는 0.76%, 삼성바이오로직스는 0.98% 하락하고 있다. 코스닥은 전일 대비 27.22포인트(3.69%) 오른 764.57에...",
+        "link": "https://www.hankyung.com/article/2026080432456",
+        "source": "한국경제",
+        "published": "2026-08-04T09:18:00+09:00",
+        "score": 140
       },
       {
-        "title": "유가 급락에 美 주식·채권 동반강세…나스닥 2%↑(종합)",
-        "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 8월의 첫 거래일인 3일(현지시간) 미국채 금리가 하락하고 뉴욕증시 3대 지수가 모두 1% 넘게 상승했다.",
-        "link": "https://www.yna.co.kr/view/AKR20260804004551072",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-08-04T06:14:43+09:00",
-        "score": 122
-      },
-      {
-        "title": "[증시전략] 중동·국채금리 불안 속 AI 투심 살아나나…뉴욕증시는?",
-        "summary": "주장 - FOMC는 통상 만장일치 또는 이에 가까운 결정 내려 - 포워드 가이던스 실종에 변동성 확대…시장 즉각... 심포지엄·9월 FOMC 등 증시 흔들 가능성 - 이번 주 고용지표 주간…JOLTS·7월 고용보고서 대기 - 5일 ADP 전미...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000326123?division=NAVER",
-        "source": "SBS",
-        "published": "2026-08-03T07:07:00+09:00",
-        "score": 115
+        "title": "기관 매도에 코스피 혼조세...코스닥 매수 사이드카",
+        "summary": "서울 외환시장에서 원-달러 환율은 1,420원대에서 움직이고 있습니다. SK하이닉스의 주식예탁증서 상장 대금 유입과 최근 미-일 외환당국의 시장 개입 영향으로 최근 원-달러 환율은 1,420원대까지 내려왔습니다....",
+        "link": "https://www.ytn.co.kr/_ln/0102_202608041148084893",
+        "source": "YTN",
+        "published": "2026-08-04T11:48:00+09:00",
+        "score": 118
       },
       {
         "title": "[증시 예보] ‘과도한 공포였나’…폭락장 넘긴 코스피, 다음 주 반등 시...",
@@ -452,46 +444,54 @@
         "score": 110
       },
       {
-        "title": "중동 긴장 완화에 유가·금리 하락…빅테크 중심 상승 [뉴욕증시 브리핑...",
-        "summary": "이에 국채금리도 하락했고, 투자심리는 개선됐다. 브렌트유 선물은 전 거래일 대비 4.7% 하락한 배럴당 83.77달러에, 미국 서부텍사스산원유(WTI) 선물은 전 거래일 대비 5.1% 하락한 배럴당 80.34달러에 각각...",
-        "link": "https://www.hankyung.com/article/2026080429446",
-        "source": "한국경제",
-        "published": "2026-08-04T07:18:00+09:00",
+        "title": "[사설] 변동성 커진 유가·금리·환율, 1조弗 수출·3% 성장 관건",
+        "summary": "케빈 워시 연방준비제도(연준) 의장이 취임 후 처음 주재한 7월 연방공개시장위원회(FOMC) 회의에서 기준금리를 동결한 이후 미 국채 장기물 금리는 2007년 글로벌 금융위기 이후 최고로 치솟았다. 케빈 워시 의장은...",
+        "link": "https://biz.heraldcorp.com/article/10829000?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-08-03T11:29:00+09:00",
+        "score": 106
+      },
+      {
+        "title": "美, 28년만에 외환시장 개입…美국채금리 잡으려 엔화 샀다",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/04/134418470.1.jpg\" vspace=\"10\" />미국이 지난달 31일부터 이달 1일까지 엔화 매수-달러 매도 방식으로 외환시장에 개입한 데 이어 3일에도 시장에 개입한 것으로 관측됐다. 미국이 28년만에 개입해 엔화 가치를 끌어올린 배경에는 미 국채 금리 상승을 막으려는 도널드 트럼프 행정부의 계산이 깔려 있다는 분석이 나온다.4일 서울 외환시장에서 원-달러 환율은 오전 6시 기준 전날보다(1429.8원)보다 0.3원 떨어진 1429.5원에 거래를 시작했다. 24시간 전(1,435.5원)보다는 6.0원 하락한 수치다.시장에선 중동의 지정학적 리스크 완화로 위험 선호 심리가 회복됐지만 달러 매수세가 하단을 지지하면서 이날 원-달러 환율이 1430원 안팎에서 등락할 것으로 보고 있다.민경원 우리은행 선임연구원은 “단기 급락에 따른 ...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260804/134417699/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-04T14:09:00+09:00",
         "score": 106
       }
     ],
     "산업·과학": [
       {
-        "title": "반도체·배터리 국내생산땐 稅공제… 주가 누르면 최소 30% 할증해 과세",
-        "summary": "정부가 세제개편을 통해 ‘전략산업’ 품목의 국내 생산을 지원하는 세액공제를 도입한다. 가업상속공제 한도는 높이되 요건을 강화한다. 상속·증여세를 줄이려 인위적으로 주가를 끌어내린 기업에는 최소 30...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=1785749252&code=11151100&cp=nv",
-        "source": "국민일보",
-        "published": "2026-08-04T02:08:00+09:00",
-        "score": 100
+        "title": "삼기에너지솔루션즈, 美 FF-PCB 특허 확보…\"차세대 배터리 시장 공략\"",
+        "summary": "ESS와 전기차 배터리팩에 적합한 기술로 평가받는다. BMS와 다수의 배터리 셀을 하나의 구조로 연결하는 패키지 기술로, 온도센서 등 기능성 부품도 함께 구현할 수 있다. 최근 글로벌 배터리 시장은 ESS와 전기차를 넘어...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04706806645544040",
+        "source": "이데일리",
+        "published": "2026-08-04T13:46:00+09:00",
+        "score": 96
       },
       {
-        "title": "[2026세법] AI로봇·반도체 생산 촉진…6대 성장동력에 소득·법인세 특례",
-        "summary": "(세종=연합뉴스) 이세원 기자 = 성장 동력을 강화하고 중소·벤처기업이 경쟁력을 키우도록 세제를 손질한다.",
-        "link": "https://www.yna.co.kr/view/AKR20260803000600002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-08-03T18:00:10+09:00",
+        "title": "실외 작업 중지에 살수차도 동원…기록적 폭염에 조선·철강업계 비상",
+        "summary": "한낮 기온 40도를 웃도는 기록적인 폭염이 이어지면서 야외 작업 비중이 높은 조선업계는 물론 고온 설비를... (사진=포스코 제공) 4일 업계에 따르면 조선업계는 하계 휴가를 운영하고 작업시간과 휴식시간을...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04680566645544040",
+        "source": "이데일리",
+        "published": "2026-08-04T13:41:00+09:00",
         "score": 80
       },
       {
-        "title": "[사설] 中, 원전 8기 추가 승인…더 이상 머뭇거릴 때 아니다",
-        "summary": "AI·데이터센터·전기차·배터리 확산에 따른 전력 수요를 뒷받침하면서 탄소 배출도 줄이겠다는 전략이다. 중국 국가핵안전국에 따르면 중국은 6월 말 기준 64기의 원전을 운영 중이다. 중국은 원전을 첨단산업 전력...",
-        "link": "https://www.sedaily.com/article/20075202?ref=naver",
-        "source": "서울경제",
-        "published": "2026-08-04T00:04:00+09:00",
-        "score": 76
+        "title": "중앙대, 전기차 배터리 화재 막는 ‘다기능 열관리 소재’ 개발",
+        "summary": "이 소재는 전기차 배터리 모듈과 팩, 대규모 ESS 등에서 배터리 셀 사이의 급격한 열전달을 지연시키고 온도 상승을 완화하는 열관리 소재로 활용될 가능성이 있다고 연구팀은 기대했다. 이번 연구 결과는 화학공학 분야...",
+        "link": "https://biz.heraldcorp.com/article/10830381?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-08-04T13:35:00+09:00",
+        "score": 75
       },
       {
-        "title": "한국판 IRA 내년 도입…반도체·2차전지 등 생산 세액공제",
-        "summary": "한국판 인플레이션 감축법(IRA)이라 불리는 국내생산세액공제가 내년 도입된다. 3일 정부가 발표한 ‘2026년 세제개편안’에 담긴 내용이다. 반도체와 2차전지, 태양광발전, 풍력발전, 핵심 소재, 인공지능(AI), 로봇...",
-        "link": "https://www.joongang.co.kr/article/25450570",
-        "source": "중앙일보",
-        "published": "2026-08-04T00:40:00+09:00",
-        "score": 62
+        "title": "상반기 등록 자동차 60%는 친환경차…중국, 전기차 앞세워 독일 꺾고 수입차 1위 올라",
+        "summary": "비야디(BYD)의 전기차 해치백 모델인 ‘돌핀’. 비야디 제공올해 상반기 국내에 신규등록된 자동차 10대 중 6대가 친환경차인 것으로 나타났다. 정부의 전기차 보조금 조기 집행과 중동전쟁으로 인한 고유가 상황 등 외부·정책 요인이 맞물린 영향으로 분석된다. 중국산 전기차의 유입이 빠르게 확대되는 상황에서 국내 제조 기반을 보호할 필요가 있다는 지적이 나온다···",
+        "link": "https://www.khan.co.kr/article/202608041059001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-08-04T10:59:00+09:00",
+        "score": 70
       }
     ],
     "부동산": [
@@ -512,53 +512,29 @@
         "score": 122
       },
       {
-        "title": "\"매달 160만원 내고 산다\"...지금도 어려운데 '한숨', 서울 아파트 월세...",
-        "summary": "4일 파이낸셜뉴스가 서울부동산정보광장 자료(계약일 기준)를 분석한 결과 지난 6월 서울 아파트 월세... 한국부동산원에 따르면 지난 6월 서울 아파트 평균 전세가격은 6억2227만원으로 지난 2011년 전세 대란...",
-        "link": "http://www.fnnews.com/news/202608040735339827",
-        "source": "파이낸셜뉴스",
-        "published": "2026-08-04T07:46:00+09:00",
-        "score": 120
+        "title": "강북서 이사온 대치동 '맹모' 예외 없다...비거주 1주택 전세대출 제한",
+        "summary": "부동산 세제 개편에 따라 비거주 1주택자의 부동산 세금 부담이 높아질 뿐 아니라 신규 전세대출이 막히고 기존 대출은 만기 연장을 제한하는 대출 규제가 예고된다. 4일 정부 관계부처 등에 따르면 지난 3일...",
+        "link": "https://www.mt.co.kr/finance/2026/08/04/2026080410385722545",
+        "source": "머니투데이",
+        "published": "2026-08-04T14:10:00+09:00",
+        "score": 110
       },
       {
-        "title": "[스타트 경제] 세제개편이 바꾼 부동산 셈법...세금으로 집값 잡을 수 있...",
-        "summary": "이재명 정부 부동산 정책에 대한 냉정한 성적표입니다. 이런 상황에서 나온 세제 개편안, 효과가 있을까요?... 그리고 그동안에는 다주택자를 대상으로 종합부동산세를 중과했는데 이제는 그게 아니라 주택가액을...",
-        "link": "https://www.ytn.co.kr/_ln/0102_202608040658507456",
-        "source": "YTN",
-        "published": "2026-08-04T06:58:00+09:00",
-        "score": 116
+        "title": "[사설]현실화된 종부세 폭탄, 집값 잡힐까",
+        "summary": "한국의 부동산 관련세금은 국내총생산(GDP)의 약 3.0%로 이미 OECD 평균(1.6%) 대비 두 배 수준이다. 또한 비거주 1주택에 대한 징벌적 증세는 집주인을 실거주로 밀어내 전세 공급을 줄이고, 전세를 주더라도 보유세 인상분이...",
+        "link": "https://www.mt.co.kr/opinion/2026/08/04/2026080317342973322",
+        "source": "머니투데이",
+        "published": "2026-08-04T04:00:00+09:00",
+        "score": 106
       }
     ],
     "국제경제": [
       {
-        "title": "통화정책 힌트 하나도 안줬다… 파월과 다른 워시의 소통법 [글로벌 리...",
-        "summary": "\" 지난 7월 29일, 케빈 워시 미 연방준비제도(연준) 의장이 자신의 두 번째 연방공개시장위원회(FOMC)... 실제로 지난 6월 FOMC 이후 국채금리는 2020년대 들어 가장 가파른 상승폭 중 하나를 기록했는데 워시 의장은 이를...",
-        "link": "http://www.fnnews.com/news/202608021851472740",
-        "source": "파이낸셜뉴스",
-        "published": "2026-08-02T18:53:00+09:00",
-        "score": 120
-      },
-      {
-        "title": "28년 만의 美·日 엔화 공동개입...연준은 45년 만에 FOMC 축소 검토[글...",
-        "summary": "연방공개시장위원회(FOMC) 정례회의 횟수를 줄이는 방안을 검토하는 것으로 알려집니다. 미국 뉴욕타임스(NYT)는 지난달 31일(현지 시간) 소식통 4명을 인용해 워시 의장이 같은 달 28∼29일 열린 FOMC 정례회의에서 회의...",
-        "link": "https://www.sedaily.com/article/20074873?ref=naver",
-        "source": "서울경제",
-        "published": "2026-08-03T06:01:00+09:00",
-        "score": 108
-      },
-      {
-        "title": "45년 만에 ‘연준 시계’ 바꾸려는 워시…왜 FOMC 횟수 줄이려 하나",
-        "summary": "이 가운데 3·6·9·12월 회의에서는 금리 결정과 함께 경제성장률·물가·실업률 전망 및 위원들의 금리 전망을 담은 경제전망요약(SEP)이 공개된다. 연준은 정례회의 외에도 금융 위기나 팬데믹 같은 비상 상황에는...",
-        "link": "https://www.chosun.com/economy/int_economy/2026/08/02/3XLVLA7QGFHNNMTINGJ4WKK7EY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-08-02T08:34:00+09:00",
-        "score": 100
-      },
-      {
-        "title": "美 25개 주, 트럼프 '강제 노동' 관세 추가에 \"위법\" 소 제기",
-        "summary": "트럼프 행정부는 지난달 24일 무역법 301조를 근거로 강제 노동으로 생산된 수입품에 대한 단속이 미흡하다며, 한국과 유럽연합(EU) 등 60개국에 10%대 추가 관세를 부과하기로 결정했다. 이번 소송은 뉴욕에 있는 미...",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/04/2026080490051.html",
-        "source": "조선일보",
-        "published": "2026-08-04T07:14:00+09:00",
+        "title": "트럼프 301조 관세 법리 다툼…美 중소기업 이어 25개 州 위법 소송",
+        "summary": "이뿐만 아니라 향신료 수입업체 ‘버랩 앤드 배럴’과 시계 유통·판매업체 ‘컬렉티브 호롤로지’도 같은... 트럼프 행정부는 상호관세 위법 판결 직후 먼저 전 세계 수입품에 이른바 ‘글로벌 관세 10%’를 부과했다....",
+        "link": "https://www.joongang.co.kr/article/25450697",
+        "source": "중앙일보",
+        "published": "2026-08-04T13:59:00+09:00",
         "score": 92
       },
       {
@@ -568,24 +544,56 @@
         "source": "이데일리",
         "published": "2026-08-04T05:13:00+09:00",
         "score": 90
+      },
+      {
+        "title": "美 25개주, 트럼프 '301조 강제노동 관세'에 반발",
+        "summary": "3일(현지시간) 미 연방국제통상법원에 따르면, 이들 25개 주는 이날 법원에 제출한 소장에서 트럼프 행정부가 무역법 301조에 근거해 주요 무역 상대국에 부과한 관세 조치가 대통령의 과세 권한을 넘어서 위법하다고...",
+        "link": "https://view.asiae.co.kr/article/2026080410004848720",
+        "source": "아시아경제",
+        "published": "2026-08-04T11:52:00+09:00",
+        "score": 80
+      },
+      {
+        "title": "[이춘광의 투자 시선] 8월 증시 반등 기대…AI·연준·실적이 변수",
+        "summary": "연준 45년 만에 변화 검토…FOMC 회의 줄이나 Q. 美 고용 지표 릴레이…연준 통화정책 전망은? Q. 한·미·일 환율 공조…원화 강세 불붙나 Q. 7월 공포의 변동성 장세 마무리...8월 변수는? (자세한 내용은 동영상을...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000326155?division=NAVER",
+        "source": "SBS",
+        "published": "2026-08-03T10:14:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "“트럼프 대통령님, 포켓몬·나루토 그만 갖다쓰세요”…일본 공식항의",
+        "summary": "日정부 “제작사 허락 받아달라” 요구 외교 경로로 두차례 걸쳐 우려 전달해 국토안보부 불법이민 단속 영상에는 포케몬 인기대사 “모두 잡아야돼” 써일본 정부가 트럼프 행정부의 무단 ..",
+        "link": "https://www.mk.co.kr/news/world/12116255",
+        "source": "매일경제 : 국제",
+        "published": "2026-08-04T14:07:28+09:00",
+        "score": 60
       }
     ],
     "AI와 경제": [
       {
-        "title": "[마켓 브리핑] MS·아마존, 클라우드 성장세 견조…AI투자 우려 완화",
-        "summary": "7월 FOMC를 계기로 시장에서는 연준의 물가안정 의지에 대한 의구심이 나오면서, 장기물 위주로 금리가... 다만 지난 FOMC에서 금리 인상을 주장했던 연준 위원들은 다시 한번 매파적 입장을 강조했습니다. 로리 로건 연은...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000326131?division=NAVER",
-        "source": "SBS",
-        "published": "2026-08-03T07:20:00+09:00",
-        "score": 44
+        "title": "李대통령 \"AI 대격변기, 과감한 투자·속도전 필요…산업지도 지방 중심...",
+        "summary": "통상 정책에 대해서는 \"국익을 중심으로 유연하게 펴 나가야 한다\"며 특정 국가나 시장에 대한 과도한 의존에서 벗어나 수출시장과 공급망을 다변화할 것을 주문했다. 핵심 자원인 원유에 대해서도 \"도입국을 다변화하면서...",
+        "link": "https://view.asiae.co.kr/article/2026080414152103670",
+        "source": "아시아경제",
+        "published": "2026-08-04T14:23:00+09:00",
+        "score": 42
       },
       {
-        "title": "[커버] \"AI 시대 메모리는 비용 아닌 성능 변수\"",
-        "summary": "수출이 크게 늘고 한국 기업들의 경쟁력이 높아졌다면 원화 강세가 나타나는 것이 자연스럽지만, 현재 원화 약세가 이어지고 있습니다. 외국인들이 한국 시장에 더 적극적으로 들어오기 위해서는 원화 안정이 필요하고...",
-        "link": "https://magazine.hankyung.com/money/article/202607205235c",
-        "source": "한국경제",
-        "published": "2026-08-04T06:02:00+09:00",
-        "score": 32
+        "title": "李대통령 \"AI 중심 산업 대격변기…과감한 투자와 속도전 필요\"",
+        "summary": "수출시장과 공급망 다변화를 위해 지속적으로 노력해야 한다\"고 설명했다. 이어 \"핵심 자원인 원유는 도입국을 다변화하며 비축량을 확대해야 한다\"고 덧붙였다. 산업부를 향해서는 \"지난 6개월 동안 전쟁의 위기 속에서...",
+        "link": "https://www.yna.co.kr/view/AKR20260804104400001?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-08-04T14:28:00+09:00",
+        "score": 38
+      },
+      {
+        "title": "'닥터 쿠퍼' 구리 가격 강세…美中 AI 인프라 수요",
+        "summary": "구리는 AI 인프라의 핵심인 데이터센터 전력망 구축에 사용되며, 전기차에는 휘발유 차량보다 3~4배 많은 양의 구리가 필요합니다. 이처럼 구리가 AI를 비롯한 신산업의 필수 요소로 자리 잡으면서 미국과 중국의 확보...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000326528?division=NAVER",
+        "source": "SBS",
+        "published": "2026-08-04T13:23:00+09:00",
+        "score": 38
       },
       {
         "title": "AI로 조직 재설계한 기업, 매출 2배 증가 … 성공 공식 바뀐다",
@@ -596,93 +604,93 @@
         "score": 32
       },
       {
-        "title": "AI 데이터센터가 여는 지능제조업 시대…한국은 왜 주목받나 [화제의 리...",
-        "summary": "국내총생산(GDP) 대비 투자 비중이 20%를 웃도는 투자 사이클에 진입할 것으로 예상된다. 역사적으로 한국 경제는 GDP 대비 20%를 넘는 투자가 나타났던 시기에 경공업에서 중공업으로, 중공업에서 첨단제조업으로 전환돼...",
-        "link": "https://magazine.hankyung.com/business/article/202607293344b",
-        "source": "한국경제",
-        "published": "2026-08-03T08:55:00+09:00",
+        "title": "李대통령 “세계는 AI 대격변기, 과감한 투자·속도전 필요”",
+        "summary": "산업·경제 정책이 매우 중요하다”고 했다. 이 대통령은 공급망 다변화 등도 강조했다. 그는 “우리 정부는... 산업과 경제를 지탱하는 핵심 자원인 원유는 도입국을 다변화하면서 비축도 함께해 나가야 되겠다”고 했다....",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04929846645544040",
+        "source": "이데일리",
+        "published": "2026-08-04T14:32:00+09:00",
+        "score": 32
+      },
+      {
+        "title": "아이디바인·지아이이노베이션, 과기정통부 ‘AI 동반성장 바우처’ 선...",
+        "summary": "방대한 데이터 및 AI 알고리즘을 활용한 신약개발 플랫폼 도입은, 임상 단계에서의 높은 불확실성과 천문학적인 비용 리스크를 사전에 줄이고 기술 수출(L/O) 및 상업화 성공률을 획기적으로 올리는 바이오R&D 혁신...",
+        "link": "https://biz.heraldcorp.com/article/10830466?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-08-04T14:24:00+09:00",
         "score": 28
       },
       {
-        "title": "[비즈 나우] \"AI 돈 된다\"…아마존, 시총 3조달러 돌파",
-        "summary": "그간 반도체 경쟁에 집중됐던 투자자들의 관심이 AI 인프라와 클라우드 플랫폼으로 확대하는 신호라는... [앵커] 자체 반도체를 만드는 것도 변수가 되겠죠? [캐스터] 맞습니다. 아마존은 자체 가속기인 트레이니움과...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000326418?division=NAVER",
-        "source": "SBS",
-        "published": "2026-08-04T07:53:00+09:00",
+        "title": "AI가 직원 대신한다…美 ‘1인 기업’ 확산",
+        "summary": "창업 비용과 인력 수요는 낮아졌지만 모방 경쟁과 AI 사용료, 고용 감소 가능성도 함께 커지고 있다. 29일... 하버드비즈니스스쿨의 렘브란트 코닝 부교수는 \"기업당 채용은 줄어도 기업 수가 네 배 늘면 전체 고용이...",
+        "link": "https://www.hankyung.com/article/202608043839i",
+        "source": "한국경제",
+        "published": "2026-08-04T14:27:00+09:00",
         "score": 26
       }
     ],
     "기타": [
       {
-        "title": "원화 38%·엔화 50% … 동아시아 '저평가'",
-        "summary": "한국과 일본이 미국과 공조해 외환시장에 달러 공급을 늘리며 자국 통화의 저평가 해소에 나선 가운데 원화와 일본 엔화, 중국 위안화, 대만 달러 등 동아시아 통화가 구매력 수준보다 ..",
-        "link": "https://www.mk.co.kr/news/economy/12115435",
-        "source": "매일경제 : 경제",
-        "published": "2026-08-03T17:54:40+09:00",
+        "title": "“오죽하면 경제도 민주당이 나아보여”...대통령 헛발질에 속타는 공화당",
+        "summary": "‘美 경제 잘 이끌어갈 정당’ 여론조사 10년만에 민주당 우세  이란전쟁 여파에 기름값 폭등 트럼프 지지율 35%까지 하락이란 전쟁 여파로 기름값이 치솟으면서 미국 가계의 지갑이 ..",
+        "link": "https://www.mk.co.kr/news/world/12115981",
+        "source": "매일경제 : 국제",
+        "published": "2026-08-04T09:37:16+09:00",
         "score": 24
       },
       {
-        "title": "“아까운 사업부 팔더라도 투자 의욕”...하반기 국내 M&A시장 주도 업종은",
-        "summary": "이준기 태평양 대표변호사 로봇·전력·에너지인프라 유망 카브아웃 통해 재원 마련도 매각 뒤 지분 남겨 이익 공유 SK·KKR 거래모델 확산 전망“한국 인수·합병(M&amp;A) 시장은 인공..",
-        "link": "https://www.mk.co.kr/news/society/12115573",
-        "source": "매일경제 : 증권",
-        "published": "2026-08-03T20:48:18+09:00",
+        "title": "“공주님 입대하십니다”…왕위 계승 2순위도 11개월 군복무하는 이 나라",
+        "summary": "러시아 위협과 도널드 트럼프 미국 대통령의 그린란드 병합 압박에 대응하기 징병제 확대에 나선 덴마크가 3일(현지시간)을 기해 이 제도를 발효했다. 로이터통신은 덴마크 새 징집병 약..",
+        "link": "https://www.mk.co.kr/news/world/12115933",
+        "source": "매일경제 : 국제",
+        "published": "2026-08-04T08:45:14+09:00",
         "score": 24
       },
       {
-        "title": "\"하반기 국내 M&A, 피지컬 AI가 이끌 것\"",
-        "summary": "\"한국 인수·합병(M&amp;A) 시장은 인공지능(AI) 확산과 함께 커지는 피지컬 AI와 로봇, AI를 떠받치는 전력, 에너지 인프라스트럭처 등 보완재 영역에 집중될 것 입니다. 대기업..",
-        "link": "https://www.mk.co.kr/news/stock/12115418",
-        "source": "매일경제 : 증권",
-        "published": "2026-08-03T17:51:18+09:00",
+        "title": "“명함 100장보다 검증된 바이어 1곳”…中서 800만달러 계약 따낸 K-뷰...",
+        "summary": "경기비즈니스센터(GBC)는 경기도와 경기도경제과학진흥원이 해외에서 운영하는 중소기업 수출 지원 거점으로, 현지 시장조사와 바이어 발굴, 상담 주선, 계약 협의, 사후관리 등을 지원하고 있다. 이 계약 이후에도 협력은...",
+        "link": "https://www.mk.co.kr/article/12116276",
+        "source": "매일경제",
+        "published": "2026-08-04T14:35:00+09:00",
         "score": 24
       },
       {
-        "title": "저커버그·래리 페이지 ‘탈출’에도…캘리포니아 억만장자세 통과되나",
-        "summary": "세금 피해 떠나는 억만장자들 캘리포니아는 상위 1%의 소득자가 전체 주 소득세 수입의 약 40%를 담당하는 등 부유층 납세자 의존도가 높다. 이미 최고 14%의 소득세와 0.68%의 재산세를 물리고 있는데 또다시 세금을...",
-        "link": "https://www.sedaily.com/article/20075186?ref=naver",
+        "title": "“GPU 1만5000장 시대 열린다” 해남 AI센터 착공…취준생 기회 확대",
+        "summary": "■ K부품사, 로봇 시장 진출 가속화: 미국 FCC의 중국산 로봇 수입 금지 조치로 한국 자동차 부품사들의... 모델 수입을 전면 금지하면서 현지 공장을 이미 운영 중인 한국 자동차 부품사들이 수혜를 입게 됐다....",
+        "link": "https://www.sedaily.com/article/20075515?ref=naver",
         "source": "서울경제",
-        "published": "2026-08-04T06:01:00+09:00",
+        "published": "2026-08-04T13:39:00+09:00",
         "score": 24
       },
       {
-        "title": "KG모빌리티, 中 체리차 투자 유치… 위탁 생산 기지화 우려",
-        "summary": "글로벌 3위 현대차그룹도 고전하는 자율주행·전기차 경쟁에 연 10만~11만대 안팎을 판매하는 KGM이나... 르노코리아 부산 공장에서 지리차 산하 폴스타의 전기차 ‘폴스타4’를 생산해 유럽 등에 수출하는 것이다. KGM...",
-        "link": "https://www.chosun.com/economy/auto/2026/08/04/AISXLBU6JBFPBFK6UV7WJWF5NE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-08-04T00:39:00+09:00",
+        "title": "李대통령 \"3대 메가 핵심 전력·용수 공급에 차질 없어야\"",
+        "summary": "그러면서 수도권 집중을 완화하기 위해 \"지역 균형발전, 특히 지방 우대 산업·경제 정책이 매우 중요하다\"고 말했다. 이 대통령은 인공지능(AI)을 중심으로 세계 산업 질서가 급변하는 상황에서 정부가 과감한 투자와...",
+        "link": "http://www.fnnews.com/news/202608041414583080",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-04T14:28:00+09:00",
         "score": 24
       },
       {
-        "title": "미 민주, '경제 잘하는 정당' 여론조사서 10년 만에 공화 추월",
-        "summary": "▲ 트럼프 대통령 미국의 양대 정당 가운데 민주당이 근 10년 만에 공화당을 제치고 경제 운영을 더... 0%포인트)에 따르면, 응답자의 37%는 민주당이 미국 경제에 대해 더 나은 접근 방식을 갖고 있다고 답했습니다....",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008688868&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-08-04T08:02:00+09:00",
+        "title": "식품기업, 친환경 설비에 430억 투입…지난해 온실가스 1만5000t 줄였다",
+        "summary": "또한, 갈수록 엄격해지는 글로벌 탄소 규제와 기후 공시 의무화에 선제적으로 대응해 대외 신뢰도와 수출 경쟁력을 높이려는 포석이 깔려 있다. 유럽연합(EU)와 북미 등으로 수출하는 데 있어 이들 국가에서 요구하는...",
+        "link": "http://www.fnnews.com/news/202608031531341062",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-04T14:29:00+09:00",
         "score": 24
       },
       {
-        "title": "李 한 마디에 막힌 ‘쪼개기 상장’… 네이버 현대차도 못 피했다",
-        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0804/2026072612083144159_1785035313_0030201642.jpg\" /></center><br /><br />중복 상장 가이드라인 시행으로 자회사 상장을 준비하거나 검토해온 여러 대기업의 셈법이 복잡해졌다. 두나무를 품게 될 네이버파이낸셜과 현대자동차그룹의 로봇 자회사 보스턴다이내믹스, SK그룹의 건설 자회사 SK에코플랜트, CJ그룹의 헬스앤드뷰티(H&amp;B) 자회사 CJ올리브영 등이 새 규제의 영향권에 든다. 일부 기업은 기업 공개(IPO) 대신 재무적 투자자(FI) 지분 매입이나 합병 등 다른 출구 전략을 모색하고 있다.<br /><br />3일 금융권에 따르면 중복 상장 가이드라인의 직접적인 영향을 받는 기업은 네이버파이낸셜이다. 네이버가 2019년 네이버페이의 사업 일부를 물적 분할해 만들었다. 네이버파이낸셜은 네이버의 결제 인프라와 두나무...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=0030201642",
-        "source": "국민일보 | 경제",
-        "published": "2026-08-03T21:01:00+00:00",
+        "title": "“10년 간 4배 벌어”…워런 버핏이 개미에게 추천한 투자법은",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/04/134416242.1.jpg\" vspace=\"10\" />‘투자의 구루(스승)’로 불리는 워런 버핏 버크셔해서웨이 회장이 미국 대표지수를 추종하는 상장지수펀드(ETF)에 장기 투자하는 것이 가장 좋은 투자법이라고 거듭 강조했다.3일(현지시간) 미국 투자전문매체 모틀리풀에 따르면 버핏은 개인투자자에게 미국 스탠더드앤드푸어스(S&amp;P)500 지수를 추종하는 ETF에 장기 투자할 것을 추천해왔다.대표 상품으로는 뱅가드 S&amp;P500 ETF(VOO)가 꼽힌다. 이 ETF는 지난 10년간 303%의 누적 수익률을 기록했다. 10년 전 1억원을 투자했다면 현재 4억원 이상으로 불어난 셈이다.버핏은 전문 투자자도 시장 수익률을 꾸준히 앞서기 어렵다고 봤다. 따라서 개별 종목을 고르기보다 시장 전체에 투자하는 인덱스(지수) 투자가 개인 투자...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260804/134416241/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-04T08:49:37+09:00",
         "score": 24
       },
       {
-        "title": "배경훈 “모두의 AI 성장사다리, AI 기본사회 첫걸음 될 것”",
-        "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0804/2026080320040681777_1785755046_1785745140.jpg\" /></center><br />정부가 전 국민을 대상으로 AI 교육부터 개발, 현장 실증, 창업까지 종합적으로 지원하는 ‘성장 사다리’ 구축에 본격적으로 나섰다. 국민 모두가 AI의 혜택을 골고루 누릴 수 있도록 기반을 다지겠다는 취지다.<br /><br />과학기술정보통신부는 3일 국립광주과학관에서 ‘모두의 AI 성장사다리 프로젝트’ 출범식을 열고 모두의 AI 배움터·실험실·라운지 통합 개소를 선포했다. 배경훈 부총리 겸 과기정통부 장관은 “AI 활용 역량은 국민 누구나 갖춰야 할 새로운 기본역량이자 국가 경쟁력의 핵심”이라며 “모두의 AI 성장사다리는 AI 기본사회를 만들어가는 첫 걸음이 될 것”이라고 말했다.<br /><br />총 155억원이 투입되는 이번 사업은 그동안 정부가...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=1785745140",
-        "source": "국민일보 | 경제",
-        "published": "2026-08-03T16:06:00+00:00",
-        "score": 24
-      },
-      {
-        "title": "'이 직업'부터 사라진다…OECD가 지목한 AI 대체 1순위",
-        "summary": "최고경영자(CEO), 판사, 의사, 변호사 등은 인공지능(AI)이 대체하기 어려운 반면 회계와 자료 입력 등 반복적이고 절차화된 업무를 하는 사무직은 AI 도입에 따른 업무 자동화에 가장 먼저 ‘노출’될 것이라는 경제협...",
-        "link": "https://www.hankyung.com/article/2026080324641",
-        "source": "한국경제",
-        "published": "2026-08-04T08:01:00+09:00",
+        "title": "현대차 9조원 투자 지원…새만금 국가산단 종합보세구역 추가 지정",
+        "summary": "AI데이터센터·로봇공장 등 조기 구축 지원 기존 245만평→426만평…3·7·8공구 추가 지정현대차그룹의 9조원 규모 새만금 투자를 지원하기 위해 국가산업단지 3·7·8공구가 종합..",
+        "link": "https://www.mk.co.kr/news/realestate/12116136",
+        "source": "매일경제 : 부동산",
+        "published": "2026-08-04T11:03:04+09:00",
         "score": 22
       },
       {
@@ -692,6 +700,14 @@
         "source": "매일경제 : 국제",
         "published": "2026-08-03T22:56:45+09:00",
         "score": 22
+      },
+      {
+        "title": "카카오페이 2분기 영업이익 586억원…528.2%↑",
+        "summary": "(서울=연합뉴스) 코스피 상장사 카카오페이[377300]는 연결 기준 올해 2분기 영업이익이 586억원으로 지난해 동기보다 528.2% 증가한 ...",
+        "link": "https://www.yna.co.kr/view/AKR20260804104700527",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-08-04T14:25:47+09:00",
+        "score": 20
       }
     ]
   },
@@ -750,5 +766,42 @@
       "match_status": "OK",
       "importance_score": 8
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-08-04",
+    "generated_at": "2026-08-04T05:39:07.766842+00:00",
+    "briefing_hash": "7aaf9fe83d101409",
+    "key_headlines": [
+      {
+        "title": "Record tax revenue expected to exceed 500 trillion won amid semiconductor boom",
+        "summary": "South Korea's first-half tax revenue reached 223 trillion won, up 33 trillion from the previous year, with projections for the full year approaching 450 trillion won and potentially breaking 500 trillion won next year driven by Samsung and SK Hynix corporate tax prepayments."
+      },
+      {
+        "title": "July consumer inflation drops to 2% range after three months as oil prices stabilize",
+        "summary": "Consumer price inflation fell to 2.8% year-over-year in July from 3% in the previous two months, aided by government oil price controls and international oil price declines, while core inflation rose to a 2-year-7-month high."
+      },
+      {
+        "title": "Core inflation rises amid strong economic growth, putting pressure on consecutive rate hikes",
+        "summary": "South Korea's core inflation reached the highest level in 2 years and 7 months despite overall consumer inflation cooling, leading the central bank to seriously consider consecutive interest rate increases despite concerns over real estate market stability."
+      },
+      {
+        "title": "Government introduces tax deductions for domestic AI and semiconductor production",
+        "summary": "The 2026 tax reform plan establishes new domestic production tax credits for AI, robots, semiconductors, and secondary batteries, with small modular reactors receiving up to 50% R&D tax deductions as part of national strategic technology initiatives."
+      },
+      {
+        "title": "US intervenes in currency markets for first time in 28 years to support yen",
+        "summary": "The US engaged in foreign exchange market intervention to purchase yen and sell dollars in response to rising US Treasury yields, stabilizing the won-dollar exchange rate around 1,429-1,430 won as regional geopolitical risks ease."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "South Korea's economy is experiencing a semiconductor-driven tax revenue boom, with first-half national tax revenue reaching 223 trillion won, marking a 33 trillion won increase from the previous year. The government projects year-end revenues could approach 450 trillion won, with potential to surpass 500 trillion won in 2027 driven by major chipmakers' tax prepayments. Simultaneously, the government unveiled comprehensive 2026 tax reform measures including new domestic production tax credits for AI, semiconductors, and secondary batteries to strengthen economic security. These developments come amid mixed inflation signals, with consumer price inflation cooling to 2.8% in July but core inflation hitting 2-year-7-month highs, creating policy dilemmas for monetary authorities.",
+      "Macro & Fiscal Policy": "The Bank of Korea faces a complex policy environment as consumer inflation moderated to 2.8% in July from 3% in prior months, primarily due to declining oil prices and government price stabilization measures. However, core inflation rose to the highest level in 2 years and 7 months, driven by cost pressures and expanding durable goods prices, prompting serious consideration of consecutive interest rate hikes. The August consumer price inflation is expected to rise above July levels due to base effects from telecommunications company discounts in the prior year. Government fiscal measures include the newly announced 2026 tax reform emphasizing domestic production incentives and regional development, particularly for AI and strategic technology sectors, while introducing stricter taxation on non-resident single-home owners to address housing market concerns.",
+      "Financial Markets": "South Korean equity markets showed mixed performance with the KOSPI gaining strength amid declining oil prices and falling Treasury yields, though individual stocks like Hyundai Motor and Samsung Biologics posted losses. The KOSDAQ advanced over 3% with institutional selling creating mixed KOSPI trading patterns. The won-dollar exchange rate stabilized around 1,429-1,430 won following US foreign exchange intervention to support the yen, marking America's first currency market intervention in 28 years. Market participants anticipate the August US non-farm payroll data will be crucial, as weaker-than-expected employment figures could ease interest rate hike concerns and provide support to equity markets, while SK Hynix share deposit receipts and coordinated US-Japan currency intervention continue to underpin the Korean won.",
+      "Industry & Technology": "The domestic automotive industry showed strong adoption of eco-friendly vehicles, with 60% of newly registered vehicles in the first half being electric or hybrid models, though concerns mount over Chinese electric vehicle market share gains following Geely-Volvo's rapid expansion. Samsung Energy Solutions secured US patents for FF-PCB technology applicable to energy storage systems and electric vehicle battery packs, positioning the company in the competitive global battery market. Shipbuilding and steel industries are facing unprecedented challenges from record heat waves exceeding 40 degrees Celsius, forcing operational adjustments and work hour modifications. Konkuk University researchers developed multi-functional thermal management materials to prevent electric vehicle battery fires, while industry observers note that China, led by BYD's competitive pricing, has surpassed Germany as the leading imported vehicle brand in Korea.",
+      "Real Estate": "Real estate experts anticipate significant increases in property listings before 2028 when long-term ownership tax benefits are scheduled to decrease, potentially affecting ultra-high-value and elderly single-home owners seeking tax optimization strategies. The 2026 tax reform introduces substantial changes including reduced long-term ownership deductions and increased holding taxes on non-resident single-home owners, expected to push property owners toward residential use and increase household debts. New lending restrictions targeting non-resident single-home owners will limit fresh secured loan origination and restrict existing loan renewals, potentially worsening the rental crisis by reducing jeonse (lease deposit) supply. Regional property demand may concentrate in 30-pyeong apartment markets in areas like Mapo and Seongdong as investors respond to tax changes, while property tax burdens are set to rise significantly as Korea's real estate tax reaches approximately 3.0% of GDP, already double the OECD average of 1.6%.",
+      "International Economy": "The US stock market rallied to record highs with the Dow Jones reaching all-time peaks and NASDAQ advancing 2% as oil prices plummeted, creating relief from inflation concerns and reducing expectations for aggressive Federal Reserve tightening. The Fed's recent decision to hold rates steady has kept market focus on September's FOMC meeting, where CME FedWatch data shows a 66.5% probability of at least 25 basis points of rate increases. The Trump administration faces legal challenges from 25 US states over the constitutionality of Section 301 tariffs on major trading partners, with courts examining whether executive tariff authority exceeds constitutional limits. The US foreign exchange intervention supporting the yen marks the first such action in 28 years, reflecting concerns over rising US Treasury yields and supporting allied currency stability. Japan has formally protested through diplomatic channels the Trump administration's unauthorized use of Pokemon and Naruto characters in immigration enforcement materials, highlighting tensions between trade policies and intellectual property protection.",
+      "AI & Economy": "President Lee Seung-yeol emphasized that Korea must undertake aggressive investment and rapid execution strategies to capitalize on the AI-driven industrial transformation reshaping the global economy, advocating for diversified export markets and supply chain resilience. The government's 2026 tax reform establishes substantial tax incentives for domestic AI and semiconductor production, with regional companies receiving preferential treatment to encourage decentralized development away from Seoul metropolitan concentration. Copper prices surged significantly as markets recognized its critical role in AI infrastructure development, particularly for data center power grid construction and electric vehicle manufacturing which requires 3-4 times more copper than gasoline vehicles. MIT research and venture capital activity demonstrate that companies reorganizing around AI capabilities have achieved doubled revenue growth, indicating fundamental shifts in organizational design and business models. The Haenam AI Center groundbreaking promises to deploy 15,000 GPUs, addressing immediate data science talent shortages and creating employment opportunities for job seekers specializing in artificial intelligence technologies.",
+      "Others": "The US Democratic Party gained polling advantages over Republicans in economic management perception for the first time in a decade, with President Trump's approval rating declining to 35% amid Iranian conflict-related oil price spikes affecting household budgets. Denmark implemented expanded conscription requirements effective August 3rd to counter Russian threats and respond to Trump administration pressure, requiring even second-in-line royal heirs to complete 11 months of military service. South Korean beauty brands successfully concluded 8 million dollar export contracts in China by leveraging government trade support centers that provide market research, buyer identification, transaction facilitation, and post-contract management services beyond traditional business card networking. The Korean automotive parts sector is accelerating robot market expansion following US FCC restrictions on Chinese robot imports, providing competitive advantages to companies with existing local manufacturing operations. President Lee emphasized the critical importance of securing stable power and water supply for three major infrastructure projects and called for regional economic development incentives as Korea implements its AI-centered economic policy transformation."
+    }
+  }
 }
