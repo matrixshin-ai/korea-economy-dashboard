@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-05T14:47:08.940709+09:00",
+  "generated_at": "2026-08-05T19:19:01.686286+09:00",
   "date": "2026-08-05",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 544,
-    "total_used": 525,
-    "dropped_quality": 8,
-    "dropped_negative": 11,
+    "total_input": 613,
+    "total_used": 595,
+    "dropped_quality": 10,
+    "dropped_negative": 8,
     "per_category": {
-      "기타": 218,
-      "거시경제·재정": 69,
-      "부동산": 54,
-      "금융시장": 101,
-      "AI와 경제": 7,
-      "산업·과학": 34,
-      "국제경제": 42
+      "기타": 266,
+      "거시경제·재정": 78,
+      "산업·과학": 40,
+      "금융시장": 112,
+      "부동산": 51,
+      "국제경제": 35,
+      "AI와 경제": 13
     }
   },
   "headlines": [
@@ -182,16 +182,56 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "모건스탠리 \"韓 성장률 3.4%로 상향…한은 8월 추가 금리인상\"",
-        "summary": "경기 회복에 따른 물가 압력이 커지면서 한국은행의 기준금리 인상 속도도 당초 예상보다 빨라질 것으로... 한은이 이달 기준금리를 추가 인상하고 2027년 1·4분기까지 기준금리를 3.5%로 끌어올릴 것으로 내다봤다....",
-        "link": "http://www.fnnews.com/news/202608051345484741",
+        "title": "모건스탠리, 올해 韓성장률 3.4%로 상향",
+        "summary": "경기회복에 따른 물가 압력이 커지면서 한국은행의 기준금리 인상 속도도 당초 예상보다 빨라질 것으로... 이와 함께 한은이 이달 기준금리를 추가 인상하고 내년 1·4분기까지 기준금리를 3.5%로 끌어올릴 것으로...",
+        "link": "http://www.fnnews.com/news/202608051837415340",
         "source": "파이낸셜뉴스",
-        "published": "2026-08-05T13:52:00+09:00",
-        "score": 118
+        "published": "2026-08-05T18:39:00+09:00",
+        "score": 138
+      },
+      {
+        "title": "“韓경제 생각보다 강하다”…모건스탠리, 성장률·물가·금리 전망 싹 다 올렸다",
+        "summary": "올해 GDP 0.6%P 올려 3.4% 전망 내년 1분기 기준금리 연3.5% 도달모건스탠리가 한국 경제의 회복세가 예상보다 빠르다며 올해와 내년 경제성장률 전망치를 모두 상향 조정했..",
+        "link": "https://www.mk.co.kr/news/economy/12117942",
+        "source": "매일경제 : 경제",
+        "published": "2026-08-05T17:50:47+09:00",
+        "score": 130
+      },
+      {
+        "title": "“韓경제 생각보다 강하다”…모건스탠리, 성장률·물가·금리 전망 싹...",
+        "summary": "올해 GDP 0.6%P 올려 3.4% 전망 내년 1분기 기준금리 연3.5% 도달 모건스탠리가 한국 경제의 회복세가 예상보다... 기준금리 인상을 이어갈 것으로 내다봤다. 캐서린 오 모건스탠리 한국·대만 수석 이코노미스트는 4일...",
+        "link": "https://www.mk.co.kr/article/12117942",
+        "source": "매일경제",
+        "published": "2026-08-05T17:51:00+09:00",
+        "score": 130
+      },
+      {
+        "title": "인도 기준금리 5.25% 동결…유가발 물가 압력 더 지켜본다",
+        "summary": "RBI는 올해 국내총생산(GDP) 증가율 전망치를 6.6%에서 6.7%로 높였다. 최근 발표된 경제지표가 엇갈렸지만 내수와 신용 수요가 성장세를 뒷받침할 것으로 봤다. 제조업 경기에는 둔화 조짐이 나타나고 있다. 인도 제조업...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05113526645544368",
+        "source": "이데일리",
+        "published": "2026-08-05T15:47:00+09:00",
+        "score": 122
+      },
+      {
+        "title": "韓서 지갑 연 외국인 관광객 … 코로나 이후 GDP 기여 4배로",
+        "summary": "5일 한국은행 조사국이 발표한 '서비스수출 관점에서 본 관광산업의 성장 효과와 정책 방향' 보고서에 따르면 관광수출의 국내총생산(GDP) 성장률 기여도는 2001~2025년 연평균 0.04%포인트로 추산됐다. 방한 관광...",
+        "link": "https://www.mk.co.kr/article/12117928",
+        "source": "매일경제",
+        "published": "2026-08-05T17:49:00+09:00",
+        "score": 102
+      },
+      {
+        "title": "모건스탠리, 올해 한국 GDP 성장률 전망치 3.4%로 상향…“韓 경제 예상...",
+        "summary": "5%P 도달 전망 글로벌 투자은행(IB) 모건스탠리가 올해와 내년 한국의 국내총생산(GDP) 성장률 전망치를 상향... 한국 GDP 성장률이 기존 전망치보다 60bp(1bp=0.01%포인트) 오른 3.4%가 될 것으로 전망했다. 내년은 40bp 상향된 2....",
+        "link": "https://biz.chosun.com/stock/stock_general/2026/08/05/TQJU7EPKCVDZLKD6QX3NHGYN2I/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-08-05T15:07:00+09:00",
+        "score": 100
       },
       {
         "title": "모건스탠리, 올해 한국 GDP 성장률 전망치 3.4%로 상향 조정",
-        "summary": "그러면서 \"기술 수요가 계속해서 성장의 버팀목 역할을 할 것으로 예상되는 가운데 제조업과 설비투자(CapEx) 중심의 경제 활동도 점차 탄력을 받고 있다\"고 설명했습니다. 아울러 \"자동차, 기계류, 소비재 등 총수요와...",
+        "summary": "글로벌 투자은행 모건스탠리가 올해와 내년 한국의 국내총생산(GDP) 성장률 전망치를 상향 조정했습니다.... 모건스탠리는 5일 보고서에서 한국 GDP 성장률이 올해 기존 전망치보다 60bp (1bp=0.01%포인트) 오른 3.4%, 내년 40bp...",
         "link": "https://biz.sbs.co.kr/article_hub/20000326821?division=NAVER",
         "source": "SBS",
         "published": "2026-08-05T14:44:00+09:00",
@@ -206,152 +246,112 @@
         "score": 92
       },
       {
-        "title": "\"특례시 도전 청주시, 수출·고용 등 경쟁력 우수\"",
-        "summary": "청주시는 고용률 66%(2위), 청년고용률 48.9%(1위), 실업률 1.9%(1위), 경제활동 참가율 67.3%(2위), 지역내총생산 42조8천386억원(3위) 등 각종 고용 지표에서도 비교우위를 점했다. 이 외에 시민 1인당 복지예산 규모가...",
-        "link": "https://www.yna.co.kr/view/AKR20260803110400064?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-08-03T15:14:00+09:00",
-        "score": 88
+        "title": "모건스탠리 \"韓 성장률 3.4%로 상향…한은 8월 추가 금리인상\"",
+        "summary": "캐슬린 오 모건스탠리 이코노미스트는 5일 보고서에서 올해 한국 국내총생산(GDP) 성장률 전망치를 종전보다 0.6%p 높인 3.4%로 제시했다. 2027년 성장률 전망치도 0.4%p 상향한 2.7%로 조정했다. 한은이 이달 기준금리를 추가...",
+        "link": "http://www.fnnews.com/news/202608051345484741",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-05T13:52:00+09:00",
+        "score": 90
       },
       {
-        "title": "추미애 ‘경기도 재정 비상’ 공식 선언…7700억 감액추경·고강도 구조...",
-        "summary": "그는 “경기도 전체 예산은 약 41조7000억원이지만 정책적으로 자체 활용할 수 있는 재원은 3조5000억원 수준에 불과하다”며 “도세의 절반 이상을 취득세에 의존하는 구조인데 부동산 경기 침체로 취득세 수입은 2022년...",
-        "link": "https://www.mk.co.kr/article/12117638",
-        "source": "매일경제",
-        "published": "2026-08-05T14:12:00+09:00",
-        "score": 84
+        "title": "\"韓 경제 펀더멘털 빠르게 개선\"…모건스탠리, 성장률 전망 상향",
+        "summary": "견조한 수출과 내수 회복을 바탕으로 한국은행도 예상보다 빠른 긴축에 나설 것으로 내다봤다. 캐서린 오 모건스탠리 한국·대만 수석 이코노미스트는 4일(현지시간) '한국: 우호적인 펀더멘털'이라는 제목의 보고서를...",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=537990",
+        "source": "중앙일보",
+        "published": "2026-08-05T16:54:00+09:00",
+        "score": 82
       },
       {
-        "title": "한은 \"8월 물가, 통신료 할인 기저효과로 7월보다 높아질 것\"",
-        "summary": "한국은행은 오늘(4일) \"8월 소비자물가 상승률은 작년에 있었던 일부 이동통신사의 대규모 통신요금 할인 기저효과에 크게 영향받아 7월보다 높아질 것으로 예상된다\"고 밝혔습니다.이지호 한은 부총재보는 이날 오전 한은에서 물가상황 점검회의를 열어 \"7월 소비자물가는 석유류 최고가격 인하, 농산물 가격하락 등의 영향으로 6월보다 상승 폭이 둔화했다\"며 이같이 말했습니다.그는 7월 물가 지표와 관련, \"석유류와 농축수산물 비중이 높은 생활물가 상승률은 2.5%로 큰 폭 낮아졌다\"며 \"근원물가는 비용 충격 전이 등으로 내구재 가격 오름폭이 확대되면서 상승률이 소폭 확대됐다\"고 분석했습니다.이 부총재보는 \"향후 소비자물가는 중동 ..",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5210148",
-        "source": "MBN : 경제기사",
-        "published": "2026-08-04T09:36:00+09:00",
-        "score": 80
+        "title": "돌아온 외국인 관광객, 성장률 0.15%P 높였다…부가가치 창출은 숙제",
+        "summary": "5일 한국은행이 발표한 ‘BOK이슈노트: 서비스 수출 관점에서 본 관광산업의 성장 효과와정책 방향’에 따르면, 지난해 외국인 관광객 수는 약 1894만명으로 집계됐다. 코로나19 대유행 이전 최고치인 1750만명(2019년)을...",
+        "link": "https://www.joongang.co.kr/article/25451064",
+        "source": "중앙일보",
+        "published": "2026-08-05T16:45:00+09:00",
+        "score": 82
       },
       {
-        "title": "추미애 \"7700억 감액 추경 불가피\"…5일 '경기도 재정 비상상황' 선언(종...",
-        "summary": "추 지사는 \"최근 기획재정부에 경기도 재정구조 개선을 위한 제도 개선을 건의했고, 경기도의회와도 재정 실상을 공유하며 협력을 요청했다\"며 \"정부와 국회, 경기도의회, 공직사회, 도민이 모두 원팀이 돼야 재정위기를...",
-        "link": "https://view.asiae.co.kr/article/2026080511034947780",
-        "source": "아시아경제",
-        "published": "2026-08-05T11:03:00+09:00",
-        "score": 76
-      },
-      {
-        "title": "추미애 “이 시간부로 ‘경기도 재정 비상상황’ 선언…끌어 쓸 재원 없...",
-        "summary": "그는 “기대했던 3기 신도시 개발에 따른 취득세 수입도 당초 6500억원으로 예상했지만 2300억원 수준으로 줄어들 것으로 보인다”며 “반도체를 비롯한 첨단산업을 유치해도 기업활동으로 발생하는 법인 지방소득세는...",
-        "link": "https://www.mk.co.kr/article/12117606",
-        "source": "매일경제",
-        "published": "2026-08-05T13:36:00+09:00",
-        "score": 72
-      },
-      {
-        "title": "추미애 \"경기도 재정 비상 상황…마른 땅에 풀 한 포기 없어\"",
-        "summary": "그는 \"기대했던 3기 신도시 개발에 따른 취득세 수입도 당초 6천500억원으로 예상했지만 2천300억원 수준으로 줄어들 것으로 보인다\"며 \"반도체를 비롯한 첨단산업을 유치해도 기업활동으로 발생하는 법인 지방소득세는...",
-        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00006&news_seq_no=5210424",
-        "source": "매일경제",
-        "published": "2026-08-05T13:34:00+09:00",
-        "score": 72
-      },
-      {
-        "title": "경기도 재정 ‘엉망진창’…“김동연 꼼수가 문제,구상권 청구하라” 빗...",
-        "summary": "경기도는 보통교부세를 받지 못하는 불교부단체이면서 전체 도세 절반 이상을 부동산 거래에 따라 크게 변동하는 취득세에 의존하고 있다. 실제 2022년 약 11조 원에 달했던 경기도 취득세 수입은 올해 8조 원 수준으로...",
-        "link": "https://biz.heraldcorp.com/article/10831789?ref=naver",
+        "title": "한은 “韓 GDP 대비 관광수출 비율 1.17%…日보다 0.28%P 낮아”",
+        "summary": "지난해 한국의 국내총생산(GDP) 대비 관광 수출 비율이 1.17%로 일본(1.45%)에 못 미치는 것으로 나타났다.... 한국의 GDP 대비 관광 수출 비율은 1.17%였다. 일본은 1.45%로 한국보다 0.28%포인트 높았다. 2003년 관광 입국 정책을...",
+        "link": "https://biz.heraldcorp.com/article/10831916?ref=naver",
         "source": "헤럴드경제",
-        "published": "2026-08-05T14:22:00+09:00",
-        "score": 72
-      },
-      {
-        "title": "美 6월 구인 736만건...노동시장 여전히 견조",
-        "summary": "개인소비지출(PCE) 물가지수와 함께 기준금리 결정에 가장 많이 참고하는 지표다. 월가에서는 7월 비농업 고용이 6월보다 9만 1000명 증가했을 것으로 추정하고 있다. 실업률 예상치는 6월보다 0.1%포인트 오른 4.3%다.",
-        "link": "https://www.sedaily.com/article/20075800?ref=naver",
-        "source": "서울경제",
-        "published": "2026-08-05T00:03:00+09:00",
-        "score": 64
-      },
-      {
-        "title": "석유류 가격 주춤하자… 7월 물가 3% 아래로",
-        "summary": "소비자물가 상승률이 3개월 만에 2%대로 내려왔다. 중동전쟁 여파로 급등했던 석유류 가격 상승이 최고가격제 등으로 둔화해서다. 농산물 가격이 낮아진 것도 영향을 미쳤다.\n4일 국가..",
-        "link": "https://www.mk.co.kr/news/economy/12116547",
-        "source": "매일경제 : 경제",
-        "published": "2026-08-04T18:00:37+09:00",
-        "score": 60
+        "published": "2026-08-05T15:14:00+09:00",
+        "score": 80
       }
     ],
     "금융시장": [
       {
-        "title": "외국인 1조원 '사자'…코스피 6600선 회복",
-        "summary": "강진혁 신한투자증권 연구원은 “유가와 금리 안정, 빅테크 실적을 통한 AI 수익성 우려 완화로 미국 반도체주가 강세를 보였다”며 “국내 증시도 반도체 강세 속 비반도체와 코스닥으로 수급이 확산되는...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04700246645544368",
-        "source": "이데일리",
-        "published": "2026-08-05T14:08:00+09:00",
-        "score": 118
-      },
-      {
-        "title": "코스피 급등세에 매수 사이드카...코스닥도 상승",
-        "summary": "오늘 원·달러 환율 상황은 어떻습니까? [기자] 오늘 서울 외환 시장에서 원·달러 환율은 오전 11시 20분쯤에는 1,423.1원으로 거래됐습니다. 현재도 1,420원대 초중반에서 거래되고 있습니다. 국제유가는 미국과 이란 간...",
-        "link": "https://www.ytn.co.kr/_ln/0102_202608051151495986",
-        "source": "YTN",
-        "published": "2026-08-05T11:51:00+09:00",
+        "title": "전고점 뚫은 S&P, 코스피 반등…증시 조정장 끝났나",
+        "summary": "코스피지수와 코스닥지수 등 국내 증시는 아직 갈 길이 멀지만 극단적 공포를 걷어내고 반등 흐름이 시작됐다는 평가가 나온다. ◇ 美·유럽 증시 ‘전고점 돌파’ 5일 코스피지수는 3.76% 오른 6598.26에 거래를...",
+        "link": "https://www.hankyung.com/article/2026080569991",
+        "source": "한국경제",
+        "published": "2026-08-05T17:45:00+09:00",
         "score": 106
       },
       {
-        "title": "[사설] 美·日 환율 개입에 엔캐리 청산 우려…증시 변동성 대비해야",
-        "summary": "Fed는 최근 기준금리를 동결했지만, 연방공개시장위원회(FOMC)에서 3명의 위원이 인플레이션 압력을 이유로 금리 인상을 주장했다. 주요 글로벌 투자은행(IB) 역시 Fed의 향후 행보를 ‘금리 인상’으로 전망하는 분위기다....",
-        "link": "https://www.hankyung.com/article/2026080325221",
-        "source": "한국경제",
-        "published": "2026-08-04T00:27:00+09:00",
-        "score": 100
+        "title": "미국 증시 훈풍에 코스피 이틀째 상승…반등 이어갈까",
+        "summary": "5일 서울 하나은행 본점 딜링룸에 코스피가 표시되고 있다. 연합뉴스코스피 지수가 5일 3% 상승하는 등 국내 증시가 반등을 이어갔다. 간밤 미국 뉴욕증시에서 반도체주가 강세를 보인 게 국내 증시에도 긍정적 영향을 미친 것으로 풀이된다. 증권가에서는 지난달 국내 증시가 ‘바닥’을 확인했다고 보고 이달 회복세를 보일 것으로 전망했다.코스피는 이날 전장보다 23···",
+        "link": "https://www.khan.co.kr/article/202608051618001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-08-05T16:18:00+09:00",
+        "score": 106
       },
       {
-        "title": "코스피 8월 5500~7500선 전망…실적·퀄리티주로 고금리 방어-한투證",
-        "summary": "미국에서는 중국과 중동의 지정학적 긴장으로 원자재 가격이 오르며 인플레이션 압력이 높아졌고, 7월 연방공개시장위원회(FOMC)에서도 금리 동결에 반대하는 의견이 확인됐다. 향후 금리 방향은 미국...",
-        "link": "http://www.fnnews.com/news/202608040905352847",
-        "source": "파이낸셜뉴스",
-        "published": "2026-08-04T09:10:00+09:00",
-        "score": 100
+        "title": "반도체 강세에 코스피 3.8% '껑충'...코스닥도 상승",
+        "summary": "800선 복귀는 지난달 16일 이후 13거래일 만이었습니다. 원-달러 환율은 1,424.5원으로 주간거래를 마쳤습니다. 중동 긴장이 완화하면서 원-달러 환율은 최근 1,420원과 1,430원대에서 움직이고 있습니다. YTN 류환홍입니다.",
+        "link": "https://www.ytn.co.kr/_ln/0102_202608051807064120",
+        "source": "YTN",
+        "published": "2026-08-05T18:07:00+09:00",
+        "score": 106
       },
       {
-        "title": "“원금보장, 이자까지?”…‘롤러코스피’에 은행예금 35조 급증",
-        "summary": "<center>  <img src=\"https://image.kmib.co.kr/online_image/2026/0805/01100201.20260805500018.jpg\" /> </center> 주요 시중은행 정기예금이 이달 35조원 넘게 증가했다.&nbsp; <br /><br />한국 증시가 전례 없는 변동성을 보이면서 ‘롤러코스피’ 장세를 보이는 가운데 예금 금리까지 오르면서 주식시장에서 빠져나온 자금 일부가 상대적으로 안정적인 예금으로 이동한 것으로 보인다. <br /><br />5일 금융권에 따르면 KB국민·신한·하나·우리·NH농협 등 5대 은행 정기예금 잔액은 지난달 말 기준 984조9399억원이다. 전월 말 대비 35조5401억원 늘었다. <br /><br />지난 5월 7조5327억원, 6월 4조6837억원 증가한 데 이어 석 달 연속 증가세를 지속했다. 증가 규모는 올 들어 가장 컸다. <br /><br />투자 대기자금으로 분류되는 요구불예금 잔액은 665조8879...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000000859",
-        "source": "국민일보 | 경제",
-        "published": "2026-08-04T22:21:00+00:00",
-        "score": 98
+        "title": "코스피 3%대 상승 마감...코스닥도 2%대 상승 마감",
+        "summary": "오늘 원·달러 환율 상황은 어떻습니까? [기자] 오늘 서울 외환 시장에서 원·달러 환율은 오후 3시 반 기준으로 어제 같은 시각과 비교할 때 8원 내린 1,424.5원으로 거래됐습니다. 현재도 1,420원대 초중반에서 거래되고...",
+        "link": "https://www.ytn.co.kr/_ln/0102_202608051654433829",
+        "source": "YTN",
+        "published": "2026-08-05T16:54:00+09:00",
+        "score": 106
+      },
+      {
+        "title": "美 훈풍에 코스피 급등…단숨에 6600선 바짝",
+        "summary": "국제유가와 미국 국채금리 하락에 따른 위험선호 회복으로 환율이 하락했습니다. 우리 시각으로 내일(6일) 새벽 웨스턴디지털과 샌디스크 실적 발표가 발표되는데요. 반도체주 상승 지속 여부를 가늠할 변수가 될...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000326887?division=NAVER",
+        "source": "SBS",
+        "published": "2026-08-05T18:06:00+09:00",
+        "score": 102
       }
     ],
     "산업·과학": [
       {
-        "title": "전기차 배터리 시장은 늘었지만…中 '톱7'이 72% 차지",
-        "summary": "올해 1월부터 6월까지 전 세계 전기차용 배터리 사용량이 전년 같은 기간에 비해 20% 성장한 것으로... 5일 시장조사업체 SNE리서치에 따르면 올해 상반기 세계 각국에 등록된 순수 전기차(EV)...",
-        "link": "https://view.asiae.co.kr/article/2026080513152051831",
-        "source": "아시아경제",
-        "published": "2026-08-05T13:15:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "전기차 배터리 20% 커졌는데…中 7곳이 72.4% 장악",
-        "summary": "글로벌 전기차 배터리 시장이 올해 상반기 20% 성장했지만 국내 배터리 업체들의 점유율은 오히려... 5일 시장조사업체 SNE리서치에 따르면 올해 1~6월 세계 각국에 등록된 순수전기차(EV)와...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04792086645544368",
+        "title": "코스닥 도전하는 해치텍 \"글로벌 아날로그 반도체 전문기업 될 것\"[IPO출...",
+        "summary": "최 대표는 또 “전류센서로 전력 인프라 시장 공략에도 나설 예정”이라며 “데이터센터, 배터리에너지저장시스템, 재생에너지 발전, 전기차 등에서 전력 변환·제어 수요가 확대되면서 전류를 정밀하게 측정해야 할...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05228326645544368",
         "source": "이데일리",
-        "published": "2026-08-05T14:26:00+09:00",
-        "score": 90
+        "published": "2026-08-05T16:01:00+09:00",
+        "score": 98
       },
       {
-        "title": "상반기 전기차 배터리 시장 20% 성장… K배터리 점유율은 ↓",
-        "summary": "올해 상반기 글로벌 전기차 배터리 시장이 두 자릿수 성장세를 이어갔지만 국내 배터리 업체들의... 5일 시장조사업체 SNE리서치에 따르면 올해 1~6월 세계 각국에 등록된 전기차(EV)와 플러그인하이브리드차...",
-        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092167360",
-        "source": "조선일보",
-        "published": "2026-08-05T14:06:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "'코스닥 출사표' 해치텍 \"로봇·데이터센터로 센서 영토 확장\"",
-        "summary": "전기차 배터리관리시스템(BMS)과 에너지저장장치(ESS), 데이터센터 전력 관리 등에 활용할 수 있는 고정밀 전류센서도 개발 중이다. 최 대표는 \"현재 연구개발 인력과 비용의 50% 이상을 비모바일 분야에 투입하고 있다...",
-        "link": "https://www.hankyung.com/article/2026080562806",
+        "title": "직장금고 대출도 '극과극'…반도체·조선·방산만 늘었다",
+        "summary": "금리 직장 새마을금고는 해당 기업 임직원을 회원으로 둔 단위 금고로 독립 법인으로 운영된다. 회원들의 소득이 높아 재정적 기반이 탄탄한 곳이 많다. 이 때문에 직장 새마을금고는 시중 은행보다 낮게 대출 금리...",
+        "link": "https://www.hankyung.com/article/2026080570811",
         "source": "한국경제",
-        "published": "2026-08-05T14:08:00+09:00",
-        "score": 78
+        "published": "2026-08-05T18:17:00+09:00",
+        "score": 90
+      },
+      {
+        "title": "'한국판 IRA' 빠진 전기차·그린철강 한숨",
+        "summary": "산업계 \"稅지원 범위 넓혀야\" 中 전기차 판매 급증하는데 완성차 생산세액공제서 빠져 저탄소 철강은 설비투자 부담 日은 생산량 연계해 세제 지원 나프타 대안인 재생PE도 빠져 '한국판 인플레이션감축법(IRA)'으로...",
+        "link": "https://www.mk.co.kr/article/12117927",
+        "source": "매일경제",
+        "published": "2026-08-05T17:49:00+09:00",
+        "score": 80
+      },
+      {
+        "title": "마비환자, 생각만으로 로봇팔 작동…반도체 날개 단 한국, BCI 속도전",
+        "summary": "조일주 고려대 의대 교수.(사진=고려대) 한국 반도체 등 요소 기술 강점···시스템 통합하면 승산 정부는... BCI는 반도체, 센서, 의료기술이 모두 결합되는 분야인 만큼 한국이 강점을 가질 수 있다는 설명이다. 다만 뇌...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=06136886645544368",
+        "source": "이데일리",
+        "published": "2026-08-05T19:17:00+09:00",
+        "score": 80
       }
     ],
     "부동산": [
@@ -372,20 +372,20 @@
         "score": 138
       },
       {
-        "title": "서울시, 내일 '부동산 시민 대토론회'…무주택 청년 등 참여",
-        "summary": "▲ 서울 남산에서 바라본 서울시내 아파트 정부의 부동산 세제 개편안 발표 이후 전월세 상승과 실거주 과세... 서울시는 오는 내일(6일) 오전 10시 본청 3층 대회의실에서 90분 동안 '부동산 정상화를 위한 시민 대토론회'를...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008691558&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-08-05T14:26:00+09:00",
-        "score": 122
+        "title": "“역세권보다 이것”…100대 1도 뚫은 아파트 청약 경쟁률, 공통점이",
+        "summary": "지방 주택 분양시장에서 올해 상반기 청약 경쟁률 상위 단지들의 주요 공통점은 ‘학세권’인 것으로 나타났다. 부동산 전문 리서치업체 리얼투데이가 한국부동산원 청약홈 자료를 분석한 결..",
+        "link": "https://www.mk.co.kr/news/realestate/12117769",
+        "source": "매일경제 : 부동산",
+        "published": "2026-08-05T16:19:35+09:00",
+        "score": 132
       },
       {
-        "title": "강남3구 주춤한 사이, 중랑·노원 집값 키맞추기…‘대전의 대치동’도 신고가 [부동산 손품노트]",
-        "summary": "이번 주 부동산 이슈와 실거래가 브리핑서울 아파트값 상승세가 2주 연속 둔화했다. 한국부동산원이 지난달 30일 7월 4주 주간 아파트 가격 동향에 따르면 서울 아파트값은 지난주 대..",
-        "link": "https://www.mk.co.kr/news/realestate/12116464",
-        "source": "매일경제 : 부동산",
-        "published": "2026-08-04T17:30:47+09:00",
-        "score": 116
+        "title": "[집중진단] \"조세 정상화냐, 세금폭탄이냐\"…집값 잡으려다 전월세만 폭...",
+        "summary": "■ 경제현장 오늘 '집중진단' - 이창무 한양대 도시공학과 교수, 한문도 명지대 대학원 실물투자분석학과 겸임교수 집을 두 채 이상 갖고 있는 사람은 살 집을 빼고 팔아라. 한 채 있는데 전세 준 사람은 직접 들어가...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000326799?division=NAVER",
+        "source": "SBS",
+        "published": "2026-08-05T18:54:00+09:00",
+        "score": 110
       }
     ],
     "국제경제": [
@@ -398,28 +398,12 @@
         "score": 90
       },
       {
-        "title": "트럼프표 금속 관세 확대되나···철강·알루미늄 등 14개 품목 추가 검토",
-        "summary": "도널드 트럼프 미국 대통령이 4일(현지시간) 에어포스원을 타고 로스앤젤레스 국제공항에 도착한 모습. AP연합뉴스도널드 트럼프 미국 행정부가 철강·알루미늄·구리 관련 제품에 부과하는 국가안보 관세(무역확장법 232조)의 적용 대상을 확대하는 방안을 검토하고 있다.로이터통신은 4일(현지시간) 미 상무부가 철강·알루미늄·구리 파생 제품 14개 품목을 추가 관세 ···",
-        "link": "https://www.khan.co.kr/article/202608050907001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-08-05T09:07:00+09:00",
-        "score": 88
-      },
-      {
-        "title": "트럼프 행정부, ‘해방의 날’ 관세 위법 판결 후 143조원 환급",
-        "summary": "미 관세국경보호청(CBP)은 미국 국제무역법원에 제출한 자료에서 이같이 밝혔다고 4일(현지시간) 파이낸셜타임스(FT)가 보도했다. 이는 지난해 4월 ‘해방의 날’을 선언한 트럼프 행정부가 거의 모든 무역 상대국을...",
-        "link": "https://www.khan.co.kr/article/202608051338001",
-        "source": "경향신문",
-        "published": "2026-08-05T13:38:00+09:00",
-        "score": 88
-      },
-      {
-        "title": "위기상황도 아닌데…美, 엔화 부양에 '연준 비상대출' 동원",
-        "summary": "이를 두고 미국과 일본 사이의 '우호의 상징'이라기 보다 미국채 금리 상승을 막기 위한 도널드 트럼프... 나섰다고 말했지만, 실제로는 미국채 금리 상승 방어를 위한 미 정부의 이해관계와 맞아떨어진 결과란 것이다.",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/05/2026080590161.html",
-        "source": "조선일보",
-        "published": "2026-08-05T14:32:00+09:00",
-        "score": 82
+        "title": "베선트 \"연준, 비상대출 늘려라\"… 다카이치 \"日銀, 日국채 사라\"",
+        "summary": "美·日 중앙은행 독립성 위협 베선트, FOMC 의결사항 거론 국채 담보 달러 대출 확대 요구 엔화 방어·美 금리 안정 노려 다카이치, 금리 상승 억제 위해 日銀에 노골적 국채 매입 요청 미국과 일본이 엔화 가치 방어를...",
+        "link": "https://www.mk.co.kr/article/12117976",
+        "source": "매일경제",
+        "published": "2026-08-05T17:58:00+09:00",
+        "score": 86
       },
       {
         "title": "원화강세 되면 “투자 불가” 韓변동성 어디로 [트럼프 스톡커]",
@@ -428,9 +412,33 @@
         "source": "서울경제",
         "published": "2026-08-05T08:55:00+09:00",
         "score": 80
+      },
+      {
+        "title": "日 국채 안 팔고 엔화 방어…美, 연준 FIMA 확대 압박",
+        "summary": "FIMA 한도 확대는 연방공개시장위원회(FOMC)의 승인이 필요한 사안이다. 일반적으로 연준은 금융시장 기능이 심각하게 훼손되거나 금융안정이 위협받을 때만 이런 비상 유동성 장치를 활용해왔다. 현재 미국...",
+        "link": "http://www.fnnews.com/news/202608050429037353",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-05T04:31:00+09:00",
+        "score": 78
+      },
+      {
+        "title": "JP모건 \"워시 의장의 연준 신뢰 강화 실패…9월 인상도 가능\"",
+        "summary": "JP모건은 연방공개시장위원회(FOMC)의 나머지 위원들이 물가 안정이라는 목표 달성을 위해 그들이 현직에... 오는 12일 발표될 7월 소비자물가지수는 9월 15~16일 열리는 FOMC 회의에서 어떤 정책조치가 필요할지를 두고...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000326575?division=NAVER",
+        "source": "SBS",
+        "published": "2026-08-04T15:48:00+09:00",
+        "score": 70
       }
     ],
     "AI와 경제": [
+      {
+        "title": "스페이스X 2분기 매출 11조, 투자는 26조…AI 인프라 경쟁 본격화",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/05/134426879.1.jpg\" vspace=\"10\" />세계 최대 우주기업 스페이스X가 인공지능(AI) 투자 경쟁에 뛰어들었다. 2027년부터 우주 AI 데이터센터 구축을 본격화하고 이를 위해 엔비디아 협력관계를 강화하겠다는 포석이다. 4일(현지시간) 스페이스X는 올 2분기(4~6월) 매출이 78억 달러(약 11조 원)로 전년 동기 대비 92% 늘었다고 밝혔다. 반면 이 기간 순손실은 5억4100만 달러(약 7500억 원)로 집계됐다. 예상보다 높은 매출에도 불구하고 이를 뛰어넘는 막대한 설비 투자 탓에 적자가 났다. 스페이스X의 2분기 전체 설비투자는 183억7000만 달러(약 26조 원)로 지난해 같은 기간보다 6배 이상으로 늘어났다. 특히 이 중 AI 관련 투자가 158억 달러(22조 원)에 달한다. 매출의 2배 가량을 AI 인프...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260805/134424990/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-05T17:43:00+09:00",
+        "score": 58
+      },
       {
         "title": "“AI로 돈 못 번다고?” 의구심 씻어낸 클라우드… 아마존, 시총 3조 달러 ‘터치’",
         "summary": "<center><img src=\"https://image.kmib.co.kr/online_image/2026/0805/2026080417482585763_1785833305_0030206550.jpg\" /></center><br />빅테크 기업들의 대규모 인공지능(AI) 투자를 두고 시장에서는 ‘실제 수익으로 이어질 수 있는가’에 대한 의문을 지속적으로 제기해 왔다. 최근 주요 기업들은 AI가 작동하는 클라우드 인프라를 선점하는 전략으로 이 질문에 대한 답을 내놓고 있다. 폭증하는 AI 수요를 수용할 클라우드 거점을 마련해 둔 덕에 ‘통행료’를 본격적으로 거둬들이기 시작한 것이다. 아마존은 클라우드 부문의 견조한 성장세를 바탕으로 시총 3조 달러를 돌파했고, 마이크로소프트(MS) 역시 애저의 강력한 성장에 힘입어 매출 상승세를 이어가고 있다.<br /><br />지난 3일(현지시간) 뉴욕 증시에서 아마존닷컴 주가는 전 거래일 대비 4.58% 오른 284.02달러로 마감됐다. 종가 기...",
@@ -438,6 +446,22 @@
         "source": "국민일보 | 경제",
         "published": "2026-08-05T02:00:00+00:00",
         "score": 48
+      },
+      {
+        "title": "산은·우정사업본부, AI 인프라에 1조원 투자…각 5000억원 출자",
+        "summary": "20년 만에 공동 펀드 조성 데이터센터·친환경 전력망 등에 투자 한국산업은행과 우정사업본부가 각각 5000억원을 출자해 총 1조원 규모의 인공지능(AI) 인프라 펀드를 조성한다. 산업은행은 5일 서울 여의도 본점에서...",
+        "link": "https://biz.heraldcorp.com/article/10832038?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-08-05T16:39:00+09:00",
+        "score": 42
+      },
+      {
+        "title": "우정사업본부·산업은행, 1조원 규모 AI 인프라 펀드 조성",
+        "summary": "(서울=연합뉴스) 박형빈 기자 = 과학기술정보통신부 우정사업본부와 한국산업은행이 인공지능(AI) 데이터센터 등 국가 AI 인프라 확충을 위해 1...",
+        "link": "https://www.yna.co.kr/view/AKR20260805041800017",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-08-05T16:33:39+09:00",
+        "score": 38
       },
       {
         "title": "SKT 2분기 영업이 67% 증가…AI 데이터센터 매출 2배로",
@@ -448,47 +472,39 @@
         "score": 38
       },
       {
-        "title": "불붙는 AI 데이터센터 경쟁...빅테크 리스 부담 1조달러",
-        "summary": "이미 시장이 소화한 기존 AI 관련 부채 5천700억달러에 더해지는 규모입니다. 시타델 제프 이슨 애널리스트는 \"투자등급 채권시장에서 가장 큰 신규 섹터가 될 잠재력이 있다\"고 평가했습니다.",
-        "link": "https://biz.sbs.co.kr/article_hub/20000326815?division=NAVER",
-        "source": "SBS",
-        "published": "2026-08-05T14:23:00+09:00",
-        "score": 38
-      },
-      {
-        "title": "산업부 \"AI 전환 사업장, 생산성 30% 증가\"",
-        "summary": "정부의 제조업 인공지능 전환(M.AX) 사업에 참여한 42개 사업장의 생산성이 평균 30% 이상 향상된 것으로 나타났다. 제품 불량률도 평균 15% 이상 낮아지는 등 인공지능(AI..",
-        "link": "https://www.mk.co.kr/news/economy/12116546",
-        "source": "매일경제 : 경제",
-        "published": "2026-08-04T18:00:37+09:00",
+        "title": "산업은행·우정사업본부, AI인프라에 1조원 공동 투자",
+        "summary": "한국산업은행이 국가 AI 생태계 조성을 위한 AI 인프라 금융 지원을 강화한다. 우정사업본부 박인환 본부장, 한국산업은행 박상진 회장.(사진=산업은행) 산업은행은 5일 우정사업본부와 ‘AI인프라 금융협력 체계 구축’...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05352966645544368",
+        "source": "이데일리",
+        "published": "2026-08-05T16:20:00+09:00",
         "score": 34
       },
       {
-        "title": "첫 실적 발표한 스페이스X…매출 90% 늘었지만 시장 우려는 계속 [팩플]",
-        "summary": "AI 부문 매출 대부분이 자체 AI 개발을 위해 구축한 데이터센터에서 남는 AI 컴퓨팅 파워를 임대해주는 수입이란 점도 장기적인 성장 가능성에 대한 의구심을 남겼다. 미국 항공우주국(NASA)과의 대형 계약에...",
-        "link": "https://www.joongang.co.kr/article/25450994",
-        "source": "중앙일보",
-        "published": "2026-08-05T13:52:00+09:00",
-        "score": 32
-      },
-      {
-        "title": "AI 데이터센터 경쟁에 빅테크 1조달러 리스부담",
-        "summary": "(서울=연합뉴스) 정주호 기자 = 미국 5대 하이퍼스케일러(초대형 데이터센터운영사)가 아직 개시되지 않은 시설·토지 임대계약에 따라 지급해야 할...",
-        "link": "https://www.yna.co.kr/view/AKR20260805079600009",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-08-05T14:15:19+09:00",
-        "score": 30
-      },
-      {
-        "title": "[경제밥도둑]AI, 요샌 이렇게도 씁니다···‘음쓰’ 감축부터 가품·과대포장 검사까지",
-        "summary": "유통업계 AI 활용법. 챗지피티 생성유통기업들이 인공지능(AI) 활용 범위를 날로 확대하고 있다. 맞춤형 추천이나 상담 챗봇 수준을 넘어 상품 기획과 정품 검수, 지속가능성 확보 등 핵심 영역으로 진화하고 있다. AI 활용이 고도화되는 한편, AI가 생성·노출하는 허위·부정적 정보 차단이라는 새로운 과제도 부상했다. 가상소비자 만들어 출시 전 시장조사이케아···",
-        "link": "https://www.khan.co.kr/article/202608050600091/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-08-05T06:00:09+09:00",
-        "score": 28
+        "title": "산업은행, 우정산업본부와 1조원 규모 AI 인프라 펀드 조성",
+        "summary": "한국산업은행이 우정사업본부와 총 1조원 규모의 'AI 인프라 펀드(가칭)'를 조성해 국가 AI인프라 생태계에 투자하기로 했다. 산업은행은 과학기술정보통신부 산하 우정사업본부와 'AI인프라 금융협력 체계 구축'을 위한...",
+        "link": "http://www.fnnews.com/news/202608051636078536",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-05T16:56:00+09:00",
+        "score": 34
       }
     ],
     "기타": [
+      {
+        "title": "일주일만에 12조원서 1조 밑으로 ‘뚝’…단일종목 레버리지 규제 먹힌건가?",
+        "summary": "단일종목 레버리지 ETF 거래대금 기본예탁금 상향 등에 1조 밑으로단일종목 레버리지 ETF(상장지수펀드) 16종의 거래대금이 규제 강화 4거래일 만에 처음으로 1조원 아래로 떨어졌..",
+        "link": "https://www.mk.co.kr/news/stock/12117871",
+        "source": "매일경제 : 증권",
+        "published": "2026-08-05T17:30:39+09:00",
+        "score": 24
+      },
+      {
+        "title": "美 \"이르면 오늘 호르무즈 개방 … 이란·오만과 협상중\"",
+        "summary": "도널드 트럼프 미국 행정부가 곧 이란과 호르무즈 해협 개방과 관련한 합의가 이뤄질 수 있다고 기대했다.\n액시오스는 4일(현지시간) 미국·이란·오만이 호르무즈 해협 재개방을 위한 잠..",
+        "link": "https://www.mk.co.kr/news/world/12117980",
+        "source": "매일경제 : 국제",
+        "published": "2026-08-05T17:56:47+09:00",
+        "score": 24
+      },
       {
         "title": "“공주님, 입대하셔야 합니다”…왕실도 예외없는 덴마크 징병제",
         "summary": "트럼프 그린란드 압박에 덴마크, 징병제 대폭 확대 ‘왕위 2순위’ 공주도 입대러시아의 안보 위협과 도널드 트럼프 미국 대통령의 그린란드 병합 압박에 대응하기 위해 덴마크가 확대 개..",
@@ -498,75 +514,59 @@
         "score": 24
       },
       {
-        "title": "박성현 광양시장 “항만공사 통합 안 된다”…독립체제 유지 촉구",
-        "summary": "또 광양항은 포스코 광양제철소와 여수국가산업단지의 원자재 수입과 제품 수출을 담당하는 물류 거점으로 기업의 물류비 절감과 산업 경쟁력 강화, 지역 일자리 창출에 중요한 역할을 하고 있다고 설명했다. 광양시는...",
-        "link": "https://www.mk.co.kr/article/12117613",
-        "source": "매일경제",
-        "published": "2026-08-05T13:43:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "잃을게 많은 ‘항만공사 통합론’…박성현 광양시장 “책임경영 통한 경...",
-        "summary": "광양항은 포스코 광양제철소와 여수국가산업단지의 원자재 수입과 제품 수출을 담당하고 있다. 특히 박 시장은 광양시는 광양항이 기업 물류비 절감과 산업 경쟁력 강화에 기여하고 있다고 피력했다. 항만 물류와 연관...",
-        "link": "https://www.sedaily.com/article/20076002?ref=naver",
+        "title": "[단독]‘유령 앱’ 논란에…KISA, 블록체인 사업성과 평가 손질",
+        "summary": "그동안 지원 사업 참여 인력에 따른 고용 창출 규모 등에 치우쳤던 경제적 파급효과 분석 방식도 손질된다.... 신규 고용 창출 인원은 각각 72명과 102명으로 집계됐으며 이를 당해 사업 예산으로 나눠 성과 점수를...",
+        "link": "https://www.sedaily.com/article/20076197?ref=naver",
         "source": "서울경제",
-        "published": "2026-08-05T13:45:00+09:00",
+        "published": "2026-08-05T18:16:00+09:00",
         "score": 24
       },
       {
-        "title": "폭염에 멸균우유 공습까지…“국산 우유가 안 팔려요” [유통가 폭염경...",
-        "summary": "관세청 수출입무역통계에 따르면 멸균우유 수입은 지난해 5만톤을 넘어섰다. 올해도 상반기에만 전년 동기 대비 27.3% 증가한 2만4735톤이 들어왔다. 업계는 올해 수입량이 6만톤까지 늘어날 것으로 내다보고 있다....",
-        "link": "https://biz.heraldcorp.com/article/10831549?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-08-05T12:20:00+09:00",
+        "title": "\"AI에 잘 읽히는게 경쟁력\"…빅밸류, 515만 페이지 데이터 공개",
+        "summary": "상권을 살피는 자영업자와 시장을 분석하는 실무자, 부동산·건강 정보를 찾는 일반 이용자가 데이터가 필요한 순간에 빅밸류를 접하게 된다는 설명이다. 빅밸류에 따르면 회사 홈페이지의 월 순사용자는 최근 3개월...",
+        "link": "https://www.mt.co.kr/future/2026/08/05/2026080515382338750",
+        "source": "머니투데이",
+        "published": "2026-08-05T18:30:00+09:00",
         "score": 24
       },
       {
-        "title": "스페이스X, AI 자본지출 급증…잉여현금흐름 마이너스",
-        "summary": "(서울=연합뉴스) 정주호 기자 = 스페이스X가 상장 후 처음 내놓은 분기 실적에서 매출과 손실 모두 시장 예상치보다 나은 결과였지만 인공지능(A...",
-        "link": "https://www.yna.co.kr/view/AKR20260805038100009",
+        "title": "행안부 \"사회연대경제, 지역경제 한 축으로…AI가 임신·출산 지원금 자...",
+        "summary": "국내총생산(GDP) 비중을 2030년까지 7%로 끌어올린다. 국민의 자격 요건을 인공지능(AI)으로 확인해 각종... 행안부는 20개 부처가 참여하는 146개 과제를 추진해 사회연대경제가 국내총생산(GDP)에서 차지하는 비중을...",
+        "link": "http://www.fnnews.com/news/202608051541528268",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-05T18:05:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "[fn광장] 왕이의 입에 주목하자",
+        "summary": "가능한 제재는 희토류 수출규제이다. 작년에 우리는 이미 당했다. 9월에 우려거래자 목록(entity list)을 공표한 후 우리의 한화오션 및 미국의 자회사 5곳이 첫 제재 대상이 되었다. 트럼프 대통령이 10월 아세안...",
+        "link": "http://www.fnnews.com/news/202608051853078536",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-05T18:54:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "AIDC 날개 단 SKT, 영업익 67%↑…\"빅테크와 인프라 협의 지속\"(종합2보)",
+        "summary": "(서울=연합뉴스) 박형빈 기자 = SK텔레콤[017670]이 올해 2분기 데이터센터 사업의 급성장과 전년도 발생한 일시적 비용에 따른 기저효과에...",
+        "link": "https://www.yna.co.kr/view/AKR20260805030101017",
         "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-08-05T10:56:55+09:00",
+        "published": "2026-08-05T16:59:28+09:00",
         "score": 22
       },
       {
-        "title": "현대백화점, 2분기 영업이익 793억원…작년 동기 대비 8.7% 감소",
-        "summary": "(서울=연합뉴스) 코스피 상장사 현대백화점[069960]은 연결 기준 올해 2분기 영업이익이 793억원으로 지난해 동기보다 8.7% 감소한 것으...",
-        "link": "https://www.yna.co.kr/view/AKR20260805097500527",
+        "title": "제주도 '기후경제수도' 제도화 시동… 국회에 4·3·항공이동권 지원 요...",
+        "summary": "제주도가 기본사회와 인공지능(AI), 청정에너지를 결합한 '기후경제수도' 구상을 국회에 제시하고 4... 제주도는 간담회에서 '먼저 만나는 미래, 기후경제수도 제주'를 민선 9기 도정 비전으로 제시했다. 소득과 노동, 의료...",
+        "link": "http://www.fnnews.com/news/202608051905220858",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-05T19:13:00+09:00",
+        "score": 22
+      },
+      {
+        "title": "광주신세계, 애프터마켓서 10%대 급락",
+        "summary": "(서울=연합뉴스) 코스피 상장사 광주신세계[037710]가 5일 애프터마켓에서 10%대 급락 중이다.",
+        "link": "https://www.yna.co.kr/view/AKR20260805152700008",
         "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-08-05T14:10:28+09:00",
-        "score": 20
-      },
-      {
-        "title": "KCC 2분기 영업이익 1천289억원…작년 동기 대비 13.1%↓",
-        "summary": "(서울=연합뉴스) 코스피 상장사 KCC[002380]는 연결 기준 올해 2분기 영업이익이 1천289억원으로 지난해 동기보다 13.1% 감소한 것...",
-        "link": "https://www.yna.co.kr/view/AKR20260805086400527",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-08-05T13:38:57+09:00",
-        "score": 20
-      },
-      {
-        "title": "롯데칠성, 2분기 영업이익 558억원…작년 동기 대비 10.4% 감소",
-        "summary": "(서울=연합뉴스) 코스피 상장사 롯데칠성[005300]은 연결 기준 올해 2분기 영업이익이 558억원으로 지난해 동기보다 10.4% 감소한 것으...",
-        "link": "https://www.yna.co.kr/view/AKR20260805086900527",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-08-05T13:22:38+09:00",
-        "score": 20
-      },
-      {
-        "title": "5대 은행 회수 포기한 대출 1조2천억…7년 만에 최대",
-        "summary": "대출 금리 상승에 원리금 상환 부담이 커지면서 은행 건전성 지표에도 비상이 걸린 분위기다. 5일 금융권에 따르면, 5대 은행(KB국민·신한·하나·우리·NH농협)의 올해 2분기 말 '추정손실'은 총 1조2천109억원으로...",
-        "link": "https://www.yna.co.kr/view/PYH20260805084900013?input=1196m",
-        "source": "연합뉴스",
-        "published": "2026-08-05T14:00:00+09:00",
-        "score": 20
-      },
-      {
-        "title": "주요 시중은행들 회수 포기한 대출↑",
-        "summary": "대출 금리 상승에 원리금 상환 부담이 커지면서 은행 건전성 지표에도 비상이 걸린 분위기다. 5일 금융권에 따르면, 5대 은행(KB국민·신한·하나·우리·NH농협)의 올해 2분기 말 '추정손실'은 총 1조2천109억원으로...",
-        "link": "https://www.yna.co.kr/view/PYH20260805084600013?input=1196m",
-        "source": "연합뉴스",
-        "published": "2026-08-05T14:00:00+09:00",
+        "published": "2026-08-05T19:00:38+09:00",
         "score": 20
       }
     ]
@@ -629,39 +629,39 @@
   ],
   "summary_en": {
     "date": "2026-08-05",
-    "generated_at": "2026-08-05T05:48:28.563298+00:00",
-    "briefing_hash": "7bb235f470bb86b8",
+    "generated_at": "2026-08-05T10:20:18.316162+00:00",
+    "briefing_hash": "f84d8785ca541475",
     "key_headlines": [
       {
-        "title": "South Korea's Real Estate Tax Overhaul: Acquisition Tax Tied to Housing Units, Property Tax to Price and Residency",
-        "summary": "The government's tax reform differentiates criteria across real estate taxes, with acquisition and property taxes maintained at current levels while capital gains tax is strengthened to emphasize actual residency from acquisition to sale."
+        "title": "Real Estate Tax Reform: Different Criteria for Each Tax Type",
+        "summary": "The government's real estate tax overhaul maintains current acquisition and property taxes while adjusting capital gains tax to emphasize actual residency, with varying deduction standards based on home ownership and residency status."
       },
       {
-        "title": "Landlords Returning to Primary Residency Trigger Jeonse Crisis and Tenant Hardship",
-        "summary": "Property owners are abandoning rental plans and returning to primary residency due to rising non-resident owner holding taxes, creating a severe shortage of jeonse (deposit lease) inventory and financial burden on tenants."
+        "title": "Landlords Returning to Primary Residences Trigger Jeonse Crisis",
+        "summary": "Non-resident property owners are reversing plans to rent out properties due to higher holding taxes, exacerbating Seoul's housing shortage as jeonse (charter) inventory disappears and prices spike to near 700 million won average."
       },
       {
-        "title": "Seoul's Jeonse and Monthly Rent Prices Soar as Government Plans Housing Supply Expansion",
-        "summary": "Seoul's average jeonse has reached 700 million won and monthly rent 1.6 million won amid sharp price increases, prompting the government to announce upcoming measures to expand housing supply in the capital region."
+        "title": "Morgan Stanley Raises Korea's 2026 Growth Forecast to 3.4%",
+        "summary": "Morgan Stanley upgraded Korea's economic outlook, projecting 3.4% growth for 2026 and expecting the central bank to raise the policy rate to 3.5% by Q1 2027 due to stronger-than-expected economic recovery."
       },
       {
-        "title": "Morgan Stanley Raises South Korea's 2026 GDP Growth Forecast to 3.4%, Expects Additional Rate Hikes",
-        "summary": "Morgan Stanley upgraded Korea's growth projection citing strong technology demand and manufacturing recovery, while forecasting the Bank of Korea will accelerate rate increases to 3.5% through Q1 2027."
+        "title": "Kospi Surges 3.76% as Market Rebounds from Extreme Pessimism",
+        "summary": "The Korean stock market rebounded sharply following U.S. stock strength and semiconductor sector gains, with Kospi breaking 6,600 as investors gain confidence after last month's market bottom."
       },
       {
-        "title": "Global EV Battery Market Grows 20% But Chinese Companies Command 72% Market Share",
-        "summary": "While the global electric vehicle battery market expanded 20% in the first half of 2026, Chinese battery makers consolidated dominance with 72.4% share, pressuring Korean battery manufacturers' market position."
+        "title": "SK Telecom Q2 Operating Profit Jumps 67% on AI Data Center Growth",
+        "summary": "SK Telecom posted strong Q2 earnings with operating profit of 566 billion won, driven by a doubling of AI data center revenues as the company recovers from prior security incidents."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea's real estate market is experiencing significant disruption following the government's tax reform announcement. Property owners planning to return to primary residency are abandoning rental strategies, causing a severe jeonse supply shortage and financial hardship for tenants. Seoul's jeonse prices have reached 700 million won while monthly rents approach 1.6 million won, prompting urgent government action. Meanwhile, mid-sized companies showed 8.5% year-on-year export growth in Q1, though the number of exporting companies and export ratio declined slightly, indicating concentrated export performance among larger firms.",
-      "Macro & Fiscal Policy": "Morgan Stanley raised South Korea's 2026 GDP growth forecast to 3.4%, citing strong technology demand, manufacturing recovery, and growing capital expenditures. The Bank of Korea is expected to implement additional rate hikes in August and accelerate monetary tightening to 3.5% by Q1 2027 as inflation pressures mount from economic recovery. Gyeonggi Province declared a fiscal emergency with a 770 billion won supplementary budget cut, as the province faces revenue constraints with over half its tax revenue dependent on acquisition taxes declining due to real estate market weakness. Cheongju City demonstrated strong economic competitiveness with top rankings in exports (26.52 billion dollars) and employment indicators among major Korean cities.",
-      "Financial Markets": "The Korean stock market recovered as foreign investors poured in 1 trillion won, with KOSPI rebounding above 6,600 points supported by semiconductor strength and easing AI profitability concerns following strong U.S. tech earnings. The won-dollar exchange rate stabilized around 1,420-1,423 won per dollar amid global oil price stabilization. However, unprecedented market volatility drove approximately 35 trillion won into bank deposits, with major banks' time deposit balances increasing by the largest monthly amount this year as investors sought safer havens. Market participants remain cautious about potential rate hikes from the U.S. Federal Reserve despite recent dovish signals, with CME FedWatch showing 66.5% probability of a September rate increase.",
-      "Industry & Technology": "The global electric vehicle battery market expanded 20% in the first half of 2026, but Chinese manufacturers consolidated their dominance by capturing 72.4% market share, pressuring Korean battery makers including Samsung SDI and SK Innovation. Hantech, preparing for its KOSDAQ listing, is expanding beyond mobile sensors into electric vehicle battery management systems and data center applications. The semiconductor industry remains volatile due to high sensitivity to global AI chip cycles and concentrated fund flows toward mega-cap stocks like Samsung Electronics and SK Hynix. Multiple new product launches and technology development initiatives signal continued industry competition despite market consolidation trends.",
-      "Real Estate": "Real estate markets across South Korea face mounting pressure from the government's new tax policies, with jeonse supply dwindling as property owners pursue primary residence strategies to avoid rising holding taxes. Seoul's apartment price appreciation has slowed for two consecutive weeks, though regional disparities persist with Gangnam showing weakness while Joongrang and Nowon districts experience price increases. Busan's real estate market showed resilience with prices rising 0.48% and jeonse index up 3.56%, outperforming other major cities, supported by strong demand in premium residential areas. Multiple civic forums and policy discussions are underway to address housing supply concerns and stabilize the rental market.",
-      "International Economy": "The U.S. stock market reached record highs with the Dow Jones and Nasdaq gaining amid easing oil prices and expectations of potential Federal Reserve rate cuts in September, though market participants remain cautious about persistent inflation pressures. The Trump administration is actively considering expanding national security tariffs on steel, aluminum, copper, and related products across 14 additional categories as part of its protectionist trade policy. Geopolitical tensions involving China and the Middle East continue to support commodity prices, while the Trump administration undertook emergency central bank lending support for the yen to manage currency markets, raising questions about monetary policy coordination. The Korean won's strength relative to the dollar poses investment challenges for Korean companies, necessitating careful monitoring of exchange rate dynamics.",
-      "AI & Economy": "Amazon's market capitalization exceeded 3 trillion dollars driven by strong cloud infrastructure growth, as major tech companies begin monetizing AI investments through cloud service tolls and AI computing power rental businesses. SK Telecom reported a 67% increase in Q2 operating profit with AI data center revenue doubling, demonstrating the profitability potential of AI infrastructure investments. The AI data center sector faces approximately 1 trillion dollars in capital expenditure commitments from big tech companies, creating significant financial burdens and potential investment-grade bond market opportunities. The government reported that manufacturing facilities adopting AI achieved average productivity increases of 30% or more and defect rate reductions of 15%, validating AI transformation benefits. SpaceX reported 90% revenue growth in its first earnings release, though investors remain cautious about sustainability of AI-related revenue from excess data center computing capacity rentals.",
-      "Others": "Denmark is significantly expanding conscription obligations including for royal family members to bolster defense capacity against Russian security threats and U.S. pressure regarding Greenland, with even the second-in-line princess subject to military service requirements. Gwangyang Port Authority continues advocating for operational independence rather than integration with other port authorities, emphasizing its critical role in supporting POSCO's steel exports and the Yeosu National Industrial Complex. Heat waves and surging sterilized milk imports are pressuring domestic dairy producers, with import volumes reaching 24,735 tons in the first half of 2026, up 27.3% year-over-year, threatening Korean milk market viability. SpaceX faces negative free cash flow despite strong revenue growth due to surging AI capital expenditures, illustrating the financial pressures tech companies face while building AI infrastructure."
+      "Hot Economy News": "South Korea's real estate sector faces significant challenges following the government's tax reform announcement. While the tax system aims to stabilize the property market through differentiated rates based on residency and ownership, it has triggered unintended consequences including a surge in non-resident property holders returning to primary residences and a severe shortage of jeonse (charter) properties. Seoul's average jeonse prices have climbed to approximately 700 million won with monthly rent reaching 1.6 million won, creating financial hardship for renters. The government is expected to announce measures to expand housing supply in the metropolitan area to address the worsening housing crisis. Industry experts emphasize that the fundamental solution requires increased private housing supply rather than tax increases alone.",
+      "Macro & Fiscal Policy": "Morgan Stanley has significantly upgraded its economic outlook for Korea, raising the 2026 growth forecast by 0.6 percentage points to 3.4% and projecting the Bank of Korea will accelerate policy rate increases to 3.5% by Q1 2027. The stronger-than-expected economic recovery is driving inflation pressures that necessitate faster monetary tightening than originally anticipated. South Korea's tourism sector continues to show robust performance, with foreign visitor spending contributing four times more to GDP growth post-COVID compared to earlier periods. Meanwhile, India's central bank held rates steady at 5.25% while maintaining a 6.7% GDP growth forecast, indicating divergent monetary policy paths across Asia.",
+      "Financial Markets": "Korean stock markets staged a significant rally with Kospi jumping 3.76% to 6,598.26, driven by positive momentum from U.S. markets where the S&P 500 reached new all-time highs. Semiconductor stocks led the rebound, with analysts crediting overnight strength in Western Digital and Sandisk earnings as key catalysts for continued market recovery. The won-dollar exchange rate weakened to 1,424.5 won as risk appetite improved and oil prices fell amid Middle East tensions easing. Market participants believe the domestic stock market confirmed its bottom in July and expect continued recovery throughout August.",
+      "Industry & Technology": "Korea's semiconductor sector continues to dominate market movements as investors gain confidence in chip-related companies. Analog semiconductor specialist Hatchek announced plans for Kosdaq listing targeting the global market, while corporate credit growth concentrated heavily in semiconductor, shipbuilding, and defense industries. The government's green energy and electric vehicle incentive programs face criticism for leaving out electric vehicle production tax credits and low-carbon steel investment support, putting Korean companies at a disadvantage compared to Japanese counterparts. Brain-computer interface (BCI) technology represents an emerging opportunity where Korea's semiconductor, sensor, and medical technology strengths position the nation competitively in this convergence field.",
+      "Real Estate": "Seoul's real estate market faces mounting pressure as the government's tax reform drives unintended consequences including a collapse in jeonse inventory and soaring prices. Non-resident property owners declaring their return to primary residences is exacerbating the housing shortage, while renters face severe affordability challenges with average jeonse reaching near 700 million won. Busan presents a contrasting picture with positive market fundamentals, as real estate prices rose 0.48% year-over-year with strong demand from real-use buyers concentrated in preferred neighborhoods around Haeundae and Daeyon-dong. High school district location (school districts) emerged as the primary driver of apartment pre-leasing competition, replacing metro accessibility as the key factor attracting buyers in provincial markets.",
+      "International Economy": "U.S. Treasury Secretary and Japan's Finance Minister are publicly pressuring their respective central banks, with the U.S. seeking Federal Reserve emergency liquidity expansion and Japan requesting aggressive Bank of Japan support for government debt purchases. The Dow Jones reached all-time highs while crude oil prices declined sharply, prompting a 6 basis point drop in 10-year Treasury yields to 4.68% as market expectations for September Fed rate hikes stand at 66.5%. Currency markets reflect tensions in international monetary policy coordination, with the won strengthening against the dollar to 1,424.5 won amid easing Middle East tensions and falling oil prices. The CME FedWatch tool indicates 58.4% probability of a 25 basis point Fed rate increase in mid-September.",
+      "AI & Economy": "SpaceX entered the AI infrastructure competition with massive investments, reporting Q2 revenues of 7.8 billion dollars while investing 18.37 billion dollars in capital expenditures, with 15.8 billion dollars directed toward AI data center construction set to begin in 2027. Amazon crossed the 3 trillion dollar market capitalization milestone, driven by robust cloud infrastructure growth serving surging AI demand, while Microsoft similarly benefits from Azure's strong performance. The South Korean government announced a 1 trillion won AI infrastructure fund through joint investment by Industrial Bank of Korea and Korea Post Office, each contributing 500 billion won for data center and green power grid projects. SK Telecom posted 67% operating profit growth in Q2 with AI data center revenues doubling, demonstrating the commercial viability of AI infrastructure investments despite earlier market skepticism.",
+      "Others": "Single-stock leveraged ETF trading volumes collapsed from 12 trillion won to below 1 trillion won within one week following regulatory tightening measures, suggesting enhanced trading restrictions are effectively reducing market participation. The United States, Iran, and Oman are reportedly close to negotiating terms for reopening the Strait of Hormuz, potentially easing global oil supply concerns. Denmark significantly expanded its conscription program in response to Russian security threats and U.S. pressure regarding Greenland, with even royal family members now subject to military service requirements. The Korea Internet and Security Agency revised its blockchain project evaluation methods to focus more on actual economic impact beyond employment creation metrics. BigValue opened 5.15 million pages of data to improve AI accessibility, recognizing that AI-friendly data presentation has become a competitive advantage in the digital economy."
     }
   }
 }
