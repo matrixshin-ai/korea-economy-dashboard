@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-17T14:36:53.248794+09:00",
+  "generated_at": "2026-08-17T14:39:09.229566+09:00",
   "date": "2026-08-17",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 617,
-    "total_used": 606,
-    "dropped_quality": 4,
-    "dropped_negative": 7,
+    "total_input": 522,
+    "total_used": 511,
+    "dropped_quality": 2,
+    "dropped_negative": 9,
     "per_category": {
-      "국제경제": 50,
-      "금융시장": 88,
-      "거시경제·재정": 59,
-      "기타": 286,
-      "부동산": 63,
-      "산업·과학": 52,
-      "AI와 경제": 8
+      "기타": 230,
+      "국제경제": 43,
+      "거시경제·재정": 46,
+      "금융시장": 85,
+      "부동산": 57,
+      "산업·과학": 48,
+      "AI와 경제": 2
     }
   },
   "headlines": [
@@ -182,103 +182,111 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "정부 \"경기회복 흐름 강화…물가·고용 문제는 지속\"",
-        "summary": "다만 실업률은 2.6%로 0.2%포인트 상승했고, 근원물가(식료품·에너지 제외)는 2.6%로 오히려 전월(2.5%)보다 높아졌다. 조성중 재정경제부 경제분석과장은 “지난달에는 2분기 GDP와 6월 산업활동동향이 나오기 전이었는데...",
-        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=03998326645547320",
-        "source": "이데일리",
-        "published": "2026-08-14T10:10:00+09:00",
-        "score": 198
-      },
-      {
-        "title": "정부 \"수출 호조에 경기회복 흐름 강화\"…고용·물가 부담은 지속",
-        "summary": "고용률은 63.3%로 전년보다 0.1%포인트 하락했고 실업률은 2.6%로 0.2%포인트 상승했다. 글로벌 경제에 대해서는 완만한 성장세가 이어지고 있지만 중동전쟁과 미국의 관세 부과 조치를 둘러싼 불확실성이 상존한다고...",
-        "link": "https://view.asiae.co.kr/article/2026081409380104364",
-        "source": "아시아경제",
-        "published": "2026-08-14T10:00:00+09:00",
-        "score": 196
-      },
-      {
-        "title": "정부 “경기회복 흐름 강화”…물가·고용 민생부담은 지속",
-        "summary": "7월 취업자는 1년 전보다 10만 8000명 증가해 증가 폭을 늘렸지만, 실업률은 2.6%로 0.2%포인트 상승했다. 7월 소비자물가지수는 2.8% 상승해 6월(3.2%)보다 상승 폭을 줄였다. 다만 개인서비스 물가는 3.4%에서 3.5%로 상승폭이...",
-        "link": "https://www.sedaily.com/article/20079404?ref=naver",
-        "source": "서울경제",
-        "published": "2026-08-14T10:21:00+09:00",
-        "score": 186
-      },
-      {
-        "title": "정부 “경기회복 흐름 강화... 물가·고용 등 부담은 지속”",
-        "summary": "7월 실업률은 2.6%로 1년 전보다 0.2%포인트 상승했다. 7월 소비자물가지수는 2.8% 상승했다. 6월(3.2%)보다 상승 폭을 줄였지만, 외식 등 개인서비스 물가는 3.4%에서 3.5%로 상승 폭이 커졌다. 글로벌 경제를 놓고 정부는...",
-        "link": "https://www.chosun.com/economy/economy_general/2026/08/14/VJHQ4C63BZH43CVYQZMSF4QZTA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-08-14T10:34:00+09:00",
-        "score": 186
-      },
-      {
-        "title": "정부 \"경기회복 흐름 강화…물가·고용 민생부담은 지속\"",
-        "summary": "7월 취업자는 1년 전보다 10만8천명 증가해 증가 폭을 늘렸지만, 실업률은 2.6%로 0.2%p 상승했습니다. 7월 소비자물가지수는 2.8% 상승해 6월(3.2%)보다 상승 폭을 줄였습니다. 다만 개인서비스 물가는 3.4%에서 3.5%로...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000328728?division=NAVER",
-        "source": "SBS",
-        "published": "2026-08-14T10:10:00+09:00",
-        "score": 186
-      },
-      {
-        "title": "재경부 \"경기 회복 강화..물가·고용 민생 부담은 지속\"",
-        "summary": "실업률은 2.6%로 전년동월비 0.2%p 상승했다. 7월 소비자물가는 전년 동월보다 2.8% 상승했다. 전달(3.2%)보다 상승폭이 줄어들긴 했으나 2%대 후반대를 기록했다. 식료품·에너지를 제외한 근원물가는 2.6...",
-        "link": "http://www.fnnews.com/news/202608140938489283",
-        "source": "파이낸셜뉴스",
-        "published": "2026-08-14T10:01:00+09:00",
-        "score": 136
-      },
-      {
-        "title": "정부 “경기 회복 흐름 강화…물가 압력·어려운 고용여건은 지속”",
-        "summary": "고용에서는 7월 취업자 수 증가폭이 전년 동월 대비 10.8만 명 늘며 상승폭이 확대됐지만 실업률은 2.6%로 상승했습니다. 소비자물가는 6월 3.2%에서 7월 2.8%로 다시 2% 대로 진입했습니다. 주택 시장은 매매가격이 5월에...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8637109&ref=A",
-        "source": "KBS",
-        "published": "2026-08-14T10:00:00+09:00",
-        "score": 136
-      },
-      {
-        "title": "정부 “경기 회복 흐름 강화…물가·고용 부담은 지속”",
-        "summary": "지난달 취업자는 1년 전보다 10만8000명 증가해 증가 폭을 늘렸지만 실업률은 2.6%로 0.2%포인트 상승했다. 소비자물가지수는 2.8% 상승해 전월(3.2%)보다 상승 폭을 줄였다. 다만 개인서비스물가는 3.4%에서 3.5%로 상승폭이...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000003129&cp=nv",
-        "source": "국민일보",
-        "published": "2026-08-14T11:03:00+09:00",
-        "score": 136
-      },
-      {
-        "title": "“경기 회복 흐름 강화…고용·물가는 부담”",
-        "summary": "실업률은 2.6%로 전년 동월보다 0.2%포인트 상승했다. 특히 청년층 고용 부진이 두드러졌다. 7월 15~29세 취업자는 전년 동월보다 19만1000명 줄었고 고용률은 44.2%로 1.6%포인트 하락했다. 중동전쟁에 따른 불확실성과...",
-        "link": "https://biz.heraldcorp.com/article/10841383?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-08-14T11:06:00+09:00",
-        "score": 116
-      },
-      {
-        "title": "정부 “경기 회복 흐름 강화”... 청년고용·물가는 부담 요인",
-        "summary": "실업률은 2.6%로 전년 동월보다 0.2%포인트 상승했다. 특히 청년층 고용 부진이 두드러졌다. 7월 15~29세 취업자는 전년 동월보다 19만1000명 줄었고 고용률은 44.2%로 1.6%포인트 하락했다. 청년 실업률은 6.8%로 1.3%포인트...",
-        "link": "https://biz.heraldcorp.com/article/10841199?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-08-14T10:01:00+09:00",
-        "score": 116
-      },
-      {
         "title": "아르헨티나 경제 폭망 원인은 누적된 재정적자",
-        "summary": "1년 물가상승률이 수백%에 이르는 인플레이션이 발생한다. 아무리 복지가 잘 돼 있어도 초인플레이션 하에서는 국민이 버틸 수 없다. 국민의 삶은 피폐해지고, 이 문제를 해결하겠다는 정치가가 등장한다. 이때 해결책은...",
+        "summary": "하지만 공무원, 공공기관 직원들이 직장을 잃으면서 실업률이 올라간다. 연금, 보조금이 줄어들었기 때문에... 경제학에 따르면 물가가 안정되고 국가신용도가 높아질 경우 기업가들이 새로 사업을 시작하면서 실업률이...",
         "link": "https://weekly.donga.com/3/all/11/6347674/1",
         "source": "동아일보",
         "published": "2026-08-16T07:02:00+09:00",
-        "score": 116
+        "score": 112
       },
       {
-        "title": "\"역대급 초과세수, 교육교부금 급증 골치\" vs \"예산 조이면 '참교육' 흔...",
-        "summary": "경제 성장에 따라 세수는 추세적으로 늘 수밖에 없고, 결과적으로 교육교부금도 덩달아 증가했다. 더욱이... 경제성장률과 물가상승률, 학령인구 증감률을 반영해 교육교부금을 산정하되 교육교부금 하한을 전년도...",
-        "link": "https://www.mt.co.kr/policy/2026/08/17/2026081615023829617",
-        "source": "머니투데이",
-        "published": "2026-08-17T07:00:00+09:00",
-        "score": 106
+        "title": "日 2분기 경제성장률 0.3%…수출 호조로 3분기 연속 성장",
+        "summary": "일본 내각부가 17일 발표한 올해 2분기 실질 국내총생산(GDP·속보치)은 전 분기 대비 0.3% 증가했다. 연율로 환산하면 1.1%의 성장률이다. 이로써 일본 실질 GDP의 전기 대비 성장률은 3분기 연속 상승했다. 수출 호조가...",
+        "link": "https://www.yna.co.kr/view/AKR20260817030200073?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-08-17T11:02:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "나라빚 잡으려다 경기까지 잡는다…IMF가 경고한 재정준칙의 역설",
+        "summary": "당시 기획재정부(재정경제부 전신)는 ‘2020년 경제정책방향’에 장기재정전망과 함께 재정준칙 도입 검토를 명시했다. 코로나19 대응으로 나라빚이 빠르게 늘자 이듬해 10월에는 국가채무비율 60%, 통합재정수지 적자 3%를...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000003336&cp=nv",
+        "source": "국민일보",
+        "published": "2026-08-16T08:40:00+09:00",
+        "score": 96
+      },
+      {
+        "title": "일본 2분기 경제성장률 0.3%...연율 환산 1.1% 성장",
+        "summary": "일본 내각부가 발표한 올해 2분기 실질 국내총생산(GDP·속보치)은 전 분기 대비 0.3% 증가했습니다. 연율로 환산하면 1.1%의 성장률입니다. 이로써 일본 실질 GDP의 전기 대비 성장률은 3분기 연속 상승했습니다. 수출...",
+        "link": "https://www.ytn.co.kr/_ln/0104_202608171126444118",
+        "source": "YTN",
+        "published": "2026-08-17T11:26:00+09:00",
+        "score": 82
+      },
+      {
+        "title": "100조 미래대응기금 신설, 이번주 교육교부금 개편안과 발표",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/16/134485306.1.jpg\" vspace=\"10\" />정부가 최대 100조 원가량의 미래대응기금을 신설하는 방안을 이번 주 발표한다. 반도체 초호황에 따른 추가 세수가 재원이다.  지방교육재정교부금 개편안도 함께 내놓는다. 내국세의 20.79%를 교육교부금으로 자동 배정하는 현행 제도는 폐지하는 방안이 유력하다. 그 대신 경제성장률, 학령인구 변화를 고려해 매년 교육교부금 액수를 정하는 방안을 검토하고 있다.  16일 관계 부처에 따르면 기획예산처는 이르면 20일 미래대응기금 신설 및 교육교부금 개편 방안을 공개한다. 미래대응기금은 반도체 초호황에 따른 세수 증가분을 청년과 미래 성장동력, 지방, 인재 육성 등에 쓰기 위해 만드는 자금이다. 정부는 법인·소득세 등 내국세 수입이 최근 10년 또는 20년간의 연평균 증가율을 넘어설 경우...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260816/134486584/2",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-17T01:40:00+09:00",
+        "score": 72
+      },
+      {
+        "title": "민선8기 경기도 재정자립도 11.3p 감소…하락폭 전국 평균 2배",
+        "summary": "[그래프=연합] 실제 도세 수입의 절반 이상을 차지하는 취득세의 경우 부동산 거래량 감소 등의 영향으로 2022년 11조 원에서 올해 8조 원으로 급감했다. 반면 지방채는 2006년에 이어 19년 만인 지난해 9430억 원을...",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=540454",
+        "source": "중앙일보",
+        "published": "2026-08-17T13:42:00+09:00",
+        "score": 72
+      },
+      {
+        "title": "영끌·빚투에 가계빚 사상 첫 2000조…기준금리 인상땐 치명타",
+        "summary": "명목 국내총생산(GDP) 대비 가계부채 비율은 유지하거나 오히려 하락할 것으로 보인다. 모수인 명목 GDP가 올 1분기에 이어 2분기도 두 자릿수 성장을 예고하고 있어서다. 국제결제은행(BIS)에 따르면, 우리나라의...",
+        "link": "https://www.mk.co.kr/article/12129166",
+        "source": "매일경제",
+        "published": "2026-08-16T23:06:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "“중동전쟁에 유럽경제 흔들린다더니”…AI가 만든 ‘성장률 2배’ 반전",
+        "summary": "16일 외신과 각국 정부에 따르면 유로존의 올해 2분기 국내총생산(GDP)은 전분기보다 0.4% 증가했다. 시장... 한국의 2분기 GDP는 전년 동기 대비 3.7% 증가했고 대만은 12.9% 성장했다. AI 데이터센터 투자 확대에 따른...",
+        "link": "https://www.mk.co.kr/article/12128940",
+        "source": "매일경제",
+        "published": "2026-08-16T15:07:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "KDI 韓 성장률 얼마나 올리나...美 7월 FOMC 의사록 공개 [한동훈의 위클...",
+        "summary": "미국 7월 연방시장공개위원회(FOMC)의 의사록도 공개된다. KDI는 19일 ‘수정 경제전망’을 통해 5월 내놓은... 해외에서는 20일 공개되는 7월 FOMC 의사록에 관심을 가질 필요가 있다. 향후 미국의 통화정책 경로를 둘러싼...",
+        "link": "https://www.sedaily.com/article/20079878?ref=naver",
+        "source": "서울경제",
+        "published": "2026-08-16T07:01:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "일본, 2분기 성장률 0.3%…3분기째 상승",
+        "summary": "일본 내각부는 올해 2분기 실질 국내총생산(GDP)이 지난 분기보다 0.3% 증가했다고 오늘(17일) 발표했습니다. 연율로 환산하면 1.1% 성장한 것입니다. 일본 실질 GDP의 전기 대비 성장률은 3분기째 상승하고 있습니다....",
+        "link": "https://biz.sbs.co.kr/article_hub/20000329048?division=NAVER",
+        "source": "SBS",
+        "published": "2026-08-17T11:19:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "\"친구도 안 만나고 햇반 먹어요\"…고물가에 달라진 청년 일상",
+        "summary": "청년 실업률은 6.8%를 기록했다. 정부 역시 경기 전반에 대해서는 회복세가 강화되고 있다고 평가하면서도 민생 상황에는 여전히 부담이 남아 있다고 인정했다. 재경부는 이번 그린북에서 중동전쟁 불확실성과 고유가에...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=05444806645547320",
+        "source": "이데일리",
+        "published": "2026-08-14T15:33:00+09:00",
+        "score": 68
+      },
+      {
+        "title": "민선8기 경기도 재정자립도 11.3%p '뚝'… 하락폭 전국 평균 2배",
+        "summary": "(수원=연합뉴스) 최찬흥 기자 = 민선9기 경기도가 재정난으로 7천700억원 규모의 감액추경을 예고한 가운데 민선8기 4년 동안 재정자립도와 재...",
+        "link": "https://www.yna.co.kr/view/AKR20260814116500061",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-08-17T08:01:02+09:00",
+        "score": 60
       }
     ],
     "금융시장": [
+      {
+        "title": "금리 인상·AI 거품 우려 모두 완화…코스피 반등할까[주간증시전망]",
+        "summary": "AI(인공지능) 전방 수요에 대한 의구심이 진정되고 금리 부담이 완화될 수 있다는 기대감에 힘입어 이번... (Fed)의 금리 인상 가능성이 누그러진 상황이다. 시장에서는 9월 FOMC(연방공개시장위원회)에서의 금리 인하...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01492406645548304",
+        "source": "이데일리",
+        "published": "2026-08-17T13:01:00+09:00",
+        "score": 140
+      },
       {
         "title": "보름 만에 34% 반등한 코스닥…수익률 ‘세계 주요 증시 1위’",
         "summary": "‘삼전닉스’ 중심 코스피 강세에상승세 꺾이며 다시 위축 우려부진한 흐름을 보여왔던 코스닥 지수가 이달 들어 반등하며 세계 주요 증시 중 가장 높은 수익률을 기록했다. 단일종목 레버리지 상장지수펀드(ETF) 규제와 대형 반도체주 쏠림 완화가 코스닥 수급 회복에 영향을 미쳤기 때문으로 풀이된다. 다만 최근 삼성전자와 SK하이닉스를 중심으로 반도체주가 다시 강세···",
@@ -288,36 +296,28 @@
         "score": 140
       },
       {
-        "title": "‘삼전닉스’ 돌아오자 코스피 7000 터치…다음주 증시 향방은 [선데이...",
-        "summary": "아울러 이달 19일에는 미국 연방공개시장위원회(FOMC) 의사록이 공개되고, 20일 중국 대출우대금리(LPR), 21일 국내 생산자물가지수(PPI) 등이 예정돼 있습니다. 결국 다음주 증시의 향방은 7000선 앞에서도 외국인이...",
-        "link": "https://www.sedaily.com/article/20079842?ref=naver",
-        "source": "서울경제",
-        "published": "2026-08-16T07:31:00+09:00",
-        "score": 110
+        "title": "금리 ‘동결’ 전망에도 치솟는 美 장기 국채 금리…워시 vs 채권 시장,...",
+        "summary": "아직은 백지 상태” 연방준비제도의 기준금리 인상 가능성을 약화시키는 지표가 최근 잇달아 발표됐음에도 미국 국채 금리가 장기물을 중심으로 오히려 급등하는 이례적 상황이 발생하고 있다. 지난 14일 30년 만기 미...",
+        "link": "https://www.chosun.com/economy/economy_general/2026/08/17/I3TANKVD5ZF3HDSCZ6LDON3VBQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-08-17T13:07:00+09:00",
+        "score": 130
       },
       {
-        "title": "[롤러코스피 탑승기] 청년도, 노인도, 주부도…모두가 주식을 시작했다",
-        "summary": "“예를 들어 예금, 채권 관리하던 고객이 과거 100명이라고 했으면 지금은 20명 정도로 확 줄었어요. 대신 장이 좋아지니 ETF로 바꾸겠다고 찾아오시는 분이 늘었죠. 주변에서 10명 중 8명이 주식으로 돈을 벌었다면서...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000003368&cp=nv",
-        "source": "국민일보",
-        "published": "2026-08-16T12:11:00+09:00",
-        "score": 108
+        "title": "“월 50억씩 벌다 반년 만에 65억 손실” 코스피 ETF에서 새 길 찾은 황준호 작가",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/17/134487298.1.png\" vspace=\"10\" />“잃어도 되는 돈이 어디 있나. 주식투자에서는 어떻게 하면 적게 잃을지를 고민하는 게 중요하다. 50% 손실이 날 때까지 버티기보다 5%씩 손절하는 경험을 여러 번 해보는 편이 낫다. 5% 손실을 14번 내면 원금이 반토막 나는 것과 비슷한 수준이 된다. 거기에 이르기까지 손절할 때마다 무엇이 잘못됐는지 돌아볼 기회가 생긴다. 반대로 50% 손실을 견딘 뒤 주가가 회복돼 수익으로 빠져나오는 경험은 오히려 위험하다. 투자금이 더 커졌을 때 같은 방식으로 버틸 수가 없기 때문이다. 투자 규모가 작을 때부터 손절하고 복기해야 살아남을 수 있다.”증권사 채권 운용역 출신이자 책 ‘투자의 중력’을 쓴 황준호 작가의 말이다. 황 작가는 2014년 회사를 그만둔 뒤 시드머니 1억 원으로 투자를...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260817/134487299/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-17T08:06:00+09:00",
+        "score": 124
       },
       {
-        "title": "[마켓 ING]코스피, 금리 방향성에 주목하며 7000선 안착 시도",
-        "summary": "연방공개시장위원회(FOMC) 금리 인하 기대가 강화되며 외국인 일부는 선물을 정리하고 현물로 익스포저를... 연방공개시장위원회(FOMC) 의사록에 집중하며 향후 금리 방향성을 가늠할 것\"이라고 말했다. 이번주 주요...",
-        "link": "https://view.asiae.co.kr/article/2026081609214161160",
-        "source": "아시아경제",
-        "published": "2026-08-16T10:45:00+09:00",
-        "score": 100
-      },
-      {
-        "title": "“월 50억씩 벌다 반년 만에 65억 손실” 코스피 ETF에서 새 길 찾은 황...",
-        "summary": "그러나 2022년 금리인상 국면에서 6개월 만에 65억 원을 잃었다. 짧은 시간에 극단적인 성공과 실패를 모두... 1997년 외환위기 당시 부도 위험에 몰린 국내 기업들이 발행한 기업어음 금리도 26% 수준이었다. 연 35%는 망하기...",
-        "link": "https://weekly.donga.com/3/all/11/6347545/1",
-        "source": "동아일보",
-        "published": "2026-08-17T07:01:00+09:00",
-        "score": 100
+        "title": "일주일새 33% 불기둥…'삼전 레버리지' ETF 질주, 왜 [펀드와치]",
+        "summary": "한국은행의 추가 기준금리 인상 가능성이 부각된 데다 국고채 입찰에 따른 공급부담, 외국인의 국채 선물 순매도가 겹치며 채권금리(시장금리)가 올랐고, 이로 인해 기존 채권가격이 하락한 데 따른 것이다....",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01252966645548304",
+        "source": "이데일리",
+        "published": "2026-08-17T09:32:00+09:00",
+        "score": 112
       }
     ],
     "산업·과학": [
@@ -330,54 +330,38 @@
         "score": 96
       },
       {
-        "title": "엔비디아의 AI로봇 파트너…LG 몸값 치솟는다",
-        "summary": "모터·센서·배터리·전장(자동차 전자장비)·냉각 등 LG가 쌓아온 하드웨어 역량에 AI를 더한 새로운... 가전·TV·배터리·디스플레이·석유화학 등 주력 사업 상당수가 중국 업체와의 경쟁에 직면하면서, 기존 제품을...",
-        "link": "https://www.joongang.co.kr/article/25453816",
-        "source": "중앙일보",
+        "title": "엔비디아·AMD 손잡은 美 추론 반도체…K-NPU 운명은?[비하인드 칩스]",
+        "summary": "빅테크 연합의 '슈퍼카' vs K-NPU의 '전기차' 다만, 긍정적으로만 보긴 어렵다는 반론도 나온다. 그록... 강점인 '전기차'를 만드는 셈이다. 퓨리오사AI 관계자는 \"미국 추론 반도체들과 지향점이 달라서 크게 위협이라...",
+        "link": "https://www.mt.co.kr/future/2026/08/17/2026081122295359628",
+        "source": "머니투데이",
         "published": "2026-08-17T06:00:00+09:00",
-        "score": 94
+        "score": 66
       },
       {
-        "title": "[포럼] 새 북방경제 플랫폼 만들려면",
-        "summary": "동남아의 전기차·배터리·반도체 생산 기반과 중앙아시아의 핵심광물·에너지 공급망을 연결한다면 한국 기업의 공급망 다변화와 새로운 시장 개척에 기여할 수 있다. 중앙아시아의 자원과 ASEAN의 생산 기반, 한국의...",
-        "link": "http://www.fnnews.com/news/202608161850538564",
-        "source": "파이낸셜뉴스",
-        "published": "2026-08-16T18:52:00+09:00",
-        "score": 68
+        "title": "'생산 유연성'은 핑계…K배터리, 합작사 손 놓는 이유",
+        "summary": "미 행정부가 인플레이션감축법(IRA)에 따른 전기차 보조금을 폐지하면서 올 상반기 북미 지역 전기차 인도량은 전년 동기 대비 20.5% 급감했다. 전기차 시장 침체가 장기화하자 완성차 업체와 배터리사 모두 JV...",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092168182",
+        "source": "조선일보",
+        "published": "2026-08-17T06:00:00+09:00",
+        "score": 66
       },
       {
-        "title": "[매경포럼] 반도체 호황 속 무너지는 非반도체",
-        "summary": "이에 비해 전기차는 113.6% 늘었다. 중동전 여파로 유가가 급등한 것도 한몫했지만 2023~2025년까지의 통계로 따져도 휘발유 차량은 매년 11%씩 감소 중이다. 같은 기간 전기차는 연 16%씩 늘고 있다. 현 추세라면 2029년엔...",
-        "link": "https://www.mk.co.kr/article/12128967",
-        "source": "매일경제",
-        "published": "2026-08-16T16:23:00+09:00",
+        "title": "트럼프가 만든 찬바람에…韓 배터리 3사 잇달아 완성차 업체와 합작 종...",
+        "summary": "전기차 수요 예상보다 저조하자 완성차 업체, 배터리 업체와의 JV 지분 넘겨 배터리 업체, 단독 공장... 제너럴모터스(GM)·포드·스텔란티스 등 완성차 업체와 미국과 캐나다 등지에 조인트벤처(JV)를 설립해 전기차용...",
+        "link": "https://biz.chosun.com/industry/company/2026/08/17/N6QKEPK2TFGLDL34WQO3PZWEFY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-08-17T06:01:00+09:00",
         "score": 66
       }
     ],
     "부동산": [
       {
-        "title": "서울 아파트 '전세의 월세화'…7년새 월세 비중 7.8%p↑",
-        "summary": "(서울=연합뉴스) 안채원 기자 = 지난 7년새 서울 아파트 전세 가구는 3만 가구 넘게 감소하고, 반전세를 포함한 월세 가구는 5만 가구 이상 ...",
-        "link": "https://www.yna.co.kr/view/AKR20260811147900002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-08-17T05:53:00+09:00",
-        "score": 130
-      },
-      {
-        "title": "\"전세금 1억 올리려다가 자녀에게…\" 다주택자가 내린 뜻밖의 결단",
-        "summary": "“집을 팔 수 있을 때 팔아서 자녀들에게 재개발 빌라를 사줘야겠다고 결심했다.” 최근 부동산... 국내 최대 부동산 커뮤니티 ‘부동산스터디’에 ‘붇옹산’이라는 닉네임을 사용하는 네티즌은 “부동산 규제 강화에...",
-        "link": "https://realty.chosun.com/site/data/html_dir/2026/08/14/2026081402053.html",
-        "source": "조선일보",
-        "published": "2026-08-17T06:02:00+09:00",
-        "score": 126
-      },
-      {
-        "title": "30일 살아도 실거주 인정?...전세대출 막힌 '비거주 1주택', 세제·금융 ...",
-        "summary": "정부가 부동산 세제·금융 정책을 잇달아 내놓고 있는 가운데 시장의 관심은 '비거주 1주택'으로 쏠린다.... 17일 관계부처에 따르면 금융위원회 지난 13일 부동산 금융정책을 발표하면서 투기적 목적의 비거주 1주택자도...",
-        "link": "https://www.mt.co.kr/economy/2026/08/17/2026081520140631889",
-        "source": "머니투데이",
-        "published": "2026-08-17T06:10:00+09:00",
-        "score": 110
+        "title": "서울 아파트 '전세의 월세화'",
+        "summary": "규모가 소폭 늘어나는 데 그친 가운데, 월세 가구 증가분이 전세 가구 감소분을 웃돌면서 '전세의 월세화' 현상이 뚜렷해진 것으로 풀이된다. 사진은 17일 서울 강남구 한 부동산 중개업소에 붙은 월세 매물 모습. 2026.8.17",
+        "link": "https://www.yna.co.kr/view/PYH20260817047000013?input=1196m",
+        "source": "연합뉴스",
+        "published": "2026-08-17T14:08:00+09:00",
+        "score": 150
       },
       {
         "title": "고가 아파트 주담대, 더 깐깐해진다",
@@ -386,15 +370,31 @@
         "source": "경향신문:경제",
         "published": "2026-08-16T21:28:00+09:00",
         "score": 96
+      },
+      {
+        "title": "5대銀 주담대 여력 7.5조 늘지만… “연말전에 빠르게 동날수도”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/16/134486914.1.jpg\" vspace=\"10\" />정부가 8·13 부동산 금융 대책으로 올해 금융회사 가계대출 증가율 목표치를 늘리겠다고 밝히면서 올해 5대 은행(KB국민, 신한, 하나, 우리, NH농협)에서 대출 여력이 7조5551억 원가량 늘어날 것으로 전망된다. 신용대출은 과도한 ‘빚투’(빚내서 투자) 방지를 위해 계속 통제될 분위기인 만큼 주택담보대출 문턱이 낮아질 것으로 보인다.  다만 연말로 갈수록 은행들의 대출 한도가 줄어 ‘대출 절벽’이 심해지는 편이어서 연말이나 내년 초 잔금을 치러야 하는 실수요자들은 여전히 대출을 못 받을 수 있다는 불안감을 감추지 못하고 있다.● 집단대출 풀리며 공공 분양단지 기대감은행들은 그간 주택담보대출과 집단대출 등 가계대출을 보수적으로 관리했다. 정부가 부동산 시장 과열을 막고 돈의 흐...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260816/134486587/2",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-17T01:40:00+09:00",
+        "score": 92
+      },
+      {
+        "title": "귀한 '전세'",
+        "summary": "늘어나는 데 그친 가운데, 월세 가구 증가분이 전세 가구 감소분을 웃돌면서 '전세의 월세화' 현상이 뚜렷해진 것으로 풀이된다. 사진은 17일 서울 강남구 한 부동산 중개업소에 붙은 계약 완료 전세 매물 모습. 2026.8.17",
+        "link": "https://www.yna.co.kr/view/PYH20260817047300013?input=1196m",
+        "source": "연합뉴스",
+        "published": "2026-08-17T14:08:00+09:00",
+        "score": 86
       }
     ],
     "국제경제": [
       {
-        "title": "“미국과 중국 중 ‘AI 협력국’ 선택하라”…트럼프 정부, 동맹국에 ‘...",
-        "summary": "중국 시장 의존도를 줄였다고 해도 여전히 한국의 반도체 수출에서 중국의 비중은 무시할 수 없는 수준이다. 지난 1~4월 중국과 홍콩은 반도체 수출 비중에서 45%를 차지했다. 특히 중국의 AI 수요가 폭증하면서 지난 5월...",
-        "link": "https://www.khan.co.kr/article/202608162125015",
-        "source": "경향신문",
-        "published": "2026-08-16T21:25:00+09:00",
+        "title": "관세·한미훈련 '트럼프 불확실성'..野 \"코리아패싱 시작\"",
+        "summary": "안철수 의원도 나서 \"3500억달러 규모 대미투자를 협의하고 미 무역법 301조에 따른 과잉생산 조사 결과 발표를 앞두고 있다\"며 \"그런데 협상 카운터파트가 갑자기 사라지고 그 이유조차 명확하지 않다면 미 측도 우리...",
+        "link": "http://www.fnnews.com/news/202608171352508682",
+        "source": "파이낸셜뉴스",
+        "published": "2026-08-17T13:58:00+09:00",
         "score": 80
       },
       {
@@ -406,20 +406,20 @@
         "score": 78
       },
       {
+        "title": "변동성 잦아든 증시, 우상향 시동 거나…FOMC 의사록 변수",
+        "summary": "대형 반도체 종목의 성장세와 인플레이션 우려 완화 등 호재가 계속되고 있지만 금리인상에 대한 우려는... 이번주 국내 증시는 기준금리 인상에 대한 미국 연준의 입장을 엿볼 수 있는 이벤트를 앞두고 있다. 오는...",
+        "link": "https://www.mt.co.kr/stock/2026/08/17/2026081710573430391",
+        "source": "머니투데이",
+        "published": "2026-08-17T13:13:00+09:00",
+        "score": 78
+      },
+      {
         "title": "이번주 美FOMC 의사록 주목",
         "summary": "17일 국내 증시가 광복절 대체공휴일로 휴장하는 가운데 가장 주목할 만한 이벤트로 20일 연방공개시장위원회(FOMC) 7월 의사록 공개가 꼽힌다. 앞서 연방준비제도(Fed·연준)는 지난달 회의에서 기준금리를 동결했지만...",
         "link": "https://www.mk.co.kr/article/12129022",
         "source": "매일경제",
         "published": "2026-08-16T17:24:00+09:00",
         "score": 70
-      },
-      {
-        "title": "이란에 발목 잡힌 美, 불안한 동맹들",
-        "summary": "트럼프 2기의 무역전쟁도 동맹국의 조바심을 키웠다. 아시아 동맹국을 겨냥한 관세 부과 이후 미국이 균형자로 중국을 견제할 것이란 믿음이 약해졌다고 NYT는 전했다. 미라 랩 후퍼 브루킹스 연구소 방문연구원은...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000003479&cp=nv",
-        "source": "국민일보",
-        "published": "2026-08-16T18:53:00+09:00",
-        "score": 68
       },
       {
         "title": "‘301조 관세-대미 투자’ 발표 앞 협상라인 공백… 김정관 美로",
@@ -432,36 +432,12 @@
     ],
     "AI와 경제": [
       {
-        "title": "4개월 연속 ‘월급 일자리’ 감소… AI 영향에 청년층 고용 타격",
-        "summary": "반도체 초호황에도 고용시장에 온기가 퍼지지 않는 가운데, 기업의 신입 채용마저 줄면서 청년층이 체감하는 ‘고용 한파’가 장기화되고 있다는 지적이 나온다. ● 월급 일자리 줄고 1인 자영업 증가 16일...",
-        "link": "https://www.donga.com/news/Economy/article/all/20260816/134484927/1",
-        "source": "동아일보",
-        "published": "2026-08-16T18:57:00+09:00",
-        "score": 34
-      },
-      {
-        "title": "AI 늦었던 기업들, 이번엔 ‘양자 컴퓨팅’ 선점 경쟁…투자 본격화",
-        "summary": "HSBC와 IBM은 지난해 양자 컴퓨팅 기술을 활용해 기존 고전 컴퓨팅 방식 대비 채권 최적화 예측 성능을 최대 34% 개선했다고 밝혔다. HSBC는 양자 컴퓨터가 현재의 암호 체계를 깰 가능성에 대비한 보안 전환에도 역량을...",
-        "link": "https://www.chosun.com/economy/tech_it/2026/08/16/5GXZAR2FLBAINF4LQ4A4BBKWVU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "title": "혁신당 이해민 \"AI 전환에 따른 고용 충격 완화\"…관련 법 대표 발의",
+        "summary": "기업의 AI전환을 적극 지원해 생산성 향상 효과는 지키되, 그 과정에서 발생하는 고용 충격과 사회적 격차를... 동시에 고용구조 변화와 산업 간 격차 확대, 지역경제 위축 등 사회·경제적 불균형이 심화될 가능성도 함께...",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/08/17/2026081790042.html",
         "source": "조선일보",
-        "published": "2026-08-16T17:15:00+09:00",
-        "score": 30
-      },
-      {
-        "title": "AI도 디지털 신분 받는다… 기업 관리 대상 비인간까지 확장",
-        "summary": "<center>  <img src=\"https://image.kmib.co.kr/online_image/2026/0817/01100201.20260816501286.jpg\" /> </center> 인공지능(AI) 에이전트가 사람을 대신해 업무를 수행하는 비중이 늘면서, 이들에게 인간 직원처럼 별도 신원을 부여하고 접근 권한과 행동 범위를 관리하는 기업이 늘고 있다. AI 에이전트가 기업 시스템에 직접 접근해 처리하는 업무 범위가 넓어지면서 관련 관리·보안 시장도 커지는 양상이다. <br /><br />16일 정보기술(IT) 업계에 따르면 기업들의 AI 에이전트 도입이 본격화하면서 이를 관리·통제하기 위한 보안 수요도 커지고 있다. 시장조사업체 가트너는 지난 4월 미국 경제지 포춘이 선정한 글로벌 500대 기업 한 곳당 사용하는 AI 에이전트 수가 지난해 15개 미만에서 2028년 15만개 이상으로 늘어날 것으로 전망했다. 반면 AI 에이전트를 제대로 관리할 거버넌스 체계를 갖췄다고 ...",
-        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000003563",
-        "source": "국민일보 | 경제",
-        "published": "2026-08-16T17:07:00+00:00",
-        "score": 30
-      },
-      {
-        "title": "[Why] 지사 15곳 문 닫고 철수까지 고민한 MS가 中 못 떠나는 이유",
-        "summary": "중국 정부의 자국산 소프트웨어 육성 정책과 미국의 첨단기술 수출 규제가 겹치면서 중국 시장 철수까지... 미국의 첨단기술 수출 제한도 MS가 중국에서 수익성이 높은 AI와 클라우드 사업을 확대하는 데 걸림돌이...",
-        "link": "https://biz.chosun.com/international/international_general/2026/08/17/GFNLQMMBSFC4HOADNOEJIPPGFM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-08-17T06:01:00+09:00",
-        "score": 28
+        "published": "2026-08-17T13:43:00+09:00",
+        "score": 32
       },
       {
         "title": "‘월급 일자리’ 4개월째 감소, 코로나 이후 처음… 자영업은 급증",
@@ -470,22 +446,6 @@
         "source": "동아일보 | 경제 뉴스",
         "published": "2026-08-17T01:40:00+09:00",
         "score": 26
-      },
-      {
-        "title": "IPO 앞둔 AI업계 양대주자, 속사정은 극과 극",
-        "summary": "기업공개(IPO) 준비에 나선 인공지능(AI) 업계 양대 주자의 표정이 엇갈리고 있다. 오픈AI가 잇단 조직 개편에 따른 내홍으로 흔들리는 반면에 경쟁사인 앤스로픽은 장밋빛 매출 전망을 앞세워 월가의 후한 평가를 기대하는 분위기다. 15일(현지 시간) 영국 파이낸셜타임스(FT)에 따르면 샘 올트먼 오픈AI 최고경영자(CEO)는 대형 IPO를 위해 올해 들어서만 조직을 6차례가량 개편했다. 비주력 사업을 과감히 정리하고 챗GPT 고도화와 기업 고객 확보 등 핵심 사업에 전사적 역량을 집중하겠다는 구상이었다. 하지만 핵심 경영진의 이탈이 가속화하고 있다. 기업 고객 유치를 총괄하던 데니스 드레서 최고수익책임자(CRO)와 클로에 바칼라르 윤리 부문 책임자가 취임 1년을 채우지 못하고 사임했으며, 앞서 브래드 라이트캡 최고운영책임자(COO) 겸 최고재무책임자(CFO)도 8년 만에 회사를 떠났다. FT는 사안에 정통한 관계자를 인용해 “핵심 인사들의 잇단 이탈과 잦은 조직 개편으로 직원들",
-        "link": "https://www.donga.com/news/Economy/article/all/20260816/134486537/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-08-17T01:40:00+09:00",
-        "score": 26
-      },
-      {
-        "title": "청년 취업자 19만명 줄었는데…절반은 ‘AI 고노출 업종’",
-        "summary": "지난달 15일 서울의 한 고용센터 일자리 정보 게시판. 연합뉴스지난달 줄어든 청년층 취업자의 절반 이상이 정보통신업과 전문·과학 및 기술서비스업 등 이른바 ‘인공지능(AI) 고노출’ 업종에 집중된 것으로 나타났다.국가데이터처 경제활동인구조사 마이크로데이터를 16일 분석한 결과, 7월 청년층(15~29세) 취업자는 지난해 같은 달보다 19만1362명 감소했다···",
-        "link": "https://www.khan.co.kr/article/202608161127011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-08-16T11:27:01+09:00",
-        "score": 26
       }
     ],
     "기타": [
@@ -493,7 +453,7 @@
         "title": "하이닉스 '솔리다임' IPO설…증권가 \"지분희석\" vs \"실익있다\"",
         "summary": "(서울=연합뉴스) 김유향 기자 = SK하이닉스[000660] 미국 자회사 솔리다임의 나스닥 상장설이 확산하면서 증권가에서는 기존 SK하이닉스 주...",
         "link": "https://www.yna.co.kr/view/AKR20260815031900008",
-        "source": "연합뉴스 경제 최신기사",
+        "source": "연합뉴스 마켓+ 최신기사",
         "published": "2026-08-17T06:00:05+09:00",
         "score": 24
       },
@@ -501,48 +461,16 @@
         "title": "단일종목 레버리지로 거래소·증권가 수수료 수익 1천억 넘어",
         "summary": "(서울=연합뉴스) 배영경 기자 = 단일종목 레버리지 상장지수펀드(ETF) 출시 후 보완책 시행 전까지 약 두 달간 한국거래소와 증권사들이 거둔 ...",
         "link": "https://www.yna.co.kr/view/AKR20260815045300002",
-        "source": "연합뉴스 경제 최신기사",
+        "source": "연합뉴스 마켓+ 최신기사",
         "published": "2026-08-17T05:49:00+09:00",
         "score": 24
       },
       {
-        "title": "서울시의회 민주당 'TBS 정상화' 결의안 발의…누적부채 169억원",
-        "summary": "아울러 서울시에는 출연기관 재지정, 지원 조례 제정, 재정 지원 방안 등 정상화 로드맵을 시의회와 협의하고, 장기간 임금을 받지 못한 TBS 구성원들의 생존권과 고용안정을 보장할 대책을 마련하라고 촉구했다. 또...",
-        "link": "https://www.yna.co.kr/view/AKR20260816036600004?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-08-17T05:55:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "김정관 \"美 요구, 투자속도 내자는 취지…막판 쟁점 어떻게든 해결\" [이...",
-        "summary": "미국은 무역법 301조에 따른 과잉생산 관련 조사를 이어가고 있다. 기존 강제노동 관세에 이어 과잉생산... 미국 무역대표부(USTR) 대표)가 모두 양국이 합의한 정신을 지키겠다(15% 수준 유지)고 노동 분야(강제노동 관세) 할...",
-        "link": "https://www.hankyung.com/article/202608174414i",
+        "title": "美도착한 김정관 \"대미투자 막판 다양한 쟁점…어떻게든 해결 목표\"",
+        "summary": "한국은 지난해 3500억 달러의 대미 투자를 포함한 미국과의 무역 합의를 통해 25%의 관세를 15%로 낮춘 바 있다.... 일각에선 미국이 지난달 무역법 301조에 따라 한국에 강제노동 관련 12.5% 관세를 부과한 데 이어 과잉생산...",
+        "link": "https://magazine.hankyung.com/business/article/202608174656b",
         "source": "한국경제",
-        "published": "2026-08-17T04:30:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "[사설] '투자 약속 이행' 美 압박 거센데 통상교섭본부장 공백이라니",
-        "summary": "안 그래도 미 무역법 301조에 따른 추가 관세 부과 가능성에다 미 의회의 쿠팡 역차별 주장 등 통상 현안이 산적해 있다. 대미 투자만 해도 미국이 재촉한다고 ‘상업적 합리성’이 흔들려서는 곤란하다. 가스화력발전소를...",
-        "link": "https://www.hankyung.com/article/2026081641811",
-        "source": "한국경제",
-        "published": "2026-08-17T00:42:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "통상 사령탑 여한구…한밤 전격 경질 왜?",
-        "summary": "하워드 러트닉 미국 상무장관과 협상하는 김정관 산업부 장관과 함께 ‘투트랙 대화망’을 구축해 제이미슨 그리어 미국무역대표부(USTR) 대표를 상대했다. 무역법 301조의 고율 관세 대응을 맡았고, 미국 행정부와 의회를...",
-        "link": "https://www.hankyung.com/article/2026081641981",
-        "source": "한국경제",
-        "published": "2026-08-16T18:19:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "\"중진국 함정에 잠재적 경쟁자 사라져…韓 입장에선 기회\"",
-        "summary": "현지 생산을 조건으로 중국 업체에 관세를 감면 또는 면제한 태국, 인도네시아 등은 지난해 판매된 전기차의 75%가량이 중국산이었다. 완성차 형태로 수입되는 전기차에 50%의 관세를 매기는 베트남에서도 BYD와 체리 등...",
-        "link": "https://www.hankyung.com/article/2026081641531",
-        "source": "한국경제",
-        "published": "2026-08-16T18:15:00+09:00",
+        "published": "2026-08-17T08:37:00+09:00",
         "score": 24
       },
       {
@@ -554,19 +482,51 @@
         "score": 24
       },
       {
-        "title": "방미 김정관 \"대미 투자 막판 다양한 쟁점…어떻게든 해결 목표\"",
-        "summary": "한국은 지난해 3천500억 달러의 대미 투자를 포함한 미국과의 무역 합의를 통해 25%의 관세를 15%로 낮춘 바 있습니다. 3천500억 달러 중 1천500억 달러는 조선 협력에 배정됐으며, 나머지 2천억 달러 투자 이행방안을 놓고...",
-        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5212849",
-        "source": "매일경제",
-        "published": "2026-08-17T02:01:00+09:00",
+        "title": "'AI 네이티브 전환' 원티드랩, 2분기 매출 117억…흑자 전환",
+        "summary": "특히 'AX 챔피언' 등 AI 인재 양성 프로그램은 누적 참여 4000명을 넘어섰고, 한국관광공사·한국무역협회 등 공공기관과 경희대·숙명여대·가톨릭대 등 주요 대학이 원티드의 AI 교육을 도입했다. 정부도 AI 투자를...",
+        "link": "https://www.mt.co.kr/future/2026/08/17/2026081413011593109",
+        "source": "머니투데이",
+        "published": "2026-08-17T12:00:00+09:00",
         "score": 24
       },
       {
-        "title": "'AI 대전' 구글·아마존·MS…이제는 '비용 버티기' 승부[주末머니]",
-        "summary": "윤여삼 메리츠증권 연구원은 \"인플레이션 대응을 위해 금리가 더 올라간다면, 가장 먼저 유탄을 맞는 곳은 막대한 자본이 필요한 AI 투자 기업일 수 있다\"며 \"현재 AI 투자의 펀더멘탈을 의심하는 것이 아니라...",
-        "link": "https://view.asiae.co.kr/article/2026081315350228917",
-        "source": "아시아경제",
-        "published": "2026-08-15T18:05:00+09:00",
+        "title": "알파벳, 첫 호주달러 회사채 발행 검토…AI 투자 부채 급증",
+        "summary": "만기의 채권 발행을 검토하고 있다고 밝혔다. 총 발행 규모는 공개되지 않았다. 알파벳은 이달 초 미국 달러화 채권시장에서 250억달러 규모의 회사채를 발행했으며, 올들어 스위스프랑, 영국 파운드, 유로...",
+        "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01341526645548304",
+        "source": "이데일리",
+        "published": "2026-08-17T10:36:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "단일종목 레버리지로 거래소·증권사 수수료 1200억 벌었다",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/08/17/134487869.1.jpg\" vspace=\"10\" />단일종목 레버리지 상장지수펀드(ETF) 출시 이후 두 달간 증권가의 수수료 수익이 1200억원에 달하는 나타났다.17일 금융감독원과 한국거래소가 국회 정무위원회 소속 국민의힘 박성훈 의원실에 제출한 자료에 따르면, 삼성전자와 SK하이닉스 단일종목 레버리지·인버스 ETF가 출시된 지난 5월 27일부터 지난달 말까지 총 16개 관련 종목 대상 거래소와 증권사들의 관련 수수료 수익은 1172억6000만원으로 집계됐다. 증권사들의 삼성전자·SK하이닉스 단일종목 레버리지·인버스 ETF 위탁매매 수수료 수익은 893억5000만원으로 나타났다.거래소의 거래수수료와 청산결제수수료는 279억1000만원으로 집계됐다. 거래수수료 241억3900만원, 청산결제수수료 37억7100만원 등이다.박 의원은...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260817/134487868/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-08-17T10:37:05+09:00",
+        "score": 24
+      },
+      {
+        "title": "“미 군함 해외 건조 허용”에 ‘마스가’ 기대감…실익은 ‘글쎄’",
+        "summary": "트럼프 각서 서명했지만…미 하원은 ‘예산 사용 금지 법안’ 빗장물량 소수인데…독점 기술 라이선스 제공 등 미국 조건 까다로워전문가 “리스크 여전…양국 ‘윈윈’할 세부 협력 구조 설계해야”도널드 트럼프 미국 대통령이 미 군함의 해외 건조를 허용하는 각서에 서명하면서 한·미 ‘마스가(MASGA·미국 조선업을 다시 위대하게) 프로젝트’에 본격적으로 시동이 걸릴지···",
+        "link": "https://www.khan.co.kr/article/202608162031045/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-08-16T20:31:04+09:00",
+        "score": 24
+      },
+      {
+        "title": "방미 김정관 \"대미 투자 막판 다양한 쟁점…어떻게든 해결 목표\"",
+        "summary": "김정관 산업통상부 장관이 한미 관세 협상에서 합의한 2천억 달러 규모 대미 투자 프로젝트와 관련해 막판 쟁점들이 나오고 있어 정리할 필요가 있다고 밝혔습니다.현지시간 16일 미국 워싱턴 DC 인근 덜레스 국제공항에 도착한 김 장관은 기자들과 만나 이번 방미 목적에 대해 \"저희가 8월 말, 9월 초 정도에 프로젝트 발표를 생각하고 있다고 지난번에 말씀드렸는데, 막판이 되면서 실무적으로 다양한, 구체적인 쟁점들이 나오고 있다\"고 말했습니다.이어 \"그런 부분들을 우리가 화상(회의)도 하고 실무 접촉도 했는데, 그것을 한 번 전체적으로 정리할 필요가 있는 상황이어서 오게 됐다\"고 밝혔습니다.김 장관은 이르면 8월 말 대미 투자..",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5212849",
+        "source": "MBN : 경제기사",
+        "published": "2026-08-17T01:48:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "방미 김정관 \"대미투자 막판 쟁점 다양…어떻게든 해결\"",
+        "summary": "한국은 지난해 3,500억 달러의 대미 투자를 포함한 미국과의 무역 합의를 통해 25%의 관세를 15%로 낮춘 바... 일각에선 미국이 지난달 무역법 301조에 따라 한국에 강제노동 관련 12.5% 관세를 부과한 데 이어 과잉생산 조사...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005902250",
+        "source": "MBN",
+        "published": "2026-08-17T10:30:00+09:00",
         "score": 24
       }
     ]
@@ -626,5 +586,42 @@
       "match_status": "OK",
       "importance_score": 4
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-08-17",
+    "generated_at": "2026-08-17T05:40:32.543325+00:00",
+    "briefing_hash": "d9d53386b12a3e88",
+    "key_headlines": [
+      {
+        "title": "Seoul Apartment 'Jeonse-to-Monthly Rent Shift' Accelerates",
+        "summary": "Seoul apartments are experiencing a significant shift from jeonse (key money deposits) to monthly rent contracts, with monthly rent increasing by 52,000 units and jeonse decreasing by 35,000 units over 7 years. The proportion of monthly rent rose from 30.3% in 2017 to 38.1% in 2024."
+      },
+      {
+        "title": "Government Announces 100 Trillion Won Future Response Fund",
+        "summary": "The South Korean government plans to establish a massive 100 trillion won future response fund financed by semiconductor tax surpluses this week. The fund will support youth homeownership, future growth engines, local regions, and talent development."
+      },
+      {
+        "title": "Korea Battery Makers Accelerate All-Solid-State Battery Development for Robotics",
+        "summary": "South Korea's three major battery companies are pivoting toward humanoid robots as a key growth driver and accelerating all-solid-state battery commercialization. The global humanoid robot battery market is projected to grow from 1.4 billion dollars in 2035 to 10.5 billion dollars by 2040."
+      },
+      {
+        "title": "Japan's Q2 GDP Growth Rate 0.3%, Extending Three-Quarter Growth Streak",
+        "summary": "Japan's real GDP grew 0.3% quarter-on-quarter in Q2 2026, annualizing to 1.1% growth. This marks the third consecutive quarter of economic growth, driven by strong export performance."
+      },
+      {
+        "title": "Salaried Jobs Decline for Fourth Consecutive Month Post-COVID",
+        "summary": "Wage-earning employment has declined for four consecutive months for the first time since COVID-19, while self-employment surged. AI adoption in information technology and professional services sectors has particularly impacted youth employment."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "Seoul's real estate market continues experiencing a structural shift from jeonse deposits to monthly rent contracts, with monthly rent proportions rising to 38.1% in 2024. The government is actively pursuing real estate financing reforms, including low-interest policy loans for properties under 400 million won, though market response remains lukewarm due to mistrust following jeonse fraud cases. Villa prices are surging at 2.4 times last year's growth rate, with government measures to exclude new villa units from housing counts potentially stimulating further purchases. High-end apartment mortgage requirements are being tightened, while mid-to-low-end housing receives more favorable treatment through capital adequacy regulations.",
+      "Macro & Fiscal Policy": "South Korea's government is establishing a 100 trillion won future response fund financed by excess semiconductor sector tax revenues, with plans to announce details this week. The fund aims to address youth housing, future growth sectors, regional development, and human capital investment. Simultaneously, the government is reviewing education finance reforms to replace the current automatic allocation system with growth-rate and school-age population-based annual budgeting. Argentina's economic collapse is being attributed to accumulated fiscal deficits despite central bank efforts to stabilize prices. The IMF warns of fiscal rule paradoxes where debt reduction measures may simultaneously dampen economic growth.",
+      "Financial Markets": "The KOSDAQ index rebounded 34% this month, achieving the highest returns among global major indices despite recent weakness. Market sentiment has improved as AI demand concerns ease and Federal Reserve rate hike expectations diminish, with September FOMC rate cuts now anticipated. The KOSPI faces potential volatility heading into the week's FOMC minutes release on August 20, which will clarify Fed policy intentions. Single-stock leverage ETFs generated over 100 billion won in combined exchange and securities company fees during their two-month operating period. Long-term US Treasury yields rose unexpectedly despite dovish Fed signals, creating unusual market dynamics.",
+      "Industry & Technology": "Korea's battery industry is pivoting toward humanoid robots rather than electric vehicles for all-solid-state battery commercialization, with the global humanoid robot battery market projected to reach 10.5 billion dollars by 2040. American tech giants Nvidia and AMD are collaborating on inference semiconductors, potentially challenging Korea's K-NPU development strategy. Korean battery makers are exiting joint ventures with global automakers as EV demand disappoints following US administration policy shifts, with automakers increasingly taking full control of battery operations. The semiconductor sector's strength continues to drive economic growth, though employment gains remain concentrated in capital-intensive industries.",
+      "Real Estate": "Seoul's apartment market shows persistent shift from jeonse to monthly rent, with monthly rent contracts increasing 7.8 percentage points over seven years to reach 38.1% by 2024. Government policy loans targeting sub-400 million won non-apartment properties face market skepticism due to post-fraud jeonse distrust and recent price appreciation, with villa prices now exceeding policy targets. Banking regulations from 2027 will require higher capital provisions for mortgages exceeding 1.5 billion won, effectively favoring mid-to-low-range housing loans. Five major Korean banks gained approximately 7.5 trillion won in additional lending capacity following government expansion of household loan growth targets, though year-end lending constraints remain concerning.",
+      "International Economy": "South Korea faces 'Korea Passing' concerns as key trade negotiators are reassigned ahead of US Section 301 tariff decisions and 350 billion dollar investment agreement discussions with the Trump administration. Bank of America forecasts three consecutive Fed rate hikes totaling 0.75 percentage points in September, October, and December despite July CPI deceleration. Korea previously negotiated tariff reductions from 25% to 15% through 350 billion dollar investment commitments, but now faces additional 12.5% tariffs on forced labor concerns. This week's FOMC minutes release will provide critical signals regarding Fed policy direction amid persistent geopolitical and trade uncertainties.",
+      "AI & Economy": "Salaried employment has declined for four consecutive months for the first time since COVID-19, while self-employment surged, reflecting AI's disruptive impact on job markets. AI adoption in information technology, professional services, and technical sectors has particularly impacted youth employment, contributing to persistent hiring weakness despite semiconductor sector strength. The Innovation Party proposed legislation to mitigate employment shock from corporate AI transformation while maintaining productivity gains and addressing emerging social-economic disparities. Employment structure changes, widening inter-industry gaps, and regional economic decline signal AI adoption's uneven distribution across Korea's workforce.",
+      "Others": "SK Hynix's US subsidiary Solidigm is reportedly preparing for NASDAQ IPO, with securities analysts debating shareholder dilution versus operational benefits. Saudi Arabia's acquisition of Electronic Arts for 78 trillion won through record leveraged buyout signals Gulf capital's aggressive gaming industry entry, raising competitiveness concerns for Korean game developers. Wanted Lab, an AI-native HR platform, achieved profitability in Q2 with 11.7 billion won revenue following successful AI talent training programs with over 4,000 cumulative participants. Single-stock leverage ETF trading generated substantial fee revenues but prompted regulatory concerns regarding market volatility and risk management practices."
+    }
+  }
 }
