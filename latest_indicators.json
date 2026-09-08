@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T00:02:02.378719",
+  "updated_at": "2026-09-08T05:36:17.921816",
   "indicators": [
     {
       "id": "sp500",
@@ -91,8 +91,8 @@
     {
       "id": "kospi",
       "name": "KOSPI",
-      "value": "6,687.21",
-      "change": 1.64,
+      "value": "7,072.06",
+      "change": 1.1,
       "category": "stock",
       "trend": [
         {
@@ -220,16 +220,20 @@
           "value": 6835.8
         },
         {
-          "date": "2026-09-04",
-          "value": 6687.21
+          "date": "2026-09-07",
+          "value": 6995.39
+        },
+        {
+          "date": "2026-09-08",
+          "value": 7072.06
         }
       ]
     },
     {
       "id": "kosdaq",
       "name": "KOSDAQ",
-      "value": "813.50",
-      "change": 2.95,
+      "value": "825.08",
+      "change": 0.35,
       "category": "stock",
       "trend": [
         {
@@ -357,8 +361,12 @@
           "value": 821.25
         },
         {
-          "date": "2026-09-04",
-          "value": 813.5
+          "date": "2026-09-07",
+          "value": 822.19
+        },
+        {
+          "date": "2026-09-08",
+          "value": 825.08
         }
       ]
     },
@@ -899,8 +907,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "153.76",
-      "change": -1.56,
+      "value": "153.51",
+      "change": -1.72,
       "category": "currency",
       "trend": [
         {
@@ -921,15 +929,15 @@
         },
         {
           "date": "2026-09-08",
-          "value": 153.76
+          "value": 153.51
         }
       ]
     },
     {
       "id": "cny_usd",
       "name": "위안/달러",
-      "value": "6.70",
-      "change": -0.16,
+      "value": "6.71",
+      "change": -0.01,
       "category": "currency",
       "trend": [
         {
@@ -950,21 +958,17 @@
         },
         {
           "date": "2026-09-08",
-          "value": 6.7
+          "value": 6.71
         }
       ]
     },
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "99.18",
-      "change": 0.02,
+      "value": "98.83",
+      "change": -0.33,
       "category": "currency",
       "trend": [
-        {
-          "date": "2026-09-01",
-          "value": 99.67
-        },
         {
           "date": "2026-09-02",
           "value": 99.56
@@ -978,16 +982,16 @@
           "value": 99.16
         },
         {
-          "date": "2026-09-07",
-          "value": 99.18
+          "date": "2026-09-08",
+          "value": 98.83
         }
       ]
     },
     {
       "id": "krw_usd",
       "name": "원/달러 환율",
-      "value": "1,355.20",
-      "change": -0.32,
+      "value": "1,342.60",
+      "change": -0.93,
       "category": "currency",
       "trend": [
         {
@@ -1115,22 +1119,18 @@
           "value": 1359.5
         },
         {
-          "date": "2026-09-07",
-          "value": 1355.2
+          "date": "2026-09-08",
+          "value": 1342.6
         }
       ]
     },
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$92.52",
-      "change": 1.14,
+      "value": "$93.22",
+      "change": 1.9,
       "category": "commodity",
       "trend": [
-        {
-          "date": "2026-09-01",
-          "value": 90.22
-        },
         {
           "date": "2026-09-02",
           "value": 91.01
@@ -1144,22 +1144,18 @@
           "value": 91.48
         },
         {
-          "date": "2026-09-07",
-          "value": 92.52
+          "date": "2026-09-08",
+          "value": 93.22
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,472.20",
-      "change": 0.96,
+      "value": "$4,470.40",
+      "change": 0.92,
       "category": "commodity",
       "trend": [
-        {
-          "date": "2026-09-01",
-          "value": 4348.0
-        },
         {
           "date": "2026-09-02",
           "value": 4366.3
@@ -1173,8 +1169,8 @@
           "value": 4429.8
         },
         {
-          "date": "2026-09-07",
-          "value": 4472.2
+          "date": "2026-09-08",
+          "value": 4470.4
         }
       ]
     }
