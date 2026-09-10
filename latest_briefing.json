@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-10T14:38:57.779758+09:00",
+  "generated_at": "2026-09-10T21:26:19.678636+09:00",
   "date": "2026-09-10",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 576,
-    "total_used": 567,
-    "dropped_quality": 4,
-    "dropped_negative": 5,
+    "total_input": 600,
+    "total_used": 580,
+    "dropped_quality": 9,
+    "dropped_negative": 11,
     "per_category": {
-      "기타": 255,
-      "부동산": 50,
-      "거시경제·재정": 72,
-      "금융시장": 93,
-      "국제경제": 42,
-      "산업·과학": 49,
-      "AI와 경제": 6
+      "기타": 268,
+      "부동산": 40,
+      "금융시장": 91,
+      "거시경제·재정": 83,
+      "국제경제": 45,
+      "산업·과학": 45,
+      "AI와 경제": 8
     }
   },
   "headlines": [
@@ -162,68 +162,44 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "명목 GDP 22% 급등의 그늘… 한은 “물가 상승·양극화·레버리지 투자 ...",
-        "summary": "한국은행, 통화신용정책보고서 발표 전례를 찾기 어려운 반도체 수출 호조로 우리나라 경제가 높은 성장률을 기록하고 있지만, 소비자 물가 상승, 양극화, 부동산 레버리지 투자 확대와 같은 부작용도 함께 나타날 수...",
-        "link": "https://biz.chosun.com/policy/policy_sub/2026/09/10/GLVTKAFPNNHJRAEYCQGLNEJ7WQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-09-10T13:43:00+09:00",
-        "score": 142
+        "title": "IT 임금 상승, 7개월 뒤 서비스물가로…통화정책 변수된 삼전닉스",
+        "summary": "10일 한국은행이 펴낸 ‘통화신용정책보고서’에 따르면, 올 상반기 명목 국내총생산(GDP)은 전년 동기 대비 21.9% 급증했다. 반도체 수출 단가 상승이 전체 성장을 주도했다. 박종우 한은 부총재보는 “최근의 명목성장률...",
+        "link": "https://www.joongang.co.kr/article/25460796",
+        "source": "중앙일보",
+        "published": "2026-09-10T16:35:00+09:00",
+        "score": 162
       },
       {
         "title": "상반기 명목 GDP 성장률 22%…한은 “물가상승·금융불균형 확대 우려”",
-        "summary": "한도·금리를 탄력적으로 조정 운용하는 프로그램을 신규 도입할 것”이라고 덧붙였다. 그 일환으로 중소기업 전반에 대해 한도와 금리를 탄력적으로 적용하는 ‘중소기업신용연계지원’ 프로그램을 신설하고, 지방...",
+        "summary": "우리나라의 상반기 명목 국내총생산(GDP) 성장률이 21.8%을 기록한 가운데, 한국은행에서는 금융불균형 확대와... 앞서 한은은 올 2분기 우리나라 명목 GDP가 전년 대비 26.4% 급증했다고 밝혔다. 이는 46년 9개월 많에 가장 높은...",
         "link": "https://www.ceoscoredaily.com/page/view/2026091014132990892",
         "source": "이데일리",
         "published": "2026-09-10T14:14:00+09:00",
-        "score": 140
+        "score": 160
       },
       {
-        "title": "한은 \"명목 GDP 급등, 수요측 물가 압력 높일 위험\"",
-        "summary": "한국은행은 9월 통화신용정책 보고서에서 명목 성장률 급등으로 성장세가 이어질 것으로 보이지만, 수요 측면에서 물가 압력을 높이고 금융 불균형 위험을 확대할 가능성에 유의해야 한다고 밝혔습니다. 올해 상반기...",
-        "link": "https://www.ytn.co.kr/_ln/0102_202609101357251775",
-        "source": "YTN",
-        "published": "2026-09-10T13:57:00+09:00",
+        "title": "한은 금리 추가인상 빨라지나… \"명목 성장률 20% 웃돌고 물가도 압력\"",
+        "summary": "한국은행이 기준금리 인상 기조를 재확인했다. 20%대의 이례적 명목 경제성장률과 물가 상승 압력, 빠른 가계부채 증가세에 따라 기준금리 추가 인상 시점이 앞당겨질 가능성이 제기된다. 앞서 한은은 지난 7월과 8월...",
+        "link": "https://www.fnnews.com/news/202609101826360478",
+        "source": "파이낸셜뉴스",
+        "published": "2026-09-10T18:27:00+09:00",
         "score": 130
       },
       {
+        "title": "한은 \"명목 GDP 급등, 수요측 물가 압력 높일 위험\"",
+        "summary": "최근 명목 GDP가 큰 폭으로 오르면서 수요 측면의 물가 상방 압력 등의 우려도 커졌다는 지적이... 올해 상반기 명목 GDP는 반도체 수출 호조, 수출 가격 상승에 따른 교역조건 개선 등으로 20%를 웃도는 성장률을...",
+        "link": "https://www.ytn.co.kr/_ln/0102_202609101357251775",
+        "source": "YTN",
+        "published": "2026-09-10T13:57:00+09:00",
+        "score": 122
+      },
+      {
         "title": "반도체 호황에 명목성장률 20% 돌파…한은 “물가·금융불균형 유의”",
-        "summary": "한국은행은 10일 공개한 ‘2026년 9월 통화신용정책보고서’에서 올해 상반기 명목 성장률이 20%를 상회했다며, 이번 급등은 과거와 달리 수출가격 상승에 따른 교역조건의 큰 폭 개선이 주도했다고 분석했다. 특히 반도체...",
+        "summary": "명목 국내총생산(GDP) 확대로 GDP 대비 가계부채 비율은 낮아질 수 있지만 주요 선진국과 비교하면 여전히 높은 수준이다. 소득 개선에 따른 주택 매입 수요와 레버리지 확대가 자산가격 상승 기대와 맞물릴 경우 금융불균형...",
         "link": "https://www.sedaily.com/article/20089370?ref=naver",
         "source": "서울경제",
         "published": "2026-09-10T13:32:00+09:00",
-        "score": 122
-      },
-      {
-        "title": "반도체 호황에 명목성장률 20% 넘어…한은 \"물가·금융불균형 경계\"",
-        "summary": "올해 상반기 명목 국내총생산(GDP) 성장률은 반도체 경기 호조에 힘입어 21.8%를 기록했다. 명목GDP는 물가 변동을 제거하지 않고 해당 시점의 가격으로 계산한 국내총생산이다. 한은은 \"최근 명목성장률 급등은 과거와 달리...",
-        "link": "https://www.mt.co.kr/economy/2026/09/10/2026091007544450703",
-        "source": "머니투데이",
-        "published": "2026-09-10T12:00:00+09:00",
-        "score": 122
-      },
-      {
-        "title": "한은 \"명목 성장률 급등에 금융불균형 위험 확대 가능성\"",
-        "summary": "국내총생산(GDP) 성장률이 큰 폭으로 오르면서 금융불균형 우려도 커졌다고 한국은행이 10일 지적했다. 한은은... 올해 상반기 명목 GDP는 반도체 수출 호조 등에 힘입어 이례적으로 20%를 웃도는 높은 성장률을 기록했다....",
-        "link": "https://www.yna.co.kr/view/AKR20260909171000002?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-09-10T12:00:00+09:00",
-        "score": 102
-      },
-      {
-        "title": "성장률 20% 넘긴 상반기 명목 GDP, 한은 \"非반도체 차별화 심화 유의\"",
-        "summary": "명목 국내총생산(GDP)은 올해 1분기 전년 동기 대비 17.1%, 2분기 26.4% 성장했다. 최근 명목 성장률 급등은 과거와... 금융안정 측면에선 명목 GDP 확대로 GDP 대비 가계부채비율이 하락하겠으나, 주요 선진국에 비해서는 여전히...",
-        "link": "https://view.asiae.co.kr/article/2026091011160109316",
-        "source": "아시아경제",
-        "published": "2026-09-10T12:00:00+09:00",
-        "score": 100
-      },
-      {
-        "title": "청년 실업률 4년래 최고…고용 한파 언제 끝나나",
-        "summary": "한국은 R&D 총액 5위이지만 GDP 대비 R&D 투자 비중은 5.13%로 이스라엘에 이어 세계 2위 수준이다. 미·중 기술 패권 경쟁이 투자 경쟁에서 성과 경쟁으로 전환되는 국면에서, 반도체·AI·양자 등 전략기술 분야...",
-        "link": "https://www.sedaily.com/article/20089259?ref=naver",
-        "source": "서울경제",
-        "published": "2026-09-10T10:01:00+09:00",
-        "score": 90
+        "score": 110
       },
       {
         "title": "명목 성장률 20% 넘게 뛰었는데…한은 \"금융불균형 위험 커질 수도\"",
@@ -236,36 +212,68 @@
       {
         "title": "일본, 경기 확대 최장 기록 경신할 듯",
         "summary": "버블 경기 시절인 1986년부터 1991년까지는 51개월, 이때는 GDP 성장률이 6%를 넘는 해도 있었습니다. 2002년부터 2008년까지는 자동차 수출 등에 힘입어 73개월간 이어졌습니다. 그런데 이번 경기 확대가 이 기록을 넘어설...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8660040&ref=A",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8660333&ref=A",
         "source": "KBS",
-        "published": "2026-09-10T12:41:00+09:00",
+        "published": "2026-09-10T19:28:00+09:00",
         "score": 82
       },
       {
-        "title": "한은 \"추가 금리인상 시기·속도 결정\"…물가·집값 변수",
-        "summary": "금융안정 측면에서는 수도권 주택시장과 가계부채, 미국 연방준비제도의 통화정책 변화에 따른 환율 변동성 등을 지켜봐야 한다고 강조했습니다. 한은은 지난 7월과 8월 기준금리를 연 2.50%에서 3.00%까지 두 차례 연속...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000333892?division=NAVER",
-        "source": "SBS",
-        "published": "2026-09-10T12:00:00+09:00",
+        "title": "한은, 추가 금리 인상 예고 \"물가 상당기간 2% 웃돌 것\"",
+        "summary": "한은 통화신용정책보고서 고성장에 자산 거품도 우려 올해 韓 주가 변동성 4.1% 시총 30개국 중 가장 높아 한국은행이 물가 상승률을 상당 기간 목표 수준인 2%를 웃돌 것으로 예상하면서 추가 기준금리 인상 가능성을...",
+        "link": "https://www.mk.co.kr/article/12149643",
+        "source": "매일경제",
+        "published": "2026-09-10T17:50:00+09:00",
         "score": 80
       },
       {
-        "title": "제주 실업률 0.8% 역대 최저?…고령층·자영업이 채운 '고용 착시'",
-        "summary": "제주지역 8월 취업자 수가 1년 전보다 1만 2000명 늘고 실업률이 14년 8개월 만에 최저치인 0.8%까지... 지난달 실업자는 1년 전보다 2000명 감소한 3000명에 그쳤으며, 실업률은 0.5%P 떨어진 0.8%를 기록했다. 7월(0.9%)에...",
-        "link": "https://view.asiae.co.kr/article/2026090916284665156",
-        "source": "아시아경제",
-        "published": "2026-09-09T16:55:00+09:00",
+        "title": "추미애 \"반도체 세수 5% 경기도에 달라\"",
+        "summary": "추 지사는 경기도의 세입 구조가 취득세에 지나치게 의존해온 데다 토지거래허가구역 지정 등으로 부동산 거래가 줄면서 세수 기반이 약해졌다고 진단했다. 정부가 공공주택 공급을 확대하면 민간 분양이 줄어 취득세...",
+        "link": "https://www.hankyung.com/article/202609107557h",
+        "source": "한국경제",
+        "published": "2026-09-10T19:26:00+09:00",
         "score": 70
+      },
+      {
+        "title": "청년 실업률 4년래 최고…고용 한파 언제 끝나나",
+        "summary": "청년이 주로 진출하는 정보통신·제조업 취업자가 감소세를 지속하는 가운데 실업률은 5.4%로 2022년 이후... 증가가 실업률 상승에도 영향을 미쳤다. 다만 ‘쉬었음’ 청년은 39만 5000명으로 7개월 연속 감소해 훈련...",
+        "link": "https://www.sedaily.com/article/20089259?ref=naver",
+        "source": "서울경제",
+        "published": "2026-09-10T10:01:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "김종화 금통위원 \"연속 금리인상 영향 점검할 때\"...시장 \"10월 동결 시그...",
+        "summary": "|중앙이코노미뉴스 문혜원 기자|김종화 한국은행 금융통화위원은 10일 발표된 통화신용정책보고서의 '주관위원 메시지'를 통해 \"지난 두 차례 금리 인상의 영향을 면밀히 살펴봐야 할 것\"이라고 밝혔다. [사진=한국은행]...",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=547294",
+        "source": "중앙일보",
+        "published": "2026-09-10T17:22:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "세수 169조 늘어도 지방엔 1.3조… ‘미래기금’에 뿔난 지자체",
+        "summary": "정부 “교부세는 증가”… 지자체 “자주재원은 줄어” 경제부총리 겸 기획재정부 장관을 지낸 추경호 대구시장은 최근 입장문을 내고 “미래를 위한 기금이 지방의 미래를 빼앗아서는 안 된다”고 했다. 추 시장은...",
+        "link": "https://biz.chosun.com/topics/topics_social/2026/09/10/EK35ONJVUVAFTNUKG3XPWE4SNQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-09-10T08:39:00+09:00",
+        "score": 68
       }
     ],
     "금융시장": [
       {
-        "title": "미국 채권금리 오르고 유가도 다시 상승..인도 국채시장 자금 이탈 두드...",
-        "summary": "달러 대비 루피화 환율은 최근 95.16루피(1337.95 원)까지 상승했다. 루피화 가치가 떨어지면 원유 수입 비용이 늘어 물가 상승 압력이 커지는 데다, 외국인 투자자 역시 인도 국채에서 수익을 내더라도 달러로 환산하는...",
-        "link": "https://www.fnnews.com/news/202609101229511014",
-        "source": "파이낸셜뉴스",
-        "published": "2026-09-10T13:06:00+09:00",
-        "score": 146
+        "title": "유가·금리·증시 ‘삼중 악재’에도…원·달러 환율 1330원대 [김혜란의...",
+        "summary": "미국 국채금리 급등에 유가 공포, 코스피 하락에도 10일 원·달러 환율은 1330원대를 사수했다. 통상 유가·금리 상승과 증시 약세는 원화 약세 요인이지만 최근에는 미국 금리 상승에도 달러가 강해지지 않는 흐름이...",
+        "link": "https://www.sedaily.com/article/20089620?ref=naver",
+        "source": "서울경제",
+        "published": "2026-09-10T18:32:00+09:00",
+        "score": 166
+      },
+      {
+        "title": "[증시 인사이트] 고금리·고유가·네 마녀의 날…코스피 7천선 겨우 사수...",
+        "summary": "- 선물·옵션 동시 만기일…국내증시 수급 변동성 확대 - 뉴욕증시, 국제유가·미국채수익률 상승에 약세 지속 - 한국시간 9월 16~17일 연준 FOMC 회의 예정 - 오는 11월3일 美중간선거…오늘밤 공화당 전당대회...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000333948?division=NAVER",
+        "source": "SBS",
+        "published": "2026-09-10T16:48:00+09:00",
+        "score": 156
       },
       {
         "title": "“주담대 8% 시대 오나”…국채금리 발작에 부동산·주식·금 ‘휘청’...",
@@ -276,99 +284,123 @@
         "score": 136
       },
       {
-        "title": "[개장] 유가·美금리 부담에 코스피 차익실현… 2% 하락",
-        "summary": "9일(현지시각) 브렌트유는 배럴당 100달러를 넘어섰고 서부텍사스산원유(WTI)도 95달러 안팎까지 오르면서 인플레이션 재확산 우려를 키웠다. 여기에 미국 재무부의 국채 바이백(환매입) 규모가 시장 기대에...",
-        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092169839",
-        "source": "조선일보",
-        "published": "2026-09-10T10:22:00+09:00",
-        "score": 116
+        "title": "금리 경계감 높아진 코스피…“전반적 저평가, 비중 줄일때 아냐”",
+        "summary": "국제유가와 미국 국채금리 상승으로 국내 증시의 경계감이 커지며 코스피가 7000선에서 고지전을 벌이고... 한지영 키움증권 연구위원은 “최근 유가 급등과 미국 국채금리 상승으로 인플레이션 및 통화정책...",
+        "link": "https://www.sedaily.com/article/20089619?ref=naver",
+        "source": "서울경제",
+        "published": "2026-09-10T18:32:00+09:00",
+        "score": 132
       },
       {
-        "title": "[증시전략] 코스피 33거래일만에 7천피 탈환…8천선 갈까?",
-        "summary": "FOMC 회의를 앞두고 물가지표가 굉장히 중요한데 어떻게 전망 하십니까? - 월가 '인플레 공포' 재고조... 15~16일 FOMC 직전 나오면 마지막 핵심 물가지표 - 美 물가지표 예상보다 높게 나올 경우 증시에도 부담 - 금리...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000333766?division=NAVER",
-        "source": "SBS",
-        "published": "2026-09-10T07:10:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "코스피 하루 5% 출렁인 날 알고보니…한은 “레버리지 ETF도 변동성 키웠...",
-        "summary": "한국은행은 반도체주 쏠림과 함께 ‘빚투’와 레버리지 상장지수펀드(ETF) 투자 급증이 증시의 출렁임을 키운 요인으로 지목했다. 10일 한은이 발표한 ‘2026년 9월 통화신용정책보고서’에 따르면 올해 1~7월 국내...",
-        "link": "https://www.mk.co.kr/article/12149276",
-        "source": "매일경제",
-        "published": "2026-09-10T13:44:00+09:00",
-        "score": 108
+        "title": "美 국채·AI채권·日 금리·유가 '4중 악재'…韓 금리상승 압박 쑥",
+        "summary": "글로벌 장기금리가 좀처럼 꺾이지 않고 있다. 미국과 일본의 국채금리가 동시에 뛰는 가운데 국제유가까지 배럴당 100달러를 넘어서면서 한국 금융시장에도 금리 상승 압력이 커지고 있다. 막대한 재정적자에 인공지능...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=05221766645578808&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-09-10T19:03:00+09:00",
+        "score": 130
       }
     ],
     "산업·과학": [
       {
-        "title": "현대차그룹, LG에너지솔루션과 전기차 배터리 ESS 활용 실증 추진",
-        "summary": "이번 실증사업은 현대차·기아의 전용 EV 플랫폼 'E-GMP(Electric-Global Modular Platform)' 전기차의 사용 후... 전기요금이 낮은 시간대 UBESS에 전기를 저장한 뒤, 요금이 높은 시간대 급속충전기를 통해 전기차를 충전하는...",
-        "link": "https://view.asiae.co.kr/article/2026091014172598975",
-        "source": "아시아경제",
-        "published": "2026-09-10T14:17:00+09:00",
-        "score": 120
-      },
-      {
-        "title": "33거래일만에 7천피 탈환, 근데 왜요?…배터리·전력·조선주 다 힘냈다",
-        "summary": "반도체가 지수 중심 잡으면서 2차전지·조선·전력주 순환매 삼성SDI 8%·LS일렉 5.5%↑ 코스닥 소부장 기업도 강세코스피가 중동발 유가 상승 충격을 뚫고 7000선 위로 올라섰..",
-        "link": "https://www.mk.co.kr/news/stock/12148697",
-        "source": "매일경제 : 증권",
-        "published": "2026-09-09T19:53:34+09:00",
-        "score": 110
-      },
-      {
-        "title": "조선소 로봇에 ‘AI 기지국’ 붙인다…용접·도장 자율화 실증",
-        "summary": "로봇 자체의 연산·배터리 한계와 클라우드 방식의 통신 지연을 보완해 피지컬 AI의 제조 현장 적용을... 기존 AI 로봇은 기기 내부에서 연산하는 온디바이스 방식의 경우 컴퓨팅 성능과 배터리에 제약이 있고, 원격...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=03739206645578808&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-09-10T14:21:00+09:00",
+        "title": "김기현 의원 “中 반도체 추격.. 반도체 원팀으로 해결해야”",
+        "summary": "석유화학, 디스플레이, 배터리 등 우리 경제를 이끌었던 산업들이 왜 경쟁력을 유지하지 못했는지 냉철하게 분석할 필요가 있다. 기업의 투자 판단만으로 모든 것을 해결하려고 하면 결국 호황기에는 과잉투자를 우려하고...",
+        "link": "https://www.mk.co.kr/article/12149751",
+        "source": "매일경제",
+        "published": "2026-09-10T18:49:00+09:00",
         "score": 102
       },
       {
-        "title": "[단독] 재생에너지 '뻥튀기'에…\"원전 설 자리 줄어든다\" 날벼락",
-        "summary": "갑자기 주력 설비된 배터리ESS…'중복 계산' 우려 출력 특성과 피크 시간대가 판이한 태양광과 풍력을 하나로 묶어 '재생통합 ELCC'를 산출하는 점도 쟁점이다. 2040년 기준 재생통합 ELCC를 적용하면 기여도가 16...",
-        "link": "https://www.hankyung.com/article/202609032826i",
-        "source": "한국경제",
-        "published": "2026-09-10T13:38:00+09:00",
+        "title": "현대차그룹, LG에너지솔루션·원익피앤이와 사용 후 배터리 기반 UBESS 실...",
+        "summary": "성열휘 기자 | 현대차·기아가 LG에너지솔루션, 현대엔지니어링, 원익피앤이와 함께 전기차(EV) 사용 후 배터리를 에너지저장장치(ESS)로 재사용하는 실증사업에 나선다. 현대차·기아의 전용 EV 플랫폼인 E-GMP(Electric...",
+        "link": "http://digitalchosun.dizzo.com/site/data/html_dir/2026/09/10/2026091080188.html",
+        "source": "조선일보",
+        "published": "2026-09-10T19:18:00+09:00",
+        "score": 96
+      },
+      {
+        "title": "“반도체 다음은 ‘방산·원전’”…글로벌 전문가가 꼽았다, K-증시 주...",
+        "summary": "그는 “글로벌 성장률인 3%를 넘어서는 국가는 통상 ‘그로스 프리미엄’이 적용되는 눈여겨볼 만한 국가”라며 “한때 원달러 환율이 1500원대까지 오르며 약세를 보였던 원화가 다시 강세로 돌아서고, 한미 정책금리...",
+        "link": "https://biz.heraldcorp.com/article/10869605?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-09-10T17:40:00+09:00",
+        "score": 90
+      },
+      {
+        "title": "현대차·LG엔솔, ‘E-GMP 폐배터리’ 묶어 ESS 만든다…충전소 연계 실증 착수",
+        "summary": "현대자동차 기아 본사. 현대자동차 제공현대자동차·기아가 LG에너지솔루션 등과 손잡고 전기차 전용 플랫폼 E-GMP의 사용 후 배터리를 에너지저장장치(UBESS)로 재활용하는 실증사업을 본격 추진한다.현대차·기아와 LG에너지솔루션, 현대엔지니어링, 원익피앤이 등 5개사는 10일 경기 화성시 소재 원익피앤이 동탄 사업장에서 ‘EV 사용 후 배터리 기반 UBES···",
+        "link": "https://www.khan.co.kr/article/202609101400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-09-10T14:00:00+09:00",
         "score": 90
       }
     ],
     "부동산": [
       {
-        "title": "“세 부담 덜어줬는데 집값·전세 왜 올라?” …  추석 이후가 걱정되는 무주택자들",
-        "summary": "2026 세제개편안이 가져올 시장 변화정부가 29일 만에 세제개편안 수정안을 내고 정부안을 확정지었다. 다소 이례적인 경우로, 기존 내용에서 크게 바뀐 것은 없고 1주택자 종부세 ..",
-        "link": "https://www.mk.co.kr/news/economy/12148222",
-        "source": "매일경제 : 경제",
-        "published": "2026-09-10T05:00:00+09:00",
-        "score": 140
-      },
-      {
-        "title": "李 대통령 ‘픽’ 이광수 “이대로면 집값 폭등…부동산 얘기 그만하고...",
-        "summary": "이 대표는 집값 상승을 자극하는 주요 요인으로 시중 통화량과 금리, 수도권 주택 공급 부족을 꼽았다. 그는... 이 대통령이 지난달 30일 고금리에 따른 집값 하락 가능성을 거론한 데 대해서도 다른 견해를 내놨다. 이...",
-        "link": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/10/CFN7JPSZRZDQ7KE27JLKHG4SBM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-09-10T14:06:00+09:00",
-        "score": 116
-      },
-      {
-        "title": "서울 아파트 59㎡ 평균 분양가 16억 코앞",
-        "summary": "남산에서 본 서울 아파트 모습. 연합뉴스서울 아파트 전용 59㎡ 평균 분양 가격이 16억원 돌파를 앞두고 있다분양평가 전문회사 리얼하우스가 10일 한국부동산원 청약홈 자료를 분석한 결과, 8월 기준 서울 59㎡ 평균 분양가는 전월 대비 1.97% 오른 15억9343만원으로 조사됐다.서울은 지난 5월 이후 4개월 연속 15억원대를 유지하며 최고가를 경신했다.···",
-        "link": "https://www.khan.co.kr/article/202609101054001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "title": "서울 59㎡ 아파트 ‘분양가 16억’ 육박",
+        "summary": "8월 평균 15억9343만원 기록서울 아파트 전용 59㎡ 평균 분양 가격이 16억원 돌파를 목전에 뒀다. 분양평가 전문회사 리얼하우스가 10일 한국부동산원 청약홈 자료를 분석한 결과, 8월 기준 서울 59㎡ 평균 분양가는 전월 대비 1.97% 오른 15억9343만원으로 조사됐다. 인천의 평균 분양가는 7.02% 오른 5억3897만원, 수도권 전체는 0.65···",
+        "link": "https://www.khan.co.kr/article/202609102009025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
-        "published": "2026-09-10T10:54:00+09:00",
+        "published": "2026-09-10T20:09:02+09:00",
         "score": 116
       },
       {
-        "title": "“시장이 아비규환입니다” …미분양의 늪에 빠진 지방 부동산",
-        "summary": "준공 후 미분양 2만 9000가구 중 85% 지방 집중 LTV·DSR 차등 적용·세제 지원 등 해법 쏟아져미분양 주택의 85% 이상이 비수도권에 집중된 가운데 지방 주택시장의 침체..",
-        "link": "https://www.mk.co.kr/news/realestate/12149191",
-        "source": "매일경제 : 부동산",
-        "published": "2026-09-10T11:09:40+09:00",
-        "score": 106
+        "title": "고층 아파트 즐비한 동탄에도 빈 땅이?…민간 포기한 주택용지 어쩌나",
+        "summary": "한 건설사가 LH에서 사들였지만 부동산 경기가 나빴던 2년 전 자금난으로 사업을 포기했습니다. 지금은 주변... [진장익/중앙대학교 도시계획부동산학과 교수 : \"수익성이나 분양에 대한 게 부담이 돼서 개발을 진행하지...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8660310&ref=A",
+        "source": "KBS",
+        "published": "2026-09-10T19:21:00+09:00",
+        "score": 116
+      },
+      {
+        "title": "‘반도체 벨트’ 집값 급등…한은 “동탄구 매매 가격 지수 17.5% 상승”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/10/134644441.1.jpg\" vspace=\"10\" />한국은행은 반도체 수출 호황으로 기업 실적이 개선되며 삼성전자와 SK하이닉스 공장과 가까운 경기 화성시 동탄구 등 이른바 ‘반도체 벨트’ 집값이 크게 뛰었다고 분석했다. 수도권 지역을 중심으로 주택 매매 수요가 늘고 가계대출이 증가하며 금융시장의 불안 요인이 커지고 있다는 우려가 나온다.한은은 10일 통화신용정책보고서에서 “수도권 주택 가격이 최근 높은 상승세를 이어가고 가계대출도 꾸준한 증가 흐름을 보이며 금융 위험 수준이 점차 높아지고 있다”고 밝혔다.집값은 반도체 기업 공장과 가까운 경기 용인시, 수원시 영통구, 화성시 동탄구 등을 중심으로 크게 뛰었다. 한국부동산원에 따르면 동탄의 아파트 매매 가격 지수는 9월 첫째 주 기준으로 전년 동기 대비 17.50% 뛰었다. 같은 기...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260910/134643577/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-09-10T16:26:00+09:00",
+        "score": 102
+      },
+      {
+        "title": "강남3구 떨어지고 나머지는 오른다…서울 집값 '두 얼굴'",
+        "summary": "고가 주택과 비거주 1주택 대상 세 부담을 강화하는 세제개편 관련 불확실성이 계속되는 가운데 서울 강남3구(서초·강남·송파구) 아파트값이 모두 약세로 돌아섰습니다.오늘(10일) 한국부동산원이 발표한 9월 첫째 주(9월7일 기준) 주간 아파트 가격 동향에 따르면 서울 아파트 매매가격은 직전 주 대비 평균 0.20% 올랐습니다. 상승폭은 0.02%포인트 축소됐습니다.부동산원은 \"일부 지역에서 가격 조정한 매물이 출회되면서 하락 거래로 이어졌으며, 선호도 높은 대단지 및 역세권 등 주요 단지 중심으로 매매가격이 상승하며 서울 전체적으로 상승했다\"고 말했습니다.고가 주택이 많아 향후 세제개편이 이뤄지면 세 부담 증가가 예상되는..",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5218336",
+        "source": "MBN : 경제기사",
+        "published": "2026-09-10T14:05:00+09:00",
+        "score": 102
       }
     ],
     "국제경제": [
+      {
+        "title": "\"'트럼프 관세 비판' 학자, IMF 수석이코노미스트 임명 직전 낙마\"",
+        "summary": "작년 4월 트럼프 행정부가 '해방의 날'을 선포하면서 대대적인 관세 부과 계획을 발표하자 헤이스 교수는 이 같은 관세가 미국 소비자 물가를 끌어올려 새로운 인플레이션을 촉발할 것이라고 강하게 경고했다. 포르투갈...",
+        "link": "https://www.yna.co.kr/view/AKR20260910120700009?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-09-10T15:20:00+09:00",
+        "score": 128
+      },
+      {
+        "title": "\"트럼프 관세 비판에...IMF 경제 고문 임명 직전 낙마\"",
+        "summary": "지난해 4월 트럼프 행정부가 대대적인 관세 부과 계획을 발표하자 헤이스 교수는 관세가 미국 소비자 물가를 끌어올려 새로운 인플레이션을 촉발할 것이라고 경고했습니다. IMF의 수석 경제 고문은 100명 이상의...",
+        "link": "https://www.ytn.co.kr/_ln/0104_202609101615493055",
+        "source": "YTN",
+        "published": "2026-09-10T16:15:00+09:00",
+        "score": 128
+      },
+      {
+        "title": "\"트럼프 퇴임해도 관세전쟁은 지속 … 美·中 갈등 속 공급망 재편에 기회\"",
+        "summary": "도널드 트럼프 미국 대통령이 퇴임하더라도 관세를 앞세운 보호무역 기조는 미국 통상정책의 핵심 축으로 남을 것이라는 전망이 나왔다. \n특히 중국발 과잉 생산을 견제하기 위한 관세정책..",
+        "link": "https://www.mk.co.kr/news/world/12149627",
+        "source": "매일경제 : 국제",
+        "published": "2026-09-10T17:45:11+09:00",
+        "score": 96
+      },
+      {
+        "title": "AI발 수요 증가에 금값 된 구리…트럼프관세 공포에 사재기 극성",
+        "summary": "트럼프 행정부의 구리 관세 가능성이 커지자 미국 수입업체들이 관세 부과 전에 물량을 확보하려는 경쟁이... 그 결과 7월 미국의 정제구리 수입량은 22만5094톤으로 역대 최대치를 기록했다. COMEX(미국 상품거래소)...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=05172566645578808&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-09-10T18:54:00+09:00",
+        "score": 88
+      },
       {
         "title": "석윳값 100弗에 국채 ‘찔끔’ 매입이 무슨 소용 [트럼프 스톡커]",
         "summary": "시카고상업거래소(CME)의 페드워치에 따르면 9일 연방기금금리선물시장은 연방준비제도(Fed·연준)가 오는 15~16일 연방공개시장위원회(FOMC) 정례회의에서 금리를 0.25%포인트 인상할 확률을 60.2%, 동결할 확률을 39.8%로...",
@@ -376,56 +408,48 @@
         "source": "서울경제",
         "published": "2026-09-10T07:12:00+09:00",
         "score": 80
-      },
-      {
-        "title": "\"70%, 9월에 연준 금리동결 예상\" 로이터 설문조사",
-        "summary": "미국 연방준비제도(Fed·연준)가 오는 15~16일(현지시간) 예정된 연방공개시장위원회(FOMC) 회의에서 금리... 회의에서 금리 동결을 예상했습니다. 이는 지난달 조사 때의 90%에서 낮아진 수치입니다. 나머지 30%는 0.25...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000333907?division=NAVER",
-        "source": "SBS",
-        "published": "2026-09-10T13:55:00+09:00",
-        "score": 78
-      },
-      {
-        "title": "트럼프 “중간선거 이기면 미국 성인 1인당 5000달러씩 지급”",
-        "summary": "밴스 부통령은 미 행정부가 거둬들인 관세 수입으로 배당금을 충당할 수 있을 것으로 말했지만 트럼프가 제안한 금액은 미국이 보호무역 조치를 통해 거둬들인 금액보다 훨씬 크다고 AP는 전했다. 트럼프 대통령이...",
-        "link": "https://www.khan.co.kr/article/202609101334001",
-        "source": "경향신문",
-        "published": "2026-09-10T13:34:00+09:00",
-        "score": 76
-      },
-      {
-        "title": "다시 랠리 시동 거는 AI주…연준의 긴축 전환이 걸림돌[오미주]",
-        "summary": "8월 PPI와 CPI가 시장 예상치를 웃돌 경우 다음주 연방공개시장위원회(FOMC)에서 금리가 인상될 가능성이 높기... 하지만 그는 CPI 결과가 나오지 않은 상태에서도 연준이 오는 15~16일 FOMC에서 금리를 올려야 하는 상황에 처한...",
-        "link": "https://www.mt.co.kr/world/2026/09/09/2026090915434432653",
-        "source": "머니투데이",
-        "published": "2026-09-09T18:05:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "‘속타는 트럼프’…고유가·고금리·관세전쟁까지 ‘경제성과’ 실종",
-        "summary": "미 뉴욕타임스(NYT)는 9일(현지시간) 트럼프 대통령이 텍사스 주에서 열린 공화당 전당대회에 참석하는 등 유권자 결집에 나섰지만, 캐나다와의 무역갈등과 이란전쟁발(發) 경제적 파장이 동시에 부각되고 있다고...",
-        "link": "https://biz.heraldcorp.com/article/10869050?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-09-10T11:33:00+09:00",
-        "score": 65
       }
     ],
     "AI와 경제": [
       {
-        "title": "세종시 조직개편 밑그림…투자유치·AI·문화산업에 방점",
-        "summary": "(세종=연합뉴스) 양영석 기자 = 세종시가 전략산업 정책과 기업·대학유치 업무를 전담하는 신성장산업국을 신설하는 등 대대적인 조직개편에 나선다.",
-        "link": "https://www.yna.co.kr/view/AKR20260910094200063",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-09-10T13:41:55+09:00",
+        "title": "HD현대중공업, 육상용 발전엔진·SMR에 1조원대 투자…“AI 데이터센터 전력 수요 대응”",
+        "summary": "총 1조722억원 투자 “AI 인프라 시장 선점” ‘힘센엔진’ 생산기지· SMR 주기기 제작 공장HD현대중공업 육상발전용 힘센 가스엔진 H54GV 모델. HD현대중공업 제공HD현대중공업이 육상용 발전엔진과 소형모듈원자로(SMR) 분야에 1조원 이상 투자하기로 했다. 인공지능(AI) 데이터센터 전력 수요에 대응해 미래 경쟁력을 갖추겠다는 행보다.HD현대중공업···",
+        "link": "https://www.khan.co.kr/article/202609101642011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-09-10T16:42:01+09:00",
+        "score": 56
+      },
+      {
+        "title": "HD현대중공업, ‘AI 전력 수요 대응’ 육상 발전엔진·SMR에 1조원 투자",
+        "summary": "새 ‘힘센엔진’ 생산기지 구축SMR 제작 전용 공장 건립도HD현대중공업이 육상용 발전엔진과 소형모듈원자로(SMR) 분야에 1조원 이상 투자하기로 했다. 인공지능(AI) 데이터센터 전력 수요에 대응해 미래 경쟁력을 갖추기 위한 행보다.HD현대중공업은 10일 공시에서 1조722억원을 발전엔진 신규 생산기지 구축과 SMR 제작 전용 공장 건립에 투자하겠다고 밝혔···",
+        "link": "https://www.khan.co.kr/article/202609102009015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-09-10T20:09:01+09:00",
+        "score": 42
+      },
+      {
+        "title": "AI 인프라 수요 폭발…TSMC, 8월 매출도 53% 급증",
+        "summary": "그는 회사의 반도체 제조 장비 수요가 작년말 이후 거의 두 배로 증가했고 “거의 4,5배 생산량을 늘렸음에도 여전히 수요를 따라잡지 못하고 있다”고 말했다. 최근 TSMC는 ASML 홀딩스와 2030년부터 대당 4억달러에...",
+        "link": "https://www.hankyung.com/article/202609107560i",
+        "source": "한국경제",
+        "published": "2026-09-10T20:02:00+09:00",
+        "score": 40
+      },
+      {
+        "title": "HD현대중공업, ‘AI 인프라’ 시장 선점 박차…‘발전용 엔진·SMR’ 사업에 1조 투입",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/10/134645539.1.jpg\" vspace=\"10\" />HD현대중공업이 육상용 발전 엔진과 소형모듈원자로(SMR)에 대한 대규모 투자를 단행한다. 신규 발전용 엔진과 SMR을 성장 동력으로 강화한다는 방침이다.HD현대중공업은 발전용 엔진 신규 생산기지 구축과 SMR 제작 전용 공장 건립에 총 1조722억 원 규모 투자에 나선다고 10일 공시를 통해 밝혔다.구체적으로 총 8336억 원을 투입해 울산 울주군 온산읍에 3기가와트(GW)급 ‘힘센(HiMSEN)엔진’ 신규 생산기지를 구축한다는 계획이다. 신규 생산기지는 약 21만5000㎡(약 6만5000평) 규모 부지에 ▲엔진조립·시운전 공장 ▲크랭크샤프트 가공 공장 ▲엔진 블록 주조 공장 등으로 구성돼 조성될 예정이다. 내년 1분기 착공에 들어가 오는 2028년 5월 준공을 목표로 한다.HD...",
+        "link": "https://www.donga.com/news/K-TECH Global Leaders/article/all/20260910/134645591/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-09-10T17:31:06+09:00",
         "score": 38
       },
       {
-        "title": "\"소비자와 직접 만날 공간 필요 … AI·헬스케어·교육 기업, 오피스 수요 넘쳐\"",
-        "summary": "\"팬데믹 초기에 재택근무가 확산하면서 오피스 임대 시장이 끝나는 게 아닐까 걱정했습니다. 하지만 인공지능(AI) 기술의 발전으로 사무실이 필요한 산업들이 급성장하면서 지금 뉴욕은 ..",
-        "link": "https://www.mk.co.kr/news/world/12148594",
-        "source": "매일경제 : 국제",
-        "published": "2026-09-09T17:48:36+09:00",
-        "score": 36
+        "title": "HD현대중공업, 발전엔진·SMR에 1조 투자…  AI 데이터센터 전력 대응",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/10/134644666.1.jpg\" vspace=\"10\" />HD현대중공업이 인공지능(AI) 데이터센터 확대에 따른 전력 수요 증가에 대응하기 위해 육상용 발전엔진과 소형모듈원자로(SMR) 분야에 약 1조 원을 투자한다. 10일 HD현대중공업은 발전엔진 신규 생산기지와 SMR 주기기 제작 전용 공장 건립에 1조722억 원을 투자한다고 밝혔다.HD현대중공업은 8336억 원을 들여 울산 울주군 온산읍에 3GW(기가와트) 규모의 ‘힘센(HiMSEN)엔진’ 생산기지를 구축한다. 약 21만5000㎡ 부지에 엔진 조립·시운전 공장과 크랭크샤프트 가공 공장, 엔진 블록 주조 공장 등을 짓는다. 내년 1분기(1~3월) 착공해 2028년 5월 준공 예정이다. HD현대중공업은 전남 영암 등에 있는 기존 1GW급 생산시설에 신규 공장을 더해 연간 총 4GW 규...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260910/134643468/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-09-10T16:40:00+09:00",
+        "score": 38
       },
       {
         "title": "구글, 핀란드 AI 인프라에 130억 유로 투자",
@@ -436,45 +460,21 @@
         "score": 34
       },
       {
-        "title": "[Invest]HD현대중공업, AI 전력시장에 베팅…엔진·SMR에 1조원 투자",
-        "summary": "울산조선소 내에 SMR 주기기 제작 전용 공장을 건설해 2029년 상반기 완공하는 것이 목표다.회사는 최근 AI... AI 인프라 시장을 선점해 나갈 것\"이라고 밝혔다. [인베스트조선 유료서비스 2026년 09월10일 14:27 게재]",
-        "link": "https://www.investchosun.com/site/data/html_dir/2026/09/10/2026091080128.html",
-        "source": "조선일보",
-        "published": "2026-09-10T14:28:00+09:00",
-        "score": 34
-      },
-      {
-        "title": "연합뉴스TV 내일 14회 경제포럼…AI 시대 성장전략 모색",
-        "summary": "(서울=연합뉴스) 한지훈 기자 = 연합뉴스TV는 오는 11일 서울 중구 롯데호텔에서 &apos;제14회 경제포럼&apos;을 개최한다고 10일 밝혔다.",
-        "link": "https://www.yna.co.kr/view/AKR20260910104900002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-09-10T14:08:33+09:00",
-        "score": 30
-      },
-      {
-        "title": "\"빅테크 AI 투자 올해가 정점\"..한은이 경고한 3대 뇌관",
-        "summary": "한국은행은 인공지능(AI)에 대한 전 세계 투자 확대 속도가 올해 정점에 이를 것이라고 분석했다. 외부자금 의존도가 높은 AI 투자 특성상 금융여건이 악화되고 실제 수익 창출에 대한 불확실성이 커진다면 예상보다...",
-        "link": "https://www.fnnews.com/news/202609101330389070",
-        "source": "파이낸셜뉴스",
-        "published": "2026-09-10T13:34:00+09:00",
+        "title": "최태원, 울산 SK AI데이터센터 처음 찾았다… CEO 총집결",
+        "summary": "<center>  <img src=\"https://image.kmib.co.kr/online_image/2026/0910/01100201.20260910501902.jpg\" /> </center> 최태원 SK그룹 회장이 10일 그룹의 인공지능(AI) 인프라 구축 프로젝트 1호 거점인 ‘SK AI 데이터센터 울산’ 공사 현장을 방문했다. 최 회장이 이곳을 찾은 건 지난해 8월 착공 이후 처음이다. SK그룹의 AI 전환(AX) 실행 현황을 직접 점검하기 위한 행보다. <br /><br />SK그룹은 최 회장이 이날 울산 남구 미포산업단지에 건설 중인 SK AI 데이터센터 울산을 방문했다고 밝혔다. 최 회장을 비롯해 장용호 SK이노베이션 총괄사장, 정재헌 SK텔레콤 사장, 윤병석 SK가스 사장, 김원기 SK엔무브 사장, 김종화 SK에너지·SK지오센트릭 사장, 김성수 SK브로드밴드 사장, 김영식 SK에코플랜트 사장 등 주요 경영진이 집결했다. <br /><br />SK AI 데이터센터 울산...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000010955",
+        "source": "국민일보 | 경제",
+        "published": "2026-09-10T09:30:00+00:00",
         "score": 28
       }
     ],
     "기타": [
       {
-        "title": "빗썸 \"AI 투자 도우미·자동매매 프로그램 위장 악성코드 주의\"",
-        "summary": "(서울=연합뉴스) 박수현 기자 = 빗썸이 가짜 인공지능(AI) 자동매매 프로그램 및 투자 분석 도구를 통한 악성코드 피해 예방 캠페인을 진행한다...",
-        "link": "https://www.yna.co.kr/view/AKR20260910043700002",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-09-10T09:42:49+09:00",
-        "score": 24
-      },
-      {
-        "title": "상장 후 최고가 찍었다…SK하이닉스 ADR 7% 급등, 장중 199.87달러",
-        "summary": "지난 7월 10일 미국 나스닥에 상장한 SK하이닉스 주식예탁증서(ADR)가 상장 후 최고가를 기록했다. 9일(현지시간) SK하이닉스 ADR는 전날보다 7.05% 오른 198.63달..",
-        "link": "https://www.mk.co.kr/news/stock/12149024",
-        "source": "매일경제 : 증권",
-        "published": "2026-09-10T09:03:31+09:00",
+        "title": "단일 레버리지 '음의 괴리율' 기준 초과 후 72일만에 규정 정비(종합)",
+        "summary": "(서울=연합뉴스) 김유향 기자 = 단일종목 레버리지 상장지수펀드(ETF)에서 음(-)의 괴리율이 관리기준을 넘어선 사례가 상장 직후부터 발생했음...",
+        "link": "https://www.yna.co.kr/view/AKR20260909184451008",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-09-10T16:55:52+09:00",
         "score": 24
       },
       {
@@ -486,60 +486,68 @@
         "score": 24
       },
       {
-        "title": "“보수 텃밭서 50대 50? 돈 풀면 돼”…무법자와 억만장자의 간단한 비법",
-        "summary": "이례적 중간선거 전대로 세결집 트럼프·밴스·베선트 등 총출동 텍사스 여론조사 50:50 초박빙 민주당 후보 선거자금 앞서자 공화, 후보에 1천만불 지원 공세8일(현지시간) 미국 텍..",
-        "link": "https://www.mk.co.kr/news/world/12148952",
-        "source": "매일경제 : 국제",
-        "published": "2026-09-10T06:38:36+09:00",
+        "title": "마라탕 자주 먹었는데 어쩌나…중국산 목이버섯서 농약 '17배' 검출",
+        "summary": ",LTD)'가 수출한 제품으로 수입량은 총 6900kg이다. 1kg 단위로 포장됐으며 포장일자는 올해 5월26일... 해당 제품은 중국 '구톈 위메이자 식품 유한공사(GUTIAN YUMEIJIA FOOD CO.,LTD)'가 수출했으며 회수 대상 수입량은...",
+        "link": "https://www.mt.co.kr/living/2026/09/10/2026091020352525713",
+        "source": "머니투데이",
+        "published": "2026-09-10T21:07:00+09:00",
         "score": 24
       },
       {
-        "title": "순천시-위드피에스와 투자협약…방산 생태계 조성 행보",
-        "summary": "본 행사는 지난 5일 개막한 '2026 여수세계섬박람회'와 연계해 광양만권 경제 발전을 위해 해외 수출 투자 기업에 대한 행·재정적 지원을 하기 위해 추진됐다. 이번 순천시 및 전남광주통합특별시와 협약한 ㈜위드피에스...",
-        "link": "https://view.asiae.co.kr/article/2026091008531634119",
-        "source": "아시아경제",
-        "published": "2026-09-10T14:13:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "이번엔 ‘염색 상추’…中 먹거리 불안 확산",
-        "summary": "관세청 수출입무역통계에 따르면 중국 상추류 수입량은 2022년 1만3978톤에서 지난해 2만7830톤으로 3년 만에 2배 가까이(99.1%) 급증했다. 지난해 수입 상추류 중 중국산 비중은 88.8%에 이른다. 중국 양배추류 수입은 같은...",
-        "link": "https://biz.heraldcorp.com/article/10869203?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-09-10T14:10:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "美 AI 스타트업은 ‘매출 뻥튀기’ 중…“남들도 다 해요”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/10/134635525.3.jpg\" vspace=\"10\" />미국 AI 스타트업들이 투자 유치를 위해 연간반복매출과 연환산매출을 혼용해 투자자에 혼란을 주고 있다는 지적이 나왔다.",
-        "link": "https://www.donga.com/news/Economy/article/all/20260910/134640564/2",
+        "title": "[단독]실거주했다던 이형일 가족, 전력 사용량 4인가구 4분의 1",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/09/10/134644366.1.jpg\" vspace=\"10\" />이형일 부총리 겸 재정경제부 장관 후보자 가족이 실제 거주했다고 밝힌 경기 과천시 주공9단지의 전력 사용량이 전입 기간 일반적인 4인 가구의 4분의 1 수준에 그친 것으로 나타났다. 전입 기간조차 실거주하지 않았을 수 있다는 의혹이 제기된 것이다.10일 국회 재정경제기획위원회 소속 국민의힘 이종욱 의원이 재정경제부에서 제출받은 자료에 따르면 이 후보자 가족은 과천 주공9단지에 두 차례에 걸쳐 약 4개월간 주민등록상 전입해 있었다. 첫 번째는 2012년 11월 1일부터 2013년 1월 2일까지, 두 번째는 2018년 12월 3일부터 2019년 2월 8일까지다. 후보자 측은 두 기간 모두 해당 아파트에 실제 거주했다는 입장이다.첫 번째 전입 기간인 2012년 11월부터 2013년 1월...",
+        "link": "https://www.donga.com/news/Economy/article/all/20260910/134643986/1",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-09-10T09:51:24+09:00",
+        "published": "2026-09-10T16:21:00+09:00",
         "score": 24
       },
       {
-        "title": "[Biz-inside,China] 버스부터 ESS까지...中 기업, ‘녹색 혁신’ 타고 해...",
-        "summary": "'제26회 중국국제투자무역상담회(CIFIT)'가 8~11일 열리는 가운데 샤먼(廈門) 진룽(金龍)연합자동차공업회사(이하 '진룽버스')의 버스 제품에 바이어들의 이목이 쏠리고 있다. 지난해 칠레 코피아포는 진룽의 신에너지 버스...",
-        "link": "https://www.joongang.co.kr/article/25460733",
-        "source": "중앙일보",
-        "published": "2026-09-10T13:39:00+09:00",
+        "title": "[K-BATTERY SHOW 2026] “공정 멈춤 원인, 90% 더 빠르게 잡는다”…보다...",
+        "summary": "특히 이들 기업의 북미·유럽 현지 공장 증설 프로젝트에 함께 참여하며 간접 수출 성과도 올렸다. 회사는 그간의 성과를 발판 삼아 글로벌 배터리 및 스마트 제조 시장 전반으로 공급망을 확대해 나갈 계획이다....",
+        "link": "http://digitalchosun.dizzo.com/site/data/html_dir/2026/09/10/2026091080118.html",
+        "source": "조선일보",
+        "published": "2026-09-10T20:22:00+09:00",
         "score": 24
       },
       {
-        "title": "기아, PBV 연 20만대 ‘맞춤형 생산체제’ 가동",
-        "summary": "전용 생산 기지 ‘오토랜드 화성’이보 플랜트 첨단 공정 등 공개한 라인에서 다양한 차종 조립지난 8일 목적기반모빌리티(PBV) 전용 생산기지인 ‘오토랜드 화성’에서 로봇들이 자동차를 조립하고 있다. 기아 제공기아가 목적기반모빌리티(PBV) 전용 생산기지인 ‘오토랜드 화성’을 앞세워 연간 20만대 규모의 맞춤형 차량 생산체제를 구축했다. 제원과 용도가 제각각···",
-        "link": "https://www.khan.co.kr/article/202609092047025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-09-09T20:47:02+09:00",
+        "title": "농식품부 장관 “환태평양 FTA 가입, 농업 분야 기회될 수도”",
+        "summary": "자유무역협정(FTA)을 할 때 우리 포도가 큰일 날 것이라고 했지만 현재 포도가 K-푸드 수출액 중 신선 농산물... 대두(콩) 부족 논란에 대해서는 “(세계무역기구·FTA 협상 결과에 따라) 매년 22만톤(t)씩 의무로 수입하는데...",
+        "link": "https://biz.chosun.com/policy/policy_sub/2026/09/10/NYYHYUVLN5ERXAZJRWYQZUY6QA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-09-10T18:01:00+09:00",
         "score": 24
       },
       {
-        "title": "IPO 추진 AI 기업들, 연말 앤트로픽 상장에 시기 맞춰",
-        "summary": "아제이 샤 도이체방크 기술투자부문장은 “고유가, 중동 정세 불안, 미국 기준금리 인상 등의 요인을 주의해야 하는 것은 사실”이라고 밝혔다. 하지만 “데이터센터 관련 산업과 헬스케어 등 투자자들의 관심을 끄는...",
-        "link": "https://www.hankyung.com/article/202609106530i",
-        "source": "한국경제",
-        "published": "2026-09-10T14:29:00+09:00",
+        "title": "비리 고발에 ‘해임’…장애인 지원 ‘흔들’",
+        "summary": "장애인고용공단의 예산을 지원받아 진행한 사업입니다. 이 과정에서 인건비를 빼돌리는 등의 예산 유용이 드러났습니다. 이 사실을 확인한 장애인고용공단은 해당 협회에 천만 원 환수 조치를 내렸습니다....",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8660305&ref=A",
+        "source": "KBS",
+        "published": "2026-09-10T19:19:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "\"AI 메모리 호황에도 '자금조달 병목'이 새로운 리스크\"",
+        "summary": "(서울=연합뉴스) 정회인 기자 = 인공지능(AI) 투자 확대가 메모리반도체 호황을 이끌고 있지만, AI 인프라의 외부자금 의존도가 커지면서 금리...",
+        "link": "https://www.yna.co.kr/view/AKR20260910146900008",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-09-10T17:02:27+09:00",
         "score": 22
+      },
+      {
+        "title": "국힘 \"김승원 국감中 청탁전화\"…용혜인엔 \"적반하장 회견\" 맹공(종합2보...",
+        "summary": "이에 4선 박대출 의원도 페이스북에 '국민잡는 부동산정책 농민잡는 농지전수조사 X', '김승원 용혜인 OUT'이라고 적힌 수첩 사진을 올렸고, 재선 김미애 의원도 '이재명 재판재개 신속히', '국민 눈높이 김승원 용혜인 OUT...",
+        "link": "https://www.yna.co.kr/view/AKR20260910167100001?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-09-10T20:32:00+09:00",
+        "score": 20
+      },
+      {
+        "title": "나를 지켜줄 '재난 가방' 꼭 챙겨야 할 다섯 가지",
+        "summary": "마지막으로 보조 배터리를 가져가 다른 사람과 함께 사용하겠습니다. 가장 큰 소망은 재난 가방을 정말 써야... 가능하다면 보조 배터리도 챙기면 좋을 것 같다. 그 밖에 작은 칼, 끈, 비닐봉지 등이 있으면 좋을 것이다....",
+        "link": "https://www.hankyung.com/article/202609078064E",
+        "source": "한국경제",
+        "published": "2026-09-10T18:28:00+09:00",
+        "score": 20
       }
     ]
   },
@@ -601,39 +609,39 @@
   ],
   "summary_en": {
     "date": "2026-09-10",
-    "generated_at": "2026-09-10T05:40:23.362711+00:00",
-    "briefing_hash": "ff75492eb97233c9",
+    "generated_at": "2026-09-10T12:27:52.952111+00:00",
+    "briefing_hash": "950f751a06381ff1",
     "key_headlines": [
       {
-        "title": "Korean Battery Market Share Drops 10 Percentage Points Outside China as Chinese Competition Intensifies",
-        "summary": "SNE Research reports that Korean battery companies saw North American supply volume drop 43% in January-July 2026, while Chinese battery firms expand influence in markets outside China, signaling need for strategic shifts by domestic battery makers."
+        "title": "Korean Battery Makers Lose Market Share in Non-China EV Markets",
+        "summary": "Korean battery companies' market share outside China declined by 10 percentage points, with North American supply down 43% due to EV market slowdown. Chinese battery makers continue expanding influence globally."
       },
       {
-        "title": "Youth Employment Crisis Continues for 46 Months with AI Adding Pressure to First-Time Job Seekers",
-        "summary": "August youth employment rate fell 1.0 percentage point year-over-year for the 28th consecutive month, as government's newly announced job recovery plan targeting 90,000 positions faces criticism for lacking long-term solutions amid AI disruption."
+        "title": "Youth Employment Crisis Deepens: 28 Consecutive Months of Decline",
+        "summary": "August youth employment rate fell 1.0 percentage point year-over-year, marking 28 consecutive months of decline. Government proposed youth job recovery plan targeting 90,000+ new jobs, but longer-term measures deemed necessary."
       },
       {
-        "title": "Nominal GDP Growth Surges 22% on Semiconductor Export Boom, But Bank of Korea Warns of Inflation and Financial Imbalances",
-        "summary": "First-half 2026 nominal GDP growth reached 21.8%, the highest in 47 years driven by improved trade terms from semiconductor price increases, yet central bank expresses concern over rising consumer prices, wealth inequality, and leverage investment risks."
+        "title": "Nominal GDP Growth Hits 26.4% in Q2—Highest in 47 Years",
+        "summary": "Second quarter nominal GDP surged 26.4% year-over-year, the highest rate in 47 years, driven by semiconductor export price increases. Bank of Korea warns of inflation and financial imbalance risks amid this exceptional growth."
       },
       {
-        "title": "20s-30s Generation Increases Stock and Bond Investment Fivefold Over 14 Years for Retirement Planning",
-        "summary": "Stock and bond allocation for retirement planning among 20-30 year-olds jumped from 2.6-2.8% to 12.8-13.4% over 14 years, maintaining double-digit levels following the retail investor boom period."
+        "title": "Young Adults Embrace Stock and Bond Investments for Retirement Planning",
+        "summary": "The proportion of people in their 20s and 30s using stocks and bonds for retirement planning increased fivefold over 14 years, reaching 12.8% and 13.4% respectively. Post-retail investor boom sustains two-digit participation."
       },
       {
-        "title": "Seoul Apartment Prices Approaching 1.6 Billion Won for 59-Meter Units as Market Hits New High",
-        "summary": "August average offering price for 59-square-meter Seoul apartments reached 1.594 billion won, marking the fourth consecutive month at 1.5 billion won level despite government tax burden reduction measures."
+        "title": "Seoul 59-Sqm Apartment Average Asking Price Nears 1.6 Billion Won",
+        "summary": "August average sale price for Seoul's 59-square-meter apartments reached 1.593 billion won, approaching the 1.6 billion mark. Prices in semiconductor belt areas like Dongtan surged 17.5% year-over-year."
       }
     ],
     "sections": {
-      "Hot Economy News": "Korean battery makers face significant market headwinds as their North American supply volume collapsed 43% and market share outside China dropped 10 percentage points, with Chinese competitors rapidly expanding their global footprint. Youth employment remains in crisis with 28 consecutive months of year-over-year declines, while government efforts to create 90,000 new jobs face skepticism regarding long-term effectiveness. The economy is buoyed by exceptional semiconductor export performance, but underlying vulnerabilities in consumer prices, wealth inequality, and speculative investment patterns are raising concerns among policymakers.",
-      "Macro & Fiscal Policy": "First-half 2026 nominal GDP growth reached an exceptional 21.8%, the highest rate in 47 years, primarily driven by improved trade terms from semiconductor price increases rather than volume growth. The Bank of Korea raised concerns about inflationary pressures emerging from demand-side effects and expanding financial imbalances, particularly regarding leverage-based investments and retail investor activity. Semiconductor industry momentum is expected to continue supporting growth through the fourth quarter, though the central bank emphasized need for monitoring price stability and financial system risks amid the nominal growth surge.",
-      "Financial Markets": "Oil prices surged past 100 dollars per barrel for Brent crude with WTI reaching 95 dollars, reigniting inflation concerns and creating headwinds for equity markets. KOSPI declined 2% as investors took profit amid oil price pressures and U.S. interest rate uncertainty, though recovered above 7,000 points after 33 trading days, supported by rotational buying in battery, power, and shipbuilding stocks. Bank of Korea identified leverage ETFs and semiconductor concentration as contributors to recent market volatility, with Federal Reserve rate decision expected on September 15-16 creating additional uncertainty for investors.",
-      "Industry & Technology": "Hyundai Motor Group partnered with LG Energy Solution to develop battery energy storage systems that utilize used EV batteries for grid stabilization, improving charging efficiency during peak demand hours. Korean shipyards began pilot programs integrating AI base stations with manufacturing robots to address computational and communication limitations, enabling autonomous welding and painting processes with improved real-time performance. Renewable energy capacity calculations sparked controversy over potential overstating of renewable contributions while diminishing nuclear power's perceived role in achieving 2040 decarbonization targets.",
-      "Real Estate": "Seoul apartment market continues surge with 59-square-meter average offering prices reaching 1.594 billion won in August, marking four consecutive months at record highs despite government tax reduction measures failing to moderate price pressures. Regional real estate markets face severe distress with 85% of 29,000 unsold units concentrated outside Seoul, prompting government to implement differentiated LTV/DSR standards and tax support measures. Property experts attribute persistent price increases to monetary supply, low interest rates, and constrained housing supply in metropolitan areas rather than government tax policies.",
-      "International Economy": "U.S. Federal Reserve faces mixed signals ahead of September 15-16 FOMC meeting, with market odds favoring rate hold at 60% probability after inflation data came in higher than expected, causing global equity and bond market volatility. Oil price surge to over 100 dollars per barrel compounds economic pressures, with Trump administration facing headwinds from high energy costs, high interest rates, and tariff-related economic disruptions despite promoting protective trade measures. India's rupee weakened to 95.16 per dollar amid foreign capital outflow from government debt markets, creating imported inflation pressures as oil import costs rise with weaker currency.",
-      "AI & Economy": "Google announced 13 billion euro investment in Finnish AI infrastructure with expected 16,000 construction jobs, supporting Finland's economic recovery from recession and high unemployment exceeding 10%. HD Hyundai committed 1 trillion won investment in AI power market infrastructure and small modular reactors, targeting completion of SMR production facility by first-half 2029 while capitalizing on growing AI data center demand. AI-driven office demand surge counters pandemic-era remote work predictions, with AI, healthcare, and education companies actively seeking physical office space for direct consumer engagement and operational needs.",
-      "Others": "SK Hynix ADR reached all-time high at 199.87 dollars following July 2026 Nasdaq listing, surging 7% as semiconductor market remains strong and investor confidence in Korean chip manufacturers remains elevated. Bithumb crypto exchange launched campaign warning users about malicious AI-powered fake automated trading programs and investment analysis tools designed to steal credentials and assets. U.S. midterm elections saw emergence of AI-generated manipulated campaign videos, raising concerns about voter trust and election integrity as candidates deploy deepfake technology to discredit opponents."
+      "Hot Economy News": "Korea's economy shows exceptional nominal growth of 26.4% in Q2, driven by soaring semiconductor export prices, but the Bank of Korea warns of mounting inflation and financial imbalance risks. The youth employment crisis persists with 28 consecutive months of decline in August, prompting government intervention with a proposed 90,000+ job recovery plan. Concurrently, Korean battery makers are losing competitive ground to Chinese competitors outside China, with North American supply down 43%. Meanwhile, young adults increasingly embrace equity and bond investments for retirement planning, with participation rising fivefold over 14 years. Seoul apartment prices continue climbing near 1.6 billion won for standard 59-square-meter units.",
+      "Macro & Fiscal Policy": "The Korean economy's nominal GDP growth reached 21.8-26.4% in the first half of 2026, marking the highest rate in 47 years, primarily driven by improved semiconductor export prices and better terms of trade. The Bank of Korea expressed concerns about demand-side inflation pressures and potential financial imbalances as rapid nominal growth could fuel asset price expectations and household leverage expansion. Policy officials including Deputy Prime Minister Koo Yun-chul announced plans for advancing steel industry modernization in Q4, focusing on AI manufacturing innovation, high-value specialty steel, and hydrogen-based steel reduction. Rising government revenue from nominal GDP expansion may ease fiscal pressure, though concerns persist about household debt acceleration and widening credit imbalances in financial markets.",
+      "Financial Markets": "The Korean won-dollar exchange rate remained anchored around 1,330 won despite triple headwinds of rising oil prices, higher US Treasury yields, and declining stock markets, defying typical correlation patterns. The KOSPI struggled to maintain the 7,000-level benchmark amid the quadruple pressure of elevated US bond yields, AI bond demand, rising Japanese interest rates, and surging crude oil prices approaching 100 dollars per barrel. Market observers attributed the won's resilience to complex dynamics where higher US rates paradoxically failed to strengthen the dollar. As the Federal Reserve's September FOMC meeting approaches, market participants await employment and inflation data to assess whether rate hikes will continue or pause. Global long-term interest rates remain stubbornly elevated, creating persistent upward pressure on Korean financial markets.",
+      "Industry & Technology": "Korean semiconductor companies face intensifying competition from Chinese chipmakers, prompting calls for coordinated national strategy beyond individual corporate investment decisions. Hyundai Motor and Kia partnered with LG Energy Solution to launch pilot projects recycling used EV batteries into energy storage systems, leveraging their E-GMP platform and linking charging infrastructure. Global experts identified defense and nuclear power as promising next growth sectors for Korea, with analysts highlighting that nations exceeding 3% global growth rates typically enjoy growth premiums. Current policy rate differentials between the US and Korea are supporting won strength despite recent weakness, creating opportunities for Korean tech exports and inbound capital flows.",
+      "Real Estate": "Seoul's 59-square-meter apartment average sale price reached 1.593 billion won in August, approaching the 1.6 billion mark with 1.97% monthly increase, while Incheon saw prices rise 7.02% to 539 million won. The semiconductor belt region, particularly Dongtan in Gyeonggi Province, experienced exceptional 17.5% year-over-year appreciation as housing demand surged near major chip manufacturer facilities. Financial authorities warned of mounting financial stability risks as household debt continues accelerating, concentrated in the capital region where housing prices show persistent strength. Gangnam's three districts (Seocho, Gangnam, Songpa) weakened as high-property tax concerns prompted adjustments, while other Seoul areas and premium large complexes near transit hubs remain supported. Property market divergence reflects policy uncertainty regarding tax amendments targeting high-value residences and non-primary homes.",
+      "International Economy": "A prominent economist who criticized Trump's tariff policies faced rejection for IMF chief economist appointment, highlighting political tensions over protectionism versus multilateral cooperation. Trump administration tariffs are expected to persist even after administration changes, with supply chain reconfiguration presenting opportunities amid US-China tensions over excess Chinese production. US copper imports surged to record 22.5 million tons in July as importers rushed purchases ahead of anticipated Trump tariffs, with copper prices climbing on dual AI demand and protectionism fears. The Federal Reserve faces narrowing options as oil prices breach 100 dollars per barrel, US Treasury yields surge, and inflation concerns mount despite weak employment data, creating uncertainty for rate decisions at mid-September FOMC meetings. Global commodity and credit markets face compounding pressures from fiscal deficits, AI infrastructure buildout, and mounting geopolitical tensions.",
+      "AI & Economy": "HD Hyundai Heavy Industries announced over 1 trillion won investment in land-based power generation engines and small modular reactors to capture AI data center power demand opportunities. The company will construct a new HiMSEN engine production facility in Ulsan with 3GW capacity and a dedicated SMR manufacturing plant, targeting 2028 completion with combined annual output reaching 4GW. TSMC's August revenue surged 53% year-over-year as semiconductor equipment demand more than doubled since year-end, with production capacity roughly quadrupled yet still unable to meet explosive AI infrastructure demand. Industry observers project chip equipment manufacturers will source from ASML at 400 million dollars per unit from 2030 onward as AI infrastructure investments accelerate globally. Power generation and nuclear technology represent emerging strategic sectors as AI data centers consume unprecedented electricity volumes.",
+      "Others": "Single-stock leveraged ETFs requiring regulatory framework adjustments after breaching negative divergence rate thresholds within 72 days of listing, highlighting financial product stability concerns. Election-related AI-generated fake videos proliferate in US midterm campaigns as candidates deploy synthetic media attacking opponents, threatening to deepen voter distrust and undermine electoral integrity. Chinese wood ear mushrooms imported for culinary use tested positive for pesticide residues at 17 times permitted levels, raising food safety concerns for consumers. Deputy Finance Minister candidate Lee Hyung-il's family showed electricity consumption one-quarter of typical four-person households during claimed occupancy periods, raising questions about actual residence claims and triggering official scrutiny by parliamentary committees."
     }
   }
 }
