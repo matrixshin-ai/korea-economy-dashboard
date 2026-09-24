@@ -16,6 +16,8 @@ import Docs from "@/pages/Docs";
 import AdminKeywordsPage from "@/pages/AdminKeywords";
 import EnglishPage from "@/pages/English";
 import MediaPage from "@/pages/Media";
+import MailToObsidianPage from "@/pages/MailToObsidian";
+import MailToObsidianPrivacyPage from "@/pages/MailToObsidianPrivacy";
 
 function Router() {
   return (
@@ -32,6 +34,8 @@ function Router() {
       <Route path="/media" component={MediaPage} />
       <Route path="/english" component={EnglishPage} />
       <Route path="/docs" component={Docs} />
+      <Route path="/mail-to-obsidian" component={MailToObsidianPage} />
+      <Route path="/mail-to-obsidian/privacy" component={MailToObsidianPrivacyPage} />
       <Route path="/admin/keywords" component={AdminKeywordsPage} />
       <Route component={NotFound} />
     </Switch>
