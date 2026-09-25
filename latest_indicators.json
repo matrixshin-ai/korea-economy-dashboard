@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T00:19:10.528131",
+  "updated_at": "2026-09-25T05:34:35.119911",
   "indicators": [
     {
       "id": "sp500",
@@ -887,8 +887,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "158.78",
-      "change": 0.33,
+      "value": "158.13",
+      "change": -0.09,
       "category": "currency",
       "trend": [
         {
@@ -909,7 +909,7 @@
         },
         {
           "date": "2026-09-25",
-          "value": 158.78
+          "value": 158.13
         }
       ]
     },
@@ -917,7 +917,7 @@
       "id": "cny_usd",
       "name": "위안/달러",
       "value": "6.71",
-      "change": 0.17,
+      "change": 0.02,
       "category": "currency",
       "trend": [
         {
@@ -935,14 +935,18 @@
         {
           "date": "2026-09-24",
           "value": 6.71
+        },
+        {
+          "date": "2026-09-25",
+          "value": 6.71
         }
       ]
     },
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "101.28",
-      "change": 0.18,
+      "value": "101.24",
+      "change": -0.05,
       "category": "currency",
       "trend": [
         {
@@ -955,7 +959,11 @@
         },
         {
           "date": "2026-09-24",
-          "value": 101.28
+          "value": 101.29
+        },
+        {
+          "date": "2026-09-25",
+          "value": 101.24
         }
       ]
     },
@@ -1099,8 +1107,8 @@
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$93.89",
-      "change": 1.88,
+      "value": "$92.99",
+      "change": -1.71,
       "category": "commodity",
       "trend": [
         {
@@ -1117,15 +1125,19 @@
         },
         {
           "date": "2026-09-24",
-          "value": 93.89
+          "value": 94.61
+        },
+        {
+          "date": "2026-09-25",
+          "value": 92.99
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,303.60",
-      "change": -0.34,
+      "value": "$4,295.40",
+      "change": -0.06,
       "category": "commodity",
       "trend": [
         {
@@ -1142,7 +1154,11 @@
         },
         {
           "date": "2026-09-24",
-          "value": 4303.6
+          "value": 4298.0
+        },
+        {
+          "date": "2026-09-25",
+          "value": 4295.4
         }
       ]
     }
