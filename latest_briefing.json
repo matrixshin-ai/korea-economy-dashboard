@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-03T00:28:25.351407+09:00",
+  "generated_at": "2026-10-03T00:30:20.722361+09:00",
   "date": "2026-10-03",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 546,
-    "total_used": 510,
+    "total_input": 562,
+    "total_used": 525,
     "dropped_quality": 13,
-    "dropped_negative": 23,
+    "dropped_negative": 24,
     "per_category": {
-      "기타": 257,
-      "산업·과학": 28,
-      "거시경제·재정": 64,
-      "금융시장": 93,
-      "국제경제": 32,
-      "부동산": 33,
+      "기타": 268,
+      "산업·과학": 30,
+      "거시경제·재정": 65,
+      "금융시장": 85,
+      "국제경제": 39,
+      "부동산": 35,
       "AI와 경제": 3
     }
   },
@@ -192,6 +192,14 @@
   "sections": {
     "거시경제·재정": [
       {
+        "title": "[사설] 소비자물가 2.9%라지만…석유 최고가격제 착시 경계해야",
+        "summary": "한국은행도 8월의 일시적인 기저효과를 감안하면 물가 오름세가 다소 확대된 것으로 평가했다. 10월에도 3% 안팎의 높은 상승률이 이어질 것으로 내다봤다. 올 3분기 원화 강세로 수입 물가 부담이 덜했는데도 이 정도라면...",
+        "link": "https://www.hankyung.com/article/2026100210321",
+        "source": "한국경제",
+        "published": "2026-10-03T00:27:00+09:00",
+        "score": 122
+      },
+      {
         "title": "9월 소비자물가 상승률 2%대로…근원물가는 2.8% 올해 최고",
         "summary": "소비자 물가 상승률은 중동전쟁 이후 약 반년간 한국은행 물가안정목표치(2.0%)를 큰 폭으로 웃돌고 있다. 다만 올 8월 소비자물가 상승률은 작년 SK텔레콤 해킹 보상에 따른 통신비 할인 기저효과를 제거했을 때 2.5...",
         "link": "https://www.sedaily.com/article/20097740?ref=naver",
@@ -206,6 +214,14 @@
         "source": "YTN",
         "published": "2026-10-02T22:53:00+09:00",
         "score": 110
+      },
+      {
+        "title": "美 9월 고용 2.9만명 증가 그쳐 '쇼크'…실업률 4.2%로 뛰어",
+        "summary": "연준은 앞서 5차례 동결하던 기준금리를 지난달 16일 0.25%포인트 전격 인상했으며 탄탄한 고용시장과 3.4%대의 물가 상승률을 근거로 추가 인상이 전망되기도 했다. 하지만 9월 고용보고서가 예상 밖의 부진을...",
+        "link": "https://www.fnnews.com/news/202610022223167292",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-02T22:29:00+09:00",
+        "score": 106
       },
       {
         "title": "[김동호의 시선] 나랏빚은 금리가 오를 때 민낯을 드러낸다",
@@ -270,22 +286,6 @@
         "source": "한국경제",
         "published": "2026-10-02T17:36:00+09:00",
         "score": 70
-      },
-      {
-        "title": "[속보]美 9월 고용 2.9만명 증가 '예상 큰폭 하회'…실업률 4.2%",
-        "summary": "미국의 9월 신규 고용이 시장 예상을 크게 밑돌았다. 실업률도 4.2%로 소폭 상승했다. 미국 거리의 채용 공고 (사진=AFP) 미 노동부 노동통계국(BLS)은 2일(현지시간) 9월 비농업 부문 고용이 전월 대비 2만9000명...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=06481286645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-02T21:32:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "美 9월 고용 2.9만명 증가 그쳐 '쇼크'…실업률 4.2%로 뛰어",
-        "summary": "다만 이번 실업률 상승은 구직 단념보다는 경제활동인구가 늘어나면서 발생한 현상으로 분석된다. 한 달 동안 경제활동 참가 인구가 48만5000명 급증했고 취업자도 40만6000명 늘어났다. 그 차이인 7만9000명만큼...",
-        "link": "https://www.fnnews.com/news/202610022223167292",
-        "source": "파이낸셜뉴스",
-        "published": "2026-10-02T22:29:00+09:00",
-        "score": 70
       }
     ],
     "금융시장": [
@@ -298,12 +298,12 @@
         "score": 170
       },
       {
-        "title": "글로벌 국채 금리 ‘고공행진’…증시 ‘위험선’은 어디",
-        "summary": "때까지 채권시장은 장기 차입에 대한 프리미엄을 요구할 것”이라고 설명했다. 유럽 국채 금리 상승에는... 줄리 코잭 IMF 대변인은 이날 기자회견에서 “세계적으로 보면 채권시장은 계속 질서 있게 작동 중”...",
-        "link": "https://www.mk.co.kr/article/12167312",
-        "source": "매일경제",
-        "published": "2026-10-02T17:00:00+09:00",
-        "score": 146
+        "title": "주식 제친 美장기금리 더 오를까? …베선트에 ‘한방’ 먹인 채권시장 ...",
+        "summary": "재정과 경제 상황을 반영한 금리를 인위적으로 누르려 해서는 안 된다는 비판이었다. 두 사람은 과거 조지 소로스의 헤지펀드에서 함께 일했다. 베선트가 거시경제(macro) 투자의 최고 전문가로 꼽아온 인물이...",
+        "link": "https://biz.heraldcorp.com/article/10892365?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-03T00:02:00+09:00",
+        "score": 132
       },
       {
         "title": "美 국채금리 급등에도 3대 지수 소폭 상승 [뉴욕증시]",
@@ -314,11 +314,11 @@
         "score": 130
       },
       {
-        "title": "[뉴욕증시]미국채 금리 하락·유가 ↑…상승폭 제한하며 마감",
-        "summary": "이들은 다음 인상 시점으로 오는 12월을 예상하면서도 연방공개시장위원회(FOMC)가 결국 추가 인상이 불필요하다고 판단할 가능성도 상당하다고 봤다. 반면 닐 카시카리 미니애폴리스 연은 총재는 블룸버그TV...",
-        "link": "https://view.asiae.co.kr/article/2026100204495404210",
-        "source": "아시아경제",
-        "published": "2026-10-02T05:53:00+09:00",
+        "title": "글로벌 국채 금리 ‘고공행진’…증시 ‘위험선’은 어디",
+        "summary": "에너지 가격 상승에 따른 인플레이션 압력과 예상보다 견조한 경기, 인공지능(AI)·데이터센터 투자 확대에 따른 자금 수요 증가, 각국 정부 재정 지출 확대 등이 복합적으로 작용한 결과로 풀이된다. 프레드 노이만...",
+        "link": "https://www.mk.co.kr/article/12167312",
+        "source": "매일경제",
+        "published": "2026-10-02T17:00:00+09:00",
         "score": 130
       },
       {
@@ -331,6 +331,14 @@
       }
     ],
     "산업·과학": [
+      {
+        "title": "[사설] 배터리 시장 커지는데 韓기업 부진…반전 총력전 나서야",
+        "summary": "올 들어 글로벌 전기차용 배터리 시장이 20%(1~8월) 성장했지만 국내 배터리 3사는 점유율이 동반 하락 중이라고 한다. LG에너지솔루션이 3위 자리를 유지했으나 점유율은 9.6%에서 8.1%로 줄었다. 다른 회사는 더하다. SK온...",
+        "link": "https://www.hankyung.com/article/2026100210331",
+        "source": "한국경제",
+        "published": "2026-10-03T00:26:00+09:00",
+        "score": 78
+      },
       {
         "title": "보스턴다이나믹스, 아마존 출신 영입…아틀라스 양산 준비 속도",
         "summary": "특히 로봇 산업은 모터와 감속기, 센서, 배터리, 반도체 등 다양한 핵심 부품을 안정적으로 조달하는 것이 대량 생산의 전제 조건으로 꼽힌다. 보스턴다이나믹스가 공급망 전담 인력을 외부에서 영입한 것도 아틀라스를...",
@@ -354,14 +362,6 @@
         "source": "연합뉴스 경제 최신기사",
         "published": "2026-10-02T17:04:15+09:00",
         "score": 50
-      },
-      {
-        "title": "반도체 무관한 신세계·달바는 9개월째 순매수",
-        "summary": "대한항공(1조836억원)은 환율이 1550원대로 오르면서 비용 부담이 부각된 7월을 제외한 모든 달에 순매수를 기록했다. 특히 환율이 8월 이후 1300원대로 내려오면서 외화부채와 연료비 부담이 해소되자 순매수 규모가...",
-        "link": "https://www.hankyung.com/article/2026100210381",
-        "source": "한국경제",
-        "published": "2026-10-02T18:05:00+09:00",
-        "score": 50
       }
     ],
     "부동산": [
@@ -371,6 +371,14 @@
         "link": "https://www.mk.co.kr/news/realestate/12166391",
         "source": "매일경제 : 부동산",
         "published": "2026-10-01T17:40:46+09:00",
+        "score": 96
+      },
+      {
+        "title": "빌라 공급 4분의 1토막…다주택자 옥죄니 청년이 운다",
+        "summary": "임대사업자 규제에 애꿎은 청년 피해 이형일 부총리 겸 재정경제부 장관은 지난달 15일 국회... 권대중 한성대 경제부동산학과 석좌교수는 “비아파트 공급 물량이 지난 몇 년간 전세 보증금 미반환, 건설 여건 악화...",
+        "link": "https://www.joongang.co.kr/article/25466794",
+        "source": "중앙일보",
+        "published": "2026-10-03T00:11:00+09:00",
         "score": 96
       },
       {
@@ -388,14 +396,6 @@
         "source": "한국경제",
         "published": "2026-10-02T21:01:00+09:00",
         "score": 80
-      },
-      {
-        "title": "재건축 선정 소식에 2억 뛴 분당 아파트…서울 아파트값 '역대 최장' 상승",
-        "summary": "<table><tr><td><img align=\"left\" border=\"0\" src=\"http://img.vod.mbn.co.kr/vod2/552/2026/10/01/20261001194821_20_552_1430333_1080_7_s1.jpg\" width=\"160\" />【 앵커멘트 】  동탄, 수원 영통에 이어 이번엔 분당인 걸까요?  성남시가 두 번째로 재건축에 들어갈 단지를 선정해 발표하자, 호가가 바로 2억 원이 뛰며 들썩이고 있습니다.  서울 아파트값은 86주 연속 오르며 역대 최장 상승 기록을 새로 썼습니다.  배준우 기자입니다.【 기자 】  준공된 지 35년 된 성남 분당신도시의 2400세대 아파트.  전용면적 84㎡가 지난 8월 21억 7천만 원에 거래됐지만, 현재 호가는 24억 원으로 뛰었습니다.  이 아파트 일대 4천200가구가 재건축 사업을 우선 추진하는 분당 2차 특별정비구역에 선정되면서 기대감이 커진 겁니다.▶ 스탠딩 : 배준우 / 기자- \"재건축 사업이 본...",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5222585",
-        "source": "MBN : 경제기사",
-        "published": "2026-10-01T19:00:00+09:00",
-        "score": 80
       }
     ],
     "국제경제": [
@@ -408,11 +408,11 @@
         "score": 80
       },
       {
-        "title": "트럼프 압박에 유럽 '화들짝'…전략비축유 추가 방출안 논의",
-        "summary": "\"美도 일방적 경유 수출 금지 않겠다 약속해야\" 의견 모아 현윤경 특파원 = 도널드 트럼프 미국 행정부로부터... 경유 수출을 금지하지 않겠다는 약속도 이뤄져야 한다는 데 의견을 모았다. 오는 11월 중간선거를 앞두고...",
-        "link": "https://www.yna.co.kr/view/AKR20261002168400098?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-10-02T18:35:00+09:00",
+        "title": "트럼프 압박에 유럽 비축 경유 푼다…G7, 4개월간 1억 배럴 방출",
+        "summary": "유럽의 비축유 방출에는 미국의 경유 수출 제한 가능성이 영향을 미친 것으로 보인다. 트럼프 행정부는... 미국은 유럽이 전략 비축유를 방출하지 않을 경우 자국의 경유 수출을 제한할 수 있다는 입장을 내놓은 것으로...",
+        "link": "https://www.joongang.co.kr/article/25466792",
+        "source": "중앙일보",
+        "published": "2026-10-03T00:02:00+09:00",
         "score": 78
       },
       {
@@ -432,11 +432,11 @@
         "score": 70
       },
       {
-        "title": "[다음 주 경제일정] 삼성전자, 3분기 잠정실적…9월 FOMC 의사록 공개",
-        "summary": "7일에는 미 연방준비제도의 9월 FOMC 의사록이 공개됩니다. 9월에는 연준이 기준금리를 만장일치로 0.25%포인트 인상하면서 3년 2개월 만에 긴축에 시동을 걸었죠. 이달 말 예정된 FOMC에서 추가 긴축 여부가 주목되는...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000338060?division=NAVER",
-        "source": "SBS",
-        "published": "2026-10-02T11:28:00+09:00",
+        "title": "트럼프 “유럽, 비축 경유 대규모 방출 합의…즉시 시작”",
+        "summary": "경유 수출 제한 가능성까지 거론하며 압박한 것으로 알려졌다. 유럽은 대응 방안 조율에 나섰다. 주요 7국... 엘리제궁은 통화 후 “G7 국가들은 수출 제한 없이 공조해 행동하는 데 공통의 이해관계가 있다”고 밝혔다....",
+        "link": "https://biz.chosun.com/international/international_economy/2026/10/02/63KUGSWEFRC57N3JNIRIDOSLRE/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-10-02T23:52:00+09:00",
         "score": 70
       }
     ],
@@ -450,11 +450,11 @@
         "score": 36
       },
       {
-        "title": "전기 찾아 우주까지 간 AI…구글, '우주 데이터센터' 첫 실험",
-        "summary": "이런 고에너지 입자는 전자장비에 심각한 손상을 줄 수 있습니다.\" 최근 로켓 발사 비용이 낮아지면서 경제성에 대한 기대도 커지고 있습니다. 권용환 / 한국전자통신연구원 단장 \"스타십이 되면 1,000kg급 위성을 우주로...",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/02/2026100290270.html",
-        "source": "조선일보",
-        "published": "2026-10-02T22:40:00+09:00",
+        "title": "AI가 예측·생성 비용 낮출수록, 판단의 무게는 커진다",
+        "summary": "━ AI와 판단의 경제학 인공지능(AI)은 예측과 생성의 비용을 크게 낮추고 있다. 기존 데이터에서 패턴을 찾아... 토론토대 아제이 아그라왈 교수 등은 2018년 『예측기계(Prediction Machines)』라는 책에서 AI를 경제학의 눈으로...",
+        "link": "https://www.joongang.co.kr/article/25466796",
+        "source": "중앙일보",
+        "published": "2026-10-03T00:17:00+09:00",
         "score": 28
       },
       {
@@ -492,14 +492,6 @@
         "score": 24
       },
       {
-        "title": "무뇨스 현대차 사장 “5세대 투싼, 판매 신기록 쓸 것”",
-        "summary": "무뇨스 사장은 “올해 한국 내수시장에서 실적이 악화된 이유 가운데 하나는 파업”이라며 “관세나 인플레이션 감축법(IRA) 변화, 우크라이나 전쟁, 중동 지역의 지정학적 문제, 중국 업체들과의 경쟁 등 다양한 외부...",
-        "link": "https://biz.heraldcorp.com/article/10891731?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-02T12:01:00+09:00",
-        "score": 24
-      },
-      {
         "title": "‘대미투자’ 따지고 따졌건만…시험대 오른 ‘상업적 합리성’",
         "summary": "도널드 트럼프 미국 대통령이 2026년 9월30일 워싱턴DC 백악관 집무실에서 하워드 러트닉 미 상무장관(왼쪽 세 번째)과 함께 발표하고 있다. AFP연합정부가 한·미 전략투자 첫 사업으로 텍사스주 가스복합화력발전소 건설을 확정하면서 가장 강조한 원칙은 ‘상업적 합리성’이다. 하지만 따지고 따져 선정한 텍사스주 발전소 건설조차 수익성을 좌우할 전력 수요처와···",
         "link": "https://www.khan.co.kr/article/202610020600071/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
@@ -513,14 +505,6 @@
         "link": "https://www.khan.co.kr/article/202610012207005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-10-01T22:07:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "미 무역수장 \"과잉생산 수용 불가\"…대응조치 발표 예고",
-        "summary": "16개 경제권을 대상으로 과잉생산 및 강제노동 관련 조사를 개시했습니다. 이후 지난 7월 10∼12.5%의 '강제노동 관세'를 한국과 중국을 포함한 60개 경제권에 부과했으며, '과잉생산 관세'는 아직 발표되지 않은...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781432&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-10-02T22:43:00+09:00",
         "score": 24
       },
       {
@@ -546,6 +530,22 @@
         "source": "경향신문:경제",
         "published": "2026-10-02T15:55:00+09:00",
         "score": 22
+      },
+      {
+        "title": "보수정책모임 '더좋은대한민국포럼' 출범…김문수·오세훈 참석(종합)",
+        "summary": "이어 특강에 나선 오세훈 시장은 \"이재명 정부가 날개 없는 추락을 거듭하듯 실정을 이어가고 있다\"며 \"부동산 참사는 물론 외교·안보 분야의 실정은 일일이 말씀드리기 입이 아플 정도\"라고 날을 세웠다. 그러면서도 \"할...",
+        "link": "https://www.yna.co.kr/view/AKR20261002124651001?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-02T19:26:00+09:00",
+        "score": 20
+      },
+      {
+        "title": "전남광주시 첫 정기인사…간부 181명 전보·5급 이하 363명 승진",
+        "summary": "3급에서는 전은옥 부이사관이 반도체산업지원정책관, 김기숙 부이사관이 정책기획국장, 오영걸 부이사관이 안전정책국장을 맡는 등 31명이 보직을 받았다. 4급은 고경희 서기관을 시정상황실장에 임명하는 등 모두...",
+        "link": "https://www.yna.co.kr/view/AKR20261002177000054?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-02T20:21:00+09:00",
+        "score": 20
       }
     ]
   },
@@ -604,5 +604,42 @@
       "match_status": "OK",
       "importance_score": 4
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-10-03",
+    "generated_at": "2026-10-02T15:31:34.032656+00:00",
+    "briefing_hash": "2cc6ca5d1fbe4373",
+    "key_headlines": [
+      {
+        "title": "US Steel Revival vs. Declining Korean Competitiveness",
+        "summary": "The global steel market is undergoing historic transformation amid protectionism and decarbonization pressures, with the US actively reviving its steel industry while Korea's competitive edge faces challenges."
+      },
+      {
+        "title": "Government Reduces October Bond Issuance by 5 Trillion Won",
+        "summary": "New Deputy Prime Minister Lee Hyung-il announced reduction of October government bond issuance and plans to review buyback operations to address rising bond yields and market risks."
+      },
+      {
+        "title": "September Consumer Prices Rise 2.9%, Inflation Pressures Continue",
+        "summary": "Consumer prices climbed 2.9% in September with core inflation reaching 2.8%, the highest this year, as the government strengthens supply management amid Middle East tensions affecting oil prices."
+      },
+      {
+        "title": "Seoul Housing Starts Fall Short at 32.4% of Annual Target",
+        "summary": "Housing construction in the Seoul metropolitan area reached only 32.4% of the government's 77% target for 2026, raising concerns about housing supply as Seoul apartment prices continue their 86-week record rise."
+      },
+      {
+        "title": "Ministry Commits to Improving Budget Accuracy and Addressing Oversight Findings",
+        "summary": "The Ministry of Economy and Finance pledges to resolve recurring audit criticisms, completing 4 out of 5 issues repeatedly flagged over the past 5 years by year-end."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "Korea's steel industry faces intensifying global competition as the US aggressively pursues steel market revival alongside decarbonization goals, creating a competitive disadvantage for Korean steelmakers. The government is implementing multi-faceted economic stabilization measures including bond issuance reductions and supply management enhancements to address inflation pressures. Rising consumer prices and persistent geopolitical tensions in the Middle East are straining domestic price stability efforts, requiring coordinated fiscal and monetary responses. The real estate market shows diverging regional trends with strong resilience in secondary markets while core areas face price corrections. International economic pressures, particularly from US trade policies and energy markets, continue to influence Korea's economic outlook.",
+      "Macro & Fiscal Policy": "September consumer inflation rose 2.9% with core inflation at 2.8%, the year's highest level, driven by petroleum products and agricultural commodities amid Middle East tensions. The Bank of Korea projects October inflation to remain elevated at approximately 3%, exceeding the central bank's 2% stability target. Deputy Prime Minister Lee Hyung-il announced reduction of October government bond issuance by 5 trillion won and plans to review buyback operations to manage rising yields and market risks. Global interest rate pressures, particularly from US Treasury yields surging amid labor market softness and fiscal expansion concerns, create headwinds for Korea's monetary and fiscal policy coordination. The government strengthens agricultural supply management and continues petroleum price stabilization measures to combat inflationary pressures.",
+      "Financial Markets": "Global bond markets experienced significant shocks with US, UK, and French government bond yields surging sharply, reflecting complex factors including inflation persistence, AI investment demand, and fiscal expansion. Despite bond market turmoil, US equity indices recovered modestly following initial declines, with the S&P 500 rising 0.2% as rate expectations fluctuated around potential Fed rate increases. The CME FedWatch indicates 28.2% probability of a 0.25% rate hike at October's FOMC meeting, with market attention focused on forthcoming employment data. Global capital markets face heightened volatility from interconnected risks of persistent inflation, elevated interest rates, and geopolitical tensions affecting energy markets. Korean financial markets remain sensitive to international rate movements and currency fluctuations amid global monetary policy divergence.",
+      "Industry & Technology": "South Korean battery makers face mounting challenges as the global EV battery market grew 20% year-to-date but domestic companies' market share declined, with LG Energy Solution's share falling from 9.6% to 8.1%. Boston Dynamics accelerates Atlas robot mass production preparation through external hiring of supply chain specialists, highlighting the critical importance of component sourcing for robotics manufacturing scalability. A citizen deliberation committee for nuclear power launches to gather public input on the role of nuclear energy in the nation's power supply planning. South Korea joins Japan and the US in launching a memory semiconductor investment ETF on October 7th, supporting the sector's strategic importance. Companies increasingly recognize AI and data utilization as emerging competitive benchmarks, with GC Pharma highlighting AI-driven competitiveness enhancement in pharmaceutical and biotechnology sectors.",
+      "Real Estate": "Seoul apartment prices continue their record 86-week consecutive rise despite government housing supply expansion efforts, with metropolitan housing construction completing only 32.4% of the annual 77% target. Regional price divergence emerges sharply as strong demand sustains northern Seoul prices while southern Gangnam reconstruction units decline by hundreds of millions of won, breaking typical price coupling patterns. Secondary villa supply collapses to one-quarter of previous levels due to regulations targeting multi-property owners, unintentionally harming young people seeking affordable rental housing. Multiple local governments accelerate redevelopment and reconstruction projects through direct management oversight, responding to supply shortages and market anxiety over housing availability. Transaction data shows premium properties commanding 7.5 billion won in Gangnam's Apgujeong district, indicating continued concentration of high-value deals in affluent areas despite overall market headwinds.",
+      "International Economy": "Trump administration pressures Europe to release strategic petroleum reserves, securing agreement to release 100 million barrels over four months, using export restrictions as leverage ahead of midterm elections to manage diesel price spikes. The US Treasury yield surge reflects combined factors of sticky inflation, AI-driven capital demand, and expanded fiscal spending, prompting international spillover effects and currency volatility. Trump administration challenges the Federal Reserve's recent rate increase while signaling potential additional hikes despite economic slowdown signals in September employment data. G7 nations coordinate energy security responses to US pressure, with France's Elysée Palace emphasizing common interest in non-restrictive coordinated action to address energy market disruptions. Japan's government and central bank navigate policy coordination challenges amid yen weakness pressure and international expectations regarding monetary tightening impacts on economic growth.",
+      "AI & Economy": "Google launches satellites equipped with custom AI chips as part of industry competition for 'space data centers,' signaling accelerating integration of artificial intelligence into satellite and infrastructure operations. AI cost reduction in prediction and generation capabilities fundamentally reshapes economic value chains, with lower computational costs elevating the importance of human judgment and decision-making in corporate strategy. Tech industry leaders including Elon Musk and Jensen Huang debate AI development pace, with diverging views on necessary speed restraints to manage economic disruption and competitive advantages. GC Pharma emphasizes AI and data utilization as new competitive standards, implementing organizational-wide AI adoption to enhance productivity and operational efficiency across pharmaceutical business units. Federal Reserve officials acknowledge AI investment boom as a 2027 inflation risk factor, highlighting central banks' growing attention to technology-driven capital flows and their macroeconomic implications.",
+      "Others": "US Trade Representative's 301-clause investigation into Chinese and Japanese production overcapacity moves toward conclusion, with potential additional tariffs on Korean products emerging as unintended consequences of broader protectionist actions. Korea's 200 billion dollar US investment commitment faces scrutiny regarding commercial viability, particularly for Alaska LNG project participation and Texas gas-fired power plant construction in contested negotiations with Trump administration officials. Industrial Minister Kim Jung-gwan expresses strong objections to US Commerce Secretary Russell Lutnik's characterization of Korea's investment commitments, emphasizing commercial rationality as the fundamental principle guiding project selection and implementation. Government-level dispute resolution mechanisms prove necessary as bilateral investment frameworks contain minimal quantitative specifications, creating ambiguity in project confirmation versus exploration status. Trade policy uncertainty and geopolitical pressures continue reshaping Korea's international economic relationships and investment decision-making frameworks."
+    }
+  }
 }
