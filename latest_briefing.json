@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-03T14:35:55.892449+09:00",
+  "generated_at": "2026-10-03T21:47:44.729054+09:00",
   "date": "2026-10-03",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 578,
-    "total_used": 541,
-    "dropped_quality": 8,
-    "dropped_negative": 29,
+    "total_input": 569,
+    "total_used": 529,
+    "dropped_quality": 7,
+    "dropped_negative": 33,
     "per_category": {
-      "부동산": 32,
-      "거시경제·재정": 59,
-      "국제경제": 48,
-      "기타": 271,
+      "기타": 278,
+      "부동산": 34,
+      "거시경제·재정": 48,
+      "국제경제": 36,
       "산업·과학": 42,
-      "금융시장": 86,
+      "금융시장": 88,
       "AI와 경제": 3
     }
   },
@@ -103,7 +103,7 @@
     "거시경제·재정": [
       {
         "title": "[사설] 소비자물가 2.9%라지만…석유 최고가격제 착시 경계해야",
-        "summary": "한국은행도 8월의 일시적인 기저효과를 감안하면 물가 오름세가 다소 확대된 것으로 평가했다. 10월에도 3% 안팎의 높은 상승률이 이어질 것으로 내다봤다. 올 3분기 원화 강세로 수입 물가 부담이 덜했는데도 이 정도라면...",
+        "summary": "올 3분기 원화 강세로 수입 물가 부담이 덜했는데도 이 정도라면 기조적 인플레이션 압력은 가볍지 않다. 문제는 9월 물가 상승률을 0.6%포인트나 끌어내린 석유 최고가격제의 한계다. 유가 급등 충격을 덜기 위한 한시적...",
         "link": "https://www.hankyung.com/article/2026100210321",
         "source": "한국경제",
         "published": "2026-10-03T00:27:00+09:00",
@@ -115,14 +115,6 @@
         "link": "https://www.mk.co.kr/article/12167722",
         "source": "매일경제",
         "published": "2026-10-03T09:42:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "9월 소비자물가 2.9%↑...\"10월 상승률 3% 내외 높은 수준 예상\"",
-        "summary": "한국은행은 10월에는 물가 오름세가 확대되며 3% 내외의 높은 수준이 될 것으로 예상했습니다. 보도에 오인석 기자입니다. [기자] 소비자물가는 지난달 2.9% 상승해 두 달 만에 2%대로 내려왔습니다. 지난달 농산물...",
-        "link": "https://www.ytn.co.kr/_ln/0102_202610022253277222",
-        "source": "YTN",
-        "published": "2026-10-02T22:53:00+09:00",
         "score": 110
       },
       {
@@ -150,6 +142,14 @@
         "score": 90
       },
       {
+        "title": "중국, 정제유 수출 전격 중단…선진국 금리는 천장 뚫려 [글로벌 모닝 브...",
+        "summary": "재정적자에 따른 채권 공급 증가와 AI 인프라 투자에 따른 기업 차입 확대, 유가 상승발 물가 압력이 배경으로 꼽힙니다. 반면 연준 내부에서는 신중론이 우세합니다. 필립 제퍼슨 연준 부의장은 정책을 조정하기에 앞서...",
+        "link": "https://www.sedaily.com/article/20097820?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-03T07:01:00+09:00",
+        "score": 78
+      },
+      {
         "title": "튀르키예 펀드런 여파…JP모건 \"성장률 하방 리스크\" 경고",
         "summary": "투자은행 JP모건은 이날 보고서에서 \"이번 펀드 사태의 혼란이 2026년 4분기 경제활동에 부담을 주리라고 예상되며, 우리가 3%로 제시했던 국내총생산(GDP) 성장률 전망치에 상당한 하방 리스크가 존재한다는 판단\"이라고...",
         "link": "https://www.yna.co.kr/view/AKR20261003001100108?input=1195m",
@@ -174,14 +174,6 @@
         "score": 70
       },
       {
-        "title": "美 9월 고용 2.9만명 증가 그쳐 '쇼크'…실업률 4.2%로 뛰어",
-        "summary": "실업률 역시 전월보다 소폭 상승해 4.2%를 기록했다. 2일(현지시간) 미 노동부 노동통계국 발표에 따르면... 별도의 가계조사를 통해 산출되는 9월 실업률은 4.2%로 집계돼 전월 및 시장 예상치였던 4.1%보다 0.1%포인트...",
-        "link": "https://www.fnnews.com/news/202610022223167292",
-        "source": "파이낸셜뉴스",
-        "published": "2026-10-02T22:29:00+09:00",
-        "score": 70
-      },
-      {
         "title": "미국 9월 고용 2만 9천 명 증가에 그쳐…실업률 4.2%",
         "summary": "다우존스가 집계한 전문가 전망치는 8만 4천 명입니다. 실제 일자리 증가 숫자가 전문가 전망치의 3분의 1 수준도 안 된 겁니다. 실업률은 4.2%로 한 달 전(4.1%)보다 소폭 올랐습니다. (사진=연합뉴스)",
         "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781439&plink=ORI&cooper=NAVER",
@@ -196,9 +188,25 @@
         "source": "KBS",
         "published": "2026-10-02T22:47:00+09:00",
         "score": 66
+      },
+      {
+        "title": "상승폭 키우는 비트코인, 美 물가 둔화·업토버 기대감 [주간코인시황]",
+        "summary": "미국 연방준비제도(Fed·연준)가 인플레이션 지표로 중요하시는 8월 개인소비지출(PCE) 가격지수는 전년 동월 대비 3.4% 상승해 시장 예상치를 밑돌았다. 여기에 통상 비트코인이 강세를 보여온 10월, 이른바 '업토버...",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171276",
+        "source": "조선일보",
+        "published": "2026-10-03T06:20:00+09:00",
+        "score": 60
       }
     ],
     "금융시장": [
+      {
+        "title": "美 국채금리 또 최고치 경신…CD·채권 관련 ETF에 돈 몰려",
+        "summary": "3줄 요약 ㆍTIGER CD금리투자 ETF 5576억원 순유입 ㆍKODEX 단기채권 등 단기채 ETF 매수세 ㆍ미 10년물 국채 금리, 또 최고치 경신 최근 미국 10년물 국채 금리가 24년 만의 최고치인 장중 연 5.34%까지 오르는 등...",
+        "link": "https://www.chosun.com/economy/money/2026/10/03/SH742IYAUBBNXGZC7A7AJSYRA4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-10-03T17:31:00+09:00",
+        "score": 160
+      },
       {
         "title": "[머니플로우] 금리 고공행진에 CD·채권 관련 ETF 인기 '쑥'",
         "summary": "(서울=연합뉴스) 고은지 기자 = 최근 미국 등 주요국 국채금리 급등세가 이어지면서 금리나 채권 수익률을 따르는 금융상품이 인기를 끌고 있다.",
@@ -230,24 +238,24 @@
         "source": "YTN",
         "published": "2026-10-03T06:22:00+09:00",
         "score": 130
-      },
-      {
-        "title": "금리·유가 부담 버텨낸 코스피…5거래일 만에 ‘7천피’ 회복",
-        "summary": "코스피 지수가 2일 미국 장기 국채금리와 국제유가에 대한 경계 속에서도 강보합으로 7000선을 회복했다. 코스피는 이날 전장 대비 32.39포인트(0.46%) 오른 7003.74에..",
-        "link": "https://www.mk.co.kr/news/stock/12167274",
-        "source": "매일경제 : 증권",
-        "published": "2026-10-02T16:33:53+09:00",
-        "score": 116
       }
     ],
     "산업·과학": [
       {
-        "title": "[사설] 배터리 시장 커지는데 韓기업 부진…반전 총력전 나서야",
-        "summary": "올 들어 글로벌 전기차용 배터리 시장이 20%(1~8월) 성장했지만 국내 배터리 3사는 점유율이 동반 하락... 지난달 국내에서 판매된 국산 전기차조차 중국산 배터리 장착 비중이 40%에 달한다. ‘10대 핵심전략산업’으로...",
-        "link": "https://www.hankyung.com/article/2026100210331",
+        "title": "원전 파운드리, 반도체 신화 이을까…K기업, 美 심장부 뚫는다 [분석+]",
+        "summary": "이에 따라 대미투자가 원·달러 환율과 금리에 미치는 직접적인 영향은 제한적이라는 판단이다. 대신증권은 이같은 불확실성 속에서도 원전 관련 기업의 수혜 가능성은 높게 봤다. 원전 주기기와 기자재를 비롯해...",
+        "link": "https://www.hankyung.com/article/2026100179916",
         "source": "한국경제",
-        "published": "2026-10-03T00:26:00+09:00",
-        "score": 66
+        "published": "2026-10-03T16:44:00+09:00",
+        "score": 90
+      },
+      {
+        "title": "나스닥 1%, 美반도체지수 2% 상승…연휴 뒤 韓증시도 따라 웃을까",
+        "summary": "중동 정세 불안으로 급등한 에너지 가격이 안정되면 인플레이션 압력이 완화되고, 통화정책에도 긍정적인 영향을 줄 수 있다는 기대가 반영됐다. 그러나 시장의 낙관론은 오래가지 못했다. 국제유가는 G7의 공급 확대...",
+        "link": "https://www.mk.co.kr/article/12167729",
+        "source": "매일경제",
+        "published": "2026-10-03T10:06:00+09:00",
+        "score": 62
       },
       {
         "title": "원전 공론화위 출범…시민참여단 꾸려 원전 역할 숙의",
@@ -264,14 +272,6 @@
         "source": "연합뉴스 마켓+ 최신기사",
         "published": "2026-10-02T17:04:15+09:00",
         "score": 50
-      },
-      {
-        "title": "반도체 무관한 신세계·달바는 9개월째 순매수",
-        "summary": "미국과 이란의 전쟁으로 지난 3월 코스피지수가 20% 빠졌을 때도 253억원어치 순매수를 기록했고, 7월 22.2% 하락했을 때는 평균 수준인 702억원어치를 매수했다. 화장품 수출 실적이 확인되면서 올해 실적 기대가...",
-        "link": "https://www.hankyung.com/article/2026100210381",
-        "source": "한국경제",
-        "published": "2026-10-02T18:05:00+09:00",
-        "score": 50
       }
     ],
     "부동산": [
@@ -284,20 +284,12 @@
         "score": 130
       },
       {
-        "title": "89만 가구 공공임대가 전세난 해법?…필요한 건 서울 아파트[아기곰의 ...",
-        "summary": "정부가 전월세 시장 안정을 위해 2030년까지 공적주택 118만 8000가구를 공급하겠다고 한다. 특히 눈길을 끄는 것은 전체 물량의 75.2%를 차지하는 공공임대다. 89만3000가구를 공공임대로 제공하여 불붙기 시작한...",
-        "link": "https://magazine.hankyung.com/business/article/202610017597b",
-        "source": "한국경제",
-        "published": "2026-10-03T11:36:00+09:00",
-        "score": 122
-      },
-      {
-        "title": "얼어붙은 부동산 거래 현장…서울 아파트 매수심리 두달 만에 17p 급랭",
+        "title": "“집값 오르는데 살 사람 사라졌다”…‘거래절벽’ 짙어지는 서울 아파...",
         "summary": "미국 국채금리가 5%대에서 고착화되고 있는 가운데 기준금리 및 주택담보대출 금리 인상에 대한 불안도 매수 수요 위축에 영향을 미쳤다는 분석이다. 3일 KB국민은행 KB부동산의 주간 아파트 시계열 데이터에 따르면...",
         "link": "https://www.sedaily.com/article/20097782?ref=naver",
         "source": "서울경제",
         "published": "2026-10-03T14:01:00+09:00",
-        "score": 106
+        "score": 102
       },
       {
         "title": "강남구 압구정동 신현대9차 75억원 거래… 서울 아파트 실거래가 [MAI부동산]",
@@ -306,25 +298,17 @@
         "source": "매일경제 : 부동산",
         "published": "2026-10-02T09:12:18+09:00",
         "score": 90
+      },
+      {
+        "title": "서울 집값 격차 줄었다는데…서민 ‘내 집’은 더 멀어졌다",
+        "summary": "2일 KB부동산에 따르면 9월 서울 아파트 5분위 배율은 6.28배로 집계됐다. 올해 1월 6.92배를 기록한 뒤 2월부터 8개월 연속 하락했다. 5분위 배율은 아파트를 가격순으로 다섯 구간으로 나눈 뒤 상위 20%인 5분위 평균...",
+        "link": "https://www.sedaily.com/article/20097947?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-03T17:56:00+09:00",
+        "score": 86
       }
     ],
     "국제경제": [
-      {
-        "title": "트럼프 '수출금지' 압박에 유럽 \"비축유 방출 합의\"",
-        "summary": "더 연비도 좋고 오래 탄다고 해서 디젤 트럭을 많이 샀는데…] [스티브 트레인 / 메인주 포틀랜드 어민 : 트럼프가 시작한 무역전쟁과 관세, 실제 전쟁들까지 모두 우리가 부담해야 할 비용으로 돌아왔습니다.] 하지만...",
-        "link": "https://www.ytn.co.kr/_ln/0104_202610030719297398",
-        "source": "YTN",
-        "published": "2026-10-03T07:19:00+09:00",
-        "score": 106
-      },
-      {
-        "title": "트럼프, '알래스카 투자' 압박…또 관세카드 꺼낼까",
-        "summary": "유럽의 비축 경유 방출로 국제 유가 안정에 따른 미국 내 경윳값 하락을 노린 것인데 이를 위해 트럼프 대통령은 '미국산 경유 수출금지' 카드로 유럽을 압박했었습니다. (사진=AP, 연합뉴스)",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781770&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-10-03T10:40:00+09:00",
-        "score": 100
-      },
       {
         "title": "“관세 할인되나요”…대만서 ‘트럼프 얼굴’ 닮은 기암괴석 화제",
         "summary": "대만의 한 해안가에서 도널드 트럼프 미국 대통령의 옆얼굴을 빼닮은 기암괴석이 발견돼 화제를 모으고 있다. 3일 대만 연합조보와 홍콩 성도일보 등에 따르면 대만 북부 신베이시 루이팡..",
@@ -342,12 +326,28 @@
         "score": 88
       },
       {
-        "title": "‘고용쇼크? 오히려 좋아’ 美금리인상 우려 완화…나스닥·엔비디아 장...",
-        "summary": "9월 미국 고용지표가 예상보다 부진한데다 연방준비제도(Fed·연준)의 10월 기준금리 인상에 대한... 예상보다 부진한 고용 지표에 금리 선물시장에선 연준이 10월 연방공개시장위원회(FOMC)에서 기준금리를 동결할...",
-        "link": "https://biz.heraldcorp.com/article/10892425?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-03T09:52:00+09:00",
-        "score": 88
+        "title": "[뉴욕증시] 나스닥 장중 사상 최고...엔비디아·AMD 사상 최고",
+        "summary": "시카고상업거래소(CME)그룹 페드워치에 따르면 금리 선물 시장에서는 연준이 이달 27~28일 연방공개시장위원회(FOMC)에서 기준 금리를 3.75~4.0%로 동결할 가능성이 77.3%에 이르는 것으로 판단했다. 나스닥...",
+        "link": "https://www.fnnews.com/news/202610030530085246",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-03T05:35:00+09:00",
+        "score": 80
+      },
+      {
+        "title": "고용 부진에 금리인상 우려 완화…나스닥 1.2% 상승",
+        "summary": "예상보다 부진한 고용 지표에 금리 선물시장에선 연준이 10월 연방공개시장위원회(FOMC)에서 기준금리를 동결할 확률을 전날 75.6%에서 이날 오후 77.9%로 높였습니다. 시장에선 위험선호 심리가 살아나면서 특히...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005931265",
+        "source": "MBN",
+        "published": "2026-10-03T10:26:00+09:00",
+        "score": 80
+      },
+      {
+        "title": "트럼프, '알래스카 투자' 압박…또 관세카드 꺼낼까",
+        "summary": "지난해 트럼프 대통령이 한국을 비롯한 전 세계 무역 대상국에 부과한 국제비상경제권한법(IEEPA)에 따른 상호관세는 미 연방대법원의 위헌 결정으로 무효가 됐지만, 아직 무역법 301조 조사를 통한 관세를 부과할 권한이...",
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781770&plink=ORI&cooper=NAVER",
+        "source": "SBS",
+        "published": "2026-10-03T10:40:00+09:00",
+        "score": 80
       }
     ],
     "AI와 경제": [
@@ -394,14 +394,6 @@
         "score": 24
       },
       {
-        "title": "전국 주유소 기름값 20주째 하락…휘발유·경유 1800원대",
-        "summary": "이번 주 국제 유가는 중동 원유 수출 회복 및 사우디 동서 송유관 재가동으로 떨어졌으나 제한된 석유제품 공급이 하락 폭을 제한했습니다. 수입 원유 가격 기준인 두바이유는 지난주보다 배럴당 5.5달러 내린...",
-        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5222846",
-        "source": "매일경제",
-        "published": "2026-10-03T10:49:00+09:00",
-        "score": 24
-      },
-      {
         "title": "“메모리, 누가 고점이래? 소부장은 이제 시작”…AI가 투자 판도 바꾼...",
         "summary": "보면 코스피 9000대도 전혀 부담스럽지 않다. 수급만 없었으면 천천히 1만선까지 갔을 것”이라고 말했다. 증권가 전망에 따르면 코스피 상장사 영업이익은 내년에도 35% 안팎 늘어 글로벌 최고 수준의 성장률을 기록할...",
         "link": "https://www.mk.co.kr/article/12167718",
@@ -410,11 +402,19 @@
         "score": 24
       },
       {
-        "title": "은행권 ‘AI 해킹’ 국정감사 도마에…금융위 보안 책임 따진다 [머니뭐...",
-        "summary": "등 부동산 금융정책도 다뤄질 전망이다. 재정경제부는 오는 6일, 기획예산처는 8일 국회 재정경제기획위원회의 국정감사를 받는다. 정부가 발표한 종합부동산세 개편안을 비롯한 세제 개편 방안과 내년도 예산안, 초과...",
-        "link": "https://biz.heraldcorp.com/article/10892445?ref=naver",
+        "title": "세계식량가격 석 달째 상승…설탕 6.1%·곡물 5.1%↑",
+        "summary": "옥수수 가격은 미국의 수확량이 당초 예상보다 적고 브라질의 수출 가능 물량이 줄어들면서 5.6... 브라질의 충분한 수출 공급과 EU의 수입 수요 약화로 가금육 가격이 내렸고, 돼지고기도 주요 수출국의 풍부한...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02341926645609312&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-10-03T17:01:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "“삼전닉스, CAPEX 규모 믿어도 된다”…AI 투자 내년 1.2조달러 [헤럴드...",
+        "summary": "고금리 부담에도 AI 투자가 이어지고 있는 만큼 국내 반도체주를 둘러싼 투자 논리도 여전히 유효하다는... 최 본부장은 금리 부담이 이어지더라도 AI 산업의 투자 사이클은 꺾이지 않을 것으로 봤다. 그는 “금리가...",
+        "link": "https://biz.heraldcorp.com/article/10892565?ref=naver",
         "source": "헤럴드경제",
-        "published": "2026-10-03T10:39:00+09:00",
+        "published": "2026-10-03T15:29:00+09:00",
         "score": 24
       },
       {
@@ -450,12 +450,12 @@
         "score": 24
       },
       {
-        "title": "'현대차 투자' 미국 피지컬AI 기업, 1년만에 기업가치 5배↑",
-        "summary": "필드AI는 최근 진행 중인 투자 라운드에서 기업가치 100억 달러(약 13조4천억 원)로 7억 달러 규모의 신규 투자를 유치하고 있다고 미 경제매체 비즈니스인사이더가 소식통을 인용해 2일(현지시간) 보도했습니다. 이는...",
-        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005931311",
-        "source": "MBN",
-        "published": "2026-10-03T13:26:00+09:00",
-        "score": 24
+        "title": "AI 디스토피아 막을 방법 있나요",
+        "summary": "세계경제포럼(WEF)이 지난 6월 PwC와 공동으로 낸 보고서에서 AI 시대 초급 인력의 성장 경로를 지키려면 일자리 진입, 직무 설계, 인재 육성, 교육 시스템 연계 등 네 영역을 함께 재설계해야 한다고 제언한 이유도 여기에...",
+        "link": "https://www.mk.co.kr/article/12158031",
+        "source": "매일경제",
+        "published": "2026-10-03T21:01:00+09:00",
+        "score": 22
       }
     ]
   },
@@ -517,39 +517,39 @@
   ],
   "summary_en": {
     "date": "2026-10-03",
-    "generated_at": "2026-10-03T05:37:11.048052+00:00",
-    "briefing_hash": "e51d7bb3bc6767c6",
+    "generated_at": "2026-10-03T12:48:59.104892+00:00",
+    "briefing_hash": "224921790e04dc97",
     "key_headlines": [
       {
-        "title": "High-Interest Mortgage Loans Surge Amid Rate Hikes",
-        "summary": "Mortgages above 5% have increased by 2.3 trillion won, with loans exceeding 5.5% skyrocketing by 40 times, creating significant financial burden on vulnerable households as the government plans a 12.8% budget expansion that may prompt further rate hikes."
+        "title": "High-Rate Mortgage Debt Surges 2.3 Trillion Won as Price Control Struggles",
+        "summary": "Mortgage loans above 5% have increased dramatically, with rates exceeding 5.5% surging 40-fold, disproportionately impacting low-income households as the government struggles with inflation control through rate hikes."
       },
       {
-        "title": "Global Bond Markets Hit by Rising Treasury Yields",
-        "summary": "US, UK, and France government bond yields are surging with US 10-year yields threatening 5.5%, driven by government debt issuance, corporate AI investment demand, and high oil prices, triggering a cascade of rising corporate bond yields."
+        "title": "Global High-Interest Rate Tsunami Hits Real Economy Amid Record Treasury Yields",
+        "summary": "US 10-year Treasury yields threaten 5.5% as G7 governments increase bond issuance to manage debt, creating a vicious cycle that spreads to corporate bonds and increases borrowing costs for households and businesses."
       },
       {
-        "title": "September Consumer Price Inflation at 2.9%",
-        "summary": "Consumer price inflation fell to 2.9% in September due to increased fruit supply and government discount support, but the Bank of Korea forecasts October inflation will rise to around 3% as telecommunications rate base effects end."
+        "title": "September Consumer Price Rise Drops to 2.9% but October Expected to Rebound to 3%",
+        "summary": "September inflation cooled to 2.9% due to increased fruit supply and government discount support, but the Bank of Korea anticipates October inflation to rise back to around 3% as oil price increases accelerate."
       },
       {
-        "title": "G7 Agrees to Release Strategic Petroleum Reserves",
-        "summary": "In response to Trump's pressure and export ban threats, G7 and partner nations agreed to release up to 100 million barrels of strategic reserves over four months, primarily diesel, to stabilize soaring energy prices."
+        "title": "G7 Releases Up to 100 Million Barrels of Strategic Oil Reserve Under Trump Pressure",
+        "summary": "G7 and partner nations announced the release of up to 100 million barrels of diesel reserves over four months to stabilize surging fuel prices amid Middle East tensions and US export restrictions."
       },
       {
-        "title": "Korean Battery Companies Losing Market Share Despite EV Growth",
-        "summary": "Global electric vehicle battery market grew 20% in the first eight months of 2026, but Korean battery makers saw declining market share, with Chinese batteries accounting for 40% of domestically-sold EVs."
+        "title": "AI Agents Disrupt E-Commerce and Banking Sectors as Consumer Behavior Shifts",
+        "summary": "AI agent services like Meta's Muse and OpenAI's DOTS are reshaping consumer markets by automatically finding lowest prices and managing purchases, threatening traditional platform intermediaries and causing stock declines in banking and hospitality sectors."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea faces a critical economic crossroads as mortgage lending above 5% interest rates has surged dramatically, affecting vulnerable households at a time when the government plans a 12.8% budget expansion. Consumer inflation remained at 2.9% in September due to temporary factors like government subsidies and increased fruit supply, but the Bank of Korea expects October inflation to rebound to around 3%. Meanwhile, Korea's major export industries are facing headwinds—battery makers are losing global market share despite a booming EV market, and the broader economy is caught in a high-interest-rate environment that may require further policy adjustments.",
-      "Macro & Fiscal Policy": "September consumer price inflation dropped to 2.9%, marking a two-month low driven by increased agricultural output and government support programs, though the telecommunications rate base effect ending suggests October inflation will rise to approximately 3%. The government's plan to expand total expenditure by 12.8% next year may create additional inflationary pressures, potentially forcing the Bank of Korea to raise rates further. France's fiscal-political instability is weakening global confidence, with its government debt reaching 119% of GDP as it struggles to balance growth objectives with deficit reduction targets.",
-      "Financial Markets": "Global bond markets remain volatile as US Treasury yields approach 5.5% and European yields surge in tandem, reflecting government debt issuance needs and persistent inflation concerns. The Korean stock market recovered the 7,000-point level, with KOSPI closing at 7003.74 despite headwinds from rising interest rates and oil prices. US employment weakness has sparked debate about interest rate trajectories, with futures markets pricing in an 81.7% probability of rate freezes at the October Fed meeting, while Korean investors show increased interest in bond and CD-related ETFs as yields climb.",
-      "Industry & Technology": "Korea's battery industry faces a critical moment as global EV battery markets expand 20% but Korean companies lose market share, with Chinese batteries capturing 40% of Korea's domestic EV sales despite the sector's designation as a top-10 strategic industry. The government launched a nuclear power deliberation committee to assess atomic energy's future role in power supply planning, incorporating citizen input into energy policy decisions. Samsung's new memory semiconductor ETF is set to list on October 7th, and non-semiconductor companies like Shinsegae and Dalbaco continue attracting strong investment flows, suggesting market diversification beyond chip stocks.",
-      "Real Estate": "Seoul apartment purchase sentiment has plummeted 17 percentage points in two months as US Treasury yields stabilize at 5% and rising mortgage rates dampen buyer demand across major markets. The government plans to supply 1.188 million public housing units by 2030, with 893,000 designated as public rental housing to address the tight jeonse (long-term deposit rental) market. Real estate transaction activity remains frozen, with highest-price Seoul apartment transactions reaching 7.5 billion won in Gangnam's Apgujeong area, but overall market activity reflecting broad reluctance to enter at elevated interest rates.",
-      "International Economy": "Under Trump administration pressure threatening US diesel export bans, the G7 and partner nations agreed to release up to 100 million barrels of strategic petroleum reserves over four months, primarily targeting diesel price stabilization in Europe. US employment data came in weaker than expected in September, reducing market expectations for further rate hikes and supporting asset valuations, particularly in technology stocks. The US continues leveraging trade and investment pressure, extracting commitments from partners including Korea's 200 billion dollar investment pledge and participation in Alaska LNG projects.",
-      "AI & Economy": "AI agent technology is reshaping consumer markets with platforms like Meta's Muse and OpenAI's DOTS now executing tasks autonomously, causing financial shocks to intermediary platforms as banks and booking apps see stock prices plummet from competitive threats. XRP Ledger reports AI agent transactions surpassing 11 million deals, with executives highlighting Korea's optimal conditions for AI agent economy implementation given its semiconductor production capabilities and robust financial infrastructure. Google's successful satellite launch carrying custom AI chips signals an emerging 'space data center' competition among big tech companies, potentially revolutionizing cloud computing infrastructure and triggering substantial new investment flows.",
-      "Others": "Next week brings parliamentary audits for financial regulatory bodies focusing on banking sector hacking incidents, tax reform proposals, and real estate financing policy controversies. National gasoline prices have fallen for 20 consecutive weeks, with both regular gasoline and diesel remaining in the 1,800 won per liter range as international crude stabilizes. Debate intensifies between AI acceleration proponents like Elon Musk and speed-regulation advocates like Jensen Huang over the pace of artificial intelligence development, reflecting broader concerns about AI's economic disruption potential."
+      "Hot Economy News": "South Korea faces a critical economic challenge as high-interest mortgage debt surges, with loans exceeding 5.5% increasing 40-fold, placing severe strain on vulnerable households. The government's planned 12.8% budget expansion next year is fueling inflation concerns, prompting the central bank to consider further rate hikes despite economic headwinds. Policy coordination issues between fiscal and monetary authorities are highlighted as a key obstacle to effective inflation management. Meanwhile, global markets are experiencing unprecedented treasury yield increases, with the US 10-year yield threatening 5.5% levels, creating cross-border financial stress.",
+      "Macro & Fiscal Policy": "September consumer price inflation declined to 2.9%, marking a two-month low driven by increased agricultural output during the Chuseok holiday and government discount support programs totaling 193 billion won. However, the Bank of Korea forecasts October inflation will rise back to approximately 3% as the temporary telecommunications fee base effect expires and oil prices surge 14.8% due to Middle East tensions. Core inflation pressures remain elevated despite the headline figure decline, with petroleum product prices and processed food costs showing sustained upward momentum. France faces fiscal instability with national debt reaching 119% of GDP in Q2 2026, requiring deficit reduction from 5.4% to 5% of GDP, creating growth challenges for the eurozone.",
+      "Financial Markets": "US Treasury yields reached 24-year highs, with 10-year yields climbing to 5.34% intraday, prompting investor migration toward certificate of deposit (CD) and short-term bond ETFs as market participants seek stable income. The TIGER CD Rate ETF saw inflows of 557.6 billion won while KODEX short-term bond ETFs experienced strong buying pressure. Despite treasury yield volatility, US equity markets ended higher as weak employment data reduced Fed rate hike expectations, with probability of October rate hikes falling to 18.3% and hold probabilities rising to 81.7%. The Nasdaq reached all-time highs during the session, with semiconductor-related stocks like Nvidia and AMD gaining 1-2% on expectations of policy accommodation.",
+      "Industry & Technology": "South Korean nuclear power-related companies are positioned for significant growth opportunities as the government establishes a Nuclear Power Deliberative Committee to shape energy policy, with potential benefits extending to primary equipment and component manufacturers. A tri-nation memory semiconductor investment ETF tracking Korean, American, and Japanese listed companies will launch on October 7th, reflecting strong institutional interest in the sector amid AI infrastructure buildout. Despite global oil supply expansion through G7 strategic reserves, energy price stabilization could ease inflation pressures and support semiconductor valuations. Korean semiconductor companies are expected to achieve industry-leading earnings growth of approximately 35% next year, benefiting from sustained AI investment demand.",
+      "Real Estate": "Seoul apartment market trading volume has declined significantly amid elevated mortgage rates and central bank tightening expectations, with buyers delaying purchases despite modest price dispersion improvements. The gap between luxury and budget apartments (5-percentile ratio) narrowed to 6.28x in September from 6.92x in January 2026, yet affordable housing remains inaccessible for average consumers as absolute prices remain elevated. Next week's housing supply includes 185 new units across two locations nationwide, with limited demand absorption expected in the current high-rate environment. The highest-priced apartment transaction in Seoul reached 7.5 billion won for a 152.28 square-meter unit in Gangnam's Apgujeong area.",
+      "International Economy": "Nasdaq reached intraday record highs as weak US employment data reduced Fed rate hike expectations, with probability of policy holds rising to 77.9% for the October FOMC meeting despite persistent inflation concerns. The US 10-year Treasury yield remains above 5.3%, reflecting elevated bond market stress as governments worldwide increase debt issuance to manage fiscal obligations. Global oil market dynamics shifted as G7 governments released strategic reserves to counter price surges, though underlying Middle East supply concerns persist. Trump administration policies continue pressuring Korean companies and trade relationships, with discussions of Alaska LNG investment and potential tariff actions affecting long-term investment decisions.",
+      "AI & Economy": "Emerging always-on AI agents like Meta's Muse and OpenAI's DOTS are fundamentally disrupting e-commerce and financial intermediation by automating price comparison and transaction execution, causing sharp stock declines in traditional banking and platform companies. Amazon took defensive action by blocking Muse's access to its marketplace, illustrating the existential threat AI agents pose to platform-based business models that depend on consumer transaction intermediation. Chandler Pang highlighted South Korea's optimal conditions for developing an AI agent economy, citing advanced semiconductor production capabilities and robust financial infrastructure as competitive advantages. Google launched an AI-chip-equipped satellite via SpaceX as major tech firms race to develop space-based data centers, signaling growing competition in cloud infrastructure and AI compute capacity.",
+      "Others": "Next week's economic calendar includes parliamentary audits of finance and budget ministries focusing on banking sector cybersecurity breaches and tax policy reforms as major agenda items. Global food prices rose for the third consecutive month, with sugar up 6.1% and grains increasing 5.1%, driven by Brazil export supply constraints and reduced US corn production expectations. Semiconductor sector analysis indicates valuations appear justified despite elevated rates, with memory chip industry leaders positioning for sustained investment cycles worth $1.2 trillion globally in 2027. Debate intensifies between tech leaders regarding AI development pace, with Elon Musk advocating cautious approaches while Jensen Huang and others push for accelerated investment in AI infrastructure capacity."
     }
   }
 }
