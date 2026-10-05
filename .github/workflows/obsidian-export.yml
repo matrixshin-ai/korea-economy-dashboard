@@ -1,8 +1,7 @@
 name: Obsidian Daily Export
 
+# Scheduled export moved into daily-update.yml (evening run). Kept for manual backfill only.
 on:
-  schedule:
-    - cron: '0 14 * * 1-5'  # UTC 14:00 = KST 23:00 (Mon-Fri)
   workflow_dispatch:
 
 jobs:
