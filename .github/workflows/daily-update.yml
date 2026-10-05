@@ -34,7 +34,6 @@ jobs:
             case "$SCHEDULE" in
               '0 22 * * 0-5') TYPE=morning;  echo "Running morning (07:00 KST) update — RSS only" ;;
               '50 7 * * 1-6') TYPE=evening;  echo "Running evening (16:50 KST) update — full with OCR" ;;
-              '0 9 * * 1-5')  TYPE=obsidian; echo "Running obsidian (18:00 KST) update" ;;
               *)              TYPE=unknown;  echo "WARNING: Unrecognized trigger (event=$EVENT_NAME, schedule='$SCHEDULE') — YouTube dispatch skipped" ;;
             esac
           fi
