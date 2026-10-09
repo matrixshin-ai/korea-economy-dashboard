@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T01:47:01.026400",
+  "updated_at": "2026-10-09T05:33:37.732429",
   "indicators": [
     {
       "id": "sp500",
@@ -867,8 +867,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "157.79",
-      "change": -0.17,
+      "value": "158.07",
+      "change": 0.01,
       "category": "currency",
       "trend": [
         {
@@ -889,15 +889,15 @@
         },
         {
           "date": "2026-10-09",
-          "value": 157.79
+          "value": 158.07
         }
       ]
     },
     {
       "id": "cny_usd",
       "name": "위안/달러",
-      "value": "6.69",
-      "change": -0.24,
+      "value": "6.70",
+      "change": -0.12,
       "category": "currency",
       "trend": [
         {
@@ -918,15 +918,15 @@
         },
         {
           "date": "2026-10-09",
-          "value": 6.69
+          "value": 6.7
         }
       ]
     },
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "102.00",
-      "change": -0.24,
+      "value": "101.99",
+      "change": -0.15,
       "category": "currency",
       "trend": [
         {
@@ -943,7 +943,11 @@
         },
         {
           "date": "2026-10-08",
-          "value": 102.0
+          "value": 102.14
+        },
+        {
+          "date": "2026-10-09",
+          "value": 101.99
         }
       ]
     },
@@ -1083,8 +1087,8 @@
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$90.91",
-      "change": 2.98,
+      "value": "$90.48",
+      "change": -1.1,
       "category": "commodity",
       "trend": [
         {
@@ -1101,15 +1105,19 @@
         },
         {
           "date": "2026-10-08",
-          "value": 90.91
+          "value": 91.49
+        },
+        {
+          "date": "2026-10-09",
+          "value": 90.48
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,194.80",
-      "change": 1.31,
+      "value": "$4,214.80",
+      "change": 1.39,
       "category": "commodity",
       "trend": [
         {
@@ -1126,7 +1134,11 @@
         },
         {
           "date": "2026-10-08",
-          "value": 4194.8
+          "value": 4157.0
+        },
+        {
+          "date": "2026-10-09",
+          "value": 4214.8
         }
       ]
     }
