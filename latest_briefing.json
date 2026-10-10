@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-09T23:44:18.144103+09:00",
-  "date": "2026-10-09",
+  "generated_at": "2026-10-10T10:35:40.895654+09:00",
+  "date": "2026-10-10",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 567,
-    "total_used": 541,
-    "dropped_quality": 11,
-    "dropped_negative": 15,
+    "total_input": 570,
+    "total_used": 552,
+    "dropped_quality": 4,
+    "dropped_negative": 14,
     "per_category": {
-      "기타": 275,
-      "거시경제·재정": 55,
-      "부동산": 42,
-      "산업·과학": 38,
-      "금융시장": 94,
-      "국제경제": 32,
-      "AI와 경제": 5
+      "부동산": 50,
+      "기타": 266,
+      "국제경제": 44,
+      "거시경제·재정": 58,
+      "산업·과학": 30,
+      "금융시장": 100,
+      "AI와 경제": 4
     }
   },
   "headlines": [
@@ -132,20 +132,20 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "[김정식의 이코노믹스] 3고 시대엔 시중유동성 줄여 인플레이션 기대부...",
-        "summary": "한국은행은 반도체 수출 호조로 올해 경상수지 흑자를 4500억 달러로 전망하고 경제성장률도 3.3%로 상향 조정했다. 한국은행의 전망대로라면 경상수지 흑자는 국내총생산(GDP)의 20%에 근접하는 규모로 그동안 GDP 대비 가장...",
-        "link": "https://www.joongang.co.kr/article/25468323",
-        "source": "중앙일보",
-        "published": "2026-10-09T00:12:00+09:00",
-        "score": 138
-      },
-      {
         "title": "관세 수입 줄고, 국채 이자 늘어…美 재정적자 2조달러 문턱",
-        "summary": "최근 미국 국채금리가 인플레이션 압박 등으로 급등한 만큼 이자 부담을 더 늘어날 수 있다. WSJ는 \"미국 재정적자를 향한 우려의 목소리가 커지는 상황에서도 공화당과 민주당 모두 적자 감축에 적극적으로 나서지...",
+        "summary": "국내총생산(GDP) 대비 재정적자 비율도 높은 수준을 유지할 것으로 전망된다. 2026 회계연도의 최종 GDP 수치를 아직 발표되지 않았지만, 예산 전문가들은 GDP 대비 재정적자 비율이 6%를 넘어설 것으로 예상한다. 2025...",
         "link": "https://www.mt.co.kr/world/2026/10/09/2026100913501991121",
         "source": "머니투데이",
         "published": "2026-10-09T14:07:00+09:00",
-        "score": 130
+        "score": 142
+      },
+      {
+        "title": "미국 올해 재정적자 2조달러 육박…트럼프 관세에 발목, 국채에 덜미",
+        "summary": "국내총생산(GDP) 대비 재정적자 비율도 전년 5.8%에서 올해 6%를 넘어설 것으로 예상됐다. 초당파정책센터(Bipartisan Policy Center)의 샤이 아카바스 경제정책 담당 부소장은 “실업률이 낮고 중대한 비상사태도 없이...",
+        "link": "https://biz.heraldcorp.com/article/10897793?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-09T13:42:00+09:00",
+        "score": 116
       },
       {
         "title": "관세 더 받겠다더니 전년보다 줄어…미국 올해 재정적자 2조 달러 규모",
@@ -172,6 +172,14 @@
         "score": 100
       },
       {
+        "title": "미국 재정적자 2조달러 육박…전년보다 12% 증가, 2021년 이후 최대",
+        "summary": "국내총생산(GDP) 대비 재정적자 비율도 다시 높아질 전망이다. 시장에서는 지난해 5.8%였던 비율이 올해 6%를... 트럼프 행정부는 장기적으로 재정적자를 GDP 대비 3%까지 낮추겠다는 목표를 언급하고 있지만, 동시에...",
+        "link": "https://www.sedaily.com/article/20099920?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-09T15:30:00+09:00",
+        "score": 100
+      },
+      {
         "title": "美 재정적자 2조달러 육박…2021년 이후 최대",
         "summary": "국내총생산(GDP) 대비 재정적자 비율도 지난해 5.8%에서 올해 6%를 넘어설 전망이다. 재정 부담을 키운 주요 원인으로는 급증한 국채 이자가 꼽힌다. 올해 미국 정부의 국채 순이자 지출은 1조1000억달러로 전년 대비 11...",
         "link": "https://www.edaily.co.kr/News/Read?newsId=02161526645611280&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
@@ -180,52 +188,44 @@
         "score": 100
       },
       {
-        "title": "미국 올해 재정적자 2조달러 육박…트럼프 관세에 발목, 국채에 덜미",
-        "summary": "국채 금리가 치솟고 있어 향후 이자 부담까지 더해져 적자 규모가 더욱 확대될 수 있다는 전망이 나오고 있다. 미국 기준금리 인상 기조가 지속되고 있다는 점도 트럼프 정부의 부담으로 작용하고 있다. 8일...",
-        "link": "https://biz.heraldcorp.com/article/10897793?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-09T13:42:00+09:00",
-        "score": 100
-      },
-      {
         "title": "한국은행 10월 기준금리 ‘매파적 동결’ 전망…美 추가 긴축은 변수",
-        "summary": "오는 22일 한국은행 금융통화위원회를 앞두고 기준금리를 유지하면서도 추가 인상 가능성을 열어둘 것이라는 ‘매파적 동결’ 전망이 나왔다. 앞선 금리 인상이 경제에 미치는 영향을 살펴볼 필요가 있지만, 미국의 추가...",
+        "summary": "연준이 지난 7일(현지시간) 공개한 9월 연방공개시장위원회(FOMC) 의사록에 따르면 참석자 대다수는 연말까지... 우리금융경영연구소 역시 연준이 이달 27~28일 FOMC에서 정책금리 상단을 4.00%로 유지할 것으로 전망했다. 최근...",
         "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000021300&cp=nv",
         "source": "국민일보",
         "published": "2026-10-09T15:39:00+09:00",
         "score": 100
       },
       {
-        "title": "[기고] 잠재성장률 높일 인내자본",
-        "summary": "우리나라 국내총생산(GDP) 대비 연구개발비 비중은 2024년 기준 이스라엘에 이어 세계 2위다. 그런데 한국은행은 혁신 부족 등으로 총요소생산성의 기여도가 낮아진 점을 잠재성장률 하락의 한 원인으로 꼽았다. 연구개발...",
-        "link": "https://www.fnnews.com/news/202610081824171020",
-        "source": "파이낸셜뉴스",
-        "published": "2026-10-08T18:25:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "미국 재정적자 2조달러 육박…전년보다 12% 증가, 2021년 이후 최대",
-        "summary": "문제는 최근 국채금리 급등의 영향이 아직 이자비용에 충분히 반영되지 않았다는 점이다. 미국의 공공 보유 부채가 32조 달러(약 4경2925조 원)에 이르는 가운데 높은 국채 수익률이 장기간 이어질 경우 정부의 연간...",
-        "link": "https://www.sedaily.com/article/20099920?ref=naver",
-        "source": "서울경제",
-        "published": "2026-10-09T15:30:00+09:00",
+        "title": "어쩌다 프랑스가 '유럽의 환자'…50년 재정적자, 포퓰리즘 만성병",
+        "summary": "프랑스의 10년 만기 국고채 금리가 5%에 육박하며 20여 년 만에 최고치를 갈아치우면서 그리스와... 설상가상으로 고금리 시대가 오면서 위험이 극대화하고 있습니다. 초저금리 시절 발행한 대규모 국채 만기가...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000338994?division=NAVER",
+        "source": "SBS",
+        "published": "2026-10-10T08:50:00+09:00",
         "score": 80
       },
       {
-        "title": "미래기금 사업 9조6220억 현금 지원성… 野 “세수 줄면 감당 못해”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/09/134813124.1.jpg\" vspace=\"10\" />정부가 반도체 초호황에 따른 초과 세수를 활용해 신설하는 미래대응기금의 내년도 사업 10건 중 1건은 현금 지원성 사업인 것으로 나타났다. 아동기본수당과 청년미래적금, 농어촌 기본소득 등에 내년에만 9조6000억 원 넘는 기금이 투입된다. 특히 내년 농어촌 기본소득 시범사업에는 올해 예산의 5배가 편성된다. 야당은 미래 성장동력에 투자한다는 기금 설립 취지와 맞지 않는 데다 반도체 경기가 꺾여 세수가 줄 때 한번 시작한 현금 지원을 줄이기 어려울 수 있다고 비판했다.● 미래기금 사업 10건 중 1건은 현금 지원 8일 국회 재정경제기획위원회 소속 국민의힘 박수영 의원실이 기획예산처에서 제출받은 자료를 분석한 결과 내년도 미래대응기금 사업 140건 가운데 현금 지원성 사업은 10%인 ...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261008/134812970/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-09T01:40:00+09:00",
-        "score": 76
+        "title": "프랑스 재정위기 확산 우려…유로존 “구제 없다” 선긋기",
+        "summary": "유럽연합(EU)은 원칙적으로 재정적자를 국내총생산(GDP)의 3% 이하, 공공부채는 GDP의 60% 이하로 관리하도록 요구하고 있다. 프랑스의 지난해 재정적자는 GDP 대비 5.1%, 공공부채는 115.6%에 달했다. 프랑스 정부는 올해 5.4%로...",
+        "link": "https://www.sedaily.com/article/20099944?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-09T19:16:00+09:00",
+        "score": 70
       },
       {
-        "title": "박완수 2기 본격 시동 … 산업·민생 양 날개 균형으로 경남대도약",
-        "summary": "▲경제성장률 전국 4위 ▲무역수지 44개월 연속 흑자 ▲역대 최고 고용률 ▲역대 최저 실업률 ▲지역내총생산(GRDP)과 총인구 비수도권 1위 ▲정부합동평가 전국 1위 ▲사회보장 체감도 1위 ▲청렴도 최상위권 유지 등 여러...",
-        "link": "https://view.asiae.co.kr/article/2026100721551557170",
-        "source": "아시아경제",
-        "published": "2026-10-08T11:10:00+09:00",
-        "score": 64
+        "title": "국세청 칼날 꽂혔다…3조원대 세수 확보 ‘가성비 조사’ 어디[세금GO]",
+        "summary": "개인 대상 비정기 세무조사 건수가 줄어들고 있지만, 부동산 탈세자에 대한 국세청의 칼날은 날카로워지고 있다. 국세청은 지난해 7월 임광현 국세청장 취임 이후 △강남 3구 등 고가 아파트를 취득한 외국인...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01705606645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-10-10T08:02:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "프랑스 재정 위기 확산 우려…유로존 “알아서 해결해야”",
+        "summary": "국내총생산(GDP)의 3％ 이하, 공공부채 60％ 이하로 관리해야 한다는 규정 등을 충족해야 합니다. 프랑스는 지난해 재정적자가 GDP 대비 5.1％, 공공부채는 115.6％에 달했습니다. 프랑스 정부는 올해 5.4％로 예상되는 GDP...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682023&ref=A",
+        "source": "KBS",
+        "published": "2026-10-09T19:46:00+09:00",
+        "score": 70
       }
     ],
     "금융시장": [
@@ -238,6 +238,14 @@
         "score": 158
       },
       {
+        "title": "美 국채금리 6%까지 치솟나…세계 최대 채권운용사 핌코 경고",
+        "summary": "시장에서는 도널드 트럼프 미국 대통령의 이란 전쟁으로 인한 인플레이션 압력과 인공지능(AI) 기업들의 대규모 차입 확대, 강력한 경제성장 전망 등을 국채금리 상승 요인으로 지목하고 있다. 인플레이션은 고정적인...",
+        "link": "https://www.mt.co.kr/world/2026/10/10/2026101009331771022",
+        "source": "머니투데이",
+        "published": "2026-10-10T09:47:00+09:00",
+        "score": 130
+      },
+      {
         "title": "코스피, 삼전 호실적에도 낙폭 키워 6600선…코스닥 880선",
         "summary": "이날 국내 증시는 미국 장기금리 움직임과 연방공개시장위원회(FOMC) 의사록, 옵션만기일과... 강진혁 신한투자증권 연구원은 “10월 FOMC 동결 전망이 우세한 가운데 9월 의사록에서 연내 한 차례 추가 인상...",
         "link": "https://www.edaily.co.kr/News/Read?newsId=03683446645610952&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
@@ -246,38 +254,30 @@
         "score": 126
       },
       {
+        "title": "흔들리는 코스피에도 10%수익 낸 ETF투자자, 비결은",
+        "summary": "특히 코스피지수가 금리 상승과 유가 상승 등 불확실성 등으로 흔들린 상황에서도 ETF(상장지수펀드) 투자전략을 통해 시장을 이긴 투자자들이 돋보였다. 지난 6~8일 ETF투자왕 대회 참가자 가운데 가장...",
+        "link": "https://www.mt.co.kr/stock/2026/10/10/2026100817133434741",
+        "source": "머니투데이",
+        "published": "2026-10-10T07:00:00+09:00",
+        "score": 112
+      },
+      {
         "title": "\"실적은 대박인데 주가는 왜 이래?\"…코스피 덮친 뜻밖의 공포[주末머니...",
         "summary": "변 연구원은 \"오는 28일 미국 연방공개시장위원회(FOMC)의 기준금리 추가 인상 가능성과 다음달 3일 미국 중간선거 등 정치·통화정책 불확실성이 맞물려 실적 발표 이후에도 관망세가 이어질 수 있다\"고 짚었다.",
         "link": "https://view.asiae.co.kr/article/2026100815150503872",
         "source": "아시아경제",
         "published": "2026-10-09T15:46:00+09:00",
         "score": 110
-      },
-      {
-        "title": "[속보]코스피, 삼전 호실적에도 2.62%↓ 6600선…코스닥 0.69%↓",
-        "summary": "9월 연방공개시장위원회(FOMC) 의사록에서는 연내 한 차례 추가 금리 인상이 적절하다는 판단이 다수 위원 사이에서 나타났다. 다만 데이터에 따라 정책을 결정한다는 기조가 재확인되면서 시장 충격은...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=04182006645610952&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-08T15:36:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "\"美 국채금리, 4분기 고점 찍고 떨어진다...10년물 최고 5.5% 전망\"[주末...",
-        "summary": "LS증권은 최근 채권 전략 보고서를 통해 미 국채 10년물 금리가 10월 연방공개시장위원회(FOMC) 이후부터 12월 FOMC 이전까지 고점을 형성할 가능성이 높다고 전망했다. 10년물 금리 상단은 5.38%, 과거 사례에서 최대 수준의...",
-        "link": "https://view.asiae.co.kr/article/2026100809312092429",
-        "source": "아시아경제",
-        "published": "2026-10-09T10:05:00+09:00",
-        "score": 106
       }
     ],
     "산업·과학": [
       {
         "title": "“전기차 안 팔려 죽을맛이었는데”…K배터리 기업, 호실적 낸 비결은",
-        "summary": "영업이익도 미국 인플레이션감축법(IRA)상 첨단제조생산 세액공제(AMPC) 예상 금액( 4169억원)을 빼고도 3391억원을 기록했다. 실적 호조는 전기차(EV)와 ESS 시장 활성화된 덕분이다. LG에너지솔루션은 매출액 확대의...",
-        "link": "https://www.mk.co.kr/article/12172123",
-        "source": "매일경제",
-        "published": "2026-10-09T06:00:00+09:00",
-        "score": 102
+        "summary": "LG엔솔 3분기 실적 발표 3분기 영업익 7560억 26%↑ 매출은 분기 기준 사상 최대 글로벌 전기차 시장 회복세 하반기 美 ESS 생산 확대에 배터리 3사 실적개선 기대감전기차..",
+        "link": "https://www.mk.co.kr/news/business/12172123",
+        "source": "매일경제 : 증권",
+        "published": "2026-10-09T05:59:17+09:00",
+        "score": 90
       },
       {
         "title": "이달에만 벌써 수익률 20% 육박…반도체 시들하자 ‘2차전지 ETF’ 질주",
@@ -288,54 +288,54 @@
         "score": 82
       },
       {
-        "title": "ESS로 '서프라이즈', K배터리의 부활?…\"AI가 만든 새 기회\"",
-        "summary": "수년간 전기차 전방수요 부진에 시달려온 K배터리의 '부활'이 조심스럽게 거론되고 있다. 반전의... 현대차를 비롯해 BMW, 벤츠, 아우디, 포르쉐, 폴스타의 전기차·수소차 전략도 확인할 수 있다.",
-        "link": "https://www.mt.co.kr/industry/2026/10/09/2026100817181632529",
-        "source": "머니투데이",
-        "published": "2026-10-09T09:00:00+09:00",
-        "score": 66
-      },
-      {
         "title": "브랜드 아닌 ‘가격’이 통하는 시대…한·일·EU 15개국, 中전기차 공동대응",
         "summary": "프랑스서 장관 공동성명 태양광·범용반도체도 대상 전담협의체 구성해 대응 논의한국, 일본을 비롯한 주요국이 전기차(EV) 등 5개 주요 품목에 대해 구조적으로 과잉 생산되고 있다며 ..",
         "link": "https://www.mk.co.kr/news/economy/12172017",
         "source": "매일경제 : 경제",
         "published": "2026-10-08T22:17:52+09:00",
         "score": 60
+      },
+      {
+        "title": "현대차, 유럽 전기차 누적판매 50만대 돌파",
+        "summary": "현대자동차의 유럽 전기차(EV) 소매 판매량이 누적 50만 대를 넘어선 것으로 집계됐다. 2016년 순수전기차 아이오닉을 유럽에 판매하기 시작한 지 10년여 만이다. 현대차·기아의 합산 판매량은 109만6212대로...",
+        "link": "https://www.hankyung.com/article/2026100928651",
+        "source": "한국경제",
+        "published": "2026-10-09T17:38:00+09:00",
+        "score": 52
       }
     ],
     "부동산": [
       {
-        "title": "강원 아파트 분양가 급등…1년 새 최대 18% 올라",
-        "summary": "[김선아/부동산 분양 평가 전문 기업 팀장 : \"인건비와 자재비가 여전히 높고 공사비 부담도 계속되고 있습니다. 이런 상황이 이어지면 앞으로 나오는 신규 단지의 분양가도 더 높아질 가능성이 있습니다.\"] 주택 경기...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682090&ref=A",
-        "source": "KBS",
-        "published": "2026-10-09T21:35:00+09:00",
+        "title": "\"어차피 아파트 당첨돼도 수십억 못내요\" 요즘 20·30대, 청약통장 깨서...",
+        "summary": "분양 평가 전문 회사인 리얼하우스가 한국부동산원 자료를 분석한 결과 올해 8월 기준 서울에서 분양된 전용면적 59㎡ 아파트의 평균 분양가는 15억9343만원이었다. 현재 수도권과 규제지역의 주택담보대출 한도가...",
+        "link": "https://www.fnnews.com/news/202610100828105881",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-10T09:09:00+09:00",
+        "score": 132
+      },
+      {
+        "title": "‘부동산 평탄화’의 착각…집값 좌우할 5대 변수 [스페셜리포트]",
+        "summary": "송승현 도시와경제 대표는 “주담대 금리가 5% 안팎에서 수개월 지속된다면 서울 외곽·중저가까지... 김인만 김인만부동산경제연구소장은 “수도권 외곽까지 가격이 오른 뒤 강남 조정이 마무리되면 다시 강남...",
+        "link": "https://www.mk.co.kr/article/12166948",
+        "source": "매일경제",
+        "published": "2026-10-10T10:01:00+09:00",
         "score": 116
       },
       {
-        "title": "서울서 아파트 살 때 빚, 역대 최저수준이라는데…[부동산AtoZ]",
-        "summary": "한국은행은 물가상승률이나 수도권 주택가격, 가계대출 추이 등을 종합적으로 고려해 결정하기로 했다. 미국 연방준비제도가 지난달 기준금리를 인상한 후 연내 추가 인상 가능성도 시사한 터라 우리나라도 영향을...",
-        "link": "https://view.asiae.co.kr/article/2026100823372436787",
-        "source": "아시아경제",
-        "published": "2026-10-09T07:30:00+09:00",
+        "title": "“이 가격이면 기존 아파트 사지”…분양가 치솟자 생기는 일[손바닥부...",
+        "summary": "서울 집값을 결정하는 것은 무엇일까. 금리와 대출, 세금 등 여러 변수가 있지만 앞으로 주목해야 할 것은 새 아파트의 가격이다. 신규 아파트 분양가격이 상승하면 기존 아파트 가격도 영향을 받는다. 새로 짓는 주택이...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01679366645611608&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-10-10T07:02:00+09:00",
+        "score": 116
+      },
+      {
+        "title": "월세 1000만원 ‘그사세 세입자’ 1년 새 36%가 늘었다 [부동산360]",
+        "summary": "#. 서울 서초구 반포동 래미안퍼스티지 아파트의 한 198㎡(이하 전용면적) 타입은 지난 9월 보증금 2억원에 월세 1000만원에 갱신 계약이 체결됐다. 직전에는 월세가 900만원이었지만 계약 연장 과정에서 한 번에...",
+        "link": "https://biz.heraldcorp.com/article/10898055?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-10T07:01:00+09:00",
         "score": 106
-      },
-      {
-        "title": "성북구 정릉우성아파트 84.96㎡ 8억 6800만원… 최근 3년 신고가 [MAI부동산]",
-        "summary": "MAI 부동산 2026년 10월 8일 국토부 실거래가 시스템에 신규 등록된 서울 성북구 정릉동 정릉우성아파트 전용 84.96㎡가 8억 6,800만원에 거래되며 최근 3년 내 신고가..",
-        "link": "https://www.mk.co.kr/news/realestate/12172162",
-        "source": "매일경제 : 부동산",
-        "published": "2026-10-09T08:36:14+09:00",
-        "score": 90
-      },
-      {
-        "title": "압구정동 신현대12차 100억원·반포동 래미안퍼스티지 68억원… 서울 아파트 고가 거래 [MAI부동산]",
-        "summary": "MAI 부동산 2026년 10월 8일 국토부 실거래가 시스템에 신규 등록된 서울 아파트 거래 중 강남구 압구정동 신현대12차 전용 182.95㎡가 100억원에 거래되며 등록 기준 ..",
-        "link": "https://www.mk.co.kr/news/realestate/12172157",
-        "source": "매일경제 : 부동산",
-        "published": "2026-10-09T08:36:14+09:00",
-        "score": 90
       }
     ],
     "국제경제": [
@@ -356,39 +356,31 @@
         "score": 110
       },
       {
-        "title": "“외국이 낸다”던 관세, 미국인 지갑 홀쭉하게…뉴욕연은 “소비재 물...",
-        "summary": "지난해 9월 제롬 파월 당시 연준 의장은 “관세가 인플레이션에 미치는 영향은 비교적 짧게 지속되는 일회성 가격 수준 상승이라는 것이 합리적인 기본 전망”이라면서도 “더 높고 지속적인 인플레이션의 위험을 면밀히...",
-        "link": "https://www.chosun.com/economy/int_economy/2026/10/09/MSSMILJNURHIFF3MXWRCNTDSVY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-10-09T06:08:00+09:00",
-        "score": 100
+        "title": "트럼프, 리사 쿡 연준 이사 해임 '2차전'… 연준 독립성 또다시 시험대",
+        "summary": "트럼프 대통령은 자신의 금리 인하 요구에 따르지 않는 연준에 불만을 표출해 왔으며 조 바이든 전 대통령이... AP통신은 트럼프 대통령이 연준에 금리 인하를 거듭 압박하는 가운데 쿡 이사의 해임을 재추진하면서 연준의...",
+        "link": "https://www.mt.co.kr/world/2026/10/10/2026101008165611429",
+        "source": "머니투데이",
+        "published": "2026-10-10T08:42:00+09:00",
+        "score": 90
       },
       {
-        "title": "글로벌 국채금리 또 '발작'…연준 '연내 추가인상' 시사",
-        "summary": "이런 가운데 공개된 지난달 미 연준의 FOMC 의사록에서는 추가 금리 인상 가능성이 제기돼 국채금리 상승에... [앵커] 지난달 연준 FOMC 의사록에서는 금리 인상을 시사하는 내용이 공개됐다면서요? [기자] 네, 9월 FOMC...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000338925?division=NAVER",
+        "title": "트럼프, 리사 쿡 연준 이사 해임 재시도…다음 달 청문회",
+        "summary": "위원회에는 케빈 해싯 백악관 국가경제위원회(NED) 위원장과 키스 손더링 정부윤리국장 대행, 안드레아 루카스 평등고용기회위원회 위원장 등이 참여합니다. 트럼프 대통령은 위원회 구성을 지시한 지난 7일 자 대통령...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000339155?division=NAVER",
         "source": "SBS",
-        "published": "2026-10-08T11:43:00+09:00",
-        "score": 100
+        "published": "2026-10-10T09:35:00+09:00",
+        "score": 90
       },
       {
-        "title": "트럼프 관세 부메랑 현실화…美소비재 상승률 2.9%P↑",
-        "summary": "가격 상승은 수입품에만 그치지 않았다. 전체의 64%는 관세가 붙은 수입 소비재 가격이 오르는 직접 효과였고, 나머지 36%는 미국 기업의 생산비와 마진 변화 등을 거쳐 발생한 간접 효과였다. 미국 업체들이 수입 부품과...",
-        "link": "https://www.mk.co.kr/article/12172436",
-        "source": "매일경제",
-        "published": "2026-10-09T17:32:00+09:00",
-        "score": 88
+        "title": "트럼프, 리사 쿡 연준 이사 해임 재시도…백악관에 조사위 설치",
+        "summary": "위원회에는 케빈 해싯 백악관 국가경제위원회(NED) 위원장과 키스 손더링 정부윤리국장 대행, 안드레아 루카스 평등고용기회위원회 위원장 등이 참여합니다. 트럼프 대통령은 위원회 구성을 지시한 지난 7일 자 대통령...",
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790788&plink=ORI&cooper=NAVER",
+        "source": "SBS",
+        "published": "2026-10-10T03:56:00+09:00",
+        "score": 90
       }
     ],
     "AI와 경제": [
-      {
-        "title": "오픈AI, 예상 매출 27조원 줄어… AI 수익성 의구심에 투자 빨간불",
-        "summary": "금리 상승으로 투자금 회수까지 수년이 걸릴 수 있는 시설의 조달 비용도 높아지고 있다. 투자자들은 이러한 투자를 뒷받침할 고객과 현금흐름을 구체적으로 확인하려는 요구를 강화하고 있다. 오픈AI는 반도체와...",
-        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171742",
-        "source": "조선일보",
-        "published": "2026-10-09T16:30:00+09:00",
-        "score": 44
-      },
       {
         "title": "700억 달러 아니네?…오픈AI 매출 축소 전망에 ‘거품론’ 고개",
         "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/09/134814704.1.jpg\" vspace=\"10\" />생성형 인공지능(AI) 기업 오픈AI의 연간 환산 매출이 알려진 것보다 200억 달러(약 27조 원) 적은 것으로 나타났다. 투자자들이 부풀려 계산한 금액이, 회사의 실제 매출인 것처럼 잘못 받아들여진 탓이다. 시장의 기대에 못 미치는 숫자에 ‘AI 거품론’도 다시 고개를 들고 있다.8일(현지 시간) 파이낸셜타임스(FT)에 따르면 오픈AI의 지난달 말 연간 환산 매출은 약 500억 달러다. 기존 알려진 700억 달러보다 약 29% 적은 것이다. 투자자들 입장에서는 기대하던 기업 가치보다 훨씬 낮은 실적을 기록했다고 받아들일 수 밖에 없는 것이다.이같은 혼선은 투자자들이 기업 가치를 평가하기 위해 경쟁사 앤스로픽과 단순 비교하는 과정에서 생겼다. 앤스로픽은 매출을 계산할 때 클라우드...",
@@ -399,19 +391,19 @@
       },
       {
         "title": "\"AI 열풍, 다른 영역 모두 투자 위축\"…노벨경제학상 교수 '경고'",
-        "summary": "구축(밀어내기) 효과는 흔히 정부 지출을 늘릴 경우 금리가 상승해 민간 투자가 위축되는 현상을 뜻하지만 크루그먼 교수는 AI(인공지능) 열풍처럼 민간 지출이 막대할 경우에도 금리가 오른다고 설명했다. AI...",
+        "summary": "투자액을 GDP 대비 비율로 보면 2023년 초 이후 기술(정보 처리 및 소프트웨어) 투자액은 GDP 대비 1% 이상 규모가 늘었으나, 다른 산업 분야는 GDP의 0.8% 넘게 줄었다. 크루그먼 교수는 \"AI 붐이 다른 모든 산업을 밀어내고...",
         "link": "https://www.mt.co.kr/world/2026/10/09/2026100816375287514",
         "source": "머니투데이",
         "published": "2026-10-09T14:44:00+09:00",
         "score": 34
       },
       {
-        "title": "“매출 27조원 더 부풀려진 거였어?”…오픈AI 실적에 기술주 일제히 ‘휘청’",
-        "summary": "‘챗GPT’로 전 세계적인 AI(인공지능) 확산을 불러 일으킨 오픈AI의 실제 연 매출이 당초 시장에 알려진 규모보다 무려 200억달러(약 26조8800억원) 적은 사실이 확인돼 ..",
-        "link": "https://www.mk.co.kr/news/world/12172223",
-        "source": "매일경제 : 국제",
-        "published": "2026-10-09T10:53:56+09:00",
-        "score": 28
+        "title": "설립 7개월 만에 5명으로 구글 TFM 제쳐… 첫 투자 40억 유치[허진석의 톡톡 스타트업]",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/09/134810592.4.jpg\" vspace=\"10\" />고객 1만 명에 쿠폰은 500장 뿐이다. 누구에게 뿌릴지에 따라 매출이 갈린다. 은행 심사역은 어떤 대출을 승인할지 판단해야 하고, 공장장은 어느 설비가 멈출지 미리 헤아려야 한다. 고객 명단과 신용정보, 설비별 불량률은 모두 행과 열로 정리된 표로 관리된다. 기업의 하루는 이런 표 위에서 굴러간다. 지난달 28일 서울 강남구의 사무실에서 만난 유재민 넘즈에이아이 대표(32·서울대 컴퓨터공학부 조교수)는 “기업이 AI로 전환한다는 건 사람을 대신할 에이전트를 쓰는 것에 그치지 않고, 더 좋은 의사 결정으로 생산성을 높이는 게 목적”이라며 “그 목적을 위해서라면 언어보다 숫자가 더 중요하다”고 했다. 지금 인공지능(AI)이라고 불리는 거대언어모델(LLM)은 언어를 기반으로 학습한 탓...",
+        "link": "https://www.donga.com/news/Economy/article/all/20261009/134816001/2",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-10-10T01:40:00+09:00",
+        "score": 30
       },
       {
         "title": "오픈AI 연매출 예상보다 27조원 적었다…AI 낙관론에 ‘찬물’",
@@ -424,27 +416,27 @@
     ],
     "기타": [
       {
-        "title": "[제2서울핀테크랩 스타트업 CEO] 텍스트만 입력하면 1분 만에 음악 완성...",
-        "summary": "중국 경제사절단에 참여해 현지 기업과 기관을 대상으로 협력 기회를 확대했다. 현지 B2B 파트너와 콘텐츠 유통사, 크리에이터를 확보하고 국가별 마켓플레이스와 기업용 API 공급을 추진하고 있다. 세계경제포럼...",
-        "link": "https://magazine.hankyung.com/job-joy/article/202610093112d",
-        "source": "한국경제",
-        "published": "2026-10-09T23:08:00+09:00",
+        "title": "\"국세청 세법 개정 건의에 재경부 80% 퇴짜…재탕 174건\"",
+        "summary": "(세종=연합뉴스) 이대희 기자 = 국세청이 최근 3년 동안 재정경제부에 낸 세금 관련 법령 개정건의 10건 중 8건은 세법개정안에 담기지 못한 ...",
+        "link": "https://www.yna.co.kr/view/AKR20261009048800002",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-10-10T05:57:41+09:00",
         "score": 24
       },
       {
-        "title": "\"하루에 1조 벌었는데…\" 한국 개미들 다시 '미장' 가는 이유 [분석+]",
-        "summary": "서학개미들이 전날 기준 가장 많이 보유한 종목으로는 △테슬라 △엔비디아 △알파벳 △나스닥100 지수를 추종하는 'INVESCO QQQ TRUST SRS 1' ETF △미국 반도체 지수를 3배로 추종하는 '디렉시온 데일리 반도체...",
-        "link": "https://www.hankyung.com/article/2026100807756",
+        "title": "기름값 21주째 하락…휘발유·경유 1800원대",
+        "summary": "이번주 국제 유가는 중동 지역의 원유 수출 증가에도 미국의 대이란 대규모 군사작전 재개 가능성과 중동의 유조선 공격 확대에 따른 공급 차질 우려에 강보합세로 마감했다. 수입 원유 가격 기준인 두바이유는...",
+        "link": "https://magazine.hankyung.com/business/article/202610103252b",
         "source": "한국경제",
-        "published": "2026-10-09T22:12:00+09:00",
+        "published": "2026-10-10T08:16:00+09:00",
         "score": 24
       },
       {
-        "title": "美국민 과반 \"한국 핵잠 개발 찬성…핵무장엔 반대\"",
-        "summary": "응답자의 38%가 “한국산 수입품에 부과하는 관세를 낮춰야 한다”고 답했다. 지난해 33%보다 5%포인트 상승했다. 전체 수입품의 관세를 인하해야 한다는 응답은 37%였다. 한국의 대미 투자가 미국 경제에 도움이 된다는...",
-        "link": "https://www.hankyung.com/article/2026100929431",
-        "source": "한국경제",
-        "published": "2026-10-09T18:05:00+09:00",
+        "title": "주유소 기름값 21주째 하락…휘발유·경유 1천800원대",
+        "summary": "이번 주 국제 유가는 중동 지역의 원유 수출 증가에도 미국의 대이란 대규모 군사작전 재개 가능성과 중동의 유조선 공격 확대에 따른 공급 차질 우려에 강보합세로 마감했습니다. 수입 원유 가격 기준인...",
+        "link": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5223984",
+        "source": "매일경제",
+        "published": "2026-10-10T09:17:00+09:00",
         "score": 24
       },
       {
@@ -456,52 +448,52 @@
         "score": 24
       },
       {
-        "title": "맨시티, 얼마나 벌받아야 하나…거액 배상부터 2부 강등까지",
-        "summary": "2부리그에서는 중계권료와 광고·후원 수입이 크게 줄어든다. 재정 규정을 지키려면 선수단에 쓰는 돈도 줄여야 해 주축 선수들을 대거 내보낼 수 있다는 것이다. 한꺼번에 너무 많은 승점을 깎는 방식에도 문제가 있다....",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02568246645611280&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-09T15:45:00+09:00",
+        "title": "[TheTax] 권혁, 어떻게 15년간 4천억 추징 피했나…'편의치적'이 뭐길래...",
+        "summary": "문제는 이런 '편의치적'이라는 틈새를 이용해 조세도피와 저렴한 선원 고용 등으로 부당한 이익을 챙길 가능성이 있다는 점이다. 따라서 해운 선진국에서는 불법적인 세금 탈세, 편법적인 운영 등의 문제로 편의치적...",
+        "link": "https://www.mt.co.kr/economy/2026/10/10/2026100907463538440",
+        "source": "머니투데이",
+        "published": "2026-10-10T08:01:00+09:00",
         "score": 24
       },
       {
-        "title": "D램이 이끈 ‘빅테크 영업익 세계 1위’ 삼성… “내년엔 HBM4 주축”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/08/134813093.1.jpg\" vspace=\"10\" />삼성전자가 글로벌 빅테크들을 제치고 최초로 분기 영업이익 ‘100조 원’을 달성한 배경으로는 메모리 슈퍼사이클이 꼽힌다. 반도체 피크아웃(정점론) 논란 속에서도 메모리 수요는 여전히 치솟고 있다는 방증으로 풀이된다.  8일 삼성전자가 공개한 잠정 실적에는 부문별 상세 실적이 포함되지 않았지만, 반도체 사업부인 디바이스솔루션(DS) 매출 가운데 D램이 60∼70%를 차지했을 것이라는 시각이 우세하다.  인공지능(AI) 데이터센터 건설 붐으로 수요가 폭증한 데다 최근 대답에서 행동까지 이어지는 AI 에이전트 대중화가 본격화되며 D램, 낸드플래시 등 메모리는 품귀 상태이기 때문이다. 귀해진 메모리 가격은 급등하고 있다. 김선우 메리츠증권 애널리스트 역시 “이번 분기 D램과 낸드 가격이 ...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261008/134812813/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-09T01:40:00+09:00",
+        "title": "10월 첫째주 휘발유 평균 1857.6원…어느 주유소가 제일쌀까",
+        "summary": "이번 주 국제 유가는 중동 지역의 원유 수출 증가에도 미국의 대이란 대규모 군사작전 재개 가능성과 중동의 유조선 공격 확대에 따른 공급 차질 우려에 강보합세로 마감했다. 수입 원유 가격 기준인...",
+        "link": "https://biz.heraldcorp.com/article/10898093?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-10T08:50:00+09:00",
         "score": 24
       },
       {
-        "title": "北, 유엔서도 정동영 거론하며 적반하장…정부 \"정전협정 위반\" 사과 요...",
-        "summary": "트럼프 대통령이 북한과의 대화를 추진하며 미국이 사실상 방관하고 우리 정부가 머뭇거리는 사이, 북한의 목소리만 더욱 커지는 것 아니냔 우려가 미 조야에서 제기되고 있습니다. 미국 워싱턴D.C.에서 TV조선 백대우입니다.",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/09/2026100990181.html",
+        "title": "탑, 20년 팬사이트마저 등 돌렸다…\"앨범은 팬에게 내려주는 선물 아니...",
+        "summary": "최승현닷컴 측에 따르면 전시 예산은 약 900만원으로, 관람객 300명의 입장료 수입 750만원을 제외한 나머지는 운영자 두 명이 부담할 계획이었다. 그러나 첫 주 신청자는 약 20명에 그쳤고, 신청 기간을 2주에서 4주로...",
+        "link": "https://www.sportschosun.com/entertainment/2026-10-10/202610100100063040004046",
         "source": "조선일보",
-        "published": "2026-10-09T21:14:00+09:00",
+        "published": "2026-10-10T09:00:00+09:00",
         "score": 24
       },
       {
-        "title": "한국 3분의1 가격…‘스시자로’ 원정에 “공급 불안” 경고 터졌다",
-        "summary": "일본 의료기관에서 정식 처방을 받았더라도 필요한 수입 절차 없이 한국으로 가져오면 불법이다. 관세청에 따르면 마운자로와 위고비 등 비만치료제 불법 반입 적발 건수는 2024년 4건에서 올해 1~8월 5030건으로 폭증했다....",
-        "link": "https://www.joongang.co.kr/article/25468445",
+        "title": "“중공업 살아나면 돌아온단 착각”…‘경남 청년 엑소더스’ 저자의 일...",
+        "summary": "그 결과, 최근 경남지역도 제조업 경기가 회복하면서 전체 취업자 수가 늘고 청년 고용률이 높아졌다.... 김 교수는 청년 유출 배경으로 일자리 양뿐 아니라 질(임금·고용안정성·노동환경 등), 그리고 개인의 성장...",
+        "link": "https://www.joongang.co.kr/article/25468582",
         "source": "중앙일보",
-        "published": "2026-10-09T15:28:00+09:00",
+        "published": "2026-10-10T09:00:00+09:00",
         "score": 24
       },
       {
-        "title": "입법·행정·사법 이어… AI시대 '자강부' 설립을",
-        "summary": "보호무역 장벽이 높아지고 글로벌 공급망이 흔들리는 가운데 한국은 수출 시장과 필수 자원의 공급망을 동시에 지켜야 하는 과제에 직면했다. 식량과 에너지의 안정적인 확보부터 첨단기술 경쟁력 강화에 이르기까지...",
-        "link": "https://www.mk.co.kr/article/12172318",
-        "source": "매일경제",
-        "published": "2026-10-09T15:44:00+09:00",
-        "score": 22
+        "title": "일본 프로배구, 국내 넘어 아시아로…방콕서 정규리그 첫 해외 개최",
+        "summary": "일본 배구를 일방적으로 수출하기보다 아시아 각국 리그와 구단이 함께 성장하는 구조를 만들겠다는 구상이다. 선수 구성 규정도 바뀐다. SV리그는 2026~2027시즌부터 경기 중 동시에 뛸 수 있는 외국인 선수를 기존...",
+        "link": "https://sports.khan.co.kr/article/202610100832003?pt=nv",
+        "source": "경향신문",
+        "published": "2026-10-10T08:33:00+09:00",
+        "score": 24
       },
       {
-        "title": "은행권 채용문 활짝… “AI-전문인재 모셔요”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/06/134793271.1.jpg\" vspace=\"10\" />동아일보와 채널A가 14, 15일 서울 종로구 광화문광장에서 여는 일자리 박람회 ‘2026 리스타트 잡페어’에서는 시중은행들이 인재를 찾아 나선다. 최근 중시되는 사이버보안, 인공지능(AI) 전문성이 강한 인재를 집중적으로 선발하는 점이 특징이다.  KB국민·신한·하나·우리·NH농협·IBK기업 등 주요 은행들은 취업준비생을 위한 채용 상담·면접 부스를 마련하고 하반기(7∼12월) 채용을 안내한다. 은행들은 올해 은행별로 100∼200명 안팎의 인재를 선발하고 있다.  가장 많은 인원을 선발하는 곳은 하나은행으로 230여 명을 채용한다. 하나은행은 ‘하나엑스퍼트(HanAXpert)’ 전형을 신설했다. 투자은행(IB)·심사·리스크, 연금·신탁·자산관리, 자금·외국환 등 전문 인력을 선...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261008/134812398/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-09T01:40:00+09:00",
-        "score": 22
+        "title": "주유소 휘발유값 21주 연속 하락…전국 평균 1,857.6원",
+        "summary": "이번주 국제 유가는 중동 지역의 원유 수출 증가에도 미국의 대이란 대규모 군사작전 재개 가능성과 중동의 유조선 공격 확대에 따른 공급 차질 우려에 강보합세로 마감했습니다. 수입 원유 가격 기준인...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005935710",
+        "source": "MBN",
+        "published": "2026-10-10T10:24:00+09:00",
+        "score": 24
       }
     ]
   },
@@ -562,40 +554,40 @@
     }
   ],
   "summary_en": {
-    "date": "2026-10-09",
-    "generated_at": "2026-10-09T14:45:38.137179+00:00",
-    "briefing_hash": "96b790f6db3b8d04",
+    "date": "2026-10-10",
+    "generated_at": "2026-10-10T01:37:07.296147+00:00",
+    "briefing_hash": "6c5c434e6f8c4e62",
     "key_headlines": [
       {
-        "title": "Gyeonggi Province Apartment Jeonse Ratio Drops Below 50%",
-        "summary": "The proportion of jeonse (long-term lease) contracts in Gyeonggi Province apartments has fallen below 50% to 46.5% in September, down 7 percentage points in eight months as monthly rental acceleration spreads from Seoul. Regions like Guri have seen jeonse ratios plummet from 70% to 35%, prompting calls to review regulations that reduce jeonse inventory."
+        "title": "Gyeonggi Province Jeonse Ratio Drops Below 50% Amid Seoul Jeonse Crisis",
+        "summary": "The jeonse (key money lease) proportion in Gyeonggi Province apartments has fallen to 46.5% in September, down 7 percentage points in 8 months, with some areas like Guri experiencing dramatic drops from 70% to 35%, reflecting accelerating shift toward monthly rentals."
       },
       {
-        "title": "September Current Account Surplus Exceeds $50 Billion",
-        "summary": "South Korea's current account surplus reached $50 billion in September, marking the third consecutive month above $40 billion and putting annual targets of $450 billion within reach. The surge is driven by a more than doubling of semiconductor export prices in August and strong customs export data in September."
+        "title": "September Current Account Surplus Breaks 50 Billion USD, Annual Target of 450 Billion USD in Sight",
+        "summary": "South Korea's September current account surplus reached over 50 billion USD for the third consecutive month, driven by sharp increases in semiconductor export prices, putting the annual target of 450 billion USD within reach."
       },
       {
-        "title": "Youth Employment Rate Falls to 43.8%",
-        "summary": "Youth employment rate dropped to 43.8% in the first eight months, down 1.4 percentage points year-over-year, prompting the government to intensively review job creation initiatives. The government is focusing on youth, manufacturing, and construction employment sectors where weakness persists."
+        "title": "Youth Employment Rate Declines to 43.8%, Government Intensifies Job Creation Measures",
+        "summary": "Youth employment rate has dropped to 43.8% for January-August 2026, down 1.4 percentage points year-over-year, prompting the government to conduct intensive reviews of job creation initiatives across youth, manufacturing, and construction sectors."
       },
       {
-        "title": "OpenAI Annual Revenue Revised Down to $50 Billion",
-        "summary": "OpenAI's annualized revenue is approximately $50 billion as of September, $20 billion lower than previously reported figures, raising questions about AI profitability and dampening investor enthusiasm. The discrepancy arose from investor comparisons that inflated earlier estimates, reigniting AI bubble concerns."
+        "title": "US Fiscal Deficit Approaches 2 Trillion Dollars, Largest Since 2021",
+        "summary": "The US fiscal deficit is projected to reach nearly 2 trillion dollars in 2026, up 12% from the previous year and the largest since 2021, with the deficit-to-GDP ratio expected to exceed 6%, driven by interest payments on national debt and reduced tariff revenues."
       },
       {
-        "title": "U.S. Fiscal Deficit Approaches $2 Trillion in 2026",
-        "summary": "The U.S. fiscal deficit is projected to reach nearly $2 trillion in 2026, up 12% from the previous year and the largest since 2021, with the deficit-to-GDP ratio exceeding 6%. Interest payments on national debt alone consume $1.1 trillion while tariff revenue falls short of expectations."
+        "title": "OpenAI Annual Revenue Revised Down to 50 Billion USD From 70 Billion USD",
+        "summary": "OpenAI's annualized revenue was revised downward to approximately 50 billion USD as of September, down from previously reported 70 billion USD, raising concerns about AI bubble valuations among investors."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea's economy shows mixed signals with September's current account surplus exceeding $50 billion for the third consecutive month, driven by surging semiconductor export prices and strong customs data, putting annual targets near $450 billion. However, youth employment deterioration remains concerning with the employment rate dropping to 43.8%, down 1.4 percentage points year-over-year, prompting government intervention through intensive employment reviews across youth, manufacturing, and construction sectors. The housing market shows significant regional disparities, with Gyeonggi Province's jeonse (long-term lease) ratio collapsing below 50% to 46.5%, down from typical 70% levels as Seoul's housing affordability crisis accelerates rental market shifts.",
-      "Macro & Fiscal Policy": "The Bank of Korea has revised upward its economic growth forecast to 3.3% and current account surplus projection to $450 billion annually, with September's $50 billion surplus representing a strong month for Korea's external balance. In contrast, the U.S. faces mounting fiscal pressures with the deficit approaching $2 trillion in 2026, up 12% year-over-year and representing the largest since 2021, while the deficit-to-GDP ratio is expected to exceed 6%. Despite Trump administration efforts to reduce federal spending, including workforce reductions and subsidy cuts, revenue shortfalls from tariffs and rising interest payments on the national debt complicate deficit reduction prospects.",
-      "Financial Markets": "Domestic stock markets faced selling pressure despite strong corporate earnings, with KOSPI declining 2.62% to the 6,600 level and KOSDAQ dropping 0.69%, as uncertainty about U.S. Federal Reserve policy decisions and upcoming political events overshadow positive results. U.S. long-term treasury yields surged to 20-year highs amid inflation concerns and fiscal expansion worries, with the 10-year yield potentially reaching 5.5% before retreating in the fourth quarter. Meanwhile, domestic ETFs tracking U.S. stocks benefited from $20 trillion in inflows over the past month, though currency fluctuations significantly impacted returns for Korean investors.",
-      "Industry & Technology": "South Korea's battery industry shows signs of revival with strong earnings from energy storage systems (ESS) and electric vehicle markets, as LG Energy Solution posted 339.1 billion won in operating profit excluding U.S. IRA tax credits and achieved significant revenue expansion. Secondary battery ETFs surged with returns approaching 20% this month as semiconductor stocks weakened, with investors shifting focus to the burgeoning ESS market driven by AI infrastructure expansion. However, the electric vehicle sector faces structural overcapacity concerns with South Korea, Japan, and EU nations coordinating responses against Chinese EV dumping, signaling potential trade tensions ahead.",
-      "Real Estate": "Gangwon Province apartment supply prices surged up to 18% over the past year due to sustained high construction labor and material costs, with concerns that upcoming new projects will command even higher prices. Seoul's apartment purchase mortgage debt-to-income ratios have fallen to record lows as the Bank of Korea considers comprehensive factors in rate decisions, including inflation and housing price trends. High-end apartment transactions continued, with properties in Apgujeong District and Banpo District fetching 10 billion won and 6.8 billion won respectively, while Seongbuk-gu saw a 84.96-square-meter apartment sell for 868 million won, marking three-year highs.",
-      "International Economy": "The U.S. Federal Reserve's September FOMC minutes indicate majority support for at least one additional rate hike within the year, pushing global bond yields higher and raising mortgage rates to three-year highs above previous levels. Trump administration policies including tariffs are showing boomerang effects, with consumer goods prices rising 2.9 percentage points higher than anticipated as both direct tariff impacts and indirect effects through U.S. business cost structures fuel inflation. International debt markets face continued volatility with U.S. Treasury yields reaching 20-year highs amid fiscal deficit concerns and inflation expectations, prompting discussions about unsustainable fiscal trajectories across developed economies.",
-      "AI & Economy": "OpenAI's annualized revenue was revised downward to approximately $50 billion as of September, $20 billion less than previously reported, raising significant questions about AI profitability and sparking renewed bubble concerns in the technology sector. Rising interest rates and extended investment recovery timelines are increasing capital costs for AI infrastructure development, while investors increasingly demand concrete evidence of customer bases and cash flows rather than speculative valuations. Nobel Prize-winning economist Paul Krugman warned that the AI investment boom creates crowding-out effects similar to government spending, potentially diverting capital from other productive sectors as soaring interest rates limit financial availability.",
-      "Others": "Korean retail investors (Seohak-gaemi) continue investing in U.S. markets despite domestic volatility, with major holdings including Tesla, Nvidia, Alphabet, and semiconductor-tracking ETFs, showing confidence in foreign markets despite losing approximately 1 trillion won daily on domestic holdings. A Korean startup developing AI-powered music generation has expanded international collaboration through Chinese economic delegations and partnership initiatives across multiple countries. The Korea Development Bank's planned acceptance of external borrowing as part of a Korean sovereign wealth fund model demonstrates government efforts to establish a Temasek-like institution for strategic investments through innovative financial structuring."
+      "Hot Economy News": "South Korea's September current account surplus exceeded 50 billion USD for the third consecutive month, with annual target of 450 billion USD appearing achievable, primarily driven by sharp increases in semiconductor export prices following August price surges. Youth employment remains a critical concern, with the employment rate dropping to 43.8% in the first eight months of 2026, prompting intensive government oversight and policy implementation across youth, manufacturing, and construction sectors. Significant structural changes are occurring in the housing market, particularly in Gyeonggi Province where the jeonse proportion has fallen below 50% amid Seoul's jeonse crisis, with monthly rentals accelerating and dramatic variations across regions such as Guri where jeonse rates have plummeted from 70% to 35%.",
+      "Macro & Fiscal Policy": "The US fiscal deficit is projected to approach 2 trillion dollars in 2026, representing the largest deficit since 2021 and a 12% increase from the previous year, with deficit-to-GDP ratio expected to exceed 6%. Government spending remains elevated despite the Trump administration's efforts to reduce federal workforce and cut environmental energy tax credits, while tariff revenue expectations have fallen short, contributing to the fiscal deterioration. National debt interest payments alone are consuming 1.1 trillion dollars, and experts warn this trajectory is unsustainable given low unemployment rates and absence of major emergencies, suggesting structural fiscal challenges ahead.",
+      "Financial Markets": "The Korean stock market has experienced volatility with KOSPI falling below 6600 and KOSDAQ below 880, despite strong semiconductor company earnings, driven by rising US long-term interest rates reaching 20-year highs and concerns about potential Fed rate hikes. US bond yields have surged due to inflation fears from Middle East tensions, massive AI sector borrowing expansion, and strong economic growth expectations, with some market participants warning yields could reach 6% according to PIMCO. Domestically, ETF investors have outperformed the market, with some achieving double-digit returns despite KOSPI weakness, highlighting the importance of strategic asset allocation and diversification amidst political and monetary policy uncertainty ahead of the US midterm elections.",
+      "Industry & Technology": "South Korea's secondary battery (2nd generation battery) sector is experiencing strong recovery with LG Energy Solution reporting 25.6% operating profit growth in Q3 with record quarterly revenue, benefiting from global electric vehicle market recovery and increased US energy storage system production. Battery-related ETFs have surged with nearly 20% monthly returns this month, dominating top-performing ETF rankings as semiconductor largecap strength moderates, signaling sector rotation toward energy storage solutions and AI ecosystem integration. Hyundai Motor has surpassed 500,000 cumulative electric vehicle sales in Europe over ten years, with combined Hyundai-Kia sales reaching 1.096 million units, while major economies including Korea, Japan, and EU members are establishing joint coordination bodies to address Chinese electric vehicle overproduction and market penetration.",
+      "Real Estate": "Apartment jeonse (key money lease) proportions have collapsed in Gyeonggi Province with September at 46.5%, down from 53.5% in January, reflecting structural shifts toward monthly rentals with dramatic regional variations including Guri declining from 70% to 35% and Hwaseong at 26.1%. New apartment supply prices continue rising, with average selling prices for 59-square-meter apartments in Seoul reaching 1.593 billion won as of August 2026, straining young adults' purchasing power and prompting increasing numbers to withdraw from housing subscription plans despite expected windfalls. High-end monthly rents have surged dramatically with tenants paying 10 million won monthly rents with 200 million won deposits, representing a 36% increase in such high-end rentals year-over-year, as lending restrictions and high mortgage rates fundamentally reshape housing market dynamics.",
+      "International Economy": "The US Federal Reserve is under sustained political pressure from President Trump regarding interest rate decisions, with Trump recently criticizing the Fed and attempting to remove Board member Lisa Cook, challenging central bank independence as rate hikes continue and mortgage rates reach three-year highs. Federal Reserve interest rate increases have accelerated with recent 0.25 percentage point hike bringing rates to 3.75-4.00%, the first increase in approximately 3 years 2 months, and FOMC meeting minutes indicate majority participants favor additional rate increases through year-end despite Trump administration objections. US long-term Treasury yields have soared to 20-year highs, with mortgage interest rates reaching 3-year maximums, creating monthly interest payments of 1.9 million won on 300 million won loans, significantly pressuring household affordability and real estate markets.",
+      "AI & Economy": "OpenAI's annualized revenue was revised downward to approximately 50 billion USD as of September 2026, significantly below the previously reported 70 billion USD figure, resulting from investor miscalculations comparing the company to competitor Anthropic and raising fresh concerns about AI sector valuation bubbles. Nobel Prize-winning economist Paul Krugman warns that the AI investment boom is crowding out investment in other industries, with technology and software investment rising over 1% of GDP since early 2023 while other industrial sectors have declined by over 0.8% of GDP. An emerging Korean AI startup, Numz AI, founded only seven months ago with just five employees, has secured 4 billion won in initial investment and surpassed Google's TensorFlow performance, demonstrating enterprise AI applications focusing on numerical data optimization rather than language models for improved business decision-making.",
+      "Others": "Fuel prices have declined for 21 consecutive weeks with gasoline and diesel prices settling around 1,800 won per liter, though international crude prices remain supported by concerns over potential US military operations against Iran and expanding Houthi attacks on tankers in the Middle East despite increased regional crude exports. The Korean government is advancing plans to establish a sovereign wealth fund modeled after Singapore's Temasek, allowing the Korea Investment Corporation to utilize government-owned bank shares as seed capital while maintaining government ownership designation through special legal provisions and enabling external borrowing. Tax collection irregularities have drawn attention with the National Tax Service's tax law revision recommendations facing 80% rejection rate from the Finance Ministry over the past three years, while separate investigations reveal complex flag-of-convenience maritime schemes potentially enabling tax evasion and illegal labor practices worth billions in unpaid taxes."
     }
   }
 }
