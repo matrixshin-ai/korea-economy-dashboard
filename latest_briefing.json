@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-15T14:51:44.289738+09:00",
+  "generated_at": "2026-10-15T14:53:59.664803+09:00",
   "date": "2026-10-15",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 538,
-    "total_used": 512,
-    "dropped_quality": 10,
-    "dropped_negative": 16,
+    "total_input": 527,
+    "total_used": 504,
+    "dropped_quality": 11,
+    "dropped_negative": 12,
     "per_category": {
-      "부동산": 46,
-      "기타": 218,
-      "산업·과학": 40,
-      "국제경제": 42,
-      "거시경제·재정": 72,
-      "금융시장": 86,
-      "AI와 경제": 8
+      "기타": 222,
+      "부동산": 56,
+      "산업·과학": 39,
+      "국제경제": 26,
+      "금융시장": 95,
+      "거시경제·재정": 60,
+      "AI와 경제": 6
     }
   },
   "headlines": [
@@ -200,44 +200,12 @@
         "score": 116
       },
       {
-        "title": "美 9월 소비자물가 3.7% 상승…이달 금리 인상 확률 22%→46%",
-        "summary": "시카고상품거래소(CME) 페드워치에 따르면, 이날 물가 발표 이후 이달 27~28일 연방공개시장위원회(FOMC)에서 기준금리를 현행 연 3.75~4.00%에서 4.00~4.25%로 0.25%포인트 인상할 확률은 45.9%로 나타났다. 발표 전날 22.1%에서...",
-        "link": "https://www.chosun.com/economy/stock-finance/2026/10/14/P44INEQ37ZEUFFKGCKRHT77JSE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-10-14T22:20:00+09:00",
-        "score": 110
-      },
-      {
         "title": "소비자물가 충격에 뉴욕증시 하락…나스닥 1.9%&#8595;",
         "summary": "뉴욕증권거래소(NYSE)에서 트레이더가 업무를 보고 있다. UPI연합뉴스미국 9월 소비자물가지수(CPI) 상승률이 예상치를 웃돌며 인플레이션 우려가 고조되면서 14일(현지시간) 미국 뉴욕 증시가 일제히 하락했다.이날 다우존스30 산업평균지수는 전장보다 48.62포인트(0.09%) 내린 5만1621.48에 거래를 마쳤다.S&amp;P 500지수는 전장보다 8···",
         "link": "https://www.khan.co.kr/article/202610150738001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-10-15T07:38:00+09:00",
         "score": 110
-      },
-      {
-        "title": "소비자물가 충격에 뉴욕증시 하락…나스닥 1.9%↓",
-        "summary": "미국 9월 소비자물가지수(CPI) 상승률이 예상치를 웃돌며 인플레이션 우려가 고조되면서 14일(현지시간) 미국 뉴욕 증시가 일제히 하락했다. 이날 다우존스30 산업평균지수는 전장보다 48.62포인트(0.09%) 내린...",
-        "link": "https://www.khan.co.kr/article/202610150738001",
-        "source": "경향신문",
-        "published": "2026-10-15T07:38:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "뉴욕증시, 물가 충격·반도체 약세에 하락…중동 긴장 고조에 유가는 상...",
-        "summary": "▲ 미국 뉴욕증권거래소(NYSE)에서 트레이더들이 업무를 보는 모습 미국 뉴욕 증시가 예상을 웃돈 미 9월 소비자물가지수 상승률에 인플레이션 우려가 고조되면서 하락 마감했습니다. 연방준비제도의 기준금리...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008798325&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-10-15T06:59:00+09:00",
-        "score": 100
-      },
-      {
-        "title": "美 9월 소비자물가 3.7% 상승 예상치 상회…\"금리인상 압력\"",
-        "summary": "다음 연방공개시장위원회(FOMC) 회의는 오는 27~28일 열린다. 스티븐 주노 뱅크오브아메리카 이코노미스트는 이번 발표에 앞서 근원 CPI가 전월 대비 0.3% 오르면 이달 금리 인상에 무게가 실릴 것이라고 분석했다....",
-        "link": "https://www.hankyung.com/article/2026101425871",
-        "source": "한국경제",
-        "published": "2026-10-14T22:37:00+09:00",
-        "score": 90
       },
       {
         "title": "[속보] 미 9월 소비자물가 전년대비 3.7%↑…예상치 소폭 상회",
@@ -248,54 +216,86 @@
         "score": 90
       },
       {
-        "title": "美 9월 소비자물가 3.7%↑…4개월 만에 최고, 금리 인상 압박 재점화",
-        "summary": "이번 CPI는 오는 27~28일 열리는 연방공개시장위원회(FOMC)를 앞두고 발표되는 마지막 소비자물가 지표다. 연준은 지난달 물가 압력에 대응해 2023년 이후 처음으로 금리를 인상했다. 이후 연준 인사들은 추가 조치를...",
-        "link": "https://www.sedaily.com/article/20101747?ref=naver",
-        "source": "서울경제",
-        "published": "2026-10-14T22:34:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "예상 웃돈 美 9월 소비자물가… 금리인상 압박 재점화",
-        "summary": "물가 지표가 예상보다 높게 나오자 연준의 추가 금리 인상 가능성이 급부상하고 있다. 앞서 연준은 지난달 연방공개시장위원회(FOMC)에서 금리를 인상하면서 점도표를 통해 연내 1회 이상 추가 인상을 예고했다.",
-        "link": "https://biz.chosun.com/international/international_economy/2026/10/14/2LDDPIH77BH3XBWIBIS2DZDWIQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-10-14T21:57:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "기름값이 띄운 美 소비자물가…긴축 경계심 재확대 [글로벌 뉴스픽]",
-        "summary": "[기자] 네, 시카고상품거래소 페드워치에 따르면 이달 FOMC 인상 전망은 약 33%로, 하루 새 10%p 넘게... 특히 이달 FOMC가 중간선거 직전에 열리는 만큼, 트럼프 대통령과 충돌의 불씨를 만들기보다는, 한 차례 기다린 뒤 올릴...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000340016?division=NAVER",
-        "source": "SBS",
-        "published": "2026-10-15T06:18:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "[경제 포커스] 한은 “정부가 국민에게 현금 1000억 줘도 GDP 증가 효과는...",
-        "summary": "정부가 국민에게 현금 1000억원을 나눠주면 1년간 국내총생산(GDP)이 200억원 늘어나는 데 그친다는 한국은행... 재정지출 승수는 정부가 1원을 썼을 때 1년간 GDP가 얼마나 늘어나는지를 계산한 것이다. 이전지출은...",
-        "link": "https://biz.chosun.com/policy/policy_sub/2026/10/14/2XIQE2V6XRAOPHFOFALKZUD3BE/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-10-14T16:17:00+09:00",
-        "score": 82
-      },
-      {
-        "title": "\"삼전닉스 으악!\"… 물가·금리·AI 부채 삼중 쇼크, 반도체 직격탄",
-        "summary": "미국 9월 소비자물가지수(CPI)가 시장 예상치를 웃돌면서 인플레이션 재확산과 금리 인상 우려가 커진... 물가 상승 압력이 예상보다 강한 것으로 나타나면서 금리 인상 전망도 늘었다. 연방기금금리(FFR)...",
-        "link": "https://www.hankyung.com/article/2026101531196",
-        "source": "한국경제",
-        "published": "2026-10-15T09:17:00+09:00",
+        "title": "닛케이지수, 4% 가까이 하락...미 물가 충격 등 여파",
+        "summary": "전날 미국 뉴욕 증시에서 이어진 인공지능과 반도체 관련 종목들의 매도세에다 예상을 웃돈 미 9월 소비자물가지수 상승률 속 인플레이션 우려가 커진 것이 일본 증시에도 영향을 미친 것으로 보입니다. 도쿄...",
+        "link": "https://www.ytn.co.kr/_ln/0104_202610151133132784",
+        "source": "YTN",
+        "published": "2026-10-15T11:33:00+09:00",
         "score": 80
+      },
+      {
+        "title": "[굿모닝경제] IMF \"한국 성장률 전망 3.3%\" / 교복 입찰 '짬짜미' 적발 / 남는 쌀 6.6만 톤 격리",
+        "summary": "<table><tr><td><img align=\"left\" border=\"0\" src=\"http://img.vod.mbn.co.kr/vod2/605/2026/10/14/20261014080458_20_605_1431165_1080_7_s1.jpg\" width=\"160\" />국제통화기금, IMF가 올해 우리나라 경제성장률 전망치를 주요국 중 가장 큰 폭으로 올렸습니다.  3개월 전 2.6%에서 0.7%포인트 높인 3.3%로, 세계 평균과 선진국 평균보다도 더 많이 올린 건데요.  IMF는 우리나라가 반도체 수출이 탄탄한 만큼 내년에도 2%대 후반의 높은 성장세가 이어질 거라고 내다봤습니다.===  중고등학교 교복 입찰에서 짜고 친 교복 대리점들이 1억 원대 과징금을 물게 됐습니다.  경기 용인과 울산, 경북 영천 지역 대리점 10곳이 학교 19곳의 입찰 51건에서 담합했다가 공정거래위원회에 적발된 건데요.  공정위는 \"앞으로도 교복 담합에 엄중히 대응하겠다\"며 \"사전 예방과 감시 강화...",
+        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5224723",
+        "source": "MBN : 경제기사",
+        "published": "2026-10-14T07:00:00+09:00",
+        "score": 74
+      },
+      {
+        "title": "제주 수출 전년 대비 248% 증가, 무역수지 흑자 전환",
+        "summary": "주요 수출 품목 중에서는 반도체 수출액이 5억7천290만달러로 전체 수출액의 70.3%를 차지했다. 전년 대비 반도체 수출액 증가율은 295.9%이다. 증가율로만 보면 수송장비 중 기타 수송기기 수출액이 전년보다 무려...",
+        "link": "https://www.yna.co.kr/view/AKR20261015118900056?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-15T14:51:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "'빚더미' 프랑스의 선택...군비 늘리고 교실은 뒷전 [한방이슈]",
+        "summary": "프랑스 재정적자는 올해 말 GDP의 5.4%로 예상되고, 국가부채는 GDP의 115%를 넘었습니다. 국방은 늘려야 하고, 이자는 피할 수 없습니다. 그 사이에서 남은 몫을 나누다 보니 교실에 돌아간 것은 물가를 겨우 따라가는 수준에...",
+        "link": "https://www.ytn.co.kr/_ln/0134_202610151427145179",
+        "source": "YTN",
+        "published": "2026-10-15T14:27:00+09:00",
+        "score": 68
+      },
+      {
+        "title": "프로 창단 1년도 안돼 재정난+임금 미지급 파주FC..시민구단 논란 재점...",
+        "summary": "입장문에 따르면 파주의 2026시즌 총예산은 파주시 지원금 60억원, 경기도 지원금 5억원, 자체 수입 10억원, 관내 대기업 후원 15억원 등 총 90억원 규모로 수립됐다. 당시 대기업 후원이 무산될 경우 구단주가 부족 재원을...",
+        "link": "https://www.chosun.com/sports/football/2026/10/15/2CG6S5LGBVD43O3FHTVTCDC5AI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-10-15T14:26:00+09:00",
+        "score": 66
+      },
+      {
+        "title": "美 인플레 경고음 두 번 울렸다…CPI 이어 베이지북도 물가 비상",
+        "summary": "금융시장은 이날 CPI 발표 이후 오는 27~28일 연방공개시장위원회(FOMC)에서 추가 인상이 이뤄질 확률을 약 37%로 반영했다. 오스탄 굴스비 시카고 연방준비은행 총재는 이날 야후파이낸스와의 인터뷰에서 \"9월 소비자물가...",
+        "link": "https://www.fnnews.com/news/202610151031370856",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-15T10:38:00+09:00",
+        "score": 60
+      },
+      {
+        "title": "李 “브라질산 계란 고가수입 예산낭비 주장은 정치목적 허위사실”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/14/134841410.1.jpg\" vspace=\"10\" />이재명 대통령이 ‘브라질과의 정상회담을 위해 브라질산 계란을 고가에 수입해 800억 원의 예산을 낭비했다’는 일각의 주장에 대해 “정치적 목적의 허위사실”이라며 15일 정면으로 반박했다. 이 대통령은 이틀 전(13일)에도 브라질산 수입 계란에 대해 “허위사실을 기반으로 한 선동이 영향력이나 실력이 아님을 엄정하게 보여줄 필요가 있다”고 지적했다. 이 대통령은 15일 X(옛 트위터)를 통해 “정부가 브라질 정상회담을 위해 브라질산 계란을 개당 1300원에 사는데 800억 원을 낭비했고 이는 미국산 464원, 태국산 305원보다 3~4배 비싸다는 주장이 있다”고 했다. 그러면서 “그러나 브라질산 달걀의 개당 매입가격은 178원 정도로 시중 가격이었고 다만, 지구 반대편으로의 장거리 항...",
+        "link": "https://www.donga.com/news/Politics/article/all/20261015/134846958/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-10-15T13:51:00+09:00",
+        "score": 60
+      },
+      {
+        "title": "뉴욕증시, 물가 충격·반도체주 약세에 일제히 하락 마감",
+        "summary": "73%, 5.33% 내렸다. 인텔도 4.56% 떨어졌다. 한편 시카고상품거래소(CME) 페드워치에 따르면 금리선물시장은 이달 예정된 연준의 연방공개시장위원회(FOMC) 기준금리 인상 가능성을 약 35% 반영하고 있다.",
+        "link": "https://biz.chosun.com/international/international_economy/2026/10/15/NHQM7OTQPJHTPKQ2YHFBMRTWCY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-10-15T06:58:00+09:00",
+        "score": 60
+      },
+      {
+        "title": "여수 섬박람회 예산 3배로 늘었는데 사업변경 정부 승인은 안받아",
+        "summary": "14일 전남광주 여수시에 따르면 섬박람회는 2021년 8월 기본 사업비 248억원 규모로 기획재정부로부터 국제행사 승인을 받았다. 당초 국비 64억원, 지방비 64억원, 사업 수익 120억원으로 충당할 계획이었다. 사업비는...",
+        "link": "https://www.yna.co.kr/view/AKR20261014182200054?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-14T20:42:00+09:00",
+        "score": 58
       }
     ],
     "금융시장": [
       {
-        "title": "美 국채금리 급등에 월가 채권 거래 부진…BofA 평가손실 146조원",
-        "summary": "미국 국채금리 급등으로 월가 대형 은행들의 채권 거래 수익이 감소하고 보유채권 평가손실이 불어났다.... 국채금리가 상승하면 기존에 발행된 채권 가격은 하락한다. BofA가 보유한 채권 대부분은 만기까지 보유할...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02715846645613248&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-15T08:42:00+09:00",
-        "score": 130
+        "title": "코스피·코스닥 8%대 '블랙 먼데이'...금융위, 긴급 시장점검회의 소집",
+        "summary": "전날 발표된 미국의 9월 소비자물가지수(CPI)가 시장 예상치를 상회한 가운데, 미국 국채금리 상승세와 인공지능(AI) 산업의 투자 수익성 및 자금조달 여건에 대한 우려가 확산된 점이 악재로 작용했다. AI 인프라...",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=555335",
+        "source": "중앙일보",
+        "published": "2026-10-15T14:52:00+09:00",
+        "score": 126
       },
       {
         "title": "원화가치·주식시장 모두를 위협 … 최고치 넘나드는 美 국채 금리 향방",
@@ -306,47 +306,31 @@
         "score": 120
       },
       {
-        "title": "亞 큰손들 \"채권 대신 헤지펀드\"",
-        "summary": "아시아 연기금과 국부펀드, 초고액 자산가들이 헤지펀드 투자를 늘리고 있다. 안전 자산으로 여겨졌던 국채 수익률이 부진한 가운데 증시 변동성도 커지면서 주식과 채권 외에 다양한 투자..",
-        "link": "https://www.mk.co.kr/news/world/12175914",
-        "source": "매일경제 : 국제",
-        "published": "2026-10-14T17:31:55+09:00",
-        "score": 114
+        "title": "계속되는 外人투매에 무너진 코스피…증시 비중 5개월來 최저 [코스피 ...",
+        "summary": "미국의 인플레이션 우려로 고금리 장기화 가능성이 커진 가운데, 대규모 차입을 통해 데이터센터 등을 건설해온 AI 기업들의 투자 지속 가능성에도 의문이 제기되고 있다. 양현경 iM증권 연구원은 “외국인 순매도...",
+        "link": "https://biz.heraldcorp.com/article/10903547?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-15T11:18:00+09:00",
+        "score": 110
       },
       {
-        "title": "“코스피 급락할 때 이곳 주식은 뛴다” … 한달새 4조 몰린 브라질 EWZ",
-        "summary": "한국 주식 하락할때 브라질이 치고 나간다상장지수펀드(ETF)로 글로벌 분산에 신경 쓰는 대기업 김부장(48)은 남들은 울상인데 나홀로 웃고 있다. 한달 전 매수한 브라질 ETF가 ..",
-        "link": "https://www.mk.co.kr/news/stock/12175783",
+        "title": "코스피·코스닥, 두달여만에 동시 서킷브레이커…올해 5번째(종합2보)",
+        "summary": "(서울=연합뉴스) 황철환 김유향 기자 = 인공지능(AI) 산업 수익성 논란 재점화 등으로 글로벌 증시가 거세게 흔들리는 가운데 15일 유가증권시...",
+        "link": "https://www.yna.co.kr/view/AKR20261015093552008",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-10-15T14:29:10+09:00",
+        "score": 106
+      },
+      {
+        "title": "[속보] 코스피·코스닥 매도 사이드카 동반 발동…미 물가 충격에 급락",
+        "summary": "15일 국내 증시가 장 초반 급락하면서 유가증권시장과 코스닥시장에 매도 사이드카가 잇따라 발동됐다. 미국 물가 지표가 시장 예상을 웃돈 가운데 코스피는 5700선을 밑돌며 거래를 ..",
+        "link": "https://www.mk.co.kr/news/stock/12176424",
         "source": "매일경제 : 증권",
-        "published": "2026-10-15T05:00:00+09:00",
-        "score": 104
-      },
-      {
-        "title": "코스피 ‘죽음의 십자가’ 오나…美 금리·유가 변수가 갈림길",
-        "summary": "ㆍ데드크로스·연준 금리 인상이 향후 전망 갈림길 코스피가 차트 그래프상 기준을 하회하며 장기 하락... (연준)가 금리를 올리는지 봐야 한다. 200일선을 되찾으려면 코스피가 14일 종가보다 6.6% 넘게 올라야...",
-        "link": "https://www.chosun.com/economy/stock-finance/2026/10/15/HD64A6QLZNEMZEMYGUC2DFYRZA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-10-15T08:39:00+09:00",
-        "score": 100
+        "published": "2026-10-15T09:11:09+09:00",
+        "score": 106
       }
     ],
     "산업·과학": [
-      {
-        "title": "[스타트UP] 같은 중고 전기차, 배터리값은 왜 차이 날까…안 뜯고 진단...",
-        "summary": "달리는 전기차서 데이터 실시간 수집 AI로 현재 상태 넘어 남은 수명까지 분석 중고차 가격·보험·사용 후 배터리 진단까지 “올해 매출 6억, 2028년 손익분기점 목표” 중고 전기차 두 대가 있다. 연식도 같고 주행거리도...",
-        "link": "https://biz.chosun.com/industry/business-venture/2026/10/15/S22R23SE7ZAEBF24L3FY2VQW3Q/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-10-15T07:57:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "코스피 박스권 장세에도… 반도체 소부장-건설 중소형주 탄력",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/14/134844211.1.png\" vspace=\"10\" />코스피가 최근 2개월여간 6,000∼7,000대 초반 사이에서 박스권 장세를 보이는 가운데, 반도체 대형주 랠리에서 소외됐던 반도체 소재·부품·장비(소부장)와 배터리 및 화학, 건설 분야 중소형주 일부가 크게 오른 것으로 나타났다. 코스피가 전날보다 0.44% 내린 6,008.81로 장을 마친 14일에도 배터리 관련주 이수스페셜티케미컬이 10.13% 오르고 철강주인 대한제강이 13.77%, TCC스틸이 8.50% 뛰었다.● 대형주 외면받는 사이 반도체 ‘소부장’ 부각코스피가 6,000∼7,000대에서 머문 8월 3일부터 10월 8일까지 코스피에 상장된 기업들의 등락률을 분석한 결과, 주가 상승률 상위 100개 기업에 반도체 소부장, 전력, 화장품, 2차전지, 배터리, 화학정유, 건...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261014/134843187/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-15T00:30:00+09:00",
-        "score": 86
-      },
       {
         "title": "조선·자동차까지 휘청…멈춰 선 CPTPP에 수출품 절반 경쟁력 '뚝'",
         "summary": "앞서 정부의 CPTPP 가입 경제적 영향분석에서는 가입 10년 후 실질 국내총생산(GDP)이 0.38%포인트 증가하고, 제조업 생산은 향후 15년간 연평균 6조 3000억~6조 7000억원 늘어날 것으로 추산됐다. 반면 농림수산업 생산은...",
@@ -356,21 +340,45 @@
         "score": 70
       },
       {
-        "title": "CPTPP 시장서 한국 조선·자동차 경쟁력 하락…“통상 대응 필요”",
-        "summary": "지난 1월 경기도 평택항에 수출용 컨테이너와 자동차가 놓여있다. 정효진 기자2018년 12월 발효한 포괄적·점진적 환태평양경제동반자협정(CPTPP) 시장에서 한국의 주력 산업인 조선·자동차 등의 수출 경쟁력이 약화한 것으로 나타났다. 해당 품목에서 CPTPP 회원국들의 역내 경쟁력이 높아진 것과 대조적이다. CPTPP 가입 여부와 별개로 이들 시장에서 한국···",
-        "link": "https://www.khan.co.kr/article/202610141810021/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "title": "현대차 장재훈 “‘HMG 인디아’로 인도 AI·에너지 신사업 진출”",
+        "summary": "“2029년까지 전기차 4종을 선보이고 충전 인프라에도 투자하겠다”고 말했다. 현대차는 하이브리드도... 무뇨스 사장은 “SUV 전기차를 선보이고 배터리 생산 현지화도 함께 추진하겠다”고 덧붙였다.",
+        "link": "https://www.sedaily.com/article/20101756?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-15T13:01:00+09:00",
+        "score": 66
+      },
+      {
+        "title": "증시 흔든 창신메모리의 경고…‘반도체 쏠림’ 경제 부담으로",
+        "summary": "9월 전체 수출의 절반, ICT 80% 차지…디스플레이 등은 축소메모리 가격, 업황 따라 변동 크고 중 기업 추격도 위험 요소로“하강 국면 땐 상당한 충격…경제구조 바꿔 다른 산업도 키워야”창신메모리(CXMT)의 기술 추격 우려로 한국 증시가 크게 출렁인 것은 중국의 발전 속도에 대한 경각심은 물론, 한국 경제의 ‘반도체 쏠림’ 양상을 재차 부각하는 계기가···",
+        "link": "https://www.khan.co.kr/article/202610142045025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
-        "published": "2026-10-14T18:10:02+09:00",
-        "score": 70
+        "published": "2026-10-14T20:45:02+09:00",
+        "score": 66
+      },
+      {
+        "title": "현대차·퀄컴, 한국AI·로봇산업협회 임원사 합류",
+        "summary": "완성차와 반도체, 로보틱스 산업 간 경계를 허물고 기술 융합을 통해 미래 첨단 산업 시장의 주도권을... 협회는 이번 외연 확장이 자동차, 반도체, 인공지능(AI) 등 연관 산업의 핵심 기업들을 한데 묶어 시너지를...",
+        "link": "https://view.asiae.co.kr/article/2026101514452480601",
+        "source": "아시아경제",
+        "published": "2026-10-15T14:45:00+09:00",
+        "score": 62
       }
     ],
     "부동산": [
       {
-        "title": "강남 집값 주춤한 이유 있었네…현금부자들 ‘디에이치 반포124’ 분양만 기다린다",
-        "summary": "반포주공 재건축 내달 일반분양 전용 84㎡ 분양가 30억원대 예상 인근 시세와 20억원 안팎 차이 강남·서초 매수자들 ‘눈치 보기’강남·서초 일대 아파트 매수세가 주춤한 가운데 다..",
-        "link": "https://www.mk.co.kr/news/realestate/12175787",
-        "source": "매일경제 : 부동산",
-        "published": "2026-10-14T16:37:27+09:00",
+        "title": "“전세 품귀라는데”… 즉시 입주 가능한 ‘영종 SK VIEW’ 특별분양 개...",
+        "summary": "한국부동산원 집계에서도 인천 주택 전세가격은 12개월 연속 오름세를 기록했으며, 지난 8월에는 전월 대비 두 배인 0.4%의 상승률을 보였다. 이러한 상황에서 SK에코플랜트가 시공한 주거용 오피스텔 ‘영종 SK VIEW’가...",
+        "link": "https://www.fnnews.com/news/202610151124256853",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-15T14:30:00+09:00",
+        "score": 126
+      },
+      {
+        "title": "오세훈 “용산 주택 공급은 특별법 거스르는 조치... 정부 부동산 정책...",
+        "summary": "전·월세 가격 상승과 매매 수요 증가는 정부의 실거주 중심 부동산 정책 때문이라고도 주장했다. 15일 국회 행정안전위원회의 서울시 국정감사에 참석한 오 시장은 “용산공원 본체 부지, 특히 장교 숙소나 군인 아파트...",
+        "link": "https://www.chosun.com/national/national_general/2026/10/15/BR27Y7IZHRHM3DAWRW4Q7C2ALE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "published": "2026-10-15T14:46:00+09:00",
         "score": 122
       },
       {
@@ -382,31 +390,15 @@
         "score": 106
       },
       {
-        "title": "서울 분양가 너무 비싸 … 청약 80% 소형에 쏠려",
-        "summary": "서울 아파트 분양가가 가파르게 오르면서 청약 시장의 전통적인 인기 면적이었던 '국민평형'(전용면적 84㎡) 입지가 흔들리는 반면, 가격 부담이 덜한 소형 아파트로 청약 수요가 쏠리..",
-        "link": "https://www.mk.co.kr/news/realestate/12175857",
-        "source": "매일경제 : 부동산",
-        "published": "2026-10-14T17:12:24+09:00",
-        "score": 96
-      },
-      {
-        "title": "강서구 방화동 마곡중앙하이츠아파트 51.03㎡, 7억 4500만원 최근 3년 신고가 [MAI부동산]",
-        "summary": "MAI 부동산 서울 강서구 방화동 마곡중앙하이츠아파트 전용 51.03㎡가 7억 4,500만 원에 거래되며 최근 3년 신고가를 기록했다. 항목 내용 항목 내용 준공 1994년 5월 ..",
-        "link": "https://www.mk.co.kr/news/realestate/12176412",
-        "source": "매일경제 : 부동산",
-        "published": "2026-10-15T09:01:22+09:00",
-        "score": 90
+        "title": "[단독]아파트 쏠림에 쪼그라든 비아파트 표본…전월세 57%가 비아파트인...",
+        "summary": "한국부동산원이 매달 발표하는 주택가격동향조사에서 아파트 표본은 늘어났지만 비아파트 표본은... 15일 국회 국토교통위원회 소속 부승찬 더불어민주당 의원실이 분석한 자료에 따르면, 부동산원은 2025년 4월...",
+        "link": "https://www.khan.co.kr/article/202610151437001",
+        "source": "경향신문",
+        "published": "2026-10-15T14:37:00+09:00",
+        "score": 101
       }
     ],
     "국제경제": [
-      {
-        "title": "美 물가 예상 웃돌자 뉴욕증시 혼조… 다우 상승·나스닥 하락",
-        "summary": "시카고상품거래소(CME) 페드워치에 따르면 이달 연방공개시장위원회(FOMC)에서 금리를 인상할 확률은 전날 22.1%에서 이날 오전 50% 안팎까지 높아졌다. 이에 따라 미국 국채금리도 상승했다. 미 국채 10년물 금리는...",
-        "link": "https://biz.chosun.com/international/international_economy/2026/10/14/PWVDSWO3FZA23BQLTJTHOYBSMY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-10-14T23:26:00+09:00",
-        "score": 98
-      },
       {
         "title": "연준 베이지북 \"고유가에 물가 상승 압력 심화\"",
         "summary": "이번 베이지북은 지난 5일까지 수집한 지역별 경제 동향을 반영한 것으로, 오는 27∼28일 연방 공개 시장위원회(FOMC)를 앞두고 발표됐습니다. 도널드 트럼프 미국 대통령이 지난 9일 블라디미르 푸틴 러시아 대통령과...",
@@ -416,46 +408,54 @@
         "score": 94
       },
       {
-        "title": "美 9월 물가 3.7%, 5개월만에 최대폭 상승…트럼프 중간선거 앞두고 ‘악...",
-        "summary": "이달 27, 28일 예정된 미 연방준비제도(Fed·연준) 연방공개시장위원회(FOMC)의 기준금리 인상 전망도... 이날 물가 상승 지표로 인해 이달 27, 28일 열리는 FOMC의 기준 금리 인상 여부에도 다시 관심이 쏠린다. 연준의...",
-        "link": "https://www.donga.com/news/Inter/article/all/20261015/134844540/1",
-        "source": "동아일보",
-        "published": "2026-10-15T05:49:00+09:00",
+        "title": "투표 전 통화팽창에 부실 덮친 AI·선진국 채무 [트럼프 스톡커]",
+        "summary": "연방공개시장위원회(FOMC) 정례회의를 앞두고 마지막 분수령으로 꼽혔던 9월 소비자물가지수(CPI) 상승률이 시장의 예상보다 높은 것으로 집계됐다. 지난달 15~16일 FOMC 회의에서 연준이 3년 2개월 만에 기준금리를...",
+        "link": "https://www.sedaily.com/article/20101813?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-15T09:40:00+09:00",
         "score": 80
       },
       {
-        "title": "연준 베이지북 “美 전역에서 유가 상승...경윳값, 공급망 비용 전가”",
-        "summary": "베이지북은 미국 12개 연은이 담당 지역별로 은행과 기업, 전문가 등을 접촉해 최근 경제 동향을 수집한 경제 동향 보고서다. 통상 금리 수준을 결정하는 연방공개시장위원회(FOMC) 정례회의 2주 전에 발표한다.",
-        "link": "https://www.sedaily.com/article/20101762?ref=naver",
-        "source": "서울경제",
-        "published": "2026-10-15T06:34:00+09:00",
+        "title": "[부자들의 투자노트] 美 자산운용사 \"9월 CPI, 연준 10월 금리인상 가능...",
+        "summary": "당장 이번 달 FOMC에서 인상할 수 있다는 목소리가 커지고 있는데요. 미국 자산운용사 PGIM의 이코노미스트도... 무엇보다 이번 달 FOMC 전까지 미국이 직면한 각종 불확실성이 해소될리가 없다며, 이러한 상황에서 금리를...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000340034?division=NAVER",
+        "source": "SBS",
+        "published": "2026-10-15T07:49:00+09:00",
         "score": 78
       },
       {
-        "title": "연준 베이지북 “고유가 충격, 美 공급망 전반 확산”",
-        "summary": "오는 27~28일 연방공개시장위원회(FOMC)를 앞두고 미국 경제의 물가와 고용 흐름을 가늠할 수 있는 자료다. 같은 날 발표된 미국의 9월 소비자물가지수(CPI)는 전년 동월 대비 3.7% 상승해 시장 예상치를 웃돌았다....",
-        "link": "https://biz.heraldcorp.com/article/10902929?ref=naver",
+        "title": "한때는 2위였는데…IMF “일본 내년 GDP 인도·영국에 밀려 6위”",
+        "summary": "국내총생산(GDP) 기준 현재 4위에서 6위로 하락할 것이라고 국제통화기금(IMF)이 전망했다. 14일 니혼게이자이신문(닛케이) 등 일본 언론에 따르면 IMF는 최근 발표한 ‘세계경제전망’에서 일본의 GDP가 올해...",
+        "link": "https://biz.heraldcorp.com/article/10902876?ref=naver",
         "source": "헤럴드경제",
-        "published": "2026-10-15T05:53:00+09:00",
-        "score": 78
+        "published": "2026-10-14T22:05:00+09:00",
+        "score": 76
+      },
+      {
+        "title": "“기름값 때문이라지만”… 미국 물가 3.7% 반등, 더 복잡해진 연준 셈...",
+        "summary": "미국의 소비자물가 상승률이 다시 높아지면서 연방준비제도(Fed·연준)이 금리 인상에 대한 압박을 받았다.... 유가 상승에 생산비 들썩… 연준 금리 판단 시험대 휘발유 가격 상승이 일시적인 충격에 그친다면 전체...",
+        "link": "https://m.skyedaily.com/news_view.html?ID=313022",
+        "source": "이데일리",
+        "published": "2026-10-15T14:30:00+09:00",
+        "score": 70
       }
     ],
     "AI와 경제": [
       {
-        "title": "그로쓰리서치, 혜인 성장성 주목…\"AI 데이터센터 선점·미 해군 함정 M...",
-        "summary": "한용희 그로쓰리서치 연구원은 \"혜인은 국내 유일의 캐터필러 공식 딜러라는 독점적 지위와 국내 주요 반도체 고객사 내 약 90%의 점유율, 2028년 납품 물량까지 선제적으로 확보한 벤더 경쟁력을 갖췄다\"며 \"글로벌...",
-        "link": "https://www.joongangenews.com/news/articleView.html?idxno=555117",
-        "source": "중앙일보",
-        "published": "2026-10-15T09:14:00+09:00",
+        "title": "페르소나AI, 서버 연결 없이 기기에서 처리하는 산업현장용 AI 에이전트 공개",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/15/134845915.2.jpg\" vspace=\"10\" />인공지능(AI) 에이전트 기업 페르소나에이아이(페르소나AI, 대표 유승재)가 외부 서버에 연결하지 않고 기기 안에서 AI 기능을 처리하는 산업현장용 기술을 선보였다. 통신이 불안정하거나 보안 요건이 까다로운 공장과 물류센터의 로봇에 적용하겠다는 구상이다. 페르소나AI는 지난 14일 서울 코엑스에서 열린 ‘피지컬 AI 테크위크 2026(Physical AI Tech Week 2026)’에서 ‘피지컬 AI의 산업현장 적용과 생태계 변화’를 주제로 발표했다.  피지컬 AI는 AI가 로봇 등 물리적 장치를 통해 현실 공간에서 직접 작업을 수행하는 기술을 말한다. 이날 소개된 기술은 자체 개발한 경량 AI 엔진과 온디바이스(On-device) 음성 인식 기술(SSTT)이다. 회사 측은 인터...",
+        "link": "https://www.donga.com/news/Economy/article/all/20261015/134845967/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-10-15T11:35:00+09:00",
         "score": 34
       },
       {
-        "title": "카톡 화면 쓸면 라이언이 일한다…카카오, AI 에이전트 경쟁 합류",
-        "summary": "<table><tr><td><img align=\"left\" border=\"0\" src=\"http://img.vod.mbn.co.kr/vod2/552/2026/10/13/20261013202716_20_552_1431144_1080_7_s1.jpg\" width=\"160\" />【 앵커멘트 】  AI는 이제 단순히 묻고 답하는 수준을 넘어 이용자의 비서 역할을 하는 AI 에이전트로 진화하고 있는데요.  글로벌 빅테크들이 주도하는 이 시장에 국내 기업 카카오도 뛰어들었습니다.  김종민 기자가 보도합니다.【 기자 】  카카오톡 화면을 손가락으로 쓸어올리자 대표 캐릭터 라이언이 나타납니다.  어린이집 하원 일정을 요약하고, 딱 맞는 출발 시간을 알려줍니다.  \"오후 5시 25분에 출발하면 6시쯤 도착할 수 있어요.\"  단순 메시지 요약을 넘어 당장 해야 할 일을 보여줍니다.  \"프로젝트방에 '오전까지 확인해서 전달 드릴게요' 라고 답장 보내줘.\"  원하는 기능을 직접 찾을 필요 없이 말 한마디...",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5224702",
-        "source": "MBN : 경제기사",
-        "published": "2026-10-13T20:23:00+09:00",
-        "score": 34
+        "title": "성장산업의 기회, 승부는 기다릴 수 있는 능력에 달렸다 [삼일 이슈 프리...",
+        "summary": "시장 역시 전기차 수요의 방향성만 보는 것이 아니라 수요가 본격화될 때까지 각 기업이 감당해야 할 시간과 자본 규모를 함께 평가한다. 성장산업 내 기업 평가, 자금 소요와 조달 능력이 좌우 AI 산업 역시 이러한...",
+        "link": "https://www.hankyung.com/article/202610139443r",
+        "source": "한국경제",
+        "published": "2026-10-15T14:03:00+09:00",
+        "score": 32
       },
       {
         "title": "AI투심 위축되나… IPO 시장도 눈치보기",
@@ -466,61 +466,61 @@
         "score": 32
       },
       {
-        "title": "오픈AI, 챗GPT 청소년 유해성 문제로 피소 [ESG 뉴스 5]",
-        "summary": "“AI·반도체 전력수요 과다 추계 우려” 반도체 산업단지와 인공지능(AI) 데이터센터의 전력 수요를 과다하게 예측하면 불필요한 발전소와 송전망 건설 비용이 국민에게 전가될 수 있다는 지적이 나왔다. 14일...",
-        "link": "https://magazine.hankyung.com/business/article/202610153053b",
-        "source": "한국경제",
-        "published": "2026-10-15T09:01:00+09:00",
-        "score": 30
+        "title": "이정한 경사노위 상임위원 \"AI 과제, 노사가 함께 해결해 일자리로 연결...",
+        "summary": "시대 고용·노동정책 방향과 과제’를 주제로 일자리연대, 경사노위와 이데일리가 주최한 ‘제3회 좋은... 2026 좋은 일자리 포럼이 15일 서울 중구 통일로 KG타워 하모니홀에서 ‘AI시대 고용·노동정책 방향과 과제’를...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=04218086645613248&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-10-15T14:42:00+09:00",
+        "score": 32
       },
       {
-        "title": "AI로 18개국 피부 분석, 화장품 개발 지원한다",
-        "summary": "정부가 18개국 1만7000여 명의 피부 특성 정보가 축적된 피부 데이터뱅크를 인공지능(AI) 학습에 적합하게 개편해 기업들의 맞춤형 화장품 개발을 지원한다. 의료관광 목적 비자 발급 요건을 완화하고 비자 패스트트랙 병원을 늘린다. 화장품 제조업을 중심으로 성장해 온 K뷰티 산업을 AI와 의료, 관광이 결합된 고부가가치 서비스 산업으로 육성하겠다는 구상이다. 14일 정부는 이형일 부총리 겸 재정경제부 장관 주재로 열린 경제관계장관회의 겸 서비스산업발전 태스크포스(TF)에서 이 같은 내용의 ‘AI·융복합 K뷰티 서비스 지원 방안’을 발표했다. 화장품 제조업의 경쟁력을 높이는 동시에 피부 관리와 의료 미용 등 관련 서비스 산업을 육성해 새로운 성장 동력으로 삼겠다는 취지다. 대한화장품산업연구원이 관리하는 피부 특성 정보를 담은 데이터를 기업이 쉽게 활용할 수 있도록 AI 학습에 적합한 데이터로 개편한다. 현재 18개국 1만7000여 명의 정보가 축적돼 있는데, 내년에는 조사 대상 국",
-        "link": "https://www.donga.com/news/Economy/article/all/20261014/134843164/2",
+        "title": "IPO 앞둔 앤스로픽, 3분기 매출 45% 급증",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/15/134846091.1.jpg\" vspace=\"10\" />생성형 인공지능(AI) 업체 앤스로픽의 올해 3분기 매출이 전 분기보다 45% 급증했다. AI 개발에 들어가는 막대한 비용을 감당할 수 있느냐는 의구심 속에, 168억 달러(약 24조 원) 규모의 매출을 불과 한 분기 동안 기록한 것이다. 14일(현지 시간) 앤스로픽은 미국 샌프란시스코 본사에서 예비 투자자들을 대상으로 설명회를 열고 이 같은 내용을 발표했다. 앤스로픽의 올해 1분기 매출은 47억 달러, 2분기는 116억 달러였다. 지난해 연간 매출이 약 46억 달러였는데, 올해 3분기 동안만 지난해 전체의 3배가 넘는 매출을 올린 것이다.앤스로픽은 설명회에서 “일부 비용들을 제외하고 계상한 3분기 실적이 흑자를 기록했다”고 설명했다. 다만 어떤 항목을 제외했는지는 공개하지 않아 ...",
+        "link": "https://www.donga.com/news/Economy/article/all/20261015/134845891/1",
         "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-15T00:30:00+09:00",
-        "score": 30
+        "published": "2026-10-15T11:22:00+09:00",
+        "score": 26
       },
       {
-        "title": "“지수·수급·이슈 한눈에”…토스증권, AI 투자정보 서비스 강화",
-        "summary": "토스증권이 인공지능(AI)을 활용해 국내·외 증시 흐름과 주요 투자 이슈 등을 설명하는 투자 정보 서비스 강화에 나섰다. 새롭게 선보인 ‘시장’ 탭과 기존 ‘실시간 이슈’ 서비스의..",
-        "link": "https://www.mk.co.kr/news/stock/12175720",
-        "source": "매일경제 : 증권",
-        "published": "2026-10-14T16:04:17+09:00",
-        "score": 28
-      },
-      {
-        "title": "AI 빚투 공포에 기술주 와르르…애플만 시총 5조달러 돌파 [투자360]",
-        "summary": "채권 가격이 액면가 1달러당 78센트 아래로 떨어지는 등 채권시장에서도 신용 위험에 대한 경계감이 커졌다. 관련 종목도 줄줄이 하락했다. 대규모 차입을 통해 데이터센터 투자를 확대해 온 오라클은 8.8% 떨어졌고...",
-        "link": "https://biz.heraldcorp.com/article/10903080?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-15T08:26:00+09:00",
-        "score": 28
+        "title": "대역폭 8배 넓힌 KT ‘초고속 AI 전용회선’",
+        "summary": "KT가 인공지능(AI) 데이터센터 확산에 맞춰 기존보다 대역폭을 최대 8배 넓힌 초고속 전용회선을 선보였다.KT가 AI 데이터센터 간 대용량 데이터를 빠르게 전송할 수 있는 ‘AI 전용회선’을 출시한다고 14일 밝혔다. 기존 전용회선보다 최대 8배 넓은 대역폭을 제공해 분산된 AI 인프라의 연결 효율을 높인다는 계획이다.KT의 AI 전용회선은 기존 최대 1···",
+        "link": "https://www.khan.co.kr/article/202610142045015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-10-14T20:45:01+09:00",
+        "score": 26
       }
     ],
     "기타": [
       {
-        "title": "美 CPI 충격…비트코인 8만1000달러대로 하락[코인 모닝콜]",
-        "summary": "비트와이즈 자산운용의 맷 호건 최고투자책임자(CIO)는 15일 블룸버그를 통해 “인플레이션과 높은 에너지 가격이 글로벌 통화 유동성을 제약하고 있고 하이퍼스케일러(빅테크) 기업들과 인공지능(AI)을 둘러싼...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02410806645613248&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-15T07:39:00+09:00",
+        "title": "브라질 달걀 800억어치 구입?...李대통령 \"정치적 목적 허위사실 유포 시...",
+        "summary": "그러면서 \"올해 여름 국내 계란 가격이 폭등하고 공급이 부족한 데다가 기존의 아시아, 미국 등도 수출 가능... 이 대통령은 \"브라질산 달걀수입 관련 자료를 사실대로 배포했고 그 내용상 브라질 현지 수출단가를 충분히...",
+        "link": "https://www.mt.co.kr/politics/2026/10/15/2026101514043478865",
+        "source": "머니투데이",
+        "published": "2026-10-15T14:19:00+09:00",
         "score": 24
       },
       {
-        "title": "“K뷰티-AI테크 새 일자리 정보 가득”… 현장서 채용 상담도",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/15/134842154.4.jpg\" vspace=\"10\" />“인터넷으로는 알기 어려운 채용 정보를 인사담당자에게 직접 확인할 수 있어 좋았어요.” 14일 오전 서울 종로구 광화문광장에서 개막한 ‘2026 리스타트 잡페어’에서 만난 최현우 씨(24)는 NH농협은행 부스에서 상담을 마친 뒤 이같이 말했다. 국민건강보험공단 인턴으로 금융권 취업을 준비 중인 최 씨는 이날 줄지어 마련된 주요 은행 부스를 하나씩 방문하며 자신의 취업 경쟁력을 점검했다. 최 씨는 “국내 5대 은행의 채용 상담을 한자리에서 받아볼 수 있다는 얘기를 듣고 박람회를 찾았다”며 “인턴 경력 1년만으로 취업 경쟁력이 있을지 확신이 없었는데 오늘 상담 후 안심이 됐다”고 했다.● K뷰티 세계적 인기에 외국인 구직자도 발길 올해 행사에서 뜨거운 관심을 받은 곳은 처음으로 마련된...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261015/134843936/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-15T04:30:00+09:00",
+        "title": "브라질 계란에 800억 낭비?…李대통령 \"허위사실 유포 시정해야\"",
+        "summary": "미국에서도 수출 가능한 물량이 부족해 새로운 공급처 확보가 불가피했다는 것이다. 이에 정부가... 이 대통령은 특히 \"브라질산 달걀수입 관련 자료를 아래처럼 사실대로 배포했고 그 내용상 브라질 현지 수출단가를...",
+        "link": "https://www.fnnews.com/news/202610151403532081",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-15T14:26:00+09:00",
         "score": 24
       },
       {
-        "title": "영업점서 MTS 개설 땐 수수료 13배…금감원, 관행 개선",
-        "summary": "투자자에 ‘관리계좌’ 선택권 부여증권사의 오프라인 영업점에서 주식 계좌를 개설한 투자자는 온라인에서 계좌를 튼 경우보다 최대 13배 높은 수수료를 부담하는 것으로 나타났다. 금융감독원은 일부 증권사의 이러한 영업관행을 개선하겠다고 14일 밝혔다.금감원이 증권사 37곳의 위탁매매계좌와 연금저축펀드계좌 매매수수료 현황을 점검한 결과, 10개사가 영업점에서 개설···",
-        "link": "https://www.khan.co.kr/article/202610142041015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "title": "현대차, 인도에 21兆 승부수… 4.2兆 AI·신사업에 투자",
+        "summary": "특히 푸네공장의 생산능력을 연간 32만대까지 조기에 확대하고 전기차·하이브리드 등 신차 투입을 늘려... 전기차와 하이브리드 등 친환경차도 시장점유율 회복의 핵심 카드다. 호세 무뇨스 현대차 사장은 \"올해...",
+        "link": "https://www.fnnews.com/news/202610150149196068",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-15T13:01:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "앤트로픽, 3분기 매출 168억달러…지난해 매출의 3.6배",
+        "summary": "다리오 아모데이 앤트로픽 최고경영자(CEO)가 지난달 29일(현지시간) 도널드 트럼프 태동령 등을 만나기 위해 미국 백악관에 도착한 모습. 로이터연합뉴스인공지능(AI) 모델 ‘클로드’ 개발·운영사인 미국 앤트로픽의 올해 3분기 매출이 직전 분기 대비 약 45% 증가하고, 영업이익은 2분기 연속 흑자를 기록한 것으로 나타났다.로이터통신 등 외신에 따르면 앤트···",
+        "link": "https://www.khan.co.kr/article/202610151338001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
-        "published": "2026-10-14T20:41:01+09:00",
+        "published": "2026-10-15T13:38:00+09:00",
         "score": 24
       },
       {
@@ -532,19 +532,11 @@
         "score": 24
       },
       {
-        "title": "상의 55차 물류위원회…\"AI 전환은 선택 아닌 필수\"",
-        "summary": "(서울=연합뉴스) 임성호 기자 = 물류 산업의 인공지능 전환(AX)은 이제 선택이 아닌 기업 생존과 경쟁력 확보를 위한 필수 과제로, 관련 업계...",
-        "link": "https://www.yna.co.kr/view/AKR20261014156600003",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-10-15T07:30:00+09:00",
-        "score": 22
-      },
-      {
-        "title": "청년 구직자-재취업 준비 5060 잇단 발길… AI 모의 면접-취업 지원 프로그램 연계도",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/15/134842147.4.jpg\" vspace=\"10\" />14일 서울 종로구 광화문광장에서 열린 ‘2026 리스타트 잡페어’의 창업·공공일자리관은 오전 10시 개막 직후부터 방문객들로 북적였다. 이곳에서는 서울시와 고용노동부, 해양수산부 등 정부부처 산하 공공기관들이 부스를 마련해 기관별 채용 계획과 취업 지원 프로그램을 안내했다. 국민건강보험공단에서 인턴으로 근무 중인 안수진 씨(35)는 ‘서울시 채용중심 취업지원 프로그램’ 부스에서 구직 관련 상담을 받았다. 공공기관 취업을 준비 중인 안 씨는 “인턴이 곧 끝나는데 그 전에 취업 관련 정보를 알아둬야겠다는 생각에 행사장을 찾았다”며 “자기소개서 내용이 이상하지 않은지, 면접관에게 어떻게 보일지 궁금했는데 상담 내용이 취업 준비에 큰 도움이 될 것 같다”고 말했다. 서울시여성능력개발원이...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261015/134843934/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-15T04:30:00+09:00",
+        "title": "3분기 168억달러 벌어도 AI 불안 해소에 역부족 … 앤트로픽 실적에서 읽을 ‘숫자’",
+        "summary": "앤트로픽 실적에 시장은 어떻게 반응했나인공지능(AI)은 돈을 벌 수 있는가. 프론티어 AI 모델의 선두주자인 앤트로픽이 내놓은 답은 긍정적이었지만 투자자들의 불안을 잠재우긴 부족했..",
+        "link": "https://www.mk.co.kr/news/stock/12176635",
+        "source": "매일경제 : 증권",
+        "published": "2026-10-15T13:35:58+09:00",
         "score": 22
       },
       {
@@ -556,27 +548,27 @@
         "score": 22
       },
       {
-        "title": "올해 신규보증 PF사업장 70% '저자본·고보증'…투자금 5% 안돼",
-        "summary": "(서울=연합뉴스) 배영경 기자 = 적은 투자금으로 거액의 공적보증을 받아 운영되는 부동산 프로젝트파이낸싱(PF) 사업장이 금융당국의 개선 노력에...",
-        "link": "https://www.yna.co.kr/view/AKR20261014179800002",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-10-15T05:54:00+09:00",
-        "score": 20
+        "title": "젠슨 황 “안전하지 않은 AI 개발사에 칩 공급 중단할 수도”",
+        "summary": "AFP연합뉴스젠슨 황 엔비디아 최고경영자(CEO)가 위험하거나 안전하지 않은 인공지능(AI)을 개발하는 회사에 대해 자사의 AI칩 공급을 중단할 수 있다고 밝혔다. AI 모델·소프트웨어 안전성을 둘러싼 우려가 커지는 가운데 AI 인프라의 핵심 요소인 그래픽처리장치(GPU) 등 가속기 시장을 주도하는 엔비디아가 실질적인 조치에 나설 가능성을 시사한 것이다.황···",
+        "link": "https://www.khan.co.kr/article/202610151057001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-10-15T10:57:00+09:00",
+        "score": 22
       },
       {
-        "title": "9천200억 위메이드 매각, 중국계 인수 12월로 연기",
-        "summary": "(서울=연합뉴스) 김주환 기자 = 중국계 컨소시엄으로 최대 주주 변경을 예고한 국내 게임사 위메이드[112040]의 경영권 이전이 두 달 연기됐...",
-        "link": "https://www.yna.co.kr/view/AKR20261014165900017",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-10-14T17:42:41+09:00",
-        "score": 20
+        "title": "조희대 재제청 거부 공방...\"탄핵 사유\"·\"독단 해석\"",
+        "summary": "한국부동산원과 주택도시보증공사(HUG) 등을 대상으로 한 국토위 국감에선 여야는 문재인 정부 당시 국토교통부의 부동산 불법 사찰 의혹을 두고 대립했습니다. 국민의힘은 김현미 당시 국토부 장관 등을 종합감사 증인으로...",
+        "link": "https://www.ytn.co.kr/_ln/0101_202610151434283931",
+        "source": "YTN",
+        "published": "2026-10-15T14:34:00+09:00",
+        "score": 21
       },
       {
-        "title": "Top headlines in major S. Korean newspapers",
-        "summary": "of life (Korea JoongAng Daily) -- Korea's GDP per capita to top $40,000 this year, IMF says (Korea Herald) -- Zelenskyy's disclosure of NK POW transfer raises risks for families (Korea Times) (END)",
-        "link": "https://en.yna.co.kr/view/AEN20261015000800315?input=2106m",
-        "source": "연합뉴스",
-        "published": "2026-10-15T06:58:00+09:00",
+        "title": "로이터 \"SK하이닉스, 美공장 조건으로 中다롄 장비 반입 요청\"",
+        "summary": "(서울=연합뉴스) 정주호 기자 = SK하이닉스가 미국에 공장을 짓는 조건으로 중국 다롄 공장의 생산 확대를 위한 미국산 반도체 장비 반입 허가를...",
+        "link": "https://www.yna.co.kr/view/AKR20261015103600009",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-10-15T13:47:45+09:00",
         "score": 20
       }
     ]
@@ -636,5 +628,42 @@
       "match_status": "OK",
       "importance_score": 5
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-10-15",
+    "generated_at": "2026-10-15T05:55:21.823386+00:00",
+    "briefing_hash": "6a14cda49bdea214",
+    "key_headlines": [
+      {
+        "title": "IMF Revises Korea's Debt Ratio Down to 46.1% on Semiconductor Boom",
+        "summary": "The International Monetary Fund lowered Korea's general government debt ratio forecast to 46.1% for this year, down 8.3 percentage points from April projections, reflecting improved fiscal conditions from strong semiconductor exports."
+      },
+      {
+        "title": "CPTPP Implementation Threatens 48% of Korean Export Products' Competitiveness",
+        "summary": "Analysis shows that approximately half of Korean export products face declining competitiveness in CPTPP member markets post-implementation, with shipbuilding and automobiles facing the most significant impact."
+      },
+      {
+        "title": "Korea Stock Market Plummets 8% Following US Inflation Shock",
+        "summary": "KOSPI and KOSDAQ triggered circuit breakers simultaneously after US September CPI came in higher than expected at 3.7%, sparking concerns about prolonged high interest rates and AI sector profitability."
+      },
+      {
+        "title": "Long-Term Jeonse Conflicts Escalate as Housing Prices Surge Over 1 Billion Won",
+        "summary": "Tensions are mounting over long-term jeonse (deposit rental) housing as contract expirations loom, with disputes between tenants seeking conversion to ownership and housing authorities over contract terms and relocation policies."
+      },
+      {
+        "title": "Anthropic Reports 45% Sequential Growth in Q3 Revenue at $16.8 Billion",
+        "summary": "AI company Anthropic achieved $16.8 billion in Q3 revenue, a 45% increase from the previous quarter, and posted consecutive quarter profitability, exceeding last year's entire annual revenue in a single quarter."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "South Korea's economic outlook shows mixed signals as the IMF upgraded growth forecasts to 3.3% for 2026 on the back of strong semiconductor performance, but the stock market suffered significant volatility due to global inflation concerns. Long-term jeonse housing conflicts have intensified with rising property values exceeding 1 billion won, creating disputes over contract conversions and tenant relocation. Deputy Prime Minister Lee Hyung-il emphasized proactive responses to global trade uncertainties and announced diversification of export markets to mitigate risks from CPTPP membership and other policy changes.",
+      "Macro & Fiscal Policy": "The IMF revised Korea's government debt ratio downward to 46.1% from previous estimates, reflecting improved fiscal conditions driven by strong semiconductor exports. However, inflation concerns globally have intensified following the US September CPI release, which exceeded expectations at 3.7%, prompting discussions about potential Federal Reserve rate hikes. Korea's economic growth forecast was upgraded to 3.3% for 2026, with expectations for sustainable growth in the 2% range going forward, supported by semiconductor sector strength.",
+      "Financial Markets": "Korean stock markets experienced severe volatility, with KOSPI and KOSDAQ triggering simultaneous circuit breakers as both indices fell approximately 8% following the release of higher-than-expected US inflation data. The Nasdaq fell 1.9% and global markets declined amid renewed concerns about AI sector profitability and investment sustainability given high interest rate environments. Foreign investors engaged in substantial selling, pushing market sentiment to 5-month lows, while US Treasury yields reached 24-year highs, threatening both won valuation and domestic asset values.",
+      "Industry & Technology": "Hyundai Motor announced major expansion plans for India with the 'HMG India' initiative, planning to launch four electric vehicle models by 2029 and invest in charging infrastructure alongside battery localization efforts. Concerns about semiconductor concentration in the Korean economy were highlighted following Changxin Memory Technologies' technology advancement warnings, with policy discussions focused on economic diversification beyond semiconductors. Hyundai and Qualcomm joined the Korean AI and Robotics Industry Association as executive members, signaling efforts to foster cross-industry collaboration and technology convergence.",
+      "Real Estate": "Long-term jeonse housing conflicts have expanded significantly as property values surge and contract expiration deadlines approach, particularly for 1,747 units at LH Jagok Hillstate set to expire in 2029. Incheon's residential jeonse prices showed their 12th consecutive monthly increase, with August recording a 0.4% surge, double the previous month, amid supply shortages in the rental market. Seoul's Seongsu riverside area is undergoing major redevelopment with 9,000 units planned as part of generational housing transition, following the success of luxury apartment projects like Trimaze and Acro Seoul Forest.",
+      "International Economy": "The US Federal Reserve faces mounting pressure regarding interest rate decisions following September CPI data exceeding expectations, with debate intensifying about potential rate increases at the upcoming FOMC meeting. Japan's IMF GDP rankings are projected to decline from 4th to 6th place by next year as India and the UK surpass it, reflecting shifting global economic dynamics. Oil price increases are adding inflationary pressure globally, complicating monetary policy decisions for central banks, with the Beige Book indicating heightened inflation pressures from energy costs affecting US regional economies.",
+      "AI & Economy": "Anthropic achieved remarkable Q3 results with $16.8 billion in revenue, a 45% sequential increase and more than 3.6 times last year's total annual revenue in a single quarter, while recording consecutive quarter profitability. Persona AI unveiled on-device AI processing technology for industrial applications, enabling AI operations without external server connections for factories and logistics centers with unstable connectivity. AI industry investment concerns have surfaced regarding the sector's ability to sustain massive capital expenditures amid rising interest rates and renewed profitability questions, impacting IPO market sentiment and venture capital deployment.",
+      "Others": "Apple surpassed the $5 trillion market capitalization milestone for the first time on a closing basis, becoming only the second US-listed company after Nvidia to achieve this valuation level. President Lee Suk-yeol addressed controversy over Brazilian egg imports, defending government procurement decisions made to address domestic supply shortages and maintain price stability during summer price surges. Hyundai Motor is committing 21 trillion won to India operations with 4.2 trillion won allocated to AI and new business ventures, positioning the company for major market share recovery in the Indian automotive sector."
+    }
+  }
 }
