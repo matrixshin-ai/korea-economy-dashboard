@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-17T14:42:51.478973+09:00",
+  "generated_at": "2026-10-17T20:47:39.456812+09:00",
   "date": "2026-10-17",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 567,
-    "total_used": 552,
+    "total_input": 578,
+    "total_used": 558,
     "dropped_quality": 5,
-    "dropped_negative": 10,
+    "dropped_negative": 15,
     "per_category": {
-      "금융시장": 107,
-      "기타": 238,
-      "국제경제": 54,
-      "거시경제·재정": 83,
-      "산업·과학": 31,
-      "AI와 경제": 3,
-      "부동산": 36
+      "기타": 245,
+      "금융시장": 108,
+      "거시경제·재정": 76,
+      "부동산": 39,
+      "산업·과학": 32,
+      "국제경제": 52,
+      "AI와 경제": 6
     }
   },
   "headlines": [
@@ -142,20 +142,12 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "22일 기준금리 ‘결정의 날’…내주 생산자 물가·경제부처 종합국감",
-        "summary": "다음 주 한국은행 금융통화위원회의 기준금리 결정과 10월 초순 수출 흐름에 관심이 쏠린다. 7·8월 연속 금리 인상 이후 통화정책 방향이 가늠될 전망인 데다, 이달 들어 큰 폭으로 늘어난 수출 증가세가 이어질지도...",
-        "link": "https://biz.heraldcorp.com/article/10905674?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-17T10:20:00+09:00",
-        "score": 142
-      },
-      {
-        "title": "수입물가 넉달 만에 상승…커지는 재정-통화 엇박자 우려",
-        "summary": "한국은행이 16일 발표한 ‘9월 수출입물가지수’에 따르면 지난달 수입물가지수(원화 기준 잠정치·2020년=100)는 159.37로 전월보다 1.7% 상승했다. 6월(-4.2%), 7월(-1.0%), 8월(-2.2%)까지 줄곧 하락세를 보이다가 4개월 만에...",
-        "link": "https://www.sedaily.com/article/20102669?ref=naver",
-        "source": "서울경제",
-        "published": "2026-10-16T17:59:00+09:00",
-        "score": 132
+        "title": "美 재정적자 2조달러, 2021년 이후 최대…재무부 발표",
+        "summary": "미 재무부 관계자는 국내총생산(GDP) 대비 재정 적자 비율이 전년도 5.8%에서 올해 약 6.2%로 상승한 것으로 추산했다. 경기 침체나 전시 상황이 아닌 시기에도 재정적자가 GDP의 6% 안팎에 이른다는 점에서 재정 건전성...",
+        "link": "https://www.yna.co.kr/view/AKR20261017018600072?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-17T09:39:00+09:00",
+        "score": 112
       },
       {
         "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
@@ -166,11 +158,19 @@
         "score": 110
       },
       {
-        "title": "고유가에 수입물가 반등…최고가격제 또 동결",
-        "summary": "한국은행이 16일 발표한 수출입물가지수 통계에 따르면 올해 9월 수입물가지수는 159.37로, 8월(156.68)보다 1.7% 상승했다. 지난 6월부터 3개월 연속 하락했다가 넉 달 만에 반등했다. 원유를 포함한 광산품(10.8...",
-        "link": "https://www.hankyung.com/article/2026101671641",
-        "source": "한국경제",
-        "published": "2026-10-16T18:01:00+09:00",
+        "title": "22일 기준금리 ‘결정의 날’…내주 생산자 물가·경제부처 종합국감",
+        "summary": "다만 물가 상승 압력이 여전히 높고 부동산 시장 불안도 이어지고 있어, 금통위가 향후 추가 인상 가능성을... 이 밖에 가계부채 관리와 부동산 프로젝트파이낸싱(PF) 사업장 관리, 금융감독원 지방 이전 및 행정 쇄신...",
+        "link": "https://biz.heraldcorp.com/article/10905674?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-17T10:20:00+09:00",
+        "score": 110
+      },
+      {
+        "title": "환율 내렸지만 유가 올라…수입물가 넉 달만에 상승",
+        "summary": "지난달 20일 서울 시내 한 주유소 모습. 연합뉴스지난달 원·달러 환율이 하락했지만 국제유가가 큰 폭으로 상승하면서 수입물가지수가 4개월만에 상승했다.한국은행이 16일 발표한 수출입물가지수 통계에 따르면, 올해 9월 수입물가지수(원화 기준 잠정치·2020년 수준 100)는 159.37로, 8월(156.68)보다 1.7% 상승했다.수입물가지수는 6월 4.2%···",
+        "link": "https://www.khan.co.kr/article/202610160737001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-10-16T07:37:00+09:00",
         "score": 102
       },
       {
@@ -190,6 +190,14 @@
         "score": 100
       },
       {
+        "title": "美 재정적자 1.99조달러…세출 증가에 이자 부담도 역대 최대",
+        "summary": "미 재무부 관계자는 국내총생산(GDP) 대비 재정적자 비율이 전년 5.8%에서 2026회계연도 약 6.2%로 상승한 것으로 추산했다. 이는 재정적자를 GDP의 약 3% 수준으로 낮추겠다는 베선트 장관의 기존 목표와도 차이가 있다....",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02023766645613904&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-10-17T10:06:00+09:00",
+        "score": 100
+      },
+      {
         "title": "가계대출 줄었지만 수입물가 뛰고 청년 일자리 줄고…'민생경제 삼중고...",
         "summary": "9월 취업자는 1년 전보다 11만3천 명 늘었고, 실업률은 2.0%로 9월 기준 역대 가장 낮았습니다. 하지만 숙박·음식점업 취업자는 9만7천 명 줄며 5년 7개월 만에 가장 큰 폭으로 감소했습니다. 지난해 소비쿠폰 효과에 따른...",
         "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005940455",
@@ -198,11 +206,19 @@
         "score": 86
       },
       {
-        "title": "美 재정적자 2조달러, 2021년 이후 최대…재무부 발표",
+        "title": "미국 재정 적자 2조 달러…2021년 이후 최대",
+        "summary": "미 재무부 관계자는 국내총생산(GDP) 대비 재정 적자 비율이 전년도 5.8%에서 올해 약 6.2%로 상승한 것으로 추산했습니다. 경기 침체나 전시 상황이 아닌 시기에도 재정적자가 GDP의 6% 안팎에 이른다는 점에서 재정...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688156&ref=A",
+        "source": "KBS",
+        "published": "2026-10-17T10:17:00+09:00",
+        "score": 82
+      },
+      {
+        "title": "美 재정적자 2조달러",
         "summary": "높은 국채 발행 수요와 이자 비용은 향후 재정 운용의 여지를 좁힐 수 있고, 국채 금리 상승은 주택담보대출 등 민간의 차입 비용에도 영향을 줄 수 있다. 옥스퍼드 이코노믹스의 낸시 반덴 하우텐은 내년에도 미국의...",
-        "link": "https://www.yna.co.kr/view/AKR20261017018600072?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-10-17T09:39:00+09:00",
+        "link": "https://magazine.hankyung.com/business/article/202610177831b",
+        "source": "한국경제",
+        "published": "2026-10-17T15:57:00+09:00",
         "score": 80
       },
       {
@@ -214,27 +230,11 @@
         "score": 80
       },
       {
-        "title": "美 연간 재정적자 2조달러 육박…팬데믹 이후 최대",
-        "summary": "11월 중간선거를 앞둔 공화당에도 부담 요인으로 꼽힌다. 높은 국채 발행 수요와 이자 비용은 향후 재정 운용의 여지를 좁힐 수 있고, 국채 금리 상승은 주택담보대출 등 민간의 차입 비용에도 영향을 줄 수 있다.",
-        "link": "https://view.asiae.co.kr/article/2026101709522280967",
-        "source": "아시아경제",
-        "published": "2026-10-17T09:52:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "美 재정적자 1.99조달러…세출 증가에 이자 부담도 역대 최대",
-        "summary": "국채 발행 수요와 이자 비용이 커지면 향후 재정 운용 여력이 줄어들 수 있고, 국채 금리 상승은 주택담보대출 등 민간 차입 비용에도 영향을 줄 수 있다. 옥스퍼드 이코노믹스의 낸시 반덴 하우텐은 내년에도 미국의...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02023766645613904&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-17T10:06:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "美 재정적자 2조달러 육박…2021년 이후 최대",
-        "summary": "국채 금리 상승은 주택담보대출 등 민간의 차입 비용에도 영향을 줄 수 있다. 옥스퍼드 이코노믹스의 낸시 반덴 하우텐은 내년에도 미국의 재정 적자가 비슷한 수준을 유지할 것으로 전망하면서도, 이란 전쟁이...",
-        "link": "https://biz.heraldcorp.com/article/10905704?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-17T10:39:00+09:00",
+        "title": "미국 재정적자 2670조원 육박...팬데믹 이후 최대 규모",
+        "summary": "국채 금리가 급등하며 사상 최대로 불어난 이자 비용과 복지 지출 증가가 겹친 영향이다. 16일(현지시간)... 국채 금리 급등과 더불어 정부 부채도 늘면서 이자 비용이 불어났다. 복지 지출도 늘었다. 사회보장...",
+        "link": "https://www.mt.co.kr/world/2026/10/17/2026101714145235057",
+        "source": "머니투데이",
+        "published": "2026-10-17T15:14:00+09:00",
         "score": 80
       }
     ],
@@ -290,31 +290,39 @@
         "score": 80
       },
       {
-        "title": "[시승기] 전기차 도전장 낸 렉서스 ES… 차체 키우고 울컥거림 최소화",
-        "summary": "바닥에 전기차 배터리가 들어가면서다. 이에 너비와 휠베이스(앞바퀴 중심과 뒷바퀴 중심 간 거리)도 이전... DC 최대 150㎾ 급속충전과 AC 최대 11㎾ 충전을 지원하며, 배터리 잔량 10%에서 80%까지 28분(상온 25℃ 기준)...",
-        "link": "https://biz.chosun.com/industry/car/2026/10/17/UDROUBV3FZHPHPAO4MIHTB524U/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-10-17T06:01:00+09:00",
-        "score": 60
-      },
-      {
-        "title": "'9분 만에 완충'…파리 흔든 중국 전기차에 韓·EU 맞불",
-        "summary": "현지 매체에 따르면 BYD는 7인승 전기 SUV '아토 8'을 선보이며, 배터리를 10%에서 97%까지 9분 만에 충전할 수... 전기 밴 '스타리아 카고'는 800V 시스템을 적용해 배터리를 10%에서 80%까지 20분 만에 충전할 수 있습니다....",
-        "link": "https://biz.sbs.co.kr/article_hub/20000340264?division=NAVER",
-        "source": "SBS",
-        "published": "2026-10-17T06:00:00+09:00",
-        "score": 60
-      },
-      {
-        "title": "삼성전기는 '반토막' 났는데…한 달만에 58% 급등한 '이곳' [대기업 협력...",
-        "summary": "롯데에너지머티리얼즈는 삼성전기와 직접적인 사업 연관 관계는 없지만, 차세대 전고체 배터리와 전자부품 소재 테마 등에서 관련주로 분류된다. 롯데에너지머티리얼즈의 주력 제품은 2차전지 및 반도체 기판의...",
-        "link": "https://www.hankyung.com/article/202610166853i",
-        "source": "한국경제",
-        "published": "2026-10-17T07:31:00+09:00",
+        "title": "“삼전닉스 대신 뭐 살까요”…여의도서 꼽은 중소형주 유망 종목",
+        "summary": "반도체·디스플레이 장비주 성장 기대 원전·우주·비만치료제 관련주 주목 국내 증시 변동성이 커지며... 반도체·디스플레이 장비주가 눈길을 끈다. 선익시스템은 올해 3분기부터 올레도스(OLEDoS), 4분기 8.6세대 OLED...",
+        "link": "https://www.mk.co.kr/article/12178020",
+        "source": "매일경제",
+        "published": "2026-10-17T17:01:00+09:00",
         "score": 52
+      },
+      {
+        "title": "전기차 타기 부담되네…충전비 또 5%대 인상 [많이 본 경제기사]",
+        "summary": "올해 들어 공공과 민간을 가리지 않고 전기차 충전 요금이 잇달아 오르고 있습니다. 충전 업계 1위 채비가 이달 요금을 또 5% 넘게 올리는데요. 국내 자동차 시장의 무게 중심이 전기차로 빠르게 넘어가고 있는 상황에서...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000340213?division=NAVER",
+        "source": "SBS",
+        "published": "2026-10-17T08:00:00+09:00",
+        "score": 52
+      },
+      {
+        "title": "AI 경고등에 유가 급등까지…반도체 급락, 나스닥 2.2%↓(종합)",
+        "summary": "(뉴욕=연합뉴스) 김연숙 특파원 = 16일(현지시간) 미국 뉴욕 증시의 주요 지수가 일제히 하락했다.",
+        "link": "https://www.yna.co.kr/view/AKR20261017005151072",
+        "source": "연합뉴스 마켓+ 최신기사",
+        "published": "2026-10-17T06:26:05+09:00",
+        "score": 50
       }
     ],
     "부동산": [
+      {
+        "title": "지금처럼 집값 오르면…2030년 재산세 54% 뛴다 [김경민의 부동산NOW]",
+        "summary": "KB부동산 시뮬레이션 분석 서울 아파트값 상승세가 지속될 경우 주요 단지 재산세 부담이 2030년까지... 신동욱 의원은 “부동산 정책 실패로 서울 국민평형 아파트 재산세가 가파르게 오르는 중”이라며...",
+        "link": "https://www.mk.co.kr/article/12177965",
+        "source": "매일경제",
+        "published": "2026-10-17T17:01:00+09:00",
+        "score": 116
+      },
       {
         "title": "\"진짜 집값 미쳤나\"...文정부 2021년 다 넘었다 [부동산 아토즈]",
         "summary": "9월 누적 8.32%...2021년 연간 넘었다 한국부동산원이 최근 발표한 9월 월간 아파트값 통계를 보자. 올해 1... 부동산원에 따르면 지난 2021년 서울 아파트값은 8.02% 올랐다. 한 전문가는 \"올해 9개월간 서울 집값...",
@@ -332,26 +340,18 @@
         "score": 116
       },
       {
-        "title": "망리단길은 남기고 아파트를 짓는다…망원1구역 재개발의 선택",
-        "summary": "상업용 부동산 투자자에게는 여기서 또 다른 문제가 생긴다. 정비구역에서 제외된 건물들은 대규모... 천우석 한경닷컴 부장·CCIM skydol@hankyung.com 한경부동산밸류업센터 ※ 본 칼럼은 작성자의 의견입니다.",
-        "link": "https://www.hankyung.com/article/202610142382O",
-        "source": "한국경제",
-        "published": "2026-10-17T09:59:00+09:00",
-        "score": 100
-      },
-      {
-        "title": "짧고 굵게, 아파트 명칭도 재건축 바람",
-        "summary": "로마 황제를 연상케 하는 최장 25자(字) 아파트가 등장하는 등 이름 인플레이션이 심해지면서 피로감도 커졌다. 부동산인포에 따르면, 1990년대 평균 4.2자였던 아파트 명칭은 2023년 9.8자까지 늘어났다. 이듬해 서울시가...",
-        "link": "https://www.chosun.com/national/weekend/2026/10/17/KKW6WCDK7ZAHLBT7RKYYF4JTBU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-10-17T00:31:00+09:00",
-        "score": 100
+        "title": "재개발·경매·갭투자…부동산에 뛰어든 10명의 플레이어들[이재용의 소...",
+        "summary": "파산하고, 횡령으로 수감되고, 금리 상승에 빌라 분양이 막히고, 경매에서 번번이 패찰한다. 그러나 그들은 주저앉아 울지 않는다. 소설집에 수록된 단편 ‘부동산은 끝났다는 그말-동부이촌동’의 주인공은 파산한 뒤...",
+        "link": "https://www.sedaily.com/article/20102679?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-17T18:20:00+09:00",
+        "score": 106
       }
     ],
     "국제경제": [
       {
         "title": "미국 데이터센터 값비싼 대가...트럼프 '50% 관세'에 철강 가격 4년만 최...",
-        "summary": "향한 무역 가이드라인을 수시로 바꾸면서 구매업체들이 해외 주문을 대폭 줄였기 때문이다. 데이터 분석업체 CRU 그룹의 조지 스푸어스 철강 연구 수석은 \"수입 규제와 끊임없이 변하는 무역 정책 때문에 구매업체들이...",
+        "summary": "관세 정책이 미국 내 제철 산업과 일자리를 보호하는 명분은 세웠지만 결과적으로 제조업 전반의 생산 비용을 높여 인플레이션을 자극하는 원인이 되고 있기 때문이다. 원자재업계 한 관계자는 \"현재 진행 중인 내년도...",
         "link": "https://www.mt.co.kr/world/2026/10/17/2026101708142267709",
         "source": "머니투데이",
         "published": "2026-10-17T08:34:00+09:00",
@@ -400,11 +400,35 @@
         "score": 44
       },
       {
+        "title": "신현송 \"AI시대에도 고전 금융 규제 중요…지급결제 자유화 지금이 적기...",
+        "summary": "신현송 한국은행 총재는 \"서로 다른 인공지능(AI) 모델을 사용하고 있더라도 (레버리지 활용 등 분야에서) 시장 참여자들이 같은 방향으로 움직이게 된다\"고 경고했다. 시장 참여자들이 다양한 AI를 활용하더라도 전통적인...",
+        "link": "https://view.asiae.co.kr/article/2026101719523791678",
+        "source": "아시아경제",
+        "published": "2026-10-17T19:52:00+09:00",
+        "score": 28
+      },
+      {
+        "title": "中CXMT, 3분기 매출 600% 급증 전망…월가 “시장 공포 과도”",
+        "summary": "<center>  <img src=\"https://image.kmib.co.kr/online_image/2026/1017/01100201.20261017500061.jpg\" /> </center> 삼성전자와 SK하이닉스가 주도하는 D램 메모리 시장에 도전장을 낸 중국 창신메모리테크놀로지(CXMT)가 인공지능(AI) 열풍에 힘입어 3분기 실적 급증을 예고했다. 최대 4000억원 규모의 자사주 매입 계획도 함께 내놓으며 시장 신뢰 다지기에 나섰다. <br /><br />중국 과창판일보, 제일재경 등은 17일(현지시간) CXMT가 전날 실적 예고를 통해 올해 3분기 매출을 1147억~1197억 위안(약 22조9000억~23조9000억원) 수준으로 추정했다고 보도했다. 이는 지난해 같은 기간보다 589~619%, 직전 2분기보다 15~20% 늘어난 수치다. <br /><br />3분기 순이익(모회사 주주 귀속 기준)은 533억9500만~548억9500만 위안(약 10조6000억~10조900...",
+        "link": "https://www.kmib.co.kr/article/view.asp?arcid=9000023346",
+        "source": "국민일보 | 경제",
+        "published": "2026-10-17T05:35:00+00:00",
+        "score": 28
+      },
+      {
         "title": "“데이터센터 보고 네이버 담은 분들, 탈출하세요”…노무라가 꼽은 톱픽은",
         "summary": "“韓 데이터센터, 수요와 투자 규율 중요” 삼성SDS, 계열사 수요에 “25만원 간다” 네이버 목표가는 21만원→20만원 하향일본계 투자은행(IB) 노무라가 한국 인공지능(AI) ..",
         "link": "https://www.mk.co.kr/news/stock/12177663",
         "source": "매일경제 : 증권",
         "published": "2026-10-16T11:23:08+09:00",
+        "score": 26
+      },
+      {
+        "title": "中 CXMT, 3분기 매출 7배 급증 전망…삼성·SK 추격",
+        "summary": "(AI) 반도체 수요 확대에 힘입어 가파른 실적 성장세를 이어가고 있다. 올해 3분기 매출이 지난해 같은... CXMT는 실적 급증의 배경으로 AI 산업 확대에 따른 글로벌 메모리 반도체 수급 불균형을 꼽았다. CXMT 측은...",
+        "link": "https://www.mk.co.kr/article/12178459",
+        "source": "매일경제",
+        "published": "2026-10-17T14:46:00+09:00",
         "score": 26
       },
       {
@@ -418,36 +442,20 @@
     ],
     "기타": [
       {
-        "title": "플린 美 예비역 중장에 한국이름 '신민수' 선물",
-        "summary": "도널드 트럼프 1기 미국 행정부에서 국가안보보좌관을 지낸 마이클 T 플린 예비역 미국 육군 중장(현 골드국제전략연구소 회장)이 '신민수'라는 한국 이름을 선물받았다. \n지난 14일..",
-        "link": "https://www.mk.co.kr/news/world/12178006",
-        "source": "매일경제 : 국제",
-        "published": "2026-10-16T17:03:51+09:00",
-        "score": 24
-      },
-      {
-        "title": "“머스크 잘했어”…앙숙 올트먼도 찬사",
-        "summary": "나는 전기차’에 도널드 트럼프 미국 대통령과 순다르 피차이 구글 CEO 등 유명 인사들의 찬사가 이어지고... 월가와 전기차 애호가들 사이에서도 긍정적인 반응이 이어졌다. 테슬라는 15일 미국 텍사스주 맥그리거에...",
-        "link": "https://www.mk.co.kr/article/12178334",
-        "source": "매일경제",
-        "published": "2026-10-17T06:14:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "엔비디아가 밀어준 코어위브도 '흔들'…AI 투자 경고등",
-        "summary": "가파른 금리 상승과 수익성 우려라는 암초를 만났습니다. 16일(현지시간) 월스트리트저널(WSJ)과... 자산운용사 알라이언스번스틴의 알리 벤다르카위는 투자자들이 고금리 장기화 기조를 한계 차입자들에게 부과되는...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000340542?division=NAVER",
-        "source": "SBS",
-        "published": "2026-10-17T09:41:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "‘삼전닉스’ 위협한 CXMT, 3분기 매출 600%대 급증…최대 4000억원 자사...",
-        "summary": "중국 메모리 반도체 기업 창신메모리(CXMT)가 인공지능(AI)발 메모리 호황을 타고 실적 급증을 예고한 데 이어 최대 4000억원 규모의 자사주 매입까지 추진한다. 기술 경쟁 우려로 국내 반도체 대형주 주가를 흔들어온...",
-        "link": "https://biz.heraldcorp.com/article/10905767?ref=naver",
+        "title": "“삼성전자 7만원, 하이닉스 20만원” 외치더니…“1년 후 적자” 공포...",
+        "summary": "AI·반도체 관련주에 매도세가 집중되면서 기술주 중심의 나스닥지수는 2% 넘게 떨어졌다. 특히 마이크론(-5.63%), 브로드컴(-4.52%), AMD(-5.95%), SK하이닉스 미국주식예탁증서(ADR·-6.58%) 등이 큰 폭으로 떨어졌다.",
+        "link": "https://biz.heraldcorp.com/article/10905882?ref=naver",
         "source": "헤럴드경제",
-        "published": "2026-10-17T13:49:00+09:00",
-        "score": 22
+        "published": "2026-10-17T20:41:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "'허위 경력' 백악관 대변인, 닷새 만에 경질…선거 앞두고 논란 진화",
+        "summary": "없다\"는 비하성 발언으로 중국 외교부의 공식 반발까지 불렀습니다. '충성스러운 지지자'라며 직접 발탁했던 트럼프 대통령마저 등을 돌리면서, 역대 최단명 백악관 대변인이란 불명예를 안게 됐습니다. TV조선 이상배입니다.",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/17/2026101790109.html",
+        "source": "조선일보",
+        "published": "2026-10-17T19:34:00+09:00",
+        "score": 24
       },
       {
         "title": "한때 적이었던 메타·애플 손 잡았다…초대형 AI 모델 맥 컴퓨터서 구동",
@@ -456,6 +464,22 @@
         "source": "경향신문:경제",
         "published": "2026-10-16T15:23:00+09:00",
         "score": 22
+      },
+      {
+        "title": "'역대급 호황' 소문난 잔치가 왜…'K콘텐츠' 뜻밖의 딜레마 [김예랑의 K...",
+        "summary": "이로 인해 중소 기획사와 영세한 공연 기획 사업체들이 느끼는 수출, 고용, 자금 사정 등의 체감 경기는 여전히 얼어붙어 있다. 음악산업 전체의 종합 체감 지수가 100을 상회하며 겉으로는 순항하는 것처럼 보여도, 앞선...",
+        "link": "https://www.hankyung.com/article/202610166434H",
+        "source": "한국경제",
+        "published": "2026-10-17T17:09:00+09:00",
+        "score": 21
+      },
+      {
+        "title": "“BMW 타고 ‘플렉스’하고 해외여행까지”…영국 덮친 복지의 역설[나...",
+        "summary": "영구의 10년 만기 국채금리는 연초 4.5%에서 5.5%로 올랐다. 키어 스타머 전 총리가 2030년까지 연간 50억파운드를 절감하기 위해 수급 자격요건 강화 등 복지 개혁안을 꺼내들었지만 거센 반발에 철회했다. 복지급여가...",
+        "link": "https://biz.heraldcorp.com/article/10905846?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-17T17:48:00+09:00",
+        "score": 21
       },
       {
         "title": "명신산업, 애프터마켓서 10%대 급등",
@@ -474,11 +498,19 @@
         "score": 20
       },
       {
-        "title": "상위 1% 부자와 개미들의 투자 습관 차이는?…강남 PB에 물었더니",
-        "summary": "한국경제신문의 투자 전문 유료 플랫폼 '한경 프리미엄9'(www.hankyung.com/premium9)에 실린 기사입니다. '한경... 하지만 이 같은 고금리가 장기화하면 분명히 실물 경제에 영향을 줄 수밖에 없다. 경기가 지금보다 나빠지고...",
-        "link": "https://www.hankyung.com/article/202610078550i",
-        "source": "한국경제",
-        "published": "2026-10-17T14:03:00+09:00",
+        "title": "알고도 못 막는 슈퍼스타…KIA 김도영, 멀티포로 뚫은 LG 견제(종합)",
+        "summary": "LG 배터리는 김도영과 정면 대결을 피하려다가 3볼 1스트라이크에서 던진 슬라이더가 스트라이크로 이어지자 풀카운트에서 포크볼을 선택했다. 김도영은 이를 놓치지 않고 받아쳐 125ｍ를 날려 보냈다. LG 중견수...",
+        "link": "https://www.yna.co.kr/view/AKR20261017038851007?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-17T17:56:00+09:00",
+        "score": 20
+      },
+      {
+        "title": "KIA, LG 작전 간파·깔끔한 병살 수비로 준PO 1차전 잡았다(종합)",
+        "summary": "KIA 배터리가 의도적으로 공을 밖으로 뺀 것이었다. 2루로 뛰던 박동원은 베이스에 닿지 못한 채 결국 협살에 걸렸다. 경기 후 염경엽 LG 감독은 \"KIA 배터리의 피치트 아웃아 아니라 그냥 볼이 된 것\"이라고 대수롭지...",
+        "link": "https://www.yna.co.kr/view/AKR20261017039051007?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-17T17:47:00+09:00",
         "score": 20
       },
       {
@@ -487,14 +519,6 @@
         "link": "https://www.hankyung.com/article/202610177612i",
         "source": "한국경제",
         "published": "2026-10-17T12:00:00+09:00",
-        "score": 20
-      },
-      {
-        "title": "\"2년 만에 20억→40억\"…한물 갔다던 '원조 부촌'의 부활 [이슬기의 새집...",
-        "summary": "김제경 투미부동산컨설팅 소장은 \"착공을 앞둔 구역들이 본격 입주하는 4년 뒤나 후속 구역들이 들어서는 7~8년 뒤 시점을 보면, 방배동 전용 84㎡(국평) 시세는 45억원을 무난히 넘어설 것\"이라며 \"최근 공사비 급등으로...",
-        "link": "https://www.hankyung.com/article/2026101664466",
-        "source": "한국경제",
-        "published": "2026-10-17T10:31:00+09:00",
         "score": 20
       }
     ]
@@ -557,39 +581,39 @@
   ],
   "summary_en": {
     "date": "2026-10-17",
-    "generated_at": "2026-10-17T05:44:06.302027+00:00",
-    "briefing_hash": "5d4d7c1ae614ee70",
+    "generated_at": "2026-10-17T11:48:55.585897+00:00",
+    "briefing_hash": "1d13a9a3153df9d0",
     "key_headlines": [
       {
-        "title": "Government Bond Refinancing Risk Materializes: 241 Trillion Won in Low-Rate Debt Matures",
-        "summary": "Over 241 trillion won in government bonds issued at interest rates below 3% will mature between 2027-2030, creating significant refinancing costs as current rates are much higher. This represents a major fiscal risk as interest expenses could balloon if rates remain elevated."
+        "title": "South Korea's Low-Interest Debt Refinancing Crisis: 241 Trillion Won Maturing 2027-2030",
+        "summary": "Over 241 trillion won in Korean government bonds issued at below 3% interest rates will mature between 2027 and 2030, creating significant refinancing risks as current interest rates are substantially higher, potentially leading to massive additional borrowing costs."
       },
       {
-        "title": "Import Price Index Rebounds on High Oil Prices Despite Won Appreciation",
-        "summary": "September import prices rose 1.7% month-on-month for the first time in four months due to surging crude oil and raw material costs, offsetting benefits from a weaker dollar. The government froze petroleum price ceilings again to manage inflationary pressures."
+        "title": "KOSPI Plunges 8% Amid Global Semiconductor Selloff and Foreign Capital Outflow",
+        "summary": "The Korean stock market experienced a severe decline with KOSPI falling nearly 8% as foreign investors withdrew approximately 145 billion dollars from domestic equities in 2026, while semiconductor stocks including Samsung and SK Hynix dropped over 10%."
       },
       {
-        "title": "KOSPI Plunges 8% in Seven Consecutive Trading Days; Circuit Breaker Triggered",
-        "summary": "The stock market experienced severe volatility with KOSPI falling to 5554, down nearly 8%, while forced liquidations reached approximately 300 billion won. Semiconductor stocks led declines following weakness in overnight U.S. markets."
+        "title": "Korea's Import Price Index Rises 1.7% Despite Weaker Won, Driven by Surging Oil Prices",
+        "summary": "Import prices increased for the first time in four months as global oil prices surged despite a declining won-dollar exchange rate, with the government maintaining a freeze on maximum oil prices at 1,784 won per liter."
       },
       {
-        "title": "Government Housing Supply Performance Briefing Launched Amid Market Concerns",
-        "summary": "Despite announcing regular biweekly housing supply updates, the government's actual construction starts remain at only 37% of targets. Market skepticism persists as real supply acceleration lags behind communications efforts."
+        "title": "Government Launches Twice-Monthly Housing Supply Briefings Amid Market Anxiety",
+        "summary": "Facing persistent real estate market uncertainty, the government announced regular biweekly briefings on housing supply progress, though current construction starts have reached only 37% of targets, raising concerns about supply shortage mitigation."
       },
       {
-        "title": "Foreign Investors Sold 26 Trillion Won in Korean Stocks During 'Buy Korea' Campaign",
-        "summary": "Despite the government's 'Buy Korea' initiative, foreign investors net-sold 26 trillion won in Korean equities over three weeks, betting instead on won appreciation. Year-to-date foreign outflows total 145 billion dollars."
+        "title": "U.S. Budget Deficit Reaches 2 Trillion Dollars, Highest Since 2021",
+        "summary": "The U.S. Treasury Department reported the fiscal deficit reached 2 trillion dollars with the deficit-to-GDP ratio increasing from 5.8% to approximately 6.2%, raising concerns about fiscal sustainability in peacetime economic conditions."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea's economy faces mounting pressures as government bond refinancing risks materialize with 241 trillion won in low-rate debt coming due between 2027-2030. The government emphasizes export and investment-led recovery while contending with persistent inflation from elevated global oil prices and domestic employment challenges. Import price rebounds after four months of decline, driven by soaring crude oil costs that outweigh currency appreciation benefits. The stock market experiences severe turbulence with seven consecutive trading days of losses and circuit breaker activation, reflecting broader economic uncertainties. Policy focus remains on managing inflation, addressing housing supply concerns, and maintaining fiscal sustainability amid challenging external conditions.",
-      "Macro & Fiscal Policy": "The Bank of Korea's next benchmark rate decision on October 22 will be closely watched following consecutive rate hikes in July and August, with markets uncertain about future monetary policy direction. Import price inflation reemerges after four months of deflation, raising concerns about fiscal-monetary policy misalignment as the central bank considers inflation while the government manages growth. September import prices rose 1.7% month-on-month due to elevated crude oil and raw material costs, despite a weaker dollar supporting Korean competitiveness. The government faces fiscal pressure from 406 trillion won in maturing bonds through 2030, with refinancing costs potentially surging if rates remain elevated. Producer price statistics and economic oversight hearings scheduled for next week will provide additional insights into inflationary trends and economic health.",
-      "Financial Markets": "KOSPI experienced severe volatility, falling over 8% with seven consecutive days of losses and circuit breaker activation, while forced liquidations reached approximately 300 billion won as leveraged investors were margin-called. Foreign investors continued net selling of Korean equities, dumping 26 trillion won during the 'Buy Korea' campaign, with year-to-date outflows totaling 145 billion dollars as they bet on won strength. Semiconductor stocks led market declines following overnight U.S. weakness, with Samsung Electronics and SK Hynix dropping around 10%. Bond markets attracted investor flows as market volatility increased, while biotech stocks showed relative strength as U.S. Treasury yields declined. Market uncertainty regarding U.S. midterm elections and big tech earnings results raised concerns about further downside risk.",
-      "Industry & Technology": "Apple CEO signaled potential use of Chinese semiconductors due to absolute memory chip supply constraints, raising concerns about global semiconductor supply chain concentration risks. Chinese electric vehicle manufacturer BYD unveiled rapid charging technology capable of charging batteries from 10% to 97% in nine minutes, intensifying competition with Korean and EU manufacturers. Lexus launched its electric vehicle challenge with improved space efficiency and 28-minute fast-charging capability using 800V technology, demonstrating intensifying EV competition. Samsung Electronics faced significant stock price pressures amid semiconductor weakness, while supply chain partners showed mixed performance with some gaining over 50% on battery and materials themes. The semiconductor industry confronts structural challenges from slowing global demand growth and intensifying Chinese competition in memory chip markets.",
-      "Real Estate": "Seoul apartment prices surged 8.32% in the first nine months of 2026, already exceeding the entire 2021 annual increase of 8.02%, driven by strong year-to-date appreciation. Emerging neighborhoods including Dongdaemun, Seodaemun, and Seongbuk districts recorded over 82% of apartments trading at record-high prices as regulatory balloon effects redirect demand from restricted Gangnam areas. Real estate experts warn of accelerating balloon effects as property regulations in Gangnam push buyers to convenient commuting zones with lower entry barriers, creating new hotspots with rapidly rising prices. Seoul's disappearing jeonse (long-term lease) market and rising monthly rents force actual homebuyers to enter available markets quickly, intensifying competition and record prices. Apartment naming inflation reflects market pressure, with average character count expanding from 4.2 characters in the 1990s to 9.8 characters by 2023.",
-      "International Economy": "Trump administration exempted Russia energy-linked tariffs to control diesel prices, delaying enforcement of the Graham Act that would have imposed tariffs up to 100% on countries importing Russian energy. Steel prices reached four-year highs as Trump's 50% tariff policies create purchasing uncertainty, prompting buyers to drastically reduce international orders amid constantly shifting trade guidelines. U.S. datacenters face expensive consequences from elevated tariffs and policy uncertainty, affecting semiconductor and raw material procurement strategies. The Federal Reserve faces political constraints before midterm elections, with only 10-15% probability of additional rate hikes at month-end FOMC meeting despite inflation concerns. Global trade policy uncertainty intensifies amid shifting U.S. trade positions, creating headwinds for international commerce and investment planning.",
-      "AI & Economy": "Concerns mount over 70 trillion won in AI infrastructure debt sustainability as CoreWeave's troubles expose risks from high financing costs and potential revenue shortfalls if AI monetization lags expectations. Nomura downgraded Korean AI datacenter stocks including Naver, warning investors about oversupply risks and questioning demand sustainability beyond mega-project implementations. Gartner predicts approximately 80% of neo-cloud infrastructure may face profitability challenges by 2030 due to rising capital costs and competitive pressures. Samsung SDS and other Korean technology companies face valuation pressures amid uncertainty about AI return on investment and sustainable revenue generation models. The government's three mega-projects for AI infrastructure must integrate with regional economic development and industry transformation to justify massive capital deployments and achieve sustainable growth benefits.",
-      "Others": "Former U.S. National Security Advisor Michael Flynn received a Korean name 'Shin Min-soo' as a gift, symbolizing strengthening Korea-U.S. relations and engagement initiatives. Elon Musk received widespread praise from prominent figures including President Trump and Google CEO Sundar Pichai for Tesla's technological achievements in electric vehicles. Meta partnered with longtime rival Apple to launch large-scale AI models executable on Mac computers, marking an unprecedented collaboration to advance open-source AI technology. Chinese memory semiconductor manufacturer CXMT announced 600% surge in third-quarter revenue and plans to repurchase up to 400 billion won in shares, intensifying competitive pressure on Korean semiconductor giants. Strategic technology alliances shift as former competitors collaborate on AI development, reshaping competitive dynamics and investment landscapes."
+      "Hot Economy News": "South Korea faces significant economic pressures as the refinancing of low-interest government debt threatens fiscal stability through 2030. The stock market experienced severe turbulence with KOSPI declining nearly 8% as foreign investors continued their capital exodus from Korean equities, totaling 145 billion dollars in net outflows for 2026. Import price inflation resurged for the first time in four months despite a stronger won, driven primarily by surging international crude oil prices. The government responded to housing market anxiety by establishing regular biweekly supply briefings, though actual construction remains significantly behind targets. These interconnected economic challenges reflect mounting pressure on both macro stability and household finances.",
+      "Macro & Fiscal Policy": "The Bank of Korea faces a critical decision point on interest rate policy, with a rate decision scheduled for October 22 as policymakers balance persistent inflation pressures against weaker growth signals. The maturation of 241 trillion won in low-interest debt between 2027 and 2030 poses substantial refinancing risks, with approximately 60% of maturing debt issued below 3% rates now facing refinancing at substantially higher yields. Import price inflation accelerated 1.7% in September despite currency appreciation, reflecting global oil price pressures that may complicate inflation management. The government maintained its oil price ceiling freeze, indicating concern about additional price pressures on households amid already elevated inflation expectations.",
+      "Financial Markets": "Korean financial markets experienced severe volatility with KOSPI declining nearly 8% over seven consecutive trading days, triggering circuit breakers and forcing approximately 300 billion won in forced liquidations of leveraged positions. Foreign investors continued their net selling stance, withdrawing 145 billion dollars from domestic equities through September, while placing new bets on Korean won strength in foreign exchange markets. Increased market volatility drove capital flows toward bonds and defensive assets, while risk appetite for high-yield products persisted among some investors. Semiconductor and technology stocks bore the brunt of selling pressure, with major chipmakers Samsung and SK Hynix declining over 10% as global chip demand concerns mounted. The broader U.S. equity market declined 2.2% as semiconductor and AI-related stocks faced significant headwinds.",
+      "Industry & Technology": "Apple's CEO signaled potential reliance on Chinese semiconductor components amid critical memory chip shortages, identifying memory supply constraints as an absolute crisis that may necessitate supply chain diversification. Semiconductor equipment manufacturers attracted investor attention as growth alternatives, with companies developing OLED technologies and advanced display fabrication equipment gaining market focus. Electric vehicle charging costs rose over 5% in October, continuing an upward trend throughout 2026 that increases operating expenses for EV adoption despite rapid market shift toward electrification. Global semiconductor weakness extended to component suppliers and equipment manufacturers, with U.S. chipmakers declining 4-6% amid broader sector volatility. The AI infrastructure buildout faces sustainability concerns as rising interest rates and inflation increase borrowing costs for major data center investments.",
+      "Real Estate": "Seoul apartment prices continued accelerating with nine-month gains through September exceeding the entire 8.02% appreciation recorded in 2021, reflecting sustained upward momentum in the housing market. Regulatory pressure in gangnam districts created balloon effects, concentrating demand in emerging hotspots including Dongdaemun, Seodaemun, and Seongbuk districts where over 82% of traded apartments hit historic highs. If current appreciation trends continue, major apartment units face projected property tax increases of approximately 54% by 2030, raising concerns about the total cost of ownership. Institutional redevelopment, foreclosures, and gap investments represent multiple strategies employed by investors navigating the heated market, though supply constraints remain the fundamental market driver. The disappearance of jeonse (lump-sum lease) arrangements combined with rising monthly rents intensified competition among actual home buyers seeking affordable entry points.",
+      "International Economy": "The United States faces mounting fiscal challenges with the 2026 budget deficit reaching 2 trillion dollars, the highest level since 2021, as the deficit-to-GDP ratio expanded from 5.8% to 6.2% amid persistent economic pressures. Trump administration trade policies featuring 50% steel tariffs risk fueling broader inflationary pressures by increasing manufacturing costs across multiple industries despite protectionist intentions. Russia-linked energy sanctions faced exemptions as the Trump administration prioritized energy price controls ahead of midterm elections, suspending the Graham Act's provisions on tariffs targeting Russian energy purchasers. The administration's decision to exempt high tariffs on nations importing Russian energy reflects political prioritization of domestic energy costs over sanctions implementation during an election cycle. Germany's fiscal stability concerns intensified as debt-to-GDP ratios face projected expansion from 62.8% to 78.3% by 2030, prompting consideration of AI revenue taxation to support budgetary consolidation.",
+      "AI & Economy": "Chinese CXMT memory chipmaker projected third-quarter revenue growth of 589-619% compared to year-ago periods, buoyed by global AI demand expansion and memory supply imbalances, signaling intensifying competition for Samsung and SK Hynix market share. AI infrastructure financing faces sustainability questions as elevated interest rates and inflation increase borrowing costs on estimated 70 trillion won in accumulated AI infrastructure debt, potentially constraining future investment returns. Bank of Korea Governor Shin Hyun-sung warned that despite diverse AI model deployment, market participants tend to move in synchronized directions, potentially amplifying systemic risks requiring enhanced traditional financial regulation. Meta and Apple announced unprecedented cooperation on open-source AI model deployment for desktop environments, signaling expanded competition in AI infrastructure against Chinese industry dominance. Nomura Securities downgraded Korean AI-focused stocks including Naver, citing concerns about data center demand sustainability and suggesting defensive positioning in the sector.",
+      "Others": "Samsung Electronics faced severe stock price pressure, declining over 10% amid analyst targets previously suggesting 70,000 won levels and raising fears of future earnings deficits within one year. Meta and Apple partnered on advanced AI model deployment for Macintosh computers, overcoming historical competitive rivalry to expand open-source AI alternatives in the consumer computing market. Korean content industry faces paradoxical challenges despite reported record-high profitability, with small production companies and independent event organizers experiencing frozen hiring and cash flow despite aggregate industry indices exceeding 100. The White House spokesperson was removed after five days in a record-short tenure following false credential disclosures, demonstrating personnel management challenges ahead of elections. British welfare system paradoxes emerged as government benefits enabled luxury consumption including BMW vehicles and overseas travel, prompting fiscal reform debates despite political setbacks in implementing eligibility restrictions."
     }
   }
 }
