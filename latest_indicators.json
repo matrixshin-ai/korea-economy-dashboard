@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T00:24:33.172968",
+  "updated_at": "2026-10-21T05:34:48.240273",
   "indicators": [
     {
       "id": "sp500",
@@ -91,8 +91,8 @@
     {
       "id": "kospi",
       "name": "KOSPI",
-      "value": "5,671.55",
-      "change": -1.67,
+      "value": "5,690.58",
+      "change": 2.48,
       "category": "stock",
       "trend": [
         {
@@ -216,16 +216,20 @@
           "value": 6008.81
         },
         {
+          "date": "2026-10-20",
+          "value": 5552.74
+        },
+        {
           "date": "2026-10-21",
-          "value": 5671.55
+          "value": 5690.58
         }
       ]
     },
     {
       "id": "kosdaq",
       "name": "KOSDAQ",
-      "value": "796.40",
-      "change": -1.54,
+      "value": "789.69",
+      "change": 0.99,
       "category": "stock",
       "trend": [
         {
@@ -349,8 +353,12 @@
           "value": 823.88
         },
         {
+          "date": "2026-10-20",
+          "value": 781.97
+        },
+        {
           "date": "2026-10-21",
-          "value": 796.4
+          "value": 789.69
         }
       ]
     },
@@ -955,8 +963,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "158.38",
-      "change": -0.09,
+      "value": "158.16",
+      "change": -0.23,
       "category": "currency",
       "trend": [
         {
@@ -977,15 +985,15 @@
         },
         {
           "date": "2026-10-21",
-          "value": 158.38
+          "value": 158.16
         }
       ]
     },
     {
       "id": "cny_usd",
       "name": "위안/달러",
-      "value": "6.67",
-      "change": -0.35,
+      "value": "6.68",
+      "change": -0.19,
       "category": "currency",
       "trend": [
         {
@@ -1006,7 +1014,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 6.67
+          "value": 6.68
         }
       ]
     },
@@ -1014,13 +1022,9 @@
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
       "value": "101.79",
-      "change": -0.18,
+      "change": 0.06,
       "category": "currency",
       "trend": [
-        {
-          "date": "2026-10-15",
-          "value": 102.0
-        },
         {
           "date": "2026-10-16",
           "value": 101.84
@@ -1031,6 +1035,10 @@
         },
         {
           "date": "2026-10-20",
+          "value": 101.73
+        },
+        {
+          "date": "2026-10-21",
           "value": 101.79
         }
       ]
@@ -1038,8 +1046,8 @@
     {
       "id": "krw_usd",
       "name": "원/달러 환율",
-      "value": "1,332.10",
-      "change": -0.77,
+      "value": "1,328.00",
+      "change": -0.31,
       "category": "currency",
       "trend": [
         {
@@ -1201,20 +1209,20 @@
         {
           "date": "2026-10-20",
           "value": 1332.1
+        },
+        {
+          "date": "2026-10-21",
+          "value": 1328.0
         }
       ]
     },
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$98.46",
-      "change": -5.02,
+      "value": "$98.97",
+      "change": -2.77,
       "category": "commodity",
       "trend": [
-        {
-          "date": "2026-10-15",
-          "value": 97.97
-        },
         {
           "date": "2026-10-16",
           "value": 101.41
@@ -1225,21 +1233,21 @@
         },
         {
           "date": "2026-10-20",
-          "value": 98.46
+          "value": 101.79
+        },
+        {
+          "date": "2026-10-21",
+          "value": 98.97
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,134.70",
-      "change": -0.61,
+      "value": "$4,142.90",
+      "change": 0.01,
       "category": "commodity",
       "trend": [
-        {
-          "date": "2026-10-15",
-          "value": 4170.1
-        },
         {
           "date": "2026-10-16",
           "value": 4181.1
@@ -1250,7 +1258,11 @@
         },
         {
           "date": "2026-10-20",
-          "value": 4134.7
+          "value": 4142.6
+        },
+        {
+          "date": "2026-10-21",
+          "value": 4142.9
         }
       ]
     }
