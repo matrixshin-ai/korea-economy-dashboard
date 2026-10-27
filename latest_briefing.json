@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-27T14:37:49.177543+09:00",
+  "generated_at": "2026-10-27T22:40:40.915404+09:00",
   "date": "2026-10-27",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 661,
-    "total_used": 648,
-    "dropped_quality": 5,
-    "dropped_negative": 8,
+    "total_input": 721,
+    "total_used": 703,
+    "dropped_quality": 8,
+    "dropped_negative": 10,
     "per_category": {
-      "기타": 342,
-      "금융시장": 89,
-      "거시경제·재정": 67,
-      "AI와 경제": 7,
-      "산업·과학": 58,
+      "기타": 346,
+      "거시경제·재정": 98,
+      "국제경제": 44,
+      "AI와 경제": 8,
+      "금융시장": 99,
       "부동산": 52,
-      "국제경제": 33
+      "산업·과학": 56
     }
   },
   "headlines": [
@@ -202,6 +202,14 @@
   "sections": {
     "거시경제·재정": [
       {
+        "title": "3분기 GDP 1% '깜짝성장' … 한국은행 \"올 4%도 가능\"",
+        "summary": "한국은행은 27일 '3분기 실질 국내총생산(GDP) 속보치'를 발표하고 한국 경제가 전 분기 대비 1.0% 성장했다고 밝혔다. 지난 8월 전망치(0.3%)의 세 배를 웃도는 수준이다. 분기 성장률은 지난해 4분기 -0.1%에서 올해...",
+        "link": "https://www.mk.co.kr/article/12187424",
+        "source": "매일경제",
+        "published": "2026-10-27T17:44:00+09:00",
+        "score": 120
+      },
+      {
         "title": "\"데이터 넘어 선제적 통화정책 펼쳐야\"…'통화정책통' 박종우 한은 부총...",
         "summary": "그는 먼저 코로나19 팬데믹 초기 임시 금통위를 열어 기준금리를 대폭 인하하고 금융지원책을 마련했던 과정을 언급하며 “미증유의 위기 속에서 기획재정부·금융당국과 한은 사이에 정책 공조에 대한 컨센서스가...",
         "link": "https://www.hankyung.com/article/202610265958i",
@@ -210,11 +218,11 @@
         "score": 118
       },
       {
-        "title": "'앤트로픽 훈풍'에 4%대 급반등…GDP도 깜짝 성장",
-        "summary": "한국은행은 이번 3분기 실질 국내총생산, GDP 성장률이 1.0%로 집계됐다고 밝혔습니다. 이는 한은이 지난 8월 제시한 3분기 성장률 전망치 0.3%를 세 배 이상 웃도는 수치입니다. 반도체 등을 중심으로 수출이 2.3...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008816755&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-10-27T12:05:00+09:00",
+        "title": "한은 “올해 경제 성장률 4%도 가능”…반도체 성장 기여가 절반",
+        "summary": "3분기 GDP 성장률 1.0% 집계 발표 “4분기 1.4% 이상 나오면 4% 가능”올해 3분기 한국 경제가 반도체 수출과 설비투자 증가세에 힘입어 깜짝 성장한 가운데, 한국은행이 ..",
+        "link": "https://www.mk.co.kr/news/economy/12186979",
+        "source": "매일경제 : 경제",
+        "published": "2026-10-27T15:11:25+09:00",
         "score": 102
       },
       {
@@ -242,19 +250,35 @@
         "score": 94
       },
       {
-        "title": "반도체 호황에 3분기 GDP 3.4%·GDI 18.8% 폭풍 급증",
-        "summary": "[기자] 올해 3분기 실질 국내총생산(GDP)이 전 분기보다 1% 성장했습니다. 한국은행이 지난 8월 제시한 전망치 0.3%를 세 배 이상 웃도는 수치인데요. 분기 성장률은 지난해 4분기 -0.1%에서 올해 1분기 1.8%로 급반등했으며...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000342337?division=NAVER",
-        "source": "SBS",
-        "published": "2026-10-27T11:40:00+09:00",
+        "title": "3분기 연속 전망치 뚫은 성장률…증시 한파에 지갑은 얼어붙어",
+        "summary": "올해 3분기 국내총생산(GDP)이 전기 대비 1.0% 상승하면서 올해 분기 성장률은 3개 분기 연속 한국은행 전망치를 웃돌게 됐다. 반도체가 주도하는 성장의 강도가 당초 예상치보다 더 강하고 길게 이어지고 있다는...",
+        "link": "https://www.sedaily.com/article/20106823?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-27T18:12:00+09:00",
         "score": 90
       },
       {
-        "title": "IDB \"韓, AI리스크 관리해야…경기둔화 대응 '안정화기금' 필요\"",
-        "summary": "(서울=연합뉴스) 안채원 기자 = 로라 알파로 미주개발은행(IDB) 수석 이코노미스트 겸 경제자문관은 27일 한국 경제와 관련해서 인공지능(AI...",
-        "link": "https://www.yna.co.kr/view/AKR20261027102700002",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-10-27T13:58:40+09:00",
+        "title": "GDP 1% 깜짝 성장... 지갑은 되레 닫혔다",
+        "summary": "한국은행은 27일 올해 3·4분기 실질 GDP가 전기 대비 1.0%, 전년 동기 대비 3.4% 성장했다고 발표했다. 한은이 지난 8월 제시한 3·4분기 성장률 전망치(전기 대비 0.3%)를 3배 이상 웃도는 '깜짝 성장'이다. 이동원 한은...",
+        "link": "https://www.fnnews.com/news/202610271825079619",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-27T18:26:00+09:00",
+        "score": 90
+      },
+      {
+        "title": "[투자의 창] 프랑스 재정불안, 유로존 위기로 번질까",
+        "summary": "국내총생산(GDP) 대비 재정적자는 5%를 넘어섰고 공공부채 비율도 119%까지 높아져 유로존 재정준칙인 3%와 60... 2026년 경상수지 적자는 GDP 대비 0.7%에 그칠 것으로 보이며, 유로존 대부분 국가의 재정수지도 개선됐다. 국채...",
+        "link": "https://www.sedaily.com/article/20106817?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-27T18:04:00+09:00",
+        "score": 86
+      },
+      {
+        "title": "\"尹정부, 세수결손 메우려 34조 투입·교부세 삭감\"…감사원, 기재부 감...",
+        "summary": "보고서에 따르면 옛 기획재정부(현 재정경제부·기획예산처)는 2023년 9월 세수결손 예상액이 59조원으로 불어나자 부총리 보고 문건에 \"국채 발행량 증가로 국가 채무가 증가하고 국회 심의 과정에서 야당의 정치적 공세...",
+        "link": "https://www.mk.co.kr/article/12187418",
+        "source": "매일경제",
+        "published": "2026-10-27T17:44:00+09:00",
         "score": 80
       },
       {
@@ -266,122 +290,98 @@
         "score": 76
       },
       {
-        "title": "3분기 실질 국내총생산 성장률 전기 대비 1.0% ↑",
-        "summary": "한은에 따르면 올 3분기 실질 국내총생산(GDP)이 전 분기 대비 1.0% 성장한 것으로 집계됐다. 전년 동기 대비로는 3.4% 성장했다. 앞서 한은은 지난 8월 수정 경제전망에서 3분기 성장률 전망치를 0.3%으로 제시한 바 있다....",
-        "link": "https://www.ceoscoredaily.com/page/view/2026102711492273431",
-        "source": "이데일리",
-        "published": "2026-10-27T11:50:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "“반도체, 전체 성장기여율 절반” AI 꺾이면 수출 우려감 확산",
-        "summary": "올해 3분기 실질 국내총생산(GDP)이 한국은행 전망치를 크게 웃돌며 깜짝 성장했다. 하지만 반도체에 대한... 27일 한국은행이 발표한 ‘3분기 실질 국내총생산(GDP·속보치)’에 따르면 3분기 실질 GDP는 8월 한은이 제시한...",
-        "link": "https://biz.heraldcorp.com/article/10916121?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-27T11:37:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "남미 우파 정권, 물가는 잡았지만…빈곤·치안 문제로 골머리",
-        "summary": "그사이 실업률은 7월 9.5%까지 올라 코로나19 사태 이후 최고치를 기록했다. 볼리비아에서는 개혁 속도가 더디다는 지적이 나온다. 로드리고 파스 볼리비아 대통령은 연료 보조금 축소, 재정지출 감축, 환율 유연화...",
-        "link": "https://www.hankyung.com/article/2026102660261",
-        "source": "한국경제",
-        "published": "2026-10-26T17:36:00+09:00",
-        "score": 68
-      },
-      {
-        "title": "현실과 동떨어진 세수추계…2021년부터 4년간 연평균 51조원 오차",
-        "summary": "당시 기획재정부는 2023년 세수를 추정하면서 러시아·우크라이나 전쟁 등 대외경제 여건이 급변했는데도 기업의 세전순이익률에 과거 평균치를 그대로 적용했다. 2024년에는 해외 자회사에서 받은 배당금을...",
-        "link": "https://view.asiae.co.kr/article/2026102708140098084",
-        "source": "아시아경제",
-        "published": "2026-10-27T12:01:00+09:00",
-        "score": 68
+        "title": "3분기 성장률 1% '깜짝 성장'…민간 소비는 4년만에 감소",
+        "summary": "허준영 / 서강대 경제학과 교수 \"반도체 수출의 수혜를 못 보는 계층들의 입장에서는 '경기는 뜨겁지도 않은데, 내 장사는 잘 안되는데, 금리만 올라가', 이중 부담을 안을 수도 있는 그런 국면으로 보입니다.\" 정부는...",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/27/2026102790282.html",
+        "source": "조선일보",
+        "published": "2026-10-27T21:39:00+09:00",
+        "score": 74
       }
     ],
     "금융시장": [
       {
-        "title": "룰라 재집권에 브라질 금융시장 패닉...증시 14% 폭락",
-        "summary": "주식·통화·채권 가격이 일제히 흔들렸다. 26일(현지시간) 브라질 대표 주가지수인 보베스파지수는... 채권시장도 충격을 피하지 못했다. 2027년 1월 만기 예금금리선물(DI) 금리는 0.3%포인트 올랐고, 2031년 1월 만기는 3....",
-        "link": "https://www.mk.co.kr/article/12186872",
-        "source": "매일경제",
-        "published": "2026-10-27T13:34:00+09:00",
-        "score": 104
+        "title": "\"증시 반등 변수는 美장기금리·외국인 수급\"",
+        "summary": "코스피가 5600선 안팎까지 밀려난 가운데 증시 반등을 이끌 주요 변수로 반도체주 주가와 미 국채 장기금리, 외국인 수급이 꼽혔다. 27일 경희대 서울캠퍼스 크라운관 대강당에서 열린 ‘경희대·한경비즈니스 인사이트...",
+        "link": "https://www.hankyung.com/article/2026102787911",
+        "source": "한국경제",
+        "published": "2026-10-27T18:14:00+09:00",
+        "score": 142
       },
       {
-        "title": "“이번주도 반등 없으면 큰일”…삼전닉스 주주환원·빅테크 실적·美금리 나온다",
-        "summary": "3대 변수에 숨죽인 개미들 수급 불안 시달리는 코스피 6개월 만에 최저치로 하락 삼전닉스 추가 환원에 관심  AI 수익 의구심 큰 상황서 빅테크 실적이 향방 가를듯국내 증시가 주가..",
-        "link": "https://www.mk.co.kr/news/stock/12186509",
-        "source": "매일경제 : 증권",
-        "published": "2026-10-27T05:45:21+09:00",
-        "score": 102
+        "title": "88조원 ETF 지형 바뀐다…코스피200·코스닥150 종목 대거 교체 전망[투...",
+        "summary": "한국거래소가 상장기업의 산업분류체계를 전면 개편하면서 코스피200과 코스닥150 등 주요 주가지수의... 27일 미래에셋증권에 따르면 한국거래소의 산업분류체계 개편으로 직간접적인 영향을 받는 지수는 코스피200...",
+        "link": "https://biz.heraldcorp.com/article/10916729?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-10-27T18:55:00+09:00",
+        "score": 136
       },
       {
-        "title": "'앤트로픽'발 AI 훈풍에...코스피·코스닥 4% 급등",
-        "summary": "코스피가 4% 넘게 급등하면서 장중에 5,700선을 회복했습니다. 삼성전자와 SK하이닉스 등 반도체 주식이... 류환홍 기자, 코스피가 하락 하루 만에 반등했는데 상승폭이 꽤 크네요? [기자] 그렇습니다. 전날 5,400선까지...",
-        "link": "https://www.ytn.co.kr/_ln/0102_202610271142414558",
-        "source": "YTN",
-        "published": "2026-10-27T11:42:00+09:00",
-        "score": 102
+        "title": "코스피 반등에도 국고채 금리 일제히↓…3년물 2개월래 최저(종합)",
+        "summary": "(서울=연합뉴스) 김태종 기자 = 국고채 금리가 27일 국내 증시 급반등에도 일제히 하락 마감했다.",
+        "link": "https://www.yna.co.kr/view/AKR20261027157251008",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-10-27T16:57:41+09:00",
+        "score": 116
       },
       {
-        "title": "삼성액티브, 'KoAct 코리아TOP5플러스채권혼합50액티브' 신규 상장",
-        "summary": "삼성액티브자산운용은 'KoAct 코리아TOP5플러스채권혼합50액티브' 상장지수펀드(ETF)를 신규 상장했다고 27일 밝혔다. 이 ETF는 소수 대형주로의 쏠림이 심화하고 종목 간 수익률 격차가 벌어지는 증시 환경에 맞춰, 시가총액 상위주에 대한 선택과 집중으로 초과수익을 노리는 동시에 국내 단기 채권을 조합해 꾸준한 인컴 수익을 지향하도록 만들어졌다.  한국 증시는 시가총액 상위 종목으로의 집중도가 높아진 상태다. 에프앤가이드에 따르면 9월 말 기준 코스피 내 시가총액 상위 5개 종목 비중은 58.9%, 상위 10개 종목 비중은 6",
-        "link": "https://view.asiae.co.kr/article/2026102709210917401",
-        "source": "아시아경제 - 증권",
-        "published": "2026-10-27T09:21:09+09:00",
-        "score": 100
+        "title": "블랙록 채권 책임자 \"AI 회사채만 사도 연 7%…국채는 뒷전\"",
+        "summary": "세계 최대 자산운용사 블랙록에서 인공지능(AI) 기업들의 회사채가 미국 국채보다 매력적인 투자처라며 권고하고 나섰다. 신용등급이 높은 단기 회사채도 연 7%의 금리를 확보할 수 있다는 분석이 나온다. 27일(현지시간) 미 금융 전문 매체 블룸버그통신은 릭 리더 블랙록 글로벌 채권 최고투자책임자(CIO)와의 인터뷰 내용을 보도했다. 리더 CIO는 \"채권과 주식 시장에서 이처럼 엄청난 규모의 자금이 조달되는 상황을 본 적이 없다\"며 \"지금은 내가 경험한 시기 중 가장 흥미로운 환경\"이라고 강조했다.  리더 CIO가 주목하고 있는 채권",
+        "link": "https://view.asiae.co.kr/article/2026102717453349717",
+        "source": "아시아경제 - 경제",
+        "published": "2026-10-27T17:47:47+09:00",
+        "score": 112
       },
       {
-        "title": "'엔트로픽 IPO'에 AI·반도체 주식 급등…코스피 매수사이드카 장중 5700...",
-        "summary": "AI와 반도체 관련주 급등으로 코스피는 매수 사이드카가 발동하면서 장중 5700선을 찍었고, 코스닥도 3% 이상 뛰었습니다. 오전 장 확인합니다. 김종윤 기자, 양대 지수 모두 큰폭으로 급등했네요? [기자] 네, 코스피는...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000342336?division=NAVER",
+        "title": "[증시 인사이트] 국내증시 동반 상승…외국인·기관 코스피 순매수",
+        "summary": "연준 FOMC 회의 예정 - 10월 FOMC 금리유지 전망 우세…'관망'에 무게 - 클라우디아 삼 \"연준, 이달에 기준금리 인상해야\" - 클라우디아 삼 \"인플레 우려에도 노동시장 견조\" - 한국시간 29일 美 3분기 GDP 속보치 발표...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000342451?division=NAVER",
         "source": "SBS",
-        "published": "2026-10-27T11:38:00+09:00",
-        "score": 96
+        "published": "2026-10-27T16:49:00+09:00",
+        "score": 110
       }
     ],
     "산업·과학": [
       {
-        "title": "베노티앤알, 반도체사업부 신설 후 첫 수주…美 배터리 프로젝트 52억 규모",
-        "summary": "코스닥 상장사 베노티앤알이 반도체사업부를 신설한 이후 첫 수주에 성공하며 반도체·배터리 엔지니어링 분야로 사업 영역을 확대한다. 베노티앤알은 북미 글로벌 배터리 제조사의 미국 생산시설 구축 프로젝트에 참여하는 52억원 규모의 계약을 체결했다고 26일 공시했다. 계약금액은 최근 사업연도 매출액의 약 110%에 해당하며, 계약기간은 2026년 10월 1일부터 2027년 7월 31일까지다. 이번 프로젝트에서 베노티앤알은 미국 내 배터리 제조시설에 이차전지 제어 컨트롤러를 설치하고 관련 유틸리티 훅업(Utility Hook-up) 작업을",
-        "link": "https://view.asiae.co.kr/article/2026102710050696476",
-        "source": "아시아경제 - 증권",
-        "published": "2026-10-27T10:05:07+09:00",
-        "score": 100
-      },
-      {
-        "title": "[단독] 한국 역대급 수출에도 車·철강 한파 … 위태로운 '반도체 독주'",
-        "summary": "인공지능(AI) 반도체 호황에 한국 경제의 대외 성적표가 역대급으로 개선됐다. 올해 2분기 경상수지 흑자는 1166억310만달러(약 154조원)로 제조업 강국인 독일과 일본의 흑자..",
-        "link": "https://www.mk.co.kr/news/economy/12186126",
-        "source": "매일경제 : 경제",
-        "published": "2026-10-26T17:42:27+09:00",
+        "title": "포항시 '전기차 배터리 자동평가센터' 문열어",
+        "summary": "포항시는 블루밸리국가산업단지에 ‘전기차 배터리 자동평가센터’를 개관, 본격 운영에 들어갔다. 센터는 전기차에 사용하던 배터리의 성능 평가와 등급 분류를 고속·자동화하는 시설이다.하루에 배터리 150개 이상...",
+        "link": "https://www.hankyung.com/article/2026102786801",
+        "source": "한국경제",
+        "published": "2026-10-27T17:53:00+09:00",
         "score": 90
       },
       {
-        "title": "삼성SDI 각형 ESS 배터리 잘 나가네⋯ 미국 에너지기업과 잇달아 공급 계약",
-        "summary": "&lt;center&gt; &lt;img src=&quot;https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/10/26/20261026500977.png&quot;&gt; &lt;/center&gt; &lt;figure class=&quot;image image_resized&quot; style=&quot;width:79.47%;&quot;&gt;&lt;img src=&quot;/content/image/2026/10/26/20261026500977.png&quot; alt=&quot;Second alt text&quot; storyid=&quot;0a0a3e06-a15d-1b6d-81a1-76cd86eb15ef&quot;&gt;\n &lt;figcaption&gt;\n  삼성SDI의 일체형 ESS 솔루션 ‘SBB(Samsung Battery Box) 1.7’. 삼성SDI 제공\n &...",
-        "link": "https://www.kmib.co.kr/article/20261026502157",
-        "source": "국민일보 | 경제",
-        "published": "2026-10-27T10:52:04+00:00",
-        "score": 80
+        "title": "국산 전기차 세액공제 대상 포함되나…K-배터리, 이차전지 수혜 기대",
+        "summary": "이재명 정부의 정책 공약이기도 했던 ‘국내생산세액공제’가 내년 시행을 앞둔 가운데, 전기차에 대한 지원이 필요하다는 논의가 국회에서 급물살을 타고 있다. 최근 국내 시장에서 중국산 전기차 보급이 크게 늘면서...",
+        "link": "https://www.ceoscoredaily.com/page/view/2026102715332188104",
+        "source": "이데일리",
+        "published": "2026-10-27T18:16:00+09:00",
+        "score": 90
       },
       {
-        "title": "영남이공대, 반도체·피지컬AI 중심 ‘채용직결형 교육체계’ 구축",
-        "summary": "영남이공대학교가 반도체와 피지컬 AI 분야를 중심으로 기업 수요와 채용을 연계한 교육체계 구축에... 이날 발대식에는 이재용 총장을 비롯한 교무위원과 기계자동차계열·전기자동화과·ICT반도체전자계열...",
-        "link": "https://www.joongang.co.kr/article/25473205",
-        "source": "중앙일보",
-        "published": "2026-10-27T14:35:00+09:00",
-        "score": 62
+        "title": "박현주 \"AI혁명 이제 10%…반도체 고점론은 착각\"",
+        "summary": "그는 “전기차 스타트업까지 포함하면 자동차 회사는 세계적으로 300개가 넘지만 메모리 반도체와 고대역폭메모리(HBM)를 생산할 수 있는 회사는 4개 정도”라며 “AI 혁명이 초기 단계인 만큼 반도체 고점론은 틀릴...",
+        "link": "https://www.hankyung.com/article/2026102787901",
+        "source": "한국경제",
+        "published": "2026-10-27T18:16:00+09:00",
+        "score": 78
+      },
+      {
+        "title": "박현주 \"삼전닉스 없으면 엔비디아도 스톱\"…'반도체 고점론' 직격",
+        "summary": "그는 “전기차 스타트업까지 포함하면 자동차 회사는 세계적으로 300개가 넘지만 메모리 반도체나 고대역폭메모리(HBM)를 생산할 수 있는 회사는 4개 정도”라며 “AI 혁명은 아직 초기 단계인 만큼 반도체 고점론은 틀릴...",
+        "link": "https://www.hankyung.com/article/202610278372i",
+        "source": "한국경제",
+        "published": "2026-10-27T17:21:00+09:00",
+        "score": 78
       }
     ],
     "부동산": [
       {
-        "title": "[단독] 강남 집값 9%는 가족·집주인에게 빌렸다…주담대는 5%뿐 [부동산...",
-        "summary": "강남3구 자금조달계획서 분석 결과 서초는 개인 차입 8.7%·주담대의2배 넘어 “사적 자금 동원력 따라 양극화 우려” [헤럴드경제=김희량·윤성현 기자] # 지난달 서울 서초구 반포동 반포리체 84㎡(전용면적)는 40억원에...",
-        "link": "https://biz.heraldcorp.com/article/10915957?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-27T14:31:00+09:00",
-        "score": 140
+        "title": "경기도 월세도 200만원이 ‘뉴노멀’…강남 집값 약세는 지속 [부동산 손품노트]",
+        "summary": "부동산 이슈와 실거래가 브리핑서울 아파트 매매가격이 89주째 오르며 역대 최장 상승 기록을 늘렸다. 한국부동산원이 22일 발표한 10월 셋째 주(19일 기준) 주간 동향에서 서울은..",
+        "link": "https://www.mk.co.kr/news/realestate/12187348",
+        "source": "매일경제 : 부동산",
+        "published": "2026-10-27T17:29:03+09:00",
+        "score": 156
       },
       {
         "title": "경기도 월세도 200만원이 ‘뉴노멀’ … 강남 집값 약세는 지속",
@@ -392,30 +392,38 @@
         "score": 126
       },
       {
-        "title": "전세 살던 집에 월세 100만원 추가⋯ 서울 세입자 ‘이중고’",
-        "summary": "&lt;center&gt; &lt;img src=&quot;https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/10/26/20261026502092.jpg&quot;&gt; &lt;/center&gt; &lt;figure class=&quot;image&quot;&gt;&lt;img src=&quot;/content/image/2026/10/26/20261026502092.jpg&quot; storyid=&quot;b1c970d1-d125-11f1-81f4-09df42ea70b3&quot;&gt;\n&lt;/figure&gt;\n&lt;p&gt;서울 외곽의 중소형 아파트에서도 고액 월세를 내는 거래가 늘고 있다. 올해 전용면적 85㎡ 이하 아파트에서 이뤄진 신규 전월세 계약 4건 중 1건은 100만원 이상의 월세를 내는 계약이었다. 상대적으로 집값이 저렴한 외곽에서도 월 300만원 이상...",
-        "link": "https://www.kmib.co.kr/article/20261026502091",
-        "source": "국민일보 | 경제",
-        "published": "2026-10-27T10:12:05+00:00",
-        "score": 126
+        "title": "‘똘똘한 한 채’ 쏠림에 전월세 불안 오나?…부동산 세제 개편 후폭풍",
+        "summary": "정부가 보유 주택 수 중심의 과세 체계를 가액 기준으로 일원화하고 보유세율을 인상하는 내용을 골자로 한 부동산 세제 개편을 추진하는 가운데 전월세 시장의 불안과 ‘똘똘한 한 채’로..",
+        "link": "https://www.mk.co.kr/news/realestate/12187259",
+        "source": "매일경제 : 부동산",
+        "published": "2026-10-27T17:03:33+09:00",
+        "score": 106
       },
       {
-        "title": "‘128억 →93억’⋯ 압구정 아파트 재건축 앞두고 급매 속출",
-        "summary": "&lt;center&gt; &lt;img src=&quot;https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/10/27/20261027500050.jpg&quot;&gt; &lt;/center&gt; &lt;p&gt;서울 강남구 압구정동 아파트 시장에서 대형 매물을 중심으로 하락 거래가 잇따르고 있다. 특히 재건축 사업시행계획인가를 앞둔 2구역과 3구역을 중심으로 급매가 이어지면서 압구정 집값 조정이 본격화하는 모습이다.&lt;/p&gt;\n&lt;figure class=&quot;image&quot;&gt;&lt;img storyid=&quot;0a0a3e07-a15d-180c-81a1-7a2c1b401e97&quot; src=&quot;/content/image/2026/10/27/20261027500051.jpg&quot;&gt;\n &lt;figcaption&gt;\n  서울 강...",
-        "link": "https://www.kmib.co.kr/article/20261027500052",
-        "source": "국민일보 | 경제",
-        "published": "2026-10-26T21:46:22+00:00",
-        "score": 100
+        "title": "구성역 인접 ‘중앙하이츠 구성 플랫폼시티’ 분양…내달 10일 1순위 청약",
+        "summary": "중견건설사 CA이앤씨가 오는 29일 경기도 용인에서 처음 선보이는 가로주택정비사업 단지인 ‘중앙하이츠 구성 플랫폼시티’의 분양홍보관을 열고 본격적인 분양에 나선다고 17일 밝혔다...",
+        "link": "https://www.mk.co.kr/news/realestate/12186887",
+        "source": "매일경제 : 부동산",
+        "published": "2026-10-27T13:39:37+09:00",
+        "score": 96
       }
     ],
     "국제경제": [
       {
-        "title": "트럼프 “미국 이용하면 관세 50%”…현대차 ‘투자=방패’ 공식 흔들리나",
-        "summary": "지난 6월 2일 브라이언 켐프 미국 조지아주 주지사 부부가 탑승한 첫 번째 HMGMA 생산 기아 스포티지 하이브리드가 주차 로봇에 실려 무대에 등장하고 있다. 기아 제공도널드 트럼프 미국 대통령이 미국에 투자한 외국 기업이라도 미국을 이용하려 한다면 관세를 최대 50%까지 올릴 수 있다고 밝혔다. 다음주 중간선거를 앞두고 정치적 목적에 무게가 실린 발언으로···",
-        "link": "https://www.khan.co.kr/article/202610270600071/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-        "source": "경향신문:경제",
-        "published": "2026-10-27T06:00:07+09:00",
-        "score": 100
+        "title": "“트럼프 대미투자 요구, 관세보다 더 나빠…美·동맹 모두 손해”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/27/134912738.1.jpg\" vspace=\"10\" />아담 포젠 미국 피터슨국제경제연구소(PIIE) 소장은 도널드 트럼프 행정부가 동맹국에 상업성 없는 투자를 요구하는 데 대해 “트럼프 대외경제정책에서 최악의 측면 중 하나로, 사실 관세보다 더 나쁘다”고 비판했다.포젠 소장은 25일 서울 영등포구 페어몬트 앰배서더 서울에서 가진 동아일보 인터뷰에서 이같이 밝히면서 “트럼프 행정부가 짧은 시간에 너무 많은 것을 요구하고, 제대로 된 절차가 아니라 대통령이나 상무부의 자의적인 변덕으로 고른 프로젝트를 요구한다”고 지적했다.포젠 소장은 영국 중앙은행(BOE) 통화정책위원과 뉴욕 연방준비은행 이코노미스트를 지낸 거시경제 전문가로, 2013년부터 PIIE를 이끌고 있다. 27일 열린 한국경제인협회(FKI)와 PIIE의 공동 국제 콘퍼런스 참석...",
+        "link": "https://www.donga.com/news/Economy/article/all/20261027/134918367/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-10-27T17:00:00+09:00",
+        "score": 88
+      },
+      {
+        "title": "중국차, 3분기 유럽서 일본차 첫 추월… HEV 앞세워 점유율 12.7%",
+        "summary": "최근 중국산 전기차에 상계관세를 부과한 데 이어 하이브리드 수입 제한과 현지 생산 차량에 대한 보조금... 중국 업체들의 현지 생산이 확대되면서 수입 규제만으로 시장 점유율 상승세를 억제하기는 쉽지 않을...",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092172916",
+        "source": "조선일보",
+        "published": "2026-10-27T19:40:00+09:00",
+        "score": 86
       },
       {
         "title": "\"앤트로픽, IPO 신청\" 호재에 뉴욕 증시 '쑥'…나스닥 0.83%↑",
@@ -426,89 +434,89 @@
         "score": 80
       },
       {
-        "title": "전쟁·관세 청구서 받아든 유권자...트럼프 외교 심판대 올라[11·3 중간...",
-        "summary": "앞으로 반도체와 핵심 광물, 항공기 및 관련 부품에 안보 관련 무역확장법 232조를 적용할 가능성도 있다. 또 EU 탄소국경조정제도(CBAM)에 대한 보복 관세 카드까지 준비하며 오히려 관세 조치를 강화할 움직임을 보이고...",
-        "link": "https://www.fnnews.com/news/202610241838147461",
-        "source": "파이낸셜뉴스",
-        "published": "2026-10-27T13:47:00+09:00",
+        "title": "트럼프 관세 믿었는데 기름값에 짓눌려…요동치는 '러스트벨트'[르포]",
+        "summary": "민주당은 고유가와 인플레이션을 트럼프 행정부의 관세 정책 및 대외 정책 실패 탓으로 돌리며 표심 공략을 이어가고 있다. 공화당은 유가 상승과 인플레이션이 대외 변수에 따른 일시적 현상이고 관세 정책은...",
+        "link": "https://www.mt.co.kr/world/2026/10/27/2026102715332241101",
+        "source": "머니투데이",
+        "published": "2026-10-27T17:24:00+09:00",
         "score": 80
       },
       {
-        "title": "HLB 엘레바, 유럽종양학회 참가…글로벌 의료진과 교류",
-        "summary": "HLB의 미국 자회사 엘레바 테라퓨틱스가 유럽종양학회(ESMO 2026)에 참가했다.  27일 HLB에 따르면 이번 ESMO는 엘레바가 리픽투(LYRFIGTU)의 미국 식품의약국(FDA) 승인 이후 처음으로 나선 세계적 권위의 암학회다. ESMO에는 전 세계 수만 명의 종양학 전문가와 제약·바이오 업계 관계자가 모여 암 치료의 최신 연구 성과와 임상 전략을 논의한다. 엘레바는 학회 전시 공간에 단독 부스를 마련하고, 커머셜·메디컬·사이언티픽으로 공간을 나눠 운영했다. 커머셜 공간에서는 FDA 승인 이후 리픽투의 미국 출시 준비와 관",
-        "link": "https://view.asiae.co.kr/article/2026102709443516285",
-        "source": "아시아경제 - 증권",
-        "published": "2026-10-27T09:44:35+09:00",
-        "score": 68
-      },
-      {
-        "title": "중간선거 앞둔 트럼프 “이란 전쟁 곧 끝낸다”",
-        "summary": "한편 로이터 통신에 따르면 미국 정부는 캐나다 정부와 캐나다산 철강과 자동차에 대한 수입관세를 완화하는 협상을 진행 중이다. 현재 미국 정부는 무역법 제232조에 따라 부과된 캐나다산 철강에 대한 최고 50% 관세와...",
-        "link": "https://m.skyedaily.com/news_view.html?ID=313579",
-        "source": "이데일리",
-        "published": "2026-10-27T13:50:00+09:00",
-        "score": 64
+        "title": "아마존서 날개 단 K뷰티… 미국 넘어 유럽 시장 ‘정조준’",
+        "summary": "&lt;center&gt; &lt;img src=&quot;https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/10/27/20261027501237.jpg&quot;&gt; &lt;/center&gt; &lt;figure class=&quot;image&quot;&gt;&lt;img src=&quot;/content/image/2026/10/27/20261027501237.jpg&quot; storyid=&quot;0a0a3e07-a17b-1010-81a1-7c1a5072027b&quot;&gt;\n &lt;figcaption&gt;\n  신화숙 &lt;span&gt;아마존 글로벌셀링 코리아 대표가 27일 서울 강남구 그랜드 인터컨티넨탈 파르나스 호텔에서 ‘아마존 뷰티 인 서울 2026’을 열고 K뷰티 성장 전략을 발표하고 있다. 아마존 제공&lt;/span&gt;\n &lt;/figca...",
+        "link": "https://www.kmib.co.kr/article/20261027501250",
+        "source": "국민일보 | 경제",
+        "published": "2026-10-27T06:46:30+00:00",
+        "score": 62
       }
     ],
     "AI와 경제": [
       {
-        "title": "AI 데이터센터 넘어 '토큰 경제'로…통신 3사 새 먹거리 낙점",
-        "summary": "이동통신 3사가 인공지능(AI)의 데이터 처리 기본 단위인 토큰을 수익화할 수 있는 '토큰 경제'를 새 성장 동력으로 삼고 관련 사업에 속도를 내고 있다. 본격적인 에이전틱 AI 시대가 열리면서 연산과 추론 수요가 늘자 AI 데이터센터(DC)나 클라우드, 그래픽처리장치(GPU)를 빌려주는 방식으로 AI 인프라 사업을 펼치는 데 그치지 않고 AI 사용량에 따른 비용을 받겠다는 것이다.  27일 현재 이동통신 3사 모두 '토큰 경제'를 새 먹거리로 낙점한 상태다. '토큰팩토리'를 공개한 KT뿐 아니라 SK텔레콤 역시 여러 AI 모델과",
-        "link": "https://view.asiae.co.kr/article/2026102709234897460",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-10-27T11:00:00+09:00",
-        "score": 58
+        "title": "앤스로픽, 매출 14배 급증…\"AI 수요 불안 해소\"[클릭 e종목]",
+        "summary": "인공지능(AI)·반도체 수요 불안이 확산하는 가운데 AI 챗봇 클로드(Claude)를 개발한 앤스로픽이 26일 미국 증권거래위원회(SEC)에 기업공개(IPO) 증권신고서(S-1)를 제출하면서 시장 불안이 일부 해소될 것이라는 분석이 나왔다.  최근 차입에 의존해 설비를 확대해온 코어위브 등 네오클라우드(신생 클라우드 사업자)에 대한 시장 우려가 커지면서 AI 반도체 관련 투자심리가 악화한 바 있다. 이번 신고서에서 앤스로픽은 올해 상반기 매출이 1년 전보다 14배 이상 급증했고 2분기에는 처음으로 분기 영업흑자도 냈다고 밝혔다.",
+        "link": "https://view.asiae.co.kr/article/2026102717133427837",
+        "source": "아시아경제 - 증권",
+        "published": "2026-10-27T18:00:00+09:00",
+        "score": 46
       },
       {
-        "title": "류진 \"성장 없인 미래도 없다\"…기업 투자·혁신 강조",
-        "summary": "보호무역주의와 인공지능(AI) 확산으로 기존 통상질서와 고용 구조가 흔들리면서 투자·혁신과 제도 개편으로 성장 기반을 다시 세워야 한다는 제언이 나왔다. 기업의 신산업·시장 개척을 뒷받침할 정책 환경을 조성하고, 인프라와 인재에 대한 투자로 일자리 창출 역량을 높여야 한다는 주문이다.한국경제인협회와 미국 피터슨국제경제연구소(PIIE)는 27일 서울 여의도 FKI타워에서 '분열의 시대, 새로운 성장 전략: 무역, 산업, 일자리의 미래' 국제 콘퍼런스를 공동 개최했다. 류진 한경협 회장은 개회사에서 \"성장 없이는 미래를 열어갈 수 없다",
-        "link": "https://view.asiae.co.kr/article/2026102710310661677",
+        "title": "두산, AI 데이터센터용 광모듈 CCL 생산 확대…김제에 3992억 투자",
+        "summary": "㈜두산이 인공지능(AI) 데이터센터 확산으로 수요가 급증하는 고부가 광모듈용 동박적층판(CCL) 생산능력 확대에 나선다. 전북 김제에 3992억원을 투자해 전용 생산시설을 구축하고, AI 반도체의 고속 데이터 전송에 필요한 핵심 소재 공급을 늘릴 계획이다. 두산은 전북특별자치도, 김제시와 광모듈용 CCL 전용 생산라인 구축을 위한 투자협약을 체결했다고 27일 밝혔다. 전북특별자치도청에서 열린 협약식에는 이원택 전북특별자치도지사, 정성주 김제시장, 김인욱 ㈜두산 전자BG장 등이 참석했다. 이번 투자는 두산이 지난 9월 발표한 약 97",
+        "link": "https://view.asiae.co.kr/article/2026102715220553449",
         "source": "아시아경제 - 산업·IT",
-        "published": "2026-10-27T12:11:52+09:00",
-        "score": 52
+        "published": "2026-10-27T15:22:05+09:00",
+        "score": 42
       },
       {
-        "title": "글로벌 녹색성장 주간 개막…GGGI, 녹색성장 경쟁력지표 공개",
-        "summary": "27~30일 녹색경쟁력방안 논의인공지능(AI) 데이터센터의 전력·용수 수요 증가에 대응하기 위한 국제협력 논의가 열린다. 각국의 녹색산업 경쟁력을 비교하는 새로운 지표도 처음 공개..",
-        "link": "https://www.mk.co.kr/news/economy/12186135",
+        "title": "㈜두산, 김제에 3992억 투자…AI 데이터센터 CCL 생산 확대",
+        "summary": "투자액은 3992억 원이며, 200여 명을 신규 고용한다. 생산라인은 2028년 하반기부터 순차적으로 가동할 예정이다. 이번 증설은 AI 데이터센터 확대에 따른 광모듈용 CCL 수요 증가에 대응하기 위한 것이다. 국내...",
+        "link": "https://magazine.hankyung.com/business/article/202610279025b",
+        "source": "한국경제",
+        "published": "2026-10-27T21:33:00+09:00",
+        "score": 38
+      },
+      {
+        "title": "\"AI 전력·용수 수요 폭증 … 자원관리 능력이 경쟁력\"",
+        "summary": "김상협 글로벌녹색성장기구(GGGI) 사무총장이 인공지능(AI) 시대 국가 경쟁력의 핵심 요소로 녹색성장이 부각되고 있다고 강조했다. 김 총장은 27일 개막한 글로벌녹색성장주간 행사..",
+        "link": "https://www.mk.co.kr/news/economy/12187410",
         "source": "매일경제 : 경제",
-        "published": "2026-10-26T17:45:17+09:00",
-        "score": 40
+        "published": "2026-10-27T17:42:53+09:00",
+        "score": 38
       },
       {
-        "title": "부산연구원·시의회, 정책 간담회…지역산업 AI 전환 논의",
-        "summary": "(부산=연합뉴스) 김선호 기자 = 부산연구원과 부산시의회 기획재경위원회는 28일 오전 7시 부산시의회 2층 대회의실에서 &apos;부산 지역산업 인공지능...",
-        "link": "https://www.yna.co.kr/view/AKR20261027106500051",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-10-27T13:45:44+09:00",
-        "score": 34
+        "title": "AI 기업 첫 상장…‘기적의 시대’ 장밋빛 전망 속 막대한 투자금, 수익성 우려도",
+        "summary": "조달액 133조원 추정 ‘역대 최대’인공지능(AI) 기업 앤트로픽이 상장신고서를 제출하며 오는 11월 역대 최대 기업공개(IPO)를 예고했다. AI가 ‘기적의 시대’를 열 것이란 장밋빛 전망과, 막대한 인프라 투자 및 수익성에 대한 우려가 엇갈리는 상황에서 앤트로픽의 상장은 AI의 미래에 대한 시장의 판단을 가늠해볼 시험대가 될 것으로 전망된다.앤트로픽은 ···",
+        "link": "https://www.khan.co.kr/article/202610272127005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-10-27T21:27:00+09:00",
+        "score": 38
       },
       {
-        "title": "中 1~9월 공업이익 15.5% 증가…AI 수요에 전자업종 이익 두 배로",
-        "summary": "9% 감소했다. 국가통계국은 \"거시정책의 효과를 발휘하고 내수를 확대하며 공급을 최적화해야 한다\"며 \"신·구 성장동력 전환을 가속하고 경제 발전의 내생적 동력을 강화해야 한다\"고 밝혔다.",
-        "link": "https://www.mt.co.kr/world/2026/10/27/2026102714231959009",
-        "source": "머니투데이",
-        "published": "2026-10-27T14:33:00+09:00",
-        "score": 32
+        "title": "크리에이츠, 골프 데이터·AI로 '반복 매출 구조' 만든다",
+        "summary": "골프 테크 기업 크리에이츠가 하드웨어 판매 중심의 사업구조에서 벗어나 소프트웨어와 인공지능(AI), 구독 서비스를 결합한 반복 매출 구조 구축에 속도를 내고 있다. 미국 시장에서 확보한 골프 시뮬레이터 사용자 기반을 활용해 기기 판매 이후에도 수익이 이어지는 사업모델을 확대한다는 전략이다. 크리에이츠는 글로벌 브랜드 유니코(UNEEKOR)를 앞세워 골프 시뮬레이터 시장에서 사업을 확대해왔다고 27일 밝혔다. 최근에는 론치모니터 등 하드웨어에 소프트웨어와 AI 서비스를 결합하며 사업 영역을 넓히고 있다. 해외 시장에서의 성장세도 이",
+        "link": "https://view.asiae.co.kr/article/2026102715221763640",
+        "source": "아시아경제 - 증권",
+        "published": "2026-10-27T15:22:17+09:00",
+        "score": 36
       },
       {
-        "title": "윤상현 콜마 부회장 “K뷰티 100% 지속 가능…AI·헬스케어에 집중 투자...",
-        "summary": "윤상현 콜마그룹 부회장이 “K뷰티의 지속성장 가능성에 대해 100% 긍정적으로 본다”며 “한국은 다른 나라에는 없는 독보적인 뷰티 산업 생태계를 보유하고 있다”고 자신감을 내비쳤다. 윤 부회장은 27일 서울 강남구...",
-        "link": "https://www.sedaily.com/article/20106610?ref=naver",
-        "source": "서울경제",
-        "published": "2026-10-27T14:21:00+09:00",
-        "score": 28
-      },
-      {
-        "title": "\"AI 시대 진짜 병목은 전력…3년 내 매출 500억 목표\"",
-        "summary": "그의 리더십으로 광명전기는 300억원대 매출액에서 1500억원대 기업으로 성장하기도 했으나 코로나19 이후 부동산 프로젝트파이낸싱(PF) 시장이 악화하면서 전기공사를 맡은 현장의 PF 보증으로 어려움을 겪었고, 결국 그는...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=04155766645617184&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "title": "TDF도 제친 AI 투자…운용 비용·위험 관리 따져야",
+        "summary": "같은 기간 코스피200 지수가 21.08% 하락한 것과 비교하면 상대적으로 낙폭이 작았지만 모든 투자 유형에서 원금손실이 발생한 셈이다. 전문가들은 자동 리밸런싱이 손실을 막아주는 것은 아닌 만큼 가입자는...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=05661286645617184&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
         "source": "이데일리",
-        "published": "2026-10-27T14:35:00+09:00",
-        "score": 28
+        "published": "2026-10-27T19:16:00+09:00",
+        "score": 30
       }
     ],
     "기타": [
+      {
+        "title": "李대통령 \"프랑스 사태 반면교사, 근본 원인은 저성장\"",
+        "summary": "프랑스의 국내총생산(GDP) 대비 국가부채 비율은 120%로, 유럽연합(EU) 평균인 81.7%를 크게 웃돈다. 월스트리트저널(WSJ)은 프랑스 정부 자료를 인용해 프랑스의 부채 상환 비용이 글로벌 금리 인상과 맞물려 2030년까지 59...",
+        "link": "https://www.hankyung.com/article/2026102786981",
+        "source": "한국경제",
+        "published": "2026-10-27T17:46:00+09:00",
+        "score": 24
+      },
       {
         "title": "“원금 보장되는 줄 알고 샀는데”…2년 만에 10배 폭증 ‘이 상품’ 착시 경보",
         "summary": "내년부터 매매화면 ‘위험등급’ 표시퇴직연금 시장에서 상장지수펀드(ETF) 투자 규모가 2년 6개월만에 10배로 급증해 100조원 시대를 눈앞에 두고 있다. 하지만 ‘투자 한도 10..",
@@ -518,59 +526,35 @@
         "score": 24
       },
       {
-        "title": "삼성생명, 해외 신종자본증권 2조원 발행…보험업계 역대 최대 규모",
-        "summary": "美·유럽 장기투자자 49% 참여삼성생명이 국내 보험업계 최대 규모인 15억달러(약 2조원)의 해외 신종자본증권 발행을 마쳤다. 글로벌 금융시장 변동성이 확대된 가운데 대규모 자금 ..",
-        "link": "https://www.mk.co.kr/news/economy/12186711",
-        "source": "매일경제 : 경제",
-        "published": "2026-10-27T10:07:26+09:00",
+        "title": "'단일종목 레버리지' 외국인은 싹 털었네",
+        "summary": "삼성전자와 SK하이닉스 단일종목 레버리지 상장지수펀드(ETF)에서 외국인 자금이 빠르게 이탈하고 있다. 상당수 상품의 외국인 보유 비중이 0%대로 떨어진 가운데 인버스 상품에서도 ..",
+        "link": "https://www.mk.co.kr/news/stock/12187382",
+        "source": "매일경제 : 증권",
+        "published": "2026-10-27T17:38:24+09:00",
         "score": 24
       },
       {
-        "title": "[포토] 케이뱅크, 임직원이 직접 AI 에이전트 개발",
-        "summary": "개인회생과 채권매각 관련 조회 업무를 자동화하는 에이전트가, ’AI SILVER(3등)’에는 BM·디자이너·개발자 간 협업을 위해 피그마(Figma) 이벤트 페이지 초안을 생성하는 에이전트가 각각 선정됐다. (사진 제공...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=03978646645617184&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-27T13:47:00+09:00",
+        "title": "백악관 '황금 장식'까지 설전…美 중간선거 전·현직 대통령 격돌",
+        "summary": "\" 트럼프 대통령은 내일 오바마가 다녀간 오하오주를, 오바마 전 대통령은 트럼프가 다녀간 조지아주를 찾아 막판 표심 잡기에 나섭니다. 미국 워싱턴D.C.에서 TV조선 백대우입니다.",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/27/2026102790286.html",
+        "source": "조선일보",
+        "published": "2026-10-27T21:43:00+09:00",
         "score": 24
       },
       {
-        "title": "“여기저기 전부 한국산”…日시장 점령한 K-뷰티, 직접 확인해보니 [르...",
-        "summary": "대한화장품산업연구원에 따르면 올해 1~9월 일본 수출액은 9억9122만달러로, 연간 수출액이 작년(10억8673만달러)을 웃돌 것으로 전망된다.미국·중국에 이어 K-뷰티 수입국 3위로, 전체 수출 물량에서 차지하는 비중은...",
-        "link": "https://biz.heraldcorp.com/article/10915628?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-10-27T14:11:00+09:00",
+        "title": "[국제칼럼]학문과 전쟁, 그 사이에",
+        "summary": "국립대 예산이 줄어들면서 실험하고 연구자를 고용하려면 외부 자금이 절실하다. “안전보장 기술연구 추진제도”에 매력을 느끼는 것은 당연할지도 모르겠다. 그렇다고 군사연구를 경계해온 이유마저 사라지는 것은...",
+        "link": "https://www.khan.co.kr/article/202610272009015",
+        "source": "경향신문",
+        "published": "2026-10-27T20:09:00+09:00",
         "score": 24
       },
       {
-        "title": "‘몸값 2700조원’ 앤스로픽 IPO 신청…신고서엔 “AI 오용땐 재앙”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/27/134916004.1.jpg\" vspace=\"10\" />인공지능(AI) ‘클로드’ 개발사 앤스로픽이 나스닥 상장을 공식 신청했다. 최대 2조 달러(약 2660조 원)의 기업가치를 인정받아 역대 최대 기업공개(IPO)에 도전한다.   26일(현지 시간) 파이낸셜타임스(FT)와 로이터통신 등에 따르면 앤스로픽은 미국 증권거래위원회(SEC)에 증권신고서를 제출했다. 다음 달 종목코드 ‘ANT’로 상장할 계획이며 골드만삭스와 모건스탠리가 주관한다. 공모 주식 수와 가격은 아직 공개하지 않았다. 월스트리트저널(WSJ)은 관계자들을 인용해 기업가치가 1조5000억~2조 달러에 달하고, 1000억 달러 이상을 조달할 수 있다고 보도했다. 목표를 달성하면 6월 상장한 스페이스X의 IPO 기록을 넘어선다. 오픈AI 출신 7명이 창업한 지 5년 만이다....",
-        "link": "https://www.donga.com/news/Economy/article/all/20261027/134915857/1",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-10-27T11:46:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "추미애 \"화형 당해도 소방 혁신\"…이준석 \"추다르크 되려 하나\"",
-        "summary": "추미애 경기도지사가 한 인터뷰에서 \"정치적 화형을 당하더라도 소방 인건비 문제를 해결하겠다\"고 발언한 것을 두고, 이준석 개혁신당 의원이 \"'추다르크'가 돼 보려는 모양새\"라고 비판했습니다. 이준석 의원은 오늘(25일) 자신의 페이스북을 통해 \"(추 지사가) 경우에도 안 맞는 화형 같은 단어를 쓰시는 걸 보니 '경기도 재정이 어렵다'라는 것을 부각해 '추다르크'가 되어 보려는 모양새 같다\"고 지적했습니다. '추다르크'는 프랑스의 영웅 잔 다르크에 빗대어 정치적 고비 때마다 물러서지 않는 행보를 보여온 추 지사의 정치 스타일을 뜻하는 별명입니다.추 지사가 경기도 재정 위기 극복을 통해 유권자들의 지지를 이끌어 내려 한다고..",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5226969",
-        "source": "MBN : 경제기사",
-        "published": "2026-10-25T15:27:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "토스증권, 청년 대상 '글로벌 산업 트렌드 특강' 성료",
-        "summary": "토스증권이 중구문화재단 장충동작은도서관에서 청년들을 대상으로 한 글로벌 산업 트렌드 강연을 성황리에 마무리했다고 27일 밝혔다. 이번 강연은 장충동작은도서관이 청년 1인 가구의 자기계발과 역량 강화를 위해 운영하는 '지속 가능한 독립' 프로그램의 일환으로 마련됐다. 지난 17일과 24일 총 2회에 걸쳐 진행됐으며, 이영곤 토스증권 리서치센터장이 강연자로 참여했다.  '글로벌 트렌드로 미래 읽기'를 주제로 열린 이번 강연에서는 토스증권 리서치센터가 2024년부터 2025년까지 미국 실리콘밸리, 워싱턴 D.C., 텍사스 등을 직접 방문",
-        "link": "https://view.asiae.co.kr/article/2026102709320645131",
-        "source": "아시아경제 - 증권",
-        "published": "2026-10-27T09:32:07+09:00",
-        "score": 23
-      },
-      {
-        "title": "중국, 9월 공업이익 증가율 14.4%…'AI붐 수혜' 속 반등",
-        "summary": "(상하이=연합뉴스) 차병섭 특파원 = 인공지능(AI) 붐에 따른 수출 호조와 내수 부진이라는 양극화 경제가 이어지는 중국에서 9월 공업이익 증가...",
-        "link": "https://www.yna.co.kr/view/AKR20261027095900089",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-10-27T12:08:16+09:00",
+        "title": "재경차관 \"AI확산·공급망 재편 리스크…선제적 대비해야\"",
+        "summary": "(서울=연합뉴스) 안채원 기자 = 허장 재정경제부 2차관은 27일 인공지능(AI) 확산과 공급망 재편 등을 금융시장의 새로운 리스크로 꼽으며 선...",
+        "link": "https://www.yna.co.kr/view/AKR20261027148800002",
+        "source": "연합뉴스 경제 최신기사",
+        "published": "2026-10-27T17:00:01+09:00",
         "score": 22
       },
       {
@@ -582,11 +566,27 @@
         "score": 22
       },
       {
-        "title": "가격 낮추고 성능 높인 테라…오픈AI, 에이전트 생태계 확장 속도↑",
-        "summary": "오픈AI가 인공지능(AI) 에이전트의 역할과 모델 토큰 비용을 다변화하며 생태계 확장에 속도를 내고 있다. 상시 업무를 수행하는 에이전트부터 의사결정을 지원하는 기능, 컴퓨터 조작에 특화된 가성비 모델 등으로 선택지를 넓혀 기업의 부담을 낮추려는 전략이다.27일 오픈AI는 새로운 AI 모델 'GPT-6.1 테라'를 공개했다. 제안서 작성과 기술 도면 해석, 영상 편집 등 컴퓨터 작업 수행 능력을 강화한 모델로, 반복적 사무 업무를 빠르고 저렴하게 처리하는 데 초점을 맞췄다. 오픈AI는 테라가 에이전트의 업무 수행 능력을 평가하는 '",
-        "link": "https://view.asiae.co.kr/article/2026102711291509654",
+        "title": "을지대의료원, 창립 70주년 심포지엄…'AI와 함께하는 미래의료'",
+        "summary": "을지대학교의료원이 창립 70주년을 맞아 인공지능(AI)과 의료데이터, 로봇 기술이 바꿀 미래의료를 논의하는 학술 심포지엄을 개최한다. 을지대학교의료원은 오는 30일 서울 중구 롯데호텔에서 'AI와 함께하는 미래의료'를 주제로 창립 70주년 기념 의학 심포지엄을 연다고 26일 밝혔다. 이번 심포지엄에는 의료계와 과학기술계, 정부 및 산업계 전문가들이 참여해 AI 기반 의료정책과 데이터 활용, 임상 현장의 AI 적용 사례, 로봇 기반 의료시스템의 발전 방향 등을 논의한다. 기조강연에서는 서준범 서울아산병원 교수가 '인공지능 10년: 의",
+        "link": "https://view.asiae.co.kr/article/2026102715432053608",
         "source": "아시아경제 - 산업·IT",
-        "published": "2026-10-27T13:24:16+09:00",
+        "published": "2026-10-27T15:43:21+09:00",
+        "score": 22
+      },
+      {
+        "title": "AI 모델 선택·활용·보안까지…KT “토큰팩토리 하나로 끝~”",
+        "summary": "‘AX 시대 핵심 신사업’ 출시전 세계 500여종 AI 모델 연결해 토큰 사용량 25% 줄여 비용 절감 개인정보 포함된 질문엔 답 안 해 30일 기업, 내년 3월 개인용 확대KT가 인공지능(AI) 모델 선택부터 효율적인 활용, 민감정보 보호까지 통합적으로 관리하는 플랫폼 ‘토큰팩토리’를 오는 30일 출시한다. AI가 얼마나 많은 토큰(AI 연산의 기본 단위···",
+        "link": "https://www.khan.co.kr/article/202610272049025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-10-27T20:49:02+09:00",
+        "score": 22
+      },
+      {
+        "title": "앤트로픽, 역대 최대 IPO 도전…‘기적의 시대’ 열겠다는데 통제 상실·투자 부담 시험대",
+        "summary": "지난 2월 26일 미국 뉴욕의 컴퓨터 화면에 앤트로픽 웹사이트와 회사 로고가 표시돼 있다. AP연합뉴스인공지능(AI) 선두기업 앤트로픽이 상장신고서를 제출하며 오는 11월 역대 최대 규모의 기업공개(IPO)를 예고했다. AI가 ‘기적의 시대’를 열 것이란 장밋빛 전망과, 막대한 인프라 투자 및 수익성에 대한 우려가 엇갈리는 상황에서 앤트로픽의 상장은 AI의···",
+        "link": "https://www.khan.co.kr/article/202610271659001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-10-27T16:59:00+09:00",
         "score": 22
       }
     ]
@@ -649,39 +649,39 @@
   ],
   "summary_en": {
     "date": "2026-10-27",
-    "generated_at": "2026-10-27T05:39:06.054703+00:00",
-    "briefing_hash": "896cccb289e51b0b",
+    "generated_at": "2026-10-27T13:41:57.358188+00:00",
+    "briefing_hash": "d500402c0b79d4b0",
     "key_headlines": [
       {
-        "title": "South Korea's Q3 GDP Grows 1.0% Quarter-on-Quarter, Exceeding Expectations",
-        "summary": "Korea's third quarter real GDP growth reached 1.0% compared to the previous quarter, more than tripling the Bank of Korea's August forecast of 0.3%. The government projects full-year growth rate could reach the mid-3% range, supported by semiconductor exports and facility investments."
+        "title": "South Korea's Q3 GDP Surges 1.0%, Semiconductor-Led Growth Raises Dependency Concerns",
+        "summary": "Korea's real GDP grew 1.0% quarter-over-quarter in Q3, triple the Bank of Korea's August forecast, driven by semiconductor manufacturing equipment investment and strong exports. However, experts warn of excessive reliance on semiconductor sector, which contributed half of overall growth."
       },
       {
-        "title": "Per Capita National Income Expected to Exceed $40,000 in 2026",
-        "summary": "The government announced that Korea's per capita GNI is now set to surpass the $40,000 mark this year, with annual real GDP growth rate expected to reach the mid-3% range. This projection is based on sustained export momentum and increased facility investments."
+        "title": "Government Projects 4% Annual GDP Growth and $40,000 Per Capita GNI Achievement",
+        "summary": "The South Korean government announced that per capita GNI is expected to reach the $40,000 mark this year, with full-year real GDP growth potentially reaching the mid-3% range. Strong Q4 performance and consumer spending rebound from dividends and bonuses are anticipated."
       },
       {
-        "title": "Seoul Jeonse (Lease) Prices Skyrocket with 1 Billion Won Deposits Becoming Common",
-        "summary": "Seoul's jeonse prices are surging dramatically with 1 billion won deposits increasingly common across districts including Mapo, Gwangjin, and Gangseo. Year-over-year increases in some areas have reached four times previous levels, sparking concerns about housing affordability."
+        "title": "Seoul Jeonse Market Experiences Unprecedented Surge with 1 Billion Won Deposits",
+        "summary": "Seoul's jeonse market is experiencing a dramatic spike with 10 billion won deposits becoming commonplace in districts like Mapo and Gwangjin, with year-over-year increases reaching four times previous levels. This trend raises concerns about housing affordability as monthly rents in university areas have surged to 700,000 won."
       },
       {
-        "title": "University District Monthly Rents Soar to 700,000 Won, Up 100,000 Won Year-on-Year",
-        "summary": "Monthly rents near university campuses have surged to 700,000 won per month, representing a 100,000 won increase from the previous year. Contracts for officetels exceeding 1 million won have increased by 43%, with landlord tax burdens driving further rent hikes."
+        "title": "Anthropic Launches IPO Process, Signaling AI Demand Recovery Amid Market Concerns",
+        "summary": "AI chatbot developer Anthropic filed for IPO with the SEC, reporting 14-fold revenue increase in H1 2026 and achieving its first quarterly operating profit. The landmark move aims to alleviate market anxieties about AI semiconductor demand."
       },
       {
-        "title": "Anthropic Files for Nasdaq IPO at Valuation Up to $2 Trillion",
-        "summary": "Anthropic, the AI company behind Claude, officially filed for Nasdaq listing under ticker 'ANT' with potential valuation of $1.5-2 trillion. The company aims to raise over $100 billion, potentially surpassing SpaceX's June IPO record just five years after its founding."
+        "title": "Audit Office Reports 51.5 Trillion Won Revenue Forecasting Error Caused by Government Estimation Model Flaws",
+        "summary": "South Korea's Board of Audit and Inspection revealed that revenue estimation errors over four years totaling 50 trillion won resulted from government forecasting model failures rather than economic conditions. The Finance Ministry's use of outdated average statistics despite volatile external economic conditions contributed to significant tax revenue shortfalls."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea's economy delivered a surprise performance in the third quarter with GDP growth of 1.0% quarter-on-quarter, far exceeding the Bank of Korea's 0.3% forecast and more than tripling expectations. The government now projects full-year growth could reach the mid-3% range, with per capita GNI expected to exceed $40,000 this year. However, concerns persist about over-reliance on semiconductors, which contributed approximately half of overall growth. While facility investments surged 4.1% and exports remained strong, private consumption declined 0.2%, though officials attribute this to temporary factors with recovery expected in the fourth quarter.",
-      "Macro & Fiscal Policy": "The government's fiscal authorities project an acceleration in economic growth driven by investment and government spending supporting third quarter performance, with expectations for consumer rebound in the fourth quarter from year-end dividends and bonuses. The Audit Office revealed that 50 trillion won in cumulative tax revenue errors over four years resulted not from economic conditions but from government forecasting model failures, particularly in corporate tax estimation methods that failed to account for changing external economic circumstances. Proactive monetary policy responses remain under discussion, with Bank of Korea officials emphasizing the need for forward-looking policy coordination during unprecedented crises.",
-      "Financial Markets": "The Korean stock market experienced significant volatility, initially declining to 6-month lows amid supply-demand concerns before rebounding sharply by over 4% following Anthropic's IPO announcement and positive AI sentiment. KOSPI recovered to above the 5,700 level with semiconductor stocks, particularly Samsung Electronics and SK Hynix, leading gains as the AI sector momentum strengthened. Offshore financial markets showed turbulence with Brazil's Bovespa index plummeting 14% following Lula's political developments, while U.S. markets showed modest gains with NASDAQ up 0.83% ahead of major tech earnings and Fed rate decisions.",
-      "Industry & Technology": "Korea's semiconductor and battery sectors demonstrated strong export performance with companies like Samsung SDI securing multiple energy storage contracts with American firms. Benotian&R achieved its first semiconductor division contract worth 5.2 billion won for North American battery project participation, expanding into battery engineering fields. Despite record export surpluses driven primarily by AI semiconductor demand, traditional industries including automobiles and steel face continued headwinds, raising concerns about economic concentration risk. Educational institutions are restructuring to meet semiconductor and physical AI talent demands with job-linked curriculum frameworks, addressing future industry needs.",
-      "Real Estate": "Seoul's real estate market faces severe affordability challenges with jeonse deposits reaching 1 billion won across multiple districts as annual price increases in some areas reached 4 times previous levels. Monthly rents in university districts have surged to 700,000 won with 100,000 won annual increases, while contracts for units exceeding 1 million won jumped 43%, driven by landlord tax burden concerns that threaten further escalation. Seoul apartment prices maintained an unprecedented 89-week consecutive rise record, though signs of adjustment emerged in Gangnam's Apgujeong area where prices fell sharply ahead of reconstruction projects. Tenants face severe dual burdens as deposits convert to rents exceeding 1 million won monthly, with even affordable outer districts experiencing 3 million won-plus monthly rent transactions.",
-      "International Economy": "The Trump administration signaled potential 50% tariffs on foreign companies using U.S. market access, creating uncertainty for Korean automotive companies like Hyundai whose investment-shield strategy faces new pressure. The U.S. faces mid-term elections with voters weighing trade war impacts and foreign policy, while Trump administration considers applying security-related trade sanctions to semiconductors, critical minerals, and aircraft components. Global economic uncertainty persists with negotiations ongoing between the U.S. and Canadian governments regarding tariff relief on Canadian steel and automobiles. Protectionist trade policies and geopolitical tensions continue reshaping international commerce, particularly affecting Korea's export-dependent economy.",
-      "AI & Economy": "South Korea's three major telecommunications companies are pioneering a 'token economy' by monetizing AI token processing as a new growth driver beyond traditional data center and cloud services rental models. Global green growth initiatives are expanding to address AI data center infrastructure demands for electricity and water resources, with new competitiveness indicators being introduced to compare countries' green industry capabilities. Korean firms emphasize that sustained growth requires investment, innovation, and institutional reforms, with policy support needed for corporate expansion into new industries and markets. China's industrial profits surged 15.5% in January-September with electronic industry profits doubling from AI demand, demonstrating regional competition intensifying in AI-driven economy transformation.",
-      "Others": "Anthropic's IPO filing with potential 2 trillion dollar valuation triggered significant global market interest, with existing AI chip and semiconductor companies experiencing positive sentiment waves. The insurance industry witnessed Samsung Life's record 2 trillion won overseas subordinated bond issuance, drawing 49% participation from overseas long-term investors amid global financial market volatility. Exchange-traded fund investments in retirement pension markets expanded tenfold in 2.5 years reaching near 100 trillion won territory, though investor awareness about product risk levels remains insufficient with some believing principal is guaranteed. K-beauty exports to Japan are projected to exceed last year's 1.08 billion dollars with Japan ranking as the third-largest K-beauty import market after the U.S. and China, demonstrating sustained Korean product competitiveness in international markets."
+      "Hot Economy News": "South Korea's economy delivered a surprise 1.0% quarter-over-quarter growth in Q3, exceeding Bank of Korea forecasts by threefold, driven primarily by semiconductor manufacturing equipment investment and strong export performance. However, this growth trajectory raises significant concerns about economic overdependence on the semiconductor sector, which alone accounted for approximately half of total growth. The government projects full-year GDP growth could reach the mid-3% range with potential annual growth reaching 4% if Q4 performance strengthens, while per capita GNI is expected to cross the $40,000 threshold. Private consumption declined 0.2% during the quarter, tempering overall optimism about domestic economic health.",
+      "Macro & Fiscal Policy": "The Bank of Korea announced Q3 GDP growth of 1.0%, significantly surpassing its August projection of 0.3%, with potential for full-year growth reaching 4% if Q4 growth exceeds 1.4%. The government emphasized efforts toward price stability and reducing income inequality despite the robust growth figures. An audit investigation revealed that 51.5 trillion won in revenue forecasting errors over four years stemmed primarily from flawed government estimation models rather than economic volatility, specifically citing the Finance Ministry's use of outdated corporate profit averages despite volatile international conditions. Discussions on proactive monetary policy coordination between fiscal and monetary authorities have intensified, emphasizing preparedness for unprecedented economic challenges.",
+      "Financial Markets": "The Korean stock market experienced volatility with KOSPI trading near the 5,600 level, with foreign investor participation and semiconductor stock movements emerging as key recovery variables. Government bonds saw rates decline across all maturities, with 3-year bonds hitting 2-month lows despite KOSPI's rebound, reflecting broader market uncertainty. Major index restructuring is underway as the Korea Exchange implements comprehensive industry classification reforms affecting 88 trillion won in ETF assets, with significant changes expected in KOSPI 200 and KOSDAQ 150 component stocks. BlackRock's global bond chief recommended AI corporate bonds over US Treasuries, citing attractive 7% yields on high-grade short-term corporate debt amid unprecedented capital raising in bond and equity markets.",
+      "Industry & Technology": "Pohang city officially opened an electric vehicle battery automated assessment center capable of evaluating over 150 batteries daily, marking progress in EV infrastructure development. Discussion intensified regarding domestic EV tax credits with Korean battery industry poised to benefit from government support expansion, particularly as Chinese EV market share grows domestically. Industry leaders dismissed semiconductor peak theories, arguing AI revolution remains in early stages with only four companies globally capable of producing advanced memory and high-bandwidth memory chips, making supply constraints unlikely to ease. Major tech companies including Samsung Electronics and SK Hynix remain central to global AI infrastructure, with investments in optical modules and data center components accelerating.",
+      "Real Estate": "Seoul apartment prices continued their record-breaking streak with 89 consecutive weeks of gains, marking the longest upward period ever recorded, while Gyeonggi Province monthly rents reached a new normal of 2 million won. University district monthly rents surged to 700,000 won levels, representing 100,000 won annual increases with some studios exceeding 1 million won, driven by landlord tax burden pressures. Concerns have emerged about market instability following government real estate tax reforms shifting from ownership quantity to asset value-based taxation while increasing holding tax rates. Real estate market psychology has shifted toward concentrated single-property investments amid uncertainty about comprehensive property tax restructuring and its impact on rental markets.",
+      "International Economy": "Chinese vehicles surpassed Japanese cars in European market share for the first time in Q3, capturing 12.7% market share led by hybrid vehicles as current tariff measures prove insufficient to contain Chinese market penetration. The Peterson Institute's president criticized Trump administration demands for non-commercial foreign investment as worse than tariff policies, noting arbitrary project selection processes harm both US and allied interests. US markets responded positively to Anthropic's IPO filing, with NASDAQ rising 0.83%, though investor caution persists ahead of major technology earnings releases and Federal Reserve rate decision announcements. Korean beauty products continue expansion internationally through Amazon's platform, targeting European markets beyond the US after establishing strong online retail presence.",
+      "AI & Economy": "Anthropic's IPO filing projects record fundraising of approximately 133 trillion won, signaling market confidence in AI sector viability despite infrastructure investment concerns, with the company reporting 14-fold revenue growth in H1 2026 and achieving first quarterly operating profit. Doosan announced 399.2 billion won investment in Gimje to expand optical module copper-clad laminate production capacity, targeting AI data center demand growth, with production lines expected to launch sequentially from H2 2028. AI power and water consumption explosions are reshaping national competitiveness metrics, with global green growth experts emphasizing resource management capability as critical competitive advantage. Market observers view Anthropic's listing as a crucial test case for AI sector viability amid balancing acts between rosy growth prospects and substantial infrastructure investment requirements alongside profitability concerns.",
+      "Others": "South Korea's retirement pension ETF market expanded tenfold in 2.5 years, approaching 100 trillion won in assets, yet investor protection concerns persist as many retail investors misunderstand ETF products as capital-guaranteed investments. Foreign investors rapidly withdrew from single-stock leveraged ETFs, particularly Samsung Electronics and SK Hynix products, with holdings in several products declining to near-zero levels. President Lee highlighted France's low-growth induced debt crisis as cautionary tale, noting French government debt-to-GDP ratio of 120% significantly exceeds EU average of 81.7%, with debt servicing costs projected to escalate sharply by 2030. The US midterm elections intensify as former and current presidents campaign aggressively, focusing on middle-class economic concerns including inflation and investment policies."
     }
   }
 }
