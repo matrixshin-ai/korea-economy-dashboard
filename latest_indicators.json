@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T01:14:17.662759",
+  "updated_at": "2026-10-27T05:37:10.596610",
   "indicators": [
     {
       "id": "sp500",
@@ -91,8 +91,8 @@
     {
       "id": "kospi",
       "name": "KOSPI",
-      "value": "5,699.71",
-      "change": 2.69,
+      "value": "5,668.79",
+      "change": 3.64,
       "category": "stock",
       "trend": [
         {
@@ -216,16 +216,20 @@
           "value": 5552.74
         },
         {
+          "date": "2026-10-26",
+          "value": 5469.47
+        },
+        {
           "date": "2026-10-27",
-          "value": 5699.71
+          "value": 5668.79
         }
       ]
     },
     {
       "id": "kosdaq",
       "name": "KOSDAQ",
-      "value": "757.73",
-      "change": 0.8,
+      "value": "746.91",
+      "change": 2.71,
       "category": "stock",
       "trend": [
         {
@@ -349,8 +353,12 @@
           "value": 781.97
         },
         {
+          "date": "2026-10-26",
+          "value": 727.21
+        },
+        {
           "date": "2026-10-27",
-          "value": 757.73
+          "value": 746.91
         }
       ]
     },
@@ -955,8 +963,8 @@
     {
       "id": "jpy_usd",
       "name": "엔/달러",
-      "value": "157.70",
-      "change": 0.56,
+      "value": "157.65",
+      "change": 0.52,
       "category": "currency",
       "trend": [
         {
@@ -977,15 +985,15 @@
         },
         {
           "date": "2026-10-27",
-          "value": 157.7
+          "value": 157.65
         }
       ]
     },
     {
       "id": "cny_usd",
       "name": "위안/달러",
-      "value": "6.67",
-      "change": -0.13,
+      "value": "6.66",
+      "change": -0.32,
       "category": "currency",
       "trend": [
         {
@@ -1006,21 +1014,17 @@
         },
         {
           "date": "2026-10-27",
-          "value": 6.67
+          "value": 6.66
         }
       ]
     },
     {
       "id": "dxy",
       "name": "달러 인덱스 (DXY)",
-      "value": "102.06",
-      "change": 0.25,
+      "value": "102.09",
+      "change": 0.13,
       "category": "currency",
       "trend": [
-        {
-          "date": "2026-10-21",
-          "value": 101.78
-        },
         {
           "date": "2026-10-22",
           "value": 101.61
@@ -1031,7 +1035,11 @@
         },
         {
           "date": "2026-10-26",
-          "value": 102.06
+          "value": 101.96
+        },
+        {
+          "date": "2026-10-27",
+          "value": 102.09
         }
       ]
     },
@@ -1211,14 +1219,10 @@
     {
       "id": "wti",
       "name": "WTI 원유",
-      "value": "$100.96",
-      "change": -2.24,
+      "value": "$100.63",
+      "change": -1.11,
       "category": "commodity",
       "trend": [
-        {
-          "date": "2026-10-21",
-          "value": 97.15
-        },
         {
           "date": "2026-10-22",
           "value": 99.47
@@ -1229,21 +1233,21 @@
         },
         {
           "date": "2026-10-26",
-          "value": 100.96
+          "value": 101.76
+        },
+        {
+          "date": "2026-10-27",
+          "value": 100.63
         }
       ]
     },
     {
       "id": "gold",
       "name": "금",
-      "value": "$4,025.40",
-      "change": 0.44,
+      "value": "$4,019.50",
+      "change": -0.47,
       "category": "commodity",
       "trend": [
-        {
-          "date": "2026-10-21",
-          "value": 4150.0
-        },
         {
           "date": "2026-10-22",
           "value": 4060.4
@@ -1254,7 +1258,11 @@
         },
         {
           "date": "2026-10-26",
-          "value": 4025.4
+          "value": 4038.4
+        },
+        {
+          "date": "2026-10-27",
+          "value": 4019.5
         }
       ]
     }
