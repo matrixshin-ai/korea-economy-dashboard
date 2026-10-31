@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-31T14:37:43.475016+09:00",
+  "generated_at": "2026-10-31T22:56:59.948781+09:00",
   "date": "2026-10-31",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 709,
-    "total_used": 679,
+    "total_input": 699,
+    "total_used": 671,
     "dropped_quality": 6,
-    "dropped_negative": 24,
+    "dropped_negative": 22,
     "per_category": {
-      "기타": 357,
-      "금융시장": 101,
-      "산업·과학": 60,
-      "부동산": 64,
-      "AI와 경제": 10,
-      "국제경제": 40,
-      "거시경제·재정": 47
+      "기타": 345,
+      "거시경제·재정": 41,
+      "금융시장": 100,
+      "산업·과학": 54,
+      "부동산": 76,
+      "AI와 경제": 7,
+      "국제경제": 48
     }
   },
   "headlines": [
@@ -182,28 +182,12 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "동결 후 인상 대기…닮아가는 한미 통화정책과 물가로 쏠리는 눈",
-        "summary": "9월 15~64세 고용률은 70.6%로 0.2%포인트 올랐고 실업률은 2.0%에 그쳤다. 수도권 집값과 가계대출 증가세, 여전히 과거 평균 대비 높은 원·달러 환율도 금융안정 측면에서 금리 인상의 명분이 된다. 신 총재가 취임...",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=05779366645617840&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-29T17:09:00+09:00",
-        "score": 118
-      },
-      {
         "title": "[사설] 9월 산업활동 좋아졌다고 경기회복 낙관해선 안돼",
         "summary": "3분기 국내총생산(GDP) 증가율이 전분기 대비 1.0%로 시장 예상을 웃돈 데 이어 이를 뒷받침하는 산업활동 지표까지 나온 것은 반가운 소식이다. 제조업과 수출 주력 산업이 경기 반등을 이끌고, 그동안 부진했던 소비와...",
         "link": "https://www.hankyung.com/article/2026103068611",
         "source": "한국경제",
         "published": "2026-10-31T00:04:00+09:00",
         "score": 112
-      },
-      {
-        "title": "통화정책 '축' 바뀐 日…우에다 BOJ 총재 \"이젠 2% 물가 방어가 중요\"(종...",
-        "summary": "2013년 목표 도입과 함께 시작한 금융완화 정책 효과와 함께 세계적인 인플레이션, 기업들이 임금·가격 인상... 우에다 총재는 중장기 기대 인플레이션율이 2% 정도에서 안정되는지를 “중요하게 보겠다”고 강조했다....",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=05248006645618168&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "이데일리",
-        "published": "2026-10-30T16:36:00+09:00",
-        "score": 110
       },
       {
         "title": "미국 3분기 경제 성장률 3.4%…예상 웃돌았지만 물가 압력",
@@ -246,14 +230,6 @@
         "score": 86
       },
       {
-        "title": "'금리 동결' 미 연준, 12월 인상 가능성에 주목…한국은행 향방은?",
-        "summary": "일자리 증가는 노동력 규모와 보조를 맞추고 있으며 실업률은 거의 변동이 없었습니다.\" 하지만 연준의 통화정책 시계는 추가 긴축을 가리키고 있습니다. 연준 위원 2명은 이번 금리 동결 결정에 반대표를 던지며 0.25...",
-        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005950187",
-        "source": "MBN",
-        "published": "2026-10-29T15:16:00+09:00",
-        "score": 86
-      },
-      {
         "title": "“부유세는 싫지만 세금 더 내겠다”…美 억만장자들이 내놓은 뜻밖의 ...",
         "summary": "연방정부의 재정적자와 인플레이션을 억제하는 데도 도움이 된다는 설명이다. 핵심은 장기 자본이득세율을 일반 소득세율과 일치시키는 것이다. 현재 미국에서는 주식 등을 오래 보유하다 팔아 얻은 자본이득에...",
         "link": "https://biz.heraldcorp.com/article/10921037?ref=naver",
@@ -262,20 +238,44 @@
         "score": 82
       },
       {
-        "title": "일본은행, 금리 동결…14년만에 '완화→인플레 억제' 전환(종합)",
-        "summary": "일본은행(BOJ)이 기준금리를 연 1.25%로 동결하면서 물가상승률이 13년 만에 목표치인 2%에 사실상 도달했다고 선언했다. 장기간 이어진 디플레이션에서 벗어나 임금과 물가가 함께 오르는 경제구조로 전환하고 있다는 판단이다. 이에 따라 일본의 통화정책은 14년 만에 물가 상승 유도에서 인플레이션 억제로 무게중심을 옮기게 됐다. 30일 니혼게이자이신문(닛케이)에 따르면, BOJ는 이날 금융정책결정회의에서 일시적 요인을 제외한 기조적 물가상승률이 목표치인 2%와 \"대체로 부합하는 수준에 도달했다\"고 밝혔다. 2013년 1월 물가안정",
-        "link": "https://view.asiae.co.kr/article/2026103014401607097",
-        "source": "아시아경제 - 국제",
-        "published": "2026-10-30T15:11:14+09:00",
-        "score": 76
+        "title": "유로존 3분기 경제, 0.4% 성장…'시위 몸살' 프랑스는 역성장(종합)",
+        "summary": "유럽연합(EU) 통계기구인 유로스타트(Eurostat)는 3분기 유로존 국내총생산(GDP)이 전분기보다 0.4% 증가한... 있다\"며 \"GDP 성장률은 잘 버텼지만 각국에서 발표된 인플레이션 수치는 예상보다 높게 나타났다\"고 지적했다....",
+        "link": "https://www.yna.co.kr/view/AKR20261030179651098?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-31T02:33:00+09:00",
+        "score": 60
       },
       {
-        "title": "워시 \"물가 높다\"면서 금리 동결…12월 인상 무게 실리나",
-        "summary": "“생산성 증가세가 강하고 자본투자도 견조하다”며 “고용 증가가 노동력 공급 증가와 보조를 맞추고 있어 실업률도 거의 변하지 않았다”고 했다. 이는 고용보다 물가 안정에 정책 우선순위를 두겠다는 기조로...",
-        "link": "https://www.hankyung.com/article/2026102943871",
-        "source": "한국경제",
-        "published": "2026-10-29T18:15:00+09:00",
-        "score": 68
+        "title": "日銀, 금리동결 속 '물가 목표 2% 도달' 판단…\"추가 인상 지속\"(종합2보...",
+        "summary": "기대 인플레이션율이 2% 정도에 안착해 있는지와 그 정도를 중요한 요소로 살펴볼 것\"이라며 \"임금·가격 결정 행동이 2% 인플레이션율과 부합하는지에 대한 관점도 매우 중요하다고 생각한다\"고 말했다. 시장에서는...",
+        "link": "https://www.yna.co.kr/view/AKR20261030092452073?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-10-30T18:09:00+09:00",
+        "score": 60
+      },
+      {
+        "title": "유로존 3분기 경제, 0.4% 성장…시위 겪은 프랑스 0.1% 역성장",
+        "summary": "유럽연합(EU) 통계기구인 유로스타트(Eurostat)는 3분기 유로존 국내총생산(GDP)이 전분기보다 0.4% 증가한... 있다\"며 \"GDP 성장률은 잘 버텼지만 각국에서 발표된 인플레이션 수치는 예상보다 높게 나타났다\"고...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005951741",
+        "source": "MBN",
+        "published": "2026-10-31T10:26:00+09:00",
+        "score": 60
+      },
+      {
+        "title": "도쿄 10월 물가 2.6% 상승…日 12월 금리 인상 '무게'",
+        "summary": "지난달 실업률은 2.4%로 경제협력개발기구(OECD) 평균(5%)의 절반 수준이었다. 구직자 100명당 일자리는 119개로 일손 부족이 이어지고 있다. 같은 달 산업생산은 전월보다 2.2% 늘었다. 다카이치 사나에 총리에게도 물가는...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=03404646645618168&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-10-30T09:30:00+09:00",
+        "score": 56
+      },
+      {
+        "title": "중국 10월 제조업 PMI 49.3…한달 만에 경기 위축 전환",
+        "summary": "특히 신규 수출 주문지수는 전월 50.0에서 48.7로 하락해 수출 수요가 위축된 것으로 나타났습니다. 반면 주요 원자재 재고량을 나타내는 원자재 재고지수는 48.4로 전월보다 0.2포인트 상승했습니다. 고용 경기를...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005951790",
+        "source": "MBN",
+        "published": "2026-10-31T14:52:00+09:00",
+        "score": 54
       }
     ],
     "금융시장": [
@@ -312,12 +312,12 @@
         "score": 96
       },
       {
-        "title": "코스피 반짝 반등에 레버리지 ETF '쏠림'…서학개미는 기술주 '픽'",
-        "summary": "지난주 코스피가 반짝 상승하면서 지수 상승을 기대하는 자금이 레버리지 상장지수펀드(ETF)에 몰린... 지난 28일 코스피가 6,000선을 돌파하는 등 연이틀 반등하자 상승장에 베팅하는 매수세가 몰린 것으로...",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/31/2026103190041.html",
-        "source": "조선일보",
-        "published": "2026-10-31T12:56:00+09:00",
-        "score": 92
+        "title": "코스피 힘 못 쓰는데 2.8조 몰렸다…개미들 꽂힌 '이 상품' [이수의 ETF줌...",
+        "summary": "하재석 NH투자증권 연구원은 \"7월 이후 코스피 부진이 이어지면서 ETF 시장의 자금 유입 속도도... 코스피200지수 기반 커버드콜 외에도 반도체, 배당주, 코스닥 등 다양한 기초자산을 활용한 액티브 커버드콜...",
+        "link": "https://www.hankyung.com/article/2026103061976",
+        "source": "한국경제",
+        "published": "2026-10-31T15:01:00+09:00",
+        "score": 96
       }
     ],
     "산업·과학": [
@@ -346,23 +346,15 @@
         "score": 80
       },
       {
-        "title": "반도체·자동차 쌍끌이에 명절 효과… 석 달 만 트리플 증가",
-        "summary": "&lt;center&gt; &lt;img src=&quot;https://blxznpbrl8tmjaimpzwu16133.edge.naverncp.com/srv-kmib/data2/content/image/2026/10/30/20261030500149.jpg&quot;&gt; &lt;/center&gt; &lt;figure class=&quot;image&quot;&gt;&lt;img src=&quot;/content/image/2026/10/30/20261030500149.jpg&quot; alt=&quot;Second alt text&quot; storyid=&quot;0a0a3e07-a185-1d72-81a1-8a688f24060d&quot;&gt;\n &lt;figcaption&gt;\n  이두언 국가데이터처 경제동향통계심의관이 30일 세종 정부세종청사에서 2026년 9월 산업활동동향을 발표하고 있다. 연합뉴스\n &lt;/figcaption&gt;\n&lt;/figure&gt;\n&l...",
-        "link": "https://www.kmib.co.kr/article/20261030500151",
-        "source": "국민일보 | 경제",
-        "published": "2026-10-30T01:26:32+00:00",
-        "score": 80
+        "title": "\"우수한 국산 Seed 기술, 연구실 넘어 산업으로\"…기술사업화 패스트트...",
+        "summary": "과제 책임자인 경기대학교 주상현 교수는 \"본 기술은 반도체 및 정밀 전자기기의 보호막을 비롯해 전기차 배터리와 에너지저장장치(ESS)의 보호·필터 소재, LED 조명 및 광학장치의 방수·방습 소재 등 다양한 산업에...",
+        "link": "https://www.fnnews.com/news/202610310845304160",
+        "source": "파이낸셜뉴스",
+        "published": "2026-10-31T08:47:00+09:00",
+        "score": 68
       }
     ],
     "부동산": [
-      {
-        "title": "“재건축 소식에 집값 좀 뛰었거든요”…강남 아파트로 눈돌리는 분당 ...",
-        "summary": "1일 한국부동산원 자료에 지난달 19일 기준 분당구 아파트값은 작년 10월 20일 대비 22.3% 올라 전국에서 상승률이 가장 높았다. 이런 가운데 올해 들어 9월까지 서울 집합건물을 매수한 경기·인천 거주자는...",
-        "link": "https://www.mk.co.kr/article/12192394",
-        "source": "매일경제",
-        "published": "2026-10-31T10:33:00+09:00",
-        "score": 150
-      },
       {
         "title": "“재건축 소식에 집값 좀 뛰었거든요”…강남 아파트로 눈돌리는 분당 주민들",
         "summary": "성남 분당구 아파트값 1년 새 22.3%↑  서울 주택매수 분당주민 1/3 강남 매수올해 서울 집합건물(아파트·연립·오피스텔 등)을 매입한 경기·인천 거주자 가운데 가장 많은 수는..",
@@ -370,6 +362,14 @@
         "source": "매일경제 : 부동산",
         "published": "2026-10-31T10:32:13+09:00",
         "score": 146
+      },
+      {
+        "title": "\"집값 열차 놓쳤다\"던 김동현…100억 아파트 매입한 방법은",
+        "summary": "해당 부동산에 근저당권을 설정하는 방식이다. 최근 주택담보대출 규제가 강화되면서 고가 주택 거래에서 은행 대출 외 자금 조달 방식이 활용되고 있다. 지난해 10·15 부동산 대책에 따라 25억원 초과 주택의...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02879846645618496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-10-31T19:48:00+09:00",
+        "score": 126
       },
       {
         "title": "“재개발 1순위는 단연 이곳이죠”…부동산 고수가 찍은 서울 알짜 지역은",
@@ -390,20 +390,20 @@
     ],
     "국제경제": [
       {
-        "title": "\"한국 말고 미국서 써라\"…트럼프, '5000달러 지급' 공약 재확인",
-        "summary": "트럼프 대통령은 관세 수입과 경제 성과로 '트럼프 배당금' 재원을 마련할 수 있다고 주장했다. 그는 \"트럼프 배당금 지급에는 약 1조 달러가 필요하다. 하지만 우리는 (관세 정책 등으로) 22조2000억달러 규모의 기록적인...",
-        "link": "https://www.mt.co.kr/world/2026/10/31/2026103111210593495",
-        "source": "머니투데이",
-        "published": "2026-10-31T13:31:00+09:00",
-        "score": 76
+        "title": "GDP 넘는 빚잔치엔 ‘AI 경제성장’도 시한폭탄 [트럼프 스톡커]",
+        "summary": "선진국들의 재정위기가 심각해질수록 채권 금리가 오르게 되고 AI 인프라 투자에 차질이 빚어지는 등... 연준은 28일 연방공개시장위원회(FOMC) 정례회의 이후 기준금리를 연 3.75~4.00%로 동결하면서 미국 경제의 현...",
+        "link": "https://www.sedaily.com/article/20108577?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-31T13:42:00+09:00",
+        "score": 88
       },
       {
-        "title": "EU-캐나다, 트럼프 ‘미국 우선주의’ 맞서 ‘미래 동맹’ 출범하고 전...",
-        "summary": "캐나다 카니 총리는 “세계는 점점 더 위험해지고 분열되고 있다”면서 민주주의 규범의 약화와 “무역의... 양측은 이미 대부분의 관세를 철폐한 자유무역협정을 체결한 상태이지만, 기업들이 더 쉽게 상품을 판매할 수...",
-        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8700459&ref=A",
-        "source": "KBS",
-        "published": "2026-10-31T08:29:00+09:00",
-        "score": 76
+        "title": "'실망·분노' 접전지 美 미시간주 가보니…\"트럼프 관세정책 백해무익\"",
+        "summary": "유권자 \"오로지 미국을 우선할 미국인을 지지합니다, 언제나.\" 미국과 캐나다의 관세 협상이 중간 선거 전에 타결될 지 여부가 막판 표심을 가를 변수로 꼽힙니다. 미국 미시간주 디트로이트에서 TV조선 백대우입니다.",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/31/2026103190110.html",
+        "source": "조선일보",
+        "published": "2026-10-31T19:31:00+09:00",
+        "score": 88
       },
       {
         "title": "연준 동결 이틀 만에 “인상 필요”…댈러스 연은 총재 “두 차례 더”",
@@ -422,29 +422,21 @@
         "score": 70
       },
       {
-        "title": "이란전 고유가에 美·유럽 석유공룡, '75조원 횡재' 분기순익",
-        "summary": "이는 작년의 약 3배로, 이들 기업은 작년 같은 기간 총 470억달러(약 63조원) 미만의 이익을 거뒀는데, 당시는 도널드 트럼프 미 대통령의 무역전쟁 초기였던 데다 상대적으로 낮은 유가 등이 영향을 미쳤습니다. 이러한...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000343426?division=NAVER",
-        "source": "SBS",
-        "published": "2026-10-31T07:19:00+09:00",
-        "score": 66
+        "title": "“1인당 5000달러 주겠다”는 트럼프…“단, 한국선 쓰지 마” 이유는",
+        "summary": "관세 수입으로 재원 마련 주장…실제 지급엔 의회 입법 필요 트럼프 대통령은 배당금의 재원으로 관세 수입과 미국 경제의 성과를 제시했다. 그는 “트럼프 배당금에는 약 1조 달러(한화 약 1334조원)가 들겠지만, 우리는...",
+        "link": "https://www.sedaily.com/article/20108603?ref=naver",
+        "source": "서울경제",
+        "published": "2026-10-31T18:58:00+09:00",
+        "score": 64
       }
     ],
     "AI와 경제": [
       {
-        "title": "AI·클라우드에 웃은 삼성SDS·LG CNS, 로보틱스 새 먹거리 본격화",
-        "summary": "올해 3분기 인공지능(AI)과 클라우드의 탄탄한 수요를 확인한 삼성SDS와 LG CNS가 AI 전환(AX)·로봇 전환(RX) 투자·사업화를 본격화한다.  LG CNS는 올해 3분기 연결기준 영업이익이 지난해 같은 기간보다 15% 증가한 1382억원으로 잠정 집계됐다고 30일 공시했다. 같은 기간 매출액은 1조6643억원을 기록해 9.3% 증가했다. 핵심 사업인 AI·클라우드 분야 3분기 매출은 9.3% 증가한 9615억원이다.   삼송 AI 데이터센터(AIDC)를 비롯해 LG CNS가 위탁 운영 중인 AIDC 코로케이션 매출이 증가",
-        "link": "https://view.asiae.co.kr/article/2026103009173001200",
-        "source": "아시아경제 - 증권",
-        "published": "2026-10-30T10:09:06+09:00",
-        "score": 40
-      },
-      {
-        "title": "효성중공업, 독일 지멘스와 손잡고 차세대 ‘디지털 전력·AI 데이터센터’ 시장 공략",
-        "summary": "효성중공업이 독일 지멘스(SIEMENS)와 함께 글로벌 차세대 디지털 전력망 및 인공지능(AI) 데이터센터 솔루션 기술 선점에 나선다. 효성중공업은 이를 위해 30일 서울 그랜드 ..",
-        "link": "https://www.mk.co.kr/news/stock/12191539",
-        "source": "매일경제 : 증권",
-        "published": "2026-10-30T15:11:28+09:00",
+        "title": "[돈이 보이는 경제] AI 투자 우려에 인텔 29% 폭락…삼전닉스 역대급 실...",
+        "summary": "되찾은 코스피. 하지만 다음 날 삼성전자가 최대 75조원 규모의 주주환원을 발표하면서도 구체적인 실행... 여파로 코스피도 5700선까지 무너졌습니다. AI가 구글의 캐시카우인 검색 시장을 갉아 먹을 거란 우려...",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/10/31/2026103190108.html",
+        "source": "조선일보",
+        "published": "2026-10-31T19:29:00+09:00",
         "score": 34
       },
       {
@@ -456,14 +448,6 @@
         "score": 34
       },
       {
-        "title": "전북도, 피지컬AI 부지사로 명칭 변경…\"관련 산업 육성 본격화\"",
-        "summary": "전북특별자치도는 미래 핵심 성장 동력인 피지컬 인공지능(AI) 산업 육성을 본격화하기 위해 경제부지사와 정무수석 등의 명칭을 변경하는 조례 시행규칙을 시행한다고 31일 밝혔다. 경제부지사의 명칭은...",
-        "link": "https://www.yna.co.kr/view/AKR20261031031100055?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-10-31T14:18:00+09:00",
-        "score": 32
-      },
-      {
         "title": "신용시장까지 번진 ‘AI 거품론’… ‘탄탄한 본업 바탕’ 반론도",
         "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/31/134942163.1.jpg\" vspace=\"10\" />서울에 사는 직장인 정모 씨(35)는 최근 단일종목 레버리지 상품에 1억 원을 투자했다가 사흘 만에 7000만 원을 잃었다. 기초지수가 상승과 하락을 반복하며 제자리로 돌아와도 수익률을 오히려 갉아먹는 ‘음의 복리 효과’ 탓이다. 정 씨는 “변동성이 클 때 장에 들어가고 빠지는 타이밍만 제대로 잡으면 큰돈을 벌 수 있다고 생각해 투자했는데, 반도체와 AI 관련주의 주가가 다시 올라오는 폭이 크지 않다”며 씁쓸해했다. 레버리지 상품의 극심한 변동성에 휘둘렸던 그는 이제 ‘인공지능(AI) 버블’ 논란을 두렵게 지켜보고 있다. 그의 투자 포트폴리오에서 반도체와 AI 관련 종목이 차지하는 비중이 70%를 넘기 때문이다. AI 버블이 현실로 판명 나면 손실이 상상할 수 없이 불어날까 봐 걱...",
         "link": "https://www.donga.com/news/Economy/article/all/20261030/134941582/2",
@@ -472,7 +456,7 @@
         "score": 32
       },
       {
-        "title": "AI로 공무원을 대체할 수 있을까? 뉴질랜드와 네덜란드의 실험[딥다이브]",
+        "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브]",
         "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/10/30/134937403.1.jpg\" vspace=\"10\" />인공지능(AI)이 일자리, 특히 기업의 사무직과 소프트웨어 개발자의 일자리를 빼앗을 거란 전망이 파다하죠. 그런데 그보다 먼저 AI에 밀려날 위기에 놓인 직업이 있습니다. 바로 공무원이죠.뉴질랜드에 이어 네덜란드 정부도 정부부처 공무원 수를 대폭 감축하고 AI를 도입하겠다는 정책을 발표했습니다. 예산 절감을 위해 공무원을 AI로 대체하겠다는 건데요. 이게 정말 효과가 있을까요? AI와 공무원 감축을 들여다보겠습니다.*이 기사는 10월 30일(금요일) 발행한 딥다이브 뉴스레터의 온라인 기사 버전입니다. ‘읽다 보면 빠져드는 경제뉴스’ 딥다이브를 뉴스레터로 구독하세요.https://www.donga.com/news/Newsletter뉴질랜드 “3년 내 공무원 8700명 감축”‘작은 정...",
         "link": "https://www.donga.com/news/Economy/article/all/20261030/134937395/1",
         "source": "동아일보 | 경제 뉴스",
@@ -485,6 +469,22 @@
         "link": "https://www.mk.co.kr/news/economy/12191604",
         "source": "매일경제 : 경제",
         "published": "2026-10-30T16:00:35+09:00",
+        "score": 28
+      },
+      {
+        "title": "韓 스타트업 투자 라운드 '역대 최대' 퓨리오사AI, 8200억 잭팟 터졌다",
+        "summary": "이어 한국산업은행(300억원), 네이버, DSC인베스트먼트, KDB캐피탈, 한화자산운용, 수출입은행, 유암코 등 국내 기관과 인피니텀, 제리코캐피탈, QUDA캐피탈파트너스, 시스코인베스트먼츠, 네오포트홀딩, 월드라인캐피탈...",
+        "link": "https://www.mt.co.kr/future/2026/10/31/2026103010055013299",
+        "source": "머니투데이",
+        "published": "2026-10-31T07:00:00+09:00",
+        "score": 28
+      },
+      {
+        "title": "구글 이어 인텔 28% 폭락… AI 투자 불안 재확산 조짐",
+        "summary": "금리 부담이 높은 상황에서 AI 투자에 따른 수익 창출이 지연될 경우 기업의 재무 부담이 예상보다 빠르게 확대될 수 있다는 지적이다. 존 히긴스 캐피털이코노믹스 시장 이코노미스트는 로이터에 \"빅테크 기업들의...",
+        "link": "https://it.chosun.com/news/articleView.html?idxno=2023092173264",
+        "source": "조선일보",
+        "published": "2026-10-31T12:28:00+09:00",
         "score": 28
       }
     ],
@@ -506,11 +506,11 @@
         "score": 24
       },
       {
-        "title": "국회 재경위 野간사, 與에 \"가상자산 과세 유예 결정해야\" 압박",
-        "summary": "배준영 \"국내 투자자만 세금 떠안을 것…폐지·유예법안 논의해야\" 국회 재정경제기획위원회 야당 간사인 국민의힘 배준영 의원은 31일 더불어민주당이 내년 1월로 예정된 가상자산 과세 유예 결정을 회피하고 있다며...",
-        "link": "https://www.yna.co.kr/view/AKR20261031029900001?input=1195m",
+        "title": "中 10월 제조업 PMI 49.3…한달 만에 위축 전환",
+        "summary": "PMI는 기업 구매 담당자를 대상으로 신규 주문과 생산·고용·재고 등을 조사해 경기 동향을 보여주는... 고용 경기를 보여주는 종업원지수도 전월과 같은 수준을 유지했다. 10월 비제조업 기업활동지수도 49.7로...",
+        "link": "https://www.yna.co.kr/view/AKR20261031026100009?input=1195m",
         "source": "연합뉴스",
-        "published": "2026-10-31T13:44:00+09:00",
+        "published": "2026-10-31T11:56:00+09:00",
         "score": 24
       },
       {
@@ -522,11 +522,11 @@
         "score": 24
       },
       {
-        "title": "“스테이블코인 적극 육성하는 미국의 속내는”…AI 성장 위한 인프라 ...",
-        "summary": "그는 “돈을 푸는 방식으로는 경제가 커질 수 있어도 인플레이션으로 망해버릴 수 있다”며 “스테이블코인을 통해 블록체인 생태계에서 돈을 빠르게 돌리는 방식을 토대로 경제를 살리려 한다”고 말했다.",
-        "link": "https://www.mk.co.kr/article/12191604",
-        "source": "매일경제",
-        "published": "2026-10-30T16:01:00+09:00",
+        "title": "\"답은 현장에 있었다\"…김정관, 해외출장 없는 10월 뭐했나 봤더니",
+        "summary": "김정관 산업통상부 장관이 10월 한 달간 국내 산업현장을 집중적으로 찾아 기업 투자와 지역 성장의 걸림돌을 점검했다고 밝혔다. 충청권에서는 지방정부의 적극적인 행정으로 기업 인허가 기간을 기존 10개월에서 3개월로 단축하는 사례도 확인했다. 제조업 인공지능(AI) 전환(M.AX)과 지역별 성장 프로젝트를 현장에서 점검하고, 기업의 투자 계획이 실제 투자와 일자리 창출로 이어지도록 지원하겠다는 구상이다. 김 장관은 31일 자신의 페이스북에 '역시 답은 현장에 있었습니다'라는 제목의 글을 올려 \"10월은 장관 취임 이후 처음으로 해외출",
+        "link": "https://view.asiae.co.kr/article/2026103119485054402",
+        "source": "아시아경제 - 경제",
+        "published": "2026-10-31T19:48:50+09:00",
         "score": 24
       },
       {
@@ -554,19 +554,19 @@
         "score": 24
       },
       {
+        "title": "앤스로픽이 '이 분야'까지 진출한다고?…수혜 분야는[주末머니]",
+        "summary": "인공지능(AI) 기업 앤스로픽이 기업공개(IPO) 과정에서 바이오 및 헬스케어 분야에 진출한다고 밝힌 가운데 이에 따른 수혜 기업들도 다양할 것이라는 의견이 나왔다. 신지훈 KB증권 연구원은 최근 '앤트로픽의 생각' 보고서에서 \"앤스로픽이 단순 AI 소프트웨어 공급을 넘어 신약개발 전주기의 자동화를 추진한다\"며 \"신약개발 밸류체인(가치사슬)별 수혜 변화에 주목해야 한다\"고 말했다.최근 앤스로픽은 IPO 증권신고서에서 바이오 및 헬스케어 분야에 대한 전략을 밝혔다. 제약·바이오 연구개발 전주기에 AI를 접목하고 장기적으로 자체 신약",
+        "link": "https://view.asiae.co.kr/article/2026102916313153451",
+        "source": "아시아경제 - 증권",
+        "published": "2026-10-31T17:03:00+09:00",
+        "score": 24
+      },
+      {
         "title": "中 제조업 다시 위축…10월 PMI 49.3, 전망치도 밑돌아",
         "summary": "중국 제조업 경기가 한 달 만에 다시 위축 국면으로 돌아섰다. 생산과 신규 주문, 수출 주문이 모두 기준선인 50 아래로 내려가면서 제조업 전반의 둔화 흐름이 나타났다. 31일 중국 국가통계국에 따르면 10월 제조업 구매관리자지수(PMI)는 49.3으로 전월 50.1보다 0.8포인트 하락했다. 로이터가 집계한 시장 전망치 50.0도 밑돌았다. 세부 지표도 약세를 보였다. 생산지수는 49.8로 전월보다 1.9포인트 떨어졌고, 신규 주문지수는 49.4로 1.1포인트 하락했다. 신규 수출 주문지수도 전월 50.0에서 48.7로 내려가 수",
         "link": "https://view.asiae.co.kr/article/2026103113275903018",
         "source": "아시아경제 - 국제",
         "published": "2026-10-31T13:28:24+09:00",
-        "score": 24
-      },
-      {
-        "title": "美, 아프간인 150여명 추방 추진…미군 협력자 가족·성소수자도 포함",
-        "summary": "미국 도널드 트럼프 행정부가 아프가니스탄 출신 이민자 150여명을 추방하는 방안을 추진하고 있다. 추방 대상에는 미군 협력자의 가족과 성소수자 등 탈레반 치하에서 박해받을 우려가 있는 사람들도 포함된 것으로 전해졌다. 30일(현지시간) 뉴욕타임스(NYT)에 따르면 최근 미국 전역의 구금시설에 있던 아프간인 수십명이 루이지애나주의 이민자 구금시설로 이송됐다. 미국은 탈레반 정권과 외교관계를 맺지 않고 있어 이들을 아프가니스탄으로 직접 추방하기 어려운 상황이다. 이에 트럼프 행정부는 먼저 파키스탄으로 보낸 뒤 파키스탄 당국을 통해 아프",
-        "link": "https://view.asiae.co.kr/article/2026103110523827380",
-        "source": "아시아경제 - 국제",
-        "published": "2026-10-31T10:52:38+09:00",
         "score": 24
       }
     ]
@@ -629,39 +629,39 @@
   ],
   "summary_en": {
     "date": "2026-10-31",
-    "generated_at": "2026-10-31T05:39:15.571287+00:00",
-    "briefing_hash": "a7e5e6761aa11bb1",
+    "generated_at": "2026-10-31T13:58:09.810711+00:00",
+    "briefing_hash": "f8102521475a4149",
     "key_headlines": [
       {
         "title": "Bank of Japan Holds Rates at 1.25%, Confirms 2% Inflation Target Achievement",
-        "summary": "The Bank of Japan kept its benchmark rate unchanged at 1.25%, determining that core inflation has reached the 2% target for the first time in 13 years, with 8 out of 9 policy committee members supporting the hold."
+        "summary": "The Bank of Japan maintained its benchmark rate at 1.25%, determining that core inflation has reached the 2% target for the first time in 13 years. Eight of nine policy committee members voted in favor of the hold."
       },
       {
-        "title": "Semiconductors Lift Economy with Triple Growth in Production, Consumption, and Investment",
-        "summary": "South Korea recorded a rare 'triple increase' in production, consumption, and investment in September driven by continued semiconductor export boom and base effects from August auto industry strikes, though polarization deepened as 42 of 72 manufacturing sectors saw production declines."
+        "title": "Semiconductors Boost Economy with Triple Increase in Production, Consumption, and Investment",
+        "summary": "South Korea's production, consumption, and investment all increased simultaneously in September for the first time in three months, driven by semiconductor export boom and automobile industry rebound. However, polarization deepened as 42 of 72 manufacturing sectors experienced production declines."
       },
       {
-        "title": "Single-Home Jeonse Landlords Face Triple Tax Burden Starting Next Year",
-        "summary": "Non-resident single-home owners in Seoul will face a 'triple tax shock' beginning next year from property holdings tax, rental income tax, and surging jeonse/monthly rents, as the government's tax reform package keeps exemption thresholds unchanged despite rising property values."
+        "title": "Seoul Single-Property Owners Face Triple Tax Burden Starting Next Year",
+        "summary": "Non-resident single-property owners in Seoul will face a threefold tax surge from 2027, combining property holding taxes, rental income taxes, and increased jeonse (key money deposits), significantly impacting housing costs."
       },
       {
-        "title": "Government Launches 7 SEED Projects to Cultivate Next-Generation Growth Engines Beyond Semiconductors",
-        "summary": "The government announced it will invest 4 trillion won starting next year in seven SEED projects for investment, demonstration, and commercialization of next-generation growth industries to follow semiconductors, with 130 green transition projects proceeding normally."
+        "title": "Government Launches 7 SEED Projects with 4 Trillion Won Investment to Develop Post-Semiconductor Growth Engines",
+        "summary": "The government will begin full-scale investment and commercialization of seven SEED projects starting next year to develop next-generation growth engines following semiconductors. This includes 130 green transition projects proceeding normally."
       },
       {
-        "title": "Kospi Experiences Circuit Breaker after 11 Trading Days; Index Falls 4.6%",
-        "summary": "The Korean stock market triggered a sell-side circuit breaker after 11 trading days of gains, with the Kospi index declining 4.6% amid market volatility."
+        "title": "KOSPI Triggers Sell-Side Circuit Breaker, Declining 4.6% for First Time in 11 Trading Days",
+        "summary": "The Korean stock market experienced a significant downturn, triggering a circuit breaker mechanism for the first time in 11 trading sessions with a 4.6% decline amid growing concerns over AI market sustainability."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea's economy showed mixed signals in September with production, consumption, and investment all rising simultaneously for the first time in three months, driven primarily by semiconductor export strength and base effects from previous auto industry strikes. However, economic polarization deepened significantly as 42 out of 72 manufacturing sectors experienced production declines, indicating uneven recovery across industries. The semiconductor boom continues to be the primary engine of growth, though non-semiconductor sectors show weakness. Government data revealed September industrial activity reached its highest growth in 15 years and 6 months, yet concerns remain about sustainability given concentrated benefits in limited sectors.",
-      "Macro & Fiscal Policy": "South Korea's September employment rate rose to 70.6% among those aged 15-64, increasing 0.2 percentage points, while the unemployment rate remained at 2.0%. Capital region property prices and household loan growth continue to trend above historical averages, with elevated won-dollar exchange rates providing justification for potential rate increases on financial stability grounds. The government faces policy decisions on balancing growth support with inflation and financial stability concerns. Third quarter GDP growth came in at 1.0% quarter-over-quarter, exceeding market expectations and supported by strong industrial activity indicators. The Bank of Japan's policy shift toward defending 2% inflation signals changing monetary policy direction globally, with potential implications for Korean policy decisions.",
-      "Financial Markets": "Fund markets experienced significant losses with total net assets falling 87.8 trillion won in the third quarter, marking the first quarterly decline in over four years as the Kospi plunged nearly 20% in a single quarter. U.S. Treasury yields have risen to over 5% annually, representing the highest levels since 2002 and creating attractive investment opportunities as investors flee volatile equity markets for safe assets. Domestic bond yields have also climbed to around 4% mid-range, with increased investor interest in government bonds for stable retirement income. The Kospi triggered a sell-side circuit breaker after 11 trading days of gains, declining 4.6%, reflecting continued market volatility and semiconductor stock weakness. Leverage ETFs attracted significant retail investor inflows betting on market recovery, particularly among overseas Korean investors focusing on technology stocks.",
-      "Industry & Technology": "Industrial production surged 3% in September, the largest increase in 15 years and 6 months, driven by semiconductors and automobiles with holiday season consumption providing additional boost. SK Group restructured leadership across major subsidiaries, retaining semiconductor-focused CEOs while reorganizing energy sector management to improve strategic focus. SK Innovation appointed Jeong Seung-il as new CEO to drive energy sector renewal, while maintaining stability in semiconductor operations. Venture capital investment concentrated heavily on semiconductors, energy, and aerospace sectors, with major domestic financial institutions including Korean Industrial Bank and Naver participating in follow-up investments. LG CNS and Samsung SDS showed strong performance in AI and cloud services, with earnings growth exceeding 9%, positioning them to accelerate AI transformation and robotics initiatives.",
-      "Real Estate": "Bundang-gu apartment prices surged 22.3% year-over-year as of September, the highest increase nationwide, with residents showing increased interest in reconstructed projects and strong demand from Gyeonggi and Incheon residents purchasing Seoul properties. One-third of Seoul residential property purchases by Gyeonggi and Incheon residents targeted Gangnam areas, indicating preference for premium districts offering potential redevelopment opportunities. Redevelopment investment is expected to concentrate in Yeongdeungpo-gu including Singil-dong, Gwangjin-gu Junggok-dong, and Gwanak-gu Bongcheon and Sillim-dong. Seoul's new apartment supply concerns intensified as consecutive 90-week price increases continued, with market attention turning to year-end project launches. Property experts identified villa purchases in selective areas as realistic strategies for investment amid redevelopment opportunities.",
-      "International Economy": "The European Union and Canada launched a 'future alliance' to counter Trump's 'America First' policies while maintaining existing free trade agreements and expanding market access for businesses. Former U.S. President Trump reiterated his '5,000 dollar dividend' payment pledge, claiming tariff revenue and economic growth can finance approximately 1 trillion dollars needed for implementation. Multiple Federal Reserve officials called for at least two additional 25 basis point rate increases beyond the recent hold decision, citing persistent inflation concerns despite robust Q3 U.S. economic growth of 3.4%. Oil majors posted record quarterly profits exceeding 75 trillion won collectively due to elevated prices from Iran tensions, representing approximately triple the profits from the same period last year. Trade tensions and geopolitical uncertainties continue shaping international economic policy discussions.",
-      "AI & Economy": "Samsung SDS and LG CNS capitalized on strong AI and cloud demand in the third quarter, posting 15% operating profit increases and 9.3% revenue growth respectively, positioning themselves to accelerate AI transformation and robotics business initiatives. Hyosung Heavy Industries partnered with Germany's Siemens to develop next-generation digital power grid and AI data center solutions, targeting global market leadership in emerging technology infrastructure. Hyundai Motor Group launched its Saemangeum AI Valley project with 9 trillion won investment scale, beginning construction in March 2027 with target operations by 2030 as part of broader industry diversification. Jeonbuk Province restructured governance positions to prioritize physical AI industry development, renaming senior administrator roles to emphasize strategic focus on emerging AI sectors. Investment concerns emerged regarding AI bubble risks as credit market participants increasingly questioned sustainability of massive AI expenditures by major tech companies amid questions about near-term profitability.",
-      "Others": "The European Union initiated safeguard investigation on imported hybrid vehicles globally, with South Korean government reviewing potential domestic industry impacts from potential trade restrictions. Kioxia Holdings achieved record-breaking semiconductor profits with NAND flash net income surging 37-fold compared to last year as AI adoption drove unprecedented memory chip demand. National Assembly opposition lawmakers pressured ruling party to decide on cryptocurrency taxation deferral scheduled for January, arguing that delaying decisions or phasing out taxation was necessary to prevent domestic investor disadvantages. Big tech companies faced cash flow deterioration as massive AI infrastructure investments failed to generate proportional near-term returns, raising questions about sustainability of current AI investment strategies. U.S. policymakers promoted stablecoin development as critical infrastructure for AI economy growth, viewing blockchain-based rapid capital circulation as alternative to traditional monetary expansion vulnerable to inflation."
+      "Hot Economy News": "South Korea's economic indicators showed mixed signals in September, with production, consumption, and investment all rising simultaneously for the first time in three months, reaching the highest production growth in 15.5 years. This surge was primarily driven by robust semiconductor exports and the automobile industry's recovery from August labor strikes. However, the economic gains are unevenly distributed, with only 42 of 72 manufacturing sectors showing production increases, indicating a deepening economic polarization between semiconductor and automotive sectors and other industries.",
+      "Macro & Fiscal Policy": "South Korea's third-quarter GDP growth came in at 1.0% quarter-over-quarter, exceeding market expectations and supported by strong industrial activity. Meanwhile, the U.S. third-quarter economic growth rate reached 3.4%, surpassing forecasts but maintaining persistent inflationary pressures that may support further Federal Reserve rate increases. The Bank of Japan held its benchmark rate at 1.25%, affirming achievement of its 2% inflation target for the first time in 13 years, with market expectations now turning toward potential additional rate hikes. Upcoming economic indicators for South Korea include consumer price data and international trade statistics.",
+      "Financial Markets": "Korean fund markets experienced significant turmoil, with third-quarter fund assets declining by 87.8 trillion won (5.1%) to 1,646.7 trillion won, marking the first quarterly decline in over four years as the KOSPI fell nearly 20% in a single quarter. U.S. Treasury bonds have become increasingly attractive, with 10-year yields reaching the 5% range, the highest level since 2002, drawing investment flows amid domestic stock market volatility. The domestic stock market triggered a sell-side circuit breaker for the first time in 11 trading days with a 4.6% decline, while high-yield bond investment strategies and covered call ETFs gained traction among retail investors seeking stable returns in volatile markets.",
+      "Industry & Technology": "South Korea's industrial production surged 3% in September with semiconductors and automobiles as primary growth drivers, marking the strongest performance in 15 years and 6 months. The government confirmed it will undertake investment and commercialization of the 7 SEED projects starting next year to develop post-semiconductor growth engines, with particular focus on semiconductors, energy, aerospace, and advanced technologies. SK Group reorganized executive leadership, retaining the CEO of SK Hynix while restructuring energy division management to strengthen semiconductor stability and energy business innovation.",
+      "Real Estate": "Real estate markets show sustained upward momentum with Seoul apartment prices rising for 90 consecutive weeks, spurring investor interest in new supply projects coming to market before year-end amid supply shortage concerns. Bundang residents are increasingly shifting purchases to Gangnam, with approximately one-third of Seoul property buyers from Gyeonggi and Incheon coming from Bundang, as property values in Bundang rose 22.3% over the past year. Reconstruction and redevelopment projects attract investor attention, with areas like Yeongdeungpo-gu, Gwangjin-gu, and Gwanak-gu identified as primary redevelopment zones, though financing methods are evolving due to strengthened mortgage lending restrictions on properties exceeding 2.5 billion won.",
+      "International Economy": "The United States faces persistent inflation concerns despite strong economic growth, with Federal Reserve officials calling for at least two more rate increases of 25 basis points each to combat price pressures. Global fiscal crises are intensifying with sovereign debt levels approaching or exceeding GDP, creating constraints on AI infrastructure investment and broader economic growth prospects. U.S. President Trump proposed direct dividend payments of 5,000 dollars per capita funded through tariff revenues, requiring Congressional approval, while tariff negotiations with Canada remain uncertain variables affecting midterm election outcomes.",
+      "AI & Economy": "AI investment concerns triggered a severe market downturn with Intel stock plummeting 29% and semiconductor stocks experiencing record declines, driven by worries that AI-powered systems may disrupt traditional search market dominance and profitability. Hyundai Motor Group launched the Saemangeum AI Valley Project valued at 9 trillion won, with construction scheduled for March 2027 and operations target set for 2030, marking major investment in AI data center infrastructure. Market skepticism toward AI valuations has spread to credit markets, with concerns about sustainability of massive AI infrastructure investments overshadowing technology sector performance and creating significant volatility affecting leveraged product holders.",
+      "Others": "The EU initiated safeguard investigations on imported hybrid vehicles from worldwide sources, prompting the government to assess domestic impact. Japanese semiconductor company Kioxia achieved record quarterly profits with net income multiplying 37-fold due to surging NAND flash demand driven by AI adoption. China's October manufacturing PMI contracted to 49.3, dropping below the 50-point expansion threshold for the first time in a month, signaling economic weakness. Industry Minister Kim Jeong-gwan conducted intensive domestic field inspections in October without overseas travel, identifying administrative improvements that reduced business licensing approval timeframes from 10 months to 3 months in some regions."
     }
   }
 }
