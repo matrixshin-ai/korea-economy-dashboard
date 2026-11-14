@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-14T14:33:35.535482+09:00",
+  "generated_at": "2026-11-14T14:36:59.065118+09:00",
   "date": "2026-11-14",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 711,
-    "total_used": 686,
-    "dropped_quality": 8,
-    "dropped_negative": 17,
+    "total_input": 679,
+    "total_used": 656,
+    "dropped_quality": 7,
+    "dropped_negative": 16,
     "per_category": {
-      "기타": 392,
-      "거시경제·재정": 55,
-      "산업·과학": 46,
+      "부동산": 51,
+      "기타": 370,
+      "거시경제·재정": 47,
+      "산업·과학": 44,
       "AI와 경제": 12,
-      "금융시장": 80,
-      "부동산": 50,
-      "국제경제": 51
+      "금융시장": 79,
+      "국제경제": 53
     }
   },
   "headlines": [
@@ -178,6 +178,14 @@
         "score": 82
       },
       {
+        "title": "비트코인, 석달만에 7만달러 붕괴…\"매수자가 사라졌다\"",
+        "summary": "높은 국제유가와 지속적인 인플레이션은 미국 연방준비제도(Fed·연준)가 추가 금리 인상에 나설 것이라는... 기준금리를 인상할 것이라는 전망에 힘을 실었다. 식품과 에너지를 제외한 근원 소비자물가지수는 전월...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02558406645645720&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-11-14T10:35:00+09:00",
+        "score": 76
+      },
+      {
         "title": "베선트는 유가, 굴스비는 서비스…美 물가 진단 '충돌'",
         "summary": "최근 고용과 물가 지표가 시장 예상을 웃돌면서 연준 내에서는 12월 8~9일 연방공개시장위원회(FOMC)에서 기준금리를 통상적인 0.25%포인트보다 큰 0.5%포인트 올릴 가능성도 거론됐다. 굴스비는 이번 인터뷰에서 12월 인상...",
         "link": "https://www.edaily.co.kr/News/Read?newsId=01269366645645720&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
@@ -194,14 +202,6 @@
         "score": 70
       },
       {
-        "title": "9년4개월 만에 '성장세'로 올렸지만…체감 경기는 아직",
-        "summary": "3분기 국내총생산, GDP도 1.0% 성장해, 올해 1~3분기 누적 성장률이 3.6%에 달합니다. 상반기에도 판단을 올릴 수 있었지만, 2월 말 중동전쟁이 터지면서 보수적으로 평가해 왔다는 게 정부 설명입니다. [앵커] 다만, 체감...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000346220?division=NAVER",
-        "source": "SBS",
-        "published": "2026-11-13T11:48:00+09:00",
-        "score": 70
-      },
-      {
         "title": "“세수 남으면 빚 갚든지…기금 왜 만드나” 前 경제수장의 쓴소리",
         "summary": "유일호 전 경제부총리가 보는 ‘미래대응기금’ 10년 전인 2016년 6월 8일, 정부서울청사 브리핑룸에 선 유일호 당시 부총리 겸 기획재정부 장관의 목소리는 비장했다. 조선·해운업 위기로 조선 ‘빅3’가 수조원대...",
         "link": "https://www.joongang.co.kr/article/25478568",
@@ -211,7 +211,7 @@
       },
       {
         "title": "한국 수출 '1조달러' 눈앞…중국 수입시장 6개월째 1위",
-        "summary": "반도체 수출 호조에 힘입어 중국과 미국 등 주요 시장에서 입지를 넓히면서 사상 첫 연간 수출 1조달러... 수출 증가를 이끈 것은 반도체다. 올해 1~9월 한국의 반도체 수출액은 3403억달러로, 이 가운데 대중...",
+        "summary": "한국이 중국 수입시장에서 6개월 연속 1위를 차지했다. 반도체 수출 호조에 힘입어 중국과 미국 등 주요... 14일 한국무역협회 해외무역통계에 따르면 한국은 올해 4월 중국 수입시장에서 대만을 제치고 1위에 오른...",
         "link": "https://magazine.hankyung.com/business/article/202611146319b",
         "source": "한국경제",
         "published": "2026-11-14T09:46:00+09:00",
@@ -220,12 +220,12 @@
     ],
     "금융시장": [
       {
-        "title": "[사설] 李 “자본시장 정상화”… 인위적 주가 올리기 돼선 안 된다",
-        "summary": "하지만 주가 지수는 기업 실적과 성장성, 경기·금리·환율 등 거시경제 여건, 지정학적 위험 등을 종합적으로 반영한 결과다. 올 들어 대다수 종목의 주가가 하락한 것도 ‘반도체 외끌이’ 성장 탓에 증시 자금이 일부...",
-        "link": "https://www.sedaily.com/article/20114239?ref=naver",
-        "source": "서울경제",
-        "published": "2026-11-14T00:03:00+09:00",
-        "score": 92
+        "title": "[주末머니]\"美 국채금리 내년 초 고점…2028년 인하 대비 장기채 늘려라\"",
+        "summary": "미국 국채 금리가 올 연말부터 내년 1분기 초 사이에 고점을 찍은 후 하향 안정될 것이라는 전망이 나왔다. 이후 3분기 일시 반등했다가 연말까지 다시 안정화되는 경로다. 투자자들로선 연말 금리 하향 안정과 2028년 인하 사이클 진입에 맞춰 장기채 비중을 다시 확대하는 전략이 유효하다는 진단이 나온다. 14일 하나증권에 따르면 내년 미국 10년 만기 국채금리의 연간 예상 레인지는 4.30~5.20%로 추산됐다. 미국 연방준비제도(Fed)의 기준금리 인상으로 국채금리가 고점을 확인한 뒤 2분기까지 하향 안정되고, 3분기 일시 반등 후",
+        "link": "https://view.asiae.co.kr/article/2026111210454967683",
+        "source": "아시아경제 - 증권",
+        "published": "2026-11-14T11:47:00+09:00",
+        "score": 90
       },
       {
         "title": "채권금리에 흔들리는 증권사 실적…NH투자 운용수익으로 방어",
@@ -286,23 +286,15 @@
         "score": 66
       },
       {
-        "title": "폭스바겐 ID.5, 성수동에 떴다…패션 접목한 전기차 전시",
-        "summary": "폭스바겐코리아는 13일부터 15일까지 서울 성수동 ‘스페이스 S50’에서 열리는 전기차 체험 행사 ‘전지전능’에 참가한다고 밝혔다. 기후에너지환경부가 주관하는 이번 행사는 전기차에 대한 소비자들의 이해를...",
-        "link": "https://biz.heraldcorp.com/article/10936768?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-11-13T20:40:00+09:00",
-        "score": 52
+        "title": "AI영상으로 되살아난 박정희…구미서 탄신 109돌 문화행사",
+        "summary": "이 지사는 기념사에서 \"박정희 대통령은 모두가 불가능하다고 말할 때 과감한 결단으로 길을 열어 불가능을 성공의 역사로 바꾼 선구자\"라며 \"반도체는 물론 철강·자동차·조선 산업이 오늘의 경쟁력을 갖출 수 있었던...",
+        "link": "https://www.yna.co.kr/view/AKR20261114030900053?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-11-14T13:30:00+09:00",
+        "score": 64
       }
     ],
     "부동산": [
-      {
-        "title": "강남발 집값 하락, 한강벨트로 확산…성동·강동 30여주 만에 하락 전환",
-        "summary": "지난해부터 강남권과 함께 서울 아파트값 상승을 주도하던 강동구와 성동구 등 한강벨트 인접 자치구에서 30여주 만에 매매가격 하락 전환이 나타났다. 강남발 집값 하락세가 확산하면서 한강벨트 일부 지역이 가격 조정 국면에 진입할 수 있다는 전망이 나온다. 다만 전세난 영향으로 '생존매수'가 쏠리고 있는 서울 외곽지역까지 하락세가 확산하기는 어렵다는 분석이다. 한국부동산원이 12일 발표한 11월 둘째 주(9일 기준) 서울 아파트 매매가격지수는 전주 대비 0.07% 상승했다. 지난해 2월 첫째 주 이후 92주 연속 오름세를 이어가며 역대",
-        "link": "https://view.asiae.co.kr/article/2026111213565308867",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-11-12T14:00:00+09:00",
-        "score": 106
-      },
       {
         "title": "집값 뛰고 대출규제 강화…3분기 가계빚 얼마나 불었나[한은 미리보기]",
         "summary": "한국부동산원에 따르면 서울 아파트 매매가격은 7월 1.27%, 8월 1.05%, 9월 0.74% 각각 올랐다. 상승 폭은 둔화했지만 석 달 연속 오름세를 유지했다. 반면 정부의 대출규제 강화로 주택 거래와 대출 수요가...",
@@ -326,6 +318,14 @@
         "source": "매일경제 : 부동산",
         "published": "2026-11-13T09:47:51+09:00",
         "score": 96
+      },
+      {
+        "title": "11월 셋째주 전국 10곳 1681가구 청약…서울·경기권에 80% 공급",
+        "summary": "11월 셋째 주 분양시장에서는 전국 10곳에서 1600여가구가 청약 접수를 진행한다. 전체 청약 물량의 약 80%가 서울·경기권에 공급될 예정이다. 13일 부동산 전문 리서치업체 리얼투데이에 따르면 다음 주부터 서울 중랑구 '중화역 라온프라이빗 센트로'를 비롯해 전국 10곳에서 총 1681가구가 청약 접수를 받는다. 도시형생활주택과 공공분양, 민간참여 공공분양을 포함한 규모로, 전주(5215가구)에 비해서는 공급 규모가 줄었다.서울에서는 중랑구 '중화역 라온프라이빗 센트로'가 오는 17일 1순위 청약을 진행한다. 해당 단지는 지하",
+        "link": "https://view.asiae.co.kr/article/2026111321073793517",
+        "source": "아시아경제 - 부동산",
+        "published": "2026-11-14T07:00:00+09:00",
+        "score": 92
       }
     ],
     "국제경제": [
@@ -362,11 +362,11 @@
         "score": 78
       },
       {
-        "title": "연준, 내년 금리 결정 8→7회 공식화...10월엔 통화전략만 논의",
-        "summary": "연방공개시장위원회(FOMC) 정례회의는 똑같이 8차례 열되 10월에는 금리를 결정하지 않고 통화정책 전략만 논의하기로 했다. 연준은 12일(현지 시간) 내년 FOMC 회의의 수정 일정을 공개하고 이같이 밝혔다. 연준에...",
-        "link": "https://www.sedaily.com/article/20113789?ref=naver",
-        "source": "서울경제",
-        "published": "2026-11-13T07:34:00+09:00",
+        "title": "굴스비 \"연준, 인플레에 분명 할 일 있어...팬데믹 공급 충격에 AI 수요...",
+        "summary": "시장에서는 다음 달 8~9일 연방공개시장위원회(FOMC) 회의에서 금리 인상이 거의 확실한 것으로 보고 있다. 시카고상업거래소(CME) 그룹 페드워치에 따르면 0.25%p 금리 인상 가능성은 89.4%에 이른다. 0.5%p 인상 가능성도...",
+        "link": "https://www.fnnews.com/news/202611140243507346",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-14T03:07:00+09:00",
         "score": 70
       }
     ],
@@ -396,6 +396,14 @@
         "score": 34
       },
       {
+        "title": "美 수출규제에도 中 AI사업에 엔비디아칩…규모만 4조6000억원 이상 [비...",
+        "summary": "미국의 반도체 수출 규제에도 엔비디아 칩에 의존하는 중국 내 인공지능(AI) 프로젝트 규모가 4조6000억원을... 미국의 수출 통제를 받는 엔비디아 칩에 의존하는 프로젝트와 장비 계약 규모가 230억위안(약 4조6000억원)...",
+        "link": "https://biz.heraldcorp.com/article/10936950?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-11-14T11:09:00+09:00",
+        "score": 34
+      },
+      {
         "title": "\"앨리스황 관련 기업들, '엔비디아 칩' 걸고 딥시크에 비밀 투자\"",
         "summary": "젠슨 황 전 엔비디아 최고경영자(CEO)와 부적절한 관계를 맺었다는 앨리스 황의 관련 기업들이 엔비디아 첨단 인공지능(AI) 칩 공급을 약속하며 중국 AI 기업 딥시크에 비밀리에 지분 투자를 했다고 미국 IT 전문매체 디인포메이션이 익명의 소식통들을 인용해 현지 시각 12일 보도했습니다.보도에 따르면 딥시크는 올해 7∼10월 진행된 2차 투자 유치 라운드에서 앨리스 황과 그 가족이 연관된 중국 클라우드 컴퓨팅업체 센추리 리통과 그 모회사 장쑤 레탈 일렉트로닉스를 여러 투자자에게 소개했습니다.딥시크 직원들은 당시 이 리통 그룹이 엔비디아 AI 칩을 암시장을 통해 대량으로 공급하는 업체로, 치열한 경쟁 속에서도 딥시크에 투..",
         "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5230679",
@@ -418,14 +426,6 @@
         "source": "아시아경제 - 증권",
         "published": "2026-11-13T09:48:44+09:00",
         "score": 32
-      },
-      {
-        "title": "AI 기술경쟁 넘어 적용경쟁으로…일본 '넥스테크 위크'서 길 찾는 韓 핀테크",
-        "summary": "인공지능(AI)이 기업의 일을 대신하고, 블록체인이 국경을 넘는 금융거래의 기반이 되는 시대. 일본 도쿄 인근 지바현 마쿠하리 멧세에서 열린 IT 전시회 '넥스테크 위크(NexTech Week) 2026'은 첨단기술이 산업 현장을 어떻게 바꾸고 있는지 보여주는 자리였다.오늘(12일) 찾은 드넓은 전시장에서는 AI와 블록체인, 양자컴퓨팅 등을 앞세운 기업들의 기술 시연과 비즈니스 상담이 곳곳에서 이어졌다. 기술을 소개하는 데 그치지 않고 실제 기업의 업무와 금융서비스에 어떻게 적용할 수 있는지를 보여주는 데 초점이 맞춰졌다.내일(13일)까지 사흘간 열리는 이번 행사는 AI, 블록체인, 양자컴퓨팅, 피지컬 AI, 휴머노이드..",
-        "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5230483",
-        "source": "MBN : 경제기사",
-        "published": "2026-11-12T16:00:00+09:00",
-        "score": 32
       }
     ],
     "기타": [
@@ -446,19 +446,19 @@
         "score": 24
       },
       {
+        "title": "[주末머니]시들시들 방산…성장 동력은 여전하다는데",
+        "summary": "방산 업종 주가가 약세로 접어들었지만, 구조적인 성장 동력은 여전하다는 업계 진단이 나왔다. 국방 예산이 단기적으로는 불확실하더라도 중장기적으로 군사비가 확장되는 흐름은 변하지 않는다는 것이다. 이런 상황에서 국내 방산 업종의 반등을 위해서는 '수주 잔고 우위'가 필요하다고 봤다. 채운샘 한화투자증권 연구원은 \"미국은 의회 권력구조 변화, 프랑스는 재정건전성 악화로 내년 국방예산 증액 규모가 축소될 가능성이 있지만, 중장기 군비지출 확대에 대한 전망에는 변함이 없다\"며 \"미국과 중국의 군비 지출 확대, 미국 동맹국의 자주국방 강화,",
+        "link": "https://view.asiae.co.kr/article/2026111210441493412",
+        "source": "아시아경제 - 증권",
+        "published": "2026-11-14T11:26:00+09:00",
+        "score": 24
+      },
+      {
         "title": "\"침묵 지켜라\"…美 국방장관 꾸짖은 병사 훈장 받았다",
         "summary": "피트 헤그세스 미국 국방부(전쟁부) 장관이 알링턴 국립묘지에서 자신과 일행의 소란스러운 행동을 제지한 병사에게 훈장을 수여했다. AP통신과 CNN 등은 헤그세스 장관이 12일(현지시간) 국방부 청사에서 육군 제3보병연대 소속 토머스 이글레시아스 상병에게 합동근무공로훈장을 전달했다고 보도했다. 이글레시아스는 전날 알링턴 국립묘지 '무명용사의 묘' 앞에서 헤그세스 장관과 수행원들에게 정숙을 요구했던 인물이다. 해당 사건은 미국 재향군인의 날을 맞아 도널드 트럼프 대통령과 JD 밴스 부통령 등이 참석한 추모 행사가 끝난 뒤 발생했다. 당",
         "link": "https://view.asiae.co.kr/article/2026111409465705231",
         "source": "아시아경제 - 국제",
         "published": "2026-11-14T10:01:12+09:00",
-        "score": 24
-      },
-      {
-        "title": "젠슨 황 떠난 엔비디아…AI 투자·금융지원 사업 '시험대'",
-        "summary": "'인공지능(AI) 시대의 아이콘'으로 부상했던 젠슨 황 엔비디아 창업자가 불륜 스캔들로 CEO직에서 물러나면서 엔비디아의 경영 전반에 암운이 드리우고 있다. 특히 황 전 CEO가 직접 주도해온 대규모 AI 투자·금융지원 사업에 불확실성이 커졌다. 엔비디아가 AI 기업과 반도체 고객사에 자금을 투자하고 금융 보증까지 제공한 사업들로, 황 전 CEO의 부재에 따른 여파가 AI 업계 전반에 직접적인 영향을 줄 수 있을 것으로 예상된다.   ◆황 전 CEO 사임…차기 CEO 후보군은= 12일(현지시간) 엔비디아 이사회는 성명을 통해 황 전",
-        "link": "https://view.asiae.co.kr/article/2026111309185817626",
-        "source": "아시아경제 - 국제",
-        "published": "2026-11-13T11:20:00+09:00",
         "score": 24
       },
       {
@@ -470,19 +470,27 @@
         "score": 24
       },
       {
-        "title": "[스타트UP] 광군컴퍼니, 지역 특산물 활용한 K디저트로 해외시장 공략…...",
-        "summary": "중심 수출 확대…일본·중국 시장 공략도 광군컴퍼니가 지역 특산물을 활용한 차별화된 디저트로 국내... 현재 미국을 중심으로 제품을 수출하고 있고, 내수와 수출 비중은 약 9대 1이다. 추후 한국과 가까운 일본과...",
-        "link": "https://biz.chosun.com/industry/business-venture/2026/11/11/LGH52QGVKZGFVMOEANIHDNGYAQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "title": "\"젠슨황 불륜은 투자 찬스\"…서학개미, 엔비디아 1천억 사들였다",
+        "summary": "서학개미가 가장 많이 사들인 종목은 미국 반도체 지수를 3배로 추종하는 'SOXL' 5억8천313만달러(약 7천791억원)였다. 나스닥 100지수 3배 레버리지인 'TQQQ'(2억4천763만달러)와 2배로 따르는 'OLD'(1억6천706만달러)...",
+        "link": "https://news.tvchosun.com/site/data/html_dir/2026/11/14/2026111490021.html",
         "source": "조선일보",
-        "published": "2026-11-14T09:07:00+09:00",
+        "published": "2026-11-14T11:56:00+09:00",
         "score": 24
       },
       {
-        "title": "'젠슨황 스캔들' 엔비디아 급락…서학개미, 한주간 1천억 폭풍매수",
-        "summary": "서학개미가 가장 많이 사들인 종목은 미국 반도체 지수를 3배로 추종하는 'SOXL' 5억8천313만달러(약 7천791억원)였습니다. 나스닥 100지수 3배 레버리지인 'TQQQ'(2억4천763만달러)와 2배로 따르는 'OLD...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000346392?division=NAVER",
+        "title": "서학개미, 엔비디아 급락에 한주간 1천억 원 매수",
+        "summary": "서학개미가 가장 많이 사들인 종목은 미국 반도체 지수를 3배로 추종하는 'SOXL' 5억8,313만 달러(약 7,791억 원)였습니다. 나스닥 100지수 3배 레버리지인 'TQQQ'(2억4,763만 달러)와 2배로 따르는 'OLD'(1억6,706만 달러)...",
+        "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005962192",
+        "source": "MBN",
+        "published": "2026-11-14T13:48:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "中전문가 \"美 칩규제 강화시 中 희토류 맞불\"…젠슨황 여파 주목",
+        "summary": "경제분석 플랫폼 '샤프 보이스'의 왕잉량 편집장도 황 전 CEO의 불륜 문제를 안보 문제로 전환함으로써... 트럼프 대통령과 시진핑 중국 국가주석은 18∼19일 중국 광둥성 선전에서 열리는 아시아태평양경제협력체(APEC)...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000346415?division=NAVER",
         "source": "SBS",
-        "published": "2026-11-14T10:20:00+09:00",
+        "published": "2026-11-14T14:02:00+09:00",
         "score": 24
       },
       {
@@ -494,19 +502,11 @@
         "score": 24
       },
       {
-        "title": "티로보틱스, KAIST 제조피지컬AI연구소와 MOU…사업화 협력 강화",
-        "summary": "로봇 전문 제조기업 티로보틱스가 한국과학기술원(KAIST) 제조피지컬AI연구소와 피지컬 인공지능(AI) 산업 발전 및 사업화를 위한 업무협약(MOU)을 체결했다고 13일 밝혔다. 이번 협약은 피지컬 AI 분야의 표준화 협력 체계를 구축하고, 기술 실증을 바탕으로 사업화와 글로벌 시장 진출을 추진하기 위해 마련됐다. 양 기관은 피지컬 AI 기술의 산업 현장 적용을 확대하고 국내 관련 산업 생태계 활성화를 위해 협력할 계획이다. 티로보틱스는 앞서 KAIST가 주도하는 피지컬 AI 기반 제조 실증 플랫폼인 카이로스(KAIROS) 프로젝",
-        "link": "https://view.asiae.co.kr/article/2026111310582401421",
-        "source": "아시아경제 - 증권",
-        "published": "2026-11-13T10:58:24+09:00",
-        "score": 22
-      },
-      {
-        "title": "젠슨 황 사임에 韓 AI 공급망 긴급 점검…GPU 26만장 확보 차질 없나",
-        "summary": "젠슨 황 엔비디아 최고경영자(CEO)의 전격 사임으로 글로벌 인공지능(AI) 반도체 시장의 불확실성이 커지자 정부가 국내 그래픽처리장치(GPU) 공급망 긴급 점검에 나섰다. 지난해 엔비디아와 발표한 26만장 이상의 GPU 도입과 국내 기업들의 AI 협력사업이 차질 없이 추진되도록 대응체계를 강화하기로 했다. 국가인공지능전략위원회는 13일 엔비디아 최고경영진 교체에 따른 국내 AI 산업과 공급망 영향을 점검하기 위한 긴급회의를 개최했다고 밝혔다. 이번 회의는 엔비디아가 12일(현지시간) 젠슨 황 CEO의 사임과 콜레트 크레스 최고재무",
-        "link": "https://view.asiae.co.kr/article/2026111317190291254",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-11-13T17:19:03+09:00",
+        "title": "“엔비디아 없이 못 돌아가”…中 AI 사업 4.6조 달렸다",
+        "summary": "로이터, 中 자료 150여건 분석 대학·지방정부도 엔비디아 의존 규제 강화 땐 칩 공급 차질 우려 미국의 반도체 수출 통제에도 엔비디아 칩에 의존하는 중국 내 인공지능(AI) 프로젝트와 장비 계약 규모가 4조6000억원을...",
+        "link": "https://www.mk.co.kr/article/12208851",
+        "source": "매일경제",
+        "published": "2026-11-14T13:17:00+09:00",
         "score": 22
       }
     ]
@@ -566,5 +566,42 @@
       "match_status": "OK",
       "importance_score": 4
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-11-14",
+    "generated_at": "2026-11-14T05:38:22.528630+00:00",
+    "briefing_hash": "2403bea42d952506",
+    "key_headlines": [
+      {
+        "title": "Government Allocates 84 Trillion Won for Semiconductor Megaproject Infrastructure Over 10 Years",
+        "summary": "The Korean government estimates that 84 trillion won will be needed over the next 10 years to expand power and water infrastructure for megaprojects, with 58 trillion won coming from the national budget. This funding plan was presented at a mega-growth special committee meeting in the National Assembly."
+      },
+      {
+        "title": "Japanese Deposit-Free Monthly Rent Guarantee Service Launches in South Korea",
+        "summary": "Japanese rental guarantee company J.Reliance is set to enter the Korean market with a deposit-free monthly rental service that evaluates tenant creditworthiness instead of requiring large upfront deposits. This signals a shift in Korea's rental market from traditional jeonse (long-term deposits) to monthly rentals."
+      },
+      {
+        "title": "President Lee Calls for Stock Market Normalization Reform at Korea Exchange",
+        "summary": "President Lee Jae-myung visited the Korea Exchange to emphasize capital market normalization as a key policy direction, stating 'if the goal is deep, the mountain will be high,' signaling commitment to market reform initiatives."
+      },
+      {
+        "title": "Government Launches 'Monthly Salary Defense Force' to Support Household Finances",
+        "summary": "The government has launched a comprehensive inter-agency task force focused on alleviating living costs and increasing disposable income for workers across five areas: living expenses, childcare and elderly care, asset formation, job creation, and healthcare management."
+      },
+      {
+        "title": "Seoul Housing Market Shows Signs of Stabilization with Declining Price Growth and Rising Inventory",
+        "summary": "The government announced that Seoul apartment price increases are decelerating (0.74% in September) and market listings are growing, indicating downward stabilization trends in the real estate market. An additional 44,000 housing units are planned for the Seoul metropolitan area by Q1 2027."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "The Korean economy is showing mixed signals with positive macroeconomic indicators but persistent challenges in household sentiment. The government has launched a 'Monthly Salary Defense Force' initiative to support worker living costs through increased rental allowances, childcare support, and asset-building programs. Additionally, President Lee visited the Korea Exchange to emphasize stock market normalization as a priority policy, while semiconductor megaproject infrastructure investment of 84 trillion won over 10 years was announced. The housing market is stabilizing with slowing price increases in Seoul and rising inventory levels, though regional disparities persist with reduced demand outside Seoul.",
+      "Macro & Fiscal Policy": "South Korea's economy has been upgraded from 'recovery mode' to 'steady growth' based on Q3-Q4 GDP growth of 1.0% quarter-over-quarter, supported by strong exports and investment performance. October employment figures showed improvement with 139,000 new jobs created year-over-year, and the unemployment rate declined to 2.0%. However, youth employment (ages 15-29) continues to decline for the 48th consecutive month, indicating structural challenges in the labor market. Import prices fell 1.8% in October following weakening won and declining international oil prices, though consumer price inflation remains at 2.8%, suggesting incomplete transmission of commodity price reductions to retail prices.",
+      "Financial Markets": "The stock market experienced volatility with KOSPI closing down 0.98% to 5,290.53 as semiconductor stocks faced downward pressure despite initial strength from foreign investor buying. U.S. Treasury yield expectations suggest rates will peak in early 2027 before declining, with the 10-year yield projected in the 4.30-5.20% range for next year. Securities firms face operational challenges from rising bond yields and evaluation losses on held securities, though those with strong asset management operations like NH Investment are showing defensive strength. Nvidia's leadership transition following CEO Jensen Huang's resignation has raised concerns about potential shifts in AI industry collaboration and investment patterns.",
+      "Industry & Technology": "SFC, a semiconductor and advanced materials company, announced medium to long-term growth strategies ahead of its KOSPI listing, focusing on OLED blue materials and expanding into PSF, biotech, and semiconductor materials businesses. The Korean automotive industry is addressing electric vehicle market challenges through industry discussions and insights sharing, with focus on achieving mass adoption of EVs. South Korea's secondary battery industry is pursuing a comeback leveraging AI data center demand growth, with the Pohang Battery Expo highlighting new opportunities. The semiconductor and tech sectors remain central to South Korea's industrial strategy, though facing increasing competition from global players.",
+      "Real Estate": "Seoul's apartment market is showing clear signs of stabilization with monthly price increases slowing from 1.27% in July to 0.74% in September, while housing inventory is rising as the government implements stabilization measures. However, demand remains heavily concentrated in Seoul, with 70% of apartment subscriptions in Gyeonggi Province failing to meet target quotas in recent offerings. The subscription market shows stark regional disparities, with Seoul and Gyeonggi accounting for 80% of national housing supply while provincial areas struggle with demand shortfalls. Future supply plans include 44,000 units for the Seoul metropolitan area through Q1 2027, as the government monitors the impact of extended jeonse conversion policies.",
+      "International Economy": "The Federal Reserve announced its 2027 FOMC meeting schedule with only 7 interest rate decisions (down from the typical 8), with October reserved for policy strategy discussions only. The U.S. is expected to reach peak interest rates by early 2027, followed by potential rate cuts in 2028, prompting investors to adjust long-duration bond strategies. Despite U.S. export restrictions on advanced semiconductors, Chinese AI projects remain heavily dependent on Nvidia chips with over 4.6 trillion won in contracted projects and equipment deals. Global financial institutions like Citigroup are intensifying engagement with South Korea's capital markets as the government pursues productive finance transformation and supports corporate innovation.",
+      "AI & Economy": "Nvidia CEO Jensen Huang's resignation has raised questions about the company's future leadership and its ability to maintain its kingmaker role in the AI industry ecosystem, particularly regarding customer investments and open-source model support. Naver is pivoting away from its traditional advertising-focused business model to pursue growth in B2B, cloud services, and AI-powered personal agents as profit margins face pressure from market competition. Chinese AI companies are receiving substantial investment from entities allegedly connected to former Nvidia leadership, with undisclosed equity stakes backed by promises of advanced chip supply through grey markets. The transition in AI leadership and geopolitical tensions surrounding chip access are reshaping investment flows and development ecosystems across the global AI industry.",
+      "Others": "Japan's lower gasoline prices despite global oil availability are partly explained by weak yen dynamics: while commodity prices remain stable, depreciation reduces yen-denominated import costs, a benefit partially offset by fiscal pressures and declining tax revenues that weaken confidence in the currency. South Korea is accelerating legislation on the Digital Assets Basic Law to expand institutional and corporate investor participation in cryptocurrency markets, marking a significant shift in regulatory approach. The Future Response Fund faced mounting budget increase requests totaling over 25 trillion won from National Assembly standing committees despite fiscal sustainability concerns, reflecting political pressure to expand individual initiatives. U.S. Defense Secretary Lloyd Austin awarded a medal to an Army soldier who sternly reprimanded Austin and other officials for disruptive behavior at Arlington National Cemetery, highlighting military discipline priorities."
+    }
+  }
 }
