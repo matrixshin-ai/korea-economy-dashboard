@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-18T14:33:53.464794+09:00",
+  "generated_at": "2026-11-18T14:39:28.563768+09:00",
   "date": "2026-11-18",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 663,
-    "total_used": 642,
+    "total_input": 688,
+    "total_used": 660,
     "dropped_quality": 6,
-    "dropped_negative": 15,
+    "dropped_negative": 22,
     "per_category": {
-      "금융시장": 78,
-      "기타": 349,
-      "국제경제": 42,
-      "거시경제·재정": 63,
-      "산업·과학": 47,
-      "AI와 경제": 9,
+      "기타": 356,
+      "국제경제": 49,
+      "거시경제·재정": 71,
+      "산업·과학": 44,
+      "AI와 경제": 11,
+      "금융시장": 75,
       "부동산": 54
     }
   },
@@ -152,14 +152,6 @@
   "sections": {
     "거시경제·재정": [
       {
-        "title": "[사설]IMF 성장률 상향에 들뜨지 말고 '재정긴축 주문' 곱씹어야",
-        "summary": "소비자물가 상승률은 올해 2.7%, 내년 2.3%로 모두 한국은행 목표치 2%를 웃돌 것으로 내다봤다. 한국은행은 지난 7월과 8월 기준금리를 각각 0.25%포인트씩 인상해 연 3.0%로 끌어올리며 긴축 기조에 들어섰다. 11월과 내년...",
-        "link": "https://view.asiae.co.kr/article/2026111809522541376",
-        "source": "아시아경제",
-        "published": "2026-11-18T11:00:00+09:00",
-        "score": 156
-      },
-      {
         "title": "IMF, 韓성장률 3.9%로 상향 …\"통화·재정긴축 필요\"",
         "summary": "국제통화기금(IMF)이 인공지능(AI) 호황과 반도체 수출이 한국 경제를 이끌고 있다며 올해와 내년 성장률 전망치를 대폭 높였다. 다만 반도체 호황으로 경기가 달아오르며 물가가 목..",
         "link": "https://www.mk.co.kr/news/economy/12211478",
@@ -176,6 +168,22 @@
         "score": 118
       },
       {
+        "title": "韓 성장률 3.9% 전망에도…제조업 체감경기 '온도 차'",
+        "summary": "18일 한국은행 경제통계시스템(ECOS)에 따르면 10월 경남의 제조업 업황 기업경기실사지수(BSI)는 83으로 2013년 이후 최고치를 기록했다. 울산도 83으로 같았지만 전남은 39에 그쳤다. 1년 전과 비교하면 경남은 62에서...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=03283286645647032&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-11-18T14:18:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "미국 고용 견조하나, 물가가 문제[오대정의 경제지표 읽기]",
+        "summary": "실업수당 청구건수는 고용지표 중 선행성이 가장 높은 지표로 실업률에 앞서 움직이며 향후 경기 방향을... 일반적으로 고용지표는 경기에 후행하나, 실질임금 상승률은 신규실업수당 청구건수와 더불어 높은 경기...",
+        "link": "https://magazine.hankyung.com/business/article/202611110207b",
+        "source": "한국경제",
+        "published": "2026-11-18T14:03:00+09:00",
+        "score": 98
+      },
+      {
         "title": "연준 의장, “AI 투자 실패 시 경기침체·주가 급락” 경고",
         "summary": "AI가 일자리를 대체해 실업률이 높아질 수 있다는 겁니다. 워시 의장은 AI가 계속해서 미국 경제에 중대한 영향을 미칠 것이라면서, 모든 가능성에 대비해야 한다고 강조했습니다. 연준이 앞으로 금리 결정에서 AI의...",
         "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715129&ref=A",
@@ -184,20 +192,20 @@
         "score": 96
       },
       {
-        "title": "KDI, 내년 韓 경제 성장률 2.2%→3.9% 상향… “3분의 2가 반도체 효과”",
-        "summary": "올해 성장률도 3.2%→3.8% 전망 반도체 산업 GDP 비중 7.5%에서 20%로 급증 “호황 수혜 일부에 집중돼 체감경기... 글로벌 인공지능(AI) 인프라 투자 확대로 반도체 수출과 생산이 예상보다 크게 늘어난 영향인데, KDI는...",
-        "link": "https://biz.chosun.com/policy/policy_sub/2026/11/18/7NOFVFEL4ZAIPE26JKTAKV5LQU/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-11-18T12:01:00+09:00",
-        "score": 94
+        "title": "AI 호황이 부른 물가 압력…뉴욕 연은 총재 \"내년 미국 기준금리 추가 ...",
+        "summary": "윌리엄스 총재는 현재 미국 경제가 탄탄한 성장세를 유지하는 배경에는 AI 관련 설비투자의 급증이 자리하고... 윌리엄스 총재는 현 경제 상황이 그처럼 과감하고 급격한 조치를 요구하는 국면은 아니라고 판단한다는...",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=304062",
+        "source": "이데일리",
+        "published": "2026-11-18T14:36:00+09:00",
+        "score": 90
       },
       {
-        "title": "“반도체 호황에 이례적 성장”...IMF, 韓 성장률 3.9% 상향 [Pick코노미...",
-        "summary": "코린 들레샤 IMF 한국 미션단장은 17일 정부청사에서 열린 ‘2026년 한국 연례협의 결과’ 브리핑에서 “한국의 실질 국내총생산(GDP) 성장률은 첨단기술 산업 수출 급증, 투자 반등, 견조한 소비에 힘입어 지난해 1.1%에서...",
-        "link": "https://www.sedaily.com/article/20115699?ref=naver",
-        "source": "서울경제",
-        "published": "2026-11-18T08:13:00+09:00",
-        "score": 82
+        "title": "KDI, 올해 3.8%·내년 3.9%로 성장률 대폭 상향…\"반도체 호황에 내수까...",
+        "summary": "물가 흐름과 관련해서는 국제 유가와 원·달러 환율 하락으로 공급 측 물가 압력이 완화되면서 소비자물가 상승률이 올해 2.7%에서 내년 2.4%로 낮아질 것으로 관측했다. 다만 높은 경제성장세에 따른 수요 측 압력이...",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=304057",
+        "source": "이데일리",
+        "published": "2026-11-18T14:32:00+09:00",
+        "score": 86
       },
       {
         "title": "물가 오르나 AI가 둔화, 굳어지는 ‘베이비스텝’ [트럼프 스톡커]",
@@ -205,14 +213,6 @@
         "link": "https://www.sedaily.com/article/20115835?ref=naver",
         "source": "서울경제",
         "published": "2026-11-18T10:50:00+09:00",
-        "score": 80
-      },
-      {
-        "title": "KDI \"올해 성장률 3.8%, 내년엔 3.9%\"...반도체 호황 따른 '수출·설비투...",
-        "summary": "KDI는 하반기 경제전망 보고서에서 우리 경제가 반도체 호황에 따른 수출과 설비투자 호조가 지속되며 올해... KDI는 수출은 반도체와 AI 인프라 투자 관련 품목의 수요가 높은 수준을 이어가면서 올해 10.3%에 이어...",
-        "link": "https://www.ytn.co.kr/_ln/0102_202611181200255462",
-        "source": "YTN",
-        "published": "2026-11-18T12:00:00+09:00",
         "score": 80
       },
       {
@@ -232,30 +232,30 @@
         "score": 78
       },
       {
-        "title": "KDI, 올해 성장률 3.8%·내년 3.9%로 상향…“성장 3분의 2는 반도체”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/18/135045563.1.jpg\" vspace=\"10\" />한국개발연구원(KDI)이 반도체 호황을 반영해 올해 우리나라 경제성장률 전망치를 3.8%, 내년은 3.9%로 대폭 상향 조정했다. 지난 8월 전망보다 각각 0.6%포인트(p), 1.7%p 높인 수치다.글로벌 인공지능(AI) 인프라 투자에 힘입어 수출과 설비투자가 높은 증가세를 이어가고, 내년에는 민간소비와 건설투자도 올해보다 개선될 것으로 내다봤다. 반도체의 경제 내 비중이 커지면서 내년 성장률의 3분의 2는 반도체와 관련 파급효과에서 나올 것으로 분석했다.KDI는 18일 발표한 ‘2026년 하반기 경제전망’에서 이같이 밝혔다. 다만 반도체 호황의 수혜가 일부 산업과 계층에 집중돼 높은 성장률과 체감경기 사이의 격차는 이어질 것으로 예상했다.반도체 호황에 수출·투자 견조…내년 성장...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261118/135045562/1",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-18T12:11:00+09:00",
-        "score": 74
-      },
-      {
         "title": "KDI, “올해보다 내년이 더 좋다” 올해 성장률 3.8%로 올리고 내년은 3.9%로 전망",
         "summary": "지난 9월6일 경기도 평택항에 컨테이너가 쌓여있는 모습. 연합뉴스한국개발연구원(KDI)이 반도체 호황이 내년에도 이어질 것으로 보고 2027년 한국 경제성장률 전망치를 3.9%로 대폭 높였다. 올해 전망치(3.8%)를 웃도는 수준이다. 투자와 소비, 고용도 내년에 개선될 것으로 내다봤다.KDI는 18일 발표한 ‘2026년 하반기 경제전망’에서 내년 성장률 ···",
         "link": "https://www.khan.co.kr/article/202611181200021/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-11-18T12:00:02+09:00",
         "score": 74
+      },
+      {
+        "title": "[그래픽] 주요 기관별 한국 경제성장률 전망",
+        "summary": "국책연구기관인 한국개발연구원(KDI)은 18일 발표한 '2026년 하반기 경제전망'에서 2027년 실질 GDP 성장률 전망치를 지난 8월 발표한 2.2%에서 3.9%로 상향 조정했다. minfo@yna.co.kr X(트위터)...",
+        "link": "https://www.yna.co.kr/view/GYH20261118000700044?input=1363m",
+        "source": "연합뉴스",
+        "published": "2026-11-18T14:13:00+09:00",
+        "score": 70
       }
     ],
     "금융시장": [
       {
-        "title": "환율, 장중 1320원대 하락…외국인 주식 순매수에 원화 강세",
-        "summary": "다만 미국의 추가 금리 인상 가능성은 환율 하락 폭을 제한할 수 있다. 국내 증시의 외국인 매수세와 수출업체의 달러 공급이 이어질지가 향후 환율 흐름에 영향을 줄 것으로 보인다.",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02689606645647032&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "title": "코스피 상장사 역대급 실적에도 주가는 '따로국밥'…전문가들 \"저가 매...",
+        "summary": "기준금리 인하 등 통화정책 완화의 현실화 여부와 AI 산업 수익성에 대한 의구심 해소가 주가 복원의 시점과 강도를 결정지을 것이라고 덧붙였다. 반면 고금리 환경이 장기간 지속될 경우 기업의 설비투자 위축을...",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=304053",
         "source": "이데일리",
-        "published": "2026-11-18T11:00:00+09:00",
-        "score": 106
+        "published": "2026-11-18T14:28:00+09:00",
+        "score": 110
       },
       {
         "title": "[MUST KNOW5]S&P500 8700간다...증시 강세 전망에 엔비디아 호실적까지",
@@ -275,19 +275,19 @@
       },
       {
         "title": "올해 코스피 영업익 증가분 83%가 삼전닉스 몫…코스닥은 3분기 순손실",
-        "summary": "부동산 업종은 적자로 돌아섰다. 별도로 집계한 유가증권시장 금융사의 1~9월 연결 영업이익은 54조 6615억 원으로 전년 동기보다 19.46%늘었다. 순이익은 42조 4621억 원으로 15.59% 증가했다. 금융업 가운데...",
+        "summary": "코스피 상장사들이 9개월간 본업에서 벌어들인 이익은 1년 새 463조 원 늘었는데, 이 가운데 384조... 코스피 상장사 전체 영업이익 증가액(463조 1170억 원)의 82.9%를 두 회사가 차지한 셈이다. 전체...",
         "link": "https://www.sedaily.com/article/20115865?ref=naver",
         "source": "서울경제",
         "published": "2026-11-18T12:01:00+09:00",
         "score": 90
       },
       {
-        "title": "美 증시 부진에 ‘캐시카우 ETF’ 뜬다",
-        "summary": "금리 상승에 따른 자금조달 부담까지 겹치면서 미국 하이퍼스케일러 기업들의 FCF 전망치는 지속적으로... 금리 상승에 따른 자금조달 부담도 현금창출력이 높은 기업의 투자 매력을 높이고 있다. 차입금으로...",
-        "link": "https://biz.heraldcorp.com/article/10941073?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-11-18T11:17:00+09:00",
-        "score": 90
+        "title": "예상 못한 ‘블루 쓰나미’에 파랗게 질린 증시 … 빅데이터로 본 미래 주가는?",
+        "summary": "많은 투자자들이 연중 내내 불안한 시선으로 지켜봤던 미국의 중간선거가 이달 초 종료됐다. 이미 선거 전부터 공화당의 패배가 예상되기는 하였으나, 실제 선거 결과는 예상보다 더욱 일..",
+        "link": "https://www.mk.co.kr/news/stock/12211329",
+        "source": "매일경제 : 증권",
+        "published": "2026-11-18T05:00:00+09:00",
+        "score": 80
       }
     ],
     "산업·과학": [
@@ -300,28 +300,28 @@
         "score": 92
       },
       {
-        "title": "韓·EU 산업계 “배터리·철강 녹색규제 부담 줄이자”",
-        "summary": "한국과 유럽연합(EU) 산업계가 배터리와 철강 등 주요 제조업의 녹색전환 과정에서 발생하는 규제 부담을... 이번 정책제언의 핵심은 배터리와 철강 등 제조업의 규제 부담 완화다. 양측은 EU 배터리 규정과 에코디자인...",
-        "link": "https://biz.heraldcorp.com/article/10941033?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-11-18T11:05:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "韓·EU 산업계 “배터리·철강 녹색규제 부담 줄이자” 공동 제언",
-        "summary": "한국과 유럽연합(EU) 산업계가 배터리와 철강 등 주요 제조업의 녹색전환 과정에서 발생하는 규제 부담을... 이번 정책제언의 핵심은 배터리와 철강 등 제조업의 규제 부담 완화다. 양측은 EU 배터리 규정과 에코디자인...",
-        "link": "https://biz.heraldcorp.com/article/10940634?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-11-18T11:01:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "로봇 아틀라스, 반도체 공장서 현장 테스트 한다",
-        "summary": "현대차그룹 제공 현대차그룹의 로봇 전문 계열사 보스턴다이내믹스의 아틀라스가 처음으로 반도체 공장에 적용된다. 현대차그룹의 로봇 전문 계열사 보스턴다이나믹스가 글로벌 반도체 제조기업 글로벌파운드리와의...",
-        "link": "https://m.skyedaily.com/news_view.html?ID=314799",
+        "title": "산업용 AI 훈풍 탄 브이원텍, 3분기 영업익 7억 흑자 전환…반도체·이차...",
+        "summary": "브이원텍은 지난달 글로벌 배터리 제조사의 북미 현지 생산라인에 투입될 누설 검사 양산장비 2대를 새롭게 수주했으며, 향후 해당 고객사의 후속 라인과 여타 글로벌 생산거점으로도 장비 공급망을 넓혀갈 구상이다....",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=304032",
         "source": "이데일리",
-        "published": "2026-11-18T12:12:00+09:00",
-        "score": 80
+        "published": "2026-11-18T13:54:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "삼성SDI, 북미 ‘RE+ 2026’서 AI데이터센터용 배터리 ‘3각 라인업’ 공개",
+        "summary": "ESS·UPS·BBU 전시존 꾸려 북미 공략 나서턴키 공급·25년 보증 앞세워 차별화 강조삼성SDI가 17일 미국 라스베이거스에서 개막한 ‘RE+ 2026’ 전시장에서 AI 데이터센터에 특화된 에너지 솔루션을 공개하고 있다. 삼성SDI 제공삼성SDI가 북미 시장에서 인공지능(AI) 데이터센터용 배터리 공략에 나섰다. 에너지저장장치(ESS)부터 무정전전원장치···",
+        "link": "https://www.khan.co.kr/article/202611181421001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-11-18T14:21:00+09:00",
+        "score": 62
+      },
+      {
+        "title": "삼성SDI, 북미 ‘RE+ 2026’서 AI데이터센터용 배터리 ‘3각 라인업’ 공...",
+        "summary": "삼성SDI가 북미 시장에서 인공지능(AI) 데이터센터용 배터리 공략에 나섰다. 에너지저장장치(ESS)부터 무정전전원장치(UPS), 배터리백업유닛(BBU)까지 데이터센터 전력을 받치는 배터리 제품군을 한꺼번에 내놨다....",
+        "link": "https://www.khan.co.kr/article/202611181421001",
+        "source": "경향신문",
+        "published": "2026-11-18T14:21:00+09:00",
+        "score": 62
       }
     ],
     "부동산": [
@@ -402,19 +402,19 @@
     ],
     "AI와 경제": [
       {
-        "title": "보험사 AI 경쟁 새 변수는 '토큰 비용'?",
-        "summary": "보험사가 인공지능(AI) 활용을 확대하면서 연산 비용 관리가 새로운 과제로 떠오르고 있다. 복잡한 보험약관과 청구서류를 처리하기 위해  입력하는 정보가 많아질수록 토큰 사용량이 늘어나는 데다 AI 에이전트가 검색과 분석을 반복하면 단시간에 토큰이 대량 소모될 수 있어서다. 시험 운영 단계에서는 감당할 만했던 비용이 실제 대규모 업무에 적용되는 과정에서 수익성 부담으로 이어질 가능성이 제기된다.18일 보험업계에 따르면 글로벌 컨설팅사 딜로이트는 최근 발표한 2027년 보험산업 전망에서 보험사의 AI 에이전트 활용 확대로 토큰 사용량과",
-        "link": "https://view.asiae.co.kr/article/2026111716053109224",
-        "source": "아시아경제 - 경제",
-        "published": "2026-11-18T06:50:00+09:00",
-        "score": 56
-      },
-      {
         "title": "생산성 도약부터 대량 실업까지…워시 \"AI 경제 영향, 3개 시나리오\"",
         "summary": "생산성이 높아져도 자동화에 따른 노동시장 충격으로 실업률이 상승할 수 있다는 진단이다. 세 번째... 둔화와 실업률의 두드러진 상승으로 이어질 수 있다\"고 말했다. 이어 \"시간이 지나면 경제는 회복하겠지만 생산성...",
         "link": "https://www.mt.co.kr/world/2026/11/18/2026111706581748877",
         "source": "머니투데이",
         "published": "2026-11-17T07:57:00+09:00",
+        "score": 42
+      },
+      {
+        "title": "김상욱 울산시장 \"내년 예산 5조9907억 투입…민생·산업 AX 집중\"",
+        "summary": "자율주행차·전기차·수소차 등 미래 모빌리티와 차세대 이차전지 투자 기반을 지원하고 AI 데이터센터 중심의 산업 생태계 및 연관 기업 유치에도 나선다. 민생·복지 분야에서는 위기가구 발굴과 어르신·장애인 대상...",
+        "link": "https://www.fnnews.com/news/202611181104583207",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-18T13:12:00+09:00",
         "score": 42
       },
       {
@@ -424,14 +424,6 @@
         "source": "경향신문:경제",
         "published": "2026-11-18T07:00:00+09:00",
         "score": 42
-      },
-      {
-        "title": "첨단산업 속도전 vs 노동자 건강권…초광역특구 노동특례 놓고 격론",
-        "summary": "반도체·인공지능(AI) 등 첨단산업의 글로벌 경쟁이 격화하면서 연구개발(R&D) 인력의 근로시간을 탄력적으로... 김동희 한국경영자총협회 근로기준정책팀장은 토론문에서 반도체·AI 등 첨단산업은 기술개발 속도와 시장...",
-        "link": "https://biz.heraldcorp.com/article/10941197?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-11-18T12:15:00+09:00",
-        "score": 40
       },
       {
         "title": "내년 세계 경제 3.2% 성장전망",
@@ -456,31 +448,47 @@
         "source": "매일경제 : 국제",
         "published": "2026-11-18T10:00:00+09:00",
         "score": 32
+      },
+      {
+        "title": "[클릭 e종목]\"라온시큐어, 3분기 영업익 60% 깜짝 상회…AI 시대 이끌 보안 솔루션 강자\"",
+        "summary": "유진투자증권은 18일 라온시큐어에 대해 올해 3분기 시장 컨센서스를 크게 뛰어넘는 호실적을 달성했다고 평가했다. 단기적인 실적 개선을 넘어 인공지능(AI)과 양자보안 등 차세대 보안 시장을 선도할 준비를 마쳤다는 분석이다. 라온시큐어의 올해 3분기 연결 기준 매출액은 130억원, 영업이익은 10억원을 기록해 전년 동기 대비 각각 18.6%, 39.9% 감소했다. 외형은 줄어든 모습이나 수익성 측면에서는 시장의 예상을 뛰어넘는 '어닝 서프라이즈'를 시현했다. 당초 시장이 추정한 컨센서스는 매출액 157억원, 영업이익 6억원이었다.",
+        "link": "https://view.asiae.co.kr/article/2026111809175361574",
+        "source": "아시아경제 - 증권",
+        "published": "2026-11-18T09:17:53+09:00",
+        "score": 30
       }
     ],
     "기타": [
       {
-        "title": "강릉 AI데이터센터 유치 행정사무조사 가결…도의회 여야 충돌",
-        "summary": "(춘천=연합뉴스) 이재현 기자 = 최대 70조원 규모의 투자 계획이 발표된 강릉 AI 데이터센터 유치 사업에 대한 행정사무조사 안건이 18일 강...",
-        "link": "https://www.yna.co.kr/view/AKR20261118086700062",
-        "source": "연합뉴스 경제 최신기사",
-        "published": "2026-11-18T11:24:42+09:00",
+        "title": "우상호 지사 \"기업 투자, 청년 일자리로\"…내년 도정 방향 제시",
+        "summary": "우 지사는 지방세 등 자체 수입이 줄어드는 상황에서도 지방채를 발행하지 않고 미래 성장동력 확보와 민생경제 활성화, 삶의 질 향상에 재원을 집중하겠다고 밝혔다. 강원도가 제출한 2027년도 예산안은 9조753억원이다....",
+        "link": "https://www.yna.co.kr/view/AKR20261118112600062?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-11-18T14:06:00+09:00",
         "score": 24
       },
       {
-        "title": "삼성운용 'KODEX 미국머니마켓액티브' 순자산 1조원 돌파",
-        "summary": "(서울=연합뉴스) 강수지 기자 = 삼성자산운용은 국내 첫 미국머니마켓 상장지수펀드(ETF)인 &apos;KODEX 미국머니마켓액티브&apos;의 순자산이 1조47...",
-        "link": "https://www.yna.co.kr/view/AKR20261118049300008",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-11-18T09:33:18+09:00",
+        "title": "기아, 협력사와 안전 선언…중대재해 예방 다짐",
+        "summary": "기아는 18일 오토랜드 화성에서 고용노동부 경기지방고용노동청, 협력사들과 안전 공동 선언식을 개최했다고 밝혔다. '내 일터 안전하게, 내일 더 행복하게'를 주제로 열린 이번 행사는 협력사들과 자율적인 안전관리...",
+        "link": "https://www.yna.co.kr/view/AKR20261118115400003?input=1195m",
+        "source": "연합뉴스",
+        "published": "2026-11-18T14:28:00+09:00",
         "score": 24
       },
       {
-        "title": "\"워싱턴에 방사능 살포 음모\"",
-        "summary": "이란이 미국 수도 워싱턴DC에서 방사성물질을 퍼뜨리는 '더티밤'이나 화학무기로 도널드 트럼프 행정부 고위 인사들에 대한 공격 계획을 수립했다는 정보를 미국 정보당국이 확보했다. 당..",
-        "link": "https://www.mk.co.kr/news/world/12211407",
-        "source": "매일경제 : 국제",
-        "published": "2026-11-17T17:29:47+09:00",
+        "title": "인생 중반에 시작하는 긴박한 돈 공부 外[이주의책]",
+        "summary": "부동산에서 생산적 금융 분야와 자본시장으로 자금을 돌리려는 중앙은행과 정부의 정책적 의지로 경제는 계속해서 ‘금융화’가 될 것이고, 개인이 이에 보조를 맞추는 방법은 금융투자 외에 없다. 인공지능(AI) 대전환...",
+        "link": "https://magazine.hankyung.com/business/article/202611094276b",
+        "source": "한국경제",
+        "published": "2026-11-18T14:03:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "\"아빠 집은 나중에 내 거 아냐?\"…10억 가진 3040 부모들 생각은 달랐다",
+        "summary": "금융자산 10억원 이상을 보유한 30·40대 자산가들이 자녀에게 물려주고 싶은 재산으로 부동산보다 주식과 펀드 등 금융투자상품을 선호하는 것으로 나타났다. 자녀가 성인이 될 때까지 기다리기보다 어린 시절부터 재산을 증여하고 금융교육을 병행하려는 경향도 두드러졌다.17일 한화생명이 발표한 '저니 오브 웰스(Journey of Wealth) 2026 자산 이전 편' 보고서에 따르면 자산 이전 계획이 필요하다고 답한 708명 가운데 자녀와 후계자에게 물려주고 싶은 재산으로 금융투자상품을 꼽은 비율이 38.4%로 가장 높았다. 부동산(20",
+        "link": "https://view.asiae.co.kr/article/2026111814345433243",
+        "source": "아시아경제 - 경제",
+        "published": "2026-11-18T14:37:40+09:00",
         "score": 24
       },
       {
@@ -500,19 +508,19 @@
         "score": 24
       },
       {
-        "title": "쿡 Fed 이사 \"불공정 청문회 불참\"…해임 압박에 반발",
-        "summary": "도널드 트럼프 미국 대통령의 해임 압박을 받는 리사 쿡 연방준비제도(Fed) 이사가 백악관이 주도하는 청문회에 불참할 뜻을 밝혔다. 쿡 이사 측은 트럼프 행정부가 이미 해임 결론을 정해놓고 형식적인 절차를 진행하고 있다고 반발하면서 Fed의 독립성을 둘러싼 갈등이 다시 격화하고 있다.  17일(현지시간) 월스트리트저널(WSJ) 등에 따르면 쿡 이사의 변호인 애비 로웰은 전날 윌 샤프 백악관 법률고문에게 서한을 보내 오는 12월 14일 예정된 청문회의 공정성에 문제를 제기했다.  로웰 변호사는 서한에서 \"쿡 이사는 불공정한 청문회에",
-        "link": "https://view.asiae.co.kr/article/2026111804273101597",
-        "source": "아시아경제 - 국제",
-        "published": "2026-11-18T04:27:32+09:00",
+        "title": "\"보조금 없어서 못 받는다더니\"…3년간 1조7000억원 남은 정부 지원금의 정체[Why&Next]",
+        "summary": "친환경차 보급을 장려하기 위해 투입된 정부의 구매보조금 예산 중에 상당 금액이 제때 쓰이지 못하고 있다. 최근 3년간 전체 예산 중에 4분의 1에 달하는 1조7000억원이 써보지도 못하고 국고에 도로 귀속된 것으로 나타났다. 최근 몇 년 새 전기차 수요가 늘어나며 소비자들이 보조금 확보에 어려움을 겪고 있는 것과는 정반대 현상이다. 정부의 안이한 수요 예측과 지자체의 재정난이 겹치면서 보조금 지원사업의 실효성이 크게 떨어지고 있다는 지적이다. 18일 국회예산정책처에 따르면 2023년부터 지난해까지 3년간 무공해차(전기·수소차) 보급",
+        "link": "https://view.asiae.co.kr/article/2026111715173186015",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-11-18T11:06:21+09:00",
         "score": 24
       },
       {
-        "title": "신라젠 항암바이러스 'SJ-650', 국가신약개발사업 과제 선정",
-        "summary": "신라젠의 차세대 항암바이러스 후보물질 'SJ-650'이 정부 신약개발 지원 과제로 선정됐다. 신라젠은 이번 지원을 바탕으로 제조공정을 개발해 비임상 단계 진입을 추진한다.   18일 신라젠은 SJ-650이 국가신약개발사업단이 주관하는 국가신약개발사업 지원과제에 선정됐다고 밝혔다. 국가신약개발사업은 국내 제약·바이오산업의 글로벌 경쟁력을 높이기 위한 범부처 연구개발(R&amp;D) 사업으로, 2021년부터 10년간 신약 개발의 전 주기를 지원한다. SJ-650은 정맥투여를 통한 전신 치료를 목표로 개발 중인 후보물질이다. 항암바이러스",
-        "link": "https://view.asiae.co.kr/article/2026111810242846257",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-11-18T10:24:29+09:00",
+        "title": "미·중·러 3자 회담서 '北비핵화' 대신 '핵군축' 논의하나",
+        "summary": "트럼프 대통령이 다자외교 무대를 활용해 김 위원장을 아시아태평양경제협력체(APEC) 정상회의에 초청하는 파격적인 구상 역시 난항이 예상된다. 중국과 러시아 모두 트럼프 주도의 이벤트성 북·미 대화 판이 깔리는 것에...",
+        "link": "https://www.fnnews.com/news/202611181430217838",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-18T14:34:00+09:00",
         "score": 24
       },
       {
@@ -524,19 +532,11 @@
         "score": 24
       },
       {
-        "title": "근로복지공단, 인공지능 윤리 준수기관 확인 표지 획득",
-        "summary": "한 줄로 적는 '나의 AI 윤리 한 줄 약속' 캠페인도 진행했다. 박승흡 근로복지공단 이사장은 \"모든 임직원이 AI 윤리 원칙을 실천해 국민이 신뢰할 수 있는 산재·고용보험과 노동복지 서비스를 제공하겠다\"고 말했다.",
-        "link": "https://www.yna.co.kr/view/AKR20261118052700530?input=1195m",
+        "title": "폴리텍 전주에 피지컬 AI 교육시설…스마트팜·물류 구현",
+        "summary": "올해 청주·성남·창원에 추가 개소…내년 240억원 투입해 8곳 추가 고용노동부와 한국폴리텍대학은 18일 전주 캠퍼스 신기술교육원에서 '피지컬 인공지능(AI) 테스트 베드' 개소식을 열었다고 밝혔다. 폴리텍대학은...",
+        "link": "https://www.yna.co.kr/view/AKR20261118066200530?input=1195m",
         "source": "연합뉴스",
-        "published": "2026-11-18T12:00:00+09:00",
-        "score": 22
-      },
-      {
-        "title": "[2026 여성포럼]\"AI 대전환의 길목…질문하는 리더만이 내일을 설계\"",
-        "summary": "2026 여성리더스포럼이 올해 30명의 '파워K우먼'을 선정했다. 거창한 구호보다 묵묵한 실천으로 각자의 현장에서 의미 있는 변화를 이끌어낸 리더들이다. 아시아경제가 2022년부터 이어온 파워K우먼은 작년까지 누적 147명, 올해 30인을 더해 총 177명이 됐다. 파워K우먼의 선정 기준은 명확하다. 혁신·창의·개척·포용·헌신·일가정양립이라는 지표를 바탕으로, 화려한 직함이나 대중적 유명함보다 현장에서 일궈낸 실질적 변화와 사회적 울림을 우선했다. 기술과 경쟁하기보다 함께 성장하는 '공진화', 낡은 관성을 깨는 시스템의 '재설계',",
-        "link": "https://view.asiae.co.kr/article/2026111711253956651",
-        "source": "아시아경제 - 경제",
-        "published": "2026-11-18T11:10:00+09:00",
+        "published": "2026-11-18T14:00:00+09:00",
         "score": 22
       }
     ]
@@ -596,5 +596,42 @@
       "match_status": "OK",
       "importance_score": 6
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-11-18",
+    "generated_at": "2026-11-18T05:41:00.286661+00:00",
+    "briefing_hash": "051b237a714921d1",
+    "key_headlines": [
+      {
+        "title": "KDI Raises 2027 Growth Forecast to 3.9% - Two-thirds Driven by Semiconductors",
+        "summary": "The Korea Development Institute significantly raised next year's economic growth forecast from 2.2% to 3.9%, with semiconductor and electronics manufacturing expected to comprise over 20% of GDP. Current year growth revised upward to 3.8% from 3.2%, driven primarily by semiconductor sector strength."
+      },
+      {
+        "title": "South Korea Becomes Fourth $1 Trillion Export Nation This Week",
+        "summary": "South Korea is on track to join the exclusive $1 trillion annual export club as the fourth nation globally. However, the domestic automotive ecosystem faces severe pressure from Chinese electric vehicle competition, with supplier profit margins collapsing to single digits."
+      },
+      {
+        "title": "IMF and Federal Reserve Warn of AI Investment Bubble Risk",
+        "summary": "Both the IMF and U.S. Federal Reserve cautioned that excessive AI investment could destabilize financial markets if profitability concerns materialize. Global economic growth heavily relies on AI investment momentum, creating vulnerability to sudden sentiment shifts."
+      },
+      {
+        "title": "Korea-EU Industries Call for Green Regulation Relief",
+        "summary": "Korean and European business groups urged governments to ease green regulations on batteries and steel, requesting mutual recognition of recycled materials standards and phased regulatory implementation. Both industries seek relief from burdensome environmental compliance costs."
+      },
+      {
+        "title": "Exports Surge But Domestic Consumption and Employment Lag, Creating Economic Disparities",
+        "summary": "Exports grew significantly while retail sales declined 0.5% and employment fell 0.1 percentage point, highlighting widening gaps between export performance and domestic economic vitality. Regional economic disparities intensified with certain regions experiencing manufacturing booms while others contract."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "South Korea is poised to reach $1 trillion in annual exports this week, becoming only the fourth nation globally to achieve this milestone. However, beneath this achievement, serious structural challenges persist as the automotive sector faces unprecedented pressure from Chinese electric vehicle manufacturers, with supplier profit margins plummeting to 1% ranges. While semiconductor and electronics manufacturing drive overall growth, domestic consumption remains weak and employment growth stalls. The disconnect between strong export figures and sluggish internal economic activity raises concerns about the sustainability and inclusiveness of current growth patterns. Regional economic disparities are also becoming more pronounced, with certain areas benefiting from manufacturing booms while others experience contraction.",
+      "Macro & Fiscal Policy": "The Korea Development Institute and IMF have substantially upgraded South Korea's economic growth forecasts, with KDI raising 2027 growth to 3.9% and noting that two-thirds of growth comes from the semiconductor sector. Both institutions recommend monetary tightening and fiscal restraint despite improved growth outlooks, citing rising inflation pressures from semiconductor-driven economic overheating. Current year growth is now projected at 3.8% versus earlier estimates of 3.2%, with potential per capita GNI exceeding $40,000. Construction investment is forecast to rebound by 2.5% next year, contributing to overall growth. However, potential growth rates remain constrained at approximately 2% annually, suggesting structural economic challenges underlying headline growth figures.",
+      "Financial Markets": "KOSPI-listed companies reported record operating profits of 253 trillion won in Q3, up 10.55% quarter-over-quarter, yet stock prices remain depressed as investors question semiconductor sustainability and AI profitability. KOSDAQ declined 17.35% in Q3 earnings, with only 58.74% of companies achieving net profitability compared to 81.89% in Q2. Samsung Electronics and SK Hynix account for 82.9% of KOSPI's earnings growth, creating heavy concentration risk in the market. U.S. markets showed strength with S&P 500 approaching 8,700 levels, supported by moderating bond yields and inflation. Net profit declined 30.41% across KOSPI companies despite operating profit growth, signaling margin compression and rising financial costs.",
+      "Industry & Technology": "Boston Dynamics' humanoid robots, including the Atlas model, are expanding beyond automotive manufacturing into semiconductor production, with GlobalFoundries planning field tests in early 2027. V1 Technologies, an industrial AI company, achieved Q3 profitability with 700 million won in operating profit, securing new orders for battery production line inspection equipment in North America. Samsung SDI unveiled a comprehensive battery lineup for AI data centers in North America, including energy storage systems, uninterruptible power supplies, and battery backup units. The company is pursuing turnkey solutions with 25-year warranties to differentiate in the competitive North American market. Industrial AI and advanced robotics are increasingly penetrating manufacturing sectors beyond traditional automotive applications.",
+      "Real Estate": "Housing transactions below 900 million won surged to nearly 50% of Seoul apartment sales in 2026, up from 40% in 2025, driven by affordability concerns and policy loan incentives as jeonse prices escalated. A small apartment complex in Jungrang-gu attracted over 65 times the applicant-to-unit ratio for 45-square-meter units, reflecting strong demand from first-time homebuyers seeking affordable options. The gap-closing phenomenon that began in Gangnam is now spreading to peripheral areas and Gyeonggi Province, with Gimpo recording 25 transactions in two months. Seoul's core business district in Jongno-gu is seeing new supply through urban redevelopment, with projects like Gyeongheegung Epiquet offering mixed-use development combining residential and commercial spaces. Rising interest rates and jeonse market stress are driving survival purchases among younger demographics seeking owner-occupied housing.",
+      "International Economy": "The IMF and U.S. Federal Reserve both warned that global economic growth increasingly relies on a single pillar—AI investment—creating dangerous vulnerability if investor confidence wavers. The Fed estimates AI-related risk exposure approaching $1 trillion, with potential for severe financial market disruption if investment returns disappoint. South Korea's semiconductor exports remain crucial to global AI infrastructure, but concerns about overinvestment and profit realization persist across major economies. A U.S. court invalidated Trump administration restrictions on international student visa duration, potentially impacting technology talent flows. Central banks globally face the challenge of managing AI-driven inflation pressures while supporting sustainable growth.",
+      "AI & Economy": "Federal Reserve Chair Kevin Wash outlined three economic scenarios for AI impact: productivity gains without labor disruption, mixed outcomes with job displacement, and adverse scenarios where expected productivity gains fail to materialize alongside significant unemployment increases. World economic growth for 2027 is projected at 3.2%, supported primarily by AI investment, but constrained by profit verification concerns, elevated interest rates, and fiscal burdens in major economies. Reports of Nvidia CEO Jensen Huang's resignation amid scandal raised AI sector uncertainty, though the company intends to maintain or expand capital spending despite concerns. Nvidia's alleged diversion of AI chips to China through intermediaries has intensified U.S.-China AI competition and prompted calls for stricter export controls. The economic impact of AI remains highly uncertain, with both transformative opportunities and significant downside risks.",
+      "Others": "Ulsan's Mayor Kim Sang-wook committed next year's budget of 5.99 trillion won toward autonomous vehicles, electric vehicles, hydrogen vehicles, and next-generation battery investments alongside AI data center infrastructure. Kia Motors held safety declaration ceremonies with suppliers and government labor officials, emphasizing occupational accident prevention and autonomous safety management. Wealthy Korean households with over 1 billion won in assets prefer passing financial investment products to children over real estate, reflecting changing wealth transfer preferences among 30-40 year-olds. Seoul High Court held second oral arguments in a 223.5 billion won lawsuit between Anchor Equity Partners and Line Yahoo Group, disputing shareholder contract interpretations. Financial education for younger generations is increasingly prioritized alongside early asset gifting strategies among high-net-worth families."
+    }
+  }
 }
