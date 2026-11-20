@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-20T01:53:14.969516+09:00",
+  "generated_at": "2026-11-20T11:53:40.748407+09:00",
   "date": "2026-11-20",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 726,
-    "total_used": 697,
-    "dropped_quality": 21,
-    "dropped_negative": 8,
+    "total_input": 624,
+    "total_used": 607,
+    "dropped_quality": 10,
+    "dropped_negative": 7,
     "per_category": {
-      "기타": 337,
-      "산업·과학": 62,
-      "거시경제·재정": 71,
-      "부동산": 64,
       "금융시장": 68,
-      "AI와 경제": 14,
-      "국제경제": 81
+      "기타": 291,
+      "거시경제·재정": 81,
+      "산업·과학": 41,
+      "부동산": 54,
+      "AI와 경제": 11,
+      "국제경제": 61
     }
   },
   "headlines": [
@@ -152,12 +152,76 @@
   "sections": {
     "거시경제·재정": [
       {
+        "title": "10월 생산자물가 0.1% 하락…“농림수산품 제외시 0.2%↑”",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/20/135059304.1.jpg\" vspace=\"10\" />농림수산품 가격이 떨어지며 10월 생산자물가가 0.1% 하락했다.20일 한국은행이 발표한 ‘10월 생산자물가지수(잠정)’에 따르면 지난달 생산자물가지수는 129.66(2020=100)으로 전월(129.76)보다 0.1% 하락했다.생산자물가는 생산자가 시장에 공급하는 상품과 서비스의 가격으로 통상 1~3개월 정도 시차를 두고 소비자물가에 반영된다. 품목의 성격에 따라 발생하는 시차에 차이가 있다.농림수산품은 농산물(-11.8%)과 축산물(-7.3%)이 내리며 전월 대비 8.3% 하락했다.공산품은 화학 제품(1.5%)과 석탄 및 석유 제품(1.9%)이 오르며 0.3% 상승했다. 전기·가스·수도 및 폐기물도 유가 상승 영향으로 산업용 도시가스(3.3%)가 상승하며 0.2% 올랐다.서비스...",
+        "link": "https://www.donga.com/news/Economy/article/all/20261120/135059303/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-11-20T10:47:02+09:00",
+        "score": 120
+      },
+      {
+        "title": "[다음 주 경제일정] 한국은행 기준금리 인상 가능성…'추수감사절' 美 ...",
+        "summary": "시장은 다음 달 기준금리 인상을 기정사실로 보고 있기 때문에 인플레이션 관련 특별한 내용이 없다면 큰... 6%로 끈적했기 때문에 이 흐름이 이어졌다면 연준의 12월 금리인상 전망은 더 힘을 받을 수 있습니다. 이밖에...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000347783?division=NAVER",
+        "source": "SBS",
+        "published": "2026-11-20T11:24:00+09:00",
+        "score": 120
+      },
+      {
+        "title": "\"코스피 9000에서 5000으로\"…개미들 손실 563조원 추정",
+        "summary": "국내총생산(GDP)을 0.2%포인트, 민간소비지출을 0.5%포인트, 소비자물가(CPI) 상승률을 0.1%포인트 낮출 것... 한국은행은 기준금리를 50bp(1bp=0.01%포인트) 인상할 경우 1년간의 누적 효과로 실질 GDP 성장률이 0.12%포인트...",
+        "link": "https://www.fnnews.com/news/202611191855091296",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-20T04:40:00+09:00",
+        "score": 116
+      },
+      {
+        "title": "“AI 붕괴 오면 고통스런 경기침체 이어질 것 … 한국 집값도 위험”",
+        "summary": "케네스 로고프 하버드대 석좌교수 인터뷰(2)2010년대엔 ‘장기 침체’와 ‘저금리’가 주류 경제학계의 지배적 논리로 작용해왔다. 금융위기 이후에도 성장률이 좀처럼 회복되지 않자 래..",
+        "link": "https://www.mk.co.kr/news/economy/12213727",
+        "source": "매일경제 : 경제",
+        "published": "2026-11-20T05:00:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "생산자물가, 3개월 만에 하락 전환…사과·돼지고기 등 먹거리 물가 8.3% 내려",
+        "summary": "국내 생산자물가가 3개월 만에 하락 전환했다. 가을철 양호한 기상여건 덕에 작황이 호조를 보인 데다 추석 이후 수요 감소가 맞물리며 농림수산품 가격이 내린 결과다. 다만 이달에는 상방요인과 하락요인이 겹쳐 이 같은 하락 흐름이 지속될지 추이를 지켜봐야 한다는 지적이다. 국제유가는 하락했지만 과거 상승분이 시차를 두고 산업용 도시가스 도매가격과 항공 유류할증료 등에 영향을 미치고 있어서다. 20일 한국은행이 발표한 '2026년 10월 생산자물가지수(잠정)'에 따르면 지난달 생산자물가지수는 129.66(2020년=100)으로 전월 대비",
+        "link": "https://view.asiae.co.kr/article/2026112005452106469",
+        "source": "아시아경제 - 경제",
+        "published": "2026-11-20T06:00:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "사과 29%↓·돼지고기 13%↓ 생산자물가 3개월만에 하락",
+        "summary": "20일 한국은행이 발표한 ‘2026년 10월 생산자물가지수(잠정)’ 자료에 따르면 지난달 생산자물가지수는 전월 대비 0.1% 하락했다. 7월(-0.4%) 이후 석 달 만의 하락 전환이다. 전년 동월 대비로는 7.2% 올라 9월(7.6%)에...",
+        "link": "https://biz.heraldcorp.com/article/10943888?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-11-20T11:19:00+09:00",
+        "score": 100
+      },
+      {
+        "title": "생산자물가 석 달 만에 내렸지만…먹거리 빼면 여전히 '오름세'",
+        "summary": "한국은행은 농림수산품 가격 변동이 없었다면 지난달 생산자물가가 전달보다 0.2% 올랐을 것으로 분석했습니다. 1년 전과 비교해도 생산자물가는 7.2% 높고 석탄·석유제품은 57% 넘게 올랐습니다. [앵커] 그래도 먹거리...",
+        "link": "https://biz.sbs.co.kr/article_hub/20000347805?division=NAVER",
+        "source": "SBS",
+        "published": "2026-11-20T11:42:00+09:00",
+        "score": 100
+      },
+      {
         "title": "미국 고용 견조하나, 물가가 문제[오대정의 경제지표 읽기]",
         "summary": "은 1986년 이후 미국 실업률과 신규실업수당 청구건수다. 실업수당 청구건수는 고용지표 중 선행성이 가장 높은 지표로 실업률에 앞서 움직이며 향후 경기 방향을 제시해왔다. 현재 두 지표는 모두 하향하고 있어...",
         "link": "https://magazine.hankyung.com/business/article/202611110207b",
         "source": "한국경제",
         "published": "2026-11-18T14:03:00+09:00",
         "score": 98
+      },
+      {
+        "title": "사과 29%·돼지고기 13%↓…생산자물가 석 달 만에 하락",
+        "summary": "농림수산품 가격 8.3% 떨어져 생산자물가 석달만에 하락 수입 원재료값 10.8% 뛰어 물가 상승 압력 여전히 지속지난달 사과와 돼지고기 등 농축산물 가격이 크게 내리면서 생산자물..",
+        "link": "https://www.mk.co.kr/news/economy/12214218",
+        "source": "매일경제 : 경제",
+        "published": "2026-11-20T07:06:58+09:00",
+        "score": 92
       },
       {
         "title": "반도체 온기에 성장률 뛰는데⋯ 골목 체감경기는 ‘꽁꽁’",
@@ -176,118 +240,54 @@
         "score": 72
       },
       {
-        "title": "“미국 경제 생각보다 강해”…무디스 “올해 성장률 2.3%”",
-        "summary": "국내총생산(GDP) 성장률을 2.3%로 내다봤다. 2027년과 2028년에는 각각 2%로 둔화할 것으로 전망했다.... 단기적으로 GDP 성장을 뒷받침하고 장기적으로는 생산성 향상에 기여할 수 있다고 평가했다. 다만 생산성 개선...",
-        "link": "https://www.mk.co.kr/article/12213773",
-        "source": "매일경제",
-        "published": "2026-11-19T17:33:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "수출 1조달러 돌파에도 내수는 냉랭…낙수효과 어디로",
-        "summary": "올해 3분기 실질 국내총생산(GDP)은 전기 대비 1.0% 증가했지만 민간소비는 0.2% 감소했다. 같은 기간 수출은 2.3... 3분기 실질 국내총소득(GDI)은 교역조건 개선에 힘입어 전기 대비 3.4% 증가해 GDP 성장률(1.0%)을 크게...",
-        "link": "https://www.mt.co.kr/economy/2026/11/19/2026111914174420909",
-        "source": "머니투데이",
-        "published": "2026-11-19T15:04:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "내수는 꽁꽁… K자형 양극화 심화 [수출 1조달러 시대]",
-        "summary": "19일 한국은행에 따르면 올해 3·4분기 실질 국내총생산(GDP)은 전분기 대비 1.0% 성장했다. 지난 8월 한은이 내놓은 전망치(0.3%)의 3배가 넘는다. 반면 같은 기간 민간소비는 0.2% 줄었다. 분기 기준 민간소비 감소는...",
-        "link": "https://www.fnnews.com/news/202611191827528333",
-        "source": "파이낸셜뉴스",
-        "published": "2026-11-19T18:30:00+09:00",
-        "score": 70
-      },
-      {
-        "title": "[트럼프 스톡커] 물가 오르나 AI가 둔화, 굳어지는 ‘베이비스텝’",
-        "summary": "AI 투자 위축 우려가 최대 걸림돌...워시 “생산성 못 높이면 주가 하락, 경기 둔화, 실업률 상승” 체감... 충격으로 실업률이 상승할 수 있다”고 내다봤다. 워시 의장은 마지막 시나리오로 AI의 생산성 효과가 기대에...",
-        "link": "https://www.sedaily.com/article/20115835?ref=naver",
-        "source": "서울경제",
-        "published": "2026-11-18T10:50:00+09:00",
-        "score": 68
-      },
-      {
-        "title": "[수출 1조달러] ① 19년만에 깨진 벽…AI 날개 달고 꿈의 숫자 현실로",
-        "summary": "다른 국가들보다 적은 인구와 경제규모, 명목 국내총생산(GDP), 국토면적, 높은 에너지 수입 의존도 등 불리한 여건을 극복하고 수출 1조달러 국가로 어깨를 나란히 했다는 점도 의미를 더한다. AI 붐에 날개 단...",
-        "link": "https://www.yna.co.kr/view/AKR20261119064800003?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-11-19T14:32:00+09:00",
-        "score": 62
-      },
-      {
-        "title": "신규 팹으로 물량 확대…\"내년에도 수출 1조달러 가능\"",
-        "summary": "한국의 명목 국내총생산(GDP)은 1조달러 달성 당시 독일과 중국의 절반, 미국의 7분의 1 수준에 불과하다. 에너지 수입 의존도(22.7%)는 3개국의 두 배가 넘는다. 인구와 면적도 비교 불가다. 강감찬 산업통상부...",
-        "link": "https://www.hankyung.com/article/2026111982081",
-        "source": "한국경제",
-        "published": "2026-11-19T17:47:00+09:00",
-        "score": 62
-      },
-      {
-        "title": "이형일, 수출 1조달러에 \"서비스 수출, 새로운 성장축으로\"",
-        "summary": "이형일 부총리 겸 재정경제부 장관은 한국이 사상 첫 연간 수출 1조달러를 달성한 19일 \"수출의 성과가 더 많은 기업과 지역의 성장, 새로운 일자리로 이어지도록 하겠다\"고 밝혔다. 이 부총리는 이날 오후 자신의 X(엑스·옛 트위터)에 올린 '수출 1조달러, 다음 도전은 모두의 성장'이라는 글에서 이같이 밝히며 \"양극화를 완화하고 잠재성장률을 끌어올려 우리 경제의 더 큰 성장을 이끌겠다\"고 적었다. 그는 \"대한민국 연간 수출이 사상 처음으로 1조달러를 돌파했다\"며 \"독일·미국·중국에 이어 세계 네 번째\"라고 설명했다. 이어 \"어류·",
-        "link": "https://view.asiae.co.kr/article/2026111919340138378",
-        "source": "아시아경제 - 경제",
-        "published": "2026-11-19T19:34:02+09:00",
-        "score": 62
-      },
-      {
-        "title": "[현장연결] 1원짜리 가발 팔던 나라, 수출 1조 달러 쐈다",
-        "summary": "이미 쓸 만큼 쓰는 고소득층은 수입이 늘어도 지갑을 더 열지 않고, 한국은행 분석에서도 반도체 수혜지역의 소비 증가는 자동차와 가전·가구, 백화점 등 고가 소비를 중심으로 나타났습니다. [양준석 / 가톨릭대...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000347658?division=NAVER",
-        "source": "SBS",
-        "published": "2026-11-19T18:14:00+09:00",
-        "score": 62
-      },
-      {
         "title": "수출은 ‘활활’ 내수는 ‘꽁꽁’…민간 소비·고용 감소",
-        "summary": "자영업, 매출 줄고 비용 늘어 울상…‘소득 증가 효과’ 가계 확산 안 돼한국이 19일 사상 처음 연간 수출 1조달러를 돌파했지만 내수시장에는 좀처럼 온기가 돌지 않고 있다. 가계소비는 부진하고 자영업자들은 매출 감소와 비용 상승의 이중고를 겪고 있다.서울 동대문구에서 중장년층 여성용 바지를 생산·도매하는 남모씨(36)는 2020년 영업을 시작한 후 장사가 ···",
+        "summary": "자영업, 매출 줄고 비용 늘어 울상…‘소득 증가 효과’ 가계 확산 안 돼계속 빛날 수 있을까 19일 경기 과천시 국립과천과학관 미래상상SF관을 찾은 어린이들이 반도체 회로를 새겨 넣기 위한 원판 모양 기판인 웨이퍼의 재료 및 회로 형성 과정 등을 살펴보고 있다. 연합뉴스한국이 19일 사상 처음 연간 수출 1조달러를 돌파했지만 내수시장에는 좀처럼 온기가 돌지···",
         "link": "https://www.khan.co.kr/article/202611192147005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
         "source": "경향신문:경제",
         "published": "2026-11-19T21:47:00+09:00",
-        "score": 60
+        "score": 72
       }
     ],
     "금융시장": [
       {
-        "title": "코스피200·코스닥150 리밸런싱…대한광통신에 685억 유입될 듯",
-        "summary": "다음달 10일 코스피200·코스닥150지수를 추종하는 상장지수펀드(ETF)의 리밸런싱(종목·비중 재조정)이... 신한투자증권이 19일 한국거래소의 지수 리밸런싱을 통한 종목별 신규 자금 유입액을 계산한 결과 코스피200...",
-        "link": "https://www.hankyung.com/article/2026111981641",
-        "source": "한국경제",
-        "published": "2026-11-19T18:11:00+09:00",
-        "score": 114
-      },
-      {
-        "title": "[증시 인사이트] 코스피 5천선 사수…오늘 밤 앤트로픽 상장이 관건?",
-        "summary": "10월 FOMC 의사록 공개…2명은 '빅스텝' 시사 - 10월 FOMC 당시 대다수 위원 금리인상 필요성 공감 - 월러 연준 이사 \"인플레 억제 위해 공격적 조치 필요\" - 월러 연준 이사 \"12월 빅스텝 가능성도 커져\" - 미 연준 \"AI 투자...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000347616?division=NAVER",
-        "source": "SBS",
-        "published": "2026-11-19T17:28:00+09:00",
-        "score": 110
-      },
-      {
-        "title": "머니마켓 웃고 반도체 울었다…증시 급락에 ETF도 희비",
-        "summary": "시가총액이 가장 많이 불어난 건 머니마켓액티브였고, 가장 많이 줄어든 건 코스피200과 반도체... 코스피가 11.57% 빠진 걸 감안하면 선방한 셈이다. 이 상품은 단기 우량 채권과 기업어음(CP) 등에...",
-        "link": "https://www.mk.co.kr/article/12213847",
-        "source": "매일경제",
-        "published": "2026-11-19T17:44:00+09:00",
+        "title": "앤트로픽 상장에도 미 증시↓...코스피도 약세 개장",
+        "summary": "이런 가운데 서울 외환시장에서 원·달러 환율은 오전 9시 기준 1,335원을 기록했습니다. 지금까지 하나은행 딜링룸에서 YTN 윤태인입니다. 영상기자 : 권석재 영상편집 : 박정란",
+        "link": "https://www.ytn.co.kr/_ln/0102_202611200953499926",
+        "source": "YTN",
+        "published": "2026-11-20T09:53:00+09:00",
         "score": 106
       },
       {
-        "title": "앤스로픽 기대에 뛰던 뉴욕증시… 유가·금리 오르자 다우·S&P500 하락 전...",
-        "summary": "3줄 요약 ㆍ다우·S&P500, 유가·금리 상승에 하락 전환 ㆍ유가 2%·국채금리 5.09% 상승 증시 부담 ㆍ앤스로픽 IPO, AI 업계 가치 평가 기준 주목 미국 인공지능(AI) 기업 앤스로픽의 나스닥 첫 거래를 앞두고 상승 출발한...",
-        "link": "https://www.chosun.com/economy/int_economy/2026/11/20/LZWFHX4TT5D5FMBPV2IU6K6PDY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-11-20T01:01:00+09:00",
-        "score": 106
+        "title": "증시 급락에 은행채로 눈 돌리는 개미들…11월 7526억 순매수",
+        "summary": "국채보다 50bp(1bp=0.01%포인트) 이상 높은 금리가 은행채의 투자 매력을 높이고 있다는 분석이다. 20일... 은행채가 개인투자자들의 관심을 끄는 이유는 국채보다 높은 금리에 있다. 금융투자협회 채권정보센터에...",
+        "link": "https://biz.heraldcorp.com/article/10943945?ref=naver",
+        "source": "헤럴드경제",
+        "published": "2026-11-20T11:35:00+09:00",
+        "score": 92
       },
       {
-        "title": "“변동성 큰 시장… 퇴직연금, 국채 밑바탕 ETF 비중 30% 이하로”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/19/135056161.4.jpg\" vspace=\"10\" />“요즘처럼 변동성이 큰 시장에선 퇴직연금 계좌에 국채 등 안정 상품으로 밑바탕을 깔고, 변동성이 큰 상장지수펀드(ETF) 비중은 30% 이하로 유지하는 편이 좋습니다.” 정환 NH투자증권 연금자산관리본부장(53)은 19일 동아일보 인터뷰에서 퇴직연금 가입자들에게 이렇게 조언했다. 장기 관점에서 투자하면서 수익률을 높여야 하는 퇴직연금 계좌에서 ETF 중 변동성이 큰 상품 비중을 지나치게 높이면 원금을 지키기도 어려울 수 있는 만큼 안정적 구조로 조정해 둬야 한다는 의미다. 코스피는 올 6월 22일 역대 최고치인 9,114.55를 기록했다가 3분기(7∼9월) 들어 6,000∼7,000대로 하락했다. ETF가 포함된 퇴직연금 계좌 수익률도 하락했다. 금융감독원 연금통합포털에 따르면 증...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261119/135056614/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-20T00:30:00+09:00",
-        "score": 102
+        "title": "“증시 재평가, 1만피 돌파한다”…조마조마 코스피에 월가 전망 엇갈려",
+        "summary": "골드만삭스, 한 달 새 목표치 1만2000→7500 하향 모건스탠리 “3~5년 내 1만 돌파…韓 르네상스 온다” 반도체호황 지속성·기업 실적·증시 재평가에 시각차글로벌 투자은행(I..",
+        "link": "https://www.mk.co.kr/news/stock/12214253",
+        "source": "매일경제 : 증권",
+        "published": "2026-11-20T08:19:10+09:00",
+        "score": 90
+      },
+      {
+        "title": "\"내년 코스피, 7000 이상 갈 것…유망 업종 반도체·AI\"",
+        "summary": "조정과 금리 변수에 대한 경계감도 공존하고 있다. 플랫폼 성장세는 수치로 확인된다. 삼성증권... 3%)으로 가장 많이 지목됐고, 예상보다 높은 금리 장기화 9명(37.5%), 주요국 재정 및 국채금리 불안 7명(29.2...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02797846645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-11-20T11:40:00+09:00",
+        "score": 86
+      },
+      {
+        "title": "앤스로픽 상장도 못 막은 AI 의구심…코스피 4900도 붕괴",
+        "summary": "앤스로픽이 역대 최대 자금을 조달하면서 상장했지만 인공지능(AI) 산업의 성장성 둔화 의구심을 해소하지 못하면서 증시가 급락했다. 코스피는 장 중 4900선이 붕괴되면서 지난 2월 이후 최저점을 기록했다.코스피 9개월 만에 장중 4900선 붕괴20일 코스피는 전 거래일 대비 4.08% 내린 4928.51에 개장한 뒤 낙폭을 키워 오전 9시57분 현재 4.29% 내린 4917.52를 기록 중이다. 장 중 4889.57까지 내려가면서 지난 2월6일 이후 약 9개월 반 만에 최저점을 나타냈다. 코스닥도 전장 대비 3.48% 내린 66",
+        "link": "https://view.asiae.co.kr/article/2026112010165311082",
+        "source": "아시아경제 - 증권",
+        "published": "2026-11-20T10:23:46+09:00",
+        "score": 82
       }
     ],
     "산업·과학": [
@@ -300,46 +300,38 @@
         "score": 120
       },
       {
-        "title": "LG에너지솔루션, AI·차세대 배터리 인재 중용…R&D 조직 확대",
-        "summary": "김재권 전무는 2024년부터 소형·아시아사업총괄과 소형·마케팅2그룹장을 거쳐 올해 최고전략책임자(CSO)로 전기차(EV)·에너지저장장치(ESS) 전략과 중국 현지법인 투자·라인 구축 업무를 담당했다. 이정규 파우치...",
-        "link": "https://www.thedailypost.kr/news/articleView.html?idxno=117081",
+        "title": "한국, 내년에도 ‘수출 1조달러 클럽’ 전망…“반도체 랠리 지속될것”",
+        "summary": "올해 1.17조달러 세계 4번째 달성 반도체 청신호에 내년 1.1조弗 전망 산업부 “방산·원전 등 더 키울 것”한국이 세계에서 4번째로 수출 1조달러 클럽에 가입했다. 19일 산업..",
+        "link": "https://www.mk.co.kr/news/economy/12213562",
+        "source": "매일경제 : 경제",
+        "published": "2026-11-19T14:32:58+09:00",
+        "score": 66
+      },
+      {
+        "title": "귀가 전 냉난방 가동하고 복도엔 순찰로봇…대형 건설사 'AI 아파트' 대...",
+        "summary": "래미안 원페를라 단지에 처음 도입된 AI 주차장은 주차 관제와 유도, 전기차 충전 시스템을 하나로 묶어 입주민이 선호하거나 거주 동과 가장 가까운 주차 구역을 추천해 준다. 아울러 AI 전기차 충전 서비스는 배터리...",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=304255",
         "source": "이데일리",
-        "published": "2026-11-19T20:14:00+09:00",
-        "score": 96
+        "published": "2026-11-20T10:40:00+09:00",
+        "score": 66
       },
       {
-        "title": "일본도 못한 '수출 1조 달러' 달성…\"반도체 착시 경계해야\"",
-        "summary": "지속되다보면 반도체 피크아웃 후에는 우리 경제가 크게 위축이 될 수 있는….\" 정부도 반도체 수출단가 변동을 위험 요인으로 꼽고, 바이오와 로봇 등 새로운 수출 산업을 키우겠다고 밝혔습니다. TV조선 이나라입니다.",
-        "link": "https://news.tvchosun.com/site/data/html_dir/2026/11/19/2026111990308.html",
+        "title": "車만 사정권 아니다… ‘머스크 야심작’ 사이버캡에 배터리 업계가 긴...",
+        "summary": "전용 전기차다. 운전자의 개입 없이 완전한 자율주행으로 움직이기 때문에 스티어링휠과 가속·브레이크 페달, 사이드미러, 후방 창문 등이 없다. 유선으로 충전하는 일반적인 전기차와 달리 바닥 패드 위에 올라가...",
+        "link": "https://biz.chosun.com/industry/company/2026/11/20/KEJ7VKYYONAQLH6DGZWLPOKUIQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
         "source": "조선일보",
-        "published": "2026-11-19T21:43:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "[기고] 수출 1조달러 시대… ‘함께 크는 나라’로 다음 항해를",
-        "summary": "이를 두고 반도체 호황이 가져다준 행운이라는 시각도 있다. 절반만 맞는 이야기다. AI라는 순풍이 분 것은... 외환위기와 금융위기, 거듭된 보호무역의 역풍을 이겨 내며 우리는 철강과 석유화학, 반도체, 자동차, 조선으로...",
-        "link": "https://www.chosun.com/opinion/contribution/2026/11/19/VAP6EA6IKFEMHMVMWJQTFZMB6I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-11-19T23:36:00+09:00",
-        "score": 80
+        "published": "2026-11-20T10:32:00+09:00",
+        "score": 66
       }
     ],
     "부동산": [
       {
-        "title": "뛰는 집값에 소규모 단지에도 우르르…'중화역 라온프라이빗 센트로' 최고 65대1 경쟁률",
-        "summary": "집값 상승세가 계속되면서 서울 강북권의 소규모 단지에도 청약자가 몰리고 있다. 급등한 전월세 가격에 부담을 느낀 수요자들이 내집마련에 적극적으로 나선 데 따른 것으로 풀이된다. 18일 한국부동산원 청약홈에 따르면 라온건설이 서울 중랑구 중화동 '중화역 라온프라이빗 센트로'는 전날 1순위 해당지역 청약에서 최고 65.5대 1의 경쟁률을 기록했다. 총 53가구(특별공급 제외)가 공급된 이 날 청약에는 1025명이 신청해 평균 19.3대 1의 경쟁률을 나타냈다. 이중 전용 45㎡의 경쟁률은 65.5대 1에 달했다. 이 아파트는 중화동 3",
-        "link": "https://view.asiae.co.kr/article/2026111808552565572",
-        "source": "아시아경제 - 부동산",
-        "published": "2026-11-18T08:55:25+09:00",
-        "score": 118
-      },
-      {
-        "title": "“여보, 그때 내가 집 사자고 했잖아”…지방 아파트 덮친 ‘깡통전세’ 공포",
-        "summary": "지방 아파트의 매매가격 대비 전세가격 비율(전세가율)이 역대 최고 수준에 바짝 다가서며 이른바 ‘깡통전세’ 위험이 커지고 있다. 반면 단기간 집값이 급등한 서울의 전세가율은 50%..",
-        "link": "https://www.mk.co.kr/news/realestate/12213687",
-        "source": "매일경제 : 부동산",
-        "published": "2026-11-19T16:16:56+09:00",
-        "score": 110
+        "title": "남광토건, ‘부천대장 하우스토리 디센트’ 23일부터 청약…3기 신도시 분양가상한제 단지",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/20/135059494.2.jpg\" vspace=\"10\" />LH와 남광토건 컨소시엄이 3기 신도시 부천대장 공공주택지구 A-2블록에 공급하는 민간참여 공공분양 아파트 ‘부천대장 하우스토리 디센트’가 오는 23일 특별공급을 시작으로 청약 접수를 받는다. 24일 일반공급 1순위, 25일 2순위 청약을 진행하며 당첨자 발표는 12월 1일이다. 단지는 총 548세대이며 전용 59·74·84㎡로 구성되고, 분양가상한제가 적용된다. 견본주택은 지난 13일 경기도 부천시 원미구 상동 일원(지하철 7호선 삼산체육관역 인근)에 문을 열었다. 단지는 대장홍대선 대장역(가칭) 예정지 인근에 들어선다. 대장홍대선은 부천대장에서 서울 강서·양천구와 DMC를 거쳐 홍대입구역까지 연결하는 광역철도로, 2031년 개통을 목표로 추진 중이다. GTX-D 노선은 계획 단...",
+        "link": "https://www.donga.com/news/Economy/article/all/20261120/135059510/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-11-20T11:35:00+09:00",
+        "score": 112
       },
       {
         "title": "\"전세대출서 주택기금 비중 급증…이차보전, 전략적으로 활용해야\"",
@@ -350,65 +342,65 @@
         "score": 110
       },
       {
-        "title": "“아파트 이미지 고급화해야 집값 올라” 유명 가수 부르고 상가 간판까...",
-        "summary": "서진형 광운대 부동산법무학과 교수는 “최근 아파트 외관과 브랜드 이미지가 집값에 영향을 미치는 요인으로 여겨지면서 입주민들이 단지 고급화 경쟁에 나선 것”이라고 했다.",
-        "link": "https://www.chosun.com/national/national_general/2026/11/20/IWMCT2ZTSREVPFDK34HMNRYXAM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-11-20T00:48:00+09:00",
-        "score": 110
+        "title": "GS건설, '아르뮤제자이' 오피스텔 본격 분양",
+        "summary": "GS건설은 경기도 안산 상록구 성포동 586번지 일원에 조성되는 '아르뮤제자이' 오피스텔 견본주택을 20일 열고 본격 분양에 돌입한다고 밝혔다. 아르뮤제자이는 지하 6층~지상 49층, 6개동(아파트 4개동·오피스텔 2개동), 총 1354가구(아파트 984가구·오피스텔 370실) 규모로 조성된다. 이번에 공급하는 오피스텔은 2개동, 전용 84㎡ 단일면적 370실이다. 청약은 오는 24일 한국부동산원 청약홈에서 받으며, 당첨자 발표는 다음달 1일, 계약은 12월4~5일 진행된다. 오피스텔은 청약통장 없이 청약할 수 있어 만 19세 이상",
+        "link": "https://view.asiae.co.kr/article/2026112009233648431",
+        "source": "아시아경제 - 부동산",
+        "published": "2026-11-20T09:23:37+09:00",
+        "score": 108
+      },
+      {
+        "title": "\"월세 단돈 1만원, 보증금도 없어요\"…신축아파트 내놓은 이곳",
+        "summary": "전남광주통합특별시가 무주택 청년과 신혼부부에게 월 1만원의 임대료만 받고 신축 아파트를 제공한다.전남광주통합특별시는 진도군 진도읍 남동리에 조성하는 공공임대주택 '진도 청년드림 만원주택' 입주자를 모집한다고 19일 밝혔다. 공급 규모는 총 60세대다. 사업비는 국비 67억원, 주택도시기금 융자 68억원, 특별시비 99억원 등 총 234억원이다. 주택은 청년용 전용면적 59㎡ 30세대와 신혼부부용 84㎡ 30세대로 구성된다. 입주는 2027년 3월부터 시작될 예정이다. 입주 자격과 임대료 감면 요건을 충족하면 월 1만원의 임대료를 내",
+        "link": "https://view.asiae.co.kr/article/2026111917165920542",
+        "source": "아시아경제 - 부동산",
+        "published": "2026-11-19T17:41:22+09:00",
+        "score": 96
       }
     ],
     "국제경제": [
       {
-        "title": "[직설] 트럼프 VS 시진핑, APEC 주도권은 누구에게?",
-        "summary": "10월 FOMC 의사록이 공개됐습니다. 연준은 10월 FOMC에서 기준금리를 유지했지만, 거의 모든 참석자가 추가 금리인상 필요하다고 판단했는데요. 여기에 2명은 0.5%포인트 인상까지도 언급했습니다. 이렇게 되면 12월 FOMC에서...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000347488?division=NAVER",
-        "source": "SBS",
-        "published": "2026-11-19T13:30:00+09:00",
-        "score": 80
+        "title": "JP모건 “미국 연준, 내년 3월까지 3연속 금리인상할 것”",
+        "summary": "연준이 전날 공개한 10월 연방공개시장위원회(FOMC) 회의록에서는 통화정책 결정자 거의 전원이 경제가... 시카고상품거래소(CME) 페드워치에 따르면 시장은 12월 9일 FOMC에서 0.25%포인트 인상 가능성을 97.3%, 0.5%포인트...",
+        "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718189&ref=A",
+        "source": "KBS",
+        "published": "2026-11-20T09:58:00+09:00",
+        "score": 90
       },
       {
-        "title": "월러 연준 이사 “사람들에 충격 줘야”…다시 떠오르는 빅스텝 논란",
-        "summary": "미국 연방준비제도(Fed·연준)가 다음 달 8~9일 연방공개시장위원회(FOMC) 정례회의에서 기준금리를 인상하는 시나리오가 유력하게 거론되는 가운데 ‘빅스텝(0.50%포인트 금리 인상)’ 필요성을 둘러싼 논란에 불이...",
-        "link": "https://www.sedaily.com/article/20116711?ref=naver",
+        "title": "스페이스X 넘은 ‘앤트로픽’…글로벌 IPO 사상 최대 신기록",
+        "summary": "12월 FOMC 빅스텝(0.5%p 인상) 가능성에 힘을 실었다. 발언 직후 CME 페드워치에서 0.5%p 인상 확률이 3.1%에서... 전날 윌리엄스 뉴욕연준 총재의 단계적 인상론과 정면으로 충돌하고 10월 FOMC 의사록에서도 위원 2명이...",
+        "link": "https://www.sedaily.com/article/20116799?ref=naver",
         "source": "서울경제",
-        "published": "2026-11-19T20:10:00+09:00",
-        "score": 78
+        "published": "2026-11-20T09:43:00+09:00",
+        "score": 70
       },
       {
-        "title": "월러 연준 이사, 12월 '빅스텝' 카드 꺼냈다…\"물가 잡으려면 시장 충격...",
-        "summary": "크리스토퍼 월러 미국 연방준비제도(Fed·연준) 이사가 다음 달 열리는 연방공개시장위원회(FOMC)... 그는 오는 12월 8~9일 예정된 FOMC 회의에서 0.5%포인트 인상이 유력하게 검토돼야 한다며, 지난해 단행했던 세 차례의 0.25...",
-        "link": "https://www.widedaily.com/news/articleView.html?idxno=304154",
+        "title": "월러 연준 이사 매파 발언…12월 빅스텝 확률 10%로 상승",
+        "summary": "■ 연준 빅스텝 논란: 월러 연준 이사가 “사람들에게 충격을 줘야 할지도 모른다”며 12월 FOMC 빅스텝... 12월 FOMC에서 빅스텝(0.5%p)에 힘을 싣는 발언을 했다. 이에 따라 CME 페드워치 기준 0.5%p 인상 확률이 3.1...",
+        "link": "https://www.sedaily.com/article/20116796?ref=naver",
+        "source": "서울경제",
+        "published": "2026-11-20T09:41:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "앤트로픽 흥행에도 뉴욕증시 일제히 하락…다우 5만선 붕괴[뉴스새벽배...",
+        "summary": "10월 FOMC 의사록에서 추가 금리 인상 필요성에 무게를 둔 위원들이 다수였던 것으로 나타나. -크리스토퍼 월러 연준 이사는 인플레이션 대응을 위해 “보다 공격적인 조치”가 필요하다며 12월 회의에서 50bp 인상...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01902406645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
         "source": "이데일리",
-        "published": "2026-11-19T14:14:00+09:00",
-        "score": 78
+        "published": "2026-11-20T08:04:00+09:00",
+        "score": 70
       },
       {
-        "title": "美 연준, 12월 금리 인상 무게… 0.25%p냐 0.5%p냐",
-        "summary": "올해 마지막 연방공개시장위원회(FOMC) 결과는 미국 현지시간 12월 9일 오후 2시(한국시각 10일 새벽 4시) 발표된다. FOMC는 향후 금리 전망을 담은 점도표와 경제전망도 공개한다. 연준이 18일(현지시간) 공개한 10월 FOMC...",
-        "link": "https://m.skyedaily.com/news_view.html?ID=314889",
-        "source": "이데일리",
-        "published": "2026-11-19T12:38:00+09:00",
-        "score": 78
-      },
-      {
-        "title": "트럼프 “AI 옥죄는 글로벌 규제 반대…미중러 3자회담 역사적”",
-        "summary": "미국 경제에 대해서는 최근 3개월간 인플레이션이 예상보다 크게 낮아졌다며 “2% 미만을 기록했고 이는 의미 있는 일”이라고 주장했다. 또 미국이 파트너 국가들과 20건 이상의 무역 합의에 도달했고 추가 협상도 진행...",
-        "link": "https://www.joongang.co.kr/article/25480123",
-        "source": "중앙일보",
-        "published": "2026-11-19T14:06:00+09:00",
-        "score": 78
+        "title": "먼저 도착해 트럼프 맞은 푸틴… 크렘린궁 \"우크라전 해법 다뤄\"",
+        "summary": "도널드 트럼프 미국 대통령과 블라디미르 푸틴 러시아 대통령이 19일 아시아태평양경제협력체(APEC) 정상회의가 열린 중국 선전에서 별도의 약식 양자회담을 했다. 유럽, 우크라이나 ..",
+        "link": "https://www.mk.co.kr/news/world/12213865",
+        "source": "매일경제 : 국제",
+        "published": "2026-11-19T17:45:18+09:00",
+        "score": 68
       }
     ],
     "AI와 경제": [
-      {
-        "title": "AI발 인프라 투자 슈퍼사이클…韓 재생에너지 4천억달러 시장 열릴 것 [GAII 2026 Live]",
-        "summary": "글로벌대체투자콘퍼런스 2026 맥쿼리 “25년간 처음 본 호황”  美 2030년 전력수요 166GW↑ AIDC뿐 아니라 경제 전반 전기화   PAG “데이터센터 과열 경계해야” 빅..",
-        "link": "https://www.mk.co.kr/news/stock/12213531",
-        "source": "매일경제 : 증권",
-        "published": "2026-11-19T13:47:26+09:00",
-        "score": 42
-      },
       {
         "title": "홍푸한, AI 서버 액체냉각 부품 양산 개시... 한국 AI 데이터센터 시장 공략",
         "summary": "AI용 고밀도·고출력 서버 수요가 급증하면서 기존 공랭 방식의 한계가 뚜렷해지는 가운데 발열이 큰 AI 칩의 온도를 안정적으로 제어하기 위해 액체냉각 솔루션이 차세대 데이터센터의 표준 사양으로 빠르게 자리 잡고 있습니다.시장 조사 업체 트렌드포스에 따르면, 2026년 전 세계 AI 칩의 액체냉각 채택률은 53%까지 높아질 전망입니다. 한국 정부 역시 AI 인프라 확충에 속도를 내며 대형 컴퓨팅 센터 건설이 본격화됨에 따라, 냉각 핵심 부품의 안정적 공급과 공급망 다변화가 업계의 최우선 과제로 떠올랐습니다.이러한 흐름 속에서 중국 선전의 정밀 제조 상장기업 홍푸한이 AI 서버 액체냉각 열관리 시장에서 영향력을 빠르게 넓히..",
@@ -418,28 +410,12 @@
         "score": 42
       },
       {
-        "title": "삼성전자 “네오클라우드 비중 8%… AI 거품 우려 과도”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/19/135056109.4.jpg\" vspace=\"10\" />빚을 내 데이터센터 사업을 불려 온 ‘네오클라우드’ 기업들이 인공지능(AI) 거품론의 뇌관으로 떠오른 가운데, 반도체 업체는 네오클라우드가 전체 AI 생태계에서 차지하는 비중이 제한적이라며 일각의 우려에 선을 그었다. 18일(현지 시간) 로이터통신에 따르면 김용관 삼성전자 디바이스솔루션(DS)부문 경영전략총괄 사장(사진)은 이날 싱가포르에서 열린 모건스탠리 콘퍼런스에서 “네오클라우드가 전체 시장에서 차지하는 비중은 약 8%”라며 “(네오클라우드 등에 대한) 우려가 AI 산업 전반의 성장세에 중대한 위협이 될 것으로 보지 않는다”고 말했다. 그래픽처리장치(GPU)를 사들여 AI 연산 능력을 빌려주는 네오클라우드 기업들이 급성장해 왔으나 시장에서는 코어위브, 네비우스 등이 막대한 빚으...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261119/135056633/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-20T00:30:00+09:00",
-        "score": 40
-      },
-      {
-        "title": "'매출 42배 몸값' 앤스로픽, 1조5000억달러 가치 증명할까[앤스로픽 IPO]",
-        "summary": "인공지능(AI) 챗봇 '클로드' 개발사 앤스로픽이 19일(현지시간) 미국 나스닥 상장을 앞두고 희망 공모가 상단을 웃도는 주당 83달러에 공모가를 확정했다. 공모 물량의 약 7배에 달하는 투자 주문이 몰렸다는 외신 보도가 나올 만큼 수요가 뜨거웠다. 스페이스X를 넘어 역대 최대 규모의 기업공개(IPO) 기록도 세웠다. 그러나 시장에서는 최근 12개월 매출의 42배에 달하는 높은 몸값을 정당화하려면 폭발적인 성장세를 유지하면서 수익성을 입증해야 한다는 지적이 나온다. 역대급 공모 규모 기록…스페이스X 제쳤다앤스로픽은 18일 공식 홈페",
-        "link": "https://view.asiae.co.kr/article/2026111915215310239",
+        "title": "앤스로픽, 공모가 대비 17% 상승 마감…AI 투자 우려 못 눌렀다(종합)",
+        "summary": "생성형 인공지능(AI) '클로드' 개발사인 앤스로픽이 사상 최대 규모의 기업공개(IPO)를 성사시키며 미국 뉴욕증시에 화려하게 입성했으나 AI 관련주 투자 심리를 되살리는 데는 실패했다. 앤스로픽은 장중 공모가 대비 40% 가까이 치솟았지만 상승폭을 절반 이상 반납했다. 주요 반도체주도 동반 급락하는 등 AI 산업의 막대한 투자 비용과 장기 수익성을 둘러싼 월가의 회의론이 좀처럼 잦아들지 않는 모습이다.  19일(현지시간) 나스닥에 상장한 앤스로픽은 공모가 83달러보다 17.07% 높은 97.17달러에 거래를 마쳤다. 시초가는 공모",
+        "link": "https://view.asiae.co.kr/article/2026112007444080912",
         "source": "아시아경제 - 국제",
-        "published": "2026-11-19T16:00:00+09:00",
-        "score": 38
-      },
-      {
-        "title": "LGU+, 파주 AI 데이터센터에 7천890억원 추가 투자",
-        "summary": "(서울=연합뉴스) 박형빈 기자 = LG유플러스[032640]가 경기 파주 인공지능(AI) 데이터센터(AIDC) 3단계 구축에 7천890억원을 추...",
-        "link": "https://www.yna.co.kr/view/AKR20261119145400017",
-        "source": "연합뉴스 마켓+ 최신기사",
-        "published": "2026-11-19T16:53:18+09:00",
-        "score": 34
+        "published": "2026-11-20T07:44:40+09:00",
+        "score": 36
       },
       {
         "title": "AI 옥석가리기 필수 … PE, 자금 회수방법 미리 세워야",
@@ -450,23 +426,39 @@
         "score": 34
       },
       {
-        "title": "국민연금·KIC 다음 투자처는…“AI전력·인프라” “국내전략산업 자본공급” [GAII 2026 Live]",
-        "summary": "글로벌대체투자콘퍼런스 2026 국민연금, 대체투자 규모 4배로 亞로 시장 넓히고 헬스케어 투자 KIC는 전략투자계정 준비 총력전  “장기투자, 이어달리기 투자 지향”대한민국 대표 ..",
-        "link": "https://www.mk.co.kr/news/stock/12213297",
-        "source": "매일경제 : 증권",
-        "published": "2026-11-19T09:34:42+09:00",
+        "title": "바비톡, AI 에이전트 'BaaS' 전사 도입… 업무 자동화",
+        "summary": "케어랩스의 미용의료 플랫폼 '바비톡'은 임직원이 업무에 필요한 인공지능(AI) 에이전트를 직접 제작하고 공유할 수 있는 자체 개발 플랫폼 'BaaS(Babitalk AI Agent Studio)'를 전사에 도입했다고 20일 밝혔다. BaaS는 자동화하려는 업무를 자연어로 설명하면 AI가 필요한 에이전트를 설계해 주는 사내 플랫폼이다. 핵심 기능인 '메타 에이전트(Meta Agent)'는 자동화하려는 업무와 역할을 자연어로 설명하면 업무 도구와 구성을 제안한다. 이용자는 별도의 코딩 없이 에이전트를 제작·배포하고 다른 구성원과 공유할",
+        "link": "https://view.asiae.co.kr/article/2026112011253150991",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-11-20T11:25:31+09:00",
         "score": 34
+      },
+      {
+        "title": "‘AI 거품론’ 선그은 삼성전자⋯ “현재 투자 붐은 투기 아닌 실수요 기반”",
+        "summary": "&lt;center&gt; &lt;img src=&quot;https://3f3bm4nnaefgwrtq8izg16625.edge.naverncp.com/data2/content/image/2026/11/19/20261119501559.jpg&quot;&gt; &lt;/center&gt; &lt;figure class=&quot;image&quot;&gt;&lt;img src=&quot;/content/image/2026/11/19/20261119501559.jpg&quot; storyid=&quot;0a0a3e06-a1ec-1ab8-81a1-f2a56dbc0c41&quot;&gt;\n &lt;figcaption&gt;&lt;span&gt;경기도 수원 영통구 삼성전자 본사 전경. 뉴시스&lt;/span&gt;\n &lt;/figcaption&gt;\n&lt;/figure&gt;\n&lt;p&gt;&lt;span&gt;삼성전자 경영진이 &lt;/span&gt;“&lt;span&gt;인공지능(A...",
+        "link": "https://www.kmib.co.kr/article/20261119501560",
+        "source": "국민일보 | 경제",
+        "published": "2026-11-19T07:11:38+00:00",
+        "score": 34
+      },
+      {
+        "title": "문화 콘텐츠 매출의 왕, 엄청난 수익을 안겨주는 게임 콜라보[게임 인더스트리]",
+        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/19/135057731.1.jpg\" vspace=\"10\" />AI 시대를 맞이하면서 콘텐츠 시장은 큰 격변기를 맞이하고 있습니다. 작업 효율성이 극대화된 덕분에 하루가 멀다하고 엄청나게 게임이 쏟아지고 있고, 유튜브 영상, 사운드 분야도 ‘범람’이라는 표현이 무색할 정도로 날마다 새로운 콘텐츠가 쌓이고 있습니다.이는 수치로도 명확히 나타납니다. 게임 데이터 분석기관 스팀DB는 글로벌 PC 게임 플랫폼 ‘스팀’(Steam)은 AI가 본격화된 2년 전부터 게임 출시가 확 늘어나더니 현재 하루에 무려 67개의 게임이 출시되고 있다고 밝혔습니다. 스팀DB 측에서는 통계 추이에 따라 앞으로 훨씬 많은 게임이 출시되 것이며, 곧 하루 출시 개수가 100개가 넘을 거라는 공식 발표도 함께 내놓았습니다. 또 AI 비디오 기업 루마 AI(Luma AI)의 ...",
+        "link": "https://www.donga.com/news/It/article/all/20261119/135057723/1",
+        "source": "동아일보 | 경제 뉴스",
+        "published": "2026-11-20T10:00:00+09:00",
+        "score": 32
+      },
+      {
+        "title": "LG그룹, AI 인프라·R&amp;D 인재 임원 발탁",
+        "summary": "LG그룹이 19일 LG전자·LG에너지솔루션 등 주요 계열사 경영진 대부분을 유임하고 인공지능(AI) 인프라와 로보틱스 등 미래 산업 부문 연구·개발(R&amp;D) 인재를 임원으로 집중 발탁하는 인사를 단행했다.LG는 이날 오후 계열사별 이사회를 열고 사장단 및 임원 인사를 실시했다.LG전자에서는 생활가전 사업 성장을 이끈 백승태 HS사업본부장이 사장으로 ···",
+        "link": "https://www.khan.co.kr/article/202611192045025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+        "source": "경향신문:경제",
+        "published": "2026-11-19T20:45:02+09:00",
+        "score": 32
       }
     ],
     "기타": [
-      {
-        "title": "친분만 과시한 美中 정상, 현안 평행선…엔비디아 '입꾹'",
-        "summary": "트럼프 대통령과 시 주석은 19일(현지시간) 중국 선전에서 열린 아시아태평양경제협력체(APEC) 정상회의를... 외신들은 미중의 경제적 대치 상황에는 거의 변화가 없는 채 양자 회담이 종료된 것으로 보인다고 분석했다....",
-        "link": "https://www.yna.co.kr/view/AKR20261119185700071?input=1195m",
-        "source": "연합뉴스",
-        "published": "2026-11-20T00:28:00+09:00",
-        "score": 24
-      },
       {
         "title": "\"AI는 국가 안보자산 투자 꺾이는일 없다\"",
         "summary": "\"인공지능(AI) 인프라스트럭처는 이제 상업적 관점을 넘어 국가 안보자산으로 인식되고 있다. 생태계 전반에 수조 달러가 투자된 상황에서 이것이 좌초 자산이 될 것으로 보지 않는다...",
@@ -484,27 +476,19 @@
         "score": 24
       },
       {
-        "title": "칼라일 “AI 시대 PEF 경쟁력, AUM 아닌 데이터에” [GAII 2026 Live]",
-        "summary": "글로벌대체투자콘퍼런스 2026 맷 앤더슨 최고디지털책임자 대담“운용자산(Asset Under Management, AUM)은 규모를 말할 뿐이고, 정말 중요한 것은 운용 데이터(D..",
-        "link": "https://www.mk.co.kr/news/stock/12213436",
-        "source": "매일경제 : 증권",
-        "published": "2026-11-19T11:08:44+09:00",
+        "title": "美 상원, 이란전 중단 결의안 재차 부결…공화당 대부분 반대",
+        "summary": "미국 상원에서 이란전쟁 중단을 위해 상정됐던 전쟁 권한 결의안이 재차 부결됐다. 공화당 의원 다수가 도널드 트럼프 대통령 편에 서서 반대하면서 통과되지 못했다. 법안을 상정했던 민주당은 중간선거 결과가 반영되는 내년 1월 새 의회에서 다시 전쟁 권한 결의안을 표결에 부칠 것으로 예상되고 있다.  19일(현지시간) CNN에 따르면 미 상원은 전쟁 권한 결의안을 찬성 48표, 반대 51표로 부결시켰다. 앞서 해당 결의안은 지난 9월 하원에서 찬성 220표, 반대 204표를 받고 통과돼 상원으로 올라온 바 있다. 이 결의안은 이란전쟁을",
+        "link": "https://view.asiae.co.kr/article/2026112010241604178",
+        "source": "아시아경제 - 국제",
+        "published": "2026-11-20T10:24:16+09:00",
         "score": 24
       },
       {
-        "title": "서울 경부·경원선 지하화 … 지상은 주거복합 개발",
-        "summary": "다만 부동산 경기와 공사비에 따라 사업성이 크게 좌우되는 만큼 지방정부의 재정 부담이 최대 변수가 될... 최근 공사비 상승과 부동산 경기, 금융비용 등에 따라 사업비가 더 늘거나 개발이익이 줄어들 가능성도 있다....",
-        "link": "https://www.mk.co.kr/article/12213908",
-        "source": "매일경제",
-        "published": "2026-11-19T19:38:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "\"난 MAGA 아냐\" … 머스크, 공화당과 선긋기",
-        "summary": "미국 중간선거에서 공화당 후보들에게 5억달러(약 6652억원)를 쏟아부었던 일론 머스크 테슬라 최고경영자(CEO·사진)가 선거 참패 이후 도널드 트럼프 대통령의 핵심 지지층인 '마..",
-        "link": "https://www.mk.co.kr/news/world/12213767",
-        "source": "매일경제 : 국제",
-        "published": "2026-11-19T17:28:52+09:00",
+        "title": "앤스로픽 직원도 IPO로 '돈방석'…아모데이 \"AI 안전·성공 모두 잡겠다\"",
+        "summary": "생성형 인공지능(AI) '클로드' 개발사인 앤스로픽이 사상 최대 규모의 기업공개(IPO)를 통해 수천 명의 백만장자를 탄생시켰다. 다리오 아모데이 앤스로픽 최고경영자(CEO)는 상장을 계기로 재무 건전성을 강화한 만큼 AI 안전과 기업의 성공이라는 두 가지 목표를 동시에 달성하겠다는 포부를 밝혔다.   아모데이 CEO는 19일(현지시간) 미국 뉴욕 나스닥 상장식에서 \"우리는 AI 시스템의 학습과 배포 속도를 조절해 AI가 안전하고 앞으로도 인간의 통제하에 있을 것이라고 확신할 수 있는 시간을 확보할 것\"이라며 \"그러면서도 믿을 수",
+        "link": "https://view.asiae.co.kr/article/2026112002150075898",
+        "source": "아시아경제 - 국제",
+        "published": "2026-11-20T02:15:01+09:00",
         "score": 24
       },
       {
@@ -516,27 +500,43 @@
         "score": 24
       },
       {
-        "title": "미중러 정상 첫 평화선언…핵위험 대화·석유제품 증산 합의",
-        "summary": "경제·무역 분야에서는 소통을 강화해 서로의 우려를 해소하자고 강조했다. 트럼프 대통령은 지난 5월 베이징 정상회담 때 설치한 무역위원회가 매우 불균형했던 양국 관계에 균형을 가져왔다고 평가했다. 그는 \"미국과...",
-        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=366383",
-        "source": "이데일리",
-        "published": "2026-11-19T22:00:00+09:00",
+        "title": "\"2심도 무죄\"…김범수 리스크 해소한 카카오, AI·투자 양날개 펼친다",
+        "summary": "\"오늘의 판결은 지난 3년간 카카오를 에워쌌던 불확실성을 해소하는 중요한 전기가 됐다.\" SM엔터테인먼트 시세조종 혐의로 기소된 카카오 창업자 김범수 미래이니셔티브센터장이 20일 항소심에서 무죄를 선고받으면서 인적분할을 앞둔 카카오의 향후 사업 구상에도 청신호가 켜졌다. 김 창업자의 보폭이 넓어지면서 카카오의 신사업 발굴과 인공지능(AI) 역량 강화에 힘을 보탤 것이라는 관측이 업계에서 나온다. 김 센터장이 분할 이후 카카오의 미래 사업 구상과 투자 전략 수립에 역할을 할 수 있게된 만큼 내년 초 예정된 카카오의 인적분할에 청신호가",
+        "link": "https://view.asiae.co.kr/article/2026112009453502289",
+        "source": "아시아경제 - 산업·IT",
+        "published": "2026-11-20T11:01:52+09:00",
         "score": 24
       },
       {
-        "title": "‘앤트로픽 상장 후엔 반등할까’…아슬아슬 ‘오천피’, 외국인 귀환 ...",
-        "summary": "코스피가 5000선을 가까스로 지킨 가운데 미국 인공지능(AI) 기업 앤트로픽의 나스닥 상장 이후 외국인... 실제로 과거 대형 기업공개(IPO) 상장 전 코스피는 약세를 보였다. 한화투자증권이 비자·제너럴모터스(GM)...",
-        "link": "https://biz.heraldcorp.com/article/10942733?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-11-19T19:31:00+09:00",
+        "title": "내년부터 지방세 체납관리단 인건비 전액 보통교부세 반영",
+        "summary": "보통교부세는 각 지자체의 기준재정수요액에서 기준재정수입액을 뺀 재정부족액을 토대로 산정하며, 지역 현안이나 재난·안전 등 특별한 재정 수요에는 특별교부세가 별도 교부된다. 이번 개편안은 광역 지방정부 기능...",
+        "link": "https://view.asiae.co.kr/article/2026112011350057877",
+        "source": "아시아경제",
+        "published": "2026-11-20T11:35:00+09:00",
         "score": 24
       },
       {
-        "title": "[오늘의 별자리 운세] 11월 20일 금요일",
-        "summary": "행운의 색: 버건디 행운 아이템: 동전 오늘의 감정: 어수선함 예상치 못한 수입이 들어오거나 절약이 자연스럽게 이루어질 수 있습니다. 하지만 이 운을 낭비하지 않으려면 충동적인 소비를 피하는 것이 중요해요. 재정...",
-        "link": "https://biz.chosun.com/culture/culture_general/2026/11/19/KCKDEFY23NCR7ASTT23OOCMWKY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "조선일보",
-        "published": "2026-11-19T23:01:00+09:00",
+        "title": "국일인토트·삼천리, 국산 ‘금속지지체 듀얼촉매’ 발전소서 실증",
+        "summary": "입증하고, 수입에 의존해 온 발전용 환경촉매 시장에서 국산 기술의 경쟁력을 높여 나가겠다”고 말했다.... 기술 경쟁력이 확인되면 국내 수요 촉매를 수입품에서 국산으로 바꾸고, 발전·에너지 산업의 환경기술...",
+        "link": "https://www.sedaily.com/article/20116887?ref=naver",
+        "source": "서울경제",
+        "published": "2026-11-20T11:52:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "국일인토트·삼천리 \"금속지지체 기반 국내 듀얼촉매 상용 실증 추진\"",
+        "summary": "입증하고, 수입에 의존해 온 발전용 환경촉매 시장에서 국산 기술의 경쟁력을 높여 나가겠다\"고 말했다.... 실증을 통해 기술 경쟁력이 확인되면 국산 국내 수요 촉매의 수입 대체는 물론 발전·에너지 산업의 환경기술...",
+        "link": "https://www.fnnews.com/news/202611201048566782",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-20T11:26:00+09:00",
+        "score": 24
+      },
+      {
+        "title": "김포FC 횡령액 83억원…김포시, 기관장 해임·관련자 중징계",
+        "summary": "예산과 결산, 수입·지출, 법인계좌 관리가 한 사람에게 집중됐다. 회계업무 총괄 책임자 자리도 장기간 비었다. 기본적인 회계 관리 절차도 제대로 지켜지지 않았다. 현금성 자산은 2024년 말 9억8000만원에서 2025년 말...",
+        "link": "https://www.fnnews.com/news/202611201100003523",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-20T11:10:00+09:00",
         "score": 24
       }
     ]
@@ -599,39 +599,39 @@
   ],
   "summary_en": {
     "date": "2026-11-20",
-    "generated_at": "2026-11-19T16:54:27.487094+00:00",
-    "briefing_hash": "e470d3a8f34b7944",
+    "generated_at": "2026-11-20T02:55:05.393577+00:00",
+    "briefing_hash": "33c21c1085dcd22d",
     "key_headlines": [
       {
-        "title": "Gyeonggi Province Monthly Rents Exceed 2 Million Won, Up 40% Year-over-Year",
-        "summary": "High-end monthly rents in Gyeonggi Province have surged 40% this year due to strict rental regulations reducing available units, with average provincial rents approaching 1.06 million won, the second highest in South Korea."
+        "title": "Gyeonggi Province Monthly Rents Surge Over 2 Million Won, Up 40% Year-on-Year",
+        "summary": "High-end rental apartments in Gyeonggi Province with monthly rents exceeding 2 million won have increased by approximately 40% this year, with average provincial rents reaching 1.06 million won, the second highest nationally. Strict rental regulations have significantly reduced supply, driving up prices in affluent areas like Pangyo and Seongnam."
       },
       {
-        "title": "Won-Dollar Exchange Rate Stabilizes Around 1,300 Won Mid-Range",
-        "summary": "The won-dollar exchange rate has remained stable in the mid-1,300 range since September after falling from June's 1,528 won high, as foreign investors increase stock sales and demand for dollars reaches 7.8 billion daily, nearly 2.4 times higher than summer levels."
+        "title": "Won-Dollar Exchange Rate Stabilizes Around 1,300s After Sharp Appreciation",
+        "summary": "The won-dollar exchange rate has stabilized in the 1,300 won mid-range since September after plummeting from a June peak of 1,528 won, as dollar demand averages 780 million dollars daily. Foreign investors have increased stock sales from 68% to 81%, offsetting semiconductor-related dollar demand."
       },
       {
-        "title": "Low-Credit Consumers Face Dire Lending Crisis as Card Loans Halt",
-        "summary": "Credit card companies have suspended new card loans, forcing vulnerable borrowers toward illegal financial services as revolving credit rates approach the legal maximum of 20% annually."
+        "title": "Low-Credit Consumers Face Card Loan Freeze and 20% Revolving Interest Rates",
+        "summary": "Credit card companies have effectively halted new card loans while revolving credit rates approach the legal maximum of 20% annually, pushing vulnerable borrowers toward illegal money lending. The deteriorating financial conditions for low-credit individuals raise concerns about financial instability."
       },
       {
-        "title": "Federal Reserve Signals Additional Rate Hikes, 50 Basis Point Increase Possible in December",
-        "summary": "Nearly all Federal Reserve participants from October's FOMC meeting agreed on the necessity of further rate hikes, with some discussing the possibility of a 50 basis point 'big step' increase in December to combat inflation."
+        "title": "Federal Reserve Signals Need for Further Rate Hikes, December 'Big Step' Possible",
+        "summary": "Nearly all Federal Reserve policymakers indicated additional rate hikes are necessary based on October FOMC minutes, with some discussing a potential 50 basis point increase in December. Market expectations for a December big step hike have increased to 97.3% based on CME FedWatch data."
       },
       {
-        "title": "South Korea Achieves 1 Trillion Dollar Export Milestone, KDI Forecasts 3.8% 2026 Growth",
-        "summary": "Korea's exports surpassed 1 trillion dollars this year with growth projected at 3.8%, while the Korea Development Institute predicts 3.9% growth for next year, though domestic consumption remains weak."
+        "title": "Korea Development Institute Forecasts 3.8% Growth This Year and 3.9% for Next Year",
+        "summary": "The Korea Development Institute released economic growth forecasts showing current-year growth at 3.8% with expectations of 3.9% growth in the following year. These projections reflect moderate economic resilience despite various headwinds."
       }
     ],
     "sections": {
-      "Hot Economy News": "South Korea is experiencing a dichotomy between strong macroeconomic indicators and weak consumer sentiment. While semiconductor exports have driven the economy toward 4% growth and achieved the historic 1 trillion dollar export milestone, domestic consumption and small business activity remain depressed. Policy loan rate increases have further burdened small merchants already struggling through prolonged domestic demand weakness, and employment growth has slowed despite overall economic expansion. The mismatch between headline growth figures and lived economic experiences continues to characterize Korea's current economic trajectory.",
-      "Macro & Fiscal Policy": "The U.S. employment market remains robust with declining unemployment claims and stable jobless rates, though inflation remains a concern despite moderating from 2022 peaks. The Korea Development Institute projects 2026 growth at 3.8% with 3.9% forecast for 2027, while Moody's expects U.S. GDP growth of 2.3% this year. Third-quarter GDP data shows Korea's real domestic product increased 1.0% quarter-over-quarter, but private consumption declined 0.2%, indicating the disconnect between export-driven growth and domestic economic health. Policy authorities face challenges in translating strong external sector performance into broad-based domestic prosperity.",
-      "Financial Markets": "The Korean stock market experienced significant volatility with the KOSPI declining 11.57%, leading to divergent ETF performance as money market funds gained while semiconductor-focused products declined substantially. The won-dollar exchange rate stabilized around 1,300 won mid-range after extensive fluctuations, with foreign investor stock sales increasing from 68% to 81% of market activity. Market professionals recommend maintaining stable bond-based foundations for retirement accounts while limiting volatile ETF exposure to below 30%, reflecting heightened market uncertainty. The upcoming Anthropic IPO on NASDAQ has drawn intense investor interest despite concerns about valuation multiples.",
-      "Industry & Technology": "South Korea's semiconductor industry remains the primary economic growth engine, but policymakers warn against overreliance on chip exports and emphasize diversification into biotech, robotics, and renewable energy sectors. LG Energy Solution has expanded R&D operations and elevated AI and next-generation battery specialists to leadership positions, reflecting sector priorities. The semiconductor export surge masks underlying structural vulnerabilities, as experts caution that peak semiconductor cycles could trigger significant economic contraction without successful diversification into emerging industries. Government initiatives focus on developing new export champions while sustaining competitive advantages in traditional sectors.",
-      "Real Estate": "Seoul's northern districts are experiencing intense apartment competition with competition ratios reaching 65.5 to 1 for smaller unit sizes, driven by soaring jeonse (deposit lease) prices pushing buyers toward home purchases. Regional apartments face mounting 'empty-lease' (jjangtongjeonse) risks as jeonse rates relative to purchase prices reach historic highs, creating vulnerability for landlords and tenants. Policy housing fund utilization has expanded rapidly with government-backed loan programs now comprising 30% of housing-related household lending, particularly in jeonse markets where policy fund share has doubled in five years. Apartment complexes increasingly compete through image upgrading and branding to influence property values.",
-      "International Economy": "The U.S. Federal Reserve's October FOMC minutes reveal widespread consensus for additional rate hikes, with some officials suggesting 50 basis point increases in December to combat persistent inflation pressures. Fed officials emphasize the need for forceful action, though markets debate whether such dramatic measures are necessary or risk economic disruption. Trump and Xi Jinping met at the APEC summit in Shenzhen with limited substantive progress on economic disputes, suggesting ongoing U.S.-China trade tensions will persist. The December FOMC meeting will determine whether the Fed pursues conventional 25 basis point increases or the more aggressive 50 basis point option.",
-      "AI & Economy": "AI infrastructure investment represents a historic super-cycle with the U.S. targeting 166GW additional power generation by 2030 to support data centers, creating a 400 billion dollar renewable energy market opportunity for South Korea. Liquid cooling technology for AI servers has become the standard specification for next-generation data centers, with global adoption expected to reach 53% in 2026, creating strategic supply chain opportunities. Samsung Electronics downplayed AI bubble concerns by noting that neo-cloud companies represent only 8% of total AI ecosystem value, suggesting limited systemic risk from recent neo-cloud bankruptcies. SK Telecom's Anthropic investment has appreciated 15-fold to 4.3 trillion won following the company's record IPO pricing at 83 dollars per share, validating early AI infrastructure bets.",
-      "Others": "LG U+ is investing 789 billion won in its Paju AI data center third phase as Korean government accelerates AI infrastructure expansion and computing center construction. Alternative investment firms increasingly emphasize data analytics capabilities over traditional asset management scale in the AI era. Seoul's urban development plans include underground relocation of major rail lines with surface area conversion to residential-mixed-use development, though project feasibility depends heavily on real estate market conditions and construction costs. AI infrastructure is now recognized as a national security asset with continued investment flowing regardless of commercial cycles, reflecting geopolitical competition dynamics."
+      "Hot Economy News": "Korea's economic landscape shows mixed signals as high-end rental markets surge while consumer credit conditions tighten dramatically. Monthly rents exceeding 2 million won in Gyeonggi Province have jumped 40% year-on-year, reflecting supply constraints from strict rental regulations. Simultaneously, credit card companies have frozen new card loans and revolving rates have climbed to legal maximums of 20%, pushing low-credit consumers toward illicit financing. The stock market has experienced significant volatility with the KOSPI breaching below 4,900 for the first time in nine months. Despite Anthropic's historic IPO, investor confidence in AI sector profitability remains shaken, raising questions about valuation sustainability.",
+      "Macro & Fiscal Policy": "October producer prices declined 0.1% month-on-month due to falling agricultural and livestock prices, marking a three-month reversal in the inflation trend. Excluding agricultural products, producer prices rose 0.2%, indicating persistent cost pressures in manufacturing and energy sectors. The Korea Development Institute forecasts 3.8% growth for 2026 and 3.9% for 2027, suggesting moderate economic resilience. Policy focus remains on monetary tightening with the Bank of Korea preparing for potential rate increases amid persistent inflationary expectations. Government support for housing through the Housing and Urban Fund has expanded significantly, though experts debate whether allocations adequately serve lower-income households.",
+      "Financial Markets": "The Korean stock market declined sharply with the KOSPI dropping 4.08% at opening and reaching 4,889.57 intraday, its lowest point in nine months since February. Retail investors have shifted capital from equities to bank bonds, with net purchases reaching 752.6 billion won in November, attracted by yields 50+ basis points higher than government bonds. The won-dollar exchange rate has stabilized around 1,300 won mid-range after the previous rally, as foreign investors accelerated stock sales from 68% to 81% of total transactions. Global investment banks show divergent views on 2027 KOSPI targets, ranging from Goldman Sachs' downward revision to 7,500 to Morgan Stanley's projection of 10,000+ within 3-5 years. Market volatility continues amid concerns over semiconductor sector sustainability and AI investment profitability.",
+      "Industry & Technology": "South Korea achieved fourth position in the global 1 trillion dollar export club with 1.17 trillion dollars in annual exports, driven primarily by semiconductor exports and expected to maintain 1.1 trillion dollars next year. The government plans to diversify industrial base by expanding defense, nuclear energy, and biotechnology sectors beyond semiconductors. Major construction companies are deploying AI technology in apartment complexes, including AI parking management systems and robotic security patrols. Tesla's Cybercab robotaxi design is creating significant demand pressures on battery manufacturers as the automotive industry undergoes fundamental transformation. Korean companies are expanding AI infrastructure components, particularly in liquid cooling solutions for high-density servers as this technology becomes industry standard.",
+      "Real Estate": "Gyeonggi Province's high-end rental market surged with monthly rents above 2 million won increasing 40% year-on-year, while average provincial rents reached 1.06 million won, second highest nationally. The government is expanding public rental housing programs, including a pilot project offering 60,000 won monthly rent for newly constructed apartments in Jindo for youth and newlywed couples. The Housing and Urban Fund's proportion in housing-related household loans has grown rapidly to nearly 30%, particularly in jeonse (long-term lease) loans where fund-based lending has doubled in four years. Major construction firms are actively launching new projects including GS Construction's Armyuzejai Officetel in Ansan and multiple developments in third-stage new cities with price regulation policies. Policy emphasis remains on utilizing public housing funds strategically while balancing market stabilization with affordable housing goals.",
+      "International Economy": "JPMorgan Chase predicts the Federal Reserve will implement three consecutive rate hikes through March 2027, with the December FOMC meeting carrying a 97.3% probability of a 0.25% increase and elevated discussion of a 0.50% big step. Anthropic achieved a historic IPO with the largest global capital raise surpassing SpaceX's previous record, though market enthusiasm remains tempered by concerns over AI sector profitability and investment sustainability. CME FedWatch data shows Fed rate hike probabilities have shifted with hawkish commentary from Fed officials, with 10% probability assigned to December's big step increase. Financial markets worldwide remain volatile as investors reassess AI valuation amid questions about long-term revenue generation and return on massive capital expenditures. Geopolitical tensions persist with Putin meeting Trump at APEC discussions regarding Ukraine conflict resolution.",
+      "AI & Economy": "Anthropic's landmark IPO at $97.17 per share (17% above offer price) marked a historic achievement despite broader market volatility and persistent skepticism about AI sector profitability and sustainability. SK Telecom's three-year-old Anthropic investment grew 15-fold in value to 4.3 trillion won following the successful IPO, validating the company's early AI strategic bets. Chinese precision manufacturer Hongfu Hailang has begun mass production of liquid cooling components for AI servers, capturing expanding opportunities as global AI chip liquid cooling adoption is projected to reach 53% by 2026. Babitalk, a Korean beauty medical platform, deployed self-developed AI Agent Studio (BaaS) company-wide to automate business processes without requiring coding expertise. Samsung Electronics and industry leaders continue emphasizing that current AI investment surge is based on actual demand rather than speculation, defending valuations against widespread skepticism about bubble formation.",
+      "Others": "SK Telecom CEO Choi Tae-won's strategic Anthropic investment generated extraordinary returns with the company's valuation surging to 4.3 trillion won, demonstrating successful technology sector bets. AI infrastructure investments are increasingly recognized as national security assets rather than purely commercial ventures, with government commitments ensuring continued capital deployment. Anthropic's IPO created thousands of millionaires among employees and investors, though institutional investor demand significantly exceeded share availability with over half of 1,200 institutional bidders receiving no allocation. The U.S. Senate rejected an Iran war powers resolution again, with Republican opposition blocking the Democratic-backed measure despite House passage in September. Anthropic CEO Dario Amodei pledged to balance financial strengthening with AI safety commitments, emphasizing controlled AI development pace to maintain human oversight."
     }
   }
 }
