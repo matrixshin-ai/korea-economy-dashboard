@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-27T14:35:06.709631+09:00",
+  "generated_at": "2026-11-27T14:37:48.327011+09:00",
   "date": "2026-11-27",
   "market_tape_label": "D-1 (전일 종가)",
   "stats": {
-    "total_input": 678,
-    "total_used": 660,
-    "dropped_quality": 8,
+    "total_input": 608,
+    "total_used": 591,
+    "dropped_quality": 7,
     "dropped_negative": 10,
     "per_category": {
-      "기타": 296,
-      "국제경제": 51,
-      "금융시장": 99,
-      "거시경제·재정": 84,
-      "부동산": 72,
-      "산업·과학": 53,
-      "AI와 경제": 5
+      "기타": 278,
+      "산업·과학": 38,
+      "국제경제": 47,
+      "금융시장": 88,
+      "거시경제·재정": 77,
+      "부동산": 60,
+      "AI와 경제": 3
     }
   },
   "headlines": [
@@ -268,14 +268,6 @@
         "score": 162
       },
       {
-        "title": "“내년 성장률 2.9→4.1%” 한은, 전망치 대폭 올려",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/27/135100111.1.jpg\" vspace=\"10\" />반도체 수출 호조에 힘입어 내년 한국 경제가 4.1% 성장할 것이라고 한국은행이 내다봤다. 전망대로라면 2021년 이후 6년 만에 가장 높은 성장률이다. 한은은 높은 성장세 속에 반도체 기업 이익이 성과급, 배당으로 풀리면서 물가를 자극할 수 있다고 보고 기준금리를 연 3.25%로 인상했다. 한은은 26일 수정 경제전망을 통해 내년 실질 국내총생산(GDP) 증가율 전망치를 4.1%로 제시했다. 올 8월 전망치(2.9%)와 비교해 3개월 만에 1.2%포인트 높였다. 최근에 가장 높았던 2021년에는 팬데믹 침체에서 회복하는 과정에서 이례적으로 4.7% 성장했다. 올해 성장률 전망치도 3.9%로 8월(3.3%)보다 0.6%포인트 높였다. 재정경제부가 지난달 내놓은 올 성장률 전망(3....",
-        "link": "https://www.donga.com/news/Economy/article/all/20261127/135099715/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-27T04:30:00+09:00",
-        "score": 150
-      },
-      {
         "title": "7, 8월 이어 세 번째 인상…기준금리 3.25%",
         "summary": "한국은행 금융통화위원회는 오늘(26일) 올해 마지막 통화정책방향 회의에서 기준금리를 연 3.00%에서 3.25%로 0.25%포인트(p) 인상했습니다.반도체 호황에 따른 가파른 성장세와 2%대 후반의 높은 오름세를 지속하는 물가를 고려해 긴축의 고삐를 한 번 더 당긴 모양새입니다.이로써 금통위는 올해 7·8월에 이어 11월까지 하반기에만 기준금리를 세 차례 인상하며, 미국과의 금리 격차를 0.75%p로 좁혔습니다.우리나라 기준금리는 2024년 11월 연 3.25%에서 3.00%로 인하된 뒤 2년 만에 가장 높은 수준에 도달했습니다.앞서 금통위는 반도체 특수로 경기가 급반등하고, 유가 상승에 물가가 불안해지자 올해 7월 3..",
         "link": "https://www.mbn.co.kr/pages/news/newsView.php?category=mbn00003&news_seq_no=5233030",
@@ -298,14 +290,6 @@
         "source": "매일경제 : 경제",
         "published": "2026-11-27T05:00:00+09:00",
         "score": 110
-      },
-      {
-        "title": "노무라 “韓 금리 인상 사실상 종료… 금통위 내부 균열 조짐”",
-        "summary": "노무라증권이 한국은행의 기준금리 인상 사이클이 사실상 종료됐다고 진단했다. 반도체 수출 호황에도 가계... 박정우 노무라증권 이코노미스트는 27일 보고서에서 “반도체 호황의 파급 효과가 약해 기준금리 추가...",
-        "link": "https://www.sedaily.com/article/20119783?ref=naver",
-        "source": "서울경제",
-        "published": "2026-11-27T11:36:00+09:00",
-        "score": 102
       },
       {
         "title": "한은 총재 \"올해 명목GDP 3천조원 상회할 것\"",
@@ -346,23 +330,55 @@
         "source": "이데일리",
         "published": "2026-11-26T12:42:00+09:00",
         "score": 90
+      },
+      {
+        "title": "\"한은 기준금리 3.25% 인상…추가 행보는 속도 조절 전망\"-흥국證",
+        "summary": "11월 경제전망 보고서에서는 올해와 내년 실질 국내총생산(GDP) 성장률 전망치를 기존 8월 전망(3.3%, 2.9%)에서 각각 3.9%, 4.1%로 대폭 상향 조정했다. 정보기술(IT) 제조업의 고성장과 연쇄가중치 조정에 따른 명목가중치...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01538326645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-11-27T09:24:00+09:00",
+        "score": 90
+      },
+      {
+        "title": "한은 ‘매파 점도표’에 추가 인상 무게⋯ 기준금리 내년 상반기 3.75% 전망도",
+        "summary": "&lt;center&gt; &lt;img src=&quot;https://3f3bm4nnaefgwrtq8izg16625.edge.naverncp.com/data2/content/image/2026/11/26/20261126501850.jpg&quot;&gt; &lt;/center&gt; &lt;figure class=&quot;image&quot;&gt;&lt;img storyid=&quot;0a0a3e07-a1f6-17de-81a2-179ee4772219&quot; src=&quot;/content/image/2026/11/26/20261126501850.jpg&quot;&gt;\n &lt;figcaption&gt;\n  연합뉴스\n &lt;/figcaption&gt;\n&lt;/figure&gt;\n&lt;p&gt;한국은행은 26일 통화긴축을 재개하면서 최대 0.50% 포인트의 추가 기준금리 인상 가능성을 열어두는 매파적 메시지를 시장에 보냈다. 물가 안정 시점도 2028년으로 전망해 3...",
+        "link": "https://www.kmib.co.kr/article/20261126501827",
+        "source": "국민일보 | 경제",
+        "published": "2026-11-27T11:16:33+00:00",
+        "score": 86
       }
     ],
     "금융시장": [
       {
-        "title": "증안펀드 기대에 코스닥 5%대 급등…코스피 4800선 회복",
-        "summary": "등락하던 코스피도 반도체 대형주가 동반 상승하면서 4800선을 회복했다. '개장 시황은?' [서울=뉴시스] 이영환 기자 = 27일 오전 서울 중구 하나은행 딜링룸 전광판에 시황이 표시되고 있다. 코스피는 17....",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02072966645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "title": "‘증안펀드 기대’ 코스닥 700선 회복…코스피도 4% 급등",
+        "summary": "가세하면서 코스피도 장중 4900선을 탈환했다. 27일 오전 서울 중구 하나은행 딜링룸 전광판에 증시 시황이 표시되고 있다. (사진=뉴스1) 27일 엠피닥터에 따르면 오후 1시 44분 현재 코스피는 전 거래일 대비...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02309126645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
         "source": "이데일리",
-        "published": "2026-11-27T11:28:00+09:00",
+        "published": "2026-11-27T13:48:00+09:00",
         "score": 136
       },
       {
-        "title": "코스피 반토막 급락 속 '산타랠리' 점화될까…전문가들 \"美 금리·외국인...",
-        "summary": "김중원 현대차증권 연구원은 향후 미국 연방공개시장위원회(FOMC) 정례회의에서 연준의 추가 긴축에 대한 시장의 우려가 진정된다면, 연말을 앞둔 증시의 반등 모멘텀이 한층 부각될 것이라고 내다봤다. 기업들의...",
-        "link": "https://www.widedaily.com/news/articleView.html?idxno=304832",
-        "source": "이데일리",
-        "published": "2026-11-26T11:38:00+09:00",
+        "title": "롤러코스터 탄 증시…코스피 다시 4900선 넘본다",
+        "summary": "삼성전자와 SK하이닉스 등 반도체 대형주가 동반 강세를 보이는 가운데 코스닥도 6% 넘게 급등했다. 이날 오후 1시 40분 기준 코스피는 전 거래일보다 187.54포인트(3.98%) 오른 4898.75를 기록 중이다. 지수는...",
+        "link": "https://magazine.hankyung.com/business/article/202611274713b",
+        "source": "한국경제",
+        "published": "2026-11-27T14:10:00+09:00",
+        "score": 122
+      },
+      {
+        "title": "\"증안펀드 증액 하려나\"…코스피 3%대·코스닥 6%대 상승",
+        "summary": "증안펀드 증액 기대감에 코스피가 3%대 상승 중이다. 코스닥은 6% 이상 급등하고 있다. 27일 오후 1시25분 현재 코스피는 전 거래일 대비 179.93포인트(3.81%) 오른 4891.14를 나타내고 있다. 이날 코스피는 상승 출발해...",
+        "link": "https://www.mt.co.kr/stock/2026/11/27/2026112713291336571",
+        "source": "머니투데이",
+        "published": "2026-11-27T13:37:00+09:00",
+        "score": 120
+      },
+      {
+        "title": "[AI 쇼크 흔들린 亞증시] ④주가 띄우는건 쉬웠는데 급락엔 속수무책......",
+        "summary": "주가 ‘반 토막’ 났는데 실효성 없는 대책만 26일 코스피 지수는 전 거래일보다 0.29% 오른 4711.21에서 거래를... 실탄을 가진 건 외국인뿐인데 올해 코스피·코스닥 시장에서 과열 완화 장치(사이드카)만 100번 이상 발동될...",
+        "link": "https://biz.chosun.com/stock/stock_general/2026/11/27/S2O2Y55YLBFZJDRMXL3G4LKVGM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-11-27T13:12:00+09:00",
         "score": 116
       },
       {
@@ -372,55 +388,39 @@
         "source": "연합뉴스 경제 최신기사",
         "published": "2026-11-27T12:39:14+09:00",
         "score": 106
-      },
-      {
-        "title": "코스닥 5% 급등에 ‘매수 사이드카’...코스피도 3% 상승세",
-        "summary": "27일 한국거래소에 따르면, 이날 오전 11시 39분 기준 코스피는 2.9% 오른 4847.85를 기록하고 있다. 같은 시간 국내 증시의 ‘투 톱’인 삼성전자와 SK하이닉스는 각각 3.27%, 2.85% 오른 17만6900원과 108만3000원에 거래 중이다....",
-        "link": "https://www.chosun.com/economy/money/2026/11/27/ZRXWI6FSPFCXBPIF4THL4E5KKU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-        "source": "조선일보",
-        "published": "2026-11-27T10:55:00+09:00",
-        "score": 106
-      },
-      {
-        "title": "코스피 장중 4800선 회복… 코스닥 6%대 급등",
-        "summary": "14%) 등 주요 반도체주가 상승한 가운데 삼성SDI(7.42%), 엘앤에프(11.25%) 등 이차전지주와 키움증권(11.52%), 미래에셋증권(9.11%) 등 증권주가 강세를 보였다.같은 시각 코스닥은 전 거래일보다 39.79포인트(6.07...",
-        "link": "https://www.kbsm.net/news/view.php?idx=543581",
-        "source": "KBS",
-        "published": "2026-11-27T12:24:00+09:00",
-        "score": 106
       }
     ],
     "산업·과학": [
       {
-        "title": "中 1∼10월 공업이익 16% 증가…AI 주도, 자동차·철강 감소",
-        "summary": "위웨이닝 국가통계국 공업 부문 수석통계사는 AI 연산 수요가 지속적으로 늘면서 메모리 반도체와 관련 제조업의 이익 증가세가 이어졌다고 설명했습니다. 첨단기술 제조업의 이익은 50.9% 증가해 전체 공업기업...",
-        "link": "https://biz.sbs.co.kr/article_hub/20000349346?division=NAVER",
-        "source": "SBS",
-        "published": "2026-11-27T12:31:00+09:00",
-        "score": 90
-      },
-      {
-        "title": "아이오닉 'V' 다음은 'M'…배터리부터 AI까지 中기술 장착 현지화 반격",
-        "summary": "현대자동차가 글로벌 전기차 경쟁의 최전선인 중국에서 현지화로 다시 한번 승부수를 띄운다. 중국 고객의 라이프스타일을 반영한 전기차 라인업을 확대하는 동시에 현지 기업의 첨단 기술을 적극 수용해 시장...",
-        "link": "https://www.mt.co.kr/industry/2026/11/27/2026112709051329839",
-        "source": "머니투데이",
-        "published": "2026-11-27T11:20:00+09:00",
-        "score": 78
-      },
-      {
-        "title": "[특징주] 에코프로비엠, 차세대 배터리 관심 속 장중 두 자릿수 강세",
-        "summary": "최근 시장에서는 전기차 시장의 성장 속도 조절에도 불구하고 배터리 제조 공정의 고도화와 생산 효율... 양극활물질로 전기차, 전동공구, 에너지저장장치(ESS) 등에 적용되며, 전지재료 계열사와의 밸류체인 확대를...",
-        "link": "https://www.widedaily.com/news/articleView.html?idxno=304993",
+        "title": "[특징주] LB세미콘, AI 연산 수요 확대 속 시스템반도체 테마 강세에 16...",
+        "summary": "이와 함께 전기차 배터리 및 에너지저장장치(ESS)에서 코발트와 니켈, 망간, 리튬 등을 추출하는 2차전지 재생 사업도 병행하고 있다. 다만 이날 주가 급등을 직접 뒷받침할 LB세미콘 고유의 신규 수주 공시나 개별...",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=305020",
         "source": "이데일리",
-        "published": "2026-11-27T11:16:00+09:00",
-        "score": 78
+        "published": "2026-11-27T13:36:00+09:00",
+        "score": 98
       },
       {
-        "title": "현대차, 중국용 전기 SUV ‘아이오닉M’ 내년 출시…배터리 교환 모델도",
-        "summary": "내년에는 아이오닉V의 주행거리 연장형 전기차(EREV) 모델도 선보일 예정이다. 2028년에는 가족용 전기 SUV ‘어스 콘셉트’의 양산 모델을, 2029년에는 전동화 신차 2종을 출시한다. 주요 내연기관 후속 모델도 순차적으로...",
-        "link": "https://www.mk.co.kr/article/12219867",
-        "source": "매일경제",
-        "published": "2026-11-27T11:21:00+09:00",
+        "title": "AI 열풍에 반도체만 봤는데…K기업, 470억 쏟는 사업 뭐길래",
+        "summary": "미국 배터리 공장이 도심에서 떨어진 곳에 있어 인력 확보가 어렵다는 점에 주목했다. 사람이 운전하는 지게차는 근무시간에 맞춰 하루 8시간가량 가동하는 데 그치지만 자율주행 지게차는 하루 21시간까지 운행할 수...",
+        "link": "https://www.hankyung.com/article/202611274622i",
+        "source": "한국경제",
+        "published": "2026-11-27T13:41:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "[단독]\"전기차 등록 안 됩니다\"…'자동차 번호판 대란' 초읽기",
+        "summary": "특히 전기차의 경우 당장 돌아오는 월요일인 오는 30일부터 번호판 발급 및 등록이 중단된다. 전례 없는... 필름형 번호판은 2017년 전기차에 처음 도입된 뒤 2020년 일반차량으로도 확대됐다. 하지만 낮은 카메라 인식률과...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=02371446645649984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "이데일리",
+        "published": "2026-11-27T14:05:00+09:00",
+        "score": 70
+      },
+      {
+        "title": "배터리부터 달 탐사까지… 암석·광물 숨은 쓰임 만나다",
+        "summary": "전자제품과 전기차 배터리, 미래 우주기술까지. 일상과 첨단산업을 움직이는 암석과 광물의 역할을 직접... 석영의 압전효과와 전기차 모터에 쓰이는 자석·희토류의 역할은 영상과 실물 전시로 보여준다. 자원 재활용과...",
+        "link": "https://view.asiae.co.kr/article/2026112714182790064",
+        "source": "아시아경제",
+        "published": "2026-11-27T14:18:00+09:00",
         "score": 66
       }
     ],
@@ -432,14 +432,6 @@
         "source": "매일경제 : 부동산",
         "published": "2026-11-27T10:35:27+09:00",
         "score": 172
-      },
-      {
-        "title": "집값 ‘천정부지’ 전세도 없어…내집 찾아 脫서울 4.3만명",
-        "summary": "서광채 한양사이버대 부동산학과 교수는 “서울에 집을 보유한 채 외부에 거주하던 집주인들이 정부... KB부동산에 따르면 지난달 서울 아파트 평균 매매가격은 16억3546만원으로 지난해 같은 달(14억6132만원)보다...",
-        "link": "https://biz.heraldcorp.com/article/10951700?ref=naver",
-        "source": "헤럴드경제",
-        "published": "2026-11-27T11:42:00+09:00",
-        "score": 136
       },
       {
         "title": "집값 25%만 먼저 낼까 땅 빼고 아파트만 살까 … 현금 적은 2030의 청약법",
@@ -456,6 +448,14 @@
         "source": "아시아경제 - 부동산",
         "published": "2026-11-26T14:03:52+09:00",
         "score": 121
+      },
+      {
+        "title": "집값 뛰자 종부세 대상 73만명⋯ 1주택자도 때렸다",
+        "summary": "&lt;center&gt; &lt;img src=&quot;https://3f3bm4nnaefgwrtq8izg16625.edge.naverncp.com/data2/content/image/2026/08/31/20260831500258.jpg&quot;&gt; &lt;/center&gt; &lt;figure class=&quot;image&quot;&gt;&lt;img src=&quot;/content/image/2026/08/31/20260831500258.jpg&quot; alt=&quot;Second alt text&quot; storyid=&quot;0a0a3e06-a036-155b-81a0-556b14cf20f9&quot;&gt;\n &lt;figcaption&gt;&lt;span&gt;국민일보DB&lt;/span&gt;\n &lt;/figcaption&gt;\n&lt;/figure&gt;\n&lt;p&gt;주택분 종합부동산세(종부세) 납부 대상이 올해 73만명에 육박하며 지난해보다...",
+        "link": "https://www.kmib.co.kr/article/20261126501921",
+        "source": "국민일보 | 경제",
+        "published": "2026-11-27T14:20:52+00:00",
+        "score": 110
       }
     ],
     "국제경제": [
@@ -484,20 +484,20 @@
         "score": 118
       },
       {
-        "title": "트럼프 과잉생산 관세 후폭풍…물가 압력 커지고 미·중 갈등 재점화 우려",
-        "summary": "도널드 트럼프 미국 행정부가 과잉생산을 명분으로 주요 교역국에 대한 관세 부과에 나서자 인플레이션 우려가 고개를 들었다. 지금도 높은 물가에 허덕이는데 추가 관세가 소비자 가격에 전가될 수 있다는 우려다. 일각에서는 중국과의 무역분쟁 재점화 가능성이 높아졌다며 이 비용도 물가에 가중될 수 있다고 내다봤다. 월스트리트저널(WSJ)과 워싱턴포스트(WP) 등 외신들은 트럼프 행정부의 추가 관세 부과 방침에 대해 미국의 물가 안정을 저해하고 미·중 간 무역 휴전을 흔들 수 있다고 26일(현지시간) 우려했다. WSJ는 인플레이션이 다시 가속",
-        "link": "https://view.asiae.co.kr/article/2026112709044810835",
-        "source": "아시아경제 - 국제",
-        "published": "2026-11-27T11:36:12+09:00",
-        "score": 96
+        "title": "물가 뛰는데 트럼프 관세 '부채질'…\"최악 시기 경제적 자해\"",
+        "summary": "미국의 인플레이션이 다시 가속하는 가운데 도널드 트럼프 미 행정부가 대대적인 관세 인상을 추진하면서... 연준 당국자, \"관세 인플레이션 억제 어렵게\" 연준 당국자들도 이러한 경제 환경이 인플레이션 억제를 어렵게...",
+        "link": "https://www.fnnews.com/news/202611270647438079",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-27T07:09:00+09:00",
+        "score": 108
       },
       {
-        "title": "美 “中 관세 40%까지 올릴수도” 中 “단호히 반대, 대응 조치”",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/27/135100322.1.jpg\" vspace=\"10\" />도널드 트럼프 미국 행정부가 25일(현지 시간) 세계 각국에 과잉생산 관세 부과를 발표하자 중국, 일본, 유럽연합(EU), 브라질 등은 일제히 반발했다. 세 경제권 모두 미국과 이전에 합의한 수준의 관세율이 부과됐지만 향후 추가 인상 가능성 등을 우려하고 있다. 동시에 올 2월 미국 연방대법원의 상호관세 무효 판결, 3일 미국 중간선거 패배에도 관세에 대한 트럼프 행정부의 의지가 굳건하다는 평가가 나온다. 이날 미 무역대표부(USTR)는 중국에 기존의 강제노동 관세(12.5%), 과잉생산 관세를 합쳐 관세율을 최대 20%로 높이겠다고 밝혔다. 지난해 10월 부산에서 열린 미중 정상회담에서 무역 휴전을 결정할 당시 합의한 수준이다. 다만 트럼프 1기 행정부가 중국의 기술 이전 강요와...",
-        "link": "https://www.donga.com/news/Inter/article/all/20261127/135099597/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-27T04:30:00+09:00",
-        "score": 92
+        "title": "\"트럼프 '중국 40% 관세' 경고는 미중 정상회담 협상용 카드\"",
+        "summary": "앞서 트럼프 행정부는 중국산 제품에 최대 20%의 과잉생산 관세를 부과하는 방안을 제시했는데 양국 간 무역 휴전이 깨질 경우 관세율을 최대 40%로 높일 가능성도 제시했습니다. 미국과 중국의 무역 휴전은 내년 1월 10일...",
+        "link": "https://www.ytn.co.kr/_ln/0104_202611271347508941",
+        "source": "YTN",
+        "published": "2026-11-27T13:47:00+09:00",
+        "score": 108
       }
     ],
     "AI와 경제": [
@@ -510,14 +510,6 @@
         "score": 40
       },
       {
-        "title": "[스마트안경 지형도]②3900만대 시장 열린다...'보는 AI' 경쟁에 바빠진 韓 소부장",
-        "summary": "인공지능(AI)을 탑재한 스마트안경 대중화로 국내 소부장(소재·부품·장비) 기업들이 분주해지고 있다. 다양한 폼팩터의 제품들이 시장에 나오면서 소부장 업체들의 수혜가 예상되지만 완제품 시장이 미국과 중국 중심으로 펼쳐지다 보니 아직 소부장 영역에서 한국 기업들은 제대로 힘을 쓰지 못하고 있다.   26일 시장조사기관 그랜드뷰리서치에 따르면 글로벌 스마트안경 시장의 규모는 올해 32억달러(약 4조3000억원)에서 2033년 144억달러(약 19조3400억원) 규모로 커질 전망이다. 연평균 성장률은 24.2%로, 7년여 만에 시장 규모",
-        "link": "https://view.asiae.co.kr/article/2026112616545952433",
-        "source": "아시아경제 - 산업·IT",
-        "published": "2026-11-27T10:00:16+09:00",
-        "score": 38
-      },
-      {
         "title": "'성장역설' 항공우주·방위산업, 납품·포트폴리오 강화 필요\"",
         "summary": "항공우주·방위(A&amp;D) 산업이 기록적인 수요에도 생산 역량과 공급망 제약, 전문 인력 부족 등으로 성장이 제한되는 '성장 역설'에 직면했다. 누적된 수주 잔고를 차질 없이 소화할 수 있도록 납품 역량을 강화하는 동시에, 인공지능(AI)·소프트웨어·자율기술을 중심으로 사업 포트폴리오를 재편하는 '투트랙 전략'을 추진해야 한다는 분석이 나온다. 27일 삼일PwC는 이 같은 내용을 담은 '항공우주·방위 산업, 성장 역설에 대응하기' 보고서를 발간했다. 이번 보고서는 PwC가 전 세계 A&amp;D 기업의 고위 임원 375명을 대",
         "link": "https://view.asiae.co.kr/article/2026112709492611839",
@@ -526,20 +518,12 @@
         "score": 32
       },
       {
-        "title": "40년 전통 설렁탕의 맛, AI로 잇는다…이연에프엔씨, 2030년 매출 1000억 정조준",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135099788.3.jpg\" vspace=\"10\" />한식 프랜차이즈 ‘한촌설렁탕’과 ‘육수당’을 운영하는 외식 프랜차이즈 기업 이연에프엔씨가 데이터 기반 외식 플랫폼으로의 체질 전환에 속도를 내고 있다. 생산과 매장 운영 과정에서 축적한 데이터와 인공지능(AI)을 활용해 품질을 표준화하고 운영 효율을 높이는 전략이다. 이를 바탕으로 2030년까지 매출 1000억 원을 달성한다는 목표다.정보연 이연에프엔씨 대표이사는 25일 충북 청주시 오송바이오폴리스지구에 있는 ‘오송 스마트 공장’에서 열린 기자간담회에서 중장기 성장 전략을 발표했다. 정 대표는 “전통은 과거의 방식을 그대로 반복하는 것만으로 지켜지는 것이 아니라 변화하는 시대에도 그 가치를 이어갈 수 있어야 한다“며 ”40여 년간 지켜온 설렁탕과 국밥의 맛을 더 많은 매장과 소비자...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261126/135099790/2",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-27T08:00:00+09:00",
+        "title": "[정책 인사이트] 유망기업 투자자 되겠단 정부… 先 투자·後 지분 정산...",
+        "summary": "미국 정부는 기존에 지원하기로 했던 반도체·국방 보조금 89억달러(약 12조원)를 인텔 보통주 지분 9.9%로 전환해 인텔의 최대 주주가 됐다. AI 기술 성장세에 반도체 산업의 중요성이 커지고 있는 가운데, 미국의...",
+        "link": "https://biz.chosun.com/policy/policy_sub/2026/11/27/LN3BLLX53VBDZKT5WTNYAHK5QA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "조선일보",
+        "published": "2026-11-27T14:11:00+09:00",
         "score": 32
-      },
-      {
-        "title": "AI 때문에 30년 전 와레즈 수준으로 돌아간 게임 시장 [게임 인더스트리]",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/26/135095134.1.jpg\" vspace=\"10\" />1990년대 말부터 2000년대 초, 국내 PC 게임 시장에는 ‘와레즈’라는 그림자가 드리웠습니다. 상용 게임과 소프트웨어를 권리자 허락 없이 공유하는 사이트들이 초고속 인터넷을 타고 퍼지면서, 돈을 내고 사야 할 게임이 무료로 다운로드하는 형태로 유통됐기 때문입니다.피해는 당시 기록에도 남아 있습니다. 2000년 12월 ‘악튜러스’는 정품 판매량 2만 5,000장인 시점에 50여 개 와레즈 사이트에서 불법 배포가 확인됐고, 2001년에는 손노리가 ‘화이트데이’ 복제 및 배포자 4명을 고발했습니다. 불법 유통으로 인한 판매 손실에 단속과 법적 대응 비용까지 떠안아야 했습니다.그리고 20여 년이 지난 지금 새로운 위기가 찾아왔습니다. AI(인공지능)를 활용한 비공식 PC 포팅에 콘솔...",
-        "link": "https://www.donga.com/news/It/article/all/20261126/135095131/1",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-27T10:00:00+09:00",
-        "score": 28
       }
     ],
     "기타": [
@@ -560,35 +544,19 @@
         "score": 24
       },
       {
-        "title": "정부 \"美 과잉생산 판단 동의 못해…산업정책 변경 가능성 작아\"",
-        "summary": "미국 무역대표부(USTR)가 한국의 반도체 산업 육성 정책과 정부의 기업 지원 등을 과잉생산의 근거로 지목한 데 대해 우리 정부가 미국 측 판단에 동의하기 어렵다는 입장을 밝혔다. 특히 미국이 문제 삼은 호남 반도체 메가프로젝트 등 주요 산업정책을 변경할 가능성은 크지 않다고 선을 그었다. 미국이 제시한 최대 25%의 관세율에 대해서는 대미 무역흑자 규모 등이 반영됐을 가능성을 제기하면서도 기존 한미 관세합의에 따른 15% 수준을 유지하는 데 주력하겠다는 방침이다. 26일 산업통상부 관계자는 미국의 무역법 301조 조사 결과와 관련",
-        "link": "https://view.asiae.co.kr/article/2026112617295590196",
-        "source": "아시아경제 - 경제",
-        "published": "2026-11-26T17:29:56+09:00",
+        "title": "[클릭 e종목]\"아이엘, 현대차 BD '아틀라스' 공급망 진입 전망…2027년 1만대 추진\"",
+        "summary": "아이엘이 현대자동차그룹의 로봇 전문 계열사 보스턴다이내믹스의 휴머노이드 로봇 부품 공급망 진입을 추진하며 사업 확장 기대감을 키우고 있다는 분석이 나왔다. 기존 자동차 전장사업에서 축적한 광학 설계 기술과 정밀 제조 역량을 바탕으로 보스턴다이내믹스의 차세대 휴머노이드 로봇 '아틀라스(Atlas)'에 들어가는 핵심 부품 공급에 참여할 가능성이 제기된다. 글로벌 휴머노이드 로봇 시장이 연구개발 단계를 넘어 양산 국면에 진입하면서 관련 부품 공급이 새로운 성장 동력으로 부상할 것이란 전망이다. 27일 독립리서치 지엘리서치에 따르면 아이",
+        "link": "https://view.asiae.co.kr/article/2026112713375216367",
+        "source": "아시아경제 - 증권",
+        "published": "2026-11-27T13:37:53+09:00",
         "score": 24
       },
       {
-        "title": "기업들 \"美 세액공제·EU 규제 정부에 대응을\"",
-        "summary": "■ 완성차 \"EU 역내산 우대·하이브리드 쿼터에 불이익 없게\" 완성차 업계는 미국발 보호무역 기조가 EU로... 하 교수는 무역법 301조와 무역확장법 232조 등 관세 수단이 여전히 유효한 만큼 관세정책이 이어질 것에...",
-        "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=366719",
-        "source": "이데일리",
-        "published": "2026-11-27T11:06:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "행안부, 지방세 체납관리 강화…\"내년 지자체별 표준모델 마련\"",
-        "summary": "제주도는 체납관리 인력을 29명으로 늘리고 소액 체납과 세외수입까지 관리 대상을 확대해 25억원을 징수했다. 생계형 체납자 13명도 찾아냈다. 충북 청주시는 현장 조사를 통해 고의로 세금 납부를 피하는 체납자를...",
-        "link": "https://www.fnnews.com/news/202611271253260857",
-        "source": "파이낸셜뉴스",
-        "published": "2026-11-27T12:57:00+09:00",
-        "score": 24
-      },
-      {
-        "title": "임팩티브AI, 강남제비스코 AI 수요예측 프로젝트서 예측 오차 지표 약 15% 개선",
-        "summary": "<img align=\"left\" hspace=\"10\" src=\"https://dimg.donga.com/wps/NEWS/IMAGE/2026/11/27/135102067.2.png\" vspace=\"10\" />AI 수요예측 기업 임팩티브에이아이(대표 정두희, 이하 임팩티브AI)는 도료 기업 강남제비스코와 진행한 AI 수요예측 프로젝트의 평가에서 예측 오차 관련 지표가 기존 방식 대비 약 15% 개선됐다고 밝혔다. 임팩티브AI는 이를 바탕으로 과잉재고와 결품 감소 등 생산·재고 운영 효율화 가능성을 확인했다고 설명했다.건축용·공업용·선박용·PCM 도료를 생산하는 강남제비스코는 제품별로 다른 수요 흐름에 대응하고 생산·재고 계획에 활용할 데이터 기반을 마련하기 위해 임팩티브AI의 수요예측 솔루션 ‘딥플로우(Deepflow)’를 도입했다.임팩티브AI는 강남제비스코의 제품별 판매·출고 데이터를 분석하고, 여러 예측 모델을 비교해 데이터 특성에 맞는 모델을 구축했다. 예측 결과는 현업의 경험과 ...",
-        "link": "https://www.donga.com/news/Economy/article/all/20261127/135102079/1",
-        "source": "동아일보 | 경제 뉴스",
-        "published": "2026-11-27T11:55:00+09:00",
+        "title": "여성 구직이 어려운 이유…청년 '직무경험 부족', 중장년 '나이' 장벽",
+        "summary": "경기도일자리재단은 27일 여성 구직자의 생애단계별 직업훈련 수요와 취업지원 개선 방향을 담은 'GJF 고용이슈리포트: 여성 구직자의 직업훈련 수요와 취업지원 개선 과제'를 발간했다. 보고서는 도내 거주 청년(20~30대)...",
+        "link": "https://www.mt.co.kr/policy/2026/11/27/2026112713524792775",
+        "source": "머니투데이",
+        "published": "2026-11-27T14:04:00+09:00",
         "score": 24
       },
       {
@@ -608,20 +576,36 @@
         "score": 24
       },
       {
-        "title": "중국 단둥, 5년간 대북 교역 확대 방침…신압록강대교 활용",
-        "summary": "북한은 재수출용 인조속눈썹·가발 생산을 위해 중국에서 인모를 수입해 왔으며 10월 한 달간 대중 인모 수입액은 1천200만 달러(약 161억 원)를 넘겼고 8월에는 가발 수출이 북중 무역 증가에 일부 기여한 것으로...",
-        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866497&plink=ORI&cooper=NAVER",
-        "source": "SBS",
-        "published": "2026-11-27T11:15:00+09:00",
-        "score": 24
+        "title": "정부 “AI 호황 속 양극화·금융불안 경계해야”…한중일 공조 촉구",
+        "summary": "AI 호황의 지속가능성에 대한 불확실성이 커지는 가운데 정부가 한·중·일 및 아세안+3 회원국 간 금융·경제 협력 강화를 촉구했다. AI 투자 확대가 역내 성장 동력으로 작용하고 있지만, 경제 양극화와 금융안정성 저해 등 잠재적 위험에도 선제적으로 대비해야 한다는 취지다. 문지성 재정경제부 국제경제관리관은 지난 25일부터 양일간 일본 교토에서 열린 한·중·일 재무차관 및 중앙은행 부총재 회의와 아세안+3 재무차관 및 중앙은행 부총재 회의에 참석해 이같이 밝혔다. 문 관리관은 한국이 의장국을 맡은 한중일 회의에서 지정학적 불안 속 역",
+        "link": "https://view.asiae.co.kr/article/2026112708261610871",
+        "source": "아시아경제 - 경제",
+        "published": "2026-11-27T10:00:00+09:00",
+        "score": 22
       },
       {
-        "title": "'AI칩 쇼핑' 막힌 中 … 가격급등·기술격차 이중고",
-        "summary": "미국이 중국의 제3국 데이터센터를 이용한 원격 접속을 금지하고 미국 빅테크들이 인공지능(AI) 모델의 모방 학습 봉쇄에 나서면서 중국 AI 업계가 천문학적 칩 확보 비용과 기술 격..",
-        "link": "https://www.mk.co.kr/news/world/12219680",
-        "source": "매일경제 : 국제",
-        "published": "2026-11-26T17:40:43+09:00",
+        "title": "[특징주] 알에스오토메이션, 피지컬 AI·전력 인프라 기대감 확산에 장...",
+        "summary": "글로벌 빅테크 기업들의 데이터센터 투자와 각국의 전력망 확충 움직임이 맞물리며 배터리 셀과 소재뿐 아니라 전력변환장치(PCS), 전력제어 및 자동화 기업까지 수혜 기대감이 번지는 흐름이다. 2009년 설립돼...",
+        "link": "https://www.widedaily.com/news/articleView.html?idxno=305032",
+        "source": "이데일리",
+        "published": "2026-11-27T13:56:00+09:00",
         "score": 22
+      },
+      {
+        "title": "AI가 견인한 중국 제조업 실적…공업기업 이익 16% 증가·첨단기술 50.9%...",
+        "summary": "5%, 12.0% 증가한 것으로 집계됐다. 위 수석통계사는 거시경제 정책 조절을 강화하고 경제 순환을 원활하게 하는 동시에 공업 분야의 새로운 성장 동력을 지속적으로 육성해야 한다고 강조했다.",
+        "link": "https://www.joongangenews.com/news/articleView.html?idxno=567187",
+        "source": "중앙일보",
+        "published": "2026-11-27T14:36:00+09:00",
+        "score": 22
+      },
+      {
+        "title": "\"조합원 지위양도 완화, 신중해야\"…서울시 요구 선그은 국토부",
+        "summary": "국토교통부는 오세훈 서울시장이 요구한 정비사업 조합원 지위 양도 제한 완화와 관련해 \"신중히 검토할 필요가 있다\"며 유보적 입장을 내놨다. 국토부는 25일 배포한 보도설명자료에서 조합원 지위양도 규제가 정비사업 관련 투기 수요 유입을 억제하면서 정비구역 내에서 집값이 지나치게 과열되지 않도록 기여한다며 이같이 밝혔다. 그간 서울시는 도심 주택공급에서 정비사업이 차지하는 비중이 크고 사업 진행을 원활히 하기 위한 일환으로 조합원 지위양도 규제를 풀어달라고 요구해왔다. 국토부는 \"1세대 1주택자로서 주택을 10년 소유하고 5년 거주한",
+        "link": "https://view.asiae.co.kr/article/2026112515395539099",
+        "source": "아시아경제 - 부동산",
+        "published": "2026-11-25T15:39:56+09:00",
+        "score": 21
       }
     ]
   },
@@ -680,5 +664,42 @@
       "match_status": "OK",
       "importance_score": 8
     }
-  ]
+  ],
+  "summary_en": {
+    "date": "2026-11-27",
+    "generated_at": "2026-11-27T05:38:58.163334+00:00",
+    "briefing_hash": "eb13716e51fb4f8e",
+    "key_headlines": [
+      {
+        "title": "South Korea to Mandate Domestic Semiconductor Purchases for National Security Infrastructure",
+        "summary": "The government will amend the Semiconductor Special Act to institutionalize priority purchases of domestically-produced semiconductors for national security infrastructure facilities. This is part of a broader eight-industry strategic development initiative."
+      },
+      {
+        "title": "Bank of Korea Raises 2027 Growth Forecast to 4.1% on Semiconductor Boom",
+        "summary": "The Bank of Korea significantly raised its economic growth outlook for 2027 to 4.1%, marking the first time in 17 years to reach the 4% range, driven by robust semiconductor export performance."
+      },
+      {
+        "title": "Bank of Korea Raises Base Rate to 3.25% Despite Strong Growth Prospects",
+        "summary": "The central bank increased its benchmark rate by 0.25 percentage points to 3.25% to preemptively address inflation pressures, marking the third rate hike in the second half of 2026."
+      },
+      {
+        "title": "United States Threatens 25% Tariff on Korean Semiconductors Despite Maintaining 15% Rate",
+        "summary": "While the U.S. maintained the 15% tariff ceiling from last year's trade agreement with Korea, it signaled the potential to impose additional overproduction tariffs of up to 25% on semiconductor products."
+      },
+      {
+        "title": "Government Expands Housing Support for Separated Couples and Non-Homeowners",
+        "summary": "The government introduced new tax benefits allowing weekend couples living separately to each claim rental income deductions, alongside expanded relocation allowances for workers relocating outside the capital region."
+      }
+    ],
+    "sections": {
+      "Hot Economy News": "The South Korean economy is experiencing strong momentum driven by the semiconductor sector boom. The government is implementing strategic measures including mandatory domestic semiconductor procurement for national security facilities and expanding export financing support. The semiconductor sector's strength has prompted the Bank of Korea to significantly raise its growth forecasts while also raising interest rates to manage inflation. Consumer sentiment and domestic demand remain concerns despite strong export-driven growth, with uncertainties around global trade policies creating headwinds.",
+      "Macro & Fiscal Policy": "The Bank of Korea raised its benchmark rate to 3.25% while substantially upgrading 2027 growth forecasts to 4.1%, reflecting semiconductor-driven export strength. Current year growth is projected at 3.9%, with consumer price inflation forecast at 2.4%. The rate increase represents the third hike in the second half of 2026, narrowing the Korea-U.S. interest rate gap to 0.75 percentage points. Policy authorities are balancing strong growth momentum with persistent inflation pressures, particularly from energy prices and demand-side factors.",
+      "Financial Markets": "Stock markets displayed volatile trading patterns with significant gains driven by expectations of increased stabilization fund purchases. KOSPI rebounded above 4,900 points and KOSDAQ surged over 6% amid semiconductor sector strength from companies like Samsung Electronics and SK Hynix. Market volatility has been pronounced, with foreign investors dominating trading volume and circuit breakers (side cars) activating repeatedly this year. The impact of Nvidia CEO's personal scandal-related volatility appears to be moderating gradually.",
+      "Industry & Technology": "Physical AI is emerging as the next frontier beyond generative AI, with domestic robotics companies competing to commercialize autonomous systems. Korean firms are demonstrating manufacturing automation solutions and mobile humanoid robots at major international events like AWS re:Invent. The aerospace and defense sector faces a 'growth paradox,' with record demand but constrained production capacity and workforce shortages. Companies are pursuing dual-track strategies focusing on AI, software, and autonomous technologies while strengthening delivery capabilities.",
+      "Real Estate": "The government announced plans to supply 56,000 public housing units in the Seoul metropolitan area in 2027, nearly double the recent five-year average. Advanced application timelines by 18 months (from 1 year to 2.5 years before occupancy) and expanded unsold inventory purchase guarantees aim to stimulate private sector construction. Rental scams involving high jeonse (deposit) rates and fraudulent gap investments continue to emerge, with authorities investigating 88 suspicious cases. Property tax (comprehensive real estate tax) became applicable to approximately 730,000 households as property values rose.",
+      "International Economy": "Global trade tensions persist as the Trump administration threatens additional tariffs, particularly targeting Korean semiconductors and Chinese products despite concerns about inflationary impacts. U.S. inflation is accelerating amid policy uncertainties, with Federal Reserve officials warning that tariff increases could complicate inflation control efforts. The trade freeze between the U.S. and China is set to end January 10, 2027, creating uncertainty for multinational corporations. European markets rebounded during U.S. holidays, though inflation and tariff concerns remained dominant themes.",
+      "AI & Economy": "Physical AI and robotics are becoming central to AI industry growth, with Korean companies competing in commercialization of autonomous manufacturing and humanoid robots. Component suppliers are positioning themselves to participate in global robotics supply chains, including Boston Dynamics' Atlas humanoid robot project. The aerospace and defense sector is leveraging AI and software capabilities to overcome production constraints and supply chain limitations. Government policies aim to support AI-driven innovation in small and medium-sized enterprises and startups.",
+      "Others": "The government announced plans to become a venture investor in promising firms, following the U.S. model of equity conversion on subsidies, exemplified by the Federal government's 9.9% stake acquisition in Intel. China's industrial profits surged 16% in January-October 2026 driven by AI-related industries, indicating strong growth in technology sectors regionally. Youth job seekers face barriers from lack of work experience while middle-aged workers encounter age discrimination in hiring. The Online Platform Fairness Act, intended to prevent delivery platform unfairness, remains stalled after six years in the National Assembly despite international pressure and small business opposition."
+    }
+  }
 }
