@@ -254,6 +254,39 @@ GitHub Actions `deploy.yml`: main push -> Workload Identity Federation -> VM 배
 
 ## 10. 변경 이력
 
+### 2026-11-28
+
+**YouTube 중복 업로드 (하루 3건) 원인 규명 및 수정 (youtube-automation)**
+- 증상: 2026-11-03 KST부터 평일 하루 3건 업로드 상시화 (10-13, 10-14, 10-20에도 일시 발생)
+  - 예: 11-28 KST — 02:47 KST / 11-27 17:47Z (0de91bf6), 03:19 KST / 11-27 18:19Z (8a14c635), 14:41 KST / 11-28 05:41Z (fe734e56)
+- 원인: "오늘 업로드 완료" 가드는 KST 날짜로 조회하는데 run.date는 UTC 날짜로 저장
+  → KST 00:00~09:00 (UTC 전날 15:00~24:00)에 시작한 run을 가드가 찾지 못함
+- 트리거: GHA 크론 지연이 자정을 넘기면서 노출
+  - daily-update evening (설계 16:50 KST / 07:50Z) 지연이 11-02부터 450~700분 → 자정 이후 시작
+  - 그 전에는 자정 이후 run이 script-fetch 날짜 검사(KST)에서 skipped 처리되어 가려져 있었음
+  - 하루 3건 = 대시보드 evening dispatch(자정 이후) + pipeline.yml 크론(17:30 KST 설계, 자정 이후) + OCR push dispatch(14:40 KST경)
+- 수정: d602a3a, v49 배포 (11-28 20:42 KST / 11:42Z)
+  - 가드를 started_at 범위(KST 하루 = UTC 전날 15:00 ~ 당일 15:00) 기반으로 변경, run.date는 KST로 저장
+  - pg_advisory_xact_lock(KST 날짜 키)로 run 생성 전 원자적 선점 (running 또는 completed+video_id 있으면 skipped, failed는 재시도 허용, 30분 넘은 running은 stale 처리)
+  - /api/cron/pipeline, /api/pipeline/trigger 모두 동일 가드 통과, /api/pipeline/trigger에 force 추가 (FORCE 로그)
+  - 로그: `[Guard] skipped: already uploaded/running for KST YYYY-MM-DD (video_id=..., run_id=...)`
+  - 배포 후 검증: 11-28 20:47 KST / 11:47Z trigger 호출 → 409 skipped (video_id=pk-VX1umTo0), 신규 run 없음
+- 8da8a6d: fly.toml auto_stop_machines를 운영 값(stop)과 일치 (v48부터 운영은 stop이었음)
+
+**별건: OpsGuard GITHUB_PAT 401**
+- 06-18 15:30 KST / 06:30Z부터 GitHub API 401 지속 (마지막 성공: 06-17 15:30 KST / 06:30Z, B-1/B-2 기준)
+- 영향: dispatch_dashboard_evening(16:00 KST) 미작동, B-1/B-2/D-6 체크 무의미 (D-6은 401을 "미실행"으로 표시)
+- 추정 원인 (둘 중 하나, 미확인): (a) 토큰 만료, (b) 06-18 PAT 재발급 시 opsguard/.env 미반영 (VM .env 수정 시각 05-24 그대로). 조치는 동일: 새 토큰 발급 후 .env 반영
+
+**미해결**
+- 2단계: VM 정시 dispatch로 GHA 크론 의존 제거 (업로드가 어느 KST 날짜로 잡히는지도 이 단계에서 정리)
+- OpsGuard 알림 재설계 ([Guard] 로그 근거)
+- OCR push의 daily-update dispatch가 run_type 미전달 → evening으로 분류되어 YouTube까지 트리거
+- /api/pipeline/trigger 무인증 (호출처: youtube-automation 웹 UI, OpsGuard heal_youtube_trigger)
+- OpsGuard journal 로그에 Telegram 봇 토큰 평문 기록 (httpx INFO 로그의 요청 URL)
+
+**Last updated: 2026-11-28**
+
 ### 2026-06-18
 
 **Deploy to Vercel 스텝 제거 (daily-update.yml)**
